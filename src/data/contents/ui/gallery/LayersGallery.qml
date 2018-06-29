@@ -27,7 +27,7 @@ ScrollablePage {
     Layout.fillWidth: true
     //implicitWidth: Units.gridUnit * (Math.floor(Math.random() * 35) + 8)
 
-    title: "Multiple Columns"
+    title: "Layers"
 
     actions {
         main: Action {

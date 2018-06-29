@@ -26,8 +26,6 @@ import "gallery"
 Kirigami.ApplicationWindow {
     id: root
 
-    header: Kirigami.ApplicationHeader {}
-
     globalDrawer: Kirigami.GlobalDrawer {
         title: "Widget gallery"
         titleIcon: "applications-graphics"
@@ -35,31 +33,67 @@ Kirigami.ApplicationWindow {
 
         actions: [
             Kirigami.Action {
-                text: "Submenu 1"
+                text: "Top Bar Style"
                 iconName: "view-list-icons"
                 Kirigami.Action {
-                        text: "Action 1"
-                        onTriggered: showPassiveNotification(text + " clicked")
+                        text: "Auto"
+                        onTriggered: root.pageStack.globalToolBar.style = Kirigami.ApplicationHeaderStyle.Auto
+                        checked: root.pageStack.globalToolBar.style == Kirigami.ApplicationHeaderStyle.Auto
                 }
                 Kirigami.Action {
-                        text: "Action 2"
-                        onTriggered: showPassiveNotification(text + " clicked")
+                        text: "Breadcrumb"
+                        onTriggered: root.pageStack.globalToolBar.style = Kirigami.ApplicationHeaderStyle.Breadcrumb
+                        checked: root.pageStack.globalToolBar.style == Kirigami.ApplicationHeaderStyle.Breadcrumb
                 }
                 Kirigami.Action {
-                        text: "Action 3"
-                        onTriggered: showPassiveNotification(text + " clicked")
+                        text: "TabBar"
+                        onTriggered: root.pageStack.globalToolBar.style = Kirigami.ApplicationHeaderStyle.TabBar
+                        checked: root.pageStack.globalToolBar.style == Kirigami.ApplicationHeaderStyle.TabBar
+                }
+                Kirigami.Action {
+                        text: "Titles"
+                        onTriggered: root.pageStack.globalToolBar.style = Kirigami.ApplicationHeaderStyle.Titles
+                        checked: root.pageStack.globalToolBar.style == Kirigami.ApplicationHeaderStyle.Titles
+                }
+                Kirigami.Action {
+                        text: "ToolBar"
+                        visible: !Kirigami.Settings.isMobile
+                        onTriggered: root.pageStack.globalToolBar.style = Kirigami.ApplicationHeaderStyle.ToolBar
+                        checked: root.pageStack.globalToolBar.style == Kirigami.ApplicationHeaderStyle.ToolBar
+                }
+                Kirigami.Action {
+                        text: "None"
+                        onTriggered: root.pageStack.globalToolBar.style = Kirigami.ApplicationHeaderStyle.None
+                        checked: root.pageStack.globalToolBar.style == Kirigami.ApplicationHeaderStyle.None
                 }
             },
             Kirigami.Action {
-                text: "Submenu 2"
+                text: "Top Bar Sizing"
                 iconName: "folder-sync"
+                visible: Kirigami.Settings.isMobile
                 Kirigami.Action {
-                        text: "Action 4"
-                        onTriggered: showPassiveNotification(text + " clicked")
+                        text: "Slide Away"
+                        onTriggered: {
+                            root.pageStack.globalToolBar.minimumHeight = 0;
+                            root.pageStack.globalToolBar.preferredHeight = 42;
+                        }
+                        checked: root.pageStack.globalToolBar.minimumHeight == 0
                 }
                 Kirigami.Action {
-                        text: "Action 5"
-                        onTriggered: showPassiveNotification(text + " clicked")
+                        text: "Fixed"
+                        onTriggered: {
+                            root.pageStack.globalToolBar.minimumHeight = 42;
+                            root.pageStack.globalToolBar.preferredHeight = 42;
+                        }
+                        checked: root.pageStack.globalToolBar.minimumHeight == 42
+                }
+                Kirigami.Action {
+                        text: "Resizing"
+                        onTriggered: {
+                            root.pageStack.globalToolBar.minimumHeight = 20;
+                            root.pageStack.globalToolBar.preferredHeight = 52;
+                        }
+                        checked: root.pageStack.globalToolBar.minimumHeight == 20
                 }
             },
             Kirigami.Action {
