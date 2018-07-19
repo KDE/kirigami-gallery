@@ -18,9 +18,9 @@ if (kpackagetool_cmd)
     set(component org.kde.kirigami2.gallery)
     set(APPDATAFILE "${CMAKE_CURRENT_BINARY_DIR}/${component}.appdata.xml")
 
-    message(STATUS "${kpackagetool_cmd} --appstream-metainfo ${CMAKE_CURRENT_SOURCE_DIR}/../gallerydata --appstream-metainfo-output ${APPDATAFILE}")
+    message(STATUS "${kpackagetool_cmd} --appstream-metainfo ${CMAKE_CURRENT_SOURCE_DIR}/data --appstream-metainfo-output ${APPDATAFILE}")
     execute_process(
-        COMMAND ${kpackagetool_cmd} --appstream-metainfo ${CMAKE_CURRENT_SOURCE_DIR}/../gallerydata --appstream-metainfo-output ${APPDATAFILE}
+        COMMAND ${kpackagetool_cmd} --appstream-metainfo ${CMAKE_CURRENT_SOURCE_DIR}/data --appstream-metainfo-output ${APPDATAFILE}
         ERROR_VARIABLE appstreamerror
         RESULT_VARIABLE result)
     if (NOT result EQUAL 0)
