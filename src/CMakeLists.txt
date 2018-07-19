@@ -41,6 +41,7 @@ add_executable(kirigami2gallery ${kirigami2gallery_SRCS} ${RESOURCES})
 target_link_libraries(kirigami2gallery Qt5::Core  Qt5::Qml Qt5::Quick Qt5::Svg ${kirigami2gallery_EXTRA_LIBS})
 
 install(TARGETS kirigami2gallery ${KF5_INSTALL_TARGETS_DEFAULT_ARGS})
+install(FILES data/metadata.desktop DESTINATION ${XDG_APPS_INSTALL_DIR} RENAME org.kde.kirigami2.gallery.desktop)
 
 if (CMAKE_SYSTEM_NAME STREQUAL "Android")
 include(${CMAKE_SOURCE_DIR}/KF5Kirigami2Macros.cmake)
