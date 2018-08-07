@@ -49,18 +49,20 @@ Q_DECL_EXPORT int main(int argc, char *argv[])
     QApplication app(argc, argv);
 #endif
 
+    //Extra debug if needed
     //qputenv("QML_IMPORT_TRACE", "1");
-    //FIXME
-    //qputenv("QT_QUICK_CONTROLS_STYLE", "Material");
     QQmlApplicationEngine engine;
     
     //we want different main files on desktop or mobile
     //very small difference as they as they are subclasses of the same thing
-    if (QString::fromLatin1(qgetenv("QT_QUICK_CONTROLS_STYLE")) == QStringLiteral("org.kde.desktop")) {
-        engine.load(QUrl(QStringLiteral("qrc:///contents/ui/DesktopExampleApp.qml")));
+    if (qEnvironmentVariableIsSet("QT_QUICK_CONTROLS_MOBILE") &&
+        (QString::fromLatin1(qgetenv("QT_QUICK_CONTROLS_MOBILE")) == QStringLiteral("1") ||
+         QString::fromLatin1(qgetenv("QT_QUICK_CONTROLS_MOBILE")) == QStringLiteral("true"))) {
+        engine.load(QUrl(QStringLiteral("qrc:///contents/ui/mobileApp.qml")));
     } else {
-        engine.load(QUrl(QStringLiteral("qrc:///contents/ui/ExampleApp.qml")));
+        engine.load(QUrl(QStringLiteral("qrc:///contents/ui/BaseApp.qml")));
     }
+
     if (engine.rootObjects().isEmpty()) {
         return -1;
     }

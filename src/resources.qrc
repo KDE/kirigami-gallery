@@ -23,9 +23,9 @@
         <file alias="contents/ui/gallery/MetricsGallery.qml">./data/contents/ui/gallery/MetricsGallery.qml</file>
         <file alias="contents/ui/gallery/LayersGallery.qml">./data/contents/ui/gallery/LayersGallery.qml</file>
         <file alias="contents/ui/gallery/FormLayoutGallery.qml">./data/contents/ui/gallery/FormLayoutGallery.qml</file>
-        <file alias="contents/ui/ExampleApp.qml">./data/contents/ui/ExampleApp.qml</file>
         <file alias="contents/ui/gallery/ColorSetGallery.qml">./data/contents/ui/gallery/ColorSetGallery.qml</file>
-        <file alias="contents/ui/DesktopExampleApp.qml">./data/contents/ui/DesktopExampleApp.qml</file>
+        <file alias="contents/ui/BaseApp.qml">./data/contents/ui/BaseApp.qml</file>
+        <file alias="contents/ui/mobileApp.qml">./data/contents/ui/mobileApp.qml</file>
         <file alias="metadata.desktop">./data/metadata.desktop</file>
         <file alias="qtquickcontrols2.conf">qtquickcontrols2.conf</file>
     </qresource>
