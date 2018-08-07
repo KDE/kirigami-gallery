@@ -107,7 +107,6 @@ Kirigami.ApplicationWindow {
             },
             Kirigami.Action {
                 text: "Open A Page"
-                iconName: "view-list-details"
                 checkable: true
                 //Need to do this, otherwise it breaks the bindings
                 property bool current: pageStack.currentItem ? pageStack.currentItem.objectName == "settingsPage" : false

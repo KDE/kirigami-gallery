@@ -33,7 +33,7 @@ Kirigami.ApplicationWindow {
 
         actions: [
             Kirigami.Action {
-                text: "Top Bar Style"
+                text: "Top Bar Style..."
                 iconName: "view-list-icons"
                 Kirigami.Action {
                         text: "Auto"
@@ -68,7 +68,7 @@ Kirigami.ApplicationWindow {
                 }
             },
             Kirigami.Action {
-                text: "Top Bar Sizing"
+                text: "Top Bar Sizing..."
                 iconName: "folder-sync"
                 visible: Kirigami.Settings.isMobile
                 Kirigami.Action {
@@ -97,15 +97,73 @@ Kirigami.ApplicationWindow {
                 }
             },
             Kirigami.Action {
-                text: "Modal Drawer"
+                text: "Global Drawer Mode..."
                 iconName: "go-next"
-                checkable: true
-                checked: globalDrawer.modal
-                onCheckedChanged: globalDrawer.modal = checked
+                visible: !Kirigami.Settings.isMobile
+                Kirigami.Action {
+                    text: "Overlay Drawer"
+                    checked: globalDrawer.modal && !globalDrawer.collapsible
+                    onTriggered: {
+                        globalDrawer.modal = true;
+                        globalDrawer.collapsible = false;
+                        globalDrawer.collapsed = false;
+                    }
+                }
+                Kirigami.Action {
+                    text: "Sidebar Drawer"
+                    checked: !globalDrawer.modal && !globalDrawer.collapsible
+                    onTriggered: {
+                        globalDrawer.modal = false;
+                        globalDrawer.collapsible = false;
+                        globalDrawer.collapsed = false;
+                    }
+                }
+                Kirigami.Action {
+                    text: "Collapsible Sidebar Drawer"
+                    checked: !globalDrawer.modal && globalDrawer.collapsible
+                    onTriggered: {
+                        globalDrawer.modal = false;
+                        globalDrawer.collapsible = true;
+                        globalDrawer.collapsed = true;
+                    }
+                }
+            },
+            Kirigami.Action {
+                text: "Title style..."
+                iconName: "format-border-set-top"
+                Kirigami.Action {
+                    text: "Title And Image"
+                    checked: root.globalDrawer.title.length > 0 && 
+                        root.globalDrawer.bannerImageSource.toString().length > 0
+                    onTriggered: {
+                        root.globalDrawer.title = "Widget gallery"
+                        root.globalDrawer.titleIcon = "applications-graphics"
+                        root.globalDrawer.bannerImageSource = "banner.jpg"
+                    }
+                }
+                Kirigami.Action {
+                    text: "Title Only"
+                    checked: root.globalDrawer.title.length > 0 && 
+                        root.globalDrawer.bannerImageSource.toString().length == 0
+                    onTriggered: {
+                        root.globalDrawer.title = "Widget gallery"
+                        root.globalDrawer.titleIcon = "applications-graphics"
+                        root.globalDrawer.bannerImageSource = ""
+                    }
+                }
+                Kirigami.Action {
+                    text: "None"
+                    checked: root.globalDrawer.title.length == 0 && 
+                        root.globalDrawer.bannerImageSource.toString().length == 0
+                    onTriggered: {
+                        root.globalDrawer.title = ""
+                        root.globalDrawer.titleIcon = "";
+                        root.globalDrawer.bannerImageSource = ""
+                    }
+                }
             },
             Kirigami.Action {
                 text: "Open A Page"
-                iconName: "view-list-details"
                 checkable: true
                 //Need to do this, otherwise it breaks the bindings
                 property bool current: pageStack.currentItem ? pageStack.currentItem.objectName == "settingsPage" : false
@@ -129,10 +187,19 @@ Kirigami.ApplicationWindow {
             ]
 
         Controls.CheckBox {
-            checked: true
-            text: "Option 1"
+            text: "Slow Animations"
+            onCheckedChanged: {
+                if (checked) {
+                    Kirigami.Units.longDuration = 2500
+                    Kirigami.Units.shortDuration = 1500
+                } else {
+                    Kirigami.Units.longDuration = 250
+                    Kirigami.Units.shortDuration = 150
+                }
+            }
         }
         Controls.CheckBox {
+            checked: true
             text: "Option 2"
         }
         Controls.CheckBox {
