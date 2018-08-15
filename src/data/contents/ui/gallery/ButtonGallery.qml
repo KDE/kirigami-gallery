@@ -195,6 +195,7 @@ ScrollablePage {
         }
         Controls.ToolButton {
             text: "Tool Button"
+            icon.name: "go-next"
             anchors.horizontalCenter: parent.horizontalCenter
             onClicked: showPassiveNotification(text + " clicked")
         }

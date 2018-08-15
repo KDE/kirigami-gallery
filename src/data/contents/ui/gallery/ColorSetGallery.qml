@@ -208,10 +208,12 @@ Kirigami.ScrollablePage {
             Kirigami.Theme.colorSet: Kirigami.Theme.Button
             Kirigami.Theme.inherit: false
             text: "Fixed Color Button"
+            icon.name: "go-next"
         }
         Controls.Button {
             Kirigami.Theme.inherit: true
             text: "Dynamic Color Button"
+            icon.name: "go-next"
         }
         Kirigami.Icon {
             id: customColorIcon
