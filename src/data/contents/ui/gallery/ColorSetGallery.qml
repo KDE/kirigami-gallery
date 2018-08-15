@@ -191,6 +191,7 @@ Kirigami.ScrollablePage {
                     Controls.Button {
                         Kirigami.Theme.inherit: true
                         text: "Dynamic Color Button"
+                        icon.name: "go-next"
                     }
                 }
                 Kirigami.BasicListItem {
