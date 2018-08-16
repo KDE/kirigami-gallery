@@ -2,6 +2,7 @@
 Name=Kirigami Gallery
 Name[ca]=Galeria del Kirigami
 Name[ca@valencia]=Galeria del Kirigami
+Name[en_GB]=Kirigami Gallery
 Name[fr]=Galerie Kirigami
 Name[nl]=Kirigami galerij
 Name[pt]=Galeria do Kirigami
@@ -10,6 +11,7 @@ Name[x-test]=xxKirigami Galleryxx
 Comment=Shows examples of Kirigami components and allows you to play with them
 Comment[ca]=Mostra exemples de components del Kirigami i permet jugar-hi
 Comment[ca@valencia]=Mostra exemples de components del Kirigami i permet jugar-hi
+Comment[en_GB]=Shows examples of Kirigami components and allows you to play with them
 Comment[fr]=Affiche des exemples des composants Kirigami et permet de jouer avec eux
 Comment[nl]=Toont voorbeelden van Kirigami componenten en laat u met ze spelen
 Comment[pt]=Mostra exemplos dos componentes do Kirigami e permite-lhe jogar com eles
