@@ -176,13 +176,16 @@ Kirigami.ScrollablePage {
 
         ColumnLayout {
             Layout.alignment: Qt.AlignHCenter
+            Layout.minimumWidth: 1
 
             spacing: Kirigami.Units.smallSpacing
 
             Controls.Label {
-                Layout.alignment: Qt.AlignHCenter
+                Layout.fillWidth: true
+                horizontalAlignment: Text.AlignHCenter
 
                 text: qsTr("Inline messages are initially hidden and animate when revealed. Try it!")
+                wrapMode: Text.WordWrap
             }
 
             Controls.Button {
@@ -218,5 +221,6 @@ Kirigami.ScrollablePage {
                 }
             ]
         }
+
     }
 }
