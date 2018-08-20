@@ -26,11 +26,11 @@ import org.kde.kirigami 2.4 as Kirigami
 Kirigami.ScrollablePage {
     id: page
 
-    title: "Inline Messages"
+    title: qsTr("Inline Messages")
 
     actions.main: Kirigami.Action {
         iconName: "documentinfo"
-        text: "Info"
+        text: qsTr("Info")
         checkable: true
         onCheckedChanged: sheet.sheetOpen = checked;
         shortcut: "Alt+I"
@@ -42,15 +42,15 @@ Kirigami.ScrollablePage {
         header: RowLayout {
             Kirigami.Heading {
                 Layout.fillWidth: true
-                text: "Inline Messages"
+                text: qsTr("Inline Messages")
             }
             Controls.ToolButton {
-                text: "HIG..."
+                text: qsTr("HIG...")
                 enabled: false
                 onClicked: Qt.openUrlExternally("")
             }
             Controls.ToolButton {
-                text: "Source code..."
+                text: qsTr("Source code...")
                 onClicked: Qt.openUrlExternally("https://cgit.kde.org/kirigami.git/tree/examples/gallerydata/contents/ui/gallery/InlineMessagesGallery.qml")
             }
         }
@@ -58,7 +58,7 @@ Kirigami.ScrollablePage {
         Controls.Label {
             property int implicitWidth: Kirigami.Units.gridUnit * 25
             wrapMode: Text.WordWrap
-            text: "Inline messages allow you to show various types of messages placed the same layout as content they relate to, instead of showing a message in an overlay. They are invisible by default and need to be explicitly set visible to be revealed."
+            text: qsTr("Inline messages allow you to show various types of messages placed the same layout as content they relate to, instead of showing a message in an overlay. They are invisible by default and need to be explicitly set visible to be revealed.")
         }
     }
 
@@ -70,7 +70,7 @@ Kirigami.ScrollablePage {
 
             visible: true
 
-            text: "This is an informational inline message (the default type). Use it for example to announce a result or provide commentary."
+            text: qsTr("This is an informational inline message (the default type). Use it for example to announce a result or provide commentary.")
         }
 
         Kirigami.InlineMessage {
@@ -80,7 +80,7 @@ Kirigami.ScrollablePage {
 
             type: Kirigami.MessageType.Positive
 
-            text: "This is a positive inline message. Use it for example to announce a successful result or the succesful completion of a procedure."
+            text: qsTr("This is a positive inline message. Use it for example to announce a successful result or the succesful completion of a procedure.")
         }
 
         Kirigami.InlineMessage {
@@ -90,7 +90,7 @@ Kirigami.ScrollablePage {
 
             type: Kirigami.MessageType.Warning
 
-            text: "This is a warning inline message. Use it for example to provide critical guidance or warn about something that is not going to work."
+            text: qsTr("This is a warning inline message. Use it for example to provide critical guidance or warn about something that is not going to work.")
         }
 
         Kirigami.InlineMessage {
@@ -100,7 +100,7 @@ Kirigami.ScrollablePage {
 
             type: Kirigami.MessageType.Error
 
-            text: "This is an error inline message. Use it for example to announce something has gone wrong or that input will not be accepted."
+            text: qsTr("This is an error inline message. Use it for example to announce something has gone wrong or that input will not be accepted.")
         }
 
         Kirigami.Separator {
@@ -114,7 +114,7 @@ Kirigami.ScrollablePage {
 
             icon.source: "system-run"
 
-            text: "Inline messages can optionally have a custom icon set."
+            text: qsTr("Inline messages can optionally have a custom icon set.")
         }
 
         Kirigami.InlineMessage {
@@ -122,7 +122,7 @@ Kirigami.ScrollablePage {
 
             visible: true
 
-            text: "You can use rich text in inline messages and optionally handle clicks on links (opens in browser): <a href=\"https://www.kde.org\">https://www.kde.org/<a/>"
+            text: qsTr("You can use rich text in inline messages and optionally handle clicks on links (opens in browser): <a href=\"https://www.kde.org\">https://www.kde.org/<a/>")
 
             onLinkActivated: Qt.openUrlExternally(link)
         }
@@ -134,7 +134,7 @@ Kirigami.ScrollablePage {
 
             showCloseButton: true
 
-            text: "Inline messages can have an optional close button."
+            text: qsTr("Inline messages can have an optional close button.")
         }
 
         Kirigami.InlineMessage {
@@ -152,7 +152,7 @@ Kirigami.ScrollablePage {
                 Kirigami.Action {
                     enabled: actionsMessage.text == actionsMessage.initialText
 
-                    text: "Add text"
+                    text: qsTr("Add text")
                     icon.name: "list-add"
 
                     onTriggered: {
@@ -162,7 +162,7 @@ Kirigami.ScrollablePage {
                 Kirigami.Action {
                     enabled: actionsMessage.text != actionsMessage.initialText
 
-                    text: "Reset text"
+                    text: qsTr("Reset text")
                     icon.name: "list-remove"
 
                     onTriggered: actionsMessage.text = actionsMessage.initialText
@@ -182,7 +182,7 @@ Kirigami.ScrollablePage {
             Controls.Label {
                 Layout.alignment: Qt.AlignHCenter
 
-                text: "Inline messages are initially hidden and animate when revealed. Try it!"
+                text: qsTr("Inline messages are initially hidden and animate when revealed. Try it!")
             }
 
             Controls.Button {
@@ -190,7 +190,7 @@ Kirigami.ScrollablePage {
 
                 enabled: !toggleMessage.visible
 
-                text: "Show additional message"
+                text: qsTr("Show additional message")
                 //TODO: enable when we can depend from Qt 5.10
                // icon.name: "list-add"
 
@@ -207,11 +207,11 @@ Kirigami.ScrollablePage {
 
             type: Kirigami.MessageType.Warning
 
-            text: "Boo!"
+            text: qsTr("Boo!")
 
             actions: [
                 Kirigami.Action {
-                    text: "Shush"
+                    text: qsTr("Shush")
                     icon.name: "dialog-cancel"
 
                     onTriggered: toggleMessage.visible = false

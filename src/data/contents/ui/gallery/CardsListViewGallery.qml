@@ -25,11 +25,11 @@ import org.kde.kirigami 2.4 as Kirigami
 Kirigami.ScrollablePage {
     id: page
 
-    title: "List view of simple cards"
+    title: qsTr("List view of simple cards")
 
     actions.main: Kirigami.Action {
         iconName: "documentinfo"
-        text: "Info"
+        text: qsTr("Info")
         checkable: true
         onCheckedChanged: sheet.sheetOpen = checked;
         shortcut: "Alt+I"
@@ -41,15 +41,15 @@ Kirigami.ScrollablePage {
         header: RowLayout {
             Kirigami.Heading {
                 Layout.fillWidth: true
-                text: "Cards List View"
+                text: qsTr("Cards List View")
             }
             Controls.ToolButton {
-                text: "HIG..."
+                text: qsTr("HIG...")
                 enabled: false
                 onClicked: Qt.openUrlExternally("")
             }
             Controls.ToolButton {
-                text: "Source code..."
+                text: qsTr("Source code...")
                 onClicked: Qt.openUrlExternally("https://cgit.kde.org/kirigami.git/tree/examples/gallerydata/contents/ui/gallery/CardsListViewGallery.qml")
             }
         }
@@ -57,7 +57,7 @@ Kirigami.ScrollablePage {
         Controls.Label {
             property int implicitWidth: Kirigami.Units.gridUnit * 25
             wrapMode: Text.WordWrap
-            text: "The Kirigami types AbstractCard and Card are used to implement the popular Card pattern used on many mobile and web platforms that is used to display a collection of information or actions.\n Besides the Card components, Kirigami offers also 3 kinds of views and positioners to help to present cards with beautiful and responsive layouts.\n\nIn this page, CardsListView is used to do a list view of AbstractCard subclasses with a custom layout inside.\n CardsListView should be used only with cards which can look good at any horizontal size, so it is recommended to use directly AbstractCard with an appropriate layout inside, because they are stretching for the whole list width.\nTherefore is discouraged to use it with the Card type, unless it has Horizontal as headerOrientation.\n The choice between using this view with AbstractCard or a normal ListView with AbstractListItem/BasicListItem is purely a choice based on aestetics alone."
+            text: qsTr("The Kirigami types AbstractCard and Card are used to implement the popular Card pattern used on many mobile and web platforms that is used to display a collection of information or actions.\n Besides the Card components, Kirigami offers also 3 kinds of views and positioners to help to present cards with beautiful and responsive layouts.\n\nIn this page, CardsListView is used to do a list view of AbstractCard subclasses with a custom layout inside.\n CardsListView should be used only with cards which can look good at any horizontal size, so it is recommended to use directly AbstractCard with an appropriate layout inside, because they are stretching for the whole list width.\nTherefore is discouraged to use it with the Card type, unless it has Horizontal as headerOrientation.\n The choice between using this view with AbstractCard or a normal ListView with AbstractListItem/BasicListItem is purely a choice based on aestetics alone.")
         }
     }
 
@@ -91,7 +91,7 @@ Kirigami.ScrollablePage {
                     ColumnLayout {
                         Kirigami.Heading {
                             level: 2
-                            text: "Product "+ modelData
+                            text: qsTr("Product ")+ modelData
                         }
                         Kirigami.Separator {
                             Layout.fillWidth: true
@@ -99,13 +99,13 @@ Kirigami.ScrollablePage {
                         Controls.Label {
                             Layout.fillWidth: true
                             wrapMode: Text.WordWrap
-                            text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id risus id augue euismod accumsan."
+                            text: qsTr("Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id risus id augue euismod accumsan.")
                         }
                     }
                     Controls.Button {
                         Layout.alignment: Qt.AlignRight|Qt.AlignVCenter
                         Layout.columnSpan: 2 
-                        text: "Install"
+                        text: qsTr("Install")
                         onClicked: showPassiveNotification("Install for Product " + modelData + " clicked");
                     }
                 }
