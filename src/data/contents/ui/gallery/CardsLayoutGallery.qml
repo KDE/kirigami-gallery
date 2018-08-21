@@ -188,7 +188,7 @@ Kirigami.ScrollablePage {
 
                             color: "white"
                             wrapMode: Text.WordWrap
-                            text: qsTr("It's possible to have custom contents overlapping the image, for cases where a more personalised design is needed.")
+                            text: qsTr("It's possible to have custom contents overlapping the image, for cases where a more personalized design is needed.")
                         }
                         Rectangle {
                             id: avatarIcon

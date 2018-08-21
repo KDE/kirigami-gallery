@@ -80,7 +80,7 @@ Kirigami.ScrollablePage {
 
             type: Kirigami.MessageType.Positive
 
-            text: qsTr("This is a positive inline message. Use it for example to announce a successful result or the succesful completion of a procedure.")
+            text: qsTr("This is a positive inline message. Use it for example to announce a successful result or the successful completion of a procedure.")
         }
 
         Kirigami.InlineMessage {
