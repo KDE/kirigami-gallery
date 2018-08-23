@@ -153,9 +153,11 @@ Kirigami.ScrollablePage {
                     Kirigami.Action {
                         text: qsTr("Action2")
                         icon.name: "address-book-new-symbolic"
-                    },
+                    }
+                ]
+                hiddenActions: [
                     Kirigami.Action {
-                        text: qsTr("Action3")
+                        text: qsTr("Action always hidden")
                         icon.name: "add-placemark"
                     }
                 ]
