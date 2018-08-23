@@ -39,6 +39,7 @@ ScrollablePage {
                 name: "go-previous"
                 color: Theme.positiveTextColor
             }
+            enabled: false
             text: "Left Action Text"
             onTriggered: {
                 showPassiveNotification("Left action triggered")
