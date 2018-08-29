@@ -49,6 +49,8 @@ Kirigami.ScrollablePage {
             Kirigami.FormData.label: "Section without line:"
         }
         TextField {
+            placeholderText: qsTr("Expanding Text Field")
+            Layout.fillWidth: true
         }
         Item {
             width:1
