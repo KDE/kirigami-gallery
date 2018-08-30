@@ -34,7 +34,6 @@ Kirigami.ScrollablePage {
             Layout.fillWidth: true
 
             width: page.width
-            spacing: Units.smallSpacing
 
             Controls.TextField {
                 placeholderText: "Search..."

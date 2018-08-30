@@ -35,8 +35,18 @@ ScrollablePage {
         main: Action {
             iconName: "document-edit"
             text: "Main Action Text"
-            onTriggered: {
-                showPassiveNotification("Action button in buttons page clicked");
+
+            Action {
+                text: "Sub Action 1"
+                onTriggered: {
+                    showPassiveNotification("Sub Action 1 clicked");
+                }
+            }
+            Action {
+                text: "Sub Action 2"
+                onTriggered: {
+                    showPassiveNotification("Sub Action 2 clicked");
+                }
             }
         }
         left: Action {
@@ -45,12 +55,36 @@ ScrollablePage {
             onTriggered: {
                 showPassiveNotification("Left action triggered")
             }
+            Action {
+                text: "Sub Action 1"
+                onTriggered: {
+                    showPassiveNotification("Sub Action 1 clicked");
+                }
+            }
+            Action {
+                text: "Sub Action 2"
+                onTriggered: {
+                    showPassiveNotification("Sub Action 2 clicked");
+                }
+            }
         }
         right: Action {
             iconName: "go-next"
             text: "Right Action Text"
             onTriggered: {
                 showPassiveNotification("Right action triggered")
+            }
+            Action {
+                text: "Sub Action 1"
+                onTriggered: {
+                    showPassiveNotification("Sub Action 1 clicked");
+                }
+            }
+            Action {
+                text: "Sub Action 2"
+                onTriggered: {
+                    showPassiveNotification("Sub Action 2 clicked");
+                }
             }
         }
         contextualActions: [
