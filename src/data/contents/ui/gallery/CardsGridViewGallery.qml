@@ -82,7 +82,7 @@ Kirigami.ScrollablePage {
             id: card
             banner {
                 title: model.title
-                imageSource: model.image
+                source: model.image
             }
             contentItem: Controls.Label {
                 wrapMode: Text.WordWrap
