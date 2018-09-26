@@ -88,19 +88,18 @@ Kirigami.ScrollablePage {
                 wrapMode: Text.WordWrap
                 text: model.text
             }
-            //HACK: this instantiator hack is just for demonstration purposes, normally the actions objects should be embedded as a role of a QAbstractItemModel, either as QActions or just QObjects with the proper properties and signals (the new qqc2 Action should ideally become a public c++ type)
-            property var actionsModel: model.actions
-            Instantiator {
-                model: actionsModel
-                delegate: Kirigami.Action {
-                    text: model.text
-                    icon.name: model.icon
-                    onTriggered: showPassiveNotificaton(model.text + " triggered")
+            actions: [
+                Kirigami.Action {
+                    text: model.actions.get(0).text
+                    icon.name: model.actions.get(0).icon
+                    onTriggered: print(model.actions)
+                },
+                Kirigami.Action {
+                    text: model.actions.get(1).text
+                    icon.name: model.actions.get(1).icon
+                    onTriggered: print(model.actions)
                 }
-                onObjectAdded: {
-                    card.actions.push(object)
-                }
-            }
+            ]
         }
     }
 }

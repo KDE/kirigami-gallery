@@ -162,7 +162,7 @@ Kirigami.ScrollablePage {
                     }
                 ]
                 banner {
-                    titleIcon: "applications-graphics"
+                    iconSource: "applications-graphics"
                     title: "Title only"
                 }
                 contentItem: Controls.Label {
