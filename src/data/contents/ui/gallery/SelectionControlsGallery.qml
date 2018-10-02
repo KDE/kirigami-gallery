@@ -18,7 +18,7 @@
  */
 
 import QtQuick 2.0
-import QtQuick.Controls 2.0 as Controls
+import QtQuick.Controls 2.2 as Controls
 import QtQuick.Layouts 1.2
 import org.kde.kirigami 2.4 as Kirigami
 
@@ -54,6 +54,75 @@ Kirigami.ScrollablePage {
         text: qsTr("<p>Selection controls allow users to complete tasks that involve a choice or a selection.</p> <p>Depending from The kind of choice that has to be made, the best control to use may be a Checkbox, a RadioButton, or a Switch.</p> <ul><li>Use checkboxes for non-exclusive options that have clear alternatives. Mutually exclusive options should use a set of radio buttons or a combo box.</li> <li>Use radio buttons for a few mutually exclusive options. If there are more than five options (or if there is not enough space to arrange four or five options), use a combo box or list instead.</li> <li>Use switches on Mobile, when immediately activating or deactivating something (ok/Apply buttons not needed).</li></ul>")
     }
 
+    Controls.Dialog {
+        id: checkListDialog
+        modal: true
+        focus: true
+        x: (page.width - width) / 2
+        y: page.height / 2 - height
+        width: Math.min(page.width - Kirigami.Units.gridUnit * 4, Kirigami.Units.gridUnit * 20)
+        height: Kirigami.Units.gridUnit * 20
+        standardButtons: Controls.Dialog.Close
+        title: qsTr("Checkable List Items")
+
+        contentItem: Controls.ScrollView {
+            ListView {
+                model: 20
+                delegate: Controls.CheckDelegate {
+                    width: parent.width
+                    text: qsTr("Delegate") + " " + (modelData+1)
+                }
+            }
+            Component.onCompleted: background.visible = true
+        }
+    }
+
+    Controls.Dialog {
+        id: radioListDialog
+        modal: true
+        focus: true
+        x: (page.width - width) / 2
+        y: page.height / 2 - height
+        width: Math.min(page.width - Kirigami.Units.gridUnit * 4, Kirigami.Units.gridUnit * 20)
+        height: Kirigami.Units.gridUnit * 20
+        standardButtons: Controls.Dialog.Close
+        title: qsTr("Radio List Items")
+
+        contentItem: Controls.ScrollView {
+            ListView {
+                model: 20
+                delegate: Controls.RadioDelegate {
+                    width: parent.width
+                    text: qsTr("Delegate") + " " + (modelData+1)
+                }
+            }
+            Component.onCompleted: background.visible = true
+        }
+    }
+
+    Controls.Dialog {
+        id: switchListDialog
+        modal: true
+        focus: true
+        x: (page.width - width) / 2
+        y: page.height / 2 - height
+        width: Math.min(page.width - Kirigami.Units.gridUnit * 4, Kirigami.Units.gridUnit * 20)
+        height: Kirigami.Units.gridUnit * 20
+        standardButtons: Controls.Dialog.Close
+        title: qsTr("Radio List Items")
+
+        contentItem: Controls.ScrollView {
+            ListView {
+                model: 20
+                delegate: Controls.SwitchDelegate {
+                    width: parent.width
+                    text: qsTr("Delegate") + " " + (modelData+1)
+                }
+            }
+            Component.onCompleted: background.visible = true
+        }
+    }
+
     Kirigami.FormLayout {
         Item {
             Kirigami.FormData.label: qsTr("Checkboxes")
@@ -66,6 +135,10 @@ Kirigami.ScrollablePage {
         Controls.CheckBox {
             text: qsTr("Item not selected")
             checked: false
+        }
+        Controls.Button {
+            text: qsTr("Checkable List View")
+            onClicked: checkListDialog.open()
         }
 
         Kirigami.Separator {
@@ -82,6 +155,10 @@ Kirigami.ScrollablePage {
                 checked: false
             }
         }
+        Controls.Button {
+            text: qsTr("Radio List View")
+            onClicked: radioListDialog.open()
+        }
 
         Kirigami.Separator {
             Kirigami.FormData.isSection: true
@@ -94,6 +171,10 @@ Kirigami.ScrollablePage {
         Controls.Switch {
             text: qsTr("Item not selected")
             checked: false
+        }
+        Controls.Button {
+            text: qsTr("Switch List View")
+            onClicked: switchListDialog.open()
         }
     }
 }
