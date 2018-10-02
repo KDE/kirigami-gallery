@@ -75,10 +75,6 @@ Kirigami.ScrollablePage {
                 component: "SelectionControls"
             }
             ListElement {
-                text: "Radio Button"
-                component: "RadioButton"
-            }
-            ListElement {
                 text: "Progress Bar"
                 component: "ProgressBar"
             }
