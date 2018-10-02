@@ -30,7 +30,7 @@ Kirigami.ScrollablePage {
         color: Kirigami.Theme.backgroundColor
     }
 
-    title: "Gallery"
+    title: qsTr("Kirigami Gallery")
 
     //flickable: mainListView
     actions {
@@ -67,12 +67,12 @@ Kirigami.ScrollablePage {
 
         model: ListModel {
             ListElement {
-                text: "Button"
+                text: qsTr("Buttons")
                 component: "Button"
             }
             ListElement {
-                text: "CheckBox"
-                component: "CheckBox"
+                text: qsTr("Selection Controls")
+                component: "SelectionControls"
             }
             ListElement {
                 text: "Radio Button"
@@ -85,10 +85,6 @@ Kirigami.ScrollablePage {
             ListElement {
                 text: "Slider"
                 component: "Slider"
-            }
-            ListElement {
-                text: "Switch"
-                component: "Switch"
             }
             ListElement {
                 text: "Tab Bar"
