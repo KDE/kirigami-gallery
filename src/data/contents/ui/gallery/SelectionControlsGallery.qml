@@ -37,16 +37,21 @@ Kirigami.ScrollablePage {
     Layout.fillWidth: true
     title: qsTr("Selection Controls")
 
+    //Close the drawer with the back button
+    onBackRequested: {
+        if (sheet.sheetOpen) {
+            event.accepted = true;
+            sheet.close();
+        }
+    }
+
     InfoSheet {
         id: sheet
+        page: page
         title: qsTr("Selection Controls")
         higUrl: "https://hig.kde.org/components/index.html#selection"
         sourceUrl: "https://cgit.kde.org/kirigami.git/tree/examples/gallerydata/contents/ui/gallery/SelectionControlsGallery.qml"
-        text: qsTr("<p>Selection controls allow users to complete tasks that involve a choice or a selection.</p> <p>Depending from The kind of choice that has to be made, the best control to use may be a Checkbox, a RadioButton, or a Switch.</p>
-        <ul><li>Use checkboxes for non-exclusive options that have clear alternatives. Mutually exclusive options should use a set of radio buttons or a combo box.</li>
-        <li>Use radio buttons for a few mutually exclusive options. If there are more than five options (or if there is not enough space to arrange four or five options), use a combo box or list instead.</li>
-        <li>Use switches on Mobile, when immediately activating or deactivating something (ok/Apply buttons not needed).</li>
-        </ul>")
+        text: qsTr("<p>Selection controls allow users to complete tasks that involve a choice or a selection.</p> <p>Depending from The kind of choice that has to be made, the best control to use may be a Checkbox, a RadioButton, or a Switch.</p> <ul><li>Use checkboxes for non-exclusive options that have clear alternatives. Mutually exclusive options should use a set of radio buttons or a combo box.</li> <li>Use radio buttons for a few mutually exclusive options. If there are more than five options (or if there is not enough space to arrange four or five options), use a combo box or list instead.</li> <li>Use switches on Mobile, when immediately activating or deactivating something (ok/Apply buttons not needed).</li></ul>")
     }
 
     Kirigami.FormLayout {
@@ -67,13 +72,15 @@ Kirigami.ScrollablePage {
             Kirigami.FormData.isSection: true
             Kirigami.FormData.label: qsTr("Radio buttons")
         }
-        Controls.RadioButton {
-            text: qsTr("Item selected")
-            checked: true
-        }
-        Controls.RadioButton {
-            text: qsTr("Item not selected")
-            checked: false
+        ColumnLayout {
+            Controls.RadioButton {
+                text: qsTr("Item selected")
+                checked: true
+            }
+            Controls.RadioButton {
+                text: qsTr("Item not selected")
+                checked: false
+            }
         }
 
         Kirigami.Separator {

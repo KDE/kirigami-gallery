@@ -5,6 +5,7 @@
         <file alias="contents/ui/gallery/components/InfoSheet.qml">./data/contents/ui/gallery/components/InfoSheet.qml</file>
         <file alias="contents/ui/gallery/NonScrollableGallery.qml">./data/contents/ui/gallery/NonScrollableGallery.qml</file>
         <file alias="contents/ui/gallery/ButtonGallery.qml">./data/contents/ui/gallery/ButtonGallery.qml</file>
+        <file alias="contents/ui/gallery/OverlaySheetGallery.qml">./data/contents/ui/gallery/OverlaySheetGallery.qml</file>
         <file alias="contents/ui/gallery/ProgressBarGallery.qml">./data/contents/ui/gallery/ProgressBarGallery.qml</file>
         <file alias="contents/ui/gallery/SelectionControlsGallery.qml">./data/contents/ui/gallery/SelectionControlsGallery.qml</file>
         <file alias="contents/ui/gallery/SliderGallery.qml">./data/contents/ui/gallery/SliderGallery.qml</file>

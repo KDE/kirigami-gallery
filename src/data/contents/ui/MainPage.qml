@@ -75,6 +75,10 @@ Kirigami.ScrollablePage {
                 component: "SelectionControls"
             }
             ListElement {
+                text: qsTr("Overlay Sheets")
+                component: "OverlaySheet"
+            }
+            ListElement {
                 text: "Progress Bar"
                 component: "ProgressBar"
             }
