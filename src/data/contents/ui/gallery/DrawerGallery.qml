@@ -18,7 +18,7 @@
  */
 
 import QtQuick 2.0
-import QtQuick.Controls 2.0 as Controls
+import QtQuick.Controls 2.2 as Controls
 import QtQuick.Layouts 1.2
 import org.kde.kirigami 2.5 as Kirigami
 
@@ -64,25 +64,64 @@ Kirigami.ScrollablePage {
                 text: qsTr("A modal bottom drawer will span for the whole application window width and will darken the rest of the app. Clicking on a darkened will dismiss the drawer.")
             }
             Controls.Button {
+                Layout.alignment: Qt.AlignRight
                 text: qsTr("Close")
                 onClicked: modalBottomDrawer.close()
             }
         }
     }
-    
+
     Kirigami.OverlayDrawer {
         id: inlineBottomDrawer
         edge: Qt.BottomEdge
         modal: false
+
         contentItem: ColumnLayout {
             Controls.Label {
                 Layout.fillWidth: true
                 wrapMode: Text.WordWrap
-                text: qsTr("An inline bottom drawer...")
+                text: qsTr("An inline top drawer covers the whole application width but lets the uncovered pieces to still be interacted with.")
             }
             Controls.Button {
+                Layout.alignment: Qt.AlignRight
                 text: qsTr("Close")
                 onClicked: inlineBottomDrawer.close()
+            }
+        }
+    }
+
+    Kirigami.OverlayDrawer {
+        id: modalTopDrawer
+        edge: Qt.TopEdge
+        contentItem: ColumnLayout {
+            Controls.Label {
+                Layout.fillWidth: true
+                wrapMode: Text.WordWrap
+                text: qsTr("A modal top drawer will span for the whole application window width and will darken the rest of the app. Clicking on the darkened area will dismiss the drawer.")
+            }
+            Controls.Button {
+                Layout.alignment: Qt.AlignRight
+                text: qsTr("Close")
+                onClicked: modalTopDrawer.close()
+            }
+        }
+    }
+
+    Kirigami.OverlayDrawer {
+        id: inlineTopDrawer
+        edge: Qt.TopEdge
+        modal: false
+
+        contentItem: ColumnLayout {
+            Controls.Label {
+                Layout.fillWidth: true
+                wrapMode: Text.WordWrap
+                text: qsTr("An inline bottom drawer covers the whole application width but lets the uncovered pieces to still be interacted with.")
+            }
+            Controls.Button {
+                Layout.alignment: Qt.AlignRight
+                text: qsTr("Close")
+                onClicked: inlineTopDrawer.close()
             }
         }
     }
@@ -100,6 +139,16 @@ Kirigami.ScrollablePage {
             text: "Inline Bottom Drawer"
             Layout.alignment: Qt.AlignHCenter
             onClicked: inlineBottomDrawer.open()
+        }
+        Controls.Button {
+            text: qsTr("Modal Top Drawer")
+            Layout.alignment: Qt.AlignHCenter
+            onClicked: modalTopDrawer.open()
+        }
+        Controls.Button {
+            text: "Inline Top Drawer"
+            Layout.alignment: Qt.AlignHCenter
+            onClicked: inlineTopDrawer.open()
         }
     }
 }
