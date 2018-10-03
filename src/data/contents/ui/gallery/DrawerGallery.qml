@@ -61,7 +61,7 @@ Kirigami.ScrollablePage {
             Controls.Label {
                 Layout.fillWidth: true
                 wrapMode: Text.WordWrap
-                text: qsTr("A modal bottom drawer will span for the whole application window width and will darken the rest of the app. Clicking on a darkened are will dismiss the drawer.")
+                text: qsTr("A modal bottom drawer will span for the whole application window width and will darken the rest of the app. Clicking on a darkened will dismiss the drawer.")
             }
             Controls.Button {
                 text: qsTr("Close")
