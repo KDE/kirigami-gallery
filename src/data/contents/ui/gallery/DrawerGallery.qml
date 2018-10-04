@@ -26,17 +26,33 @@ import "components"
 
 Kirigami.ScrollablePage {
     id: page
-    Layout.fillWidth: true
-    //implicitWidth: Units.gridUnit * (Math.floor(Math.random() * 35) + 10)
 
     title: qsTr("Overlay Sheets")
 
-    actions.main: Kirigami.Action {
-        iconName: "documentinfo"
-        text: qsTr("Info")
-        checkable: true
-        onCheckedChanged: sheet.sheetOpen = checked;
-        shortcut: "Alt+I"
+    actions{
+        main: Kirigami.Action {
+            iconName: "documentinfo"
+            text: qsTr("Info")
+            checkable: true
+            onCheckedChanged: sheet.sheetOpen = checked;
+            shortcut: "Alt+I"
+        }
+        contextualActions: [
+            Kirigami.Action {
+                text: qsTr("Action 1")
+                iconName: "bookmarks"
+                onTriggered: showPassiveNotification(qsTr("Action 1 clicked"))
+            },
+            Kirigami.Action {
+                text: qsTr("Disabled Action")
+                iconName: "folder"
+                enabled: false
+            },
+            Kirigami.Action {
+                text: qsTr("Action 3")
+                onTriggered: showPassiveNotification(qsTr("Action 3 clicked"))
+            }
+        ]
     }
 
     //Close the drawer with the back button
@@ -52,7 +68,7 @@ Kirigami.ScrollablePage {
         title: qsTr("Drawers")
         page: page
         sourceUrl: "https://cgit.kde.org/kirigami-gallery.git/tree/src/data/contents/ui/gallery/DrawerGallery.qml"
-        text: qsTr("")
+        text: qsTr("Drawers are bars anchored to an edge of the screen: left, right, top or bottom.\nOn the left edge they should contain controls and settings global for the whole app, and is strongly encouraged to use the default component GlobalDrawer and to have only one instance for the whole application.\nOn the right edge they should have context-dependent actions linked to the current Page. It is strongly suggested to use the default component ContextDrawer for this and to have only one instance for the whole application.\nDrawers can be modal(default) in which they block input in the rest of the application window, clicking on a darkened out area will dismiss the drawer.\nNon modal drawers will leave the rest of the application window functional and vertical(left and right edge) drawers will become sidebars.\nNon modal drawers can also be collapsible, switching from a full vertical sidebar to a more compact vertical toolbar.\nYou can test between different Drawer modes in the \"Global Drawer Mode...\" menu entry in the global drawer of this application.")
     }
 
     Kirigami.OverlayDrawer {
@@ -135,6 +151,12 @@ Kirigami.ScrollablePage {
             text: qsTr("Left Global Drawer")
             Layout.alignment: Qt.AlignHCenter
             onClicked: applicationWindow().globalDrawer.open()
+        }
+        Controls.Button {
+            text: qsTr("Right Context Drawer")
+            Layout.alignment: Qt.AlignHCenter
+            visible: applicationWindow().contextDrawer
+            onClicked: applicationWindow().contextDrawer.open()
         }
         Controls.Button {
             text: qsTr("Modal Bottom Drawer")
