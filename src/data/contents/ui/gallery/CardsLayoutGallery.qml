@@ -22,6 +22,8 @@ import QtQuick.Controls 2.0 as Controls
 import QtQuick.Layouts 1.2
 import org.kde.kirigami 2.4 as Kirigami
 
+import "components"
+
 Kirigami.ScrollablePage {
     id: page
 
@@ -35,29 +37,14 @@ Kirigami.ScrollablePage {
         shortcut: "Alt+I"
     }
 
-    Kirigami.OverlaySheet {
+    InfoSheet {
         id: sheet
-        onSheetOpenChanged: page.actions.main.checked = sheetOpen
-        header: RowLayout {
-            Kirigami.Heading {
-                Layout.fillWidth: true
-                text: qsTr("Cards Layout")
-            }
-            Controls.ToolButton {
-                text: qsTr("HIG...")
-                onClicked: Qt.openUrlExternally("https://hig.kde.org/components/editing/card.html")
-            }
-            Controls.ToolButton {
-                text: qsTr("Source...")
-                onClicked: Qt.openUrlExternally("https://cgit.kde.org/kirigami.git/tree/examples/gallerydata/contents/ui/gallery/CardsLayoutGallery.qml")
-            }
-        }
+        page: page
+        title: qsTr("Cards Layout")
+        higUrl: "https://hig.kde.org/components/editing/card.html"
+        sourceUrl: "https://cgit.kde.org/kirigami-gallery.git/tree/src/data/contents/ui/gallery/CardsLayoutGallery.qml"
 
-        Controls.Label {
-            property int implicitWidth: Kirigami.Units.gridUnit * 28
-            wrapMode: Text.WordWrap
-            text: qsTr("The Kirigami types AbstractCard and Card are used to implement the popular Card pattern used on many mobile and web platforms that is used to display a collection of information or actions.\n Besides the Card components, Kirigami offers also 3 kinds of views and positioners to help to present cards with beautiful and responsive layouts.\n\nIn this page, CardsLayout is presented, which should be used when the cards are not instantiated by a model or by a model which has always very few items (In the case of a big model CardsListView or CardsGridview should be used instead). They are presented as a grid of two columns which will remain centered if the application is really wide, or become a single column if there is not enough space for two columns, such as a mobile phone screen.\nA CardsLayout should always be contained within a ColumnLayout.")
-        }
+        text: qsTr("The Kirigami types AbstractCard and Card are used to implement the popular Card pattern used on many mobile and web platforms that is used to display a collection of information or actions.\n Besides the Card components, Kirigami offers also 3 kinds of views and positioners to help to present cards with beautiful and responsive layouts.\n\nIn this page, CardsLayout is presented, which should be used when the cards are not instantiated by a model or by a model which has always very few items (In the case of a big model CardsListView or CardsGridview should be used instead). They are presented as a grid of two columns which will remain centered if the application is really wide, or become a single column if there is not enough space for two columns, such as a mobile phone screen.\nA CardsLayout should always be contained within a ColumnLayout.")
     }
 
     ColumnLayout {

@@ -49,8 +49,9 @@ Kirigami.ScrollablePage {
 
     InfoSheet {
         id: sheet
-        title: qsTr("Overlay Sheets")
-        sourceUrl: "https://cgit.kde.org/kirigami.git/tree/examples/gallerydata/contents/ui/gallery/DrawerGallery.qml"
+        title: qsTr("Drawers")
+        page: page
+        sourceUrl: "https://cgit.kde.org/kirigami-gallery.git/tree/src/data/contents/ui/gallery/DrawerGallery.qml"
         text: qsTr("")
     }
 
@@ -130,6 +131,11 @@ Kirigami.ScrollablePage {
         width: page.width
         spacing: Kirigami.Units.smallSpacing
 
+        Controls.Button {
+            text: qsTr("Left Global Drawer")
+            Layout.alignment: Qt.AlignHCenter
+            onClicked: applicationWindow().globalDrawer.open()
+        }
         Controls.Button {
             text: qsTr("Modal Bottom Drawer")
             Layout.alignment: Qt.AlignHCenter
