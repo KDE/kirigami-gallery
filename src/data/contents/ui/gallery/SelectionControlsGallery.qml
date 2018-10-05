@@ -50,7 +50,7 @@ Kirigami.ScrollablePage {
         page: page
         title: qsTr("Selection Controls")
         higUrl: "https://hig.kde.org/components/index.html#selection"
-        sourceUrl: "https://cgit.kde.org/kirigami.git/tree/examples/gallerydata/contents/ui/gallery/SelectionControlsGallery.qml"
+        sourceUrl: "https://cgit.kde.org/kirigami-gallery.git/tree/src/data/contents/ui/gallery/SelectionControlsGallery.qml"
         text: qsTr("<p>Selection controls allow users to complete tasks that involve a choice or a selection.</p> <p>Depending on the kind of choice that has to be made, the best control to use may be a Checkbox, a RadioButton, or a Switch.</p> <ul><li>Use checkboxes for non-exclusive options that have clear alternatives. Mutually exclusive options should use a set of radio buttons or a combo box.</li> <li>Use radio buttons for a few mutually exclusive options. If there are more than five options (or if there is not enough space to arrange four or five options), use a combo box or list instead.</li> <li>Use switches on Mobile, when immediately activating or deactivating something (ok/Apply buttons not needed).</li></ul>")
     }
 
