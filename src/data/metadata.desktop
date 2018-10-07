@@ -1,5 +1,6 @@
 [Desktop Entry]
 Name=Kirigami Gallery
+Name[ast]=Galería de Kirigami
 Name[ca]=Galeria del Kirigami
 Name[ca@valencia]=Galeria del Kirigami
 Name[cs]=Galerie Kirigami
@@ -15,6 +16,7 @@ Name[sv]=Kirigami-galleri
 Name[uk]=Галерея Kirigami
 Name[x-test]=xxKirigami Galleryxx
 Comment=Shows examples of Kirigami components and allows you to play with them
+Comment[ast]=Amuesa exemplos de los componentes de Kirigami y déxate xugar con ellos
 Comment[ca]=Mostra exemples de components del Kirigami i permet jugar-hi
 Comment[ca@valencia]=Mostra exemples de components del Kirigami i permet jugar-hi
 Comment[en_GB]=Shows examples of Kirigami components and allows you to play with them
