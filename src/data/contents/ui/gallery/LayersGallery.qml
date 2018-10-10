@@ -71,12 +71,12 @@ ScrollablePage {
 
         Controls.Button {
             text: "Push A New Layer"
-            anchors.horizontalCenter: parent.horizontalCenter
+            Layout.alignment: Qt.AlignHCenter
             onClicked: pageStack.layers.push(Qt.resolvedUrl("LayersGallery.qml"));
         }
         Controls.Button {
             text: "Pop A Layer"
-            anchors.horizontalCenter: parent.horizontalCenter
+            Layout.alignment: Qt.AlignHCenter
             onClicked: pageStack.layers.pop();
         }
     }

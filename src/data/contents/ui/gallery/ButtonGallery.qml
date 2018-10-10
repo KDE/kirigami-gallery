@@ -146,7 +146,7 @@ ScrollablePage {
             }
             Controls.Button {
                 text: "Close"
-                anchors.horizontalCenter: parent.horizontalCenter
+                Layout.alignment: Qt.AlignHCenter
                 onClicked: sheet.close()
             }
         }
@@ -157,52 +157,52 @@ ScrollablePage {
 
         Controls.Button {
             text: "Open &Bottom drawer"
-            anchors.horizontalCenter: parent.horizontalCenter
+            Layout.alignment: Qt.AlignHCenter
             onClicked: bottomDrawer.open()
         }
         Controls.Button {
             text: "Open Sheet"
-            anchors.horizontalCenter: parent.horizontalCenter
+            Layout.alignment: Qt.AlignHCenter
             onClicked: sheet.open()
         }
         Controls.Button {
             text: "Toggle Action Button"
-            anchors.horizontalCenter: parent.horizontalCenter
+            Layout.alignment: Qt.AlignHCenter
             onClicked: mainAction.visible = !mainAction.visible;
         }
         Controls.Button {
             text: "Show Passive Notification"
-            anchors.horizontalCenter: parent.horizontalCenter
+            Layout.alignment: Qt.AlignHCenter
             onClicked: showPassiveNotification("This is a passive message", 3000);
         }
         Controls.Button {
             text: "Passive Notification Action"
-            anchors.horizontalCenter: parent.horizontalCenter
+            Layout.alignment: Qt.AlignHCenter
             onClicked: showPassiveNotification("This is a passive message", "long", "Action", function() {showPassiveNotification("Passive notification action clicked")});
         }
         Controls.ToolButton {
             text: "Toggle controls"
             checkable: true
             checked: true
-            anchors.horizontalCenter: parent.horizontalCenter
+            Layout.alignment: Qt.AlignHCenter
             onCheckedChanged: applicationWindow().controlsVisible = checked
         }
         Controls.Button {
             text: "Disabled Button"
             enabled: false
-            anchors.horizontalCenter: parent.horizontalCenter
+            Layout.alignment: Qt.AlignHCenter
             onClicked: showPassiveNotification("clicked")
         }
         Controls.ToolButton {
             text: "Tool Button"
             icon.name: "go-next"
-            anchors.horizontalCenter: parent.horizontalCenter
+            Layout.alignment: Qt.AlignHCenter
             onClicked: showPassiveNotification(text + " clicked")
         }
         Controls.ToolButton {
             text: "Tool Button non flat"
             flat: false
-            anchors.horizontalCenter: parent.horizontalCenter
+            Layout.alignment: Qt.AlignHCenter
             onClicked: showPassiveNotification(text + " clicked")
         }
     }
