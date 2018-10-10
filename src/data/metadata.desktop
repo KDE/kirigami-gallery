@@ -1,6 +1,5 @@
 [Desktop Entry]
 Name=Kirigami Gallery
-Name[ast]=Galería de Kirigami
 Name[ca]=Galeria del Kirigami
 Name[ca@valencia]=Galeria del Kirigami
 Name[cs]=Galerie Kirigami
@@ -15,8 +14,8 @@ Name[sk]=Galéria Kirigami
 Name[sv]=Kirigami-galleri
 Name[uk]=Галерея Kirigami
 Name[x-test]=xxKirigami Galleryxx
+Name[zh_CN]=Kirigami 画廊
 Comment=Shows examples of Kirigami components and allows you to play with them
-Comment[ast]=Amuesa exemplos de los componentes de Kirigami y déxate xugar con ellos
 Comment[ca]=Mostra exemples de components del Kirigami i permet jugar-hi
 Comment[ca@valencia]=Mostra exemples de components del Kirigami i permet jugar-hi
 Comment[en_GB]=Shows examples of Kirigami components and allows you to play with them
@@ -30,6 +29,7 @@ Comment[sk]=Zobrazí príklady Kirigami komponentov a umožní vám hrať sa s n
 Comment[sv]=Visar exempel på komponenter i Kirigami och låter dig leka med dem
 Comment[uk]=Показує приклади компонентів Kirigami і надає вам змогу попрацювати з ними
 Comment[x-test]=xxShows examples of Kirigami components and allows you to play with themxx
+Comment[zh_CN]=显示 Kirigami 组件并允许您使用它们进行游戏
 
 Type=Application
 Exec=kpackagelauncherqml -a org.kde.kirigami2.gallery
