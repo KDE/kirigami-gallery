@@ -38,7 +38,7 @@ Comment[x-test]=xxShows examples of Kirigami components and allows you to play w
 Comment[zh_CN]=显示 Kirigami 组件并允许您使用它们进行游戏
 
 Type=Application
-Exec=kpackagelauncherqml -a org.kde.kirigami2.gallery
+Exec=kirigami2gallery
 Icon=preferences-desktop-theme
 Categories=Qt;KDE;Development;
 X-KDE-ParentApp=
