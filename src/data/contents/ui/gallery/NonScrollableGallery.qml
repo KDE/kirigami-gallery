@@ -38,6 +38,12 @@ Page {
         }
     }
 
+    header: Controls.Button {
+        text: "bah"
+    }
+    footer: Controls.Button {
+        text: "buh"
+    }
     Rectangle {
         anchors.fill: parent
         color: "red"

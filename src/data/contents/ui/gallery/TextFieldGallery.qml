@@ -67,13 +67,6 @@ Kirigami.ScrollablePage {
             Layout.minimumWidth: Kirigami.Units.gridUnit * 12
             Layout.minimumHeight: Kirigami.Units.gridUnit * 12
             wrapMode: Controls.TextArea.WordWrap
-            //this to make text selection work on Android
-            //QQC2 should do this by itself
-            onPressAndHold: {
-                forceActiveFocus();
-                cursorPosition = positionAt(event.x, event.y);
-                selectWord();
-            }
         }
     }
 }

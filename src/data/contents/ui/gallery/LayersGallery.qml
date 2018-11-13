@@ -79,6 +79,11 @@ ScrollablePage {
             Layout.alignment: Qt.AlignHCenter
             onClicked: pageStack.layers.pop();
         }
+        Controls.Button {
+            text: "Toggle header"
+            Layout.alignment: Qt.AlignHCenter
+            onClicked: page.globalToolBarStyle = ApplicationHeaderStyle.None
+        }
     }
  
     
