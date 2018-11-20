@@ -34,6 +34,74 @@ Kirigami.ScrollablePage {
         anchors.margins: Kirigami.Units.gridUnit / 2
 
         Kirigami.Heading {
+            id: h1
+            text: qsTr("Heading 1")
+            Layout.columnSpan: 2
+            level: 1
+        }
+        QQC2.Label {
+            text: qsTr("%1 points").arg(h1.font.pointSize)
+            Layout.columnSpan: 2
+        }
+        Kirigami.Heading {
+            id: h2
+            text: qsTr("Heading 2")
+            Layout.columnSpan: 2
+            level: 2
+        }
+        QQC2.Label {
+            text: qsTr("%1 points").arg(h2.font.pointSize)
+            Layout.columnSpan: 2
+        }
+        Kirigami.Heading {
+            id: h3
+            text: qsTr("Heading 3")
+            Layout.columnSpan: 2
+            level: 3
+        }
+        QQC2.Label {
+            text: qsTr("%1 points").arg(h3.font.pointSize)
+            Layout.columnSpan: 2
+        }
+        Kirigami.Heading {
+            id: h4
+            text: qsTr("Heading 4")
+            Layout.columnSpan: 2
+            level: 4
+        }
+        QQC2.Label {
+            text: qsTr("%1 points").arg(h4.font.pointSize)
+            Layout.columnSpan: 2
+        }
+        Kirigami.Heading {
+            text: "Font Metrics"
+            level: 2
+            Layout.columnSpan: 2
+        }
+
+        QQC2.Label {
+            text: "FontMetrics pointSize:"
+        }
+        QQC2.Label {
+            text: Kirigami.Units.fontMetrics.font.pointSize
+        }
+
+        QQC2.Label {
+            text: "FontMetrics pixelSize:"
+        }
+        QQC2.Label {
+            text: Number(Kirigami.Units.fontMetrics.font.pixelSize).toFixed(2)
+        }
+
+        QQC2.Label {
+            text: "Height of default font:"
+        }
+        QQC2.Label {
+            text: Number(font.pixelSize / Screen.pixelDensity).toFixed(2) + "mm"
+        }
+
+
+        Kirigami.Heading {
             text: "Screen"
             Layout.columnSpan: 2
             level: 2
@@ -71,33 +139,6 @@ Kirigami.ScrollablePage {
         }
         QQC2.Label {
             text: Screen.devicePixelRatio
-        }
-
-        Kirigami.Heading {
-            text: "Font Metrics"
-            level: 2
-            Layout.columnSpan: 2
-        }
-
-        QQC2.Label {
-            text: "FontMetrics pointSize:"
-        }
-        QQC2.Label {
-            text: Kirigami.Units.fontMetrics.font.pointSize
-        }
-
-        QQC2.Label {
-            text: "FontMetrics pixelSize:"
-        }
-        QQC2.Label {
-            text: Number(Kirigami.Units.fontMetrics.font.pixelSize).toFixed(2)
-        }
-
-        QQC2.Label {
-            text: "Height of default font:"
-        }
-        QQC2.Label {
-            text: Number(font.pixelSize / Screen.pixelDensity).toFixed(2) + "mm"
         }
 
         Kirigami.Heading {
