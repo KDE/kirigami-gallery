@@ -35,7 +35,7 @@ Comment[sk]=Zobrazí príklady Kirigami komponentov a umožní vám hrať sa s n
 Comment[sv]=Visar exempel på komponenter i Kirigami och låter dig leka med dem
 Comment[uk]=Показує приклади компонентів Kirigami і надає вам змогу попрацювати з ними
 Comment[x-test]=xxShows examples of Kirigami components and allows you to play with themxx
-Comment[zh_CN]=显示 Kirigami 组件并允许您使用它们进行游戏
+Comment[zh_CN]=显示 Kirigami 组件实例并允许您试用它们
 
 Type=Application
 Exec=kirigami2gallery
