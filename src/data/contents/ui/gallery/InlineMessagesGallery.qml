@@ -23,6 +23,8 @@ import QtQuick.Layouts 1.2
 import QtQuick.Controls 2.0 as Controls
 import org.kde.kirigami 2.4 as Kirigami
 
+import "components"
+
 Kirigami.ScrollablePage {
     id: page
 
@@ -36,30 +38,20 @@ Kirigami.ScrollablePage {
         shortcut: "Alt+I"
     }
 
-    Kirigami.OverlaySheet {
-        id: sheet
-        onSheetOpenChanged: page.actions.main.checked = sheetOpen
-        header: RowLayout {
-            Kirigami.Heading {
-                Layout.fillWidth: true
-                text: qsTr("Inline Messages")
-            }
-            Controls.ToolButton {
-                text: qsTr("HIG...")
-                enabled: false
-                onClicked: Qt.openUrlExternally("")
-            }
-            Controls.ToolButton {
-                text: qsTr("Source code...")
-                onClicked: Qt.openUrlExternally("https://cgit.kde.org/kirigami.git/tree/examples/gallerydata/contents/ui/gallery/InlineMessagesGallery.qml")
-            }
-        }
 
-        Controls.Label {
-            property int implicitWidth: Kirigami.Units.gridUnit * 25
-            wrapMode: Text.WordWrap
-            text: qsTr("Inline messages allow you to show various types of messages placed the same layout as content they relate to, instead of showing a message in an overlay. They are invisible by default and need to be explicitly set visible to be revealed.")
+    //Close the drawer with the back button
+    onBackRequested: {
+        if (sheet.sheetOpen) {
+            event.accepted = true;
+            sheet.close();
         }
+    }
+
+    InfoSheet {
+        id: sheet
+
+        page: page
+        component: "InlineMessagesGallery"
     }
 
     ColumnLayout {
