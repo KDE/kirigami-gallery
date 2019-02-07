@@ -2,6 +2,7 @@
 
 set(kirigami2gallery_SRCS
     main.cpp
+    InfoData.cpp
     )
 
 qt5_add_resources(RESOURCES resources.qrc)

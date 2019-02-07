@@ -21,19 +21,27 @@ import QtQuick 2.6
 import QtQuick.Controls 2.0 as Controls
 import QtQuick.Layouts 1.2
 import org.kde.kirigami 2.4 as Kirigami
+import Data 1.0
 
 Kirigami.OverlaySheet {
     id: root
     property Kirigami.Page page
-    property url higUrl
-    property url sourceUrl
+    property url higUrl: infoData.higUrl
+    property url sourceUrl: infoData.sourceUrl
     property alias title: titleLabel.text
     property alias text: mainText.text
+    property alias component: infoData.component
 
     onSheetOpenChanged: page.actions.main.checked = sheetOpen
     header: Kirigami.Heading {
         id: titleLabel
+
+        text: infoData.title
         Layout.fillWidth: true
+
+        InfoData {
+            id: infoData
+        }
     }
 
     footer: RowLayout {
@@ -54,6 +62,7 @@ Kirigami.OverlaySheet {
 
     Controls.Label {
         id: mainText
+        text: infoData.text
         property int implicitWidth: Kirigami.Units.gridUnit * 25
         wrapMode: Text.WordWrap
     }

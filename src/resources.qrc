@@ -29,5 +29,6 @@
         <file alias="contents/ui/mobileApp.qml">./data/contents/ui/mobileApp.qml</file>
         <file alias="metadata.desktop">./data/metadata.desktop</file>
         <file alias="qtquickcontrols2.conf">qtquickcontrols2.conf</file>
+        <file alias="info-data.json">./data/info-data.json</file>
     </qresource>
 </RCC>

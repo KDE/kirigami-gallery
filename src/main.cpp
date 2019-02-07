@@ -26,6 +26,7 @@
 #include <QtQml>
 #include <QUrl>
 #include <QColor>
+#include "InfoData.h"
 
 #ifdef Q_OS_ANDROID
 #include <QtAndroid>
@@ -53,6 +54,8 @@ Q_DECL_EXPORT int main(int argc, char *argv[])
     //qputenv("QML_IMPORT_TRACE", "1");
     QQmlApplicationEngine engine;
     
+    qmlRegisterType<InfoData>("Data", 1, 0, "InfoData");
+
     //we want different main files on desktop or mobile
     //very small difference as they as they are subclasses of the same thing
     if (qEnvironmentVariableIsSet("QT_QUICK_CONTROLS_MOBILE") &&

@@ -65,10 +65,9 @@ Kirigami.ScrollablePage {
 
     InfoSheet {
         id: sheet
-        title: qsTr("Drawers")
+
         page: page
-        sourceUrl: "https://cgit.kde.org/kirigami-gallery.git/tree/src/data/contents/ui/gallery/DrawerGallery.qml"
-        text: qsTr("Drawers are bars anchored to an edge of the screen: left, right, top or bottom.\nOn the left edge they should contain controls and settings global for the whole app, and is strongly encouraged to use the default component GlobalDrawer and to have only one instance for the whole application.\nOn the right edge they should have context-dependent actions linked to the current Page. It is strongly suggested to use the default component ContextDrawer for this and to have only one instance for the whole application.\nDrawers can be modal(default) in which they block input in the rest of the application window, clicking on a darkened out area will dismiss the drawer.\nNon modal drawers will leave the rest of the application window functional and vertical(left and right edge) drawers will become sidebars.\nNon modal drawers can also be collapsible, switching from a full vertical sidebar to a more compact vertical toolbar.\nYou can test between different Drawer modes in the \"Global Drawer Mode...\" menu entry in the global drawer of this application running on Desktop systems.")
+        component: "DrawerGallery"
     }
 
     Kirigami.OverlayDrawer {

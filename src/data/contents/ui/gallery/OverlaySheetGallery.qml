@@ -49,9 +49,10 @@ Kirigami.ScrollablePage {
 
     InfoSheet {
         id: sheet
-        title: qsTr("Overlay Sheets")
-        sourceUrl: "https://cgit.kde.org/kirigami-gallery.git/tree/src/data/contents/ui/gallery/OverlaySheetGallery.qml"
-        text: qsTr("The OverlaySheet control is a kind of modal content which goes over the main application content (either just the page or the whole app area) which is supposed to be used to display long contents, which may be taller than the application window itself, in which case the content will be scrollable.\nThe visual metaphore of the control is a piece of paper that scrolling, covering the page of the application, which can be dismissed scrolling it away (or tapping any area outside it).")
+
+        page: page
+        component: "OverlaySheetGallery"
+
     }
 
     Kirigami.OverlaySheet {
