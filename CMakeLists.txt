@@ -39,8 +39,6 @@ include(KDECompilerSettings NO_POLICY_SCOPE)
 include(ECMPoQmTools)
 include(ECMQMLModules)
 
-set(CMAKECONFIG_INSTALL_DIR "${KDE_INSTALL_CMAKEPACKAGEDIR}/KF5Kirigami2")
-
 if(CMAKE_SYSTEM_NAME STREQUAL "Android")
     find_package(Qt5AndroidExtras ${REQUIRED_QT_VERSION} REQUIRED)
 endif()
