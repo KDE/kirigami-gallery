@@ -33,17 +33,11 @@ set_package_properties(ECM PROPERTIES TYPE REQUIRED DESCRIPTION "Extra CMake Mod
 # where to look first for cmake modules, before ${CMAKE_ROOT}/Modules/ is checked
 set(CMAKE_MODULE_PATH ${CMAKE_MODULE_PATH} ${ECM_MODULE_PATH} ${ECM_KDE_MODULE_DIR})
 
-include(GenerateExportHeader)
-include(ECMSetupVersion)
-include(ECMGenerateHeaders)
-include(CMakePackageConfigHelpers)
-include(ECMPoQmTools)
-include(ECMQMLModules)
 include(KDEInstallDirs)
 include(KDECMakeSettings)
-include(ECMQtDeclareLoggingCategory)
-include(ECMAddQch)
 include(KDECompilerSettings NO_POLICY_SCOPE)
+include(ECMPoQmTools)
+include(ECMQMLModules)
 
 set(CMAKECONFIG_INSTALL_DIR "${KDE_INSTALL_CMAKEPACKAGEDIR}/KF5Kirigami2")
 
