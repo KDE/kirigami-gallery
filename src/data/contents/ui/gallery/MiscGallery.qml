@@ -156,6 +156,11 @@ ScrollablePage {
             model: ["First", "Second", "Third"]
             Layout.alignment: Qt.AlignHCenter
         }
+        Controls.ComboBox {
+            editable: true
+            model: ["First", "Second", "Third"]
+            Layout.alignment: Qt.AlignHCenter
+        }
         Controls.GroupBox {
             title: "Title"
             Layout.alignment: Qt.AlignHCenter

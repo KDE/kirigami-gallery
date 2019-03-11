@@ -100,8 +100,10 @@ Kirigami.ApplicationWindow {
                 text: "Global Drawer Mode..."
                 iconName: "go-next"
                 visible: !Kirigami.Settings.isMobile
+                expandible: true
                 Kirigami.Action {
                     text: "Overlay Drawer"
+                    icon.name: "acrobat"
                     checked: globalDrawer.modal && !globalDrawer.collapsible
                     onTriggered: {
                         globalDrawer.modal = true;

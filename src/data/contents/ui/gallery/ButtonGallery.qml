@@ -54,9 +54,25 @@ ScrollablePage {
         }
         contextualActions: [
             Action {
-                text:"Action for buttons"
+                text:"Action Parent Expandible"
                 iconName: "bookmarks"
-                onTriggered: showPassiveNotification("Action 1 clicked")
+                expandible: true
+                Action {
+                    text: "Sub action 1"
+                }
+                Action {
+                    text: "Sub action 1"
+                }
+            },
+            Action {
+                text:"Action Parent"
+                iconName: "bookmarks"
+                Action {
+                    text: "Sub action 1"
+                }
+                Action {
+                    text: "Sub action 1"
+                }
             },
             Action {
                 text:"Disabled Action"
@@ -155,6 +171,21 @@ ScrollablePage {
         width: page.width
         spacing: Units.smallSpacing
 
+        Controls.ComboBox {
+            Layout.alignment: Qt.AlignHCenter
+            textRole: "text"
+            model: [{"text": "Default", "value": -1},
+                    {"text": "Toolbar", "value": ApplicationHeaderStyle.ToolBar},
+                    {"text": "Titles", "value": ApplicationHeaderStyle.Titles},
+                    {"text": "None", "value": ApplicationHeaderStyle.None}]
+            onActivated: {
+                if (index == 0) {
+                    page.globalToolBarStyle = applicationWindow().pageStack.globalToolBar.actualStyle
+                } else {
+                    page.globalToolBarStyle = model[index].value;
+                }
+            }
+        }
         Controls.Button {
             text: "Open &Bottom drawer"
             Layout.alignment: Qt.AlignHCenter

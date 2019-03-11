@@ -117,16 +117,21 @@ ScrollablePage {
         }
         Controls.Button {
             text: "Push Another Page"
-            anchors.horizontalCenter: parent.horizontalCenter
+            Layout.alignment: Qt.AlignHCenter
             onClicked: pageStack.push(Qt.resolvedUrl("MultipleColumnsGallery.qml"), {"depth": root.depth + 1});
         }
         Controls.Button {
+            text: "Push Two Pages"
+            Layout.alignment: Qt.AlignHCenter
+            onClicked: pageStack.push([Qt.resolvedUrl("MultipleColumnsGallery.qml"), Qt.resolvedUrl("MultipleColumnsGallery.qml")], [{"depth": root.depth + 1}, {"depth": root.depth + 2}]);
+        }
+        Controls.Button {
             text: "Pop A Page"
-            anchors.horizontalCenter: parent.horizontalCenter
+            Layout.alignment: Qt.AlignHCenter
             onClicked: pageStack.pop();
         }
         RowLayout {
-            anchors.horizontalCenter: parent.horizontalCenter
+            Layout.alignment: Qt.AlignHCenter
             Controls.TextField {
                 id: edit
                 text: root.title
