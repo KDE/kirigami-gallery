@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<component>
+<component type="desktop-application">
     <id>org.kde.kirigami2.gallery</id>
     <name>Kirigami Gallery</name>
     <name xml:lang="ca@valencia">Galeria del Kirigami</name>
@@ -54,4 +54,13 @@
     <icon type="stock">preferences-desktop-theme</icon>
     <project_license>GPL-2.0</project_license>
     <metadata_license>CC0-1.0</metadata_license>
+    <screenshots>
+        <screenshot type="default">
+        <image>https://cdn.kde.org/screenshots/kirigami-gallery/kirigami-gallery.png</image>
+        </screenshot>
+    </screenshots>
+    <project_group>KDE</project_group>
+    <provides>
+        <binary>kirigami2gallery</binary>
+    </provides>
 </component>
