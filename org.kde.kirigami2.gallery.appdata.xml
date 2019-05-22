@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+    <id>org.kde.kirigami2.gallery</id>
+    <name>Kirigami Gallery</name>
+    <name xml:lang="ca@valencia">Galeria del Kirigami</name>
+    <name xml:lang="ca">Galeria del Kirigami</name>
+    <name xml:lang="cs">Galerie Kirigami</name>
+    <name xml:lang="de">Kirigami-Galerie</name>
+    <name xml:lang="el">Kirigami Gallery</name>
+    <name xml:lang="en_GB">Kirigami Gallery</name>
+    <name xml:lang="es">Galería de Kirigami</name>
+    <name xml:lang="fr">Galerie Kirigami</name>
+    <name xml:lang="gl">Galería de Kirigami</name>
+    <name xml:lang="it">Galleria di Kirigami</name>
+    <name xml:lang="ko">Kirigami 갤러리</name>
+    <name xml:lang="nl">Kirigami galerij</name>
+    <name xml:lang="nn">Kirigami-galleri</name>
+    <name xml:lang="pl">Galeria Kirigami</name>
+    <name xml:lang="pt">Galeria do Kirigami</name>
+    <name xml:lang="pt_BR">Galeria do Kirigami</name>
+    <name xml:lang="ru">Галерея Kirigami</name>
+    <name xml:lang="sk">Galéria Kirigami</name>
+    <name xml:lang="sv">Kirigami-galleri</name>
+    <name xml:lang="uk">Галерея Kirigami</name>
+    <name xml:lang="x-test">xxKirigami Galleryxx</name>
+    <name xml:lang="zh_CN">Kirigami 画廊</name>
+    <name xml:lang="zh_TW">Kirigami 畫廊</name>
+    <summary>Shows examples of Kirigami components and allows you to play with them</summary>
+    <summary xml:lang="ca@valencia">Mostra exemples de components del Kirigami i permet jugar-hi</summary>
+    <summary xml:lang="ca">Mostra exemples de components del Kirigami i permet jugar-hi</summary>
+    <summary xml:lang="de">Zeigt Beispiele von Kirigami-Komponenten und ermöglicht es, sie auszuprobieren</summary>
+    <summary xml:lang="el">Εμφανίζει  παραδείγματα στοιχείων του Kirigami και σας επιτρέπει να παίξετε μαζί τους</summary>
+    <summary xml:lang="en_GB">Shows examples of Kirigami components and allows you to play with them</summary>
+    <summary xml:lang="es">Muestra ejemplos de componentes de Kirigami y le permite jugar con ellos</summary>
+    <summary xml:lang="fr">Affiche des exemples des composants Kirigami et permet de jouer avec eux</summary>
+    <summary xml:lang="gl">Mostra exemplos de compoñentes de Kirigami e permítelle fedellar con eles</summary>
+    <summary xml:lang="it">Mostra esempi di componenti Kirigami e ti permette di giocare con essi</summary>
+    <summary xml:lang="ko">Kirigami 구성 요소를 표시하고 테스트하기</summary>
+    <summary xml:lang="nl">Toont voorbeelden van Kirigami componenten en laat u met ze spelen</summary>
+    <summary xml:lang="nn">Viser eksempel på Kirigami-komponentar og lèt deg leika med dei</summary>
+    <summary xml:lang="pl">Pokazuje przykłady składników Kirigami i umożliwia zabawę nimi</summary>
+    <summary xml:lang="pt">Mostra exemplos dos componentes do Kirigami e permite-lhe jogar com eles</summary>
+    <summary xml:lang="pt_BR">Mostra exemplos dos componentes do Kirigami e permite-lhe jogar com eles</summary>
+    <summary xml:lang="ru">Просмотр примеров компонентов Kirigami</summary>
+    <summary xml:lang="sk">Zobrazí príklady Kirigami komponentov a umožní vám hrať sa s nimi</summary>
+    <summary xml:lang="sv">Visar exempel på komponenter i Kirigami och låter dig leka med dem</summary>
+    <summary xml:lang="uk">Показує приклади компонентів Kirigami і надає вам змогу попрацювати з ними</summary>
+    <summary xml:lang="x-test">xxShows examples of Kirigami components and allows you to play with themxx</summary>
+    <summary xml:lang="zh_CN">显示 Kirigami 组件实例并允许您试用它们</summary>
+    <summary xml:lang="zh_TW">顯示 Kirigami 元件的範例檔案，且允許您使用這些檔案</summary>
+    <url type="homepage">http://kde.org</url>
+    <url type="donation">https://www.kde.org/donate.php?app=org.kde.kirigami2.gallery</url>
+    <developer_name>Marco Martin &lt;mart@kde.org&gt;</developer_name>
+    <icon type="stock">preferences-desktop-theme</icon>
+    <project_license>GPL-2.0</project_license>
+    <metadata_license>CC0-1.0</metadata_license>
+</component>
