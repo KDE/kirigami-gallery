@@ -48,6 +48,11 @@
     <summary xml:lang="x-test">xxShows examples of Kirigami components and allows you to play with themxx</summary>
     <summary xml:lang="zh_CN">显示 Kirigami 组件实例并允许您试用它们</summary>
     <summary xml:lang="zh_TW">顯示 Kirigami 元件的範例檔案，且允許您使用這些檔案</summary>
+    <description>
+      <p>
+	View examples of Kirigami components
+      </p>
+    </description>
     <url type="homepage">http://kde.org</url>
     <url type="donation">https://www.kde.org/donate.php?app=org.kde.kirigami2.gallery</url>
     <developer_name>Marco Martin &lt;mart@kde.org&gt;</developer_name>
