@@ -23,6 +23,7 @@ Name[uk]=Галерея Kirigami
 Name[x-test]=xxKirigami Galleryxx
 Name[zh_CN]=Kirigami 画廊
 Name[zh_TW]=Kirigami 畫廊
+GenericName=Widget Browser for Kirigami
 Comment=Shows examples of Kirigami components and allows you to play with them
 Comment[ca]=Mostra exemples de components del Kirigami i permet jugar-hi
 Comment[ca@valencia]=Mostra exemples de components del Kirigami i permet jugar-hi
