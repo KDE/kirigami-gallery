@@ -7,6 +7,7 @@
   <name xml:lang="nl">Kirigami galerij</name>
   <name xml:lang="pt">Galeria do Kirigami</name>
   <name xml:lang="sk">Galéria Kirigami</name>
+  <name xml:lang="sv">Kirigami-galleri</name>
   <name xml:lang="uk">Галерея Kirigami</name>
   <name xml:lang="x-test">xxKirigami Galleryxx</name>
   <summary>Shows examples of Kirigami components and allows you to play with them</summary>
@@ -15,6 +16,7 @@
   <summary xml:lang="nl">Toont voorbeelden van Kirigami componenten en laat u met ze spelen</summary>
   <summary xml:lang="pt">Mostra exemplos de componentes do Kirigami e permite interagir com eles</summary>
   <summary xml:lang="sk">Zobrazí príklady Kirigami komponentov a umožní vám hrať sa s nimi</summary>
+  <summary xml:lang="sv">Visar exempel på komponenter i Kirigami och låter dig leka med dem</summary>
   <summary xml:lang="uk">Показує приклади компонентів Kirigami і надає вам змогу погратися з ними</summary>
   <summary xml:lang="x-test">xxShows examples of Kirigami components and allows you to play with themxx</summary>
   <description>
@@ -26,6 +28,8 @@
     <p xml:lang="nl">Voorbeelden van Kirigami componenten bekijken</p>
     <p xml:lang="pt">Ver exemplos de componentes do Kirigami</p>
     <p xml:lang="sk">Zobraziť príklady komponentov Kirigami</p>
+    <p xml:lang="sv">Visa exempel på komponenter i Kirigami</p>
+    <p xml:lang="uk">Перегляд прикладів компонентів Kirigami</p>
     <p xml:lang="x-test">xxView examples of Kirigami componentsxx</p>
   </description>
   <url type="homepage">http://kde.org</url>
@@ -36,6 +40,7 @@
   <developer_name xml:lang="nl">Marco Martin &lt;mart@kde.org&gt;</developer_name>
   <developer_name xml:lang="pt">Marco Martin &lt;mart@kde.org&gt;</developer_name>
   <developer_name xml:lang="sk">Marco Martin &lt;mart@kde.org&gt;</developer_name>
+  <developer_name xml:lang="sv">Marco Martin &lt;mart@kde.org&gt;</developer_name>
   <developer_name xml:lang="uk">Marco Martin &lt;mart@kde.org&gt;</developer_name>
   <developer_name xml:lang="x-test">xxMarco Martin &lt;mart@kde.org&gt;xx</developer_name>
   <icon type="stock">preferences-desktop-theme</icon>
