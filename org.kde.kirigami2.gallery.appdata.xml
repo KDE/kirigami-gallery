@@ -4,6 +4,8 @@
   <name>Kirigami Gallery</name>
   <name xml:lang="ca">Galeria del Kirigami</name>
   <name xml:lang="ca-valencia">Galeria del Kirigami</name>
+  <name xml:lang="en-GB">Kirigami Gallery</name>
+  <name xml:lang="es">Galería de Kirigami</name>
   <name xml:lang="nl">Kirigami galerij</name>
   <name xml:lang="pt">Galeria do Kirigami</name>
   <name xml:lang="sk">Galéria Kirigami</name>
@@ -13,6 +15,8 @@
   <summary>Shows examples of Kirigami components and allows you to play with them</summary>
   <summary xml:lang="ca">Mostra exemples de components del Kirigami i permet jugar-hi</summary>
   <summary xml:lang="ca-valencia">Mostra exemples de components del Kirigami i permet jugar-hi</summary>
+  <summary xml:lang="en-GB">Shows examples of Kirigami components and allows you to play with them</summary>
+  <summary xml:lang="es">Muestra ejemplos de componentes de Kirigami y le permite probarlos</summary>
   <summary xml:lang="nl">Toont voorbeelden van Kirigami componenten en laat u met ze spelen</summary>
   <summary xml:lang="pt">Mostra exemplos de componentes do Kirigami e permite interagir com eles</summary>
   <summary xml:lang="sk">Zobrazí príklady Kirigami komponentov a umožní vám hrať sa s nimi</summary>
@@ -25,6 +29,8 @@
       </p>
     <p xml:lang="ca">Mostra exemples de components del Kirigami</p>
     <p xml:lang="ca-valencia">Mostra exemples de components del Kirigami</p>
+    <p xml:lang="en-GB">View examples of Kirigami components</p>
+    <p xml:lang="es">Ver ejemplos de componentes de Kirigami</p>
     <p xml:lang="nl">Voorbeelden van Kirigami componenten bekijken</p>
     <p xml:lang="pt">Ver exemplos de componentes do Kirigami</p>
     <p xml:lang="sk">Zobraziť príklady komponentov Kirigami</p>
@@ -37,6 +43,8 @@
   <developer_name>Marco Martin &lt;mart@kde.org&gt;</developer_name>
   <developer_name xml:lang="ca">Marco Martin &lt;mart@kde.org&gt;</developer_name>
   <developer_name xml:lang="ca-valencia">Marco Martin &lt;mart@kde.org&gt;</developer_name>
+  <developer_name xml:lang="en-GB">Marco Martin &lt;mart@kde.org&gt;</developer_name>
+  <developer_name xml:lang="es">Marco Martin &lt;mart@kde.org&gt;</developer_name>
   <developer_name xml:lang="nl">Marco Martin &lt;mart@kde.org&gt;</developer_name>
   <developer_name xml:lang="pt">Marco Martin &lt;mart@kde.org&gt;</developer_name>
   <developer_name xml:lang="sk">Marco Martin &lt;mart@kde.org&gt;</developer_name>
