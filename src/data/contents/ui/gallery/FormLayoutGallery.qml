@@ -66,8 +66,6 @@ Kirigami.ScrollablePage {
             Kirigami.FormData.label: "Label:"
         }
         Item {
-            width:1
-            height:1
             Kirigami.FormData.isSection: true
         }
         TextField {
@@ -78,8 +76,6 @@ Kirigami.ScrollablePage {
             Layout.fillWidth: true
         }
         Item {
-            width:1
-            height:1
             Kirigami.FormData.isSection: true
             Kirigami.FormData.label: "Section with title without line"
         }
