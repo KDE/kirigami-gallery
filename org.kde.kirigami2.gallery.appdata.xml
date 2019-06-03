@@ -40,6 +40,7 @@
     <p xml:lang="sv">Visa exempel på komponenter i Kirigami</p>
     <p xml:lang="uk">Перегляд прикладів компонентів Kirigami</p>
     <p xml:lang="x-test">xxView examples of Kirigami componentsxx</p>
+    <p xml:lang="zh-TW">檢視 Kirigami 元件範例</p>
   </description>
   <url type="homepage">http://kde.org</url>
   <url type="donation">https://www.kde.org/donate.php?app=org.kde.kirigami2.gallery</url>
@@ -55,6 +56,7 @@
   <developer_name xml:lang="sv">Marco Martin &lt;mart@kde.org&gt;</developer_name>
   <developer_name xml:lang="uk">Marco Martin &lt;mart@kde.org&gt;</developer_name>
   <developer_name xml:lang="x-test">xxMarco Martin &lt;mart@kde.org&gt;xx</developer_name>
+  <developer_name xml:lang="zh-TW">Marco Martin &lt;mart@kde.org&gt;</developer_name>
   <icon type="stock">preferences-desktop-theme</icon>
   <project_license>GPL-2.0</project_license>
   <metadata_license>CC0-1.0</metadata_license>
