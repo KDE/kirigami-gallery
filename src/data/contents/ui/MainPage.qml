@@ -164,7 +164,7 @@ Kirigami.ScrollablePage {
                     return;
                 }
                 root.pageStack.pop(pageRoot);
-                root.pageStack.push(Qt.resolvedUrl("gallery/" + model.component + "Gallery.qml"));
+                root.pageStack.push(root.pageStack.uniquePageForUrl(Qt.resolvedUrl("gallery/" + model.component + "Gallery.qml")));
                 mainListView.openPageIndex = index;
             }
             checked: mainListView.openPageIndex == index
