@@ -20,7 +20,7 @@
 import QtQuick 2.6
 import QtQuick.Controls 2.1 as Controls
 import QtQuick.Layouts 1.2
-import org.kde.kirigami 2.4
+import org.kde.kirigami 2.8
 
 ScrollablePage {
     id: page
@@ -77,27 +77,84 @@ ScrollablePage {
     }
 
     header: Controls.ToolBar {
-        RowLayout {
-            anchors.verticalCenter: parent.verticalCenter
-            Controls.ToolButton {
-                text: "ToolButton"
-            }
-            Controls.ToolButton {
-                text: "Menu"
-                onClicked: menu.open();
-                Controls.Menu {
-                    id: menu
-                    y: parent.height
-
-                    Controls.MenuItem {
-                        checkable: true
-                        text: "Item1"
+        contentItem: ActionToolBar {
+            id: actionToolBar
+            actions: [
+                Action {
+                    id: textBesideAction
+                    icon.name: "document-edit"
+                    text: qsTr("Text Beside Icon")
+                    checkable: true
+                    checked: true
+                    onCheckedChanged: {
+                        if (checked) {
+                            actionToolBar.display = Controls.Button.TextBesideIcon;
+                            textUnderAction.checked = false;
+                            textOnlyAction.checked = false;
+                            iconOnlyAction.checked = false;
+                        }
                     }
-                    Controls.MenuItem {
-                        text: "Item2"
+                },
+                Action {
+                    id: textUnderAction
+                    icon.name: "document-edit"
+                    text: qsTr("Text Under Icon")
+                    checkable: true
+                    checked: false
+                    onCheckedChanged: {
+                        if (checked) {
+                            actionToolBar.display = Controls.Button.TextUnderIcon;
+                            textBesideAction.checked = false;
+                            textOnlyAction.checked = false;
+                            iconOnlyAction.checked = false;
+                        }
+                    }
+                },
+                Action {
+                    id: textOnlyAction
+                    icon.name: "document-edit"
+                    text: qsTr("Text Only")
+                    checkable: true
+                    checked: false
+                    onCheckedChanged:  {
+                        if (checked) {
+                            actionToolBar.display = Controls.Button.TextOnly;
+                            textUnderAction.checked = false;
+                            textBesideAction.checked = false;
+                            iconOnlyAction.checked = false;
+                        }
+                    }
+                },
+                Action {
+                    id: iconOnlyAction
+                    icon.name: "document-edit"
+                    text: qsTr("Icon Only")
+                    checkable: true
+                    checked: false
+                    onCheckedChanged:  {
+                        if (checked) {
+                            actionToolBar.display = Controls.Button.IconOnly;
+                            textUnderAction.checked = false;
+                            textOnlyAction.checked = false;
+                            textBesideAction.checked = false;
+                        }
                     }
                 }
-            }
+            ]
+            hiddenActions: [
+                Action {
+                    icon.name: "document-edit"
+                    text: "Action 5"
+                },
+                Action {
+                    icon.name: "document-edit"
+                    text: "Action 6"
+                },
+                Action {
+                    icon.name: "document-edit"
+                    text: "Action 7"
+                }
+            ]
         }
     }
 
