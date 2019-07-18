@@ -4,17 +4,34 @@
   <name>Kirigami Gallery</name>
   <name xml:lang="ast">Galería Kirigami</name>
   <name xml:lang="ca">Galeria del Kirigami</name>
+  <name xml:lang="ca-valencia">Galeria del Kirigami</name>
+  <name xml:lang="de">Kirigami-Galerie</name>
+  <name xml:lang="en-GB">Kirigami Gallery</name>
+  <name xml:lang="es">Galería de Kirigami</name>
+  <name xml:lang="gl">Galería de Kirigami</name>
+  <name xml:lang="id">Kirigami Gallery</name>
+  <name xml:lang="ko">Kirigami 갤러리</name>
   <name xml:lang="nl">Kirigami galerij</name>
   <name xml:lang="pt">Galeria do Kirigami</name>
-  <name xml:lang="sv">Kirigami galleri</name>
+  <name xml:lang="pt-BR">Galeria do Kirigami</name>
+  <name xml:lang="sk">Galéria Kirigami</name>
+  <name xml:lang="sv">Kirigami-galleri</name>
   <name xml:lang="uk">Галерея Kirigami</name>
   <name xml:lang="x-test">xxKirigami Galleryxx</name>
   <summary>Shows examples of Kirigami components and allows you to play with them</summary>
   <summary xml:lang="ast">Amuesa exemplos de los componentes de Kirigami y permítete xugar con ellos</summary>
   <summary xml:lang="ca">Mostra exemples de components del Kirigami i permet jugar-hi</summary>
+  <summary xml:lang="ca-valencia">Mostra exemples de components del Kirigami i permet jugar-hi</summary>
+  <summary xml:lang="en-GB">Shows examples of Kirigami components and allows you to play with them</summary>
+  <summary xml:lang="es">Muestra ejemplos de componentes de Kirigami y le permite probarlos</summary>
+  <summary xml:lang="gl">Mostra exemplos de compoñentes de Kirigami e permítelle xogar con eles</summary>
+  <summary xml:lang="id">Menampilkan contoh komponen Kirigami dan memungkinkan kamu untuk bermain dengannya</summary>
+  <summary xml:lang="ko">Kirigami 구성 요소를 표시하고 테스트하기</summary>
   <summary xml:lang="nl">Toont voorbeelden van Kirigami componenten en laat u met ze spelen</summary>
   <summary xml:lang="pt">Mostra exemplos de componentes do Kirigami e permite interagir com eles</summary>
-  <summary xml:lang="sv">Visar exempel på Kirigami-komponenter och låter dig leka med dem</summary>
+  <summary xml:lang="pt-BR">Mostra exemplos dos componentes do Kirigami e permite-lhe jogar com eles</summary>
+  <summary xml:lang="sk">Zobrazí príklady Kirigami komponentov a umožní vám hrať sa s nimi</summary>
+  <summary xml:lang="sv">Visar exempel på komponenter i Kirigami och låter dig leka med dem</summary>
   <summary xml:lang="uk">Показує приклади компонентів Kirigami і надає вам змогу погратися з ними</summary>
   <summary xml:lang="x-test">xxShows examples of Kirigami components and allows you to play with themxx</summary>
   <description>
@@ -23,22 +40,41 @@
       </p>
     <p xml:lang="ast">Visualiza exemplos de los componentes de Kirigami</p>
     <p xml:lang="ca">Mostra exemples de components del Kirigami</p>
+    <p xml:lang="ca-valencia">Mostra exemples de components del Kirigami</p>
+    <p xml:lang="en-GB">View examples of Kirigami components</p>
+    <p xml:lang="es">Ver ejemplos de componentes de Kirigami</p>
+    <p xml:lang="gl">Ver exemplos de compoñentes de Kirigami</p>
+    <p xml:lang="id">Tampilan contoh komponen Kirigami</p>
+    <p xml:lang="ko">Kirigami 구성 요소를 표시하고 테스트하기</p>
     <p xml:lang="nl">Voorbeelden van Kirigami componenten bekijken</p>
     <p xml:lang="pt">Ver exemplos de componentes do Kirigami</p>
-    <p xml:lang="sv">Visa exempel på Kirigami-komponenter</p>
+    <p xml:lang="pt-BR">Veja exemplos dos componentes do Kirigami</p>
+    <p xml:lang="sk">Zobraziť príklady komponentov Kirigami</p>
+    <p xml:lang="sv">Visa exempel på komponenter i Kirigami</p>
     <p xml:lang="uk">Перегляд прикладів компонентів Kirigami</p>
     <p xml:lang="x-test">xxView examples of Kirigami componentsxx</p>
+    <p xml:lang="zh-TW">檢視 Kirigami 元件範例</p>
   </description>
   <url type="homepage">http://kde.org</url>
   <url type="donation">https://www.kde.org/donate.php?app=org.kde.kirigami2.gallery</url>
   <developer_name>Marco Martin &lt;mart@kde.org&gt;</developer_name>
   <developer_name xml:lang="ast">Marco Martin &lt;mart@kde.org&gt;</developer_name>
   <developer_name xml:lang="ca">Marco Martin &lt;mart@kde.org&gt;</developer_name>
+  <developer_name xml:lang="ca-valencia">Marco Martin &lt;mart@kde.org&gt;</developer_name>
+  <developer_name xml:lang="de">Marco Martin &lt;mart@kde.org&gt;</developer_name>
+  <developer_name xml:lang="en-GB">Marco Martin &lt;mart@kde.org&gt;</developer_name>
+  <developer_name xml:lang="es">Marco Martin &lt;mart@kde.org&gt;</developer_name>
+  <developer_name xml:lang="gl">Marco Martin &lt;mart@kde.org&gt;</developer_name>
+  <developer_name xml:lang="id">Marco Martin &lt;mart@kde.org&gt;</developer_name>
+  <developer_name xml:lang="ko">Marco Martin &lt;mart@kde.org&gt;</developer_name>
   <developer_name xml:lang="nl">Marco Martin &lt;mart@kde.org&gt;</developer_name>
   <developer_name xml:lang="pt">Marco Martin &lt;mart@kde.org&gt;</developer_name>
+  <developer_name xml:lang="pt-BR">Marco Martin &lt;mart@kde.org&gt;</developer_name>
+  <developer_name xml:lang="sk">Marco Martin &lt;mart@kde.org&gt;</developer_name>
   <developer_name xml:lang="sv">Marco Martin &lt;mart@kde.org&gt;</developer_name>
   <developer_name xml:lang="uk">Marco Martin &lt;mart@kde.org&gt;</developer_name>
   <developer_name xml:lang="x-test">xxMarco Martin &lt;mart@kde.org&gt;xx</developer_name>
+  <developer_name xml:lang="zh-TW">Marco Martin &lt;mart@kde.org&gt;</developer_name>
   <icon type="stock">preferences-desktop-theme</icon>
   <project_license>GPL-2.0</project_license>
   <metadata_license>CC0-1.0</metadata_license>
