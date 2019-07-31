@@ -22,6 +22,7 @@
   <summary xml:lang="ast">Amuesa exemplos de los componentes de Kirigami y permítete xugar con ellos</summary>
   <summary xml:lang="ca">Mostra exemples de components del Kirigami i permet jugar-hi</summary>
   <summary xml:lang="ca-valencia">Mostra exemples de components del Kirigami i permet jugar-hi</summary>
+  <summary xml:lang="de">Zeigt Beispiele von Kirigami-Komponenten und ermöglicht es, sie auszuprobieren</summary>
   <summary xml:lang="en-GB">Shows examples of Kirigami components and allows you to play with them</summary>
   <summary xml:lang="es">Muestra ejemplos de componentes de Kirigami y le permite probarlos</summary>
   <summary xml:lang="gl">Mostra exemplos de compoñentes de Kirigami e permítelle xogar con eles</summary>
@@ -41,6 +42,7 @@
     <p xml:lang="ast">Visualiza exemplos de los componentes de Kirigami</p>
     <p xml:lang="ca">Mostra exemples de components del Kirigami</p>
     <p xml:lang="ca-valencia">Mostra exemples de components del Kirigami</p>
+    <p xml:lang="de">Anzeige von Beispielen von Kirigami-Komponenten</p>
     <p xml:lang="en-GB">View examples of Kirigami components</p>
     <p xml:lang="es">Ver ejemplos de componentes de Kirigami</p>
     <p xml:lang="gl">Ver exemplos de compoñentes de Kirigami</p>
