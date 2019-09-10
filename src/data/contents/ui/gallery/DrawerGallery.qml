@@ -27,7 +27,7 @@ import "components"
 Kirigami.ScrollablePage {
     id: page
 
-    title: qsTr("Overlay Sheets")
+    title: qsTr("Drawers")
 
     actions{
         main: Kirigami.Action {
