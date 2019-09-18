@@ -28,6 +28,7 @@ Kirigami.OverlaySheet {
     property Kirigami.Page page
     property url higUrl: infoData.higUrl
     property url sourceUrl: infoData.sourceUrl
+    property url apiUrl: infoData.apiUrl
     property alias title: titleLabel.text
     property alias text: mainText.text
     property alias component: infoData.component
@@ -57,6 +58,11 @@ Kirigami.OverlaySheet {
             text: qsTr("Source code...")
             enabled: sourceUrl != ""
             onClicked: Qt.openUrlExternally(sourceUrl)
+        }
+        Controls.ToolButton {
+            text: qsTr("API...")
+            enabled: apiUrl != ""
+            onClicked: Qt.openUrlExternally(apiUrl)
         }
     }
 

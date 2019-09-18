@@ -40,6 +40,11 @@ QString InfoData::sourceUrl() const
     return m_sourceUrl;
 }
 
+QString InfoData::apiUrl() const
+{
+    return m_apiUrl;
+}
+
 QString InfoData::title() const
 {
     return m_title;
@@ -63,6 +68,7 @@ void InfoData::clearComponentData()
 {
     m_sourceUrl = QString();
     m_higUrl = QString();
+    m_apiUrl = QString();
     m_title = QString();
     m_text = QString();
 }
@@ -76,6 +82,8 @@ void InfoData::setComponentData()
         sourceUrlChanged();
         m_higUrl = componentVariant.contains("higUrl") ? componentVariant["higUrl"].toString() : QString();
         higUrlChanged();
+        m_apiUrl = componentVariant.contains("apiUrl") ? componentVariant["apiUrl"].toString() : QString();
+        apiUrlChanged();
         m_title = componentVariant.contains("title") ? componentVariant["title"].toString() : QString();
         titleChanged();
         m_text = componentVariant.contains("text") ? componentVariant["text"].toString() : QString();

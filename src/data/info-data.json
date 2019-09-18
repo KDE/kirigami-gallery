@@ -2,7 +2,8 @@
     "FormLayoutGallery": {
         "title":"Form Layout", 
         "higUrl": "https://hig.kde.org/patterns/content/form.html", 
-        "sourceUrl": "https://cgit.kde.org/kirigami-gallery.git/tree/src/data/contents/ui/gallery/FormLayoutGallery.qml", 
+        "sourceUrl": "https://cgit.kde.org/kirigami-gallery.git/tree/src/data/contents/ui/gallery/FormLayoutGallery.qml",
+        "apiUrl": "https://api.kde.org/frameworks/kirigami/html/classorg_1_1kde_1_1kirigami_1_1FormLayout.html",
         "text": "<p>A Form layout is used to help align and structure a layout containing many control and input fields</p><br><p><b>When to use</b></p><br><ul><li>Use a Form layout when there are many related controls and input fields.</li><li>Form layouts are ideal for settings dialogs</li></ul>"
     },
     "SelectionControlsGallery" : {
@@ -15,31 +16,37 @@
         "title": "Cards Layout",
         "higUrl": "https://hig.kde.org/components/editing/card.html",
         "sourceUrl": "https://cgit.kde.org/kirigami-gallery.git/tree/src/data/contents/ui/gallery/CardsLayoutGallery.qml",
+        "apiUrl": "https://api.kde.org/frameworks/kirigami/html/classorg_1_1kde_1_1kirigami_1_1CardsLayout.html",
         "text": "The Kirigami types AbstractCard and Card are used to implement the popular Card pattern used on many mobile and web platforms that is used to display a collection of information or actions.<br>Besides the Card components, Kirigami offers also 3 kinds of views and positioners to help to present cards with beautiful and responsive layouts.<br><br>In this page, CardsLayout is presented, which should be used when the cards are not instantiated by a model or by a model which has always very few items (In the case of a big model CardsListView or CardsGridview should be used instead). They are presented as a grid of two columns which will remain centered if the application is really wide, or become a single column if there is not enough space for two columns, such as a mobile phone screen.<br>A CardsLayout should always be contained within a ColumnLayout."
     },
     "DrawerGallery": {
         "title": "Drawers",
         "sourceUrl": "https://cgit.kde.org/kirigami-gallery.git/tree/src/data/contents/ui/gallery/DrawerGallery.qml",
+        "apiUrl": "https://api.kde.org/frameworks/kirigami/html/classorg_1_1kde_1_1kirigami_1_1OverlayDrawer.html",
         "text": "Drawers are bars anchored to an edge of the screen: left, right, top or bottom.<br>On the left edge they should contain controls and settings global for the whole app, and is strongly encouraged to use the default component GlobalDrawer and to have only one instance for the whole application.<br>On the right edge they should have context-dependent actions linked to the current Page. It is strongly suggested to use the default component ContextDrawer for this and to have only one instance for the whole application.<br>Drawers can be modal(default) in which they block input in the rest of the application window, clicking on a darkened out area will dismiss the drawer.<br>Non modal drawers will leave the rest of the application window functional and vertical(left and right edge) drawers will become sidebars.<br>Non modal drawers can also be collapsible, switching from a full vertical sidebar to a more compact vertical toolbar.<br>You can test between different Drawer modes in the \"Global Drawer Mode...\" menu entry in the global drawer of this application running on Desktop systems."
     },
     "OverlaySheetGallery": {
         "title": "Overlay Sheets",
         "sourceUrl": "https://cgit.kde.org/kirigami-gallery.git/tree/src/data/contents/ui/gallery/OverlaySheetGallery.qml",
+        "apiUrl": "https://api.kde.org/frameworks/kirigami/html/classorg_1_1kde_1_1kirigami_1_1OverlaySheet.html",
         "text": "The OverlaySheet control is a kind of modal content which goes over the main application content (either just the page or the whole app area) which is supposed to be used to display long contents, which may be taller than the application window itself, in which case the content will be scrollable.<br>The visual metaphore of the control is a piece of paper that scrolling, covering the page of the application, which can be dismissed scrolling it away (or tapping any area outside it)."
     },
     "CardsListViewGallery": {
         "title": "Cards List View",
         "sourceUrl": "https://cgit.kde.org/kirigami-gallery.git/tree/src/data/contents/ui/gallery/CardsListViewGallery.qml",
+        "apiUrl": "https://api.kde.org/frameworks/kirigami/html/classorg_1_1kde_1_1kirigami_1_1CardsListView.html",
         "text": "The Kirigami types AbstractCard and Card are used to implement the popular Card pattern used on many mobile and web platforms that is used to display a collection of information or actions.<br> Besides the Card components, Kirigami offers also 3 kinds of views and positioners to help to present cards with beautiful and responsive layouts.<br><br>In this page, CardsListView is used to do a list view of AbstractCard subclasses with a custom layout inside.<br> CardsListView should be used only with cards which can look good at any horizontal size, so it is recommended to use directly AbstractCard with an appropriate layout inside, because they are stretching for the whole list width.<br>Therefore is discouraged to use it with the Card type, unless it has Horizontal as headerOrientation.<br> The choice between using this view with AbstractCard or a normal ListView with AbstractListItem/BasicListItem is purely a choice based on aesthetics alone."
     },
     "CardsGridViewGallery" : {
         "title": "Cards Grid View",
         "sourceUrl": "https://cgit.kde.org/kirigami-gallery.git/tree/src/data/contents/ui/gallery/CardsGridViewGallery.qml",
+        "apiUrl": "https://api.kde.org/frameworks/kirigami/html/classorg_1_1kde_1_1kirigami_1_1CardsGridView.html",
         "text": "The Kirigami types AbstractCard and Card are used to implement the popular Card pattern used on many mobile and web platforms that is used to display a collection of information or actions.<br> Besides the Card components, Kirigami offers also 3 kinds of views and positioners to help to present cards with beautiful and responsive layouts.<br><br>In this page, CardsGridView shows an example on how to put cards in a grid view, generated by a Qt model.<br>The behavior is same as CardsLayout, and it allows cards to be put in one or two columns depending from the available width.<br>CardsGridView has the limitation that every Card must have the same exact height, so cellHeight must be manually set to a value in which the content fits for every item.<br>If possible use cards only when you don't need to instantiate that many and use CardsLayout instead."
     },
     "InlineMessagesGallery" : {
         "title": "Inline Messages",
         "sourceUrl": "https://cgit.kde.org/kirigami-gallery.git/tree/src/data/contents/ui/gallery/InlineMessagesGallery.qml",
+        "apiUrl": "https://api.kde.org/frameworks/kirigami/html/classorg_1_1kde_1_1kirigami_1_1InlineMessage.html",
         "text": "Inline messages allow you to show various types of messages placed the same layout as content they relate to, instead of showing a message in an overlay. They are invisible by default and need to be explicitly set visible to be revealed."
     }
 }
