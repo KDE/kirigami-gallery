@@ -20,7 +20,7 @@
 import QtQuick 2.0
 import QtQuick.Controls 2.0 as Controls
 import QtQuick.Layouts 1.2
-import org.kde.kirigami 2.4
+import org.kde.kirigami 2.8
 
 ScrollablePage {
     id: root
@@ -114,6 +114,10 @@ ScrollablePage {
         Item {
             Layout.minimumWidth: Units.gridUnit *2
             Layout.minimumHeight: Layout.minimumWidth
+        }
+        Controls.Switch {
+            text: qsTr("Pin page")
+            onCheckedChanged: root.ColumnView.pinned = checked
         }
         Controls.Button {
             text: "Push Another Page"
