@@ -66,7 +66,7 @@ Kirigami.ScrollablePage {
         //currentIndex has focus, openPageIndex is the one actually open now
         activeFocusOnTab: true
         focus: true
-
+/*
         model: ListModel {
             ListElement {
                 text: qsTr("Buttons")
@@ -152,24 +152,146 @@ Kirigami.ScrollablePage {
                 text: "Metrics"
                 component: "Metrics"
             }
-        }
+        }*/
+        model: pageActions
+        property list<Kirigami.Action> pageActions: [
+            Kirigami.PagePoolAction {
+                text: qsTr("Buttons")
+                pagePool: mainPagePool
+                basePage: pageRoot
+                page: "gallery/ButtonGallery.qml"
+             },
+             Kirigami.PagePoolAction {
+                text: qsTr("Selection Controls")
+                pagePool: mainPagePool
+                basePage: pageRoot
+                page: "gallery/SelectionControlsGallery.qml"
+             },
+             Kirigami.PagePoolAction {
+                text: qsTr("Overlay Sheets")
+                pagePool: mainPagePool
+                basePage: pageRoot
+                page: "gallery/OverlaySheetGallery.qml"
+            },
+            Kirigami.PagePoolAction {
+                text: qsTr("Drawers")
+                pagePool: mainPagePool
+                basePage: pageRoot
+                page: "gallery/DrawerGallery.qml"
+            },
+            Kirigami.PagePoolAction {
+                text: "Progress Bar"
+                pagePool: mainPagePool
+                basePage: pageRoot
+                page: "gallery/ProgressBarGallery.qml"
+            },
+            Kirigami.PagePoolAction {
+                text: "Slider"
+                pagePool: mainPagePool
+                basePage: pageRoot
+                page: "gallery/SliderGallery.qml"
+            },
+            Kirigami.PagePoolAction {
+                text: "Tab Bar"
+                pagePool: mainPagePool
+                basePage: pageRoot
+                page: "gallery/TabBarGallery.qml"
+            },
+            Kirigami.PagePoolAction {
+                text: "Text Field"
+                pagePool: mainPagePool
+                basePage: pageRoot
+                page: "gallery/TextFieldGallery.qml"
+            },
+            Kirigami.PagePoolAction {
+                text: "Form Layout"
+                pagePool: mainPagePool
+                basePage: pageRoot
+                page: "gallery/FormLayoutGallery.qml"
+            },
+            Kirigami.PagePoolAction {
+                text: "Cards Layout"
+                pagePool: mainPagePool
+                basePage: pageRoot
+                page: "gallery/CardsLayoutGallery.qml"
+            },
+            Kirigami.PagePoolAction {
+                text: "List view of cards"
+                pagePool: mainPagePool
+                basePage: pageRoot
+                page: "gallery/CardsListViewGallery.qml"
+            },
+            Kirigami.PagePoolAction {
+                text: "Grid view of cards"
+                pagePool: mainPagePool
+                basePage: pageRoot
+                page: "gallery/CardsGridViewGallery.qml"
+            },
+            Kirigami.PagePoolAction {
+                text: "Inline Messages"
+                pagePool: mainPagePool
+                basePage: pageRoot
+                page: "gallery/InlineMessagesGallery.qml"
+            },
+            Kirigami.PagePoolAction {
+                text: "Multiple Columns"
+                pagePool: mainPagePool
+                basePage: pageRoot
+                page: "gallery/MultipleColumnsGallery.qml"
+            },
+            Kirigami.PagePoolAction {
+                text: "Misc widgets"
+                pagePool: mainPagePool
+                basePage: pageRoot
+                page: "gallery/MisGallery.qmlc"
+            },
+            Kirigami.PagePoolAction {
+                text: "List View"
+                pagePool: mainPagePool
+                basePage: pageRoot
+                page: "gallery/ListViewGallery.qml"
+            },
+            Kirigami.PagePoolAction {
+                text: "List Headers"
+                pagePool: mainPagePool
+                basePage: pageRoot
+                page: "gallery/ListViewHeaderItemsGallery.qml"
+            },
+            Kirigami.PagePoolAction {
+                text: "Non Scrollable Page"
+                pagePool: mainPagePool
+                basePage: pageRoot
+                page: "gallery/NonScrollablGallery.qmle"
+            },
+            Kirigami.PagePoolAction {
+                text: "Colors"
+                pagePool: mainPagePool
+                basePage: pageRoot
+                page: "gallery/ColorsGallery.qml"
+            },
+            Kirigami.PagePoolAction {
+                text: "Color Sets"
+                pagePool: mainPagePool
+                basePage: pageRoot
+                page: "gallery/ColorSetGallery.qml"
+            },
+            Kirigami.PagePoolAction {
+                text: "Metrics"
+                pagePool: mainPagePool
+                basePage: pageRoot
+                page: "gallery/MetricsGallery.qml"
+            }
+        ]
         delegate: Kirigami.BasicListItem {
             id: listItem
 
             reserveSpaceForIcon: false
-            label: model.text
+            label: modelData.text
 
             Accessible.role: Accessible.MenuItem
-            property Item ownPage
-            onClicked: {
-                if (!model.component) {
-                    return;
-                }
-                root.pageStack.pop(pageRoot);
-                root.pageStack.push(mainPagePool.loadPage("gallery/" + model.component + "Gallery.qml"));
-            }
+            onClicked: modelData.trigger()
 
-            checked: mainPagePool.resolvedUrl(page) == mainPagePool.lastLoadedUrl
+            checked: modelData.checked
             highlighted: focus && ListView.isCurrentItem
         }
     }
