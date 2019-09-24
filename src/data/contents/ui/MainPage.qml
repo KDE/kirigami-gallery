@@ -58,13 +58,12 @@ Kirigami.ScrollablePage {
     }
 
     Kirigami.PagePool {
-        id: pagePool
+        id: mainPagePool
     }
     ListView {
         id: mainListView
         currentIndex: -1
         //currentIndex has focus, openPageIndex is the one actually open now
-        property int openPageIndex: -1
         activeFocusOnTab: true
         focus: true
 
@@ -167,10 +166,10 @@ Kirigami.ScrollablePage {
                     return;
                 }
                 root.pageStack.pop(pageRoot);
-                root.pageStack.push(pagePool.pageForUrl("gallery/" + model.component + "Gallery.qml"));
-                mainListView.openPageIndex = index;
+                root.pageStack.push(mainPagePool.loadPage("gallery/" + model.component + "Gallery.qml"));
             }
-            checked: mainListView.openPageIndex == index
+
+            checked: mainPagePool.resolvedUrl(page) == mainPagePool.lastLoadedUrl
             highlighted: focus && ListView.isCurrentItem
         }
     }
