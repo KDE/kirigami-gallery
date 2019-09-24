@@ -20,7 +20,7 @@
 import QtQuick 2.1
 import QtQuick.Controls 2.0 as QQC2
 import QtQuick.Layouts 1.2
-import org.kde.kirigami 2.4 as Kirigami
+import org.kde.kirigami 2.10 as Kirigami
 
 Kirigami.ScrollablePage {
     id: pageRoot
@@ -57,6 +57,9 @@ Kirigami.ScrollablePage {
         ]
     }
 
+    Kirigami.PagePool {
+        id: pagePool
+    }
     ListView {
         id: mainListView
         currentIndex: -1
@@ -164,7 +167,7 @@ Kirigami.ScrollablePage {
                     return;
                 }
                 root.pageStack.pop(pageRoot);
-                root.pageStack.push(Qt.resolvedUrl("gallery/" + model.component + "Gallery.qml"));
+                root.pageStack.push(pagePool.pageForUrl("gallery/" + model.component + "Gallery.qml"));
                 mainListView.openPageIndex = index;
             }
             checked: mainListView.openPageIndex == index
