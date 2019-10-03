@@ -20,7 +20,7 @@
 import QtQuick 2.1
 import QtQuick.Controls 2.0 as QQC2
 import QtQuick.Layouts 1.2
-import org.kde.kirigami 2.10 as Kirigami
+import org.kde.kirigami 2.11 as Kirigami
 
 Kirigami.ScrollablePage {
     id: pageRoot
@@ -198,15 +198,9 @@ Kirigami.ScrollablePage {
         ]
         delegate: Kirigami.BasicListItem {
             id: listItem
-
             reserveSpaceForIcon: false
-            label: modelData.text
-
-            Accessible.role: Accessible.MenuItem
-            onClicked: modelData.trigger()
-
-            checked: modelData.checked
-            highlighted: focus && ListView.isCurrentItem
+            //Accessible.role: Accessible.MenuItem
+            action: modelData
         }
     }
 }
