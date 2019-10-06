@@ -157,7 +157,7 @@ Kirigami.ScrollablePage {
                 text: "Misc widgets"
                 pagePool: mainPagePool
                 basePage: pageRoot
-                page: "gallery/MisGallery.qmlc"
+                page: "gallery/MiscGallery.qml"
             },
             Kirigami.PagePoolAction {
                 text: "List View"
@@ -175,7 +175,7 @@ Kirigami.ScrollablePage {
                 text: "Non Scrollable Page"
                 pagePool: mainPagePool
                 basePage: pageRoot
-                page: "gallery/NonScrollablGallery.qmle"
+                page: "gallery/NonScrollableGallery.qml"
             },
             Kirigami.PagePoolAction {
                 text: "Colors"
