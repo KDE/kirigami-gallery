@@ -20,16 +20,32 @@
 import QtQuick 2.1
 import QtQuick.Controls 2.0 as Controls
 import QtQuick.Layouts 1.2
-import org.kde.kirigami 2.4 as Kirigami
+import org.kde.kirigami 2.11 as Kirigami
 import "gallery"
 
 Kirigami.ApplicationWindow {
     id: root
 
     globalDrawer: Kirigami.GlobalDrawer {
+        id: globalDrawer
         title: "Widget gallery"
         titleIcon: "applications-graphics"
         bannerImageSource: "banner.jpg"
+
+        showHeaderWhenCollapsed: true
+        header: RowLayout {
+            Layout.fillWidth: true
+            Controls.ToolButton {
+                icon.name: "application-menu"
+                visible: globalDrawer.collapsible
+                checked: !globalDrawer.collapsed
+                onClicked: globalDrawer.collapsed = !globalDrawer.collapsed
+            }
+            Kirigami.SearchField {
+                visible: !globalDrawer.collapsed
+                Layout.fillWidth: true
+            }
+        }
 
         actions: [
             Kirigami.Action {
@@ -134,9 +150,15 @@ Kirigami.ApplicationWindow {
                 text: "Title style..."
                 iconName: "format-border-set-top"
                 Kirigami.Action {
+                    text: qsTr("Show Banner")
+                    checked: globalDrawer.bannerVisible
+                    onTriggered: globalDrawer.bannerVisible = !globalDrawer.bannerVisible
+                }
+                Kirigami.Action {
                     text: "Title And Image"
                     checked: root.globalDrawer.title.length > 0 && 
                         root.globalDrawer.bannerImageSource.toString().length > 0
+                    enabled: globalDrawer.bannerVisible
                     onTriggered: {
                         root.globalDrawer.title = "Widget gallery"
                         root.globalDrawer.titleIcon = "applications-graphics"
@@ -147,6 +169,7 @@ Kirigami.ApplicationWindow {
                     text: "Title Only"
                     checked: root.globalDrawer.title.length > 0 && 
                         root.globalDrawer.bannerImageSource.toString().length == 0
+                    enabled: globalDrawer.bannerVisible
                     onTriggered: {
                         root.globalDrawer.title = "Widget gallery"
                         root.globalDrawer.titleIcon = "applications-graphics"
@@ -157,6 +180,7 @@ Kirigami.ApplicationWindow {
                     text: "None"
                     checked: root.globalDrawer.title.length == 0 && 
                         root.globalDrawer.bannerImageSource.toString().length == 0
+                    enabled: globalDrawer.bannerVisible
                     onTriggered: {
                         root.globalDrawer.title = ""
                         root.globalDrawer.titleIcon = "";
