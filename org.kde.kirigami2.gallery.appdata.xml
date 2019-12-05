@@ -101,4 +101,7 @@
   <provides>
     <binary>kirigami2gallery</binary>
   </provides>
+  <releases>
+    <release version="5.47.0" date="2019-12-12"/>
+  </releases>
 </component>
