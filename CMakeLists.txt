@@ -30,6 +30,8 @@ set(CMAKE_INCLUDE_CURRENT_DIR ON)
 find_package(ECM 5.47.0 NO_MODULE)
 set_package_properties(ECM PROPERTIES TYPE REQUIRED DESCRIPTION "Extra CMake Modules." URL "https://projects.kde.org/projects/kdesupport/extra-cmake-modules")
 
+option(ENABLE_QML_PROFILING "Enable QML profiler support" ON)
+
 # where to look first for cmake modules, before ${CMAKE_ROOT}/Modules/ is checked
 set(CMAKE_MODULE_PATH ${CMAKE_MODULE_PATH} ${ECM_MODULE_PATH})
 

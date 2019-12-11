@@ -1,4 +1,7 @@
 
+if (ENABLE_QML_PROFILING)
+    add_definitions(-DQT_QML_DEBUG)
+endif()
 
 set(kirigami2gallery_SRCS
     main.cpp
