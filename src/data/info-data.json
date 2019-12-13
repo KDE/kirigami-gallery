@@ -48,5 +48,11 @@
         "sourceUrl": "https://cgit.kde.org/kirigami-gallery.git/tree/src/data/contents/ui/gallery/InlineMessagesGallery.qml",
         "apiUrl": "https://api.kde.org/frameworks/kirigami/html/classorg_1_1kde_1_1kirigami_1_1InlineMessage.html",
         "text": "Inline messages allow you to show various types of messages placed the same layout as content they relate to, instead of showing a message in an overlay. They are invisible by default and need to be explicitly set visible to be revealed."
+    },
+    "ActionToolBar": {
+        "title": "Action Tool Bar",
+        "sourceUrl": "https://cgit.kde.org/kirigami-gallery.git/tree/src/data/contents/ui/gallery/ActionToolBarGallery.qml",
+        "apiUrl": "https://api.kde.org/frameworks/kirigami/html/classorg_1_1kde_1_1kirigami_1_1ActionToolBar.html",
+        "text": "ActionToolBar is a component that can be used to display a list of Action objects. It will try to display as many of them as possible, with those that do not fit being put in an overflow menu. When resized, ActionToolBar will update which actions are visible and move them accordingly."
     }
 }

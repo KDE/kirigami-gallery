@@ -194,6 +194,12 @@ Kirigami.ScrollablePage {
                 pagePool: mainPagePool
                 basePage: pageRoot
                 page: "gallery/MetricsGallery.qml"
+            },
+            Kirigami.PagePoolAction {
+                text: "Action Tool Bar"
+                pagePool: mainPagePool
+                basePage: pageRoot
+                page: "gallery/ActionToolBarGallery.qml"
             }
         ]
         delegate: Kirigami.BasicListItem {
