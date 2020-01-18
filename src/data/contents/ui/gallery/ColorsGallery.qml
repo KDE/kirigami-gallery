@@ -44,6 +44,12 @@ ScrollablePage {
             "positiveTextColor",
             "backgroundColor",
             "highlightColor",
+            "activeBackgroundColor",
+            "linkBackgroundColor",
+            "visitedLinkBackgroundColor",
+            "negativeBackgroundColor",
+            "neutralBackgroundColor",
+            "positiveBackgroundColor",
             "focusColor",
             "hoverColor"];
 
