@@ -109,4 +109,7 @@
   <provides>
     <binary>kirigami2gallery</binary>
   </provides>
+  <custom>
+    <value key="KDE::google_play">https://play.google.com/store/apps/details?id=org.kde.kirigamigallery</value>
+  </custom>
 </component>
