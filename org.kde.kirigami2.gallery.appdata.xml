@@ -106,6 +106,7 @@
     <binary>kirigami2gallery</binary>
   </provides>
   <releases>
+    <release version="5.47.0" date="2020-03-05"/>
     <release version="5.47.0" date="2020-02-06"/>
     <release version="5.47.0" date="2020-01-09"/>
     <release version="5.47.0" date="2019-12-12"/>
