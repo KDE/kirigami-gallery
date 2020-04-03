@@ -156,7 +156,7 @@ Kirigami.ScrollablePage {
         }
     }
 
-     Kirigami.OverlaySheet {
+    Kirigami.OverlaySheet {
         id: listViewSheet
         header: Kirigami.Heading {
             text: qsTr("Title")
@@ -175,6 +175,40 @@ Kirigami.ScrollablePage {
             implicitWidth: Kirigami.Units.gridUnit * 30
             delegate: Kirigami.BasicListItem {
                 label: qsTr("Item in sheet ") + modelData
+            }
+        }
+    }
+
+    Kirigami.OverlaySheet {
+        id: gridViewSheet
+        header: Kirigami.Heading {
+            text: qsTr("Title")
+        }
+        footer: RowLayout {
+            Controls.Label {
+                text: qsTr("Footer:")
+            }
+            Controls.TextField {
+                Layout.fillWidth: true
+                Layout.alignment: Qt.AlignCenter
+            }
+        }
+        GridView {
+            id: gridView
+            model: 100
+            implicitWidth: Kirigami.Units.gridUnit * 30
+            cellWidth: Math.max(Kirigami.Units.gridUnit * 5, Math.floor(width / Math.floor(width / (Kirigami.Units.gridUnit * 5))))
+            cellHeight: cellWidth
+            delegate: Item {
+                width: gridView.cellWidth
+                height: gridView.cellHeight
+                Rectangle {
+                    color: Kirigami.Theme.highlightColor
+                    radius: Kirigami.Units.gridUnit
+                    anchors.centerIn: parent
+                    width: Math.round(gridView.cellWidth * 0.8)
+                    height: width
+                }
             }
         }
     }
@@ -207,6 +241,11 @@ Kirigami.ScrollablePage {
             text: "Sheet With List View"
             Layout.alignment: Qt.AlignHCenter
             onClicked: listViewSheet.open()
+        }
+        Controls.Button {
+            text: "Sheet With Grid View"
+            Layout.alignment: Qt.AlignHCenter
+            onClicked: gridViewSheet.open()
         }
     }
 }
