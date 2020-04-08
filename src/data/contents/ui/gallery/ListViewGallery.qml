@@ -20,7 +20,7 @@
 import QtQuick 2.4
 import QtQuick.Layouts 1.2
 import QtQuick.Controls 2.0 as Controls
-import org.kde.kirigami 2.5 as Kirigami
+import org.kde.kirigami 2.10 as Kirigami
 
 Kirigami.ScrollablePage {
     id: page
@@ -126,7 +126,8 @@ Kirigami.ScrollablePage {
                 for (var i = 0; i < 200; ++i) {
                     listModel.append({"title": "Item " + i,
                         "actions": [{text: "Action 1", icon: "document-decrypt"},
-                                    {text: "Action 2", icon: "mail-reply-sender"}]
+                                    {text: "Action 2", icon: "mail-reply-sender"}],
+                        "sec": Math.floor(i/10)
                     })
                 }
             }
@@ -140,6 +141,12 @@ Kirigami.ScrollablePage {
         delegate: Kirigami.DelegateRecycler {
             width: parent ? parent.width : implicitWidth
             sourceComponent: delegateComponent
+        }
+        section {
+            property: "sec"
+            delegate: Kirigami.ListSectionHeader {
+                text: "Section " + (parseInt(section) + 1)
+            }
         }
     }
 }
