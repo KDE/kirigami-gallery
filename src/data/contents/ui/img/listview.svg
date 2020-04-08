@@ -1,0 +1,39 @@
+<svg width="384" height="192" viewBox="0 0 384 192" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0)">
+<rect width="384" height="192" fill="#9D8900"/>
+<rect x="-0.5" y="-0.5" width="385" height="35" fill="#C4AB00" stroke="black"/>
+<rect x="-0.5" y="34.5" width="385" height="35" fill="#C4AB00" stroke="black"/>
+<rect x="-0.5" y="69.5" width="385" height="35" fill="#C4AB00" stroke="black"/>
+<rect x="-0.5" y="104.5" width="385" height="35" fill="#C4AB00" stroke="black"/>
+<rect x="-0.5" y="139.5" width="385" height="35" fill="#C4AB00" stroke="black"/>
+<rect x="-0.5" y="174.5" width="385" height="35" fill="#C4AB00" stroke="black"/>
+<rect x="30.5" y="11.5" width="253" height="11" rx="5.5" fill="#E8CB2D" stroke="black"/>
+<rect x="30.5" y="46.5" width="241" height="11" rx="5.5" fill="#E8CB2D" stroke="black"/>
+<rect x="30.5" y="81.5" width="288" height="11" rx="5.5" fill="#E8CB2D" stroke="black"/>
+<rect x="30.5" y="116.5" width="197" height="11" rx="5.5" fill="#E8CB2D" stroke="black"/>
+<rect x="30.5" y="151.5" width="134" height="11" rx="5.5" fill="#E8CB2D" stroke="black"/>
+<rect x="30.5" y="186.5" width="105" height="11" rx="5.5" fill="#E8CB2D" stroke="black"/>
+<rect x="10" y="11" width="10" height="1" fill="black"/>
+<rect x="10" y="16.5" width="10" height="1" fill="black"/>
+<rect x="10" y="22" width="10" height="1" fill="black"/>
+<rect x="10" y="46" width="10" height="1" fill="black"/>
+<rect x="10" y="51.5" width="10" height="1" fill="black"/>
+<rect x="10" y="57" width="10" height="1" fill="black"/>
+<rect x="10" y="81" width="10" height="1" fill="black"/>
+<rect x="10" y="86.5" width="10" height="1" fill="black"/>
+<rect x="10" y="92" width="10" height="1" fill="black"/>
+<rect x="10" y="116" width="10" height="1" fill="black"/>
+<rect x="10" y="121.5" width="10" height="1" fill="black"/>
+<rect x="10" y="127" width="10" height="1" fill="black"/>
+<rect x="10" y="151" width="10" height="1" fill="black"/>
+<rect x="10" y="156.5" width="10" height="1" fill="black"/>
+<rect x="10" y="162" width="10" height="1" fill="black"/>
+<rect x="10" y="186" width="10" height="1" fill="black"/>
+<rect x="10" y="191.5" width="10" height="1" fill="black"/>
+</g>
+<defs>
+<clipPath id="clip0">
+<rect width="384" height="192" fill="white"/>
+</clipPath>
+</defs>
+</svg>
