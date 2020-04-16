@@ -17,7 +17,7 @@
  *   51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
  */
 
-import QtQuick 2.1
+import QtQuick 2.3
 import QtQuick.Controls 2.0 as QQC2
 import QtQuick.Layouts 1.2
 import org.kde.kirigami 2.11 as Kirigami
@@ -27,14 +27,20 @@ Kirigami.ScrollablePage {
     id: pageRoot
 
     implicitWidth: Kirigami.Units.gridUnit * 20
-    background: Rectangle {
-        color: Kirigami.Theme.backgroundColor
-    }
 
+    leftPadding: 0
+    rightPadding: 0
+    bottomPadding: 0
+    topPadding: 0
     title: qsTr("Kirigami Gallery")
 
     //flickable: mainListView
     actions {
+        main: Kirigami.Action {
+            iconName: "go-home"
+            enabled: root.pageStack.lastVisibleItem != pageRoot
+            onTriggered: root.pageStack.pop(-1)
+        }
         contextualActions: [
             Kirigami.Action {
                 text:"Action 1"
@@ -189,19 +195,41 @@ Kirigami.ScrollablePage {
             }
         }
     }
+    KSortFilterProxyModel {
+        id: filteredModel
+        sourceModel: galleryModel
+        filterRole: "title"
+        filterRegularExpression: {
+            if (searchField.text === "") return new RegExp()
+            return new RegExp("%1".arg(searchField.text), "i")
+        }
+    }
+    background: Rectangle {
+        anchors.fill: parent
+        Kirigami.Theme.colorSet: Kirigami.Theme.View
+        color: Kirigami.Theme.backgroundColor
+    }
     ColumnLayout {
-        Kirigami.CardsLayout {
-            Repeater {
-                activeFocusOnTab: true
-                focus: true
-                model: KSortFilterProxyModel {
-                    sourceModel: galleryModel
-                    filterRole: "title"
-                    filterRegularExpression: {
-                        if (!searchAction.checked || searchField.text === "") return new RegExp()
-                        return new RegExp("%1".arg(searchField.text), "i")
-                    }
+        spacing: 0
+        Repeater {
+            focus: true
+            model: root.pageStack.wideMode ? filteredModel : 0
+            delegate: Kirigami.BasicListItem {
+                label: title
+                action: Kirigami.PagePoolAction {
+                    id: action
+                    pagePool: mainPagePool
+                    basePage: pageRoot
+                    page: targetPage
                 }
+            }
+        }
+        Kirigami.CardsLayout {
+            visible: !root.pageStack.wideMode
+            Layout.topMargin: Kirigami.Units.largeSpacing
+            Repeater {
+                focus: true
+                model: filteredModel
                 delegate: Kirigami.Card {
                     id: listItem
                     banner {
@@ -209,12 +237,22 @@ Kirigami.ScrollablePage {
                         title: title
                         titleAlignment: Qt.AlignBottom | Qt.AlignLeft
                     }
+                    Rectangle {
+                        anchors.fill: parent
+                        color: "transparent"
+                        border {
+                            width: listItem.activeFocus ? 2 : 0
+                            color: Kirigami.Theme.activeTextColor
+                        }
+                    }
+                    activeFocusOnTab: true
                     showClickFeedback: true
                     onClicked: action.trigger()
+                    Keys.onReturnPressed: action.trigger()
+                    Keys.onEnterPressed: action.trigger()
                     highlighted: action.checked
                     implicitWidth: Kirigami.Units.gridUnit * 30
                     Layout.maximumWidth: Kirigami.Units.gridUnit * 30
-
                     Kirigami.PagePoolAction {
                         id: action
                         pagePool: mainPagePool
