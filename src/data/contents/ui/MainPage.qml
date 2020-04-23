@@ -212,9 +212,9 @@ Kirigami.ScrollablePage {
                     showClickFeedback: true
                     onClicked: action.trigger()
                     highlighted: action.checked
-                    implicitWidth: Kirigami.Units.gridUnit*30
-                    implicitHeight: Kirigami.Units.gridUnit*10
-                    Layout.maximumWidth: Kirigami.Units.gridUnit*30
+                    implicitWidth: Kirigami.Units.gridUnit * 30
+                    Layout.maximumWidth: Kirigami.Units.gridUnit * 30
+
                     Kirigami.PagePoolAction {
                         id: action
                         pagePool: mainPagePool
