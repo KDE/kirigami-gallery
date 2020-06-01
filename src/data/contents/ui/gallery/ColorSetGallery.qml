@@ -40,7 +40,7 @@ Kirigami.ScrollablePage {
             Controls.ComboBox {
                 Kirigami.Theme.inherit: true
                 currentIndex: 0
-                model: ["View", "Window", "Button", "Selection", "Tooltip", "Complementary"]
+                model: ["View", "Window", "Button", "Selection", "Tooltip", "Complementary", "Header"]
                 onCurrentTextChanged: applicationWindow().globalDrawer.Kirigami.Theme.colorSet = currentText
             }
 
@@ -51,7 +51,7 @@ Kirigami.ScrollablePage {
             Controls.ComboBox {
                 Kirigami.Theme.inherit: true
                 currentIndex: 1
-                model: ["View", "Window", "Button", "Selection", "Tooltip", "Complementary"]
+                model: ["View", "Window", "Button", "Selection", "Tooltip", "Complementary", "Header"]
                 onCurrentTextChanged: page.Kirigami.Theme.colorSet = currentText
             }
         }

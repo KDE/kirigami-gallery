@@ -70,6 +70,8 @@ ScrollablePage {
             return "Theme.Tooltip";
         case 5:
             return "Theme.Complementary";
+        case 6:
+            return "Theme.Header";
         }
     }
 
@@ -78,7 +80,7 @@ ScrollablePage {
             text: "Colors by Theme.colorSet"
         }
         Repeater {
-            model: Theme.Complementary + 1
+            model: Theme.Header + 1
             delegate: Column {
                 width: parent.width
                 Heading {
