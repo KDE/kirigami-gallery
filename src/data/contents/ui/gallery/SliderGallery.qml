@@ -45,76 +45,71 @@ ScrollablePage {
         }
     }
 
-    ColumnLayout {
-        width: page.width
-
+    FormLayout {
+        id: formLayout
+        Controls.Slider {
+            FormData.label: "Normal Slider:"
+            id: normalSlider
+            Layout.minimumWidth: Units.gridUnit * 15
+            value: 1
+            to: 5.0
+        }
+        Controls.Slider {
+            id: disabledSlider
+            FormData.label: "Disabled Slider:"
+            enabled: false
+            Layout.minimumWidth: Units.gridUnit * 15
+            value: 2
+            to: 5.0
+        }
+        Controls.Slider {
+            FormData.label: "Slider with tickmarks:"
+            id: tickmarkSlider
+            Layout.minimumWidth: Units.gridUnit * 15
+            to: 5.0
+            stepSize: 1.0
+            value: 3
+        }
+        Controls.RangeSlider {
+            FormData.label: "Range Slider:"
+            id: normalRangeSlider
+            Layout.minimumWidth: Units.gridUnit * 15
+            to: 5.0
+            first.value: 0
+            second.value: 4
+        }
         Item {
-            Layout.fillWidth: true
-            Layout.minimumHeight: Units.gridUnit * 20
-            ColumnLayout {
-                anchors.centerIn: parent
-                spacing: Units.smallSpacing
-
-                Controls.Label {
-                    text: "Normal:"
-                }
-                Controls.Slider {
-                    id: slider
-                    Layout.minimumWidth: Units.gridUnit * 15
-                    value: 2
-                    to: 5.0
-                    Controls.ToolTip {
-                        parent: slider.handle
-                        visible: slider.pressed
-                        text: slider.position.toFixed(1)
-                    }
-                }
-                Controls.Label {
-                    text: "Disabled:"
-                }
-                Controls.Slider {
-                    enabled: false
-                    Layout.minimumWidth: Units.gridUnit * 15
-                    value: 2
-                    to: 5.0
-                }
-                Controls.Label {
-                    text: "Thickmarks:"
-                }
-                Controls.Slider {
-                    id: slider2
-                    Layout.minimumWidth: Units.gridUnit * 15
-                    to: 5.0
-                    stepSize: 1.0
-                    value: 3
-                    Controls.ToolTip {
-                        parent: slider2.handle
-                        visible: slider2.pressed
-                        text: slider2.position.toFixed(1)
-                    }
-                }
-                Controls.RangeSlider {}
-                Controls.Label {
-                    text: "Vertical:"
-                }
-                RowLayout {
-                    Layout.alignment: Qt.AlignHCenter
-                    Controls.Slider {
-                        Layout.minimumWidth: 2
-                        Layout.minimumHeight: Units.gridUnit * 10
-                        value: 2
-                        to: 5.0
-                        orientation: Qt.Vertical
-                    }
-                    Controls.Slider {
-                        Layout.minimumWidth: 2
-                        Layout.minimumHeight: Units.gridUnit * 10
-                        value: 3
-                        to: 5.0
-                        stepSize: 1.0
-                        orientation: Qt.Vertical
-                    }
-                }
+            FormData.label: "Vertical Sliders:"
+        }
+        RowLayout {
+            spacing: Math.round(normalSlider.width / 3)
+            
+            Controls.Slider {
+                id: verticalNormalSlider
+                Layout.minimumWidth: 2
+                Layout.minimumHeight: Units.gridUnit * 10
+                Layout.fillHeight: true
+                value: 2
+                to: 5.0
+                orientation: Qt.Vertical
+            }
+            Controls.Slider {
+                Layout.minimumWidth: 2
+                Layout.minimumHeight: Units.gridUnit * 10
+                Layout.fillHeight: true
+                value: 3
+                to: 5.0
+                stepSize: 1.0
+                orientation: Qt.Vertical
+            }
+            Controls.RangeSlider {
+                Layout.minimumWidth: 2
+                Layout.minimumHeight: Units.gridUnit * 10
+                Layout.fillHeight: true
+                to: 5.0
+                first.value: 0
+                second.value: 4
+                orientation: Qt.Vertical
             }
         }
     }
