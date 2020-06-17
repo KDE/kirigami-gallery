@@ -21,7 +21,6 @@ Name[ru]=Галерея Kirigami
 Name[sk]=Galéria Kirigami
 Name[sv]=Kirigami-galleri
 Name[uk]=Галерея Kirigami
-Name[x-test]=xxKirigami Galleryxx
 Name[zh_CN]=Kirigami 画廊
 Name[zh_TW]=Kirigami 畫廊
 Comment=Shows examples of Kirigami components and allows you to play with them
@@ -45,7 +44,6 @@ Comment[ru]=Просмотр примеров компонентов Kirigami
 Comment[sk]=Zobrazí príklady Kirigami komponentov a umožní vám hrať sa s nimi
 Comment[sv]=Visar exempel på komponenter i Kirigami och låter dig leka med dem
 Comment[uk]=Показує приклади компонентів Kirigami і надає вам змогу попрацювати з ними
-Comment[x-test]=xxShows examples of Kirigami components and allows you to play with themxx
 Comment[zh_CN]=显示 Kirigami 组件实例并允许您试用它们
 Comment[zh_TW]=顯示 Kirigami 元件的範例檔案，且允許您使用這些檔案
 
