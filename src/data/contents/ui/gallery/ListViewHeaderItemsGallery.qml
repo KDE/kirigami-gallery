@@ -55,14 +55,6 @@ Kirigami.ScrollablePage {
                     mainList.headerPositioning = ListView.InlineHeader;
                     overlayHeaderAction.checked = pullBackHeaderAction.checked = inlineHeaderAction.checked = false;
                 }
-            },
-            Kirigami.Action {
-                checkable: true
-                checked: true
-                text:"Header overlaps list"
-                onCheckedChanged: {
-                    mainList.headerItem.z = checked ? 10 : 0
-                }
             }
         ]
     }
