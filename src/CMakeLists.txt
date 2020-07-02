@@ -50,5 +50,5 @@ install(FILES data/metadata.desktop DESTINATION ${XDG_APPS_INSTALL_DIR} RENAME o
 
 if (CMAKE_SYSTEM_NAME STREQUAL "Android")
     find_package(KF5Kirigami2 REQUIRED)
-    kirigami_package_breeze_icons(ICONS applications-graphics view-list-icons folder-sync view-list-details configure document-edit dialog-information dialog-positive dialog-warning dialog-error dialog-cancel document-decrypt system-run mail-reply-sender bookmarks folder media-record-symbolic add-placemark address-book-new-symbolic view-right-new view-right-close documentinfo)
+    kirigami_package_breeze_icons(ICONS applications-graphics view-list-icons folder-sync view-list-details configure document-edit dialog-information dialog-positive dialog-warning dialog-error dialog-cancel document-decrypt system-run mail-reply-sender bookmarks folder media-record-symbolic add-placemark address-book-new-symbolic view-right-new view-right-close documentinfo go-home)
 endif()
