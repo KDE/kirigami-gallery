@@ -94,7 +94,7 @@ Kirigami.ScrollablePage {
             ColumnLayout {
                 Layout.rowSpan: 3
                 Kirigami.FormData.label: "Label for radios:"
-                Kirigami.FormData.buddyFor: firstRadio
+                Kirigami.FormData.buddyFor: thirdRadio//firstRadio
                 RadioButton {
                     id: firstRadio
                     checked: true
@@ -104,6 +104,7 @@ Kirigami.ScrollablePage {
                     text: "Two"
                 }
                 RadioButton {
+                    id: thirdRadio
                     text: "Three"
                 }
             }

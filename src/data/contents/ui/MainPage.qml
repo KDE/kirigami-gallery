@@ -227,6 +227,8 @@ Kirigami.ScrollablePage {
         Kirigami.CardsLayout {
             visible: !root.pageStack.wideMode
             Layout.topMargin: Kirigami.Units.largeSpacing
+            Layout.leftMargin: Kirigami.Units.gridUnit
+            Layout.rightMargin: Kirigami.Units.gridUnit
             Repeater {
                 focus: true
                 model: filteredModel
