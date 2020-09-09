@@ -1,6 +1,6 @@
 # Kirigami Gallery
 
-Example application which uses all features from kirigami, including links to the sourcecode, tips on how to use the components and links to the corresponding HIG pages and code examples on cgit
+Example application which uses all features from kirigami, including links to the sourcecode, tips on how to use the components and links to the corresponding HIG pages and code examples on invent.
 
 ## Build on Android:
 Make sure to install **android-sdk**, **android-ndk** and **android-qt5-arch**, where **arch** should be the same architecture that you aim to deploy.
