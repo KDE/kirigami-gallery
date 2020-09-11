@@ -1,6 +1,8 @@
 <?xml version='1.0' encoding='utf-8'?>
 <manifest package="org.kde.kirigamigallery" xmlns:android="http://schemas.android.com/apk/res/android" android:versionName="2.3" android:versionCode="7" android:installLocation="auto">
-    <application android:hardwareAccelerated="true" android:name="org.qtproject.qt5.android.bindings.QtApplication" android:label="Kirigami Gallery" android:icon="@drawable/icon">
+
+    <supports-screens android:largeScreens="true" android:normalScreens="true" android:anyDensity="true" android:smallScreens="true"/>
+    <application android:hardwareAccelerated="true" android:name="org.qtproject.qt5.android.bindings.QtApplication" android:label="Kirigami Gallery" android:icon="@mipmap/ic_launcher">
         <activity android:configChanges="orientation|uiMode|screenLayout|screenSize|smallestScreenSize|layoutDirection|locale|fontScale|keyboard|keyboardHidden|navigation"
                   android:name="org.qtproject.qt5.android.bindings.QtActivity"
                   android:label="Kirigami Gallery"
@@ -30,6 +32,7 @@
             <meta-data android:value="@string/ministro_not_found_msg" android:name="android.app.ministro_not_found_msg"/>
             <meta-data android:value="@string/ministro_needed_msg" android:name="android.app.ministro_needed_msg"/>
             <meta-data android:value="@string/fatal_error_msg" android:name="android.app.fatal_error_msg"/>
+            <meta-data android:value="@string/unsupported_android_version" android:name="android.app.unsupported_android_version"/>
             <!--  Messages maps -->
 
             <!-- Splash screen -->
@@ -49,9 +52,6 @@
             <!-- auto screen scale factor -->
         </activity>
     </application>
-    <uses-sdk android:minSdkVersion="21" />
-    <supports-screens android:largeScreens="true" android:normalScreens="true" android:anyDensity="true" android:smallScreens="true"/>
-
     <!-- The following comment will be replaced upon deployment with default features based on the dependencies of the application.
          Remove the comment if you do not require these default features. -->
     <!-- %%INSERT_FEATURES -->
