@@ -182,8 +182,6 @@ Kirigami.ScrollablePage {
     }
     header: QQC2.ToolBar {
         id: toolbar
-        Kirigami.Theme.colorSet: Kirigami.Theme.Header
-        Kirigami.Theme.inherit: false
         RowLayout {
             anchors.fill: parent
             Kirigami.SearchField {
