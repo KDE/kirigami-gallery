@@ -191,8 +191,6 @@ Kirigami.ScrollablePage {
 
                 Layout.alignment: Qt.AlignHCenter
                 Layout.fillWidth: true
-                Layout.leftMargin: Kirigami.Units.largeSpacing
-                Layout.rightMargin: Kirigami.Units.largeSpacing
                 Layout.maximumWidth: Kirigami.Units.gridUnit*30
             }
         }
