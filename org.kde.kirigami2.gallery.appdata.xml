@@ -22,6 +22,7 @@
   <name xml:lang="pl">Galeria Kirigami</name>
   <name xml:lang="pt">Galeria do Kirigami</name>
   <name xml:lang="pt-BR">Galeria do Kirigami</name>
+  <name xml:lang="ro">Galerie Kirigami</name>
   <name xml:lang="ru">Галерея Kirigami</name>
   <name xml:lang="sk">Galéria Kirigami</name>
   <name xml:lang="sl">Kirigami Gallery</name>
@@ -47,6 +48,7 @@
   <summary xml:lang="pl">Pokazuje przykłady składników Kirigami i umożliwia zabawę nimi</summary>
   <summary xml:lang="pt">Mostra exemplos de componentes do Kirigami e permite interagir com eles</summary>
   <summary xml:lang="pt-BR">Mostra exemplos dos componentes do Kirigami e permite-lhe jogar com eles</summary>
+  <summary xml:lang="ro">Arată exemple de componente Kirigami și vă permite să interacționați cu ele</summary>
   <summary xml:lang="sk">Zobrazí príklady Kirigami komponentov a umožní vám hrať sa s nimi</summary>
   <summary xml:lang="sl">Prikaže primere komponent Kirigami in omogoča igranje z njimi</summary>
   <summary xml:lang="sv">Visar exempel på komponenter i Kirigami och låter dig leka med dem</summary>
@@ -74,6 +76,7 @@
     <p xml:lang="pl">Obejrzyj przykłady składników Kirigami</p>
     <p xml:lang="pt">Ver exemplos de componentes do Kirigami</p>
     <p xml:lang="pt-BR">Veja exemplos dos componentes do Kirigami</p>
+    <p xml:lang="ro">Vedeți exemple de componente Kirigami</p>
     <p xml:lang="sk">Zobraziť príklady komponentov Kirigami</p>
     <p xml:lang="sl">Oglejte si primere komponent Kirigami</p>
     <p xml:lang="sv">Visa exempel på komponenter i Kirigami</p>
@@ -103,6 +106,7 @@
   <developer_name xml:lang="pl">Marco Martin &lt;mart@kde.org&gt;</developer_name>
   <developer_name xml:lang="pt">Marco Martin &lt;mart@kde.org&gt;</developer_name>
   <developer_name xml:lang="pt-BR">Marco Martin &lt;mart@kde.org&gt;</developer_name>
+  <developer_name xml:lang="ro">Marco Martin &lt;mart@kde.org&gt;</developer_name>
   <developer_name xml:lang="ru">Marco Martin &lt;mart@kde.org&gt;</developer_name>
   <developer_name xml:lang="sk">Marco Martin &lt;mart@kde.org&gt;</developer_name>
   <developer_name xml:lang="sl">Marco Martin &lt;mart@kde.org&gt;</developer_name>
