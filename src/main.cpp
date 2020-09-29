@@ -17,11 +17,6 @@
  *   51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
  */
 
-#ifdef Q_OS_ANDROID
-#include <QGuiApplication>
-#else
-#include <QApplication>
-#endif
 #include <QQmlApplicationEngine>
 #include <QtQml>
 #include <QUrl>
@@ -30,6 +25,8 @@
 
 #ifdef Q_OS_ANDROID
 #include <QtAndroid>
+#include <QGuiApplication>
+#include <QQuickStyle>
 
 // WindowManager.LayoutParams
 #define FLAG_TRANSLUCENT_STATUS 0x04000000
@@ -37,6 +34,8 @@
 // View
 #define SYSTEM_UI_FLAG_LIGHT_STATUS_BAR 0x00002000
 
+#else
+#include <QApplication>
 #endif
 
 
@@ -47,6 +46,7 @@ Q_DECL_EXPORT int main(int argc, char *argv[])
 //The desktop QQC2 style needs it to be a QApplication
 #ifdef Q_OS_ANDROID
     QGuiApplication app(argc, argv);
+    QQuickStyle::setStyle(QStringLiteral("Material"));
 #else
     QApplication app(argc, argv);
 #endif
