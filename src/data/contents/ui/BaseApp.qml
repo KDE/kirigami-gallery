@@ -30,7 +30,6 @@ Kirigami.ApplicationWindow {
         id: globalDrawer
         title: "Widget gallery"
         titleIcon: "applications-graphics"
-        bannerImageSource: "banner.jpg"
 
         showHeaderWhenCollapsed: true
         header: RowLayout {
@@ -150,41 +149,30 @@ Kirigami.ApplicationWindow {
                 text: "Title style..."
                 iconName: "format-border-set-top"
                 Kirigami.Action {
-                    text: qsTr("Show Banner")
-                    checked: globalDrawer.bannerVisible
-                    onTriggered: globalDrawer.bannerVisible = !globalDrawer.bannerVisible
-                }
-                Kirigami.Action {
                     text: "Title And Image"
-                    checked: root.globalDrawer.title.length > 0 && 
-                        root.globalDrawer.bannerImageSource.toString().length > 0
+                    checked: root.globalDrawer.title.length > 0
                     enabled: globalDrawer.bannerVisible
                     onTriggered: {
                         root.globalDrawer.title = "Widget gallery"
                         root.globalDrawer.titleIcon = "applications-graphics"
-                        root.globalDrawer.bannerImageSource = "banner.jpg"
                     }
                 }
                 Kirigami.Action {
                     text: "Title Only"
-                    checked: root.globalDrawer.title.length > 0 && 
-                        root.globalDrawer.bannerImageSource.toString().length == 0
+                    checked: root.globalDrawer.title.length > 0
                     enabled: globalDrawer.bannerVisible
                     onTriggered: {
                         root.globalDrawer.title = "Widget gallery"
                         root.globalDrawer.titleIcon = "applications-graphics"
-                        root.globalDrawer.bannerImageSource = ""
                     }
                 }
                 Kirigami.Action {
                     text: "None"
-                    checked: root.globalDrawer.title.length == 0 && 
-                        root.globalDrawer.bannerImageSource.toString().length == 0
+                    checked: root.globalDrawer.title.length == 0
                     enabled: globalDrawer.bannerVisible
                     onTriggered: {
                         root.globalDrawer.title = ""
                         root.globalDrawer.titleIcon = "";
-                        root.globalDrawer.bannerImageSource = ""
                     }
                 }
             },
