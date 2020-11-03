@@ -19,6 +19,7 @@
   <name xml:lang="it">Galleria di Kirigami</name>
   <name xml:lang="ko">Kirigami 갤러리</name>
   <name xml:lang="nl">Kirigami galerij</name>
+  <name xml:lang="nn">Kirigami-galleri</name>
   <name xml:lang="pl">Galeria Kirigami</name>
   <name xml:lang="pt">Galeria do Kirigami</name>
   <name xml:lang="pt-BR">Galeria do Kirigami</name>
@@ -45,6 +46,7 @@
   <summary xml:lang="it">Mostra esempi di componenti Kirigami e ti permette di giocare con essi</summary>
   <summary xml:lang="ko">Kirigami 구성 요소를 표시하고 테스트하기</summary>
   <summary xml:lang="nl">Toont voorbeelden van Kirigami componenten en laat u met ze spelen</summary>
+  <summary xml:lang="nn">Viser eksempel på Kirigami-komponentar og lèt deg leika med dei</summary>
   <summary xml:lang="pl">Pokazuje przykłady składników Kirigami i umożliwia zabawę nimi</summary>
   <summary xml:lang="pt">Mostra exemplos de componentes do Kirigami e permite interagir com eles</summary>
   <summary xml:lang="pt-BR">Mostra exemplos dos componentes do Kirigami e permite-lhe jogar com eles</summary>
@@ -73,6 +75,7 @@
     <p xml:lang="it">Visualizza esempi di componenti Kirigami</p>
     <p xml:lang="ko">Kirigami 구성 요소를 표시하고 테스트하기</p>
     <p xml:lang="nl">Voorbeelden van Kirigami componenten bekijken</p>
+    <p xml:lang="nn">Vis eksempel på Kirigami-komponentar</p>
     <p xml:lang="pl">Obejrzyj przykłady składników Kirigami</p>
     <p xml:lang="pt">Ver exemplos de componentes do Kirigami</p>
     <p xml:lang="pt-BR">Veja exemplos dos componentes do Kirigami</p>
@@ -103,6 +106,7 @@
   <developer_name xml:lang="it">Marco Martin &lt;mart@kde.org&gt;</developer_name>
   <developer_name xml:lang="ko">Marco Martin &lt;mart@kde.org&gt;</developer_name>
   <developer_name xml:lang="nl">Marco Martin &lt;mart@kde.org&gt;</developer_name>
+  <developer_name xml:lang="nn">Marco Martin &lt;mart@kde.org&gt;</developer_name>
   <developer_name xml:lang="pl">Marco Martin &lt;mart@kde.org&gt;</developer_name>
   <developer_name xml:lang="pt">Marco Martin &lt;mart@kde.org&gt;</developer_name>
   <developer_name xml:lang="pt-BR">Marco Martin &lt;mart@kde.org&gt;</developer_name>
