@@ -90,7 +90,7 @@
     <p xml:lang="x-test">xxView examples of Kirigami componentsxx</p>
     <p xml:lang="zh-TW">檢視 Kirigami 元件範例</p>
   </description>
-  <url type="homepage">http://kde.org</url>
+  <url type="homepage">https://kde.org</url>
   <url type="donation">https://www.kde.org/donate.php?app=org.kde.kirigami2.gallery</url>
   <developer_name>Marco Martin &lt;mart@kde.org&gt;</developer_name>
   <developer_name xml:lang="ast">Marco Martin &lt;mart@kde.org&gt;</developer_name>
