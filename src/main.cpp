@@ -18,6 +18,7 @@
  */
 
 #include <QQmlApplicationEngine>
+#include <QQuickStyle>
 #include <QtQml>
 #include <QUrl>
 #include <QColor>
@@ -26,7 +27,6 @@
 #ifdef Q_OS_ANDROID
 #include <QtAndroid>
 #include <QGuiApplication>
-#include <QQuickStyle>
 
 // WindowManager.LayoutParams
 #define FLAG_TRANSLUCENT_STATUS 0x04000000
@@ -49,6 +49,10 @@ Q_DECL_EXPORT int main(int argc, char *argv[])
     QGuiApplication app(argc, argv);
     QQuickStyle::setStyle(QStringLiteral("Material"));
 #else
+    // Default to org.kde.desktop style unless the user forces another style
+    if (qEnvironmentVariableIsEmpty("QT_QUICK_CONTROLS_STYLE")) {
+        QQuickStyle::setStyle(QStringLiteral("org.kde.desktop"));
+    }
     QApplication app(argc, argv);
 #endif
 
