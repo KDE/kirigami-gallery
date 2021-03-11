@@ -3,21 +3,6 @@ if (ENABLE_QML_PROFILING)
     add_definitions(-DQT_QML_DEBUG)
 endif()
 
-set(kirigami2gallery_SRCS
-    main.cpp
-    InfoData.cpp
-    )
-
-qt5_add_resources(RESOURCES resources.qrc)
-
-if (CMAKE_SYSTEM_NAME STREQUAL "Android")
-    find_package(KF5Kirigami2 ${KF5_DEP_VERSION})
-    find_package(KF5ItemModels ${KF5_DEP_VERSION})
-    set(kirigami2gallery_EXTRA_LIBS Qt5::AndroidExtras
-    #FIXME: we shouldn't have to link to it but otherwise the lib won't be packaged on Android
-    Qt5::QuickControls2 KF5::Kirigami2 KF5::ItemModels)
-endif()
-
 find_program(kpackagetool_cmd kpackagetool5)
 if (kpackagetool_cmd)
     set(component org.kde.kirigami2.gallery)
@@ -42,13 +27,16 @@ else()
     message(WARNING "KPackage components should be specified in reverse domain notation. Appstream information won't be generated for ${component}.")
 endif()
 
-add_executable(kirigami2gallery ${kirigami2gallery_SRCS} ${RESOURCES})
-target_link_libraries(kirigami2gallery Qt5::Core  Qt5::Qml Qt5::Quick Qt5::Svg ${kirigami2gallery_EXTRA_LIBS})
+add_executable(kirigami2gallery
+    main.cpp
+    InfoData.cpp
+    resources.qrc)
+target_link_libraries(kirigami2gallery Qt5::Core  Qt5::Qml Qt5::Quick Qt5::Svg Qt5::QuickControls2 KF5::Kirigami2 KF5::ItemModels)
+
+if (ANDROID)
+    target_link_libraries(kirigami2gallery Qt5::AndroidExtras)
+    kirigami_package_breeze_icons(ICONS applications-graphics view-list-icons folder-sync view-list-details configure document-edit dialog-information dialog-positive dialog-warning dialog-error dialog-cancel document-decrypt system-run mail-reply-sender bookmarks folder media-record-symbolic add-placemark address-book-new-symbolic view-right-new view-right-close documentinfo go-home)
+endif()
 
 install(TARGETS kirigami2gallery ${KF5_INSTALL_TARGETS_DEFAULT_ARGS})
 install(FILES data/metadata.desktop DESTINATION ${XDG_APPS_INSTALL_DIR} RENAME org.kde.kirigami2.gallery.desktop)
-
-if (CMAKE_SYSTEM_NAME STREQUAL "Android")
-    find_package(KF5Kirigami2 REQUIRED)
-    kirigami_package_breeze_icons(ICONS applications-graphics view-list-icons folder-sync view-list-details configure document-edit dialog-information dialog-positive dialog-warning dialog-error dialog-cancel document-decrypt system-run mail-reply-sender bookmarks folder media-record-symbolic add-placemark address-book-new-symbolic view-right-new view-right-close documentinfo go-home)
-endif()
