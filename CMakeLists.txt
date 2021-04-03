@@ -47,6 +47,7 @@ endif()
 
 
 ecm_find_qmlmodule(QtGraphicalEffects 1.0)
+ecm_find_qmlmodule(org.kde.kitemmodels 1.0)
 
 add_definitions(-DQT_NO_URL_CAST_FROM_STRING)
 
