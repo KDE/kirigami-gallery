@@ -137,7 +137,7 @@ ScrollablePage {
                 anchors.fill: parent
                 alignment: page.alignment
                 actions: [
-                    Action { text: "Action 1"; displayComponent: Controls.Button { text: kirigamiAction.text } },
+                    Action { id: kirigamiAction; text: "Action 1"; displayComponent: Controls.Button { text: kirigamiAction.text } },
                     Action {
                         text: "Action 2";
                         displayComponent: Controls.TextField { placeholderText: kirigamiAction.text; Layout.fillWidth: true; Layout.maximumWidth: 350 }
