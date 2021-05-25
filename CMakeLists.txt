@@ -42,9 +42,7 @@ add_definitions(-DQT_NO_URL_CAST_FROM_STRING)
 
 add_subdirectory(src)
 
-if (IS_DIRECTORY "${CMAKE_CURRENT_SOURCE_DIR}/po")
-    ecm_install_po_files_as_qm(po)
-endif()
+ecm_install_po_files_as_qm(po)
 
 feature_summary(WHAT ALL INCLUDE_QUIET_PACKAGES FATAL_ON_MISSING_REQUIRED_PACKAGES)
 
