@@ -91,6 +91,7 @@ Kirigami.ScrollablePage {
     Kirigami.OverlaySheet {
         id: headerFooterSheet
         header: Kirigami.Heading {
+            level: 2
             text: qsTr("Title")
         }
         footer: RowLayout {
@@ -159,6 +160,7 @@ Kirigami.ScrollablePage {
     Kirigami.OverlaySheet {
         id: listViewSheet
         header: Kirigami.Heading {
+            level: 2
             text: qsTr("Title")
         }
         footer: RowLayout {
@@ -182,6 +184,7 @@ Kirigami.ScrollablePage {
     Kirigami.OverlaySheet {
         id: gridViewSheet
         header: Kirigami.Heading {
+            level: 2
             text: qsTr("Title")
         }
         footer: RowLayout {
