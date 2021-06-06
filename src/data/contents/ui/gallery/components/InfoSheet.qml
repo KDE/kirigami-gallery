@@ -37,6 +37,7 @@ Kirigami.OverlaySheet {
     header: Kirigami.Heading {
         id: titleLabel
 
+        level: 2
         text: infoData.title
         Layout.fillWidth: true
 
