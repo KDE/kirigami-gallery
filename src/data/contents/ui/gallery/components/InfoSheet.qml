@@ -20,56 +20,44 @@
 import QtQuick 2.6
 import QtQuick.Controls 2.0 as Controls
 import QtQuick.Layouts 1.2
-import org.kde.kirigami 2.4 as Kirigami
+import org.kde.kirigami 2.18 as Kirigami
 import Data 1.0
 
-Kirigami.OverlaySheet {
+Kirigami.PromptDialog {
     id: root
     property Kirigami.Page page
     property url higUrl: infoData.higUrl
     property url sourceUrl: infoData.sourceUrl
     property url apiUrl: infoData.apiUrl
-    property alias title: titleLabel.text
-    property alias text: mainText.text
+    property string text: infoData.text
     property alias component: infoData.component
 
-    onSheetOpenChanged: page.actions.main.checked = sheetOpen
-    header: Kirigami.Heading {
-        id: titleLabel
-
-        text: infoData.title
-        Layout.fillWidth: true
-
-        InfoData {
-            id: infoData
-        }
+    title: infoData.title
+    subtitle: text
+    preferredWidth: Kirigami.Units.gridUnit * 20
+    onVisibleChanged: page.actions.main.checked = visible
+    flatFooterButtons: true
+    
+    property var info: InfoData {
+        id: infoData
     }
-
-    footer: RowLayout {
-        Item {
-            Layout.fillWidth: true
-        }
-        Controls.ToolButton {
+    
+    standardButtons: Kirigami.Dialog.NoButton
+    customFooterActions: [
+        Kirigami.Action {
             text: qsTr("HIG...")
             enabled: higUrl != ""
-            onClicked: Qt.openUrlExternally(higUrl)
-        }
-        Controls.ToolButton {
+            onTriggered: Qt.openUrlExternally(higUrl);
+        },
+        Kirigami.Action {
             text: qsTr("Source code...")
             enabled: sourceUrl != ""
-            onClicked: Qt.openUrlExternally(sourceUrl)
-        }
-        Controls.ToolButton {
+            onTriggered: Qt.openUrlExternally(sourceUrl)
+        },
+        Kirigami.Action {
             text: qsTr("API...")
             enabled: apiUrl != ""
-            onClicked: Qt.openUrlExternally(apiUrl)
+            onTriggered: Qt.openUrlExternally(apiUrl)
         }
-    }
-
-    Controls.Label {
-        id: mainText
-        text: infoData.text
-        property int implicitWidth: Kirigami.Units.gridUnit * 25
-        wrapMode: Text.WordWrap
-    }
+    ]
 }

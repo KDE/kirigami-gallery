@@ -25,6 +25,12 @@
         "apiUrl": "https://api.kde.org/frameworks/kirigami/html/classorg_1_1kde_1_1kirigami_1_1OverlayDrawer.html",
         "text": "Drawers are bars anchored to an edge of the screen: left, right, top or bottom.<br>On the left edge they should contain controls and settings global for the whole app, and is strongly encouraged to use the default component GlobalDrawer and to have only one instance for the whole application.<br>On the right edge they should have context-dependent actions linked to the current Page. It is strongly suggested to use the default component ContextDrawer for this and to have only one instance for the whole application.<br>Drawers can be modal(default) in which they block input in the rest of the application window, clicking on a darkened out area will dismiss the drawer.<br>Non modal drawers will leave the rest of the application window functional and vertical(left and right edge) drawers will become sidebars.<br>Non modal drawers can also be collapsible, switching from a full vertical sidebar to a more compact vertical toolbar.<br>You can test between different Drawer modes in the \"Global Drawer Mode...\" menu entry in the global drawer of this application running on Desktop systems."
     },
+    "DialogGallery": {
+        "title": "Dialogs",
+        "sourceUrl": "https://invent.kde.org/sdk/kirigami-gallery/-/blob/master/src/data/contents/ui/gallery/DialogGallery.qml",
+        "apiUrl": "https://api.kde.org/frameworks/kirigami/html/classorg_1_1kde_1_1kirigami_1_1Dialog.html",
+        "text": "Dialogs are a type of a modal that goes over application content, and prompts users with information."
+    },
     "OverlaySheetGallery": {
         "title": "Overlay Sheets",
         "sourceUrl": "https://invent.kde.org/sdk/kirigami-gallery/-/blob/master/src/data/contents/ui/gallery/OverlaySheetGallery.qml",

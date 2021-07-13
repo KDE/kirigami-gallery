@@ -85,6 +85,11 @@ Kirigami.ScrollablePage {
             img: "img/drawers.svg"
         }
         ListElement {
+            title: "Dialogs"
+            targetPage: "gallery/DialogGallery.qml"
+            img: "img/overlay-sheets.svg"
+        }
+        ListElement {
             title: "Overlay Sheets"
             targetPage: "gallery/OverlaySheetGallery.qml"
             img: "img/overlay-sheets.svg"

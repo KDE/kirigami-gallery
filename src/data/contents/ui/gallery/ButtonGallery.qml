@@ -34,7 +34,7 @@ ScrollablePage {
             iconName: sheet.sheetOpen ? "dialog-cancel" : "document-edit"
             text: "Main Action Text"
             checkable: true
-            onCheckedChanged: sheet.sheetOpen = checked;
+            onCheckedChanged: sheet.visible = checked;
             shortcut: "Alt+S"
         }
         left: Action {
