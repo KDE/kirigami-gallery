@@ -34,7 +34,7 @@ Page {
             }
             text: "Main Action Text"
             checkable: true
-            onCheckedChanged: sheet.sheetOpen = checked;
+            onCheckedChanged: sheet.visible = checked;
         }
     }
 
