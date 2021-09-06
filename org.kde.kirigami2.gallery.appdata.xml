@@ -37,6 +37,7 @@
   <summary xml:lang="ast">Amuesa exemplos de los componentes de Kirigami y permítete xugar con ellos</summary>
   <summary xml:lang="ca">Mostra exemples de components del Kirigami i permet jugar-hi</summary>
   <summary xml:lang="ca-valencia">Mostra exemples de components del Kirigami i permet jugar-hi</summary>
+  <summary xml:lang="da">Viser eksempler på Kirigami-komponenter og lader dig lege med dem</summary>
   <summary xml:lang="de">Zeigt Beispiele von Kirigami-Komponenten und ermöglicht es, sie auszuprobieren</summary>
   <summary xml:lang="el">Εμφανίζει παραδείγματα Kirigami συστατικών και σας επιτρέπει να παίξετε με αυτά</summary>
   <summary xml:lang="en-GB">Shows examples of Kirigami components and allows you to play with them</summary>
@@ -103,6 +104,7 @@
   <developer_name xml:lang="ca">Marco Martin &lt;mart@kde.org&gt;</developer_name>
   <developer_name xml:lang="ca-valencia">Marco Martin &lt;mart@kde.org&gt;</developer_name>
   <developer_name xml:lang="cs">Marco Martin &lt;mart@kde.org&gt;</developer_name>
+  <developer_name xml:lang="da">Marco Martin &lt;mart@kde.org&gt;</developer_name>
   <developer_name xml:lang="de">Marco Martin &lt;mart@kde.org&gt;</developer_name>
   <developer_name xml:lang="el">Marco Martin &lt;mart@kde.org&gt;</developer_name>
   <developer_name xml:lang="en-GB">Marco Martin &lt;mart@kde.org&gt;</developer_name>
