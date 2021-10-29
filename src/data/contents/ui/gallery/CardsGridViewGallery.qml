@@ -17,37 +17,26 @@
  *   51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
  */
 
-import QtQuick 2.6
-import QtQuick.Controls 2.0 as Controls
-import QtQuick.Layouts 1.2
-import org.kde.kirigami 2.4 as Kirigami
-
-import "components"
+import QtQuick 2.15
+import QtQuick.Controls 2.15 as QQC2
+import QtQuick.Layouts 1.15
+import org.kde.kirigami 2.15 as Kirigami
 
 Kirigami.ScrollablePage {
     id: page
 
     title: qsTr("Grid view of Cards")
 
-        actions.main: Kirigami.Action {
-        iconName: "documentinfo"
+    actions.main:  Kirigami.Action {
         text: qsTr("Info")
+        iconName: "documentinfo"
         checkable: true
         onCheckedChanged: sheet.sheetOpen = checked;
         shortcut: "Alt+I"
     }
 
-    //Close the drawer with the back button
-    onBackRequested: {
-        if (sheet.sheetOpen) {
-            event.accepted = true;
-            sheet.close();
-        }
-    }
-
     InfoSheet {
         id: sheet
-
         page: page
         component: "CardsGridViewGallery"
     }
@@ -55,7 +44,7 @@ Kirigami.ScrollablePage {
     Component.onCompleted: {
         for (var i = 0; i < 50; ++i) {
             mainModel.append({"title": "Item " + i,
-                "image": "../banner.jpg",
+                "image": "qrc:/banner.jpg",
                 "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id risus id augue euismod accumsan. Nunc vestibulum placerat bibendum.",
                 "actions": [{text: "Action 1", icon: "add-placemark"},
                             {text: "Action 2", icon: "address-book-new-symbolic"}]
@@ -75,7 +64,7 @@ Kirigami.ScrollablePage {
                 title: model.title
                 source: model.image
             }
-            contentItem: Controls.Label {
+            contentItem: QQC2.Label {
                 wrapMode: Text.WordWrap
                 text: model.text
             }

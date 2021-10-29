@@ -17,108 +17,28 @@
  *   51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
  */
 
-import QtQuick 2.0
-import QtQuick.Controls 2.2 as Controls
-import QtQuick.Layouts 1.2
-import org.kde.kirigami 2.4 as Kirigami
-
-import "components"
+import QtQuick 2.15
+import QtQuick.Controls 2.15 as QQC2
+import QtQuick.Layouts 1.15
+import org.kde.kirigami 2.15 as Kirigami
 
 Kirigami.ScrollablePage {
     id: page
-    actions.main: Kirigami.Action {
-        iconName: "documentinfo"
+
+    title: qsTr("Selection Controls")
+
+    actions.main:  Kirigami.Action {
         text: qsTr("Info")
+        iconName: "documentinfo"
         checkable: true
         onCheckedChanged: sheet.sheetOpen = checked;
         shortcut: "Alt+I"
     }
 
-    Layout.fillWidth: true
-    title: qsTr("Selection Controls")
-
-    //Close the drawer with the back button
-    onBackRequested: {
-        if (sheet.sheetOpen) {
-            event.accepted = true;
-            sheet.close();
-        }
-    }
-
     InfoSheet {
         id: sheet
-
         page: page
         component: "SelectionControlsGallery"
-    }
-
-    Controls.Dialog {
-        id: checkListDialog
-        modal: true
-        focus: true
-        x: (page.width - width) / 2
-        y: page.height / 2 - height
-        width: Math.min(page.width - Kirigami.Units.gridUnit * 4, Kirigami.Units.gridUnit * 20)
-        height: Kirigami.Units.gridUnit * 20
-        standardButtons: Controls.Dialog.Close
-        title: qsTr("Checkable List Items")
-
-        contentItem: Controls.ScrollView {
-            ListView {
-                model: 20
-                delegate: Controls.CheckDelegate {
-                    width: parent.width
-                    text: qsTr("Delegate") + " " + (modelData+1)
-                }
-            }
-            Component.onCompleted: background.visible = true
-        }
-    }
-
-    Controls.Dialog {
-        id: radioListDialog
-        modal: true
-        focus: true
-        x: (page.width - width) / 2
-        y: page.height / 2 - height
-        width: Math.min(page.width - Kirigami.Units.gridUnit * 4, Kirigami.Units.gridUnit * 20)
-        height: Kirigami.Units.gridUnit * 20
-        standardButtons: Controls.Dialog.Close
-        title: qsTr("Radio List Items")
-
-        contentItem: Controls.ScrollView {
-            ListView {
-                model: 20
-                delegate: Controls.RadioDelegate {
-                    width: parent.width
-                    text: qsTr("Delegate") + " " + (modelData+1)
-                }
-            }
-            Component.onCompleted: background.visible = true
-        }
-    }
-
-    Controls.Dialog {
-        id: switchListDialog
-        modal: true
-        focus: true
-        x: (page.width - width) / 2
-        y: page.height / 2 - height
-        width: Math.min(page.width - Kirigami.Units.gridUnit * 4, Kirigami.Units.gridUnit * 20)
-        height: Kirigami.Units.gridUnit * 20
-        standardButtons: Controls.Dialog.Close
-        title: qsTr("Radio List Items")
-
-        contentItem: Controls.ScrollView {
-            ListView {
-                model: 20
-                delegate: Controls.SwitchDelegate {
-                    width: parent.width
-                    text: qsTr("Delegate") + " " + (modelData+1)
-                }
-            }
-            Component.onCompleted: background.visible = true
-        }
     }
 
     Kirigami.FormLayout {
@@ -126,17 +46,13 @@ Kirigami.ScrollablePage {
             Kirigami.FormData.label: qsTr("Checkboxes")
             Kirigami.FormData.isSection: true
         }
-        Controls.CheckBox {
+        QQC2.CheckBox {
             text: qsTr("Item selected")
             checked: true
         }
-        Controls.CheckBox {
+        QQC2.CheckBox {
             text: qsTr("Item not selected")
             checked: false
-        }
-        Controls.Button {
-            text: qsTr("Checkable List View")
-            onClicked: checkListDialog.open()
         }
 
         Kirigami.Separator {
@@ -144,35 +60,26 @@ Kirigami.ScrollablePage {
             Kirigami.FormData.label: qsTr("Radio buttons")
         }
         ColumnLayout {
-            Controls.RadioButton {
+            QQC2.RadioButton {
                 text: qsTr("Item selected")
                 checked: true
             }
-            Controls.RadioButton {
+            QQC2.RadioButton {
                 text: qsTr("Item not selected")
                 checked: false
             }
         }
-        Controls.Button {
-            text: qsTr("Radio List View")
-            onClicked: radioListDialog.open()
-        }
-
         Kirigami.Separator {
             Kirigami.FormData.isSection: true
             Kirigami.FormData.label: qsTr("Switches")
         }
-        Controls.Switch {
+        QQC2.Switch {
             text: qsTr("Item selected")
             checked: true
         }
-        Controls.Switch {
+        QQC2.Switch {
             text: qsTr("Item not selected")
             checked: false
-        }
-        Controls.Button {
-            text: qsTr("Switch List View")
-            onClicked: switchListDialog.open()
         }
     }
 }

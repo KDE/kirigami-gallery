@@ -17,33 +17,15 @@
  *   51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
  */
 
-import QtQuick 2.0
-import QtQuick.Controls 2.0 as Controls
-import QtQuick.Layouts 1.2
-import org.kde.kirigami 2.4
+import QtQuick 2.15
+import QtQuick.Controls 2.15 as QQC2
+import QtQuick.Layouts 1.15
+import org.kde.kirigami 2.15 as Kirigami
 
-ScrollablePage {
+Kirigami.ScrollablePage {
     id: page
-    Layout.fillWidth: true
 
     title: "Progress Indicators"
-
-    actions {
-        main: Action {
-            iconName: "document-edit"
-            text: "Main Action Text"
-            onTriggered: {
-                showPassiveNotification("Main action triggered");
-            }
-        }
-        right: Action {
-            iconName: "folder-sync"
-            text: "Right Action Text"
-            onTriggered: {
-                showPassiveNotification("Right action triggered")
-            }
-        }
-    }
 
     ColumnLayout {
         width: page.width
@@ -60,50 +42,50 @@ ScrollablePage {
 
         GridLayout {
             anchors.centerIn: parent
-            rowSpacing: Units.largeSpacing
+            rowSpacing: Kirigami.Units.largeSpacing
             columns: 2
-            width: parent.width - Units.gridUnit*2
+            width: parent.width - Kirigami.Units.gridUnit*2
 
-            Controls.Label {
+            QQC2.Label {
                 text: "Determinate:"
                 Layout.alignment: Qt.AlignRight
             }
-            Controls.ProgressBar {
+            QQC2.ProgressBar {
                 from: 0
                 to: 100
                 value: timer.value
-                Layout.maximumWidth: Units.gridUnit * 10
+                Layout.maximumWidth: Kirigami.Units.gridUnit * 10
             }
-            Controls.Label {
+            QQC2.Label {
                 text: "Indeterminate:"
                 Layout.alignment: Qt.AlignRight
             }
-            Controls.ProgressBar {
+            QQC2.ProgressBar {
                 from: 0
                 to: 100
                 indeterminate: true
-                Layout.maximumWidth: Units.gridUnit * 10
+                Layout.maximumWidth: Kirigami.Units.gridUnit * 10
             }
-            Controls.Label {
+            QQC2.Label {
                 text: "Busy indicator:"
                 Layout.alignment: Qt.AlignRight
             }
-            Controls.BusyIndicator {
+            QQC2.BusyIndicator {
                 
             }
-            Controls.Label {
+            QQC2.Label {
                 text: "Inactive indicator:"
                 Layout.alignment: Qt.AlignRight
             }
-            Controls.BusyIndicator {
+            QQC2.BusyIndicator {
                 running: false
             }
-            Controls.Label {
+            QQC2.Label {
                 text: "Custom size:"
                 Layout.alignment: Qt.AlignRight
             }
-            Controls.BusyIndicator {
-                Layout.minimumWidth: Units.iconSizes.enormous
+            QQC2.BusyIndicator {
+                Layout.minimumWidth: Kirigami.Units.iconSizes.enormous
                 Layout.minimumHeight: width
             }
         }

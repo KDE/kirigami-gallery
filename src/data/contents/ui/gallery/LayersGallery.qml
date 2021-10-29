@@ -31,11 +31,11 @@ ScrollablePage {
 
     actions {
         main: Action {
-            iconName: "document-edit"
-            text: "Main Action Text"
-            onTriggered: {
-                showPassiveNotification("Action button in buttons page clicked");
-            }
+            text: qsTr("Info")
+            iconName: "documentinfo"
+            checkable: true
+            onCheckedChanged: sheet.sheetOpen = checked;
+            shortcut: "Alt+I"
         }
         left: Action {
             iconName: "go-previous"
@@ -57,6 +57,12 @@ ScrollablePage {
                 onTriggered: showPassiveNotification("Action 2 clicked")
             }
         ]
+    }
+
+    InfoSheet {
+        id: sheet
+        page: page
+        component: "LayersGallery"
     }
 
     ColumnLayout {

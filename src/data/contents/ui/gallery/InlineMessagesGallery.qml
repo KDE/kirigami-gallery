@@ -18,38 +18,26 @@
  *   51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
  */
 
-import QtQuick 2.7
-import QtQuick.Layouts 1.2
-import QtQuick.Controls 2.0 as Controls
-import org.kde.kirigami 2.4 as Kirigami
-
-import "components"
+import QtQuick 2.15
+import QtQuick.Controls 2.15 as QQC2
+import QtQuick.Layouts 1.15
+import org.kde.kirigami 2.15 as Kirigami
 
 Kirigami.ScrollablePage {
     id: page
 
     title: qsTr("Inline Messages")
 
-    actions.main: Kirigami.Action {
-        iconName: "documentinfo"
+    actions.main:  Kirigami.Action {
         text: qsTr("Info")
+        iconName: "documentinfo"
         checkable: true
         onCheckedChanged: sheet.sheetOpen = checked;
         shortcut: "Alt+I"
     }
 
-
-    //Close the drawer with the back button
-    onBackRequested: {
-        if (sheet.sheetOpen) {
-            event.accepted = true;
-            sheet.close();
-        }
-    }
-
     InfoSheet {
         id: sheet
-
         page: page
         component: "InlineMessagesGallery"
     }
@@ -172,7 +160,7 @@ Kirigami.ScrollablePage {
 
             spacing: Kirigami.Units.smallSpacing
 
-            Controls.Label {
+            QQC2.Label {
                 Layout.fillWidth: true
                 horizontalAlignment: Text.AlignHCenter
 
@@ -180,7 +168,7 @@ Kirigami.ScrollablePage {
                 wrapMode: Text.WordWrap
             }
 
-            Controls.Button {
+            QQC2.Button {
                 Layout.alignment: Qt.AlignHCenter
 
                 enabled: !toggleMessage.visible
