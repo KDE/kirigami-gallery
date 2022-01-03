@@ -80,7 +80,7 @@ Kirigami.ScrollablePage {
                     }
                 ]
                 banner {
-                    source: "../banner.jpg"
+                    source: Qt.resolvedUrl("../banner.jpg")
                     title: qsTr("Card")
                 }
                 contentItem: Controls.Label {
@@ -118,7 +118,7 @@ Kirigami.ScrollablePage {
                     }
                 ]
                 banner {
-                    source: "../banner.jpg"
+                    source: Qt.resolvedUrl("../banner.jpg")
                     title: "Title Alignment"
                     titleAlignment: Qt.AlignLeft | Qt.AlignBottom
                 }
@@ -156,7 +156,7 @@ Kirigami.ScrollablePage {
             }
 
             Kirigami.Card {
-                banner.source: "../banner.jpg"
+                banner.source: Qt.resolvedUrl("../banner.jpg")
 
                 header: Rectangle {
                     color: Qt.rgba(0,0,0,0.3)
@@ -215,7 +215,7 @@ Kirigami.ScrollablePage {
                     }
                 ]
                 banner {
-                    source: "../banner.jpg"
+                    source: Qt.resolvedUrl("../banner.jpg")
                     title: "Title"
                 }
                 contentItem: Controls.Label {

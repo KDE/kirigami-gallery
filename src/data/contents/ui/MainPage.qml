@@ -238,7 +238,7 @@ Kirigami.ScrollablePage {
                 delegate: Kirigami.Card {
                     id: listItem
                     banner {
-                        source: img
+                        source: Qt.resolvedUrl(img)
                         title: title
                         titleAlignment: Qt.AlignBottom | Qt.AlignLeft
                     }

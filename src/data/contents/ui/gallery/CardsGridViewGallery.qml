@@ -55,7 +55,7 @@ Kirigami.ScrollablePage {
     Component.onCompleted: {
         for (var i = 0; i < 50; ++i) {
             mainModel.append({"title": "Item " + i,
-                "image": "../banner.jpg",
+                "image": Qt.resolvedUrl("../banner.jpg"),
                 "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id risus id augue euismod accumsan. Nunc vestibulum placerat bibendum.",
                 "actions": [{text: "Action 1", icon: "add-placemark"},
                             {text: "Action 2", icon: "address-book-new-symbolic"}]
