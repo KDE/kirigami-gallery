@@ -50,6 +50,7 @@ ScrollablePage {
             "negativeBackgroundColor",
             "neutralBackgroundColor",
             "positiveBackgroundColor",
+            "alternateBackgroundColor",
             "focusColor",
             "hoverColor"];
 
