@@ -98,6 +98,7 @@ Type=Application
 Exec=kirigami2gallery
 Icon=preferences-desktop-theme
 Categories=Qt;KDE;Development;
+Keywords=Kirigami;Framework;KDE;Gallery;Widgets;Widgets Gallery;
 X-KDE-ParentApp=
 X-KDE-PluginInfo-Author=Marco Martin
 X-KDE-PluginInfo-Email=mart@kde.org
