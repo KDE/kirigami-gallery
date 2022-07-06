@@ -18,10 +18,6 @@ find_package(ECM ${KF5_DEP_VERSION} REQUIRED)
 # where to look first for cmake modules, before ${CMAKE_ROOT}/Modules/ is checked
 set(CMAKE_MODULE_PATH ${CMAKE_MODULE_PATH} ${ECM_MODULE_PATH})
 
-find_package(Qt5 ${REQUIRED_QT_VERSION} REQUIRED NO_MODULE COMPONENTS Core Quick Gui Svg QuickControls2)
-
-find_package(KF5 ${KF5_DEP_VERSION} REQUIRED COMPONENTS Kirigami2 ItemModels)
-
 option(ENABLE_QML_PROFILING "Enable QML profiler support" ON)
 
 include(FeatureSummary)
@@ -31,8 +27,14 @@ include(KDECompilerSettings NO_POLICY_SCOPE)
 include(ECMPoQmTools)
 include(ECMQMLModules)
 
+find_package(Qt${QT_MAJOR_VERSION} ${REQUIRED_QT_VERSION} REQUIRED NO_MODULE COMPONENTS Core Quick Gui Svg QuickControls2)
+
+find_package(KF5 ${KF5_DEP_VERSION} REQUIRED COMPONENTS Kirigami2 ItemModels)
+
 if(ANDROID)
     find_package(Qt5AndroidExtras ${REQUIRED_QT_VERSION} REQUIRED)
+else()
+    find_package(Qt${QT_MAJOR_VERSION}Widgets ${REQUIRED_QT_VERSION} REQUIRED)
 endif()
 
 ecm_find_qmlmodule(QtGraphicalEffects 1.0)

@@ -31,14 +31,16 @@ add_executable(kirigami2gallery
     main.cpp
     InfoData.cpp
     resources.qrc)
-target_link_libraries(kirigami2gallery Qt5::Core  Qt5::Qml Qt5::Quick Qt5::Svg Qt5::QuickControls2 KF5::Kirigami2 KF5::ItemModels)
+target_link_libraries(kirigami2gallery Qt::Core Qt::Qml Qt::Quick Qt::Svg Qt::QuickControls2 KF5::Kirigami2 KF5::ItemModels)
 
 if (ANDROID)
     target_link_libraries(kirigami2gallery Qt5::AndroidExtras)
     kirigami_package_breeze_icons(ICONS applications-graphics view-list-icons folder-sync view-list-details configure document-edit dialog-information dialog-positive dialog-warning dialog-error dialog-cancel document-decrypt system-run mail-reply-sender bookmarks folder media-record-symbolic add-placemark address-book-new-symbolic view-right-new view-right-close documentinfo go-home)
 
     configure_file(${CMAKE_CURRENT_SOURCE_DIR}/android/version.gradle.in ${CMAKE_BINARY_DIR}/version.gradle)
+else()
+    target_link_libraries(kirigami2gallery Qt::Widgets)
 endif()
 
-install(TARGETS kirigami2gallery ${KF5_INSTALL_TARGETS_DEFAULT_ARGS})
-install(FILES data/metadata.desktop DESTINATION ${XDG_APPS_INSTALL_DIR} RENAME org.kde.kirigami2.gallery.desktop)
+install(TARGETS kirigami2gallery ${KF_INSTALL_TARGETS_DEFAULT_ARGS})
+install(FILES data/metadata.desktop DESTINATION ${KDE_INSTALL_APPDIR} RENAME org.kde.kirigami2.gallery.desktop)
