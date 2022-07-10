@@ -26,6 +26,9 @@ import "gallery"
 Kirigami.ApplicationWindow {
     id: root
 
+    minimumHeight: Kirigami.Units.gridUnit * 20
+    minimumWidth: Kirigami.Units.gridUnit * 20
+
     globalDrawer: Kirigami.GlobalDrawer {
         id: globalDrawer
         title: "Widget gallery"
