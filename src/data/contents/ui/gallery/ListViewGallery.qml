@@ -32,7 +32,7 @@ Kirigami.ScrollablePage {
             iconName: sheet.sheetOpen ? "dialog-cancel" : "document-edit"
             text: "Main Action Text"
             checkable: true
-            onCheckedChanged: sheet.visible = checked;
+            onCheckedChanged: sheet.sheetOpen = checked;
         }
     }
 
