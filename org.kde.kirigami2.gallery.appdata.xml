@@ -145,9 +145,11 @@
     </screenshot>
   </screenshots>
   <project_group>KDE</project_group>
+  <launchable type="desktop-id">org.kde.kirigami2.gallery</launchable>
   <provides>
     <binary>kirigami2gallery</binary>
   </provides>
+  <content_rating type="oars-1.0"/>
   <custom>
     <value key="KDE::google_play">https://play.google.com/store/apps/details?id=org.kde.kirigamigallery</value>
   </custom>
