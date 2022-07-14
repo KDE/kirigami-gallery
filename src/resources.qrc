@@ -5,6 +5,7 @@
         <file alias="contents/ui/gallery/components/InfoSheet.qml">./data/contents/ui/gallery/components/InfoSheet.qml</file>
         <file alias="contents/ui/gallery/NonScrollableGallery.qml">./data/contents/ui/gallery/NonScrollableGallery.qml</file>
         <file alias="contents/ui/gallery/ButtonGallery.qml">./data/contents/ui/gallery/ButtonGallery.qml</file>
+        <file alias="contents/ui/gallery/ChipGallery.qml">./data/contents/ui/gallery/ChipGallery.qml</file>
         <file alias="contents/ui/gallery/DialogGallery.qml">./data/contents/ui/gallery/DialogGallery.qml</file>
         <file alias="contents/ui/gallery/OverlaySheetGallery.qml">./data/contents/ui/gallery/OverlaySheetGallery.qml</file>
         <file alias="contents/ui/gallery/DrawerGallery.qml">./data/contents/ui/gallery/DrawerGallery.qml</file>
@@ -30,6 +31,7 @@
         <file alias="contents/ui/BaseApp.qml">./data/contents/ui/BaseApp.qml</file>
         <file alias="contents/ui/mobileApp.qml">./data/contents/ui/mobileApp.qml</file>
         <file alias="contents/ui/img/action-tool-bar.svg">./data/contents/ui/img/action-tool-bar.svg</file>
+        <file alias="contents/ui/img/chips.svg">./data/contents/ui/img/chips.svg</file>
         <file alias="contents/ui/img/buttons.svg">./data/contents/ui/img/buttons.svg</file>
         <file alias="contents/ui/img/cardgrid.svg">./data/contents/ui/img/cardgrid.svg</file>
         <file alias="contents/ui/img/cardlayout.svg">./data/contents/ui/img/cardlayout.svg</file>

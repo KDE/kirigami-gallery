@@ -75,6 +75,11 @@ Kirigami.ScrollablePage {
             img: "img/buttons.svg"
         }
         ListElement {
+            title: "Chips"
+            targetPage: "gallery/ChipGallery.qml"
+            img: "img/chips.svg"
+        }
+        ListElement {
             title: "Selection Controls"
             targetPage: "gallery/SelectionControlsGallery.qml"
             img: "img/selection-controls.svg"

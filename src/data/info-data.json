@@ -31,6 +31,12 @@
         "apiUrl": "https://api.kde.org/frameworks/kirigami/html/classorg_1_1kde_1_1kirigami_1_1Dialog.html",
         "text": "Dialogs are a type of a modal that goes over application content, and prompts users with information."
     },
+    "ChipGallery": {
+        "title": "Chips",
+        "sourceUrl": "https://invent.kde.org/sdk/kirigami-gallery/-/blob/master/src/data/contents/ui/gallery/ChipGallery.qml",
+        "apiUrl": "https://api.kde.org/frameworks/kirigami/html/classorg_1_1kde_1_1kirigami_1_1Chip.html",
+        "text": "A Chip is a compact element used for displaying attributes, actions, or filters. Chips should be used in a group of multiple elements, never alone."
+    },
     "OverlaySheetGallery": {
         "title": "Overlay Sheets",
         "sourceUrl": "https://invent.kde.org/sdk/kirigami-gallery/-/blob/master/src/data/contents/ui/gallery/OverlaySheetGallery.qml",
