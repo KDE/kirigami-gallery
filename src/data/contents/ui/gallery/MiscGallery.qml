@@ -241,7 +241,7 @@ ScrollablePage {
         }
         Label {
             Layout.alignment: Qt.AlignHCenter
-            text: Settings.isMobile ? "We are in mobile device mode" : "We not in mobile mode"
+            text: Settings.isMobile ? "We are in mobile device mode" : "We are not in mobile device mode"
         }
         Label {
             Layout.alignment: Qt.AlignHCenter
