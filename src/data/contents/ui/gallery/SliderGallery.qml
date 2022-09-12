@@ -1,5 +1,6 @@
 /*
  *   Copyright 2015 Marco Martin <mart@kde.org>
+ *   Copyright 2022 ivan tkachenko <me@ratijas.tk>
  *
  *   This program is free software; you can redistribute it and/or modify
  *   it under the terms of the GNU Library General Public License as
@@ -78,12 +79,11 @@ ScrollablePage {
             first.value: 0
             second.value: 4
         }
-        Item {
-            FormData.label: "Vertical Sliders:"
-        }
         RowLayout {
-            spacing: Math.round(normalSlider.width / 3)
-            
+            FormData.label: "Vertical Sliders:"
+            FormData.labelAlignment: Qt.AlignTop
+            Layout.preferredWidth: normalSlider.width
+
             Controls.Slider {
                 id: verticalNormalSlider
                 Layout.minimumWidth: 2
@@ -93,6 +93,7 @@ ScrollablePage {
                 to: 5.0
                 orientation: Qt.Vertical
             }
+            Item { Layout.fillWidth: true }
             Controls.Slider {
                 Layout.minimumWidth: 2
                 Layout.minimumHeight: Units.gridUnit * 10
@@ -102,6 +103,7 @@ ScrollablePage {
                 stepSize: 1.0
                 orientation: Qt.Vertical
             }
+            Item { Layout.fillWidth: true }
             Controls.RangeSlider {
                 Layout.minimumWidth: 2
                 Layout.minimumHeight: Units.gridUnit * 10
@@ -114,4 +116,3 @@ ScrollablePage {
         }
     }
 }
-
