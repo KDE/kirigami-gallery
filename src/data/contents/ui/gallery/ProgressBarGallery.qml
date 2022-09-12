@@ -1,5 +1,6 @@
 /*
  *   Copyright 2015 Marco Martin <mart@kde.org>
+ *   Copyright 2022 ivan tkachenko <me@ratijas.tk>
  *
  *   This program is free software; you can redistribute it and/or modify
  *   it under the terms of the GNU Library General Public License as
@@ -47,22 +48,15 @@ ScrollablePage {
 
     ColumnLayout {
         width: page.width
-            Timer {
-                id: timer
-                property int value: 0
-                interval: 80
-                repeat: true
-                running: true
-                onTriggered: {
-                    value = (value + 1) % 100
-                }
-            }
 
         GridLayout {
-            anchors.centerIn: parent
+            Layout.alignment: Qt.AlignHCenter
+            Layout.fillWidth: true
+            Layout.leftMargin: Units.gridUnit
+            Layout.rightMargin: Units.gridUnit
+
             rowSpacing: Units.largeSpacing
             columns: 2
-            width: parent.width - Units.gridUnit*2
 
             Controls.Label {
                 text: "Determinate:"
@@ -71,8 +65,22 @@ ScrollablePage {
             Controls.ProgressBar {
                 from: 0
                 to: 100
-                value: timer.value
                 Layout.maximumWidth: Units.gridUnit * 10
+
+                SequentialAnimation on value {
+                    running: true
+                    loops: Animation.Infinite
+
+                    NumberAnimation {
+                        from: 0
+                        to: 100
+                        duration: 8000
+                        easing.type: Easing.Linear
+                    }
+                    PauseAnimation {
+                        duration: 1000
+                    }
+                }
             }
             Controls.Label {
                 text: "Indeterminate:"
@@ -89,7 +97,7 @@ ScrollablePage {
                 Layout.alignment: Qt.AlignRight
             }
             Controls.BusyIndicator {
-                
+
             }
             Controls.Label {
                 text: "Inactive indicator:"
