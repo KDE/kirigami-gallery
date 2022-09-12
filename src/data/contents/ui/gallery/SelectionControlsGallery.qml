@@ -1,5 +1,6 @@
 /*
  *   Copyright 2015 Marco Martin <mart@kde.org>
+ *   Copyright 2022 ivan tkachenko <me@ratijas.tk>
  *
  *   This program is free software; you can redistribute it and/or modify
  *   it under the terms of the GNU Library General Public License as
@@ -67,11 +68,11 @@ Kirigami.ScrollablePage {
             ListView {
                 model: 20
                 delegate: Controls.CheckDelegate {
-                    width: parent.width
-                    text: qsTr("Delegate") + " " + (modelData+1)
+                    width: ListView.view.width - ListView.view.leftMargin - ListView.view.rightMargin
+                    text: qsTr("Delegate %1").arg(modelData + 1)
                 }
             }
-            Component.onCompleted: background.visible = true
+            Component.onCompleted: background.visible = true;
         }
     }
 
@@ -90,11 +91,11 @@ Kirigami.ScrollablePage {
             ListView {
                 model: 20
                 delegate: Controls.RadioDelegate {
-                    width: parent.width
-                    text: qsTr("Delegate") + " " + (modelData+1)
+                    width: ListView.view.width - ListView.view.leftMargin - ListView.view.rightMargin
+                    text: qsTr("Delegate %1").arg(modelData + 1)
                 }
             }
-            Component.onCompleted: background.visible = true
+            Component.onCompleted: background.visible = true;
         }
     }
 
@@ -113,11 +114,11 @@ Kirigami.ScrollablePage {
             ListView {
                 model: 20
                 delegate: Controls.SwitchDelegate {
-                    width: parent.width
-                    text: qsTr("Delegate") + " " + (modelData+1)
+                    width: ListView.view.width - ListView.view.leftMargin - ListView.view.rightMargin
+                    text: qsTr("Delegate %1").arg(modelData + 1)
                 }
             }
-            Component.onCompleted: background.visible = true
+            Component.onCompleted: background.visible = true;
         }
     }
 
