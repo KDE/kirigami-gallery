@@ -33,6 +33,10 @@ Kirigami.ScrollablePage {
         columns: 2
         anchors.margins: Kirigami.Units.gridUnit / 2
 
+        FontMetrics {
+            id: fontMetrics
+        }
+
         Kirigami.Heading {
             id: h1
             text: qsTr("Heading 1")
@@ -83,14 +87,14 @@ Kirigami.ScrollablePage {
             text: "FontMetrics pointSize:"
         }
         QQC2.Label {
-            text: Kirigami.Units.fontMetrics.font.pointSize
+            text: fontMetrics.font.pointSize
         }
 
         QQC2.Label {
             text: "FontMetrics pixelSize:"
         }
         QQC2.Label {
-            text: Number(Kirigami.Units.fontMetrics.font.pixelSize).toFixed(2)
+            text: Number(fontMetrics.font.pixelSize).toFixed(2)
         }
 
         QQC2.Label {
