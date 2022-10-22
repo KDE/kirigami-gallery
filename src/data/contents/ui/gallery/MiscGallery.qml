@@ -20,7 +20,7 @@
 import QtQuick 2.6
 import QtQuick.Controls 2.1 as Controls
 import QtQuick.Layouts 1.2
-import org.kde.kirigami 2.8
+import org.kde.kirigami 2.20
 
 ScrollablePage {
     id: page
@@ -68,10 +68,6 @@ ScrollablePage {
                 text:"Disabled Action"
                 icon.name: "folder"
                 enabled: false
-            },
-            Action {
-                text: "Action for Sheet"
-                visible: sheet.sheetOpen
             }
         ]
     }
@@ -139,20 +135,21 @@ ScrollablePage {
                             textBesideAction.checked = false;
                         }
                     }
-                }
-            ]
-            hiddenActions: [
+                },
                 Action {
                     icon.name: "document-edit"
                     text: "Action 5"
+                    displayHint: DisplayHint.AlwaysHide
                 },
                 Action {
                     icon.name: "document-edit"
                     text: "Action 6"
+                    displayHint: DisplayHint.AlwaysHide
                 },
                 Action {
                     icon.name: "document-edit"
                     text: "Action 7"
+                    displayHint: DisplayHint.AlwaysHide
                 }
             ]
         }
@@ -190,7 +187,7 @@ ScrollablePage {
         Controls.Label {
             width: dialog.availableWidth
             text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id risus id augue euismod accumsan. Nunc vestibulum placerat bibendum. Morbi commodo auctor varius. Donec molestie euismod ultrices. Sed facilisis augue nec eros auctor."
-            wrapMode: Label.Wrap
+            wrapMode: Text.Wrap
         }
 
     }
@@ -239,11 +236,11 @@ ScrollablePage {
                 }
             }
         }
-        Label {
+        Controls.Label {
             Layout.alignment: Qt.AlignHCenter
             text: Settings.isMobile ? "We are in mobile device mode" : "We are not in mobile device mode"
         }
-        Label {
+        Controls.Label {
             Layout.alignment: Qt.AlignHCenter
             text: Settings.tabletMode ? "We are in tablet mode" : "We are not in tablet mode"
         }
