@@ -85,6 +85,7 @@ Kirigami.ScrollablePage {
         id: delegateComponent
         Kirigami.SwipeListItem {
             id: listItem
+            width: ListView.view ? ListView.view.width : implicitWidth
             contentItem: RowLayout {
                 Kirigami.ListItemDragHandle {
                     listItem: listItem
@@ -138,10 +139,7 @@ Kirigami.ScrollablePage {
                 easing.type: Easing.InOutQuad
             }
         }
-        delegate: Kirigami.DelegateRecycler {
-            width: parent ? parent.width : implicitWidth
-            sourceComponent: delegateComponent
-        }
+        delegate: delegateComponent
         section {
             property: "sec"
             delegate: Kirigami.ListSectionHeader {
