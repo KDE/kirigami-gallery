@@ -81,7 +81,7 @@ msgstr "Card clicked"
 #: contents/ui/gallery/CardsLayoutGallery.qml:74
 #: contents/ui/gallery/CardsLayoutGallery.qml:96
 #: contents/ui/gallery/CardsLayoutGallery.qml:134
-#: contents/ui/gallery/CardsLayoutGallery.qml:209
+#: contents/ui/gallery/CardsLayoutGallery.qml:208
 msgctxt "CardsLayoutGallery|"
 msgid "Action1"
 msgstr "Action1"
@@ -89,7 +89,7 @@ msgstr "Action1"
 #: contents/ui/gallery/CardsLayoutGallery.qml:78
 #: contents/ui/gallery/CardsLayoutGallery.qml:100
 #: contents/ui/gallery/CardsLayoutGallery.qml:138
-#: contents/ui/gallery/CardsLayoutGallery.qml:213
+#: contents/ui/gallery/CardsLayoutGallery.qml:212
 msgctxt "CardsLayoutGallery|"
 msgid "Action2"
 msgstr "Action2"
@@ -143,12 +143,12 @@ msgstr ""
 "Alignment flags.\n"
 " When there are too many actions, they go in an overflow menu."
 
-#: contents/ui/gallery/CardsLayoutGallery.qml:144
+#: contents/ui/gallery/CardsLayoutGallery.qml:142
 msgctxt "CardsLayoutGallery|"
 msgid "Action always hidden"
 msgstr "Action always hidden"
 
-#: contents/ui/gallery/CardsLayoutGallery.qml:154
+#: contents/ui/gallery/CardsLayoutGallery.qml:153
 msgctxt "CardsLayoutGallery|"
 msgid ""
 "The Banner can contain only the title and/or an icon, even if there is no "
@@ -157,7 +157,7 @@ msgstr ""
 "The Banner can contain only the title and/or an icon, even if there is no "
 "banner image."
 
-#: contents/ui/gallery/CardsLayoutGallery.qml:177
+#: contents/ui/gallery/CardsLayoutGallery.qml:176
 msgctxt "CardsLayoutGallery|"
 msgid ""
 "It's possible to have custom contents overlapping the image, for cases where "
@@ -166,7 +166,7 @@ msgstr ""
 "It's possible to have custom contents overlapping the image, for cases where "
 "a more personalised design is needed."
 
-#: contents/ui/gallery/CardsLayoutGallery.qml:192
+#: contents/ui/gallery/CardsLayoutGallery.qml:191
 msgctxt "CardsLayoutGallery|"
 msgid ""
 "It's possible to customize the look and feel for Cards too, if the no "
@@ -183,17 +183,17 @@ msgstr ""
 "used, the title and icon in the banner property shouldn't be used. If a "
 "custom footer is used (which is discouraged), actions should not be used."
 
-#: contents/ui/gallery/CardsLayoutGallery.qml:197
+#: contents/ui/gallery/CardsLayoutGallery.qml:196
 msgctxt "CardsLayoutGallery|"
 msgid "Custom footer"
 msgstr "Custom footer"
 
-#: contents/ui/gallery/CardsLayoutGallery.qml:200
+#: contents/ui/gallery/CardsLayoutGallery.qml:199
 msgctxt "CardsLayoutGallery|"
 msgid "Ok"
 msgstr "Ok"
 
-#: contents/ui/gallery/CardsLayoutGallery.qml:223
+#: contents/ui/gallery/CardsLayoutGallery.qml:222
 msgctxt "CardsLayoutGallery|"
 msgid ""
 "A card can optionally have horizontal orientation.\n"
@@ -660,51 +660,51 @@ msgctxt "InlineMessagesGallery|"
 msgid "Shush"
 msgstr "Shush"
 
-#: contents/ui/gallery/MetricsGallery.qml:38
+#: contents/ui/gallery/MetricsGallery.qml:42
 msgctxt "MetricsGallery|"
 msgid "Heading 1"
 msgstr "Heading 1"
 
-#: contents/ui/gallery/MetricsGallery.qml:43
-#: contents/ui/gallery/MetricsGallery.qml:53
-#: contents/ui/gallery/MetricsGallery.qml:63
-#: contents/ui/gallery/MetricsGallery.qml:73
+#: contents/ui/gallery/MetricsGallery.qml:47
+#: contents/ui/gallery/MetricsGallery.qml:57
+#: contents/ui/gallery/MetricsGallery.qml:67
+#: contents/ui/gallery/MetricsGallery.qml:77
 #, qt-format
 msgctxt "MetricsGallery|"
 msgid "%1 points"
 msgstr "%1 points"
 
-#: contents/ui/gallery/MetricsGallery.qml:48
+#: contents/ui/gallery/MetricsGallery.qml:52
 msgctxt "MetricsGallery|"
 msgid "Heading 2"
 msgstr "Heading 2"
 
-#: contents/ui/gallery/MetricsGallery.qml:58
+#: contents/ui/gallery/MetricsGallery.qml:62
 msgctxt "MetricsGallery|"
 msgid "Heading 3"
 msgstr "Heading 3"
 
-#: contents/ui/gallery/MetricsGallery.qml:68
+#: contents/ui/gallery/MetricsGallery.qml:72
 msgctxt "MetricsGallery|"
 msgid "Heading 4"
 msgstr "Heading 4"
 
-#: contents/ui/gallery/MiscGallery.qml:86
+#: contents/ui/gallery/MiscGallery.qml:82
 msgctxt "MiscGallery|"
 msgid "Text Beside Icon"
 msgstr "Text Beside Icon"
 
-#: contents/ui/gallery/MiscGallery.qml:101
+#: contents/ui/gallery/MiscGallery.qml:97
 msgctxt "MiscGallery|"
 msgid "Text Under Icon"
 msgstr "Text Under Icon"
 
-#: contents/ui/gallery/MiscGallery.qml:116
+#: contents/ui/gallery/MiscGallery.qml:112
 msgctxt "MiscGallery|"
 msgid "Text Only"
 msgstr "Text Only"
 
-#: contents/ui/gallery/MiscGallery.qml:131
+#: contents/ui/gallery/MiscGallery.qml:127
 msgctxt "MiscGallery|"
 msgid "Icon Only"
 msgstr "Icon Only"

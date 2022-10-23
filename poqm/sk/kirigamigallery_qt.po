@@ -82,7 +82,7 @@ msgstr "Karta kliknutá"
 #: contents/ui/gallery/CardsLayoutGallery.qml:74
 #: contents/ui/gallery/CardsLayoutGallery.qml:96
 #: contents/ui/gallery/CardsLayoutGallery.qml:134
-#: contents/ui/gallery/CardsLayoutGallery.qml:209
+#: contents/ui/gallery/CardsLayoutGallery.qml:208
 msgctxt "CardsLayoutGallery|"
 msgid "Action1"
 msgstr "Akcia1"
@@ -90,7 +90,7 @@ msgstr "Akcia1"
 #: contents/ui/gallery/CardsLayoutGallery.qml:78
 #: contents/ui/gallery/CardsLayoutGallery.qml:100
 #: contents/ui/gallery/CardsLayoutGallery.qml:138
-#: contents/ui/gallery/CardsLayoutGallery.qml:213
+#: contents/ui/gallery/CardsLayoutGallery.qml:212
 msgctxt "CardsLayoutGallery|"
 msgid "Action2"
 msgstr "Akcia2"
@@ -143,12 +143,12 @@ msgstr ""
 "príznakov Qt.Alignment.\n"
 "Ak je príliš veľa akcií, prejdú do rozšírenej ponuky."
 
-#: contents/ui/gallery/CardsLayoutGallery.qml:144
+#: contents/ui/gallery/CardsLayoutGallery.qml:142
 msgctxt "CardsLayoutGallery|"
 msgid "Action always hidden"
 msgstr "Akcia vždy skrytá"
 
-#: contents/ui/gallery/CardsLayoutGallery.qml:154
+#: contents/ui/gallery/CardsLayoutGallery.qml:153
 msgctxt "CardsLayoutGallery|"
 msgid ""
 "The Banner can contain only the title and/or an icon, even if there is no "
@@ -157,7 +157,7 @@ msgstr ""
 "Banner môže obsahovať iba názov a/alebo ikonu, dokonca aj keď nie je žiadny "
 "obrázok banneru."
 
-#: contents/ui/gallery/CardsLayoutGallery.qml:177
+#: contents/ui/gallery/CardsLayoutGallery.qml:176
 msgctxt "CardsLayoutGallery|"
 msgid ""
 "It's possible to have custom contents overlapping the image, for cases where "
@@ -166,7 +166,7 @@ msgstr ""
 "Je možné mať vlastný obsah presahujúci obrázok, v prípade, že je potrebný "
 "viac personalizovaný dizajn."
 
-#: contents/ui/gallery/CardsLayoutGallery.qml:192
+#: contents/ui/gallery/CardsLayoutGallery.qml:191
 msgctxt "CardsLayoutGallery|"
 msgid ""
 "It's possible to customize the look and feel for Cards too, if the no "
@@ -183,17 +183,17 @@ msgstr ""
 "vlastnosti bannera by sa nemala použiť. Ak sa použije vlastná päta (čo sa "
 "neodporúča), nemali by sa použiť akcie."
 
-#: contents/ui/gallery/CardsLayoutGallery.qml:197
+#: contents/ui/gallery/CardsLayoutGallery.qml:196
 msgctxt "CardsLayoutGallery|"
 msgid "Custom footer"
 msgstr "Vlastná päta"
 
-#: contents/ui/gallery/CardsLayoutGallery.qml:200
+#: contents/ui/gallery/CardsLayoutGallery.qml:199
 msgctxt "CardsLayoutGallery|"
 msgid "Ok"
 msgstr "Ok"
 
-#: contents/ui/gallery/CardsLayoutGallery.qml:223
+#: contents/ui/gallery/CardsLayoutGallery.qml:222
 msgctxt "CardsLayoutGallery|"
 msgid ""
 "A card can optionally have horizontal orientation.\n"
@@ -673,51 +673,51 @@ msgctxt "InlineMessagesGallery|"
 msgid "Shush"
 msgstr "Shush"
 
-#: contents/ui/gallery/MetricsGallery.qml:38
+#: contents/ui/gallery/MetricsGallery.qml:42
 msgctxt "MetricsGallery|"
 msgid "Heading 1"
 msgstr "Nadpis 1"
 
-#: contents/ui/gallery/MetricsGallery.qml:43
-#: contents/ui/gallery/MetricsGallery.qml:53
-#: contents/ui/gallery/MetricsGallery.qml:63
-#: contents/ui/gallery/MetricsGallery.qml:73
+#: contents/ui/gallery/MetricsGallery.qml:47
+#: contents/ui/gallery/MetricsGallery.qml:57
+#: contents/ui/gallery/MetricsGallery.qml:67
+#: contents/ui/gallery/MetricsGallery.qml:77
 #, qt-format
 msgctxt "MetricsGallery|"
 msgid "%1 points"
 msgstr "%1 bodov"
 
-#: contents/ui/gallery/MetricsGallery.qml:48
+#: contents/ui/gallery/MetricsGallery.qml:52
 msgctxt "MetricsGallery|"
 msgid "Heading 2"
 msgstr "Nadpis 2"
 
-#: contents/ui/gallery/MetricsGallery.qml:58
+#: contents/ui/gallery/MetricsGallery.qml:62
 msgctxt "MetricsGallery|"
 msgid "Heading 3"
 msgstr "Nadpis 3"
 
-#: contents/ui/gallery/MetricsGallery.qml:68
+#: contents/ui/gallery/MetricsGallery.qml:72
 msgctxt "MetricsGallery|"
 msgid "Heading 4"
 msgstr "Nadpis 4"
 
-#: contents/ui/gallery/MiscGallery.qml:86
+#: contents/ui/gallery/MiscGallery.qml:82
 msgctxt "MiscGallery|"
 msgid "Text Beside Icon"
 msgstr "Text nad ikonami"
 
-#: contents/ui/gallery/MiscGallery.qml:101
+#: contents/ui/gallery/MiscGallery.qml:97
 msgctxt "MiscGallery|"
 msgid "Text Under Icon"
 msgstr "Text pod ikonami"
 
-#: contents/ui/gallery/MiscGallery.qml:116
+#: contents/ui/gallery/MiscGallery.qml:112
 msgctxt "MiscGallery|"
 msgid "Text Only"
 msgstr "Iba text"
 
-#: contents/ui/gallery/MiscGallery.qml:131
+#: contents/ui/gallery/MiscGallery.qml:127
 msgctxt "MiscGallery|"
 msgid "Icon Only"
 msgstr "Iba ikona"

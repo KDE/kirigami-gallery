@@ -81,7 +81,7 @@ msgstr "카드 클릭됨"
 #: contents/ui/gallery/CardsLayoutGallery.qml:74
 #: contents/ui/gallery/CardsLayoutGallery.qml:96
 #: contents/ui/gallery/CardsLayoutGallery.qml:134
-#: contents/ui/gallery/CardsLayoutGallery.qml:209
+#: contents/ui/gallery/CardsLayoutGallery.qml:208
 msgctxt "CardsLayoutGallery|"
 msgid "Action1"
 msgstr "동작1"
@@ -89,7 +89,7 @@ msgstr "동작1"
 #: contents/ui/gallery/CardsLayoutGallery.qml:78
 #: contents/ui/gallery/CardsLayoutGallery.qml:100
 #: contents/ui/gallery/CardsLayoutGallery.qml:138
-#: contents/ui/gallery/CardsLayoutGallery.qml:213
+#: contents/ui/gallery/CardsLayoutGallery.qml:212
 msgctxt "CardsLayoutGallery|"
 msgid "Action2"
 msgstr "동작2"
@@ -142,19 +142,19 @@ msgstr ""
 "니다.\n"
 "등록된 Action이 너무 많으면 흘러 넘침 메뉴에 표시됩니다."
 
-#: contents/ui/gallery/CardsLayoutGallery.qml:144
+#: contents/ui/gallery/CardsLayoutGallery.qml:142
 msgctxt "CardsLayoutGallery|"
 msgid "Action always hidden"
 msgstr "Action 항상 숨김"
 
-#: contents/ui/gallery/CardsLayoutGallery.qml:154
+#: contents/ui/gallery/CardsLayoutGallery.qml:153
 msgctxt "CardsLayoutGallery|"
 msgid ""
 "The Banner can contain only the title and/or an icon, even if there is no "
 "banner image."
 msgstr "Banner에는 이미지가 없어도 제목이나 아이콘만 포함될 수 있습니다."
 
-#: contents/ui/gallery/CardsLayoutGallery.qml:177
+#: contents/ui/gallery/CardsLayoutGallery.qml:176
 msgctxt "CardsLayoutGallery|"
 msgid ""
 "It's possible to have custom contents overlapping the image, for cases where "
@@ -163,7 +163,7 @@ msgstr ""
 "이미지를 덮는 사용자 정의 콘텐츠를 둘 수 있으며, 개인화된 디자인이 필요할 때 "
 "사용할 수 있습니다."
 
-#: contents/ui/gallery/CardsLayoutGallery.qml:192
+#: contents/ui/gallery/CardsLayoutGallery.qml:191
 msgctxt "CardsLayoutGallery|"
 msgid ""
 "It's possible to customize the look and feel for Cards too, if the no "
@@ -179,17 +179,17 @@ msgstr ""
 "자 정의 머리글을 사용했다면 banner 속성의 title과 icon을 지정하면 안 됩니다. "
 "사용자 정의 바닥글을 사용했다면(권장하지 않음) 동작을 배치할 수 없습니다."
 
-#: contents/ui/gallery/CardsLayoutGallery.qml:197
+#: contents/ui/gallery/CardsLayoutGallery.qml:196
 msgctxt "CardsLayoutGallery|"
 msgid "Custom footer"
 msgstr "사용자 정의 바닥글"
 
-#: contents/ui/gallery/CardsLayoutGallery.qml:200
+#: contents/ui/gallery/CardsLayoutGallery.qml:199
 msgctxt "CardsLayoutGallery|"
 msgid "Ok"
 msgstr "확인"
 
-#: contents/ui/gallery/CardsLayoutGallery.qml:223
+#: contents/ui/gallery/CardsLayoutGallery.qml:222
 msgctxt "CardsLayoutGallery|"
 msgid ""
 "A card can optionally have horizontal orientation.\n"
@@ -652,51 +652,51 @@ msgctxt "InlineMessagesGallery|"
 msgid "Shush"
 msgstr "쉿"
 
-#: contents/ui/gallery/MetricsGallery.qml:38
+#: contents/ui/gallery/MetricsGallery.qml:42
 msgctxt "MetricsGallery|"
 msgid "Heading 1"
 msgstr "머리글 1"
 
-#: contents/ui/gallery/MetricsGallery.qml:43
-#: contents/ui/gallery/MetricsGallery.qml:53
-#: contents/ui/gallery/MetricsGallery.qml:63
-#: contents/ui/gallery/MetricsGallery.qml:73
+#: contents/ui/gallery/MetricsGallery.qml:47
+#: contents/ui/gallery/MetricsGallery.qml:57
+#: contents/ui/gallery/MetricsGallery.qml:67
+#: contents/ui/gallery/MetricsGallery.qml:77
 #, qt-format
 msgctxt "MetricsGallery|"
 msgid "%1 points"
 msgstr "%1포인트"
 
-#: contents/ui/gallery/MetricsGallery.qml:48
+#: contents/ui/gallery/MetricsGallery.qml:52
 msgctxt "MetricsGallery|"
 msgid "Heading 2"
 msgstr "머리글 2"
 
-#: contents/ui/gallery/MetricsGallery.qml:58
+#: contents/ui/gallery/MetricsGallery.qml:62
 msgctxt "MetricsGallery|"
 msgid "Heading 3"
 msgstr "머리글 3"
 
-#: contents/ui/gallery/MetricsGallery.qml:68
+#: contents/ui/gallery/MetricsGallery.qml:72
 msgctxt "MetricsGallery|"
 msgid "Heading 4"
 msgstr "머리글 4"
 
-#: contents/ui/gallery/MiscGallery.qml:86
+#: contents/ui/gallery/MiscGallery.qml:82
 msgctxt "MiscGallery|"
 msgid "Text Beside Icon"
 msgstr "아이콘 옆에 텍스트"
 
-#: contents/ui/gallery/MiscGallery.qml:101
+#: contents/ui/gallery/MiscGallery.qml:97
 msgctxt "MiscGallery|"
 msgid "Text Under Icon"
 msgstr "아이콘 밑에 텍스트"
 
-#: contents/ui/gallery/MiscGallery.qml:116
+#: contents/ui/gallery/MiscGallery.qml:112
 msgctxt "MiscGallery|"
 msgid "Text Only"
 msgstr "텍스트만"
 
-#: contents/ui/gallery/MiscGallery.qml:131
+#: contents/ui/gallery/MiscGallery.qml:127
 msgctxt "MiscGallery|"
 msgid "Icon Only"
 msgstr "아이콘만"

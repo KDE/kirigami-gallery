@@ -90,7 +90,7 @@ msgstr "Targeta clicada"
 #: contents/ui/gallery/CardsLayoutGallery.qml:74
 #: contents/ui/gallery/CardsLayoutGallery.qml:96
 #: contents/ui/gallery/CardsLayoutGallery.qml:134
-#: contents/ui/gallery/CardsLayoutGallery.qml:209
+#: contents/ui/gallery/CardsLayoutGallery.qml:208
 msgctxt "CardsLayoutGallery|"
 msgid "Action1"
 msgstr "Acció1"
@@ -98,7 +98,7 @@ msgstr "Acció1"
 #: contents/ui/gallery/CardsLayoutGallery.qml:78
 #: contents/ui/gallery/CardsLayoutGallery.qml:100
 #: contents/ui/gallery/CardsLayoutGallery.qml:138
-#: contents/ui/gallery/CardsLayoutGallery.qml:213
+#: contents/ui/gallery/CardsLayoutGallery.qml:212
 msgctxt "CardsLayoutGallery|"
 msgid "Action2"
 msgstr "Acció2"
@@ -152,12 +152,12 @@ msgstr ""
 "combinació d'etiquetes «Qt.Alignment».\n"
 "Quan hi ha massa accions, llavors es transferiran a un menú de desbordament."
 
-#: contents/ui/gallery/CardsLayoutGallery.qml:144
+#: contents/ui/gallery/CardsLayoutGallery.qml:142
 msgctxt "CardsLayoutGallery|"
 msgid "Action always hidden"
 msgstr "Acció sempre oculta"
 
-#: contents/ui/gallery/CardsLayoutGallery.qml:154
+#: contents/ui/gallery/CardsLayoutGallery.qml:153
 msgctxt "CardsLayoutGallery|"
 msgid ""
 "The Banner can contain only the title and/or an icon, even if there is no "
@@ -166,7 +166,7 @@ msgstr ""
 "«Banner» només pot contindre el títol i/o una icona, fins i tot si no hi ha "
 "cap imatge de bàner."
 
-#: contents/ui/gallery/CardsLayoutGallery.qml:177
+#: contents/ui/gallery/CardsLayoutGallery.qml:176
 msgctxt "CardsLayoutGallery|"
 msgid ""
 "It's possible to have custom contents overlapping the image, for cases where "
@@ -175,7 +175,7 @@ msgstr ""
 "És possible que els continguts a mida se superposen a la imatge, per als "
 "casos en què cal un disseny més personalitzat."
 
-#: contents/ui/gallery/CardsLayoutGallery.qml:192
+#: contents/ui/gallery/CardsLayoutGallery.qml:191
 msgctxt "CardsLayoutGallery|"
 msgid ""
 "It's possible to customize the look and feel for Cards too, if the no "
@@ -193,17 +193,17 @@ msgstr ""
 "la propietat del bàner no s'hauran d'emprar. Si s'utilitza un peu de pàgina "
 "personalitzat (el qual es desaconsella), les accions no s'hauran d'utilitzar."
 
-#: contents/ui/gallery/CardsLayoutGallery.qml:197
+#: contents/ui/gallery/CardsLayoutGallery.qml:196
 msgctxt "CardsLayoutGallery|"
 msgid "Custom footer"
 msgstr "Peu de pàgina personalitzat"
 
-#: contents/ui/gallery/CardsLayoutGallery.qml:200
+#: contents/ui/gallery/CardsLayoutGallery.qml:199
 msgctxt "CardsLayoutGallery|"
 msgid "Ok"
 msgstr "D'acord"
 
-#: contents/ui/gallery/CardsLayoutGallery.qml:223
+#: contents/ui/gallery/CardsLayoutGallery.qml:222
 msgctxt "CardsLayoutGallery|"
 msgid ""
 "A card can optionally have horizontal orientation.\n"
@@ -676,51 +676,51 @@ msgctxt "InlineMessagesGallery|"
 msgid "Shush"
 msgstr "Shhh!"
 
-#: contents/ui/gallery/MetricsGallery.qml:38
+#: contents/ui/gallery/MetricsGallery.qml:42
 msgctxt "MetricsGallery|"
 msgid "Heading 1"
 msgstr "Capçalera 1"
 
-#: contents/ui/gallery/MetricsGallery.qml:43
-#: contents/ui/gallery/MetricsGallery.qml:53
-#: contents/ui/gallery/MetricsGallery.qml:63
-#: contents/ui/gallery/MetricsGallery.qml:73
+#: contents/ui/gallery/MetricsGallery.qml:47
+#: contents/ui/gallery/MetricsGallery.qml:57
+#: contents/ui/gallery/MetricsGallery.qml:67
+#: contents/ui/gallery/MetricsGallery.qml:77
 #, qt-format
 msgctxt "MetricsGallery|"
 msgid "%1 points"
 msgstr "%1 punts"
 
-#: contents/ui/gallery/MetricsGallery.qml:48
+#: contents/ui/gallery/MetricsGallery.qml:52
 msgctxt "MetricsGallery|"
 msgid "Heading 2"
 msgstr "Capçalera 2"
 
-#: contents/ui/gallery/MetricsGallery.qml:58
+#: contents/ui/gallery/MetricsGallery.qml:62
 msgctxt "MetricsGallery|"
 msgid "Heading 3"
 msgstr "Capçalera 3"
 
-#: contents/ui/gallery/MetricsGallery.qml:68
+#: contents/ui/gallery/MetricsGallery.qml:72
 msgctxt "MetricsGallery|"
 msgid "Heading 4"
 msgstr "Capçalera 4"
 
-#: contents/ui/gallery/MiscGallery.qml:86
+#: contents/ui/gallery/MiscGallery.qml:82
 msgctxt "MiscGallery|"
 msgid "Text Beside Icon"
 msgstr "Text vora les icones"
 
-#: contents/ui/gallery/MiscGallery.qml:101
+#: contents/ui/gallery/MiscGallery.qml:97
 msgctxt "MiscGallery|"
 msgid "Text Under Icon"
 msgstr "Text davall les icones"
 
-#: contents/ui/gallery/MiscGallery.qml:116
+#: contents/ui/gallery/MiscGallery.qml:112
 msgctxt "MiscGallery|"
 msgid "Text Only"
 msgstr "Només el text"
 
-#: contents/ui/gallery/MiscGallery.qml:131
+#: contents/ui/gallery/MiscGallery.qml:127
 msgctxt "MiscGallery|"
 msgid "Icon Only"
 msgstr "Només les icones"

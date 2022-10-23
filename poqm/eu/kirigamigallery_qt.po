@@ -91,7 +91,7 @@ msgstr "Txartela sakatuta"
 #: contents/ui/gallery/CardsLayoutGallery.qml:74
 #: contents/ui/gallery/CardsLayoutGallery.qml:96
 #: contents/ui/gallery/CardsLayoutGallery.qml:134
-#: contents/ui/gallery/CardsLayoutGallery.qml:209
+#: contents/ui/gallery/CardsLayoutGallery.qml:208
 msgctxt "CardsLayoutGallery|"
 msgid "Action1"
 msgstr "Ekintza1"
@@ -99,7 +99,7 @@ msgstr "Ekintza1"
 #: contents/ui/gallery/CardsLayoutGallery.qml:78
 #: contents/ui/gallery/CardsLayoutGallery.qml:100
 #: contents/ui/gallery/CardsLayoutGallery.qml:138
-#: contents/ui/gallery/CardsLayoutGallery.qml:213
+#: contents/ui/gallery/CardsLayoutGallery.qml:212
 msgctxt "CardsLayoutGallery|"
 msgid "Action2"
 msgstr "Ekintza2"
@@ -153,12 +153,12 @@ msgstr ""
 "bandera konbinazio bat erabiliz.\n"
 " Ekintza gehiegi daudenean, gainezkatze menu batean sartzen dira."
 
-#: contents/ui/gallery/CardsLayoutGallery.qml:144
+#: contents/ui/gallery/CardsLayoutGallery.qml:142
 msgctxt "CardsLayoutGallery|"
 msgid "Action always hidden"
 msgstr "Ekintza beti ezkutuan"
 
-#: contents/ui/gallery/CardsLayoutGallery.qml:154
+#: contents/ui/gallery/CardsLayoutGallery.qml:153
 msgctxt "CardsLayoutGallery|"
 msgid ""
 "The Banner can contain only the title and/or an icon, even if there is no "
@@ -167,7 +167,7 @@ msgstr ""
 "«Banner», iragarki-bandak, soilik, titulua eta/edo ikono bat izan ditzake, "
 "nahiz eta iragarki-bandako irudirik ez egon."
 
-#: contents/ui/gallery/CardsLayoutGallery.qml:177
+#: contents/ui/gallery/CardsLayoutGallery.qml:176
 msgctxt "CardsLayoutGallery|"
 msgid ""
 "It's possible to have custom contents overlapping the image, for cases where "
@@ -176,7 +176,7 @@ msgstr ""
 "Diseinu pertsonalizatuagoa behar denerako, norberak egokitutako edukia "
 "irudiari gainjartzea posible da."
 
-#: contents/ui/gallery/CardsLayoutGallery.qml:192
+#: contents/ui/gallery/CardsLayoutGallery.qml:191
 msgctxt "CardsLayoutGallery|"
 msgid ""
 "It's possible to customize the look and feel for Cards too, if the no "
@@ -195,17 +195,17 @@ msgstr ""
 "behar. Norbere erara egokitutako orri-oin bat erabiltzen bada (ez da "
 "gomendagarria), ekintzak ez lirateke erabili behar."
 
-#: contents/ui/gallery/CardsLayoutGallery.qml:197
+#: contents/ui/gallery/CardsLayoutGallery.qml:196
 msgctxt "CardsLayoutGallery|"
 msgid "Custom footer"
 msgstr "Norberak finkatutako orri-oina"
 
-#: contents/ui/gallery/CardsLayoutGallery.qml:200
+#: contents/ui/gallery/CardsLayoutGallery.qml:199
 msgctxt "CardsLayoutGallery|"
 msgid "Ok"
 msgstr "Ados"
 
-#: contents/ui/gallery/CardsLayoutGallery.qml:223
+#: contents/ui/gallery/CardsLayoutGallery.qml:222
 msgctxt "CardsLayoutGallery|"
 msgid ""
 "A card can optionally have horizontal orientation.\n"
@@ -677,51 +677,51 @@ msgctxt "InlineMessagesGallery|"
 msgid "Shush"
 msgstr "Ixo"
 
-#: contents/ui/gallery/MetricsGallery.qml:38
+#: contents/ui/gallery/MetricsGallery.qml:42
 msgctxt "MetricsGallery|"
 msgid "Heading 1"
 msgstr "Goiburua 1"
 
-#: contents/ui/gallery/MetricsGallery.qml:43
-#: contents/ui/gallery/MetricsGallery.qml:53
-#: contents/ui/gallery/MetricsGallery.qml:63
-#: contents/ui/gallery/MetricsGallery.qml:73
+#: contents/ui/gallery/MetricsGallery.qml:47
+#: contents/ui/gallery/MetricsGallery.qml:57
+#: contents/ui/gallery/MetricsGallery.qml:67
+#: contents/ui/gallery/MetricsGallery.qml:77
 #, qt-format
 msgctxt "MetricsGallery|"
 msgid "%1 points"
 msgstr "%1 puntu"
 
-#: contents/ui/gallery/MetricsGallery.qml:48
+#: contents/ui/gallery/MetricsGallery.qml:52
 msgctxt "MetricsGallery|"
 msgid "Heading 2"
 msgstr "Goiburua 2"
 
-#: contents/ui/gallery/MetricsGallery.qml:58
+#: contents/ui/gallery/MetricsGallery.qml:62
 msgctxt "MetricsGallery|"
 msgid "Heading 3"
 msgstr "Goiburua 3"
 
-#: contents/ui/gallery/MetricsGallery.qml:68
+#: contents/ui/gallery/MetricsGallery.qml:72
 msgctxt "MetricsGallery|"
 msgid "Heading 4"
 msgstr "Goiburua 4"
 
-#: contents/ui/gallery/MiscGallery.qml:86
+#: contents/ui/gallery/MiscGallery.qml:82
 msgctxt "MiscGallery|"
 msgid "Text Beside Icon"
 msgstr "Testua ikonoaren aldamenean"
 
-#: contents/ui/gallery/MiscGallery.qml:101
+#: contents/ui/gallery/MiscGallery.qml:97
 msgctxt "MiscGallery|"
 msgid "Text Under Icon"
 msgstr "Testu ikonoaren azpian"
 
-#: contents/ui/gallery/MiscGallery.qml:116
+#: contents/ui/gallery/MiscGallery.qml:112
 msgctxt "MiscGallery|"
 msgid "Text Only"
 msgstr "Testua soilik"
 
-#: contents/ui/gallery/MiscGallery.qml:131
+#: contents/ui/gallery/MiscGallery.qml:127
 msgctxt "MiscGallery|"
 msgid "Icon Only"
 msgstr "Ikonoa soilik"
