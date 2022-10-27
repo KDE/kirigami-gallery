@@ -4,4 +4,7 @@
 include:
   - project: sysadmin/ci-utilities
     ref: work/kloecker/craft-android
-    file: /gitlab-templates/craft-android-arm64.yml
+    file:
+      - /gitlab-templates/craft-android-arm32.yml
+      - /gitlab-templates/craft-android-arm64.yml
+      - /gitlab-templates/craft-android-x86-64.yml
