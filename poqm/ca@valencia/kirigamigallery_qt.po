@@ -499,8 +499,8 @@ msgid ""
 "drawer."
 msgstr ""
 "Un calaix inferior modal abastarà tota l'amplària de la finestra de "
-"l'aplicació i enfosquirà la resta de l'aplicació. En fer clic sobre un punt "
-"fosc es refusarà el calaix."
+"l'aplicació i enfosquirà la resta de l'aplicació. En fer clic damunt d'un "
+"punt fosc es refusarà el calaix."
 
 #: contents/ui/gallery/DrawerGallery.qml:84
 #: contents/ui/gallery/DrawerGallery.qml:103
@@ -635,7 +635,7 @@ msgid ""
 "org/<a/>"
 msgstr ""
 "Podeu utilitzar text enriquit en els missatges inclosos i, de manera "
-"opcional, fer clic als enllaços (s'obriran en el navegador): <a href="
+"opcional, fer clic en els enllaços (s'obriran en el navegador): <a href="
 "\"https://www.kde.org\">https://www.kde.org/<a/>"
 
 #: contents/ui/gallery/InlineMessagesGallery.qml:129
