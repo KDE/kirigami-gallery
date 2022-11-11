@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"PO-Revision-Date: 2022-09-13 16:55+0300\n"
+"PO-Revision-Date: 2022-11-10 21:16+0300\n"
 "Last-Translator: Emir SARI <emir_sari@icloud.com>\n"
 "Language-Team: Turkish <kde-l10n-tr@kde.org>\n"
 "Language: tr\n"
@@ -11,7 +11,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Qt-Contexts: true\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Lokalize 22.08.0\n"
+"X-Generator: Lokalize 22.08.3\n"
 
 #: contents/ui/gallery/ActionToolBarGallery.qml:35
 msgctxt "ActionToolBarGallery|"
@@ -440,7 +440,7 @@ msgstr "Seçim İletişim Kutusu"
 #: contents/ui/gallery/DialogGallery.qml:216
 msgctxt "DialogGallery|"
 msgid "Scrollable Dialog"
-msgstr "Kaydırılabilir İletişim Kutusu"
+msgstr "Sarılabilir İletişim Kutusu"
 
 #: contents/ui/gallery/DialogGallery.qml:226
 msgctxt "DialogGallery|"
@@ -753,7 +753,7 @@ msgid ""
 "A sheet can have optional header and footer items which will not scroll away "
 "when the sheet overflows."
 msgstr ""
-"Bir yaprağın, yaprak taştığında kaydırılmayacak isteğe bağlı üstbilgi ve "
+"Bir yaprağın, yaprak taştığında sarılmayacak isteğe bağlı üstbilgi ve "
 "altbilgi ögeleri olabilir."
 
 #: contents/ui/gallery/OverlaySheetGallery.qml:129
