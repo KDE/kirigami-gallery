@@ -148,8 +148,8 @@ msgid ""
 "Alignment flags.\n"
 " When there are too many actions, they go in an overflow menu."
 msgstr ""
-"El títol pot estar alineat a totes les cantonades o centrat amb una "
-"combinació d'etiquetes «Qt.Alignment».\n"
+"El títol pot estar alineat a tots els cantons o centrat amb una combinació "
+"d'etiquetes «Qt.Alignment».\n"
 "Quan hi ha massa accions, llavors es transferiran a un menú de desbordament."
 
 #: contents/ui/gallery/CardsLayoutGallery.qml:142
