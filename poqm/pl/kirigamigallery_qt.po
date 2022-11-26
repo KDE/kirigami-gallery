@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"PO-Revision-Date: 2022-03-20 09:31+0100\n"
+"PO-Revision-Date: 2022-11-25 22:01+0100\n"
 "Last-Translator: Łukasz Wojniłowicz <lukasz.wojnilowicz@gmail.com>\n"
 "Language-Team: Polish <kde-i18n-doc@kde.org>\n"
 "Language: pl\n"
@@ -12,7 +12,7 @@ msgstr ""
 "X-Qt-Contexts: true\n"
 "Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
 "|| n%100>=20) ? 1 : 2);\n"
-"X-Generator: Lokalize 22.03.70\n"
+"X-Generator: Lokalize 22.08.2\n"
 
 #: contents/ui/gallery/ActionToolBarGallery.qml:35
 msgctxt "ActionToolBarGallery|"
@@ -241,12 +241,9 @@ msgstr "Wgraj"
 #: contents/ui/gallery/ChipGallery.qml:32
 msgctxt "ChipGallery|"
 msgid "Chips"
-msgstr ""
+msgstr "Chipsy"
 
 #: contents/ui/gallery/ChipGallery.qml:35
-#, fuzzy
-#| msgctxt "ActionToolBarGallery|"
-#| msgid "Info"
 msgctxt "ChipGallery|"
 msgid "Info"
 msgstr "Dane"
@@ -254,20 +251,17 @@ msgstr "Dane"
 #: contents/ui/gallery/ChipGallery.qml:65
 msgctxt "ChipGallery|"
 msgid "Closable Chips"
-msgstr ""
+msgstr "Zamykalne czipsy"
 
 #: contents/ui/gallery/ChipGallery.qml:95
 msgctxt "ChipGallery|"
 msgid "Informative Chips"
-msgstr ""
+msgstr "Informacyjne czipsy"
 
 #: contents/ui/gallery/ChipGallery.qml:131
-#, fuzzy
-#| msgctxt "SelectionControlsGallery|"
-#| msgid "Checkable List View"
 msgctxt "ChipGallery|"
 msgid "Checkable Chips"
-msgstr "Widok listy pól zaznaczanych"
+msgstr "Zaznaczalne czipsy"
 
 #: contents/ui/gallery/components/InfoSheet.qml:48
 msgctxt "InfoSheet|"
@@ -812,12 +806,10 @@ msgstr "Elementy listy pól zaznaczanych"
 #: contents/ui/gallery/SelectionControlsGallery.qml:72
 #: contents/ui/gallery/SelectionControlsGallery.qml:95
 #: contents/ui/gallery/SelectionControlsGallery.qml:118
-#, fuzzy, qt-format
-#| msgctxt "SelectionControlsGallery|"
-#| msgid "Delegate"
+#, qt-format
 msgctxt "SelectionControlsGallery|"
 msgid "Delegate %1"
-msgstr "Deleguj"
+msgstr "Delegat %1"
 
 #: contents/ui/gallery/SelectionControlsGallery.qml:88
 #: contents/ui/gallery/SelectionControlsGallery.qml:111
