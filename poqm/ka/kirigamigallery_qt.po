@@ -11,7 +11,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Qt-Contexts: true\n"
-"X-Generator: Poedit 3.1.1\n"
+"X-Generator: Poedit 3.2.2\n"
 
 #: contents/ui/gallery/ActionToolBarGallery.qml:35
 msgctxt "ActionToolBarGallery|"
@@ -21,7 +21,7 @@ msgstr "ინფორმაცია"
 #: contents/ui/gallery/CardsGridViewGallery.qml:30
 msgctxt "CardsGridViewGallery|"
 msgid "Grid view of Cards"
-msgstr ""
+msgstr "კარტების ბადისებური ხედი"
 
 #: contents/ui/gallery/CardsGridViewGallery.qml:34
 msgctxt "CardsGridViewGallery|"
@@ -31,7 +31,7 @@ msgstr "ინფორმაცია"
 #: contents/ui/gallery/CardsLayoutGallery.qml:30
 msgctxt "CardsLayoutGallery|"
 msgid "Cards Layout"
-msgstr ""
+msgstr "კარტების განლაგება"
 
 #: contents/ui/gallery/CardsLayoutGallery.qml:34
 msgctxt "CardsLayoutGallery|"
@@ -41,7 +41,7 @@ msgstr "ინფორმაცია"
 #: contents/ui/gallery/CardsLayoutGallery.qml:53
 msgctxt "CardsLayoutGallery|"
 msgid "AbstractCard"
-msgstr ""
+msgstr "აბსტრაქტული კარტი"
 
 #: contents/ui/gallery/CardsLayoutGallery.qml:58
 msgctxt "CardsLayoutGallery|"
@@ -129,7 +129,7 @@ msgstr ""
 #: contents/ui/gallery/CardsLayoutGallery.qml:142
 msgctxt "CardsLayoutGallery|"
 msgid "Action always hidden"
-msgstr ""
+msgstr "ქმედება ყოველთვის დამალულია"
 
 #: contents/ui/gallery/CardsLayoutGallery.qml:153
 msgctxt "CardsLayoutGallery|"
@@ -159,7 +159,7 @@ msgstr ""
 #: contents/ui/gallery/CardsLayoutGallery.qml:196
 msgctxt "CardsLayoutGallery|"
 msgid "Custom footer"
-msgstr ""
+msgstr "ხელით მითითებული ქვესართი"
 
 #: contents/ui/gallery/CardsLayoutGallery.qml:199
 msgctxt "CardsLayoutGallery|"
@@ -179,7 +179,7 @@ msgstr ""
 #: contents/ui/gallery/CardsListViewGallery.qml:30
 msgctxt "CardsListViewGallery|"
 msgid "List view of simple cards"
-msgstr ""
+msgstr "მარტივი კარტების სია"
 
 #: contents/ui/gallery/CardsListViewGallery.qml:34
 msgctxt "CardsListViewGallery|"
@@ -197,6 +197,8 @@ msgid ""
 "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id risus id "
 "augue euismod accumsan."
 msgstr ""
+"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id risus id "
+"augue euismod accumsan."
 
 #: contents/ui/gallery/CardsListViewGallery.qml:99
 msgctxt "CardsListViewGallery|"
@@ -206,7 +208,7 @@ msgstr "ჩადგმა"
 #: contents/ui/gallery/ChipGallery.qml:32
 msgctxt "ChipGallery|"
 msgid "Chips"
-msgstr ""
+msgstr "ჩიპები"
 
 #: contents/ui/gallery/ChipGallery.qml:35
 msgctxt "ChipGallery|"
@@ -216,17 +218,17 @@ msgstr "ინფორმაცია"
 #: contents/ui/gallery/ChipGallery.qml:65
 msgctxt "ChipGallery|"
 msgid "Closable Chips"
-msgstr ""
+msgstr "დახურვადი ჩიპები"
 
 #: contents/ui/gallery/ChipGallery.qml:95
 msgctxt "ChipGallery|"
 msgid "Informative Chips"
-msgstr ""
+msgstr "საინფორმაციო ჩიპები"
 
 #: contents/ui/gallery/ChipGallery.qml:131
 msgctxt "ChipGallery|"
 msgid "Checkable Chips"
-msgstr ""
+msgstr "შემოწმებადი ჩიპები"
 
 #: contents/ui/gallery/components/InfoSheet.qml:48
 msgctxt "InfoSheet|"
@@ -271,7 +273,7 @@ msgstr "საქაღალდის სახელი..."
 #: contents/ui/gallery/DialogGallery.qml:97
 msgctxt "DialogGallery|"
 msgid "Alarm Snooze Length"
-msgstr ""
+msgstr "განგაშის ჩაჩუმების ხაგრძლივობა"
 
 #: contents/ui/gallery/DialogGallery.qml:106
 msgctxt "DialogGallery|"
@@ -316,18 +318,20 @@ msgstr "%1 საათი"
 #: contents/ui/gallery/DialogGallery.qml:135
 msgctxt "DialogGallery|"
 msgid "Select Number"
-msgstr ""
+msgstr "აირჩიეთ რიცხვი"
 
 #: contents/ui/gallery/DialogGallery.qml:155
 #: contents/ui/gallery/DialogGallery.qml:221
 msgctxt "DialogGallery|"
 msgid "No Footer Dialog"
-msgstr ""
+msgstr "ქვესართის ფანჯრის გარეშე"
 
 #: contents/ui/gallery/DialogGallery.qml:156
 msgctxt "DialogGallery|"
 msgid "This dialog has no footer buttons.<br/>It also has no close button."
 msgstr ""
+"ამ ფანჯარას ქვესართის ღილაკები არ გააჩნია. <br/> ასევე არ გააჩნია დახურვის "
+"ღილაკიც."
 
 #: contents/ui/gallery/DialogGallery.qml:164
 msgctxt "DialogGallery|"
@@ -342,7 +346,7 @@ msgstr "დაკვრა"
 #: contents/ui/gallery/DialogGallery.qml:170
 msgctxt "DialogGallery|"
 msgid "Start playback of the selected track"
-msgstr ""
+msgstr "დაიწყეთ პირველი ტრეკის დაკვრა"
 
 #: contents/ui/gallery/DialogGallery.qml:175
 msgctxt "DialogGallery|Show the file for this song in the file manager"
@@ -352,7 +356,7 @@ msgstr "საქაღალდეში ჩვენება"
 #: contents/ui/gallery/DialogGallery.qml:176
 msgctxt "DialogGallery|"
 msgid "Show the file for this song in the file manager"
-msgstr ""
+msgstr "ამ სიმღერის ფაილის ფაილების მმართველში ჩვენება"
 
 #: contents/ui/gallery/DialogGallery.qml:180
 msgctxt "DialogGallery|Show track metadata"
@@ -362,7 +366,7 @@ msgstr "დეტალების ნახვა"
 #: contents/ui/gallery/DialogGallery.qml:181
 msgctxt "DialogGallery|"
 msgid "Show track metadata"
-msgstr ""
+msgstr "ტრეკის მეტამონაცემების ჩვენება"
 
 #: contents/ui/gallery/DialogGallery.qml:185
 msgctxt ""
@@ -373,7 +377,7 @@ msgstr "შემდეგის დაკვრა"
 #: contents/ui/gallery/DialogGallery.qml:186
 msgctxt "DialogGallery|"
 msgid "Add the track to the queue, right after the current track"
-msgstr ""
+msgstr "ტრეკის რიგში ჩამატება მიმდინარე ტრეკის შემდეგ"
 
 #: contents/ui/gallery/DialogGallery.qml:190
 msgctxt "DialogGallery|Enqueue current track"
@@ -383,27 +387,27 @@ msgstr "რიგში ჩამატება"
 #: contents/ui/gallery/DialogGallery.qml:191
 msgctxt "DialogGallery|"
 msgid "Enqueue current track"
-msgstr ""
+msgstr "მიმდინარე ტრეკის რიგში ჩამატება"
 
 #: contents/ui/gallery/DialogGallery.qml:201
 msgctxt "DialogGallery|"
 msgid "Prompt Dialog"
-msgstr ""
+msgstr "კითხვის ფანჯარა"
 
 #: contents/ui/gallery/DialogGallery.qml:206
 msgctxt "DialogGallery|"
 msgid "Text Prompt Dialog"
-msgstr ""
+msgstr "ტექსტური კითხვის ფანჯარა"
 
 #: contents/ui/gallery/DialogGallery.qml:211
 msgctxt "DialogGallery|"
 msgid "Selection Dialog"
-msgstr ""
+msgstr "არჩევის ფანჯარა"
 
 #: contents/ui/gallery/DialogGallery.qml:216
 msgctxt "DialogGallery|"
 msgid "Scrollable Dialog"
-msgstr ""
+msgstr "დაქაჩვადი ფანჯარა"
 
 #: contents/ui/gallery/DialogGallery.qml:226
 msgctxt "DialogGallery|"
@@ -413,7 +417,7 @@ msgstr "მენიუს ფანჯარა"
 #: contents/ui/gallery/DrawerGallery.qml:30
 msgctxt "DrawerGallery|"
 msgid "Drawers"
-msgstr ""
+msgstr "უჯრები"
 
 #: contents/ui/gallery/DrawerGallery.qml:35
 msgctxt "DrawerGallery|"
@@ -486,22 +490,22 @@ msgstr ""
 #: contents/ui/gallery/DrawerGallery.qml:150
 msgctxt "DrawerGallery|"
 msgid "Left Global Drawer"
-msgstr ""
+msgstr "მარცხენა გლობალური უჯრა"
 
 #: contents/ui/gallery/DrawerGallery.qml:155
 msgctxt "DrawerGallery|"
 msgid "Right Context Drawer"
-msgstr ""
+msgstr "მარჯვენა კონტექსტური უჯრა"
 
 #: contents/ui/gallery/DrawerGallery.qml:161
 msgctxt "DrawerGallery|"
 msgid "Modal Bottom Drawer"
-msgstr ""
+msgstr "მოდალური ქვედა უჯრა"
 
 #: contents/ui/gallery/DrawerGallery.qml:171
 msgctxt "DrawerGallery|"
 msgid "Modal Top Drawer"
-msgstr ""
+msgstr "მოდალური ზედა უჯრა"
 
 #: contents/ui/gallery/FormLayoutGallery.qml:15
 msgctxt "FormLayoutGallery|"
@@ -511,17 +515,17 @@ msgstr "ინფორმაცია"
 #: contents/ui/gallery/FormLayoutGallery.qml:79
 msgctxt "FormLayoutGallery|"
 msgid "Expanding Button"
-msgstr ""
+msgstr "ღილაკის გაფართოება"
 
 #: contents/ui/gallery/FormLayoutGallery.qml:134
 msgctxt "FormLayoutGallery|"
 msgid "Twin Layout:"
-msgstr ""
+msgstr "ტყუპი განლაგება:"
 
 #: contents/ui/gallery/InlineMessagesGallery.qml:31
 msgctxt "InlineMessagesGallery|"
 msgid "Inline Messages"
-msgstr ""
+msgstr "ხაზში მიწერილი შეტყობინებები"
 
 #: contents/ui/gallery/InlineMessagesGallery.qml:35
 msgctxt "InlineMessagesGallery|"
@@ -573,6 +577,7 @@ msgstr ""
 msgctxt "InlineMessagesGallery|"
 msgid "Inline messages can have an optional close button."
 msgstr ""
+"ხაზშივე ჩასმულ შეტყობინებებს შეიძლება არასავალდებულო დახურვის ღილაკი ჰქონდეთ."
 
 #: contents/ui/gallery/InlineMessagesGallery.qml:147
 msgctxt "InlineMessagesGallery|"
@@ -582,7 +587,7 @@ msgstr "ტექსტის დამატება"
 #: contents/ui/gallery/InlineMessagesGallery.qml:157
 msgctxt "InlineMessagesGallery|"
 msgid "Reset text"
-msgstr ""
+msgstr "ტექსტის საწყის მნიშვნელობაზე დაბრუნება"
 
 #: contents/ui/gallery/InlineMessagesGallery.qml:179
 msgctxt "InlineMessagesGallery|"
@@ -592,17 +597,17 @@ msgstr ""
 #: contents/ui/gallery/InlineMessagesGallery.qml:188
 msgctxt "InlineMessagesGallery|"
 msgid "Show additional message"
-msgstr ""
+msgstr "დამატებითი შეტყობინების ჩვენება"
 
 #: contents/ui/gallery/InlineMessagesGallery.qml:205
 msgctxt "InlineMessagesGallery|"
 msgid "Boo!"
-msgstr ""
+msgstr "ბუ!"
 
 #: contents/ui/gallery/InlineMessagesGallery.qml:209
 msgctxt "InlineMessagesGallery|"
 msgid "Shush"
-msgstr ""
+msgstr "ჩუ"
 
 #: contents/ui/gallery/MetricsGallery.qml:42
 msgctxt "MetricsGallery|"
@@ -616,7 +621,7 @@ msgstr "სათაური 1"
 #, qt-format
 msgctxt "MetricsGallery|"
 msgid "%1 points"
-msgstr ""
+msgstr "%1 ქულა"
 
 #: contents/ui/gallery/MetricsGallery.qml:52
 msgctxt "MetricsGallery|"
@@ -636,12 +641,12 @@ msgstr "სათაური 4"
 #: contents/ui/gallery/MiscGallery.qml:82
 msgctxt "MiscGallery|"
 msgid "Text Beside Icon"
-msgstr ""
+msgstr "ტექსტი ხატულის გვერდით"
 
 #: contents/ui/gallery/MiscGallery.qml:97
 msgctxt "MiscGallery|"
 msgid "Text Under Icon"
-msgstr ""
+msgstr "ტექსტი ხატულის ქვეშ"
 
 #: contents/ui/gallery/MiscGallery.qml:112
 msgctxt "MiscGallery|"
@@ -651,17 +656,17 @@ msgstr "მხოლოდ ტექსტი"
 #: contents/ui/gallery/MiscGallery.qml:127
 msgctxt "MiscGallery|"
 msgid "Icon Only"
-msgstr ""
+msgstr "მხოლოდ ხატულა"
 
 #: contents/ui/gallery/MultipleColumnsGallery.qml:119
 msgctxt "MultipleColumnsGallery|"
 msgid "Pin page"
-msgstr ""
+msgstr "გვერდის მიმაგრება"
 
 #: contents/ui/gallery/OverlaySheetGallery.qml:32
 msgctxt "OverlaySheetGallery|"
 msgid "Overlay Sheets"
-msgstr ""
+msgstr "განლაგების ფურცლები"
 
 #: contents/ui/gallery/OverlaySheetGallery.qml:36
 msgctxt "OverlaySheetGallery|"
@@ -685,7 +690,7 @@ msgstr "სათაური"
 #: contents/ui/gallery/OverlaySheetGallery.qml:190
 msgctxt "OverlaySheetGallery|"
 msgid "Footer:"
-msgstr ""
+msgstr "ქვესართი:"
 
 #: contents/ui/gallery/OverlaySheetGallery.qml:110
 msgctxt "OverlaySheetGallery|"
@@ -714,12 +719,12 @@ msgstr ""
 #: contents/ui/gallery/OverlaySheetGallery.qml:178
 msgctxt "OverlaySheetGallery|"
 msgid "Item in sheet "
-msgstr ""
+msgstr "ელემენტი ფურცელზე "
 
 #: contents/ui/gallery/OverlaySheetGallery.qml:222
 msgctxt "OverlaySheetGallery|"
 msgid "Very Long Sheet"
-msgstr ""
+msgstr "ძალიან გრძელი ფურცელი"
 
 #: contents/ui/gallery/SelectionControlsGallery.qml:32
 msgctxt "SelectionControlsGallery|"
@@ -729,12 +734,12 @@ msgstr "ინფორმაცია"
 #: contents/ui/gallery/SelectionControlsGallery.qml:39
 msgctxt "SelectionControlsGallery|"
 msgid "Selection Controls"
-msgstr ""
+msgstr "მონიშვნის კონტროლი"
 
 #: contents/ui/gallery/SelectionControlsGallery.qml:65
 msgctxt "SelectionControlsGallery|"
 msgid "Checkable List Items"
-msgstr ""
+msgstr "სიის ჩართვადი ელემენტები"
 
 #: contents/ui/gallery/SelectionControlsGallery.qml:72
 #: contents/ui/gallery/SelectionControlsGallery.qml:95
@@ -742,13 +747,13 @@ msgstr ""
 #, qt-format
 msgctxt "SelectionControlsGallery|"
 msgid "Delegate %1"
-msgstr ""
+msgstr "%1-ის დელეგირება"
 
 #: contents/ui/gallery/SelectionControlsGallery.qml:88
 #: contents/ui/gallery/SelectionControlsGallery.qml:111
 msgctxt "SelectionControlsGallery|"
 msgid "Radio List Items"
-msgstr ""
+msgstr "სიის ელემენტების გამეორება"
 
 #: contents/ui/gallery/SelectionControlsGallery.qml:127
 msgctxt "SelectionControlsGallery|"
@@ -760,29 +765,29 @@ msgstr "ჩასართავევბი"
 #: contents/ui/gallery/SelectionControlsGallery.qml:167
 msgctxt "SelectionControlsGallery|"
 msgid "Item selected"
-msgstr ""
+msgstr "მონიშნული ელემენტი"
 
 #: contents/ui/gallery/SelectionControlsGallery.qml:135
 #: contents/ui/gallery/SelectionControlsGallery.qml:153
 #: contents/ui/gallery/SelectionControlsGallery.qml:171
 msgctxt "SelectionControlsGallery|"
 msgid "Item not selected"
-msgstr ""
+msgstr "ელემენტი მონიშნული არაა"
 
 #: contents/ui/gallery/SelectionControlsGallery.qml:139
 msgctxt "SelectionControlsGallery|"
 msgid "Checkable List View"
-msgstr ""
+msgstr "სიის ჩარვადი ხედი"
 
 #: contents/ui/gallery/SelectionControlsGallery.qml:145
 msgctxt "SelectionControlsGallery|"
 msgid "Radio buttons"
-msgstr ""
+msgstr "რადიო ღილაკები"
 
 #: contents/ui/gallery/SelectionControlsGallery.qml:158
 msgctxt "SelectionControlsGallery|"
 msgid "Radio List View"
-msgstr ""
+msgstr "რადიო სიის ხედი"
 
 #: contents/ui/gallery/SelectionControlsGallery.qml:164
 msgctxt "SelectionControlsGallery|"
@@ -792,7 +797,7 @@ msgstr "გადამრთველები"
 #: contents/ui/gallery/SelectionControlsGallery.qml:175
 msgctxt "SelectionControlsGallery|"
 msgid "Switch List View"
-msgstr ""
+msgstr "გადამრთველის სიის ხედი"
 
 #: contents/ui/MainPage.qml:35
 msgctxt "MainPage|"
