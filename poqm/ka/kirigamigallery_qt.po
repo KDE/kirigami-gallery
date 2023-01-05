@@ -538,6 +538,8 @@ msgid ""
 "This is an informational inline message (the default type). Use it for "
 "example to announce a result or provide commentary."
 msgstr ""
+"ეს საინფორმაციო ხაზისშიდა შეტყობინებაა (ნაგულისხმები ტიპი). გამოიყენეთ ის, "
+"მაგალითად, შედეგების გამოსაცხადებლად ან კომენტარის გასაკეთებლად."
 
 #: contents/ui/gallery/InlineMessagesGallery.qml:75
 msgctxt "InlineMessagesGallery|"
@@ -545,6 +547,8 @@ msgid ""
 "This is a positive inline message. Use it for example to announce a "
 "successful result or the successful completion of a procedure."
 msgstr ""
+"ეს დადებითი ხაზისშიდა შეტყობინებაა. გამოიყენეთ ის, მაგალითად, წარმატებული "
+"შედეგის ან პროცედურის წარმატებული დასრულების გამოსაცხადებლად."
 
 #: contents/ui/gallery/InlineMessagesGallery.qml:85
 msgctxt "InlineMessagesGallery|"
@@ -552,6 +556,8 @@ msgid ""
 "This is a warning inline message. Use it for example to provide critical "
 "guidance or warn about something that is not going to work."
 msgstr ""
+"ეს გაფრთხილების ხაზისშიდა შეტყობინებაა. გამოიყენეთ ის, მაგალითად კრიტიკული "
+"შეტყობინებებისთვის ან გამოსაცხადებლად, რომ რამე არ მუშაობს."
 
 #: contents/ui/gallery/InlineMessagesGallery.qml:95
 msgctxt "InlineMessagesGallery|"
@@ -559,11 +565,16 @@ msgid ""
 "This is an error inline message. Use it for example to announce something "
 "has gone wrong or that input will not be accepted."
 msgstr ""
+"ეს შეცდომის ხაზისშიდა შეტყობინებაა. გამოიყენეთ ის, რათა გამოაცხადოთ, "
+"მაგალითად, რომ რამე ცუდი მოხდა, ან რომ მათი შეყვანილი ტექსტი დადასტურებული "
+"არ იქნება."
 
 #: contents/ui/gallery/InlineMessagesGallery.qml:109
 msgctxt "InlineMessagesGallery|"
 msgid "Inline messages can optionally have a custom icon set."
 msgstr ""
+"ხაზში მითითებულ შეტყობინებებს შეიძლება თავიანთი არასავალდებულო ხატულების "
+"ნაკრებები გააჩნდეთ."
 
 #: contents/ui/gallery/InlineMessagesGallery.qml:117
 msgctxt "InlineMessagesGallery|"
@@ -593,6 +604,7 @@ msgstr "ტექსტის საწყის მნიშვნელობ�
 msgctxt "InlineMessagesGallery|"
 msgid "Inline messages are initially hidden and animate when revealed. Try it!"
 msgstr ""
+"ხაზისშიდა შეტყობინებები ჯერ დამალულია და ანიმირდება, როცა გამოაჩენთ. სცადეთ!"
 
 #: contents/ui/gallery/InlineMessagesGallery.qml:188
 msgctxt "InlineMessagesGallery|"
@@ -698,6 +710,8 @@ msgid ""
 "A sheet can have optional header and footer items which will not scroll away "
 "when the sheet overflows."
 msgstr ""
+"ფურცლებს შეიძლებათ ჰქონდეთ არასავალდებულო თავსართი და ქვესართი, რომლებიც არ "
+"გადავა მეორე გვერდზე, როცა გვერდი გადაივსება."
 
 #: contents/ui/gallery/OverlaySheetGallery.qml:129
 msgctxt "OverlaySheetGallery|"
