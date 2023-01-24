@@ -611,6 +611,9 @@ msgid ""
 "links (opens in browser): <a href=\"https://www.kde.org\">https://www.kde."
 "org/<a/>"
 msgstr ""
+"თქვენ შეგიძლიათ გამოიყენოთ მდიდარი ტექსტი ინლაინ შეტყობინებებში და "
+"გაუმკლავდეთ დაწკაპუნებებს ბმულებზე (იხსნება ბრაუზერში): <a href=\"https://"
+"www.kde.org\">https://www.kde.org/<a/></a>"
 
 #: contents/ui/gallery/InlineMessagesGallery.qml:129
 msgctxt "InlineMessagesGallery|"
@@ -748,6 +751,9 @@ msgid ""
 "However, if the main item sets an implicitWidth or Layout.preferredWidth, "
 "the sheet won't grow in width more than such given value."
 msgstr ""
+"ფურცელი ნაგულისხმევად მიიღებს მაქსიმალურ სიგანეს გვერდზე.\n"
+"თუმცა, თუ მთავარი ნივთი ადგენს implicitWidth ან Layout.preferredWidth, "
+"ფურცელი არ გაიზრდება სიგანეზე მეტი, ვიდრე ასეთი მოცემული ღირებულება."
 
 #: contents/ui/gallery/OverlaySheetGallery.qml:150
 msgctxt "OverlaySheetGallery|"
@@ -757,6 +763,10 @@ msgid ""
 "display the sheet as an overlay on top of the whole application window.\n"
 "In this case the sheet will cover the page Action buttons too."
 msgstr ""
+"ნაგულისხმევად ფურცელი ერთ გვერდზე იქნება, მაშინაც კი, თუ აპლიკაცია ფართო "
+"რეჟიმშია. ფურცლის მშობლის შეცვლით applicationWindow().overlay ის აჩვენებს "
+"ფურცელს, როგორც გადახურვას მთელი აპლიკაციის ფანჯრის თავზე.\n"
+"ამ შემთხვევაში ფურცელი დაფარავს გვერდის მოქმედების ღილაკებსაც."
 
 #: contents/ui/gallery/OverlaySheetGallery.qml:178
 msgctxt "OverlaySheetGallery|"
