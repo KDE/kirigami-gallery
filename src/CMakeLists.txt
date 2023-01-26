@@ -30,15 +30,51 @@ add_executable(kirigami2gallery
     main.cpp
     InfoData.cpp
     resources.qrc)
-target_link_libraries(kirigami2gallery Qt::Core Qt::Qml Qt::Quick Qt::Svg Qt::QuickControls2 KF5::Kirigami2 KF5::ItemModels)
+target_link_libraries(kirigami2gallery
+    Qt${QT_MAJOR_VERSION}::Core
+    Qt${QT_MAJOR_VERSION}::Qml
+    Qt${QT_MAJOR_VERSION}::Quick
+    Qt${QT_MAJOR_VERSION}::Svg
+    Qt${QT_MAJOR_VERSION}::QuickControls2
+    KF6::Kirigami2
+    KF6::ItemModels
+)
 
 if (ANDROID)
-    target_link_libraries(kirigami2gallery Qt5::AndroidExtras)
-    kirigami_package_breeze_icons(ICONS applications-graphics view-list-icons folder-sync view-list-details configure document-edit dialog-information dialog-positive dialog-warning dialog-error dialog-cancel document-decrypt system-run mail-reply-sender bookmarks folder media-record-symbolic add-placemark address-book-new-symbolic view-right-new view-right-close documentinfo go-home)
+    target_link_libraries(kirigami2gallery
+        Qt${QT_MAJOR_VERSION}::AndroidExtras
+    )
+    kirigami_package_breeze_icons(ICONS
+        applications-graphics
+        view-list-icons
+        folder-sync
+        view-list-details
+        configure
+        document-edit
+        dialog-information
+        dialog-positive
+        dialog-warning
+        dialog-error
+        dialog-cancel
+        document-decrypt
+        system-run
+        mail-reply-sender
+        bookmarks
+        folder
+        media-record-symbolic
+        add-placemark
+        address-book-new-symbolic
+        view-right-new
+        view-right-close
+        documentinfo
+        go-home
+    )
 
     configure_file(${CMAKE_CURRENT_SOURCE_DIR}/android/version.gradle.in ${CMAKE_BINARY_DIR}/version.gradle)
 else()
-    target_link_libraries(kirigami2gallery Qt::Widgets)
+    target_link_libraries(kirigami2gallery
+        Qt${QT_MAJOR_VERSION}::Widgets
+    )
 endif()
 
 install(TARGETS kirigami2gallery ${KDE_INSTALL_TARGETS_DEFAULT_ARGS})

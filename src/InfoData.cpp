@@ -8,8 +8,8 @@
 InfoData::InfoData(QObject *parent)
     : QObject(parent)
 {
-    QString infoSheetData;
-    QFile file("://info-data.json");
+    QByteArray infoSheetData;
+    QFile file(QStringLiteral("://info-data.json"));
 
     if(file.open(QIODevice::ReadOnly | QIODevice::Text)) {
         infoSheetData = file.readAll();
@@ -17,7 +17,7 @@ InfoData::InfoData(QObject *parent)
     }
 
     QJsonObject jsonObject;
-    QJsonDocument data = QJsonDocument::fromJson(infoSheetData.toUtf8());
+    QJsonDocument data = QJsonDocument::fromJson(infoSheetData);
 
     if (!data.isEmpty()) {
         jsonObject = data.object();
@@ -59,7 +59,7 @@ void InfoData::setComponent(const QString &componentName)
 {
     if (componentName != m_component) {
         m_component = componentName;
-        emit componentChanged();
+        Q_EMIT componentChanged();
         m_jsonMap.contains(componentName) ? setComponentData() : clearComponentData();
     }
 }
@@ -78,15 +78,15 @@ void InfoData::setComponentData()
     QVariantMap componentVariant = qvariant_cast<QVariantMap>(m_jsonMap[m_component]);
 
     if (!componentVariant.isEmpty()) {
-        m_sourceUrl = componentVariant.contains("sourceUrl") ? componentVariant["sourceUrl"].toString() : QString();
+        m_sourceUrl = componentVariant.contains(QStringLiteral("sourceUrl")) ? componentVariant[QStringLiteral("sourceUrl")].toString() : QString();
         sourceUrlChanged();
-        m_higUrl = componentVariant.contains("higUrl") ? componentVariant["higUrl"].toString() : QString();
+        m_higUrl = componentVariant.contains(QStringLiteral("higUrl")) ? componentVariant[QStringLiteral("higUrl")].toString() : QString();
         higUrlChanged();
-        m_apiUrl = componentVariant.contains("apiUrl") ? componentVariant["apiUrl"].toString() : QString();
+        m_apiUrl = componentVariant.contains(QStringLiteral("apiUrl")) ? componentVariant[QStringLiteral("apiUrl")].toString() : QString();
         apiUrlChanged();
-        m_title = componentVariant.contains("title") ? componentVariant["title"].toString() : QString();
+        m_title = componentVariant.contains(QStringLiteral("title")) ? componentVariant[QStringLiteral("title")].toString() : QString();
         titleChanged();
-        m_text = componentVariant.contains("text") ? componentVariant["text"].toString() : QString();
+        m_text = componentVariant.contains(QStringLiteral("text")) ? componentVariant[QStringLiteral("text")].toString() : QString();
         textChanged();
     }
 }
