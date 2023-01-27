@@ -73,7 +73,7 @@ Kirigami.ScrollablePage {
                 }
                 Kirigami.BasicListItem {
                     width: parent.width
-                    icon: "view-right-close"
+                    icon.name: "view-right-close"
                     label: "Delegate1"
                 }
                 Kirigami.BasicListItem {
@@ -101,7 +101,7 @@ Kirigami.ScrollablePage {
                 }
                 Kirigami.BasicListItem {
                     width: parent.width
-                    icon: "view-right-close"
+                    icon.name: "view-right-close"
                     label: "Delegate1"
                 }
                 Kirigami.BasicListItem {
@@ -129,7 +129,7 @@ Kirigami.ScrollablePage {
                 }
                 Kirigami.BasicListItem {
                     width: parent.width
-                    icon: "view-right-close"
+                    icon.name: "view-right-close"
                     label: "Delegate1"
                 }
                 Kirigami.BasicListItem {
@@ -156,7 +156,7 @@ Kirigami.ScrollablePage {
                 }
                 Kirigami.BasicListItem {
                     width: parent.width
-                    icon: "view-right-close"
+                    icon.name: "view-right-close"
                     label: "Delegate1"
                 }
                 Kirigami.BasicListItem {
@@ -186,7 +186,7 @@ Kirigami.ScrollablePage {
                 }
                 Kirigami.BasicListItem {
                     width: parent.width
-                    icon: "view-right-close"
+                    icon.name: "view-right-close"
                     label: "Delegate1"
                     Controls.Button {
                         Kirigami.Theme.inherit: true
@@ -226,7 +226,7 @@ Kirigami.ScrollablePage {
         Flow {
             Layout.fillWidth: true
             Controls.Label {
-                text: "RGB color for icon:"
+                text: "RGB color for icon.name:"
             }
             Controls.SpinBox{
                 id: red
