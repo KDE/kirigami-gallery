@@ -52,7 +52,7 @@ Kirigami.ApplicationWindow {
         actions: [
             Kirigami.Action {
                 text: "Top Bar Style..."
-                iconName: "view-list-icons"
+                icon.name: "view-list-icons"
                 Kirigami.Action {
                         text: "Auto"
                         onTriggered: root.pageStack.globalToolBar.style = Kirigami.ApplicationHeaderStyle.Auto
@@ -87,7 +87,7 @@ Kirigami.ApplicationWindow {
             },
             Kirigami.Action {
                 text: "Top Bar Sizing..."
-                iconName: "folder-sync"
+                icon.name: "folder-sync"
                 visible: Kirigami.Settings.isMobile
                 Kirigami.Action {
                         text: "Slide Away"
@@ -116,7 +116,7 @@ Kirigami.ApplicationWindow {
             },
             Kirigami.Action {
                 text: "Global Drawer Mode..."
-                iconName: "go-next"
+                icon.name: "go-next"
                 visible: !Kirigami.Settings.isMobile
                 expandible: true
                 Kirigami.Action {
@@ -150,7 +150,7 @@ Kirigami.ApplicationWindow {
             },
             Kirigami.Action {
                 text: "Title style..."
-                iconName: "format-border-set-top"
+                icon.name: "format-border-set-top"
                 Kirigami.Action {
                     text: "Title And Image"
                     checked: root.globalDrawer.title.length > 0

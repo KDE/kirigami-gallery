@@ -31,7 +31,7 @@ Kirigami.ScrollablePage {
 
     actions: [
         Kirigami.Action {
-            iconName: "documentinfo"
+            icon.name: "documentinfo"
             text: qsTr("Info")
             checkable: true
             onCheckedChanged: sheet.visible = checked;
@@ -39,12 +39,12 @@ Kirigami.ScrollablePage {
         },
         Kirigami.Action {
             text: qsTr("Action 1")
-            iconName: "bookmarks"
+            icon.name: "bookmarks"
             onTriggered: showPassiveNotification(qsTr("Action 1 clicked"))
         },
         Kirigami.Action {
             text: qsTr("Disabled Action")
-            iconName: "folder"
+            icon.name: "folder"
             enabled: false
         },
         Kirigami.Action {

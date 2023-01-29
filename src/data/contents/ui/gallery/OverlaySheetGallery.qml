@@ -32,7 +32,7 @@ Kirigami.ScrollablePage {
     title: qsTr("Overlay Sheets")
 
     actions: Kirigami.Action {
-        iconName: "documentinfo"
+        icon.name: "documentinfo"
         text: qsTr("Info")
         checkable: true
         onCheckedChanged: sheet.visible = checked;

@@ -30,7 +30,7 @@ Kirigami.ScrollablePage {
     title: qsTr("List view of simple cards")
 
     actions: Kirigami.Action {
-        iconName: "documentinfo"
+        icon.name: "documentinfo"
         text: qsTr("Info")
         checkable: true
         onCheckedChanged: sheet.visible = checked;

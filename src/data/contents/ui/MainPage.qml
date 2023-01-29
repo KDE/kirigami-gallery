@@ -37,27 +37,27 @@ Kirigami.ScrollablePage {
     //flickable: mainListView
     actions: [
         Kirigami.Action {
-            iconName: "go-home"
+             icon.name: "go-home"
             enabled: root.pageStack.lastVisibleItem != pageRoot
             onTriggered: root.pageStack.pop(-1)
         },
         Kirigami.Action {
             text:"Action 1"
-            iconName: "document-decrypt"
+            icon.name: "document-decrypt"
             onTriggered: showPassiveNotification("Action 1 clicked")
         },
         Kirigami.Action {
             id: shareAction
             visible: checkableAction.checked
             text:"Action 2"
-            iconName: "document-share"
+            icon.name: "document-share"
             onTriggered: showPassiveNotification("Action 2 clicked")
         },
         Kirigami.Action {
             id: checkableAction
             text:"Checkable"
             checkable: true
-            iconName: "dashboard-show"
+            icon.name: "dashboard-show"
             onCheckedChanged: showPassiveNotification("Checked: " + checked)
         }
     ]

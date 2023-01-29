@@ -28,7 +28,7 @@ Kirigami.ScrollablePage {
     title: "Long List view"
 
     actions: Kirigami.Action {
-        iconName: sheet.sheetOpen ? "dialog-cancel" : "document-edit"
+        icon.name: sheet.sheetOpen ? "dialog-cancel" : "document-edit"
         text: "Main Action Text"
         checkable: true
         onCheckedChanged: sheet.sheetOpen = checked;
@@ -100,12 +100,12 @@ Kirigami.ScrollablePage {
             }
             actions: [
                 Kirigami.Action {
-                    iconName: "document-decrypt"
+                    icon.name: "document-decrypt"
                     text: "Action 1"
                     onTriggered: showPassiveNotification(model.text + " Action 1 clicked")
                 },
                 Kirigami.Action {
-                    iconName: "mail-reply-sender"
+                    icon.name: "mail-reply-sender"
                     text: "Action 2"
                     onTriggered: showPassiveNotification(model.text + " Action 2 clicked")
                 }]

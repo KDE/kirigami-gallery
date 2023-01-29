@@ -31,7 +31,7 @@ Kirigami.ScrollablePage {
     title: qsTr("Inline Messages")
 
     actions: Kirigami.Action {
-        iconName: "documentinfo"
+        icon.name: "documentinfo"
         text: qsTr("Info")
         checkable: true
         onCheckedChanged: sheet.visible = checked;
