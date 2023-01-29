@@ -11,7 +11,7 @@ Kirigami.ScrollablePage {
     title: "Form Layout"
 
     actions.main: Kirigami.Action {
-        iconName: "documentinfo"
+        icon.name: "documentinfo"
         text: qsTr("Info")
         checkable: true
         onCheckedChanged: sheet.visible = checked;

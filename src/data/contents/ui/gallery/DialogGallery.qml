@@ -32,7 +32,7 @@ Kirigami.ScrollablePage {
     title: qsTr("Dialogs")
 
     actions.main: Kirigami.Action {
-        iconName: "documentinfo"
+        icon.name: "documentinfo"
         text: qsTr("Info")
         checkable: true
         onCheckedChanged: sheet.visible = checked;
@@ -72,7 +72,7 @@ Kirigami.ScrollablePage {
         customFooterActions: [
             Kirigami.Action {
                 text: qsTr("Create Folder")
-                iconName: "dialog-ok"
+                icon.name: "dialog-ok"
                 onTriggered: { 
                     showPassiveNotification("Created");
                     textPromptDialog.close();
@@ -80,7 +80,7 @@ Kirigami.ScrollablePage {
             },
             Kirigami.Action {
                 text: qsTr("Cancel")
-                iconName: "dialog-cancel"
+                icon.name: "dialog-cancel"
                 onTriggered: { 
                     textPromptDialog.close();
                 }
@@ -165,28 +165,28 @@ Kirigami.ScrollablePage {
         
         actions: [
             Kirigami.Action {
-                iconName: "media-playback-start"
+                icon.name: "media-playback-start"
                 text: qsTr("Play", "Start playback of the selected track")
                 tooltip: qsTr("Start playback of the selected track")
             },
             Kirigami.Action {
                 enabled: false
-                iconName: "document-open-folder"
+                icon.name: "document-open-folder"
                 text: qsTr("Show in folder", "Show the file for this song in the file manager")
                 tooltip: qsTr("Show the file for this song in the file manager")
             },
             Kirigami.Action {
-                iconName: "documentinfo"
+                icon.name: "documentinfo"
                 text: qsTr("View details", "Show track metadata")
                 tooltip: qsTr("Show track metadata")
             },
             Kirigami.Action {
-                iconName: "list-add"
+                icon.name: "list-add"
                 text: qsTr("Play next", "Add the track to the queue, right after the current track")
                 tooltip: qsTr("Add the track to the queue, right after the current track")
             },
             Kirigami.Action {
-                iconName: "list-add"
+                icon.name: "list-add"
                 text: qsTr("Add to queue", "Enqueue current track")
                 tooltip: qsTr("Enqueue current track")
             }

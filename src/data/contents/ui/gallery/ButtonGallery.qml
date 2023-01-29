@@ -31,21 +31,21 @@ ScrollablePage {
 
     actions {
         main: Action {
-            iconName: sheet.sheetOpen ? "dialog-cancel" : "document-edit"
+            icon.name: sheet.sheetOpen ? "dialog-cancel" : "document-edit"
             text: "Main Action Text"
             checkable: true
             onCheckedChanged: sheet.sheetOpen = checked;
             shortcut: "Alt+S"
         }
         left: Action {
-            iconName: "go-previous"
+            icon.name: "go-previous"
             text: "Left Action Text"
             onTriggered: {
                 showPassiveNotification("Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id risus id augue euismod accumsan. Nunc vestibulum placerat bibendum. Morbi commodo auctor varius. Donec molestie euismod ultrices. Sed facilisis augue nec eros auctor, vitae mattis quam rhoncus. Nam ut erat diam. Curabitur iaculis accumsan magna, eget fermentum massa scelerisque eu. Cras elementum erat non erat euismod accumsan. Vestibulum ac mi sed dui finibus pulvinar. Vivamus dictum, leo sed lobortis porttitor, nisl magna faucibus orci, sit amet euismod arcu elit eget est. Duis et vehicula nibh. In arcu sapien, laoreet sit amet porttitor non, rhoncus vel magna. Suspendisse imperdiet consectetur est nec ornare. Pellentesque bibendum sapien at erat efficitur vehicula. Morbi sed porta nibh. Vestibulum ut urna ut dolor sagittis mattis.")
             }
         }
         right: Action {
-            iconName: "go-next"
+            icon.name: "go-next"
             text: "Right Action Text"
             onTriggered: {
                 showPassiveNotification("Right action triggered")
@@ -54,7 +54,7 @@ ScrollablePage {
         contextualActions: [
             Action {
                 text:"Action Parent Expandible"
-                iconName: "bookmarks"
+                icon.name: "bookmarks"
                 expandible: true
                 Action {
                     text: "Sub action 1"
@@ -65,7 +65,7 @@ ScrollablePage {
             },
             Action {
                 text:"Action Parent"
-                iconName: "bookmarks"
+                icon.name: "bookmarks"
                 Action {
                     text: "Sub action 1"
                 }
@@ -75,7 +75,7 @@ ScrollablePage {
             },
             Action {
                 text:"Disabled Action"
-                iconName: "folder"
+                icon.name: "folder"
                 enabled: false
             },
             Action {

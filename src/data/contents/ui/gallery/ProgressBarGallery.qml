@@ -31,14 +31,14 @@ ScrollablePage {
 
     actions {
         main: Action {
-            iconName: "document-edit"
+            icon.name: "document-edit"
             text: "Main Action Text"
             onTriggered: {
                 showPassiveNotification("Main action triggered");
             }
         }
         right: Action {
-            iconName: "folder-sync"
+            icon.name: "folder-sync"
             text: "Right Action Text"
             onTriggered: {
                 showPassiveNotification("Right action triggered")

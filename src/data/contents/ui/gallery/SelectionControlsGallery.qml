@@ -28,7 +28,7 @@ import "components"
 Kirigami.ScrollablePage {
     id: page
     actions.main: Kirigami.Action {
-        iconName: "documentinfo"
+        icon.name: "documentinfo"
         text: qsTr("Info")
         checkable: true
         onCheckedChanged: sheet.visible = checked;

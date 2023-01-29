@@ -31,14 +31,14 @@ ScrollablePage {
 
     actions {
         left: Action {
-            iconName: "folder-sync"
+            icon.name: "folder-sync"
             text: "Left Action Text"
             onTriggered: {
                 showPassiveNotification("Left action triggered")
             }
         }
         right: Action {
-            iconName: "configure"
+            icon.name: "configure"
             text: "Right Action Text"
             onTriggered: {
                 showPassiveNotification("Right action triggered")
