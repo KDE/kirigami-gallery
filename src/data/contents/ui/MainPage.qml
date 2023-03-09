@@ -35,34 +35,32 @@ Kirigami.ScrollablePage {
     title: qsTr("Kirigami Gallery")
 
     //flickable: mainListView
-    actions {
-        main: Kirigami.Action {
+    actions: [
+        Kirigami.Action {
             icon.name: "go-home"
             enabled: root.pageStack.lastVisibleItem != pageRoot
             onTriggered: root.pageStack.pop(-1)
+        },
+        Kirigami.Action {
+            text:"Action 1"
+            icon.name: "document-decrypt"
+            onTriggered: showPassiveNotification("Action 1 clicked")
+        },
+        Kirigami.Action {
+            id: shareAction
+            visible: checkableAction.checked
+            text:"Action 2"
+            icon.name: "document-share"
+            onTriggered: showPassiveNotification("Action 2 clicked")
+        },
+        Kirigami.Action {
+            id: checkableAction
+            text:"Checkable"
+            checkable: true
+            icon.name: "dashboard-show"
+            onCheckedChanged: showPassiveNotification("Checked: " + checked)
         }
-        contextualActions: [
-            Kirigami.Action {
-                text:"Action 1"
-                icon.name: "document-decrypt"
-                onTriggered: showPassiveNotification("Action 1 clicked")
-            },
-            Kirigami.Action {
-                id: shareAction
-                visible: checkableAction.checked
-                text:"Action 2"
-                icon.name: "document-share"
-                onTriggered: showPassiveNotification("Action 2 clicked")
-            },
-            Kirigami.Action {
-                id: checkableAction
-                text:"Checkable"
-                checkable: true
-                icon.name: "dashboard-show"
-                onCheckedChanged: showPassiveNotification("Checked: " + checked)
-            }
-        ]
-    }
+    ]
 
     Kirigami.PagePool {
         id: mainPagePool

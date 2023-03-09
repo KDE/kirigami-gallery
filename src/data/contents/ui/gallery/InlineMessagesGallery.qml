@@ -30,7 +30,7 @@ Kirigami.ScrollablePage {
 
     title: qsTr("Inline Messages")
 
-    actions.main: Kirigami.Action {
+    actions: Kirigami.Action {
         icon.name: "documentinfo"
         text: qsTr("Info")
         checkable: true
