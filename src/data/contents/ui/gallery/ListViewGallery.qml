@@ -27,13 +27,11 @@ Kirigami.ScrollablePage {
     Layout.fillWidth: true
     title: "Long List view"
 
-    actions {
-        main: Kirigami.Action {
-            iconName: sheet.sheetOpen ? "dialog-cancel" : "document-edit"
-            text: "Main Action Text"
-            checkable: true
-            onCheckedChanged: sheet.sheetOpen = checked;
-        }
+    actions: Kirigami.Action {
+        iconName: sheet.sheetOpen ? "dialog-cancel" : "document-edit"
+        text: "Main Action Text"
+        checkable: true
+        onCheckedChanged: sheet.sheetOpen = checked;
     }
 
     //Close the drawer with the back button
@@ -58,7 +56,7 @@ Kirigami.ScrollablePage {
     }
     Kirigami.OverlaySheet {
         id: sheet
-        onSheetOpenChanged: page.actions.main.checked = sheetOpen;
+        onSheetOpenChanged: page.actions.checked = sheetOpen;
         parent: applicationWindow().overlay
         header: Kirigami.Heading {
             text: "Title"
