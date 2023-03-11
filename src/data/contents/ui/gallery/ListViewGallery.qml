@@ -56,7 +56,7 @@ Kirigami.ScrollablePage {
     }
     Kirigami.OverlaySheet {
         id: sheet
-        onSheetOpenChanged: page.actions.checked = sheetOpen;
+        onVisibleChanged: page.actions.checked = sheetOpen;
         parent: applicationWindow().overlay
         header: Kirigami.Heading {
             text: "Title"
