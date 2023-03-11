@@ -165,7 +165,7 @@ Kirigami.ScrollablePage {
     }
     ColumnLayout {
         width: page.width
-        spacing: Units.smallSpacing
+        spacing: Kirigami.Units.smallSpacing
 
         Controls.ComboBox {
             Layout.alignment: Qt.AlignHCenter
