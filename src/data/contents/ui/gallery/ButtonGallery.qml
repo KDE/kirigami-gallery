@@ -20,70 +20,68 @@
 import QtQuick 2.15
 import QtQuick.Controls 2.15 as Controls
 import QtQuick.Layouts 1.15
-import org.kde.kirigami 2.20
+import org.kde.kirigami 2.20 as Kirigami
 
-ScrollablePage {
+Kirigami.ScrollablePage {
     id: page
     Layout.fillWidth: true
     //implicitWidth: Units.gridUnit * (Math.floor(Math.random() * 35) + 10)
 
     title: "Buttons"
 
-    actions {
-        main: Action {
-            iconName: sheet.sheetOpen ? "dialog-cancel" : "document-edit"
+    actions: [
+        Kirigami.Action {
+            icon.name: sheet.sheetOpen ? "dialog-cancel" : "document-edit"
             text: "Main Action Text"
             checkable: true
             onCheckedChanged: sheet.sheetOpen = checked;
             shortcut: "Alt+S"
-        }
-        left: Action {
-            iconName: "go-previous"
+        },
+        Kirigami.Action {
+            icon.name: "go-previous"
             text: "Left Action Text"
             onTriggered: {
                 showPassiveNotification("Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id risus id augue euismod accumsan. Nunc vestibulum placerat bibendum. Morbi commodo auctor varius. Donec molestie euismod ultrices. Sed facilisis augue nec eros auctor, vitae mattis quam rhoncus. Nam ut erat diam. Curabitur iaculis accumsan magna, eget fermentum massa scelerisque eu. Cras elementum erat non erat euismod accumsan. Vestibulum ac mi sed dui finibus pulvinar. Vivamus dictum, leo sed lobortis porttitor, nisl magna faucibus orci, sit amet euismod arcu elit eget est. Duis et vehicula nibh. In arcu sapien, laoreet sit amet porttitor non, rhoncus vel magna. Suspendisse imperdiet consectetur est nec ornare. Pellentesque bibendum sapien at erat efficitur vehicula. Morbi sed porta nibh. Vestibulum ut urna ut dolor sagittis mattis.")
             }
-        }
-        right: Action {
-            iconName: "go-next"
+        },
+        Kirigami.Action {
+            icon.name: "go-next"
             text: "Right Action Text"
             onTriggered: {
                 showPassiveNotification("Right action triggered")
             }
-        }
-        contextualActions: [
-            Action {
-                text:"Action Parent Expandible"
-                iconName: "bookmarks"
-                expandible: true
-                Action {
-                    text: "Sub action 1"
-                }
-                Action {
-                    text: "Sub action 1"
-                }
-            },
-            Action {
-                text:"Action Parent"
-                iconName: "bookmarks"
-                Action {
-                    text: "Sub action 1"
-                }
-                Action {
-                    text: "Sub action 1"
-                }
-            },
-            Action {
-                text:"Disabled Action"
-                iconName: "folder"
-                enabled: false
-            },
-            Action {
-                text: "Action for Sheet"
-                visible: sheet.sheetOpen
+        },
+        Kirigami.Action {
+            text:"Action Parent Expandible"
+            icon.name: "bookmarks"
+            expandible: true
+            Kirigami.Action {
+                text: "Sub action 1"
             }
-        ]
-    }
+            Kirigami.Action {
+                text: "Sub action 1"
+            }
+        },
+        Kirigami.Action {
+            text:"Action Parent"
+            icon.name: "bookmarks"
+            Kirigami.Action {
+                text: "Sub action 1"
+            }
+            Kirigami.Action {
+                text: "Sub action 1"
+            }
+        },
+        Kirigami.Action {
+            text:"Disabled Action"
+            icon.name: "folder"
+            enabled: false
+        },
+        Kirigami.Action {
+            text: "Action for Sheet"
+            visible: sheet.sheetOpen
+        }
+    ]
 
 
     //Close the drawer with the back button
@@ -98,7 +96,7 @@ ScrollablePage {
         }
     }
 
-    OverlayDrawer {
+    Kirigami.OverlayDrawer {
         id: bottomDrawer
         edge: Qt.BottomEdge
         contentItem: Item {
@@ -120,10 +118,10 @@ ScrollablePage {
         }
     }
 
-    OverlaySheet {
+    Kirigami.OverlaySheet {
         id: sheet
-        onSheetOpenChanged: page.actions.main.checked = sheetOpen
-        header: Heading {
+        onVisibleChanged: page.actions[0].checked = sheetOpen
+        header: Kirigami.Heading {
             text: "Title"
         }
         footer: RowLayout {
@@ -167,7 +165,7 @@ ScrollablePage {
     }
     ColumnLayout {
         width: page.width
-        spacing: Units.smallSpacing
+        spacing: Kirigami.Units.smallSpacing
 
         Controls.ComboBox {
             Layout.alignment: Qt.AlignHCenter

@@ -31,7 +31,7 @@ Kirigami.ScrollablePage {
 
     title: qsTr("Dialogs")
 
-    actions.main: Kirigami.Action {
+    actions: Kirigami.Action {
         iconName: "documentinfo"
         text: qsTr("Info")
         checkable: true

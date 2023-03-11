@@ -35,7 +35,7 @@ Kirigami.PromptDialog {
     title: infoData.title
     subtitle: text
     preferredWidth: Kirigami.Units.gridUnit * 20
-    onVisibleChanged: page.actions.main.checked = visible
+    onVisibleChanged: page.actions[0].checked = visible
     flatFooterButtons: true
     
     property var info: InfoData {

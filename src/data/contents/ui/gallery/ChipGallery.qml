@@ -31,7 +31,7 @@ Kirigami.ScrollablePage {
 
     title: qsTr("Chips")
 
-    actions.main: Kirigami.Action {
+    actions: Kirigami.Action {
         text: qsTr("Info")
         iconName: "documentinfo"
         checkable: true

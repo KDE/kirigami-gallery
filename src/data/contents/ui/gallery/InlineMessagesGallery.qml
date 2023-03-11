@@ -30,7 +30,7 @@ Kirigami.ScrollablePage {
 
     title: qsTr("Inline Messages")
 
-    actions.main: Kirigami.Action {
+    actions: Kirigami.Action {
         iconName: "documentinfo"
         text: qsTr("Info")
         checkable: true
@@ -116,7 +116,7 @@ Kirigami.ScrollablePage {
 
             text: qsTr("You can use rich text in inline messages and optionally handle clicks on links (opens in browser): <a href=\"https://www.kde.org\">https://www.kde.org/<a/>")
 
-            onLinkActivated: Qt.openUrlExternally(link)
+            onLinkActivated: link => Qt.openUrlExternally(link)
         }
 
         Kirigami.InlineMessage {

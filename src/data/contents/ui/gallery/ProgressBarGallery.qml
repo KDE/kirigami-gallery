@@ -1,50 +1,30 @@
-/*
- *   Copyright 2015 Marco Martin <mart@kde.org>
- *   Copyright 2022 ivan tkachenko <me@ratijas.tk>
- *
- *   This program is free software; you can redistribute it and/or modify
- *   it under the terms of the GNU Library General Public License as
- *   published by the Free Software Foundation; either version 2 or
- *   (at your option) any later version.
- *
- *   This program is distributed in the hope that it will be useful,
- *   but WITHOUT ANY WARRANTY; without even the implied warranty of
- *   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
- *   GNU Library General Public License for more details
- *
- *   You should have received a copy of the GNU Library General Public
- *   License along with this program; if not, write to the
- *   Free Software Foundation, Inc.,
- *   51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
- */
+// SPDX-FileCopyrightText: 2015 Marco Martin <mart@kde.org>
+// SPDX-FileCopyrightText: 2022 ivan tkachenko <me@ratijas.tk>
+// SPDX-FileCopyrightText: 2023 Carl Schwan <carl@carlschwan.eu>
+// SPDX-License-Identifier: LGPL-2.0-or-later
 
-import QtQuick 2.0
-import QtQuick.Controls 2.0 as Controls
-import QtQuick.Layouts 1.2
-import org.kde.kirigami 2.4
+import QtQuick 2
+import QtQuick.Controls 2 as QQC2
+import QtQuick.Layouts
+import org.kde.kirigami as Kirigami
 
-ScrollablePage {
+Kirigami.ScrollablePage {
     id: page
-    Layout.fillWidth: true
 
     title: "Progress Indicators"
 
-    actions {
-        main: Action {
-            iconName: "document-edit"
+    actions: [
+        Kirigami.Action {
+            icon.name: "document-edit"
             text: "Main Action Text"
-            onTriggered: {
-                showPassiveNotification("Main action triggered");
-            }
-        }
-        right: Action {
-            iconName: "folder-sync"
+            onTriggered: showPassiveNotification("Main action triggered");
+        },
+        Kirigami.Action {
+            icon.name: "folder-sync"
             text: "Right Action Text"
-            onTriggered: {
-                showPassiveNotification("Right action triggered")
-            }
+            onTriggered: showPassiveNotification("Right action triggered")
         }
-    }
+    ]
 
     ColumnLayout {
         width: page.width
@@ -58,11 +38,11 @@ ScrollablePage {
             rowSpacing: Units.largeSpacing
             columns: 2
 
-            Controls.Label {
+            QQC2.Label {
                 text: "Determinate:"
                 Layout.alignment: Qt.AlignRight
             }
-            Controls.ProgressBar {
+            QQC2.ProgressBar {
                 from: 0
                 to: 100
                 Layout.maximumWidth: Units.gridUnit * 10
@@ -82,35 +62,35 @@ ScrollablePage {
                     }
                 }
             }
-            Controls.Label {
+            QQC2.Label {
                 text: "Indeterminate:"
                 Layout.alignment: Qt.AlignRight
             }
-            Controls.ProgressBar {
+            QQC2.ProgressBar {
                 from: 0
                 to: 100
                 indeterminate: true
                 Layout.maximumWidth: Units.gridUnit * 10
             }
-            Controls.Label {
+            QQC2.Label {
                 text: "Busy indicator:"
                 Layout.alignment: Qt.AlignRight
             }
-            Controls.BusyIndicator {
+            QQC2.BusyIndicator {
 
             }
-            Controls.Label {
+            QQC2.Label {
                 text: "Inactive indicator:"
                 Layout.alignment: Qt.AlignRight
             }
-            Controls.BusyIndicator {
+            QQC2.BusyIndicator {
                 running: false
             }
-            Controls.Label {
+            QQC2.Label {
                 text: "Custom size:"
                 Layout.alignment: Qt.AlignRight
             }
-            Controls.BusyIndicator {
+            QQC2.BusyIndicator {
                 Layout.minimumWidth: Units.iconSizes.enormous
                 Layout.minimumHeight: width
             }
