@@ -66,6 +66,13 @@ msgid ""
 "show any kind of visual feedback. It is recommended to set it to true if you "
 "plan to make the card reactive on any kind of click."
 msgstr ""
+"ეს არის AbstractCard ეტიკეტით WordWrap მასში და სხვა არაფერი, ეს არის "
+"უმარტივესი ფორმის ბარათები.\n"
+"AbstractCard შეიძლება დააწკაპუნოთ თავად, ჩვეულებრივი onClicked სიგნალის "
+"დამმუშავებელი და showClickFeedback ქონების გამოყენება შესაძლებელია, თუ "
+"დაწკაპუნება უნდა აჩვენოს რაიმე სახის ვიზუალური გამოხმაურება. მიზანშეწონილია "
+"მისი სიმართლე დაყენება, თუ აპირებთ ბარათის რეაქტიული გაკეთებას რაიმე სახის "
+"დაჭერით."
 
 #: contents/ui/gallery/CardsLayoutGallery.qml:68
 msgctxt "CardsLayoutGallery|"
@@ -484,6 +491,8 @@ msgid ""
 "will darken the rest of the app. Clicking on a darkened will dismiss the "
 "drawer."
 msgstr ""
+"მოდალური ქვედა უჯრა მოიცავს მთელი პროგრამის ფანჯრის სიგანეს და დაბნელდება "
+"დანარჩენი აპი. ჩაბნელებულზე დაჭერით უჯრით გაათავისუფლებს."
 
 #: contents/ui/gallery/DrawerGallery.qml:84
 #: contents/ui/gallery/DrawerGallery.qml:103
@@ -499,6 +508,8 @@ msgid ""
 "An inline top drawer covers the whole application width but lets the "
 "uncovered pieces to still be interacted with."
 msgstr ""
+"ხაზოვანი ზედა უჯრა მოიცავს მთელ პროგრამის სიგანეს, მაგრამ საშუალებას აძლევს "
+"დაუფარავ ნაწილებს კვლავ ურთიერთქმედება."
 
 #: contents/ui/gallery/DrawerGallery.qml:116
 msgctxt "DrawerGallery|"
@@ -507,6 +518,8 @@ msgid ""
 "darken the rest of the app. Clicking on the darkened area will dismiss the "
 "drawer."
 msgstr ""
+"მოდალური ზედა უჯრა მოიცავს მთელი პროგრამის ფანჯრის სიგანეს და დაბნელდება "
+"დანარჩენი აპი. ჩაბნელებულ მხარეზე დაჭერით უჯრით გაათავისუფლებს."
 
 #: contents/ui/gallery/DrawerGallery.qml:135
 msgctxt "DrawerGallery|"
@@ -514,6 +527,8 @@ msgid ""
 "An inline bottom drawer covers the whole application width but lets the "
 "uncovered pieces to still be interacted with."
 msgstr ""
+"ინლაინ ქვედა უჯრა მოიცავს მთელ პროგრამის სიგანეს, მაგრამ საშუალებას აძლევს "
+"დაუფარავ ნაწილებს კვლავ ურთიერთქმედება."
 
 #: contents/ui/gallery/DrawerGallery.qml:150
 msgctxt "DrawerGallery|"
