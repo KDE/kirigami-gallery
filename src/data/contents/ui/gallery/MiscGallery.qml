@@ -28,17 +28,13 @@ ScrollablePage {
 
     actions {
         main: Action {
-            icon {
-                name: "document-edit"
-                color: Theme.negativeTextColor
-            }
+            icon.name: "document-edit"
+            icon.color: Theme.negativeTextColor
             text: "Main Action Text"
         }
         left: Action {
-            icon {
-                name: "go-previous"
-                color: Theme.positiveTextColor
-            }
+            icon.name: "go-previous"
+            icon.color: Theme.positiveTextColor
             enabled: false
             text: "Left Action Text"
             onTriggered: {
@@ -46,10 +42,8 @@ ScrollablePage {
             }
         }
         right: Action {
-            icon {
-                name: "go-next"
-                color: Theme.neutralTextColor
-            }
+            icon.name: "go-next"
+            icon.color: Theme.neutralTextColor
             text: "Right Action Text"
             onTriggered: {
                 showPassiveNotification("Right action triggered")
@@ -58,10 +52,8 @@ ScrollablePage {
         contextualActions: [
             Action {
                 text:"Action for buttons"
-                icon {
-                    name: "bookmarks"
-                    color: Theme.activeTextColor
-                }
+                icon.name: "bookmarks"
+                icon.color: Theme.activeTextColor
                 onTriggered: showPassiveNotification("Action 1 clicked")
             },
             Action {
