@@ -39,7 +39,7 @@ Kirigami.ScrollablePage {
 
     //Close the drawer with the back button
     onBackRequested: {
-        if (sheet.sheetOpen) {
+        if (sheet.visible) {
             event.accepted = true;
             sheet.close();
         }
@@ -95,7 +95,7 @@ Kirigami.ScrollablePage {
                     }
                     Controls.Button {
                         Layout.alignment: Qt.AlignRight|Qt.AlignVCenter
-                        Layout.columnSpan: 2 
+                        Layout.columnSpan: 2
                         text: qsTr("Install")
                         onClicked: showPassiveNotification("Install for Product " + modelData + " clicked");
                     }

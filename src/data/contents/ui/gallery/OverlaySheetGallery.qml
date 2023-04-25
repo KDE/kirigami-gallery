@@ -41,7 +41,7 @@ Kirigami.ScrollablePage {
 
     //Close the drawer with the back button
     onBackRequested: {
-        if (sheet.sheetOpen) {
+        if (sheet.visible) {
             event.accepted = true;
             sheet.close();
         }
@@ -134,7 +134,7 @@ Kirigami.ScrollablePage {
             }
         }
     }
-    
+
     Kirigami.OverlaySheet {
         id: globalSheet
 
