@@ -1,6 +1,6 @@
 // SPDX-FileCopyrightText: 2015 Marco Martin <mart@kde.org>
 // SPDX-FileCopyrightText: 2022 ivan tkachenko <me@ratijas.tk>
-// SPDX-FileCopyrightText: 2022 Carl Schwan <carl@carlschwan.eu>
+// SPDX-FileCopyrightText: 2023 Carl Schwan <carl@carlschwan.eu>
 // SPDX-License-Identifier: LGPL-2.0-or-later
 
 import QtQuick 2
@@ -10,7 +10,6 @@ import org.kde.kirigami as Kirigami
 
 Kirigami.ScrollablePage {
     id: page
-    Layout.fillWidth: true
 
     title: "Progress Indicators"
 
