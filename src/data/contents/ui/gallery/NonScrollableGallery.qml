@@ -51,7 +51,7 @@ Page {
 
     OverlaySheet {
         id: sheet
-        onSheetOpenChanged: page.actions.main.checked = sheetOpen;
+        onSheetOpenChanged: page.actions[0].checked = sheetOpen;
         Controls.Label {
             property int implicitWidth: Units.gridUnit * 30
             wrapMode: Text.WordWrap
