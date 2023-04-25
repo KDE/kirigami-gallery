@@ -32,10 +32,10 @@ Kirigami.ScrollablePage {
     actions: [
         Kirigami.Action {
             id: mainAction
-            icon.name: sheet.sheetOpen ? "dialog-cancel" : "document-edit"
+            icon.name: sheet.visible ? "dialog-cancel" : "document-edit"
             text: "Main Action Text"
             checkable: true
-            onCheckedChanged: sheet.sheetOpen = checked;
+            onCheckedChanged: sheet.visible = checked;
             shortcut: "Alt+S"
         },
         Kirigami.Action {
@@ -80,7 +80,7 @@ Kirigami.ScrollablePage {
         },
         Kirigami.Action {
             text: "Action for Sheet"
-            visible: sheet.sheetOpen
+            visible: sheet.visible
         }
     ]
 
@@ -91,7 +91,7 @@ Kirigami.ScrollablePage {
             event.accepted = true;
             bottomDrawer.close();
         }
-        if (sheet.sheetOpen) {
+        if (sheet.visible) {
             event.accepted = true;
             sheet.close();
         }
@@ -121,7 +121,7 @@ Kirigami.ScrollablePage {
 
     Kirigami.OverlaySheet {
         id: sheet
-        onSheetOpenChanged: page.actions[0].checked = sheetOpen
+        onVisibleChanged: page.actions[0].checked = visible;
         header: Kirigami.Heading {
             text: "Title"
         }

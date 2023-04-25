@@ -13,7 +13,7 @@ Kirigami.Page {
     title: "Simple Page"
 
     actions: Kirigami.Action {
-        icon.name: sheet.sheetOpen ? "dialog-cancel" : "document-edit"
+        icon.name: sheet.visible ? "dialog-cancel" : "document-edit"
         text: "Main Action Text"
         checkable: true
         onCheckedChanged: sheet.visible = checked;
@@ -39,7 +39,7 @@ Kirigami.Page {
 
     Kirigami.OverlaySheet {
         id: sheet
-        onSheetOpenChanged: page.actions[0].checked = sheetOpen;
+        onVisibleChanged: page.actions[0].checked = visible;
 
         QQC2.Label {
             property int implicitWidth: Units.gridUnit * 30
