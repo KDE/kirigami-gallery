@@ -4,7 +4,7 @@ import QtQuick 2.6
 import QtQuick.Layouts 1.2
 import QtQuick.Controls 2.2
 import org.kde.kirigami 2.4 as Kirigami
-import "components"
+import "components" as KGC
 
 Kirigami.ScrollablePage {
     id: page
@@ -26,7 +26,7 @@ Kirigami.ScrollablePage {
         }
     }
 
-    InfoSheet {
+    KGC.InfoSheet {
         id: sheet
 
         page: page

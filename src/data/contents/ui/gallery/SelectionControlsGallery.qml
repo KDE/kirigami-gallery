@@ -19,11 +19,11 @@
  */
 
 import QtQuick 2.0
-import QtQuick.Controls 2.2 as Controls
+import QtQuick.Controls 2.2 as QQC2
 import QtQuick.Layouts 1.2
 import org.kde.kirigami 2.4 as Kirigami
 
-import "components"
+import "components" as KGC
 
 Kirigami.ScrollablePage {
     id: page
@@ -46,14 +46,14 @@ Kirigami.ScrollablePage {
         }
     }
 
-    InfoSheet {
+    KGC.InfoSheet {
         id: sheet
 
         page: page
         component: "SelectionControlsGallery"
     }
 
-    Controls.Dialog {
+    QQC2.Dialog {
         id: checkListDialog
         modal: true
         focus: true
@@ -61,13 +61,13 @@ Kirigami.ScrollablePage {
         y: page.height / 2 - height
         width: Math.min(page.width - Kirigami.Units.gridUnit * 4, Kirigami.Units.gridUnit * 20)
         height: Kirigami.Units.gridUnit * 20
-        standardButtons: Controls.Dialog.Close
+        standardButtons: QQC2.Dialog.Close
         title: qsTr("Checkable List Items")
 
-        contentItem: Controls.ScrollView {
+        contentItem: QQC2.ScrollView {
             ListView {
                 model: 20
-                delegate: Controls.CheckDelegate {
+                delegate: QQC2.CheckDelegate {
                     width: ListView.view.width - ListView.view.leftMargin - ListView.view.rightMargin
                     text: qsTr("Delegate %1").arg(modelData + 1)
                 }
@@ -76,7 +76,7 @@ Kirigami.ScrollablePage {
         }
     }
 
-    Controls.Dialog {
+    QQC2.Dialog {
         id: radioListDialog
         modal: true
         focus: true
@@ -84,13 +84,13 @@ Kirigami.ScrollablePage {
         y: page.height / 2 - height
         width: Math.min(page.width - Kirigami.Units.gridUnit * 4, Kirigami.Units.gridUnit * 20)
         height: Kirigami.Units.gridUnit * 20
-        standardButtons: Controls.Dialog.Close
+        standardButtons: QQC2.Dialog.Close
         title: qsTr("Radio List Items")
 
-        contentItem: Controls.ScrollView {
+        contentItem: QQC2.ScrollView {
             ListView {
                 model: 20
-                delegate: Controls.RadioDelegate {
+                delegate: QQC2.RadioDelegate {
                     width: ListView.view.width - ListView.view.leftMargin - ListView.view.rightMargin
                     text: qsTr("Delegate %1").arg(modelData + 1)
                 }
@@ -99,7 +99,7 @@ Kirigami.ScrollablePage {
         }
     }
 
-    Controls.Dialog {
+    QQC2.Dialog {
         id: switchListDialog
         modal: true
         focus: true
@@ -107,13 +107,13 @@ Kirigami.ScrollablePage {
         y: page.height / 2 - height
         width: Math.min(page.width - Kirigami.Units.gridUnit * 4, Kirigami.Units.gridUnit * 20)
         height: Kirigami.Units.gridUnit * 20
-        standardButtons: Controls.Dialog.Close
+        standardButtons: QQC2.Dialog.Close
         title: qsTr("Radio List Items")
 
-        contentItem: Controls.ScrollView {
+        contentItem: QQC2.ScrollView {
             ListView {
                 model: 20
-                delegate: Controls.SwitchDelegate {
+                delegate: QQC2.SwitchDelegate {
                     width: ListView.view.width - ListView.view.leftMargin - ListView.view.rightMargin
                     text: qsTr("Delegate %1").arg(modelData + 1)
                 }
@@ -127,15 +127,15 @@ Kirigami.ScrollablePage {
             Kirigami.FormData.label: qsTr("Checkboxes")
             Kirigami.FormData.isSection: true
         }
-        Controls.CheckBox {
+        QQC2.CheckBox {
             text: qsTr("Item selected")
             checked: true
         }
-        Controls.CheckBox {
+        QQC2.CheckBox {
             text: qsTr("Item not selected")
             checked: false
         }
-        Controls.Button {
+        QQC2.Button {
             text: qsTr("Checkable List View")
             onClicked: checkListDialog.open()
         }
@@ -145,16 +145,16 @@ Kirigami.ScrollablePage {
             Kirigami.FormData.label: qsTr("Radio buttons")
         }
         ColumnLayout {
-            Controls.RadioButton {
+            QQC2.RadioButton {
                 text: qsTr("Item selected")
                 checked: true
             }
-            Controls.RadioButton {
+            QQC2.RadioButton {
                 text: qsTr("Item not selected")
                 checked: false
             }
         }
-        Controls.Button {
+        QQC2.Button {
             text: qsTr("Radio List View")
             onClicked: radioListDialog.open()
         }
@@ -163,15 +163,15 @@ Kirigami.ScrollablePage {
             Kirigami.FormData.isSection: true
             Kirigami.FormData.label: qsTr("Switches")
         }
-        Controls.Switch {
+        QQC2.Switch {
             text: qsTr("Item selected")
             checked: true
         }
-        Controls.Switch {
+        QQC2.Switch {
             text: qsTr("Item not selected")
             checked: false
         }
-        Controls.Button {
+        QQC2.Button {
             text: qsTr("Switch List View")
             onClicked: switchListDialog.open()
         }

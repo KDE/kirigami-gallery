@@ -32,10 +32,10 @@ Kirigami.ScrollablePage {
         GridLayout {
             Layout.alignment: Qt.AlignHCenter
             Layout.fillWidth: true
-            Layout.leftMargin: Units.gridUnit
-            Layout.rightMargin: Units.gridUnit
+            Layout.leftMargin: Kirigami.Units.gridUnit
+            Layout.rightMargin: Kirigami.Units.gridUnit
 
-            rowSpacing: Units.largeSpacing
+            rowSpacing: Kirigami.Units.largeSpacing
             columns: 2
 
             QQC2.Label {
@@ -45,7 +45,7 @@ Kirigami.ScrollablePage {
             QQC2.ProgressBar {
                 from: 0
                 to: 100
-                Layout.maximumWidth: Units.gridUnit * 10
+                Layout.maximumWidth: Kirigami.Units.gridUnit * 10
 
                 SequentialAnimation on value {
                     running: true
@@ -70,7 +70,7 @@ Kirigami.ScrollablePage {
                 from: 0
                 to: 100
                 indeterminate: true
-                Layout.maximumWidth: Units.gridUnit * 10
+                Layout.maximumWidth: Kirigami.Units.gridUnit * 10
             }
             QQC2.Label {
                 text: "Busy indicator:"
@@ -91,7 +91,7 @@ Kirigami.ScrollablePage {
                 Layout.alignment: Qt.AlignRight
             }
             QQC2.BusyIndicator {
-                Layout.minimumWidth: Units.iconSizes.enormous
+                Layout.minimumWidth: Kirigami.Units.iconSizes.enormous
                 Layout.minimumHeight: width
             }
         }

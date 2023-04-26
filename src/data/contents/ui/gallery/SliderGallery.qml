@@ -34,7 +34,7 @@ Kirigami.ScrollablePage {
             value: 1
             to: 5.0
             Kirigami.FormData.label: "Normal Slider:"
-            Layout.minimumWidth: Units.gridUnit * 15
+            Layout.minimumWidth: Kirigami.Units.gridUnit * 15
         }
 
         QQC2.Slider {
@@ -42,7 +42,7 @@ Kirigami.ScrollablePage {
             enabled: false
             value: 2
             to: 5.0
-            Layout.minimumWidth: Units.gridUnit * 15
+            Layout.minimumWidth: Kirigami.Units.gridUnit * 15
             Kirigami.FormData.label: "Disabled Slider:"
         }
 
@@ -52,7 +52,7 @@ Kirigami.ScrollablePage {
             stepSize: 1.0
             value: 3
             Kirigami.FormData.label: "Slider with tickmarks:"
-            Layout.minimumWidth: Units.gridUnit * 15
+            Layout.minimumWidth: Kirigami.Units.gridUnit * 15
         }
 
         QQC2.RangeSlider {
@@ -61,7 +61,7 @@ Kirigami.ScrollablePage {
             first.value: 0
             second.value: 4
             Kirigami.FormData.label: "Range Slider:"
-            Layout.minimumWidth: Units.gridUnit * 15
+            Layout.minimumWidth: Kirigami.Units.gridUnit * 15
         }
 
         RowLayout {
@@ -72,7 +72,7 @@ Kirigami.ScrollablePage {
             QQC2.Slider {
                 id: verticalNormalSlider
                 Layout.minimumWidth: 2
-                Layout.minimumHeight: Units.gridUnit * 10
+                Layout.minimumHeight: Kirigami.Units.gridUnit * 10
                 Layout.fillHeight: true
                 value: 2
                 to: 5.0
@@ -83,7 +83,7 @@ Kirigami.ScrollablePage {
 
             QQC2.Slider {
                 Layout.minimumWidth: 2
-                Layout.minimumHeight: Units.gridUnit * 10
+                Layout.minimumHeight: Kirigami.Units.gridUnit * 10
                 Layout.fillHeight: true
                 value: 3
                 to: 5.0
@@ -95,7 +95,7 @@ Kirigami.ScrollablePage {
 
             QQC2.RangeSlider {
                 Layout.minimumWidth: 2
-                Layout.minimumHeight: Units.gridUnit * 10
+                Layout.minimumHeight: Kirigami.Units.gridUnit * 10
                 Layout.fillHeight: true
                 to: 5.0
                 first.value: 0

@@ -14,26 +14,26 @@ Kirigami.ScrollablePage {
     actions: [
          Kirigami.Action {
             icon.name: "document-edit"
-            icon.color: Theme.negativeTextColor
+            icon.color: Kirigami.Theme.negativeTextColor
             text: "Main Action Text"
         },
         Kirigami.Action {
             icon.name: "go-previous"
-            icon.color: Theme.positiveTextColor
+            icon.color: Kirigami.Theme.positiveTextColor
             enabled: false
             text: "Left Action Text"
             onTriggered: showPassiveNotification("Left action triggered")
         },
         Kirigami.Action {
             icon.name: "go-next"
-            icon.color: Theme.neutralTextColor
+            icon.color: Kirigami.Theme.neutralTextColor
             text: "Right Action Text"
             onTriggered: showPassiveNotification("Right action triggered")
         },
         Kirigami.Action {
             text:"Action for buttons"
             icon.name: "bookmarks"
-            icon.color: Theme.activeTextColor
+            icon.color: Kirigami.Theme.activeTextColor
             onTriggered: showPassiveNotification("Action 1 clicked")
         },
         Kirigami.Action {
@@ -110,30 +110,30 @@ Kirigami.ScrollablePage {
                 Kirigami.Action {
                     icon.name: "document-edit"
                     text: "Action 5"
-                    displayHint: DisplayHint.AlwaysHide
+                    displayHint: Kirigami.DisplayHint.AlwaysHide
                 },
                 Kirigami.Action {
                     icon.name: "document-edit"
                     text: "Action 6"
-                    displayHint: DisplayHint.AlwaysHide
+                    displayHint: Kirigami.DisplayHint.AlwaysHide
                 },
                 Kirigami.Action {
                     icon.name: "document-edit"
                     text: "Action 7"
-                    displayHint: DisplayHint.AlwaysHide
+                    displayHint: Kirigami.DisplayHint.AlwaysHide
                 }
             ]
         }
     }
 
     footer: Rectangle {
-        color: Theme.backgroundColor
-        height: Units.gridUnit * 3
+        color: Kirigami.Theme.backgroundColor
+        height: Kirigami.Units.gridUnit * 3
         QQC2.TextField {
             topPadding: 0
             bottomPadding: 0
-            leftPadding: Units.smallSpacing
-            rightPadding: Units.smallSpacing
+            leftPadding: Kirigami.Units.smallSpacing
+            rightPadding: Kirigami.Units.smallSpacing
             anchors.fill: parent
         }
         Kirigami.Separator {
@@ -151,7 +151,7 @@ Kirigami.ScrollablePage {
         focus: true
         x: (page.width - width) / 2
         y: page.height / 2 - height
-        width: Math.min(page.width - Units.gridUnit * 4, Units.gridUnit * 20)
+        width: Math.min(page.width - Kirigami.Units.gridUnit * 4, Kirigami.Units.gridUnit * 20)
         standardButtons: QQC2.Dialog.Ok
         title: "Title"
 
@@ -208,11 +208,11 @@ Kirigami.ScrollablePage {
         }
         QQC2.Label {
             Layout.alignment: Qt.AlignHCenter
-            text: Settings.isMobile ? "We are in mobile device mode" : "We are not in mobile device mode"
+            text: Kirigami.Settings.isMobile ? "We are in mobile device mode" : "We are not in mobile device mode"
         }
         QQC2.Label {
             Layout.alignment: Qt.AlignHCenter
-            text: Settings.tabletMode ? "We are in tablet mode" : "We are not in tablet mode"
+            text: Kirigami.Settings.tabletMode ? "We are in tablet mode" : "We are not in tablet mode"
         }
         Column {
             Layout.alignment: Qt.AlignHCenter

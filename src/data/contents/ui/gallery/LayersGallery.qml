@@ -18,14 +18,14 @@
  */
 
 import QtQuick 2.0
-import QtQuick.Controls 2.0 as Controls
+import QtQuick.Controls 2.0 as QQC2
 import QtQuick.Layouts 1.2
-import org.kde.kirigami 2.4
+import org.kde.kirigami 2.4 as Kirigami
 
-ScrollablePage {
+Kirigami.ScrollablePage {
     id: page
     Layout.fillWidth: true
-    //implicitWidth: Units.gridUnit * (Math.floor(Math.random() * 35) + 8)
+    //implicitWidth: Kirigami.Units.gridUnit * (Math.floor(Math.random() * 35) + 8)
 
     title: "Layers"
 
@@ -59,28 +59,28 @@ ScrollablePage {
 
     ColumnLayout {
         width: page.width
-        spacing: Units.smallSpacing
+        spacing: Kirigami.Units.smallSpacing
 
-        Controls.Label {
+        QQC2.Label {
             Layout.fillWidth: true
             wrapMode: Text.WordWrap
             text: "This page is used to test multiple layers: it will cover all the columns"
         }
 
-        Controls.Button {
+        QQC2.Button {
             text: "Push A New Layer"
             Layout.alignment: Qt.AlignHCenter
             onClicked: pageStack.layers.push(Qt.resolvedUrl("LayersGallery.qml"));
         }
-        Controls.Button {
+        QQC2.Button {
             text: "Pop A Layer"
             Layout.alignment: Qt.AlignHCenter
             onClicked: pageStack.layers.pop();
         }
-        Controls.Button {
+        QQC2.Button {
             text: "Toggle header"
             Layout.alignment: Qt.AlignHCenter
-            onClicked: page.globalToolBarStyle = ApplicationHeaderStyle.None
+            onClicked: page.globalToolBarStyle =Kirigami.ApplicationHeaderStyle.None
         }
     }
 }
