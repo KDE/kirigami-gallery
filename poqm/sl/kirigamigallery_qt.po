@@ -695,22 +695,22 @@ msgctxt "MetricsGallery|"
 msgid "Heading 4"
 msgstr "Glava 4"
 
-#: contents/ui/gallery/MiscGallery.qml:82
+#: contents/ui/gallery/MiscGallery.qml:74
 msgctxt "MiscGallery|"
 msgid "Text Beside Icon"
 msgstr "Besedilo poleg ikone"
 
-#: contents/ui/gallery/MiscGallery.qml:97
+#: contents/ui/gallery/MiscGallery.qml:89
 msgctxt "MiscGallery|"
 msgid "Text Under Icon"
 msgstr "Besedilo pod ikono"
 
-#: contents/ui/gallery/MiscGallery.qml:112
+#: contents/ui/gallery/MiscGallery.qml:104
 msgctxt "MiscGallery|"
 msgid "Text Only"
 msgstr "Samo besedilo"
 
-#: contents/ui/gallery/MiscGallery.qml:127
+#: contents/ui/gallery/MiscGallery.qml:119
 msgctxt "MiscGallery|"
 msgid "Icon Only"
 msgstr "Samo ikona"

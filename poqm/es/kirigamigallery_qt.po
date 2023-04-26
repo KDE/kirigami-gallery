@@ -697,22 +697,22 @@ msgctxt "MetricsGallery|"
 msgid "Heading 4"
 msgstr "Cabecera 4"
 
-#: contents/ui/gallery/MiscGallery.qml:82
+#: contents/ui/gallery/MiscGallery.qml:74
 msgctxt "MiscGallery|"
 msgid "Text Beside Icon"
 msgstr "Texto junto al icono"
 
-#: contents/ui/gallery/MiscGallery.qml:97
+#: contents/ui/gallery/MiscGallery.qml:89
 msgctxt "MiscGallery|"
 msgid "Text Under Icon"
 msgstr "Texto debajo del icono"
 
-#: contents/ui/gallery/MiscGallery.qml:112
+#: contents/ui/gallery/MiscGallery.qml:104
 msgctxt "MiscGallery|"
 msgid "Text Only"
 msgstr "Solo texto"
 
-#: contents/ui/gallery/MiscGallery.qml:127
+#: contents/ui/gallery/MiscGallery.qml:119
 msgctxt "MiscGallery|"
 msgid "Icon Only"
 msgstr "Solo icono"
