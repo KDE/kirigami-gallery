@@ -18,11 +18,11 @@
  */
 
 import QtQuick 2.6
-import QtQuick.Controls 2.0 as Controls
+import QtQuick.Controls 2.0 as QQC2
 import QtQuick.Layouts 1.2
 import org.kde.kirigami 2.20 as Kirigami
 
-import "components"
+import "components" as KGC
 
 Kirigami.ScrollablePage {
     id: page
@@ -37,7 +37,7 @@ Kirigami.ScrollablePage {
         shortcut: "Alt+I"
     }
 
-    InfoSheet {
+    KGC.InfoSheet {
         id: sheet
 
         page: page
@@ -53,7 +53,7 @@ Kirigami.ScrollablePage {
                     text: qsTr("AbstractCard")
                     level: 2
                 }
-                contentItem: Controls.Label {
+                contentItem: QQC2.Label {
                     wrapMode: Text.WordWrap
                     text: qsTr("An AbstractCard is the simplest form of card. It's just a rectangle with a shadow, which can contain any Item in it. It can also have items assigned to the Header or Footer properties. In this case a Kirigami.Heading is its header and a Label with WordWrap is the contentItem.")
                 }
@@ -61,7 +61,7 @@ Kirigami.ScrollablePage {
 
             Kirigami.AbstractCard {
                 showClickFeedback: true
-                contentItem: Controls.Label {
+                contentItem: QQC2.Label {
                     wrapMode: Text.WordWrap
                     text: qsTr("This is an AbstractCard with a Label with WordWrap in it and nothing else, it's the simplest form Cards can be found in.\nAn AbstractCard can be clicked itself, with the usual onClicked signal handler and the showClickFeedback property can be used if the click should show any kind of visual feedback. It is recommended to set it to true if you plan to make the card reactive on any kind of click.")
                 }
@@ -83,7 +83,7 @@ Kirigami.ScrollablePage {
                     source: Qt.resolvedUrl("../banner.jpg")
                     title: qsTr("Card")
                 }
-                contentItem: Controls.Label {
+                contentItem: QQC2.Label {
                     wrapMode: Text.WordWrap
                     text: qsTr("This is an instance of the Card type: it can optionally have an image, a title and an icon assigned to its banner group property, one or all of the properties together. A Card can also have Actions that will appear in the footer.")
                 }
@@ -122,7 +122,7 @@ Kirigami.ScrollablePage {
                     title: "Title Alignment"
                     titleAlignment: Qt.AlignLeft | Qt.AlignBottom
                 }
-                contentItem: Controls.Label {
+                contentItem: QQC2.Label {
                     wrapMode: Text.WordWrap
                     text: qsTr("The title can be aligned to all corners or centered with a combination of Qt.Alignment flags.\n When there are too many actions, they go in an overflow menu.")
                 }
@@ -148,7 +148,7 @@ Kirigami.ScrollablePage {
                     iconSource: "applications-graphics"
                     title: "Title only"
                 }
-                contentItem: Controls.Label {
+                contentItem: QQC2.Label {
                     wrapMode: Text.WordWrap
                     text: qsTr("The Banner can contain only the title and/or an icon, even if there is no banner image.")
                 }
@@ -167,7 +167,7 @@ Kirigami.ScrollablePage {
                             left: parent.left
                             right: parent.right
                         }
-                        Controls.Label {
+                        QQC2.Label {
                             Layout.fillWidth: true
                             padding: Kirigami.Units.largeSpacing
 
@@ -185,17 +185,17 @@ Kirigami.ScrollablePage {
                         }
                     }
                 }
-                contentItem: Controls.Label {
+                contentItem: QQC2.Label {
                     wrapMode: Text.WordWrap
                     topPadding: avatarIcon.height/2
                     text: qsTr("It's possible to customize the look and feel for Cards too, if the no padding behavior for headers is needed. This is usually discouraged in order to have greater consistency, but in some cases the design requires a more fancy layout, as shown in this example of a Card. If a custom header is used, the title and icon in the banner property shouldn't be used. If a custom footer is used (which is discouraged), actions shouldn't be used.")
                 }
                 footer: RowLayout {
-                    Controls.Label {
+                    QQC2.Label {
                         Layout.fillWidth: true
                         text: qsTr("Custom footer")
                     }
-                    Controls.Button {
+                    QQC2.Button {
                         text: qsTr("Ok")
                     }
                 }
@@ -217,7 +217,7 @@ Kirigami.ScrollablePage {
                     source: Qt.resolvedUrl("../banner.jpg")
                     title: "Title"
                 }
-                contentItem: Controls.Label {
+                contentItem: QQC2.Label {
                     wrapMode: Text.WordWrap
                     text: qsTr("A card can optionally have horizontal orientation.\n In this case will be wider than tall, so is fit to be used also in a ColumnLayout.\nIf you need to put it in a CardsLayout, it will have by default a columnSpan of 2 (which can be overridden).")
                 }

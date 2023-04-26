@@ -18,19 +18,19 @@
  */
 
 import QtQuick 2.11
-import QtQuick.Controls 2.11 as Controls
+import QtQuick.Controls 2.11 as QQC2
 import QtQuick.Layouts 1.2
-import org.kde.kirigami 2.11
+import org.kde.kirigami 2.11 as Kirigami
 
-import "components"
+import "components" as KGC
 
-ScrollablePage {
+Kirigami.ScrollablePage {
     id: page
     Layout.fillWidth: true
 
     title: "Action Tool Bar"
 
-    actions: Action {
+    actions: Kirigami.Action {
         icon.name: "documentinfo"
         text: qsTr("Info")
         checkable: true
@@ -46,7 +46,7 @@ ScrollablePage {
         }
     }
 
-    InfoSheet {
+    KGC.InfoSheet {
         id: sheet
 
         page: page
@@ -57,93 +57,93 @@ ScrollablePage {
 
     ColumnLayout {
         width: page.width
-        spacing: Units.smallSpacing
+        spacing: Kirigami.Units.smallSpacing
 
-        Controls.Label { text: "Basic Actions and Alignment"; elide: Text.ElideRight; Layout.fillWidth: true }
+        QQC2.Label { text: "Basic Actions and Alignment"; elide: Text.ElideRight; Layout.fillWidth: true }
 
-        Controls.GroupBox {
+        QQC2.GroupBox {
             Layout.fillWidth: true
             Layout.minimumWidth: 0
 
-            ActionToolBar {
+            Kirigami.ActionToolBar {
                 anchors.fill: parent
                 alignment: page.alignment
                 actions: [
-                    Action { text: "Align Left"; icon.name: "align-horizontal-left"; onTriggered: page.alignment = Qt.AlignLeft },
-                    Action { text: "Align Center"; icon.name: "align-horizontal-center"; onTriggered: page.alignment = Qt.AlignHCenter },
-                    Action { text: "Align Right"; icon.name: "align-horizontal-right"; onTriggered: page.alignment = Qt.AlignRight }
+                    Kirigami.Action { text: "Align Left"; icon.name: "align-horizontal-left"; onTriggered: page.alignment = Qt.AlignLeft },
+                    Kirigami.Action { text: "Align Center"; icon.name: "align-horizontal-center"; onTriggered: page.alignment = Qt.AlignHCenter },
+                    Kirigami.Action { text: "Align Right"; icon.name: "align-horizontal-right"; onTriggered: page.alignment = Qt.AlignRight }
                 ]
             }
         }
 
-        Controls.Label { text: "Display Hints"; elide: Text.ElideRight; Layout.fillWidth: true }
+        QQC2.Label { text: "Display Hints"; elide: Text.ElideRight; Layout.fillWidth: true }
 
-        Controls.GroupBox {
+        QQC2.GroupBox {
             Layout.fillWidth: true
             Layout.minimumWidth: 0
 
-            ActionToolBar {
+            Kirigami.ActionToolBar {
                 anchors.fill: parent
                 alignment: page.alignment
                 actions: [
-                    Action { text: "IconOnly"; icon.name: "view-list-icons"; displayHint: Action.DisplayHint.IconOnly },
-                    Action { text: "KeepVisible"; icon.name: "view-visible"; displayHint: Action.DisplayHint.KeepVisible },
-                    Action {
+                    Kirigami.Action { text: "IconOnly"; icon.name: "view-list-icons"; displayHint: Kirigami.DisplayHint.IconOnly },
+                    Kirigami.Action { text: "KeepVisible"; icon.name: "view-visible"; displayHint: Kirigami.DisplayHint.KeepVisible },
+                    Kirigami.Action {
                         text: "HideChildIndicator";
                         icon.name: "overflow-menu"
-                        displayHint: Action.DisplayHint.HideChildIndicator
+                        displayHint: Kirigami.DisplayHint.HideChildIndicator
 
-                        Action {
+                        Kirigami.Action {
                             text: "Child Action"
                         }
                     },
-                    Action { text: "AlwaysHide"; icon.name: "password-show-off"; displayHint: Action.DisplayHint.AlwaysHide }
+                    Kirigami.Action { text: "AlwaysHide"; icon.name: "password-show-off"; displayHint: Kirigami.DisplayHint.AlwaysHide }
                 ]
             }
         }
 
-        Controls.Label { text: "Custom Display Component"; elide: Text.ElideRight; Layout.fillWidth: true }
+        QQC2.Label { text: "Custom Display Component"; elide: Text.ElideRight; Layout.fillWidth: true }
 
-        Controls.GroupBox {
+        QQC2.GroupBox {
             Layout.fillWidth: true
             Layout.minimumWidth: 0
 
-            ActionToolBar {
+            Kirigami.ActionToolBar {
                 anchors.fill: parent
                 alignment: page.alignment
                 actions: [
-                    Action { id: customAction; text: "Custom Component"; icon.name: "search"; displayComponent: SearchField { } },
-                    Action {
+                    Kirigami.Action { id: customAction; text: "Custom Component"; icon.name: "search"; displayComponent: Kirigami.SearchField { } },
+                    Kirigami.Action {
                         text: "Add IconOnly Hint";
                         icon.name: "list-add";
-                        onTriggered: customAction.displayHint |= Action.DisplayHint.IconOnly
+                        onTriggered: customAction.displayHint |= Kirigami.DisplayHint.IconOnly
                     },
-                    Action {
+                    Kirigami.Action {
                         text: "Remove IconOnly Hint";
                         icon.name: "list-remove"
-                        onTriggered: customAction.displayHint ^= Action.DisplayHint.IconOnly
+                        onTriggered: customAction.displayHint ^= Kirigami.DisplayHint.IconOnly
                     }
                 ]
             }
         }
 
-        Controls.Label { text: "All Custom Components and Layouts"; elide: Text.ElideRight; Layout.fillWidth: true }
+        QQC2.Label { text: "All Custom Components and Layouts"; elide: Text.ElideRight; Layout.fillWidth: true }
 
-        Controls.GroupBox {
+        QQC2.GroupBox {
             Layout.fillWidth: true
             Layout.minimumWidth: 0
 
-            ActionToolBar {
+            Kirigami.ActionToolBar {
                 anchors.fill: parent
                 alignment: page.alignment
                 actions: [
-                    Action { id: kirigamiAction; text: "Action 1"; displayComponent: Controls.Button { text: kirigamiAction.text } },
-                    Action {
+                    Kirigami.Action { id: kirigamiAction; text: "Action 1"; displayComponent: QQC2.Button { text: kirigamiAction.text } },
+                    Kirigami.Action {
                         text: "Action 2";
-                        displayComponent: Controls.TextField { placeholderText: kirigamiAction.text; Layout.fillWidth: true; Layout.maximumWidth: 350 }
+                        displayComponent: QQC2.TextField { placeholderText: kirigamiAction.text; Layout.fillWidth: true; Layout.maximumWidth: 350 }
                     },
-                    Action { text: "Action 3"; displayComponent: Controls.SpinBox { } },
-                    Action { text: "Action 4"; displayComponent: Controls.RangeSlider { Layout.fillWidth: true } }
+                    Kirigami.Action { text: "Action 3"; displayComponent: QQC2.SpinBox { } },
+                    Kirigami.Action { text: "Action 4"; displayComponent: QQC2.RangeSlider { Layout.fillWidth: true } }
                 ]
             }
         }

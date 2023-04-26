@@ -18,10 +18,9 @@
  */
 
 import QtQuick 2.6
-import QtQuick.Controls 2.0 as Controls
-import QtQuick.Layouts 1.2
+import QtQuick.Controls 2.0 as QQC2
 import org.kde.kirigami 2.19 as Kirigami
-import Data 1.0
+import Data 1.0 as KGD
 
 Kirigami.PromptDialog {
     id: root
@@ -38,7 +37,7 @@ Kirigami.PromptDialog {
     onVisibleChanged: page.actions[0].checked = visible
     flatFooterButtons: true
     
-    property var info: InfoData {
+    property var info: KGD.InfoData {
         id: infoData
     }
     

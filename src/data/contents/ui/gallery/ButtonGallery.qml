@@ -18,14 +18,14 @@
  */
 
 import QtQuick 2.15
-import QtQuick.Controls 2.15 as Controls
+import QtQuick.Controls 2.15 as QQC2
 import QtQuick.Layouts 1.15
 import org.kde.kirigami 2.20 as Kirigami
 
 Kirigami.ScrollablePage {
     id: page
     Layout.fillWidth: true
-    //implicitWidth: Units.gridUnit * (Math.floor(Math.random() * 35) + 10)
+    //implicitWidth: Kirigami.Units.gridUnit * (Math.floor(Math.random() * 35) + 10)
 
     title: "Buttons"
 
@@ -100,19 +100,19 @@ Kirigami.ScrollablePage {
         id: bottomDrawer
         edge: Qt.BottomEdge
         contentItem: Item {
-            implicitHeight: childrenRect.height + Units.gridUnit
+            implicitHeight: childrenRect.height + Kirigami.Units.gridUnit
             ColumnLayout {
                 anchors.centerIn: parent
-                Controls.Button {
+                QQC2.Button {
                     text: "Button1"
                     onClicked: showPassiveNotification("Button 1 clicked")
                 }
-                Controls.Button {
+                QQC2.Button {
                     text: "Button2"
                     onClicked: showPassiveNotification("Button 2 clicked")
                 }
                 Item {
-                    Layout.minimumHeight: Units.gridUnit * 4
+                    Layout.minimumHeight: Kirigami.Units.gridUnit * 4
                 }
             }
         }
@@ -125,26 +125,26 @@ Kirigami.ScrollablePage {
             text: "Title"
         }
         footer: RowLayout {
-            Controls.Label {
+            QQC2.Label {
                 text: "Footer:"
             }
-            Controls.TextField {
+            QQC2.TextField {
                 Layout.fillWidth: true
                 Layout.alignment: Qt.AlignCenter
             }
         }
         ColumnLayout {
-            Controls.Label {
+            QQC2.Label {
                 Layout.fillWidth: true
                 wrapMode: Text.WordWrap
                 text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id risus id augue euismod accumsan. Nunc vestibulum placerat bibendum. Morbi commodo auctor varius. Donec molestie euismod ultrices. Sed facilisis augue nec eros auctor, vitae mattis quam rhoncus. Nam ut erat diam. Curabitur iaculis accumsan magna, eget fermentum massa scelerisque eu. Cras elementum erat non erat euismod accumsan. Vestibulum ac mi sed dui finibus pulvinar. Vivamus dictum, leo sed lobortis porttitor, nisl magna faucibus orci, sit amet euismod arcu elit eget est. Duis et vehicula nibh. In arcu sapien, laoreet sit amet porttitor non, rhoncus vel magna. Suspendisse imperdiet consectetur est nec ornare. Pellentesque bibendum sapien at erat efficitur vehicula. Morbi sed porta nibh. Vestibulum ut urna ut dolor sagittis mattis."
             }
 
-            Controls.TextField {
+            QQC2.TextField {
                 Layout.alignment: Qt.AlignHCenter
             }
 
-            Controls.Label {
+            QQC2.Label {
                 Layout.fillWidth: true
                 wrapMode: Text.WordWrap
                 text: `
@@ -156,7 +156,7 @@ Kirigami.ScrollablePage {
 
     Etiam sapien leo, venenatis eget justo at, pellentesque mollis tellus. Fusce consequat ullamcorper vulputate. Duis tellus nisi, dictum ut augue non, elementum congue ligula. Fusce in vehicula arcu. Nulla facilisi. Quisque a convallis sapien. Aenean pellentesque convallis egestas. Phasellus rhoncus, nulla in tempor maximus, arcu ex venenatis diam, sit amet egestas mi dolor non ante.`
             }
-            Controls.Button {
+            QQC2.Button {
                 text: "Close"
                 Layout.alignment: Qt.AlignHCenter
                 onClicked: sheet.close()
@@ -167,13 +167,13 @@ Kirigami.ScrollablePage {
         width: page.width
         spacing: Kirigami.Units.smallSpacing
 
-        Controls.ComboBox {
+        QQC2.ComboBox {
             Layout.alignment: Qt.AlignHCenter
             textRole: "text"
             model: [{"text": "Default", "value": -1},
-                    {"text": "Toolbar", "value": ApplicationHeaderStyle.ToolBar},
-                    {"text": "Titles", "value": ApplicationHeaderStyle.Titles},
-                    {"text": "None", "value": ApplicationHeaderStyle.None}]
+                    {"text": "Toolbar", "value":Kirigami.ApplicationHeaderStyle.ToolBar},
+                    {"text": "Titles", "value":Kirigami.ApplicationHeaderStyle.Titles},
+                    {"text": "None", "value":Kirigami.ApplicationHeaderStyle.None}]
             onActivated: {
                 if (index === 0) {
                     page.globalToolBarStyle = applicationWindow().pageStack.globalToolBar.actualStyle
@@ -182,51 +182,51 @@ Kirigami.ScrollablePage {
                 }
             }
         }
-        Controls.Button {
+        QQC2.Button {
             text: "Open &Bottom drawer"
             Layout.alignment: Qt.AlignHCenter
             onClicked: bottomDrawer.open()
         }
-        Controls.Button {
+        QQC2.Button {
             text: "Open Sheet"
             Layout.alignment: Qt.AlignHCenter
             onClicked: sheet.open()
         }
-        Controls.Button {
+        QQC2.Button {
             text: "Toggle Action Button"
             Layout.alignment: Qt.AlignHCenter
             onClicked: mainAction.visible = !mainAction.visible;
         }
-        Controls.Button {
+        QQC2.Button {
             text: "Show Passive Notification"
             Layout.alignment: Qt.AlignHCenter
             onClicked: showPassiveNotification("This is a passive message", 3000);
         }
-        Controls.Button {
+        QQC2.Button {
             text: "Passive Notification Action"
             Layout.alignment: Qt.AlignHCenter
             onClicked: showPassiveNotification("This is a passive message", "long", "Action", function() {showPassiveNotification("Passive notification action clicked")});
         }
-        Controls.ToolButton {
+        QQC2.ToolButton {
             text: "Toggle controls"
             checkable: true
             checked: true
             Layout.alignment: Qt.AlignHCenter
             onCheckedChanged: applicationWindow().controlsVisible = checked
         }
-        Controls.Button {
+        QQC2.Button {
             text: "Disabled Button"
             enabled: false
             Layout.alignment: Qt.AlignHCenter
             onClicked: showPassiveNotification("clicked")
         }
-        Controls.ToolButton {
+        QQC2.ToolButton {
             text: "Tool Button"
             icon.name: "go-next"
             Layout.alignment: Qt.AlignHCenter
             onClicked: showPassiveNotification(text + " clicked")
         }
-        Controls.ToolButton {
+        QQC2.ToolButton {
             text: "Tool Button non flat"
             flat: false
             Layout.alignment: Qt.AlignHCenter
