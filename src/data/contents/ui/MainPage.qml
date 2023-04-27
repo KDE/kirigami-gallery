@@ -113,6 +113,11 @@ Kirigami.ScrollablePage {
             img: "img/tabbar.svg"
         }
         ListElement {
+            title: "Navigation Tab Bar"
+            targetPage: "gallery/NavigationTabBarGallery.qml"
+            img: "img/navigation-tabbar.svg"
+        }
+        ListElement {
             title: "Text Field"
             targetPage: "gallery/TextFieldGallery.qml"
             img: "img/textfield.svg"

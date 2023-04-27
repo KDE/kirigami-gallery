@@ -16,6 +16,7 @@
         <file alias="contents/ui/gallery/MiscGallery.qml">./data/contents/ui/gallery/MiscGallery.qml</file>
         <file alias="contents/ui/gallery/ListViewGallery.qml">./data/contents/ui/gallery/ListViewGallery.qml</file>
         <file alias="contents/ui/gallery/TabBarGallery.qml">./data/contents/ui/gallery/TabBarGallery.qml</file>
+        <file alias="contents/ui/gallery/NavigationTabBarGallery.qml">./data/contents/ui/gallery/NavigationTabBarGallery.qml</file>
         <file alias="contents/ui/gallery/TextFieldGallery.qml">./data/contents/ui/gallery/TextFieldGallery.qml</file>
         <file alias="contents/ui/gallery/ColorsGallery.qml">./data/contents/ui/gallery/ColorsGallery.qml</file>
         <file alias="contents/ui/gallery/CardsLayoutGallery.qml">./data/contents/ui/gallery/CardsLayoutGallery.qml</file>
@@ -50,6 +51,7 @@
         <file alias="contents/ui/img/selection-controls.svg">./data/contents/ui/img/selection-controls.svg</file>
         <file alias="contents/ui/img/slider.svg">./data/contents/ui/img/slider.svg</file>
         <file alias="contents/ui/img/tabbar.svg">./data/contents/ui/img/tabbar.svg</file>
+        <file alias="contents/ui/img/navigation-tabbar.svg">./data/contents/ui/img/navigation-tabbar.svg</file>
         <file alias="contents/ui/img/textfield.svg">./data/contents/ui/img/textfield.svg</file>
         <file alias="metadata.desktop">./data/metadata.desktop</file>
         <file alias="qtquickcontrols2.conf">qtquickcontrols2.conf</file>
