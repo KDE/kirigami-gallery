@@ -95,7 +95,7 @@ Kirigami.ScrollablePage {
                     }
                     Controls.Button {
                         Layout.alignment: Qt.AlignRight|Qt.AlignVCenter
-                        Layout.columnSpan: 2 
+                        Layout.columnSpan: 2
                         text: qsTr("Install")
                         onClicked: showPassiveNotification("Install for Product " + modelData + " clicked");
                     }

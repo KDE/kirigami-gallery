@@ -41,7 +41,7 @@ Page {
             text: "Third"
         }
     }
- 
+
     Controls.SwipeView {
         id: swipeView
         anchors.fill: parent

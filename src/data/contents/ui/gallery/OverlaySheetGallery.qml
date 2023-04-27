@@ -134,7 +134,7 @@ Kirigami.ScrollablePage {
             }
         }
     }
-    
+
     Kirigami.OverlaySheet {
         id: globalSheet
 

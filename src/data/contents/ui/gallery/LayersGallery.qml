@@ -85,6 +85,6 @@ ScrollablePage {
             onClicked: page.globalToolBarStyle = ApplicationHeaderStyle.None
         }
     }
- 
-    
+
+
 }
