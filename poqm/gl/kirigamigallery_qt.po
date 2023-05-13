@@ -1,8 +1,8 @@
-# Adrián Chaves (Gallaecio) <adrian@chaves.io>, 2018, 2019, 2020.
+# Adrián Chaves (Gallaecio) <adrian@chaves.io>, 2018, 2019, 2020, 2023.
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"PO-Revision-Date: 2020-02-16 09:00+0100\n"
+"PO-Revision-Date: 2023-05-12 11:23+0200\n"
 "Last-Translator: Adrián Chaves (Gallaecio) <adrian@chaves.io>\n"
 "Language-Team: Galician <proxecto@trasno.gal>\n"
 "Language: gl\n"
@@ -10,7 +10,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 19.08.3\n"
+"X-Generator: Lokalize 23.04.0\n"
 "X-Qt-Contexts: true\n"
 
 #: contents/ui/gallery/ActionToolBarGallery.qml:35
@@ -240,12 +240,9 @@ msgstr "Instalar"
 #: contents/ui/gallery/ChipGallery.qml:32
 msgctxt "ChipGallery|"
 msgid "Chips"
-msgstr ""
+msgstr "Chips"
 
 #: contents/ui/gallery/ChipGallery.qml:35
-#, fuzzy
-#| msgctxt "ActionToolBarGallery|"
-#| msgid "Info"
 msgctxt "ChipGallery|"
 msgid "Info"
 msgstr "Información"
@@ -253,21 +250,21 @@ msgstr "Información"
 #: contents/ui/gallery/ChipGallery.qml:65
 msgctxt "ChipGallery|"
 msgid "Closable Chips"
-msgstr ""
+msgstr "Chips pechábeis"
 
 #: contents/ui/gallery/ChipGallery.qml:95
 msgctxt "ChipGallery|"
 msgid "Informative Chips"
-msgstr ""
+msgstr "Chips informativos"
 
 #: contents/ui/gallery/ChipGallery.qml:131
-#, fuzzy
-#| msgctxt "SelectionControlsGallery|"
-#| msgid "Checkable List View"
 msgctxt "ChipGallery|"
 msgid "Checkable Chips"
-msgstr "Vista de lista marcábel"
+msgstr "Chips marcábeis"
 
+# well-spelled: DIH
+#
+# Directrices de interfaces para humanos.
 #: contents/ui/gallery/components/InfoSheet.qml:48
 msgctxt "InfoSheet|"
 msgid "HIG..."
@@ -286,12 +283,9 @@ msgstr "API…"
 #: contents/ui/gallery/DialogGallery.qml:32
 msgctxt "DialogGallery|"
 msgid "Dialogs"
-msgstr ""
+msgstr "Diálogos"
 
 #: contents/ui/gallery/DialogGallery.qml:36
-#, fuzzy
-#| msgctxt "ActionToolBarGallery|"
-#| msgid "Info"
 msgctxt "DialogGallery|"
 msgid "Info"
 msgstr "Información"
@@ -299,165 +293,160 @@ msgstr "Información"
 #: contents/ui/gallery/DialogGallery.qml:74
 msgctxt "DialogGallery|"
 msgid "Create Folder"
-msgstr ""
+msgstr "Crear un cartafol"
 
 #: contents/ui/gallery/DialogGallery.qml:82
 msgctxt "DialogGallery|"
 msgid "Cancel"
-msgstr ""
+msgstr "Cancelar"
 
 #: contents/ui/gallery/DialogGallery.qml:91
 msgctxt "DialogGallery|"
 msgid "Folder name..."
-msgstr ""
+msgstr "Nome do cartafol…"
 
 #: contents/ui/gallery/DialogGallery.qml:97
 msgctxt "DialogGallery|"
 msgid "Alarm Snooze Length"
-msgstr ""
+msgstr "Duración do atraso da alarma"
 
 #: contents/ui/gallery/DialogGallery.qml:106
 msgctxt "DialogGallery|"
 msgid "1 minute"
-msgstr ""
+msgstr "1 minuto"
 
 #: contents/ui/gallery/DialogGallery.qml:107
 msgctxt "DialogGallery|"
 msgid "2 minutes"
-msgstr ""
+msgstr "2 minutos"
 
 #: contents/ui/gallery/DialogGallery.qml:108
 msgctxt "DialogGallery|"
 msgid "3 minutes"
-msgstr ""
+msgstr "3 minutos"
 
 #: contents/ui/gallery/DialogGallery.qml:109
 msgctxt "DialogGallery|"
 msgid "4 minutes"
-msgstr ""
+msgstr "4 minutos"
 
 #: contents/ui/gallery/DialogGallery.qml:110
 msgctxt "DialogGallery|"
 msgid "5 minutes"
-msgstr ""
+msgstr "5 minutos"
 
 #: contents/ui/gallery/DialogGallery.qml:111
 msgctxt "DialogGallery|"
 msgid "10 minutes"
-msgstr ""
+msgstr "10 minutos"
 
 #: contents/ui/gallery/DialogGallery.qml:112
 msgctxt "DialogGallery|"
 msgid "30 minutes"
-msgstr ""
+msgstr "30 minutos"
 
 #: contents/ui/gallery/DialogGallery.qml:113
 msgctxt "DialogGallery|"
 msgid "1 hour"
-msgstr ""
+msgstr "1 hora"
 
 #: contents/ui/gallery/DialogGallery.qml:135
 msgctxt "DialogGallery|"
 msgid "Select Number"
-msgstr ""
+msgstr "Seleccionar un número"
 
 #: contents/ui/gallery/DialogGallery.qml:155
 #: contents/ui/gallery/DialogGallery.qml:221
 msgctxt "DialogGallery|"
 msgid "No Footer Dialog"
-msgstr ""
+msgstr "Diálogo sen rodapé"
 
 #: contents/ui/gallery/DialogGallery.qml:156
 msgctxt "DialogGallery|"
 msgid "This dialog has no footer buttons.<br/>It also has no close button."
 msgstr ""
+"Este diálogo non ten botóns no rodapé.<br/>Tampouco ten botón de pechar."
 
 #: contents/ui/gallery/DialogGallery.qml:164
 msgctxt "DialogGallery|"
 msgid "Track Options"
-msgstr ""
+msgstr "Opcións da pista"
 
 #: contents/ui/gallery/DialogGallery.qml:169
 msgctxt "DialogGallery|Start playback of the selected track"
 msgid "Play"
-msgstr ""
+msgstr "Reproducir"
 
 #: contents/ui/gallery/DialogGallery.qml:170
 msgctxt "DialogGallery|"
 msgid "Start playback of the selected track"
-msgstr ""
+msgstr "Reproducir a pista seleccionada"
 
 #: contents/ui/gallery/DialogGallery.qml:175
-#, fuzzy
-#| msgctxt "BaseApp|"
-#| msgid "Show Banner"
 msgctxt "DialogGallery|Show the file for this song in the file manager"
 msgid "Show in folder"
-msgstr "Mostrar o Banner"
+msgstr "Mostrar no cartafol"
 
 #: contents/ui/gallery/DialogGallery.qml:176
 msgctxt "DialogGallery|"
 msgid "Show the file for this song in the file manager"
-msgstr ""
+msgstr "Mostrar o ficheiro desta canción no xestor de ficheiros"
 
 #: contents/ui/gallery/DialogGallery.qml:180
 msgctxt "DialogGallery|Show track metadata"
 msgid "View details"
-msgstr ""
+msgstr "Ver os detalles"
 
 #: contents/ui/gallery/DialogGallery.qml:181
 msgctxt "DialogGallery|"
 msgid "Show track metadata"
-msgstr ""
+msgstr "Mostrar os metadatos da pista"
 
 #: contents/ui/gallery/DialogGallery.qml:185
 msgctxt ""
 "DialogGallery|Add the track to the queue, right after the current track"
 msgid "Play next"
-msgstr ""
+msgstr "Reproducir seguinte"
 
 #: contents/ui/gallery/DialogGallery.qml:186
 msgctxt "DialogGallery|"
 msgid "Add the track to the queue, right after the current track"
-msgstr ""
+msgstr "Engadir a pista á cola, despois da pista actual"
 
 #: contents/ui/gallery/DialogGallery.qml:190
 msgctxt "DialogGallery|Enqueue current track"
 msgid "Add to queue"
-msgstr ""
+msgstr "Engadir á cola"
 
 #: contents/ui/gallery/DialogGallery.qml:191
 msgctxt "DialogGallery|"
 msgid "Enqueue current track"
-msgstr ""
+msgstr "Engadir a pista actual á cola"
 
 #: contents/ui/gallery/DialogGallery.qml:201
 msgctxt "DialogGallery|"
 msgid "Prompt Dialog"
-msgstr ""
+msgstr "Diálogo de solicitude"
 
 #: contents/ui/gallery/DialogGallery.qml:206
 msgctxt "DialogGallery|"
 msgid "Text Prompt Dialog"
-msgstr ""
+msgstr "Diálogo de solicitude de texto"
 
 #: contents/ui/gallery/DialogGallery.qml:211
-#, fuzzy
-#| msgctxt "SelectionControlsGallery|"
-#| msgid "Selection Controls"
 msgctxt "DialogGallery|"
 msgid "Selection Dialog"
-msgstr "Controis de selección"
+msgstr "Diálogo de selección"
 
 #: contents/ui/gallery/DialogGallery.qml:216
 msgctxt "DialogGallery|"
 msgid "Scrollable Dialog"
-msgstr ""
+msgstr "Diálogo con desprazamento"
 
 #: contents/ui/gallery/DialogGallery.qml:226
 msgctxt "DialogGallery|"
 msgid "Menu Dialog"
-msgstr ""
+msgstr "Diálogo con menú"
 
 #: contents/ui/gallery/DrawerGallery.qml:30
 msgctxt "DrawerGallery|"
@@ -674,7 +663,7 @@ msgstr "Bu!"
 #: contents/ui/gallery/InlineMessagesGallery.qml:209
 msgctxt "InlineMessagesGallery|"
 msgid "Shush"
-msgstr "Sh!"
+msgstr "Silencio"
 
 #: contents/ui/gallery/MetricsGallery.qml:42
 msgctxt "MetricsGallery|"
@@ -822,12 +811,10 @@ msgstr "Elementos de lista marcábeis"
 #: contents/ui/gallery/SelectionControlsGallery.qml:72
 #: contents/ui/gallery/SelectionControlsGallery.qml:95
 #: contents/ui/gallery/SelectionControlsGallery.qml:118
-#, fuzzy, qt-format
-#| msgctxt "SelectionControlsGallery|"
-#| msgid "Delegate"
+#, qt-format
 msgctxt "SelectionControlsGallery|"
 msgid "Delegate %1"
-msgstr "Delegado"
+msgstr "Delegar %1"
 
 #: contents/ui/gallery/SelectionControlsGallery.qml:88
 #: contents/ui/gallery/SelectionControlsGallery.qml:111
