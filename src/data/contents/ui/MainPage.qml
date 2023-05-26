@@ -158,11 +158,6 @@ Kirigami.ScrollablePage {
             img: "img/listview.svg"
         }
         ListElement {
-            title: "List Headers"
-            targetPage: "gallery/ListViewHeaderItemsGallery.qml"
-            img: "img/headers.svg"
-        }
-        ListElement {
             title: "Non Scrollable Page"
             targetPage: "gallery/NonScrollableGallery.qml"
             img: "img/non-scroll-page.svg"

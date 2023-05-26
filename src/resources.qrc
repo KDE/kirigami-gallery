@@ -15,7 +15,6 @@
         <file alias="contents/ui/gallery/MultipleColumnsGallery.qml">./data/contents/ui/gallery/MultipleColumnsGallery.qml</file>
         <file alias="contents/ui/gallery/MiscGallery.qml">./data/contents/ui/gallery/MiscGallery.qml</file>
         <file alias="contents/ui/gallery/ListViewGallery.qml">./data/contents/ui/gallery/ListViewGallery.qml</file>
-        <file alias="contents/ui/gallery/ListViewHeaderItemsGallery.qml">./data/contents/ui/gallery/ListViewHeaderItemsGallery.qml</file>
         <file alias="contents/ui/gallery/TabBarGallery.qml">./data/contents/ui/gallery/TabBarGallery.qml</file>
         <file alias="contents/ui/gallery/TextFieldGallery.qml">./data/contents/ui/gallery/TextFieldGallery.qml</file>
         <file alias="contents/ui/gallery/ColorsGallery.qml">./data/contents/ui/gallery/ColorsGallery.qml</file>
@@ -41,7 +40,6 @@
         <file alias="contents/ui/img/columnview.svg">./data/contents/ui/img/columnview.svg</file>
         <file alias="contents/ui/img/drawers.svg">./data/contents/ui/img/drawers.svg</file>
         <file alias="contents/ui/img/formlayout.svg">./data/contents/ui/img/formlayout.svg</file>
-        <file alias="contents/ui/img/headers.svg">./data/contents/ui/img/headers.svg</file>
         <file alias="contents/ui/img/inlinemessage.svg">./data/contents/ui/img/inlinemessage.svg</file>
         <file alias="contents/ui/img/listview.svg">./data/contents/ui/img/listview.svg</file>
         <file alias="contents/ui/img/metrics.svg">./data/contents/ui/img/metrics.svg</file>
