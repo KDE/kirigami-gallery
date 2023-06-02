@@ -86,11 +86,6 @@ Kirigami.ScrollablePage {
             TextField {
                 Kirigami.FormData.label: "Title:"
             }
-            TextField {
-                Kirigami.FormData.label: "Checkable label"
-                Kirigami.FormData.checkable: true
-                enabled: Kirigami.FormData.checked
-            }
             ColumnLayout {
                 Layout.rowSpan: 3
                 Kirigami.FormData.label: "Label for radios:"
