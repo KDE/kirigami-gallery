@@ -548,7 +548,7 @@ msgctxt "FormLayoutGallery|"
 msgid "Expanding Button"
 msgstr "확장되는 단추"
 
-#: contents/ui/gallery/FormLayoutGallery.qml:134
+#: contents/ui/gallery/FormLayoutGallery.qml:129
 msgctxt "FormLayoutGallery|"
 msgid "Twin Layout:"
 msgstr "쌍둥이 레이아웃:"

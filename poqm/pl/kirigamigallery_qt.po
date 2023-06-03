@@ -557,7 +557,7 @@ msgctxt "FormLayoutGallery|"
 msgid "Expanding Button"
 msgstr "Rozszerzający się przycisk"
 
-#: contents/ui/gallery/FormLayoutGallery.qml:134
+#: contents/ui/gallery/FormLayoutGallery.qml:129
 msgctxt "FormLayoutGallery|"
 msgid "Twin Layout:"
 msgstr "Układ bliźniaczy:"

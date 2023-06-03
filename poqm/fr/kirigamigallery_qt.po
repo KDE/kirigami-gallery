@@ -569,7 +569,7 @@ msgctxt "FormLayoutGallery|"
 msgid "Expanding Button"
 msgstr "Agrandissement des boutons"
 
-#: contents/ui/gallery/FormLayoutGallery.qml:134
+#: contents/ui/gallery/FormLayoutGallery.qml:129
 msgctxt "FormLayoutGallery|"
 msgid "Twin Layout:"
 msgstr "Disposition double :"
