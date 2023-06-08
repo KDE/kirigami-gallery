@@ -30,7 +30,7 @@ ScrollablePage {
 
     title: "Action Tool Bar"
 
-    actions.main: Action {
+    actions: Action {
         icon.name: "documentinfo"
         text: qsTr("Info")
         checkable: true

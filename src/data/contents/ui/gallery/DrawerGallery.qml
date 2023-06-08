@@ -29,31 +29,29 @@ Kirigami.ScrollablePage {
 
     title: qsTr("Drawers")
 
-    actions{
-        main: Kirigami.Action {
+    actions: [
+        Kirigami.Action {
             icon.name: "documentinfo"
             text: qsTr("Info")
             checkable: true
             onCheckedChanged: sheet.visible = checked;
             shortcut: "Alt+I"
+        },
+        Kirigami.Action {
+            text: qsTr("Action 1")
+            icon.name: "bookmarks"
+            onTriggered: showPassiveNotification(qsTr("Action 1 clicked"))
+        },
+        Kirigami.Action {
+            text: qsTr("Disabled Action")
+            icon.name: "folder"
+            enabled: false
+        },
+        Kirigami.Action {
+            text: qsTr("Action 3")
+            onTriggered: showPassiveNotification(qsTr("Action 3 clicked"))
         }
-        contextualActions: [
-            Kirigami.Action {
-                text: qsTr("Action 1")
-                icon.name: "bookmarks"
-                onTriggered: showPassiveNotification(qsTr("Action 1 clicked"))
-            },
-            Kirigami.Action {
-                text: qsTr("Disabled Action")
-                icon.name: "folder"
-                enabled: false
-            },
-            Kirigami.Action {
-                text: qsTr("Action 3")
-                onTriggered: showPassiveNotification(qsTr("Action 3 clicked"))
-            }
-        ]
-    }
+    ]
 
     //Close the drawer with the back button
     onBackRequested: {

@@ -29,35 +29,33 @@ ScrollablePage {
 
     title: "Layers"
 
-    actions {
-        main: Action {
+    actions: [
+        Action {
             icon.name: "document-edit"
             text: "Main Action Text"
             onTriggered: {
                 showPassiveNotification("Action button in buttons page clicked");
             }
-        }
-        left: Action {
+        },
+        Action {
             icon.name: "go-previous"
             text: "Left Action Text"
             onTriggered: {
                 showPassiveNotification("Left action triggered")
             }
+        },
+        Action {
+            text:"Action 1"
+            icon.name: "go-next"
+            onTriggered: showPassiveNotification("Action 1 clicked")
+        },
+        Action {
+            text:"Action 2"
+            icon.name: "folder"
+            enabled: false
+            onTriggered: showPassiveNotification("Action 2 clicked")
         }
-        contextualActions: [
-            Action {
-                text:"Action 1"
-                icon.name: "go-next"
-                onTriggered: showPassiveNotification("Action 1 clicked")
-            },
-            Action {
-                text:"Action 2"
-                icon.name: "folder"
-                enabled: false
-                onTriggered: showPassiveNotification("Action 2 clicked")
-            }
-        ]
-    }
+    ]
 
     ColumnLayout {
         width: page.width
@@ -85,6 +83,4 @@ ScrollablePage {
             onClicked: page.globalToolBarStyle = ApplicationHeaderStyle.None
         }
     }
-
-
 }

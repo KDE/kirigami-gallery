@@ -27,13 +27,11 @@ Page {
     Layout.fillWidth: true
     title: "Simple Page"
 
-    actions {
-        main: Action {
-            icon.name: sheet.sheetOpen ? "dialog-cancel" : "document-edit"
-            text: "Main Action Text"
-            checkable: true
-            onCheckedChanged: sheet.visible = checked;
-        }
+    actions: Action {
+        icon.name: sheet.sheetOpen ? "dialog-cancel" : "document-edit"
+        text: "Main Action Text"
+        checkable: true
+        onCheckedChanged: sheet.visible = checked;
     }
 
     header: Controls.Button {
@@ -53,7 +51,7 @@ Page {
 
     OverlaySheet {
         id: sheet
-        onSheetOpenChanged: page.actions.main.checked = sheetOpen;
+        onSheetOpenChanged: page.actions[0].checked = sheetOpen;
         Controls.Label {
             property int implicitWidth: Units.gridUnit * 30
             wrapMode: Text.WordWrap
