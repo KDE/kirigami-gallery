@@ -69,8 +69,8 @@ msgstr ""
 "Isto é unha AbstractCard cunha Label con WordWrap nela e nada máis, é a "
 "forma máis sinxela na que se poden atopar tarxetas.\n"
 "Unha AbstractCard pode premerse, co xestor habitual do sinal onClicked, e a "
-"propiedade showClickFeedback pode usarse se o clic debería mostrar algún "
-"tipo de información visual. Recoméndase activala para facer que a tarxeta "
+"propiedade showClickFeedback pode usarse se o clic debería amosar algún tipo "
+"de información visual. Recoméndase activala para facer que a tarxeta "
 "reaccione ao premela."
 
 #: contents/ui/gallery/CardsLayoutGallery.qml:68
@@ -385,12 +385,12 @@ msgstr "Reproducir a pista seleccionada"
 #: contents/ui/gallery/DialogGallery.qml:175
 msgctxt "DialogGallery|Show the file for this song in the file manager"
 msgid "Show in folder"
-msgstr "Mostrar no cartafol"
+msgstr "Amosar no cartafol"
 
 #: contents/ui/gallery/DialogGallery.qml:176
 msgctxt "DialogGallery|"
 msgid "Show the file for this song in the file manager"
-msgstr "Mostrar o ficheiro desta canción no xestor de ficheiros"
+msgstr "Amosar o ficheiro desta canción no xestor de ficheiros"
 
 #: contents/ui/gallery/DialogGallery.qml:180
 msgctxt "DialogGallery|Show track metadata"
@@ -400,7 +400,7 @@ msgstr "Ver os detalles"
 #: contents/ui/gallery/DialogGallery.qml:181
 msgctxt "DialogGallery|"
 msgid "Show track metadata"
-msgstr "Mostrar os metadatos da pista"
+msgstr "Amosar os metadatos da pista"
 
 #: contents/ui/gallery/DialogGallery.qml:185
 msgctxt ""
@@ -653,7 +653,7 @@ msgstr ""
 #: contents/ui/gallery/InlineMessagesGallery.qml:188
 msgctxt "InlineMessagesGallery|"
 msgid "Show additional message"
-msgstr "Mostrar unha mensaxe adicional"
+msgstr "Amosar unha mensaxe adicional"
 
 #: contents/ui/gallery/InlineMessagesGallery.qml:205
 msgctxt "InlineMessagesGallery|"
@@ -766,7 +766,7 @@ msgid ""
 msgstr ""
 "Unha folla ocupará a anchura máxima dispoñíbel na páxina de maneira "
 "predeterminada.\n"
-"Porén, se o elemento principal estabelece un implicitWidth ou Layout."
+"Porén, se o elemento principal define un implicitWidth ou Layout."
 "preferredWidth, a folla non medrará en anchura alén do valor indicado."
 
 #: contents/ui/gallery/OverlaySheetGallery.qml:150
@@ -779,7 +779,7 @@ msgid ""
 msgstr ""
 "De maneira predeterminada, unha folla cubrirá unha única páxina, incluso "
 "cando a aplicación estea en modo ancho. Se cambia o pai da folla a "
-"applicationWindow().overlay a folla mostrarase como unha capa sobre toda a "
+"applicationWindow().overlay a folla amosarase como unha capa sobre toda a "
 "xanela da aplicación.\n"
 "Neste caso, a folla cubrirá tamén os botóns de Action da páxina."
 
