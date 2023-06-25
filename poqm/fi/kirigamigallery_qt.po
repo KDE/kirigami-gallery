@@ -1,8 +1,8 @@
-# Tommi Nieminen <translator@legisign.org>, 2020, 2022.
+# Tommi Nieminen <translator@legisign.org>, 2020, 2022, 2023.
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"PO-Revision-Date: 2022-02-13 21:10+0200\n"
+"PO-Revision-Date: 2023-06-02 20:08+0300\n"
 "Last-Translator: Tommi Nieminen <translator@legisign.org>\n"
 "Language-Team: Finnish <kde-i18n-doc@kde.org>\n"
 "Language: fi\n"
@@ -10,7 +10,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Lokalize 20.04.2\n"
+"X-Generator: Lokalize 23.04.1\n"
 "X-Qt-Contexts: true\n"
 
 #: contents/ui/gallery/ActionToolBarGallery.qml:35
@@ -213,9 +213,6 @@ msgid "Chips"
 msgstr ""
 
 #: contents/ui/gallery/ChipGallery.qml:35
-#, fuzzy
-#| msgctxt "ActionToolBarGallery|"
-#| msgid "Info"
 msgctxt "ChipGallery|"
 msgid "Info"
 msgstr "Tietoa"
@@ -758,7 +755,7 @@ msgstr ""
 #: contents/ui/gallery/SelectionControlsGallery.qml:111
 msgctxt "SelectionControlsGallery|"
 msgid "Radio List Items"
-msgstr ""
+msgstr "Radioluettelonäkymä"
 
 #: contents/ui/gallery/SelectionControlsGallery.qml:127
 msgctxt "SelectionControlsGallery|"
@@ -782,7 +779,7 @@ msgstr "Kohdetta ei ole valittu"
 #: contents/ui/gallery/SelectionControlsGallery.qml:139
 msgctxt "SelectionControlsGallery|"
 msgid "Checkable List View"
-msgstr ""
+msgstr "Valittava luettelonäkymä"
 
 #: contents/ui/gallery/SelectionControlsGallery.qml:145
 msgctxt "SelectionControlsGallery|"
@@ -792,17 +789,17 @@ msgstr "Radiopainikkeet"
 #: contents/ui/gallery/SelectionControlsGallery.qml:158
 msgctxt "SelectionControlsGallery|"
 msgid "Radio List View"
-msgstr ""
+msgstr "Radioluettelonäkymä"
 
 #: contents/ui/gallery/SelectionControlsGallery.qml:164
 msgctxt "SelectionControlsGallery|"
 msgid "Switches"
-msgstr ""
+msgstr "Kytkimet"
 
 #: contents/ui/gallery/SelectionControlsGallery.qml:175
 msgctxt "SelectionControlsGallery|"
 msgid "Switch List View"
-msgstr ""
+msgstr "Kytkinluettelonäkymä"
 
 #: contents/ui/MainPage.qml:35
 msgctxt "MainPage|"
