@@ -90,7 +90,9 @@ Kirigami.ScrollablePage {
                 Kirigami.ListItemDragHandle {
                     listItem: listItem
                     listView: mainList
-                    onMoveRequested: listModel.move(oldIndex, newIndex, 1)
+                    onMoveRequested: (oldIndex, newIndex) => {
+                        listModel.move(oldIndex, newIndex, 1);
+                    }
                 }
 
                 Controls.Label {
