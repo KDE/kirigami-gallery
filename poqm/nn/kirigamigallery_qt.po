@@ -1,10 +1,10 @@
 # Translation of kirigamigallery_qt to Norwegian Nynorsk
 #
-# Karl Ove Hufthammer <karl@huftis.org>, 2018, 2019, 2020.
+# Karl Ove Hufthammer <karl@huftis.org>, 2018, 2019, 2020, 2023.
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"PO-Revision-Date: 2020-11-24 19:22+0100\n"
+"PO-Revision-Date: 2023-07-04 13:06+0200\n"
 "Last-Translator: Karl Ove Hufthammer <karl@huftis.org>\n"
 "Language-Team: Norwegian Nynorsk <l10n-no@lister.huftis.org>\n"
 "Language: nn\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 20.08.3\n"
+"X-Generator: Lokalize 23.04.2\n"
 "X-Environment: kde\n"
 "X-Accelerator-Marker: &\n"
 "X-Text-Markup: qtrich\n"
@@ -248,27 +248,27 @@ msgstr "Installer"
 #: contents/ui/gallery/ChipGallery.qml:32
 msgctxt "ChipGallery|"
 msgid "Chips"
-msgstr ""
+msgstr "Merke"
 
 #: contents/ui/gallery/ChipGallery.qml:35
 msgctxt "ChipGallery|"
 msgid "Info"
-msgstr ""
+msgstr "Info"
 
 #: contents/ui/gallery/ChipGallery.qml:65
 msgctxt "ChipGallery|"
 msgid "Closable Chips"
-msgstr ""
+msgstr "Lukkbare merke"
 
 #: contents/ui/gallery/ChipGallery.qml:95
 msgctxt "ChipGallery|"
 msgid "Informative Chips"
-msgstr ""
+msgstr "Informative merke"
 
 #: contents/ui/gallery/ChipGallery.qml:131
 msgctxt "ChipGallery|"
 msgid "Checkable Chips"
-msgstr ""
+msgstr "Avkryssbare merke"
 
 #: contents/ui/gallery/components/InfoSheet.qml:48
 msgctxt "InfoSheet|"
@@ -288,169 +288,171 @@ msgstr "API …"
 #: contents/ui/gallery/DialogGallery.qml:32
 msgctxt "DialogGallery|"
 msgid "Dialogs"
-msgstr ""
+msgstr "Dialogvindauge"
 
 #: contents/ui/gallery/DialogGallery.qml:36
 msgctxt "DialogGallery|"
 msgid "Info"
-msgstr ""
+msgstr "Info"
 
 #: contents/ui/gallery/DialogGallery.qml:74
 msgctxt "DialogGallery|"
 msgid "Create Folder"
-msgstr ""
+msgstr "Lag mappe"
 
 #: contents/ui/gallery/DialogGallery.qml:82
 msgctxt "DialogGallery|"
 msgid "Cancel"
-msgstr ""
+msgstr "Avbryt"
 
 #: contents/ui/gallery/DialogGallery.qml:91
 msgctxt "DialogGallery|"
 msgid "Folder name..."
-msgstr ""
+msgstr "Mappenamn …"
 
 #: contents/ui/gallery/DialogGallery.qml:97
 msgctxt "DialogGallery|"
 msgid "Alarm Snooze Length"
-msgstr ""
+msgstr "Slumretid"
 
 #: contents/ui/gallery/DialogGallery.qml:106
 msgctxt "DialogGallery|"
 msgid "1 minute"
-msgstr ""
+msgstr "1 minutt"
 
 #: contents/ui/gallery/DialogGallery.qml:107
 msgctxt "DialogGallery|"
 msgid "2 minutes"
-msgstr ""
+msgstr "2 minutt"
 
 #: contents/ui/gallery/DialogGallery.qml:108
 msgctxt "DialogGallery|"
 msgid "3 minutes"
-msgstr ""
+msgstr "3 minutt"
 
 #: contents/ui/gallery/DialogGallery.qml:109
 msgctxt "DialogGallery|"
 msgid "4 minutes"
-msgstr ""
+msgstr "4 minutt"
 
 #: contents/ui/gallery/DialogGallery.qml:110
 msgctxt "DialogGallery|"
 msgid "5 minutes"
-msgstr ""
+msgstr "5 minutt"
 
 #: contents/ui/gallery/DialogGallery.qml:111
 msgctxt "DialogGallery|"
 msgid "10 minutes"
-msgstr ""
+msgstr "10 minutt"
 
 #: contents/ui/gallery/DialogGallery.qml:112
 msgctxt "DialogGallery|"
 msgid "30 minutes"
-msgstr ""
+msgstr "30 minutt"
 
 #: contents/ui/gallery/DialogGallery.qml:113
 msgctxt "DialogGallery|"
 msgid "1 hour"
-msgstr ""
+msgstr "1 time"
 
 #: contents/ui/gallery/DialogGallery.qml:135
 msgctxt "DialogGallery|"
 msgid "Select Number"
-msgstr ""
+msgstr "Vel tal"
 
 #: contents/ui/gallery/DialogGallery.qml:155
 #: contents/ui/gallery/DialogGallery.qml:221
 msgctxt "DialogGallery|"
 msgid "No Footer Dialog"
-msgstr ""
+msgstr "Dialogvindauge utan botnområde"
 
 #: contents/ui/gallery/DialogGallery.qml:156
 msgctxt "DialogGallery|"
 msgid "This dialog has no footer buttons.<br/>It also has no close button."
 msgstr ""
+"Dette dialgovindauget har ikkje botnområd med knappar.<br/>Det manglar òg "
+"lukkeknapp."
 
 #: contents/ui/gallery/DialogGallery.qml:164
 msgctxt "DialogGallery|"
 msgid "Track Options"
-msgstr ""
+msgstr "Sporval"
 
 #: contents/ui/gallery/DialogGallery.qml:169
 msgctxt "DialogGallery|Start playback of the selected track"
 msgid "Play"
-msgstr ""
+msgstr "Spel"
 
 #: contents/ui/gallery/DialogGallery.qml:170
 msgctxt "DialogGallery|"
 msgid "Start playback of the selected track"
-msgstr ""
+msgstr "Start avspeling av valt spor"
 
 #: contents/ui/gallery/DialogGallery.qml:175
 msgctxt "DialogGallery|Show the file for this song in the file manager"
 msgid "Show in folder"
-msgstr ""
+msgstr "Vis i mappe"
 
 #: contents/ui/gallery/DialogGallery.qml:176
 msgctxt "DialogGallery|"
 msgid "Show the file for this song in the file manager"
-msgstr ""
+msgstr "Vis fil for songen i filhandsamaren"
 
 #: contents/ui/gallery/DialogGallery.qml:180
 msgctxt "DialogGallery|Show track metadata"
 msgid "View details"
-msgstr ""
+msgstr "Vis detaljar"
 
 #: contents/ui/gallery/DialogGallery.qml:181
 msgctxt "DialogGallery|"
 msgid "Show track metadata"
-msgstr ""
+msgstr "Vis spor-metadata"
 
 #: contents/ui/gallery/DialogGallery.qml:185
 msgctxt ""
 "DialogGallery|Add the track to the queue, right after the current track"
 msgid "Play next"
-msgstr ""
+msgstr "Spel som neste"
 
 #: contents/ui/gallery/DialogGallery.qml:186
 msgctxt "DialogGallery|"
 msgid "Add the track to the queue, right after the current track"
-msgstr ""
+msgstr "Legg sporet i avspelingskøen, rett etter gjeldande spor"
 
 #: contents/ui/gallery/DialogGallery.qml:190
 msgctxt "DialogGallery|Enqueue current track"
 msgid "Add to queue"
-msgstr ""
+msgstr "Legg i avspelingskøen"
 
 #: contents/ui/gallery/DialogGallery.qml:191
 msgctxt "DialogGallery|"
 msgid "Enqueue current track"
-msgstr ""
+msgstr "Legg gjeldande spor i avspelingskøen"
 
 #: contents/ui/gallery/DialogGallery.qml:201
 msgctxt "DialogGallery|"
 msgid "Prompt Dialog"
-msgstr ""
+msgstr "Spørsmåls-dialogvindauge"
 
 #: contents/ui/gallery/DialogGallery.qml:206
 msgctxt "DialogGallery|"
 msgid "Text Prompt Dialog"
-msgstr ""
+msgstr "Tekst-dialogvindauge"
 
 #: contents/ui/gallery/DialogGallery.qml:211
 msgctxt "DialogGallery|"
 msgid "Selection Dialog"
-msgstr ""
+msgstr "Utvals-dialogvindauge"
 
 #: contents/ui/gallery/DialogGallery.qml:216
 msgctxt "DialogGallery|"
 msgid "Scrollable Dialog"
-msgstr ""
+msgstr "Rullbart dialogvindauge"
 
 #: contents/ui/gallery/DialogGallery.qml:226
 msgctxt "DialogGallery|"
 msgid "Menu Dialog"
-msgstr ""
+msgstr "Meny-dialogvindauge"
 
 #: contents/ui/gallery/DrawerGallery.qml:30
 msgctxt "DrawerGallery|"
@@ -814,7 +816,7 @@ msgstr "Avkryssbare listeelement"
 #, qt-format
 msgctxt "SelectionControlsGallery|"
 msgid "Delegate %1"
-msgstr ""
+msgstr "Delegat %1"
 
 #: contents/ui/gallery/SelectionControlsGallery.qml:88
 #: contents/ui/gallery/SelectionControlsGallery.qml:111
