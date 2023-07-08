@@ -10,7 +10,7 @@ project(kirigami2gallery VERSION ${RELEASE_SERVICE_VERSION})
 
 set(REQUIRED_QT_VERSION "5.15.0")
 if (ANDROID)
-    set(REQUIRED_QT_VERSION "5.15.8")
+    set(REQUIRED_QT_VERSION "5.15.10")
 endif()
 set(KF5_DEP_VERSION "5.79.0")
 
