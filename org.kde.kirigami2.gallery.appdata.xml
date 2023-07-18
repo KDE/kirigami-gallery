@@ -9,7 +9,6 @@
   <name xml:lang="de">Kirigami-Galerie</name>
   <name xml:lang="el">Kirigami Gallery</name>
   <name xml:lang="en-GB">Kirigami Gallery</name>
-  <name xml:lang="eo">Kirigami-Galerio</name>
   <name xml:lang="es">Galería de Kirigami</name>
   <name xml:lang="et">Kirigami galerii</name>
   <name xml:lang="eu">Kirigami galeria</name>
@@ -42,7 +41,6 @@
   <summary xml:lang="de">Zeigt Beispiele von Kirigami-Komponenten und ermöglicht es, sie auszuprobieren</summary>
   <summary xml:lang="el">Εμφανίζει παραδείγματα Kirigami συστατικών και σας επιτρέπει να παίξετε με αυτά</summary>
   <summary xml:lang="en-GB">Shows examples of Kirigami components and allows you to play with them</summary>
-  <summary xml:lang="eo">Montras ekzemplojn de Kirigami-komponantoj kaj permesas vin ludi kun ili</summary>
   <summary xml:lang="es">Muestra ejemplos de componentes de Kirigami y le permite probarlos</summary>
   <summary xml:lang="et">Kirigami komponentide näidiste näitamine ja lubamine nendega pisut mängida</summary>
   <summary xml:lang="eu">Kirigami osagaien adibideak erakusten ditu eta haiekin jolasten uzten dizu</summary>
@@ -77,7 +75,6 @@
     <p xml:lang="de">Anzeige von Beispielen von Kirigami-Komponenten</p>
     <p xml:lang="el">Δείτε παραδείγματα Kirigami συστατικών</p>
     <p xml:lang="en-GB">View examples of Kirigami components</p>
-    <p xml:lang="eo">Rigardi ekzemplojn de Kirigami-komponantoj</p>
     <p xml:lang="es">Ver ejemplos de componentes de Kirigami</p>
     <p xml:lang="et">Kirigami komponentide näidiste näitamine</p>
     <p xml:lang="eu">Ikusi Kirigami osagaien adibideak</p>
@@ -115,7 +112,6 @@
   <developer_name xml:lang="de">Marco Martin &lt;mart@kde.org&gt;</developer_name>
   <developer_name xml:lang="el">Marco Martin &lt;mart@kde.org&gt;</developer_name>
   <developer_name xml:lang="en-GB">Marco Martin &lt;mart@kde.org&gt;</developer_name>
-  <developer_name xml:lang="eo">Marco Martin &lt;mart@kde.org&gt;</developer_name>
   <developer_name xml:lang="es">Marco Martin &lt;mart@kde.org&gt;</developer_name>
   <developer_name xml:lang="et">Marco Martin &lt;mart@kde.org&gt;</developer_name>
   <developer_name xml:lang="eu">Marco Martin &lt;mart@kde.org&gt;</developer_name>
