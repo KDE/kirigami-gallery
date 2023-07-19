@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kdeorg\n"
-"PO-Revision-Date: 2023-07-03 11:38\n"
+"PO-Revision-Date: 2023-07-18 11:11\n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
@@ -254,12 +254,12 @@ msgstr ""
 #: contents/ui/gallery/components/InfoSheet.qml:53
 msgctxt "InfoSheet|"
 msgid "Source code..."
-msgstr ""
+msgstr "源代码..."
 
 #: contents/ui/gallery/components/InfoSheet.qml:58
 msgctxt "InfoSheet|"
 msgid "API..."
-msgstr ""
+msgstr "API..."
 
 #: contents/ui/gallery/DialogGallery.qml:32
 msgctxt "DialogGallery|"
@@ -274,17 +274,17 @@ msgstr ""
 #: contents/ui/gallery/DialogGallery.qml:74
 msgctxt "DialogGallery|"
 msgid "Create Folder"
-msgstr ""
+msgstr "创建文件夹"
 
 #: contents/ui/gallery/DialogGallery.qml:82
 msgctxt "DialogGallery|"
 msgid "Cancel"
-msgstr ""
+msgstr "取消"
 
 #: contents/ui/gallery/DialogGallery.qml:91
 msgctxt "DialogGallery|"
 msgid "Folder name..."
-msgstr ""
+msgstr "文件夹名称..."
 
 #: contents/ui/gallery/DialogGallery.qml:97
 msgctxt "DialogGallery|"
@@ -294,42 +294,42 @@ msgstr ""
 #: contents/ui/gallery/DialogGallery.qml:106
 msgctxt "DialogGallery|"
 msgid "1 minute"
-msgstr ""
+msgstr "1 分钟"
 
 #: contents/ui/gallery/DialogGallery.qml:107
 msgctxt "DialogGallery|"
 msgid "2 minutes"
-msgstr ""
+msgstr "2 分钟"
 
 #: contents/ui/gallery/DialogGallery.qml:108
 msgctxt "DialogGallery|"
 msgid "3 minutes"
-msgstr ""
+msgstr "3 分钟"
 
 #: contents/ui/gallery/DialogGallery.qml:109
 msgctxt "DialogGallery|"
 msgid "4 minutes"
-msgstr ""
+msgstr "4 分钟"
 
 #: contents/ui/gallery/DialogGallery.qml:110
 msgctxt "DialogGallery|"
 msgid "5 minutes"
-msgstr ""
+msgstr "5 分钟"
 
 #: contents/ui/gallery/DialogGallery.qml:111
 msgctxt "DialogGallery|"
 msgid "10 minutes"
-msgstr ""
+msgstr "10 分钟"
 
 #: contents/ui/gallery/DialogGallery.qml:112
 msgctxt "DialogGallery|"
 msgid "30 minutes"
-msgstr ""
+msgstr "30 分钟"
 
 #: contents/ui/gallery/DialogGallery.qml:113
 msgctxt "DialogGallery|"
 msgid "1 hour"
-msgstr ""
+msgstr "1 小时"
 
 #: contents/ui/gallery/DialogGallery.qml:135
 msgctxt "DialogGallery|"
@@ -355,7 +355,7 @@ msgstr ""
 #: contents/ui/gallery/DialogGallery.qml:169
 msgctxt "DialogGallery|Start playback of the selected track"
 msgid "Play"
-msgstr ""
+msgstr "播放"
 
 #: contents/ui/gallery/DialogGallery.qml:170
 msgctxt "DialogGallery|"
@@ -365,7 +365,7 @@ msgstr ""
 #: contents/ui/gallery/DialogGallery.qml:175
 msgctxt "DialogGallery|Show the file for this song in the file manager"
 msgid "Show in folder"
-msgstr ""
+msgstr "打开所在文件夹"
 
 #: contents/ui/gallery/DialogGallery.qml:176
 msgctxt "DialogGallery|"
@@ -375,7 +375,7 @@ msgstr ""
 #: contents/ui/gallery/DialogGallery.qml:180
 msgctxt "DialogGallery|Show track metadata"
 msgid "View details"
-msgstr ""
+msgstr "查看详情"
 
 #: contents/ui/gallery/DialogGallery.qml:181
 msgctxt "DialogGallery|"
@@ -431,7 +431,7 @@ msgstr ""
 #: contents/ui/gallery/DrawerGallery.qml:30
 msgctxt "DrawerGallery|"
 msgid "Drawers"
-msgstr ""
+msgstr "抽屉栏"
 
 #: contents/ui/gallery/DrawerGallery.qml:35
 msgctxt "DrawerGallery|"
