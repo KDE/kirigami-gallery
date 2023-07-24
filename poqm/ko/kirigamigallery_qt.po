@@ -479,8 +479,8 @@ msgid ""
 "will darken the rest of the app. Clicking on a darkened will dismiss the "
 "drawer."
 msgstr ""
-"모달 아래쪽 서랍은 전체 프로그램 창 너비로 펼쳐지며 앱의 나머지 부분을 어둡"
-"게 합니다. 어두워진 영역을 클릭하면 서랍을 닫습니다."
+"모달 아래쪽 서랍은 전체 앱 창 너비로 펼쳐지며 앱의 나머지 부분을 어둡게 합니"
+"다. 어두워진 영역을 클릭하면 서랍을 닫습니다."
 
 #: contents/ui/gallery/DrawerGallery.qml:84
 #: contents/ui/gallery/DrawerGallery.qml:103
@@ -496,8 +496,8 @@ msgid ""
 "An inline top drawer covers the whole application width but lets the "
 "uncovered pieces to still be interacted with."
 msgstr ""
-"인라인 위쪽 서랍은 프로그램 전체 폭을 덮지만 덮이지 않은 영역도 계속 사용할 "
-"수 있습니다."
+"인라인 위쪽 서랍은 앱 전체 폭을 덮지만 덮이지 않은 영역도 계속 사용할 수 있습"
+"니다."
 
 #: contents/ui/gallery/DrawerGallery.qml:116
 msgctxt "DrawerGallery|"
@@ -506,8 +506,8 @@ msgid ""
 "darken the rest of the app. Clicking on the darkened area will dismiss the "
 "drawer."
 msgstr ""
-"모달 위쪽 서랍은 전체 프로그램 창 너비로 펼쳐지며 앱의 나머지 부분을 어둡게 "
-"합니다. 어두워진 영역을 클릭하면 서랍을 닫습니다."
+"모달 위쪽 서랍은 전체 앱 창 너비로 펼쳐지며 앱의 나머지 부분을 어둡게 합니"
+"다. 어두워진 영역을 클릭하면 서랍을 닫습니다."
 
 #: contents/ui/gallery/DrawerGallery.qml:135
 msgctxt "DrawerGallery|"
@@ -515,8 +515,8 @@ msgid ""
 "An inline bottom drawer covers the whole application width but lets the "
 "uncovered pieces to still be interacted with."
 msgstr ""
-"인라인 아래쪽 서랍은 프로그램 전체 폭을 덮지만 덮이지 않은 영역도 계속 사용"
-"할 수 있습니다."
+"인라인 아래쪽 서랍은 앱 전체 폭을 덮지만 덮이지 않은 영역도 계속 사용할 수 있"
+"습니다."
 
 #: contents/ui/gallery/DrawerGallery.qml:150
 msgctxt "DrawerGallery|"
@@ -764,8 +764,8 @@ msgid ""
 "In this case the sheet will cover the page Action buttons too."
 msgstr ""
 "Sheet는 앱이 와이드 모르에 있어도 기본적으로 한 쪽에 걸칩니다. Sheet의 부모"
-"를 applicationWindow().overlay로 변경하면 시트를 전체 프로그램 창에 걸쳐서 표"
-"시합니다.\n"
+"를 applicationWindow().overlay로 변경하면 시트를 전체 앱 창에 걸쳐서 표시합니"
+"다.\n"
 "이 때에는 페이지 Action 단추도 덮게 됩니다."
 
 #: contents/ui/gallery/OverlaySheetGallery.qml:178
