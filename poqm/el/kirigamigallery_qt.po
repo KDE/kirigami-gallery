@@ -1,22 +1,20 @@
 # Petros Vidalis <pvidalis@gmail.com>, 2019.
+# Theofilos Intzoglou <int.teo@gmail.com>, 2023.
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"PO-Revision-Date: 2019-01-18 17:07+0200\n"
-"Last-Translator: Petros Vidalis <pvidalis@gmail.com>\n"
-"Language-Team: Greek <kde-i18n-doc@kde.org>\n"
+"PO-Revision-Date: 2023-07-26 16:39+0300\n"
+"Last-Translator: Theofilos Intzoglou <int.teo@gmail.com>\n"
+"Language-Team: Greek <kde-i18n-el@kde.org>\n"
 "Language: el\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Qt-Contexts: true\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 2.0\n"
+"X-Generator: Lokalize 23.04.3\n"
 
 #: contents/ui/gallery/ActionToolBarGallery.qml:35
-#, fuzzy
-#| msgctxt "CardsGridViewGallery|"
-#| msgid "Info"
 msgctxt "ActionToolBarGallery|"
 msgid "Info"
 msgstr "Πληροφορίες"
@@ -24,7 +22,7 @@ msgstr "Πληροφορίες"
 #: contents/ui/gallery/CardsGridViewGallery.qml:30
 msgctxt "CardsGridViewGallery|"
 msgid "Grid view of Cards"
-msgstr ""
+msgstr "Προβολή πλέγματος καρτών"
 
 #: contents/ui/gallery/CardsGridViewGallery.qml:34
 msgctxt "CardsGridViewGallery|"
@@ -69,7 +67,7 @@ msgstr ""
 #: contents/ui/gallery/CardsLayoutGallery.qml:68
 msgctxt "CardsLayoutGallery|"
 msgid "Card clicked"
-msgstr ""
+msgstr "Η κάρτα πατήθηκε"
 
 #: contents/ui/gallery/CardsLayoutGallery.qml:74
 #: contents/ui/gallery/CardsLayoutGallery.qml:96
@@ -104,22 +102,22 @@ msgstr ""
 #: contents/ui/gallery/CardsLayoutGallery.qml:104
 msgctxt "CardsLayoutGallery|"
 msgid "Action3"
-msgstr ""
+msgstr "Ενέργεια3"
 
 #: contents/ui/gallery/CardsLayoutGallery.qml:108
 msgctxt "CardsLayoutGallery|"
 msgid "Action4"
-msgstr ""
+msgstr "Ενέργεια4"
 
 #: contents/ui/gallery/CardsLayoutGallery.qml:112
 msgctxt "CardsLayoutGallery|"
 msgid "Action5"
-msgstr ""
+msgstr "Ενέργεια5"
 
 #: contents/ui/gallery/CardsLayoutGallery.qml:116
 msgctxt "CardsLayoutGallery|"
 msgid "Action6"
-msgstr ""
+msgstr "Ενέργεια6"
 
 #: contents/ui/gallery/CardsLayoutGallery.qml:127
 msgctxt "CardsLayoutGallery|"
@@ -132,7 +130,7 @@ msgstr ""
 #: contents/ui/gallery/CardsLayoutGallery.qml:142
 msgctxt "CardsLayoutGallery|"
 msgid "Action always hidden"
-msgstr ""
+msgstr "Ενέργεια πάντα αόρατη"
 
 #: contents/ui/gallery/CardsLayoutGallery.qml:153
 msgctxt "CardsLayoutGallery|"
@@ -162,12 +160,12 @@ msgstr ""
 #: contents/ui/gallery/CardsLayoutGallery.qml:196
 msgctxt "CardsLayoutGallery|"
 msgid "Custom footer"
-msgstr ""
+msgstr "Προσαρμοσμένο υποσέλιδο"
 
 #: contents/ui/gallery/CardsLayoutGallery.qml:199
 msgctxt "CardsLayoutGallery|"
 msgid "Ok"
-msgstr ""
+msgstr "Εντάξει"
 
 #: contents/ui/gallery/CardsLayoutGallery.qml:222
 msgctxt "CardsLayoutGallery|"
@@ -212,9 +210,6 @@ msgid "Chips"
 msgstr ""
 
 #: contents/ui/gallery/ChipGallery.qml:35
-#, fuzzy
-#| msgctxt "CardsGridViewGallery|"
-#| msgid "Info"
 msgctxt "ChipGallery|"
 msgid "Info"
 msgstr "Πληροφορίες"
@@ -255,9 +250,6 @@ msgid "Dialogs"
 msgstr ""
 
 #: contents/ui/gallery/DialogGallery.qml:36
-#, fuzzy
-#| msgctxt "CardsGridViewGallery|"
-#| msgid "Info"
 msgctxt "DialogGallery|"
 msgid "Info"
 msgstr "Πληροφορίες"
@@ -285,114 +277,116 @@ msgstr ""
 #: contents/ui/gallery/DialogGallery.qml:106
 msgctxt "DialogGallery|"
 msgid "1 minute"
-msgstr ""
+msgstr "1 λεπτό"
 
 #: contents/ui/gallery/DialogGallery.qml:107
 msgctxt "DialogGallery|"
 msgid "2 minutes"
-msgstr ""
+msgstr "2 λεπτά"
 
 #: contents/ui/gallery/DialogGallery.qml:108
 msgctxt "DialogGallery|"
 msgid "3 minutes"
-msgstr ""
+msgstr "3 λεπτά"
 
 #: contents/ui/gallery/DialogGallery.qml:109
 msgctxt "DialogGallery|"
 msgid "4 minutes"
-msgstr ""
+msgstr "4 λεπτά"
 
 #: contents/ui/gallery/DialogGallery.qml:110
 msgctxt "DialogGallery|"
 msgid "5 minutes"
-msgstr ""
+msgstr "5 λεπτά"
 
 #: contents/ui/gallery/DialogGallery.qml:111
 msgctxt "DialogGallery|"
 msgid "10 minutes"
-msgstr ""
+msgstr "10 λεπτά"
 
 #: contents/ui/gallery/DialogGallery.qml:112
 msgctxt "DialogGallery|"
 msgid "30 minutes"
-msgstr ""
+msgstr "30 λεπτά"
 
 #: contents/ui/gallery/DialogGallery.qml:113
 msgctxt "DialogGallery|"
 msgid "1 hour"
-msgstr ""
+msgstr "1 ώρα"
 
 #: contents/ui/gallery/DialogGallery.qml:135
 msgctxt "DialogGallery|"
 msgid "Select Number"
-msgstr ""
+msgstr "Επιλογή αριθμού"
 
 #: contents/ui/gallery/DialogGallery.qml:155
 #: contents/ui/gallery/DialogGallery.qml:221
 msgctxt "DialogGallery|"
 msgid "No Footer Dialog"
-msgstr ""
+msgstr "Παράθυρο διαλόγου χωρίς υποσέλιδο"
 
 #: contents/ui/gallery/DialogGallery.qml:156
 msgctxt "DialogGallery|"
 msgid "This dialog has no footer buttons.<br/>It also has no close button."
 msgstr ""
+"Αυτό το παράθυρο διαλόγου δεν έχει κουμπιά στο υποσέλιδο.<br/>Επίσης δεν "
+"έχει κουμπί κλεισίματος."
 
 #: contents/ui/gallery/DialogGallery.qml:164
 msgctxt "DialogGallery|"
 msgid "Track Options"
-msgstr ""
+msgstr "Παρακολούθηση επιλογών"
 
 #: contents/ui/gallery/DialogGallery.qml:169
 msgctxt "DialogGallery|Start playback of the selected track"
 msgid "Play"
-msgstr ""
+msgstr "Αναπαραγωγή"
 
 #: contents/ui/gallery/DialogGallery.qml:170
 msgctxt "DialogGallery|"
 msgid "Start playback of the selected track"
-msgstr ""
+msgstr "Έναρξη αναπαραγωγής του επιλεγμένου κομματιού"
 
 #: contents/ui/gallery/DialogGallery.qml:175
 msgctxt "DialogGallery|Show the file for this song in the file manager"
 msgid "Show in folder"
-msgstr ""
+msgstr "Εμφάνιση στον φάκελο"
 
 #: contents/ui/gallery/DialogGallery.qml:176
 msgctxt "DialogGallery|"
 msgid "Show the file for this song in the file manager"
-msgstr ""
+msgstr "Εμφάνισε το αρχείο για αυτό το τραγούδι στο διαχειριστή αρχείων"
 
 #: contents/ui/gallery/DialogGallery.qml:180
 msgctxt "DialogGallery|Show track metadata"
 msgid "View details"
-msgstr ""
+msgstr "Προβολή λεπτομερειών"
 
 #: contents/ui/gallery/DialogGallery.qml:181
 msgctxt "DialogGallery|"
 msgid "Show track metadata"
-msgstr ""
+msgstr "Εμφάνιση μεταδεδομένων κομματιού"
 
 #: contents/ui/gallery/DialogGallery.qml:185
 msgctxt ""
 "DialogGallery|Add the track to the queue, right after the current track"
 msgid "Play next"
-msgstr ""
+msgstr "Αναπαραγωγή επόμενου"
 
 #: contents/ui/gallery/DialogGallery.qml:186
 msgctxt "DialogGallery|"
 msgid "Add the track to the queue, right after the current track"
-msgstr ""
+msgstr "Πρόσθεσε το κομμάτι στην ουρά, αμέσως μετά το τρέχον κομμάτι"
 
 #: contents/ui/gallery/DialogGallery.qml:190
 msgctxt "DialogGallery|Enqueue current track"
 msgid "Add to queue"
-msgstr ""
+msgstr "Προσθήκη στην ουρά"
 
 #: contents/ui/gallery/DialogGallery.qml:191
 msgctxt "DialogGallery|"
 msgid "Enqueue current track"
-msgstr ""
+msgstr "Προσθήκη στην ουρά του τρέχοντος κομματιού"
 
 #: contents/ui/gallery/DialogGallery.qml:201
 msgctxt "DialogGallery|"
@@ -427,32 +421,32 @@ msgstr ""
 #: contents/ui/gallery/DrawerGallery.qml:35
 msgctxt "DrawerGallery|"
 msgid "Info"
-msgstr ""
+msgstr "Πληροφορίες"
 
 #: contents/ui/gallery/DrawerGallery.qml:42
 msgctxt "DrawerGallery|"
 msgid "Action 1"
-msgstr ""
+msgstr "Ενέργεια 1"
 
 #: contents/ui/gallery/DrawerGallery.qml:44
 msgctxt "DrawerGallery|"
 msgid "Action 1 clicked"
-msgstr ""
+msgstr "Η ενέργεια 1 πατήθηκε"
 
 #: contents/ui/gallery/DrawerGallery.qml:47
 msgctxt "DrawerGallery|"
 msgid "Disabled Action"
-msgstr ""
+msgstr "Απενεργοποιημένη ενέργεια"
 
 #: contents/ui/gallery/DrawerGallery.qml:52
 msgctxt "DrawerGallery|"
 msgid "Action 3"
-msgstr ""
+msgstr "Ενέργεια 3"
 
 #: contents/ui/gallery/DrawerGallery.qml:53
 msgctxt "DrawerGallery|"
 msgid "Action 3 clicked"
-msgstr ""
+msgstr "Η ενέργεια 3 πατήθηκε"
 
 #: contents/ui/gallery/DrawerGallery.qml:80
 msgctxt "DrawerGallery|"
@@ -468,7 +462,7 @@ msgstr ""
 #: contents/ui/gallery/DrawerGallery.qml:139
 msgctxt "DrawerGallery|"
 msgid "Close"
-msgstr ""
+msgstr "Κλείσιμο"
 
 #: contents/ui/gallery/DrawerGallery.qml:99
 msgctxt "DrawerGallery|"
@@ -513,9 +507,6 @@ msgid "Modal Top Drawer"
 msgstr ""
 
 #: contents/ui/gallery/FormLayoutGallery.qml:15
-#, fuzzy
-#| msgctxt "CardsGridViewGallery|"
-#| msgid "Info"
 msgctxt "FormLayoutGallery|"
 msgid "Info"
 msgstr "Πληροφορίες"
@@ -538,7 +529,7 @@ msgstr ""
 #: contents/ui/gallery/InlineMessagesGallery.qml:35
 msgctxt "InlineMessagesGallery|"
 msgid "Info"
-msgstr ""
+msgstr "Πληροφορίες"
 
 #: contents/ui/gallery/InlineMessagesGallery.qml:65
 msgctxt "InlineMessagesGallery|"
@@ -589,12 +580,12 @@ msgstr ""
 #: contents/ui/gallery/InlineMessagesGallery.qml:147
 msgctxt "InlineMessagesGallery|"
 msgid "Add text"
-msgstr ""
+msgstr "Προσθήκη κειμένου"
 
 #: contents/ui/gallery/InlineMessagesGallery.qml:157
 msgctxt "InlineMessagesGallery|"
 msgid "Reset text"
-msgstr ""
+msgstr "Επαναφορά κειμένου"
 
 #: contents/ui/gallery/InlineMessagesGallery.qml:179
 msgctxt "InlineMessagesGallery|"
@@ -604,7 +595,7 @@ msgstr ""
 #: contents/ui/gallery/InlineMessagesGallery.qml:188
 msgctxt "InlineMessagesGallery|"
 msgid "Show additional message"
-msgstr ""
+msgstr "Εμφάνιση πρόσθετου μηνύματος"
 
 #: contents/ui/gallery/InlineMessagesGallery.qml:205
 msgctxt "InlineMessagesGallery|"
@@ -619,7 +610,7 @@ msgstr ""
 #: contents/ui/gallery/MetricsGallery.qml:42
 msgctxt "MetricsGallery|"
 msgid "Heading 1"
-msgstr ""
+msgstr "Κεφαλίδα 1"
 
 #: contents/ui/gallery/MetricsGallery.qml:47
 #: contents/ui/gallery/MetricsGallery.qml:57
@@ -628,76 +619,76 @@ msgstr ""
 #, qt-format
 msgctxt "MetricsGallery|"
 msgid "%1 points"
-msgstr ""
+msgstr "%1 πόντοι"
 
 #: contents/ui/gallery/MetricsGallery.qml:52
 msgctxt "MetricsGallery|"
 msgid "Heading 2"
-msgstr ""
+msgstr "Κεφαλίδα 2"
 
 #: contents/ui/gallery/MetricsGallery.qml:62
 msgctxt "MetricsGallery|"
 msgid "Heading 3"
-msgstr ""
+msgstr "Κεφαλίδα 3"
 
 #: contents/ui/gallery/MetricsGallery.qml:72
 msgctxt "MetricsGallery|"
 msgid "Heading 4"
-msgstr ""
+msgstr "Κεφαλίδα 4"
 
 #: contents/ui/gallery/MiscGallery.qml:74
 msgctxt "MiscGallery|"
 msgid "Text Beside Icon"
-msgstr ""
+msgstr "Κείμενο δίπλα στο εικονίδιο"
 
 #: contents/ui/gallery/MiscGallery.qml:89
 msgctxt "MiscGallery|"
 msgid "Text Under Icon"
-msgstr ""
+msgstr "Κείμενο κάτω από το εικονίδιο"
 
 #: contents/ui/gallery/MiscGallery.qml:104
 msgctxt "MiscGallery|"
 msgid "Text Only"
-msgstr ""
+msgstr "Μόνο κείμενο"
 
 #: contents/ui/gallery/MiscGallery.qml:119
 msgctxt "MiscGallery|"
 msgid "Icon Only"
-msgstr ""
+msgstr "Εικονίδιο μόνο"
 
 #: contents/ui/gallery/MultipleColumnsGallery.qml:119
 msgctxt "MultipleColumnsGallery|"
 msgid "Pin page"
-msgstr ""
+msgstr "Καρφίτσωμα σελίδας"
 
 #: contents/ui/gallery/OverlaySheetGallery.qml:32
 msgctxt "OverlaySheetGallery|"
 msgid "Overlay Sheets"
-msgstr ""
+msgstr "Φύλλα επικάλυψης"
 
 #: contents/ui/gallery/OverlaySheetGallery.qml:36
 msgctxt "OverlaySheetGallery|"
 msgid "Info"
-msgstr ""
+msgstr "Πληροφορίες"
 
 #: contents/ui/gallery/OverlaySheetGallery.qml:85
 msgctxt "OverlaySheetGallery|"
 msgid "Close"
-msgstr ""
+msgstr "Κλείσιμο"
 
 #: contents/ui/gallery/OverlaySheetGallery.qml:95
 #: contents/ui/gallery/OverlaySheetGallery.qml:163
 #: contents/ui/gallery/OverlaySheetGallery.qml:186
 msgctxt "OverlaySheetGallery|"
 msgid "Title"
-msgstr ""
+msgstr "Τίτλος"
 
 #: contents/ui/gallery/OverlaySheetGallery.qml:99
 #: contents/ui/gallery/OverlaySheetGallery.qml:167
 #: contents/ui/gallery/OverlaySheetGallery.qml:190
 msgctxt "OverlaySheetGallery|"
 msgid "Footer:"
-msgstr ""
+msgstr "Υποσέλιδο:"
 
 #: contents/ui/gallery/OverlaySheetGallery.qml:110
 msgctxt "OverlaySheetGallery|"
@@ -705,6 +696,8 @@ msgid ""
 "A sheet can have optional header and footer items which will not scroll away "
 "when the sheet overflows."
 msgstr ""
+"Ένα φύλλο μπορεί να έχει προαιρετικά αντικείμενα κεφαλίδας και υποσέλιδου τα "
+"οποία δεν μετακινούνται κατά την κύλιση όταν το φύλλο ξεχειλίζει."
 
 #: contents/ui/gallery/OverlaySheetGallery.qml:129
 msgctxt "OverlaySheetGallery|"
@@ -726,17 +719,17 @@ msgstr ""
 #: contents/ui/gallery/OverlaySheetGallery.qml:178
 msgctxt "OverlaySheetGallery|"
 msgid "Item in sheet "
-msgstr ""
+msgstr "Αντικείμενο σε φύλλο"
 
 #: contents/ui/gallery/OverlaySheetGallery.qml:222
 msgctxt "OverlaySheetGallery|"
 msgid "Very Long Sheet"
-msgstr ""
+msgstr "Πολύ μακρύ φύλλο"
 
 #: contents/ui/gallery/SelectionControlsGallery.qml:32
 msgctxt "SelectionControlsGallery|"
 msgid "Info"
-msgstr ""
+msgstr "Πληροφορίες"
 
 #: contents/ui/gallery/SelectionControlsGallery.qml:39
 msgctxt "SelectionControlsGallery|"
@@ -754,7 +747,7 @@ msgstr ""
 #, qt-format
 msgctxt "SelectionControlsGallery|"
 msgid "Delegate %1"
-msgstr ""
+msgstr "Εκπρόσωπος %1"
 
 #: contents/ui/gallery/SelectionControlsGallery.qml:88
 #: contents/ui/gallery/SelectionControlsGallery.qml:111
@@ -765,21 +758,21 @@ msgstr ""
 #: contents/ui/gallery/SelectionControlsGallery.qml:127
 msgctxt "SelectionControlsGallery|"
 msgid "Checkboxes"
-msgstr ""
+msgstr "Πλαίσια επιλογής"
 
 #: contents/ui/gallery/SelectionControlsGallery.qml:131
 #: contents/ui/gallery/SelectionControlsGallery.qml:149
 #: contents/ui/gallery/SelectionControlsGallery.qml:167
 msgctxt "SelectionControlsGallery|"
 msgid "Item selected"
-msgstr ""
+msgstr "Επιλεγμένο αντικείμενο"
 
 #: contents/ui/gallery/SelectionControlsGallery.qml:135
 #: contents/ui/gallery/SelectionControlsGallery.qml:153
 #: contents/ui/gallery/SelectionControlsGallery.qml:171
 msgctxt "SelectionControlsGallery|"
 msgid "Item not selected"
-msgstr ""
+msgstr "Το αντικείμενο δεν επιλέχθηκε"
 
 #: contents/ui/gallery/SelectionControlsGallery.qml:139
 msgctxt "SelectionControlsGallery|"
@@ -799,17 +792,17 @@ msgstr ""
 #: contents/ui/gallery/SelectionControlsGallery.qml:164
 msgctxt "SelectionControlsGallery|"
 msgid "Switches"
-msgstr ""
+msgstr "Διακόπτες"
 
 #: contents/ui/gallery/SelectionControlsGallery.qml:175
 msgctxt "SelectionControlsGallery|"
 msgid "Switch List View"
-msgstr ""
+msgstr "Προβολή λίστας διακοπτών"
 
 #: contents/ui/MainPage.qml:35
 msgctxt "MainPage|"
 msgid "Kirigami Gallery"
-msgstr ""
+msgstr "Kirigami Gallery"
 
 #~ msgctxt "CardsGridViewGallery|"
 #~ msgid "HIG..."
