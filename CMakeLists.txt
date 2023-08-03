@@ -37,9 +37,7 @@ find_package(Qt6QuickControls2 ${REQUIRED_QT_VERSION} REQUIRED NO_MODULE)
 find_package(KF6Kirigami2 ${KF_DEP_VERSION} REQUIRED)
 find_package(KF6ItemModels ${KF_DEP_VERSION} REQUIRED)
 
-if(ANDROID)
-    find_package(Qt${QT_MAJOR_VERSION}AndroidExtras ${REQUIRED_QT_VERSION} REQUIRED)
-else()
+if(NOT ANDROID)
     find_package(Qt${QT_MAJOR_VERSION}Widgets ${REQUIRED_QT_VERSION} REQUIRED)
 endif()
 

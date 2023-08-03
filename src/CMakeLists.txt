@@ -41,9 +41,6 @@ target_link_libraries(kirigami2gallery
 )
 
 if (ANDROID)
-    target_link_libraries(kirigami2gallery
-        Qt${QT_MAJOR_VERSION}::AndroidExtras
-    )
     kirigami_package_breeze_icons(ICONS
         applications-graphics
         view-list-icons
