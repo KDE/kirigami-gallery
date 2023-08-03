@@ -19,11 +19,11 @@
  */
 
 import QtQuick 2.15
-import QtQuick.Controls 2.15 as Controls
+import QtQuick.Controls 2.15 as QQC2
 import QtQuick.Layouts 1.15
 import org.kde.kirigami 2.20 as Kirigami
 
-import "components"
+import "components" as KGC
 
 Kirigami.ScrollablePage {
     id: page
@@ -47,7 +47,7 @@ Kirigami.ScrollablePage {
         }
     }
 
-    InfoSheet {
+    KGC.InfoSheet {
         id: sheet
 
         page: page
@@ -172,7 +172,7 @@ Kirigami.ScrollablePage {
 
             spacing: Kirigami.Units.smallSpacing
 
-            Controls.Label {
+            QQC2.Label {
                 Layout.fillWidth: true
                 horizontalAlignment: Text.AlignHCenter
 
@@ -180,7 +180,7 @@ Kirigami.ScrollablePage {
                 wrapMode: Text.WordWrap
             }
 
-            Controls.Button {
+            QQC2.Button {
                 Layout.alignment: Qt.AlignHCenter
 
                 enabled: !toggleMessage.visible

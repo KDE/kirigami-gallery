@@ -18,31 +18,30 @@
  */
 
 import QtQuick 2.15
-import QtQuick.Controls 2.15 as Controls
-import QtQuick.Layouts 1.15
-import org.kde.kirigami 2.20
+import QtQuick.Controls 2.15 as QQC2
+import org.kde.kirigami 2.20 as Kirigami
 
-Page {
+Kirigami.Page {
     id: page
 
     title: "Tab Bar"
 
-    header: Controls.TabBar {
+    header: QQC2.TabBar {
         id: tabBar
         currentIndex: swipeView.currentIndex
 
-        Controls.TabButton {
+        QQC2.TabButton {
             text: "First"
         }
-        Controls.TabButton {
+        QQC2.TabButton {
             text: "Second"
         }
-        Controls.TabButton {
+        QQC2.TabButton {
             text: "Third"
         }
     }
 
-    Controls.SwipeView {
+    QQC2.SwipeView {
         id: swipeView
         anchors.fill: parent
         currentIndex: tabBar.currentIndex
@@ -52,22 +51,22 @@ Page {
             model: 3
 
             Item {
-                Controls.Label {
+                QQC2.Label {
                     width: parent.width
-                    wrapMode: Controls.Label.Wrap
+                    wrapMode: QQC2.Label.Wrap
                     horizontalAlignment: Qt.AlignHCenter
                     text: "Page " + modelData
                 }
-                Controls.TabBar {
-                    position: Controls.TabBar.Footer
+                QQC2.TabBar {
+                    position: QQC2.TabBar.Footer
                     anchors {
                         bottom: parent.bottom
                         horizontalCenter: parent.horizontalCenter
                     }
-                    Controls.TabButton {
+                    QQC2.TabButton {
                         text: "First"
                     }
-                    Controls.TabButton {
+                    QQC2.TabButton {
                         text: "Second"
                     }
                 }

@@ -18,7 +18,7 @@
  */
 
 import QtQuick 2.15
-import QtQuick.Controls 2.15 as Controls
+import QtQuick.Controls 2.15 as QQC2
 import QtQuick.Layouts 1.15
 import org.kde.kirigami 2.20 as Kirigami
 
@@ -33,22 +33,22 @@ Kirigami.ScrollablePage {
     ColumnLayout {
         GridLayout {
             columns: 2
-            Controls.Label {
+            QQC2.Label {
                 text: "Global Drawer color set:"
                 Layout.alignment: Qt.AlignRight
             }
-            Controls.ComboBox {
+            QQC2.ComboBox {
                 Kirigami.Theme.inherit: true
                 currentIndex: 0
                 model: ["View", "Window", "Button", "Selection", "Tooltip", "Complementary", "Header"]
                 onCurrentTextChanged: applicationWindow().globalDrawer.Kirigami.Theme.colorSet = currentText
             }
 
-            Controls.Label {
+            QQC2.Label {
                 text: "Page color set:"
                 Layout.alignment: Qt.AlignRight
             }
-            Controls.ComboBox {
+            QQC2.ComboBox {
                 Kirigami.Theme.inherit: true
                 currentIndex: 1
                 model: ["View", "Window", "Button", "Selection", "Tooltip", "Complementary", "Header"]
@@ -56,7 +56,7 @@ Kirigami.ScrollablePage {
             }
         }
 
-        Controls.Frame {
+        QQC2.Frame {
             Kirigami.Theme.inherit: true
             Layout.minimumHeight: childrenRect.height
             Layout.fillWidth: true
@@ -68,7 +68,7 @@ Kirigami.ScrollablePage {
             contentItem: ColumnLayout {
                 spacing: 0
                 width: parent.width
-                Controls.Label {
+                QQC2.Label {
                     text: "Set inherited from parent Item"
                 }
                 Kirigami.BasicListItem {
@@ -83,7 +83,7 @@ Kirigami.ScrollablePage {
             }
         }
 
-        Controls.Frame {
+        QQC2.Frame {
             Kirigami.Theme.inherit: false
             Kirigami.Theme.colorSet: Kirigami.Theme.Window
             Layout.minimumHeight: childrenRect.height
@@ -96,7 +96,7 @@ Kirigami.ScrollablePage {
             contentItem: ColumnLayout {
                 spacing: 0
                 width: parent.width
-                Controls.Label {
+                QQC2.Label {
                     text: "Window Set"
                 }
                 Kirigami.BasicListItem {
@@ -111,7 +111,7 @@ Kirigami.ScrollablePage {
             }
         }
 
-        Controls.Frame {
+        QQC2.Frame {
             Kirigami.Theme.inherit: false
             Kirigami.Theme.colorSet: Kirigami.Theme.View
             Layout.minimumHeight: childrenRect.height
@@ -124,7 +124,7 @@ Kirigami.ScrollablePage {
             contentItem: ColumnLayout {
                 spacing: 0
                 width: parent.width
-                Controls.Label {
+                QQC2.Label {
                     text: "View Set"
                 }
                 Kirigami.BasicListItem {
@@ -139,7 +139,7 @@ Kirigami.ScrollablePage {
             }
         }
 
-        Controls.Frame {
+        QQC2.Frame {
             Kirigami.Theme.inherit: false
             Kirigami.Theme.colorSet: Kirigami.Theme.Complementary
             Layout.minimumHeight: childrenRect.height
@@ -151,7 +151,7 @@ Kirigami.ScrollablePage {
             }
             contentItem: ColumnLayout {
                 spacing: 0
-                Controls.Label {
+                QQC2.Label {
                     text: "Complementary Set"
                 }
                 Kirigami.BasicListItem {
@@ -166,7 +166,7 @@ Kirigami.ScrollablePage {
             }
         }
 
-        Controls.Frame {
+        QQC2.Frame {
             Kirigami.Theme.inherit: false
             Kirigami.Theme.colorSet: Kirigami.Theme.Window
             Kirigami.Theme.backgroundColor: "#b9d795"
@@ -181,14 +181,14 @@ Kirigami.ScrollablePage {
             }
             contentItem: ColumnLayout {
                 spacing: 0
-                Controls.Label {
+                QQC2.Label {
                     text: "Window set with Custom Colors"
                 }
                 Kirigami.BasicListItem {
                     width: parent.width
                     icon: "view-right-close"
                     label: "Delegate1"
-                    Controls.Button {
+                    QQC2.Button {
                         Kirigami.Theme.inherit: true
                         text: "Dynamic Color Button"
                         icon.name: "go-next"
@@ -197,7 +197,7 @@ Kirigami.ScrollablePage {
                 Kirigami.BasicListItem {
                     width: parent.width
                     label: "Delegate2"
-                    Controls.TextField {
+                    QQC2.TextField {
                         Kirigami.Theme.inherit: true
                         text: "Dynamic Color Text field"
                     }
@@ -205,13 +205,13 @@ Kirigami.ScrollablePage {
             }
         }
 
-        Controls.Button {
+        QQC2.Button {
             Kirigami.Theme.colorSet: Kirigami.Theme.Button
             Kirigami.Theme.inherit: false
             text: "Fixed Color Button"
             icon.name: "go-next"
         }
-        Controls.Button {
+        QQC2.Button {
             Kirigami.Theme.inherit: true
             text: "Dynamic Color Button"
             icon.name: "go-next"
@@ -225,10 +225,10 @@ Kirigami.ScrollablePage {
         }
         Flow {
             Layout.fillWidth: true
-            Controls.Label {
+            QQC2.Label {
                 text: "RGB color for icon:"
             }
-            Controls.SpinBox{
+            QQC2.SpinBox{
                 id: red
                 editable: true
                 from: 0
@@ -237,7 +237,7 @@ Kirigami.ScrollablePage {
                     customColorIcon.color = Qt.rgba(red.value/255, green.value/255, blue.value/255, 1);
                 }
             }
-            Controls.SpinBox{
+            QQC2.SpinBox{
                 id: green
                 editable: true
                 from: 0
@@ -247,7 +247,7 @@ Kirigami.ScrollablePage {
                     customColorIcon.color = Qt.rgba(red.value/255, green.value/255, blue.value/255, 1);
                 }
             }
-            Controls.SpinBox{
+            QQC2.SpinBox{
                 id: blue
                 editable: true
                 from: 0

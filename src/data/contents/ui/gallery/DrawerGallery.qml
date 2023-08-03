@@ -18,11 +18,11 @@
  */
 
 import QtQuick 2.15
-import QtQuick.Controls 2.15 as Controls
+import QtQuick.Controls 2.15 as QQC2
 import QtQuick.Layouts 1.15
 import org.kde.kirigami 2.20 as Kirigami
 
-import "components"
+import "components" as KGC
 
 Kirigami.ScrollablePage {
     id: page
@@ -63,7 +63,7 @@ Kirigami.ScrollablePage {
         }
     }
 
-    InfoSheet {
+    KGC.InfoSheet {
         id: sheet
 
         page: page
@@ -74,12 +74,12 @@ Kirigami.ScrollablePage {
         id: modalBottomDrawer
         edge: Qt.BottomEdge
         contentItem: ColumnLayout {
-            Controls.Label {
+            QQC2.Label {
                 Layout.fillWidth: true
                 wrapMode: Text.WordWrap
                 text: qsTr("A modal bottom drawer will span for the whole application window width and will darken the rest of the app. Clicking on a darkened will dismiss the drawer.")
             }
-            Controls.Button {
+            QQC2.Button {
                 Layout.alignment: Qt.AlignRight
                 text: qsTr("Close")
                 onClicked: modalBottomDrawer.close()
@@ -93,12 +93,12 @@ Kirigami.ScrollablePage {
         modal: false
 
         contentItem: ColumnLayout {
-            Controls.Label {
+            QQC2.Label {
                 Layout.fillWidth: true
                 wrapMode: Text.WordWrap
                 text: qsTr("An inline top drawer covers the whole application width but lets the uncovered pieces to still be interacted with.")
             }
-            Controls.Button {
+            QQC2.Button {
                 Layout.alignment: Qt.AlignRight
                 text: qsTr("Close")
                 onClicked: inlineBottomDrawer.close()
@@ -110,12 +110,12 @@ Kirigami.ScrollablePage {
         id: modalTopDrawer
         edge: Qt.TopEdge
         contentItem: ColumnLayout {
-            Controls.Label {
+            QQC2.Label {
                 Layout.fillWidth: true
                 wrapMode: Text.WordWrap
                 text: qsTr("A modal top drawer will span for the whole application window width and will darken the rest of the app. Clicking on the darkened area will dismiss the drawer.")
             }
-            Controls.Button {
+            QQC2.Button {
                 Layout.alignment: Qt.AlignRight
                 text: qsTr("Close")
                 onClicked: modalTopDrawer.close()
@@ -129,12 +129,12 @@ Kirigami.ScrollablePage {
         modal: false
 
         contentItem: ColumnLayout {
-            Controls.Label {
+            QQC2.Label {
                 Layout.fillWidth: true
                 wrapMode: Text.WordWrap
                 text: qsTr("An inline bottom drawer covers the whole application width but lets the uncovered pieces to still be interacted with.")
             }
-            Controls.Button {
+            QQC2.Button {
                 Layout.alignment: Qt.AlignRight
                 text: qsTr("Close")
                 onClicked: inlineTopDrawer.close()
@@ -146,33 +146,33 @@ Kirigami.ScrollablePage {
         width: page.width
         spacing: Kirigami.Units.smallSpacing
 
-        Controls.Button {
+        QQC2.Button {
             text: qsTr("Left Global Drawer")
             Layout.alignment: Qt.AlignHCenter
             onClicked: applicationWindow().globalDrawer.open()
         }
-        Controls.Button {
+        QQC2.Button {
             text: qsTr("Right Context Drawer")
             Layout.alignment: Qt.AlignHCenter
             visible: applicationWindow().contextDrawer
             onClicked: applicationWindow().contextDrawer.open()
         }
-        Controls.Button {
+        QQC2.Button {
             text: qsTr("Modal Bottom Drawer")
             Layout.alignment: Qt.AlignHCenter
             onClicked: modalBottomDrawer.open()
         }
-        Controls.Button {
+        QQC2.Button {
             text: "Inline Bottom Drawer"
             Layout.alignment: Qt.AlignHCenter
             onClicked: inlineBottomDrawer.open()
         }
-        Controls.Button {
+        QQC2.Button {
             text: qsTr("Modal Top Drawer")
             Layout.alignment: Qt.AlignHCenter
             onClicked: modalTopDrawer.open()
         }
-        Controls.Button {
+        QQC2.Button {
             text: "Inline Top Drawer"
             Layout.alignment: Qt.AlignHCenter
             onClicked: inlineTopDrawer.open()

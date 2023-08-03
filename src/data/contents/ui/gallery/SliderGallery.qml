@@ -19,25 +19,25 @@
  */
 
 import QtQuick 2.15
-import QtQuick.Controls 2.15 as Controls
+import QtQuick.Controls 2.15 as QQC2
 import QtQuick.Layouts 1.15
-import org.kde.kirigami 2.20
+import org.kde.kirigami 2.20 as Kirigami
 
-ScrollablePage {
+Kirigami.ScrollablePage {
     id: page
     Layout.fillWidth: true
 
     title: "Sliders"
 
     actions {
-        left: Action {
+        left: Kirigami.Action {
             icon.name: "folder-sync"
             text: "Left Action Text"
             onTriggered: {
                 showPassiveNotification("Left action triggered")
             }
         }
-        right: Action {
+        right: Kirigami.Action {
             icon.name: "configure"
             text: "Right Action Text"
             onTriggered: {
@@ -46,57 +46,57 @@ ScrollablePage {
         }
     }
 
-    FormLayout {
+    Kirigami.FormLayout {
         id: formLayout
-        Controls.Slider {
-            FormData.label: "Normal Slider:"
+        QQC2.Slider {
+            Kirigami.FormData.label: "Normal Slider:"
             id: normalSlider
-            Layout.minimumWidth: Units.gridUnit * 15
+            Layout.minimumWidth: Kirigami.Units.gridUnit * 15
             value: 1
             to: 5.0
         }
-        Controls.Slider {
+        QQC2.Slider {
             id: disabledSlider
-            FormData.label: "Disabled Slider:"
+            Kirigami.FormData.label: "Disabled Slider:"
             enabled: false
-            Layout.minimumWidth: Units.gridUnit * 15
+            Layout.minimumWidth: Kirigami.Units.gridUnit * 15
             value: 2
             to: 5.0
         }
-        Controls.Slider {
-            FormData.label: "Slider with tickmarks:"
+        QQC2.Slider {
+            Kirigami.FormData.label: "Slider with tickmarks:"
             id: tickmarkSlider
-            Layout.minimumWidth: Units.gridUnit * 15
+            Layout.minimumWidth: Kirigami.Units.gridUnit * 15
             to: 5.0
             stepSize: 1.0
             value: 3
         }
-        Controls.RangeSlider {
-            FormData.label: "Range Slider:"
+        QQC2.RangeSlider {
+            Kirigami.FormData.label: "Range Slider:"
             id: normalRangeSlider
-            Layout.minimumWidth: Units.gridUnit * 15
+            Layout.minimumWidth: Kirigami.Units.gridUnit * 15
             to: 5.0
             first.value: 0
             second.value: 4
         }
         RowLayout {
-            FormData.label: "Vertical Sliders:"
-            FormData.labelAlignment: Qt.AlignTop
+            Kirigami.FormData.label: "Vertical Sliders:"
+            Kirigami.FormData.labelAlignment: Qt.AlignTop
             Layout.preferredWidth: normalSlider.width
 
-            Controls.Slider {
+            QQC2.Slider {
                 id: verticalNormalSlider
                 Layout.minimumWidth: 2
-                Layout.minimumHeight: Units.gridUnit * 10
+                Layout.minimumHeight: Kirigami.Units.gridUnit * 10
                 Layout.fillHeight: true
                 value: 2
                 to: 5.0
                 orientation: Qt.Vertical
             }
             Item { Layout.fillWidth: true }
-            Controls.Slider {
+            QQC2.Slider {
                 Layout.minimumWidth: 2
-                Layout.minimumHeight: Units.gridUnit * 10
+                Layout.minimumHeight: Kirigami.Units.gridUnit * 10
                 Layout.fillHeight: true
                 value: 3
                 to: 5.0
@@ -104,9 +104,9 @@ ScrollablePage {
                 orientation: Qt.Vertical
             }
             Item { Layout.fillWidth: true }
-            Controls.RangeSlider {
+            QQC2.RangeSlider {
                 Layout.minimumWidth: 2
-                Layout.minimumHeight: Units.gridUnit * 10
+                Layout.minimumHeight: Kirigami.Units.gridUnit * 10
                 Layout.fillHeight: true
                 to: 5.0
                 first.value: 0

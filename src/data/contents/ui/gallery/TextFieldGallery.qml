@@ -18,7 +18,7 @@
  */
 
 import QtQuick 2.15
-import QtQuick.Controls 2.15 as Controls
+import QtQuick.Controls 2.15 as QQC2
 import QtQuick.Layouts 1.15
 import org.kde.kirigami 2.20 as Kirigami
 
@@ -35,38 +35,38 @@ Kirigami.ScrollablePage {
 
             width: page.width
 
-            Controls.TextField {
+            QQC2.TextField {
                 placeholderText: "Search..."
                 Kirigami.FormData.label: "Placeholder text:"
             }
-            Controls.TextField {
+            QQC2.TextField {
                 text: "Disabled"
                 enabled: false
                 Kirigami.FormData.label: "Disabled field:"
             }
-            Controls.TextField {
+            QQC2.TextField {
                 echoMode: TextInput.Password
                 Kirigami.FormData.label: "Password:"
             }
 
-            Controls.TextField {
+            QQC2.TextField {
                 inputMask: "99999999"
                 inputMethodHints: Qt.ImhDigitsOnly
                 Kirigami.FormData.label: "Numbers:"
             }
         }
 
-        Controls.Label {
+        QQC2.Label {
             text: "Text area:"
         }
 
-        Controls.TextArea {
+        QQC2.TextArea {
             id: field
             Layout.fillWidth: true
             text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eu nisl ac nibh malesuada pretium ut sit amet libero. Nulla libero arcu, pharetra a dignissim nec, iaculis sit amet metus. Suspendisse quis justo efficitur, pharetra dui maximus, aliquam dolor. Vestibulum vel imperdiet turpis. Mauris ut leo mauris. Praesent ut libero sollicitudin, tincidunt nisi a, efficitur erat. Curabitur lacinia leo et tempor aliquam."
             Layout.minimumWidth: Kirigami.Units.gridUnit * 12
             Layout.minimumHeight: Kirigami.Units.gridUnit * 12
-            wrapMode: Controls.TextArea.WordWrap
+            wrapMode: QQC2.TextArea.WordWrap
         }
     }
 }

@@ -18,26 +18,26 @@
  */
 
 import QtQuick 2.15
-import QtQuick.Controls 2.15 as Controls
+import QtQuick.Controls 2.15 as QQC2
 import QtQuick.Layouts 1.15
-import org.kde.kirigami 2.20
+import org.kde.kirigami 2.20 as Kirigami
 
-ScrollablePage {
+Kirigami.ScrollablePage {
     id: page
     Layout.fillWidth: true
-    //implicitWidth: Units.gridUnit * (Math.floor(Math.random() * 35) + 8)
+    //implicitWidth: Kirigami.Units.gridUnit * (Math.floor(Math.random() * 35) + 8)
 
     title: "Layers"
 
     actions {
-        main: Action {
+        main: Kirigami.Action {
             icon.name: "document-edit"
             text: "Main Action Text"
             onTriggered: {
                 showPassiveNotification("Action button in buttons page clicked");
             }
         }
-        left: Action {
+        left: Kirigami.Action {
             icon.name: "go-previous"
             text: "Left Action Text"
             onTriggered: {
@@ -45,12 +45,12 @@ ScrollablePage {
             }
         }
         contextualActions: [
-            Action {
+            Kirigami.Action {
                 text:"Action 1"
                 icon.name: "go-next"
                 onTriggered: showPassiveNotification("Action 1 clicked")
             },
-            Action {
+            Kirigami.Action {
                 text:"Action 2"
                 icon.name: "folder"
                 enabled: false
@@ -61,30 +61,28 @@ ScrollablePage {
 
     ColumnLayout {
         width: page.width
-        spacing: Units.smallSpacing
+        spacing: Kirigami.Units.smallSpacing
 
-        Controls.Label {
+        QQC2.Label {
             Layout.fillWidth: true
             wrapMode: Text.WordWrap
             text: "This page is used to test multiple layers: it will cover all the columns"
         }
 
-        Controls.Button {
+        QQC2.Button {
             text: "Push A New Layer"
             Layout.alignment: Qt.AlignHCenter
             onClicked: pageStack.layers.push(Qt.resolvedUrl("LayersGallery.qml"));
         }
-        Controls.Button {
+        QQC2.Button {
             text: "Pop A Layer"
             Layout.alignment: Qt.AlignHCenter
             onClicked: pageStack.layers.pop();
         }
-        Controls.Button {
+        QQC2.Button {
             text: "Toggle header"
             Layout.alignment: Qt.AlignHCenter
             onClicked: page.globalToolBarStyle = ApplicationHeaderStyle.None
         }
     }
-
-
 }

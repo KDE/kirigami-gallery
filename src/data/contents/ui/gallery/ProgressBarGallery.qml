@@ -19,25 +19,25 @@
  */
 
 import QtQuick 2.15
-import QtQuick.Controls 2.15 as Controls
+import QtQuick.Controls 2.15 as QQC2
 import QtQuick.Layouts 1.15
-import org.kde.kirigami 2.20
+import org.kde.kirigami 2.20 as Kirigami
 
-ScrollablePage {
+Kirigami.ScrollablePage {
     id: page
     Layout.fillWidth: true
 
     title: "Progress Indicators"
 
     actions {
-        main: Action {
+        main: Kirigami.Action {
             icon.name: "document-edit"
             text: "Main Action Text"
             onTriggered: {
                 showPassiveNotification("Main action triggered");
             }
         }
-        right: Action {
+        right: Kirigami.Action {
             icon.name: "folder-sync"
             text: "Right Action Text"
             onTriggered: {
@@ -52,20 +52,20 @@ ScrollablePage {
         GridLayout {
             Layout.alignment: Qt.AlignHCenter
             Layout.fillWidth: true
-            Layout.leftMargin: Units.gridUnit
-            Layout.rightMargin: Units.gridUnit
+            Layout.leftMargin: Kirigami.Units.gridUnit
+            Layout.rightMargin: Kirigami.Units.gridUnit
 
-            rowSpacing: Units.largeSpacing
+            rowSpacing: Kirigami.Units.largeSpacing
             columns: 2
 
-            Controls.Label {
+            QQC2.Label {
                 text: "Determinate:"
                 Layout.alignment: Qt.AlignRight
             }
-            Controls.ProgressBar {
+            QQC2.ProgressBar {
                 from: 0
                 to: 100
-                Layout.maximumWidth: Units.gridUnit * 10
+                Layout.maximumWidth: Kirigami.Units.gridUnit * 10
 
                 SequentialAnimation on value {
                     running: true
@@ -82,36 +82,36 @@ ScrollablePage {
                     }
                 }
             }
-            Controls.Label {
+            QQC2.Label {
                 text: "Indeterminate:"
                 Layout.alignment: Qt.AlignRight
             }
-            Controls.ProgressBar {
+            QQC2.ProgressBar {
                 from: 0
                 to: 100
                 indeterminate: true
-                Layout.maximumWidth: Units.gridUnit * 10
+                Layout.maximumWidth: Kirigami.Units.gridUnit * 10
             }
-            Controls.Label {
+            QQC2.Label {
                 text: "Busy indicator:"
                 Layout.alignment: Qt.AlignRight
             }
-            Controls.BusyIndicator {
+            QQC2.BusyIndicator {
 
             }
-            Controls.Label {
+            QQC2.Label {
                 text: "Inactive indicator:"
                 Layout.alignment: Qt.AlignRight
             }
-            Controls.BusyIndicator {
+            QQC2.BusyIndicator {
                 running: false
             }
-            Controls.Label {
+            QQC2.Label {
                 text: "Custom size:"
                 Layout.alignment: Qt.AlignRight
             }
-            Controls.BusyIndicator {
-                Layout.minimumWidth: Units.iconSizes.enormous
+            QQC2.BusyIndicator {
+                Layout.minimumWidth: Kirigami.Units.iconSizes.enormous
                 Layout.minimumHeight: width
             }
         }

@@ -18,45 +18,45 @@
  */
 
 import QtQuick 2.15
-import QtQuick.Controls 2.15 as Controls
+import QtQuick.Controls 2.15 as QQC2
 import QtQuick.Layouts 1.15
-import org.kde.kirigami 2.20
+import org.kde.kirigami 2.20 as Kirigami
 
-ScrollablePage {
+Kirigami.ScrollablePage {
     id: page
     title: "Misc controls"
 
     actions {
-        main: Action {
+        main: Kirigami.Action {
             icon.name: "document-edit"
-            icon.color: Theme.negativeTextColor
+            icon.color: Kirigami.Theme.negativeTextColor
             text: "Main Action Text"
         }
-        left: Action {
+        left: Kirigami.Action {
             icon.name: "go-previous"
-            icon.color: Theme.positiveTextColor
+            icon.color: Kirigami.Theme.positiveTextColor
             enabled: false
             text: "Left Action Text"
             onTriggered: {
                 showPassiveNotification("Left action triggered")
             }
         }
-        right: Action {
+        right: Kirigami.Action {
             icon.name: "go-next"
-            icon.color: Theme.neutralTextColor
+            icon.color: Kirigami.Theme.neutralTextColor
             text: "Right Action Text"
             onTriggered: {
                 showPassiveNotification("Right action triggered")
             }
         }
         contextualActions: [
-            Action {
+            Kirigami.Action {
                 text:"Action for buttons"
                 icon.name: "bookmarks"
-                icon.color: Theme.activeTextColor
+                icon.color: Kirigami.Theme.activeTextColor
                 onTriggered: showPassiveNotification("Action 1 clicked")
             },
-            Action {
+            Kirigami.Action {
                 text:"Disabled Action"
                 icon.name: "folder"
                 enabled: false
@@ -64,11 +64,11 @@ ScrollablePage {
         ]
     }
 
-    header: Controls.ToolBar {
-        contentItem: ActionToolBar {
+    header: QQC2.ToolBar {
+        contentItem: Kirigami.ActionToolBar {
             id: actionToolBar
             actions: [
-                Action {
+                Kirigami.Action {
                     id: textBesideAction
                     icon.name: "document-edit"
                     text: qsTr("Text Beside Icon")
@@ -76,14 +76,14 @@ ScrollablePage {
                     checked: true
                     onCheckedChanged: {
                         if (checked) {
-                            actionToolBar.display = Controls.Button.TextBesideIcon;
+                            actionToolBar.display = QQC2.Button.TextBesideIcon;
                             textUnderAction.checked = false;
                             textOnlyAction.checked = false;
                             iconOnlyAction.checked = false;
                         }
                     }
                 },
-                Action {
+                Kirigami.Action {
                     id: textUnderAction
                     icon.name: "document-edit"
                     text: qsTr("Text Under Icon")
@@ -91,14 +91,14 @@ ScrollablePage {
                     checked: false
                     onCheckedChanged: {
                         if (checked) {
-                            actionToolBar.display = Controls.Button.TextUnderIcon;
+                            actionToolBar.display = QQC2.Button.TextUnderIcon;
                             textBesideAction.checked = false;
                             textOnlyAction.checked = false;
                             iconOnlyAction.checked = false;
                         }
                     }
                 },
-                Action {
+                Kirigami.Action {
                     id: textOnlyAction
                     icon.name: "document-edit"
                     text: qsTr("Text Only")
@@ -106,14 +106,14 @@ ScrollablePage {
                     checked: false
                     onCheckedChanged:  {
                         if (checked) {
-                            actionToolBar.display = Controls.Button.TextOnly;
+                            actionToolBar.display = QQC2.Button.TextOnly;
                             textUnderAction.checked = false;
                             textBesideAction.checked = false;
                             iconOnlyAction.checked = false;
                         }
                     }
                 },
-                Action {
+                Kirigami.Action {
                     id: iconOnlyAction
                     icon.name: "document-edit"
                     text: qsTr("Icon Only")
@@ -121,43 +121,43 @@ ScrollablePage {
                     checked: false
                     onCheckedChanged:  {
                         if (checked) {
-                            actionToolBar.display = Controls.Button.IconOnly;
+                            actionToolBar.display = QQC2.Button.IconOnly;
                             textUnderAction.checked = false;
                             textOnlyAction.checked = false;
                             textBesideAction.checked = false;
                         }
                     }
                 },
-                Action {
+                Kirigami.Action {
                     icon.name: "document-edit"
                     text: "Action 5"
-                    displayHint: DisplayHint.AlwaysHide
+                    displayHint:  Kirigami.DisplayHint.AlwaysHide
                 },
-                Action {
+                Kirigami.Action {
                     icon.name: "document-edit"
                     text: "Action 6"
-                    displayHint: DisplayHint.AlwaysHide
+                    displayHint:  Kirigami.DisplayHint.AlwaysHide
                 },
-                Action {
+                Kirigami.Action {
                     icon.name: "document-edit"
                     text: "Action 7"
-                    displayHint: DisplayHint.AlwaysHide
+                    displayHint:  Kirigami.DisplayHint.AlwaysHide
                 }
             ]
         }
     }
 
     footer: Rectangle {
-        color: Theme.backgroundColor
-        height: Units.gridUnit * 3
-        Controls.TextField {
+        color: Kirigami.Theme.backgroundColor
+        height: Kirigami.Units.gridUnit * 3
+        QQC2.TextField {
             topPadding: 0
             bottomPadding: 0
-            leftPadding: Units.smallSpacing
-            rightPadding: Units.smallSpacing
+            leftPadding: Kirigami.Units.smallSpacing
+            rightPadding: Kirigami.Units.smallSpacing
             anchors.fill: parent
         }
-        Separator {
+        Kirigami.Separator {
             anchors {
                 top: parent.top
                 left: parent.left
@@ -166,17 +166,17 @@ ScrollablePage {
         }
     }
 
-    Controls.Dialog {
+    QQC2.Dialog {
         id: dialog
         modal: true
         focus: true
         x: (page.width - width) / 2
         y: page.height / 2 - height
-        width: Math.min(page.width - Units.gridUnit * 4, Units.gridUnit * 20)
-        standardButtons: Controls.Dialog.Ok
+        width: Math.min(page.width - Kirigami.Units.gridUnit * 4, Kirigami.Units.gridUnit * 20)
+        standardButtons: QQC2.Dialog.Ok
         title: "Title"
 
-        Controls.Label {
+        QQC2.Label {
             width: dialog.availableWidth
             text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id risus id augue euismod accumsan. Nunc vestibulum placerat bibendum. Morbi commodo auctor varius. Donec molestie euismod ultrices. Sed facilisis augue nec eros auctor."
             wrapMode: Text.Wrap
@@ -186,75 +186,75 @@ ScrollablePage {
 
     ColumnLayout {
         anchors.centerIn: parent
-        Controls.Button {
+        QQC2.Button {
             Layout.alignment: Qt.AlignHCenter
             text: "Dialog"
             onClicked: dialog.open()
         }
-        Controls.Dial {
+        QQC2.Dial {
             Layout.alignment: Qt.AlignHCenter
         }
-        Controls.SpinBox {
+        QQC2.SpinBox {
             editable: true
             Layout.alignment: Qt.AlignHCenter
         }
-        Controls.ComboBox {
+        QQC2.ComboBox {
             model: ["First", "Second", "Third"]
             Layout.alignment: Qt.AlignHCenter
         }
-        Controls.ComboBox {
+        QQC2.ComboBox {
             editable: true
             model: ["First", "Second", "Third"]
             Layout.alignment: Qt.AlignHCenter
         }
-        Controls.GroupBox {
+        QQC2.GroupBox {
             title: "Title"
             Layout.alignment: Qt.AlignHCenter
 
             ColumnLayout {
                 id: options
 
-                Controls.RadioButton {
+                QQC2.RadioButton {
                     text: "First"
                     checked: true
                 }
-                Controls.RadioButton {
+                QQC2.RadioButton {
                     text: "Second"
                     checked: false
                 }
-                Controls.RadioButton {
+                QQC2.RadioButton {
                     text: "Third"
                     checked: false
                 }
             }
         }
-        Controls.Label {
+        QQC2.Label {
             Layout.alignment: Qt.AlignHCenter
-            text: Settings.isMobile ? "We are in mobile device mode" : "We are not in mobile device mode"
+            text: Kirigami.Settings.isMobile ? "We are in mobile device mode" : "We are not in mobile device mode"
         }
-        Controls.Label {
+        QQC2.Label {
             Layout.alignment: Qt.AlignHCenter
-            text: Settings.tabletMode ? "We are in tablet mode" : "We are not in tablet mode"
+            text: Kirigami.Settings.tabletMode ? "We are in tablet mode" : "We are not in tablet mode"
         }
         Column {
             Layout.alignment: Qt.AlignHCenter
-            Controls.ItemDelegate {
+            QQC2.ItemDelegate {
                 width: 300
                 text: "Delegate1"
             }
-            Controls.ItemDelegate {
+            QQC2.ItemDelegate {
                 width: 300
                 text: "Delegate2"
             }
-            Controls.CheckDelegate {
+            QQC2.CheckDelegate {
                 width: 300
                 text: "Delegate3"
             }
-            Controls.SwitchDelegate {
+            QQC2.SwitchDelegate {
                 width: 300
                 text: "Delegate4"
             }
-            Controls.RadioDelegate {
+            QQC2.RadioDelegate {
                 width: 300
                 text: "Delegate5"
             }

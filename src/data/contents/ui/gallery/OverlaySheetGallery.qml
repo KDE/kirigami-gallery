@@ -18,16 +18,15 @@
  */
 
 import QtQuick 2.15
-import QtQuick.Controls 2.15 as Controls
+import QtQuick.Controls 2.15 as QQC2
 import QtQuick.Layouts 1.15
 import org.kde.kirigami 2.20 as Kirigami
-
-import "components"
+import "components" as KGC
 
 Kirigami.ScrollablePage {
     id: page
     Layout.fillWidth: true
-    //implicitWidth: Units.gridUnit * (Math.floor(Math.random() * 35) + 10)
+    //implicitWidth: Kirigami.Units.gridUnit * (Math.floor(Math.random() * 35) + 10)
 
     title: qsTr("Overlay Sheets")
 
@@ -47,7 +46,7 @@ Kirigami.ScrollablePage {
         }
     }
 
-    InfoSheet {
+    KGC.InfoSheet {
         id: sheet
 
         page: page
@@ -58,17 +57,17 @@ Kirigami.ScrollablePage {
     Kirigami.OverlaySheet {
         id: longSheet
         ColumnLayout {
-            Controls.Label {
+            QQC2.Label {
                 Layout.fillWidth: true
                 wrapMode: Text.WordWrap
                 text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id risus id augue euismod accumsan. Nunc vestibulum placerat bibendum. Morbi commodo auctor varius. Donec molestie euismod ultrices. Sed facilisis augue nec eros auctor, vitae mattis quam rhoncus. Nam ut erat diam. Curabitur iaculis accumsan magna, eget fermentum massa scelerisque eu. Cras elementum erat non erat euismod accumsan. Vestibulum ac mi sed dui finibus pulvinar. Vivamus dictum, leo sed lobortis porttitor, nisl magna faucibus orci, sit amet euismod arcu elit eget est. Duis et vehicula nibh. In arcu sapien, laoreet sit amet porttitor non, rhoncus vel magna. Suspendisse imperdiet consectetur est nec ornare. Pellentesque bibendum sapien at erat efficitur vehicula. Morbi sed porta nibh. Vestibulum ut urna ut dolor sagittis mattis."
             }
 
-            Controls.TextField {
+            QQC2.TextField {
                 Layout.alignment: Qt.AlignHCenter
             }
 
-            Controls.Label {
+            QQC2.Label {
                 Layout.fillWidth: true
                 wrapMode: Text.WordWrap
                 text: "
@@ -80,7 +79,7 @@ Kirigami.ScrollablePage {
 
     Etiam sapien leo, venenatis eget justo at, pellentesque mollis tellus. Fusce consequat ullamcorper vulputate. Duis tellus nisi, dictum ut augue non, elementum congue ligula. Fusce in vehicula arcu. Nulla facilisi. Quisque a convallis sapien. Aenean pellentesque convallis egestas. Phasellus rhoncus, nulla in tempor maximus, arcu ex venenatis diam, sit amet egestas mi dolor non ante. "
             }
-            Controls.Button {
+            QQC2.Button {
                 text: qsTr("Close")
                 Layout.alignment: Qt.AlignHCenter
                 onClicked: sheet.close()
@@ -94,21 +93,21 @@ Kirigami.ScrollablePage {
             text: qsTr("Title")
         }
         footer: RowLayout {
-            Controls.Label {
+            QQC2.Label {
                 text: qsTr("Footer:")
             }
-            Controls.TextField {
+            QQC2.TextField {
                 Layout.fillWidth: true
             }
         }
         ColumnLayout {
             spacing: Kirigami.Units.largeSpacing * 5
-            Controls.Label {
+            QQC2.Label {
                 Layout.fillWidth: true
                 wrapMode: Text.WordWrap
                 text: qsTr("A sheet can have optional header and footer items which will not scroll away when the sheet overflows.")
             }
-            Controls.Label {
+            QQC2.Label {
                 Layout.fillWidth: true
                 wrapMode: Text.WordWrap
                 text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id risus id augue euismod accumsan. Nunc vestibulum placerat bibendum. Morbi commodo auctor varius. Donec molestie euismod ultrices. Sed facilisis augue nec eros auctor, vitae mattis quam rhoncus. Nam ut erat diam. Curabitur iaculis accumsan magna, eget fermentum massa scelerisque eu. Cras elementum erat non erat euismod accumsan. Vestibulum ac mi sed dui finibus pulvinar. Vivamus dictum, leo sed lobortis porttitor, nisl magna faucibus orci, sit amet euismod arcu elit eget est. Duis et vehicula nibh. In arcu sapien, laoreet sit amet porttitor non, rhoncus vel magna. Suspendisse imperdiet consectetur est nec ornare. Pellentesque bibendum sapien at erat efficitur vehicula. Morbi sed porta nibh. Vestibulum ut urna ut dolor sagittis mattis.\nMorbi dictum, sapien at maximus pulvinar, sapien metus condimentum magna, quis lobortis nisi dui mollis turpis. Aliquam sit amet scelerisque dui. In sit amet tellus placerat, condimentum enim sed, hendrerit quam. Integer dapibus lobortis finibus. Suspendisse faucibus eros vitae ante posuere blandit. Nullam volutpat quam id diam hendrerit aliquam. Donec non sem at diam posuere convallis. Vivamus ut congue quam. Ut dictum fermentum sapien, eu ultricies est ornare ut.\nNullam fringilla a libero vehicula faucibus. Donec euismod sodales nulla, in vehicula lectus posuere a. Donec nisi nulla, pulvinar eu porttitor vitae, varius eget ante. Nam rutrum eleifend elit, quis facilisis leo sodales vitae. Aenean accumsan a nulla at sagittis. Integer placerat tristique magna, vitae iaculis ante cursus sit amet. Sed facilisis mollis turpis nec tristique. Etiam quis feugiat odio. Vivamus sagittis at purus nec aliquam.\nMorbi neque dolor, elementum ac fermentum ac, auctor ut erat. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vivamus non nibh sit amet quam luctus congue. Donec in eros varius, porta metus sed, sagittis lacus. Mauris dapibus lorem nisi, non eleifend massa tristique egestas. Curabitur nec blandit urna. Mauris rhoncus libero felis, commodo viverra ante consectetur vel. Donec dictum tincidunt orci, quis tristique urna. Quisque egestas, dui ac mollis dictum, purus velit elementum est, at pellentesque erat est fermentum purus. Nulla a quam tellus. Vestibulum a congue ligula. Quisque feugiat nulla et tortor sodales viverra. Maecenas dolor leo, elementum sed urna vel, posuere hendrerit metus. Mauris pellentesque, mi non luctus aliquam, leo nulla varius arcu, vel pulvinar enim enim nec nisl.\nEtiam sapien leo, venenatis eget justo at, pellentesque mollis tellus. Fusce consequat ullamcorper vulputate. Duis tellus nisi, dictum ut augue non, elementum congue ligula. Fusce in vehicula arcu. Nulla facilisi. Quisque a convallis sapien. Aenean pellentesque convallis egestas. Phasellus rhoncus, nulla in tempor maximus, arcu ex venenatis diam, sit amet egestas mi dolor non ante."
@@ -122,12 +121,12 @@ Kirigami.ScrollablePage {
         ColumnLayout {
             spacing: Kirigami.Units.largeSpacing * 5
             Layout.preferredWidth:  Kirigami.Units.gridUnit * 25
-            Controls.Label {
+            QQC2.Label {
                 Layout.fillWidth: true
                 wrapMode: Text.WordWrap
                 text: qsTr("A sheet will take the maximum available width in the page by default.\nHowever, if the main item sets an implicitWidth or Layout.preferredWidth, the sheet won't grow in width more than such given value.")
             }
-            Controls.Label {
+            QQC2.Label {
                 Layout.fillWidth: true
                 wrapMode: Text.WordWrap
                 text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id risus id augue euismod accumsan. Nunc vestibulum placerat bibendum. Morbi commodo auctor varius. Donec molestie euismod ultrices. Sed facilisis augue nec eros auctor, vitae mattis quam rhoncus. Nam ut erat diam. Curabitur iaculis accumsan magna, eget fermentum massa scelerisque eu. Cras elementum erat non erat euismod accumsan. Vestibulum ac mi sed dui finibus pulvinar. Vivamus dictum, leo sed lobortis porttitor, nisl magna faucibus orci, sit amet euismod arcu elit eget est. Duis et vehicula nibh. In arcu sapien, laoreet sit amet porttitor non, rhoncus vel magna. Suspendisse imperdiet consectetur est nec ornare. Pellentesque bibendum sapien at erat efficitur vehicula. Morbi sed porta nibh. Vestibulum ut urna ut dolor sagittis mattis."
@@ -143,12 +142,12 @@ Kirigami.ScrollablePage {
         ColumnLayout {
             spacing: Kirigami.Units.largeSpacing * 5
             Layout.preferredWidth:  Kirigami.Units.gridUnit * 25
-            Controls.Label {
+            QQC2.Label {
                 Layout.fillWidth: true
                 wrapMode: Text.WordWrap
                 text: qsTr("A sheet by default will be over a single page, even if the app is in wide mode. By changing the sheet parent to applicationWindow().overlay it will display the sheet as an overlay on top of the whole application window.\nIn this case the sheet will cover the page Action buttons too.")
             }
-            Controls.Label {
+            QQC2.Label {
                 Layout.fillWidth: true
                 wrapMode: Text.WordWrap
                 text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id risus id augue euismod accumsan. Nunc vestibulum placerat bibendum. Morbi commodo auctor varius. Donec molestie euismod ultrices. Sed facilisis augue nec eros auctor, vitae mattis quam rhoncus. Nam ut erat diam. Curabitur iaculis accumsan magna, eget fermentum massa scelerisque eu. Cras elementum erat non erat euismod accumsan. Vestibulum ac mi sed dui finibus pulvinar. Vivamus dictum, leo sed lobortis porttitor, nisl magna faucibus orci, sit amet euismod arcu elit eget est. Duis et vehicula nibh. In arcu sapien, laoreet sit amet porttitor non, rhoncus vel magna. Suspendisse imperdiet consectetur est nec ornare. Pellentesque bibendum sapien at erat efficitur vehicula. Morbi sed porta nibh. Vestibulum ut urna ut dolor sagittis mattis."
@@ -162,10 +161,10 @@ Kirigami.ScrollablePage {
             text: qsTr("Title")
         }
         footer: RowLayout {
-            Controls.Label {
+            QQC2.Label {
                 text: qsTr("Footer:")
             }
-            Controls.TextField {
+            QQC2.TextField {
                 Layout.fillWidth: true
                 Layout.alignment: Qt.AlignCenter
             }
@@ -185,10 +184,10 @@ Kirigami.ScrollablePage {
             text: qsTr("Title")
         }
         footer: RowLayout {
-            Controls.Label {
+            QQC2.Label {
                 text: qsTr("Footer:")
             }
-            Controls.TextField {
+            QQC2.TextField {
                 Layout.fillWidth: true
                 Layout.alignment: Qt.AlignCenter
             }
@@ -217,32 +216,32 @@ Kirigami.ScrollablePage {
         width: page.width
         spacing: Kirigami.Units.smallSpacing
 
-        Controls.Button {
+        QQC2.Button {
             text: qsTr("Very Long Sheet")
             Layout.alignment: Qt.AlignHCenter
             onClicked: longSheet.open()
         }
-        Controls.Button {
+        QQC2.Button {
             text: "Sheet With Header And Footer"
             Layout.alignment: Qt.AlignHCenter
             onClicked: headerFooterSheet.open()
         }
-        Controls.Button {
+        QQC2.Button {
             text: "Sheet With Fixed Width"
             Layout.alignment: Qt.AlignHCenter
             onClicked: fixedWidthSheet.open()
         }
-        Controls.Button {
+        QQC2.Button {
             text: "Global Sheet"
             Layout.alignment: Qt.AlignHCenter
             onClicked: globalSheet.open()
         }
-        Controls.Button {
+        QQC2.Button {
             text: "Sheet With List View"
             Layout.alignment: Qt.AlignHCenter
             onClicked: listViewSheet.open()
         }
-        Controls.Button {
+        QQC2.Button {
             text: "Sheet With Grid View"
             Layout.alignment: Qt.AlignHCenter
             onClicked: gridViewSheet.open()

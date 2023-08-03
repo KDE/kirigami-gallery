@@ -1,10 +1,8 @@
-
-
 import QtQuick 2.15
-import QtQuick.Controls 2.15
+import QtQuick.Controls 2.15 as QQC2
 import QtQuick.Layouts 1.15
 import org.kde.kirigami 2.20 as Kirigami
-import "components"
+import "components" as KGC
 
 Kirigami.ScrollablePage {
     id: page
@@ -26,7 +24,7 @@ Kirigami.ScrollablePage {
         }
     }
 
-    InfoSheet {
+    KGC.InfoSheet {
         id: sheet
 
         page: page
@@ -40,25 +38,25 @@ Kirigami.ScrollablePage {
             Layout.fillWidth: true
 
             twinFormLayouts: layout2
-            TextField {
+            QQC2.TextField {
                 Kirigami.FormData.label: "Label:"
             }
-            TextField {
+            QQC2.TextField {
             }
-            TextField {
+            QQC2.TextField {
                 Kirigami.FormData.label:"Lo&nger label:"
             }
             Kirigami.Separator {
                 Kirigami.FormData.isSection: true
             }
-            TextField {
+            QQC2.TextField {
                 Kirigami.FormData.label: "After separator:"
             }
-            ComboBox {
+            QQC2.ComboBox {
                 Kirigami.FormData.label: "Combo:"
                 model: ["First", "Second", "Third"]
             }
-            CheckBox {
+            QQC2.CheckBox {
                 checked: true
                 text: "Option"
             }
@@ -66,16 +64,16 @@ Kirigami.ScrollablePage {
                 Kirigami.FormData.isSection: true
                 Kirigami.FormData.label: "Section title"
             }
-            TextField {
+            QQC2.TextField {
                 Kirigami.FormData.label: "Label:"
             }
             Item {
                 Kirigami.FormData.isSection: true
             }
-            TextField {
+            QQC2.TextField {
                 Kirigami.FormData.label: "Section without line:"
             }
-            Button {
+            QQC2.Button {
                 text: qsTr("Expanding Button")
                 Layout.fillWidth: true
             }
@@ -83,29 +81,29 @@ Kirigami.ScrollablePage {
                 Kirigami.FormData.isSection: true
                 Kirigami.FormData.label: "Section with title without line"
             }
-            TextField {
+            QQC2.TextField {
                 Kirigami.FormData.label: "Title:"
             }
             ColumnLayout {
                 Layout.rowSpan: 3
                 Kirigami.FormData.label: "Label for radios:"
                 Kirigami.FormData.buddyFor: thirdRadio//firstRadio
-                RadioButton {
+                QQC2.RadioButton {
                     id: firstRadio
                     checked: true
                     text: "One"
                 }
-                RadioButton {
+                QQC2.RadioButton {
                     text: "Two"
                 }
-                RadioButton {
+                QQC2.RadioButton {
                     id: thirdRadio
                     text: "Three"
                 }
             }
-            Button {
+            QQC2.Button {
                 text: item ? "Remove Field" : "Add Field"
-                property TextField item
+                property QQC2.TextField item
                 onClicked: {
                     if (item) {
                         item.destroy();
@@ -115,7 +113,7 @@ Kirigami.ScrollablePage {
                 }
                 Component {
                     id: dyncomponent
-                    TextField {
+                    QQC2.TextField {
                         Kirigami.FormData.label: "Generated Title:"
                     }
                 }
@@ -125,7 +123,7 @@ Kirigami.ScrollablePage {
             id: layout2
             Layout.fillWidth: true
             twinFormLayouts: layout
-            TextField {
+            QQC2.TextField {
                 Kirigami.FormData.label: qsTr("Twin Layout:")
             }
         }

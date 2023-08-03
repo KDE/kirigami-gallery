@@ -18,18 +18,18 @@
  */
 
 import QtQuick 2.15
-import QtQuick.Controls 2.15 as Controls
+import QtQuick.Controls 2.15 as QQC2
 import QtQuick.Layouts 1.15
 import org.kde.kirigami 2.20 as Kirigami
 
-import "components"
+import "components" as KGC
 
 Kirigami.ScrollablePage {
     id: page
 
     title: qsTr("Grid view of Cards")
 
-        actions.main: Kirigami.Action {
+    actions.main: Kirigami.Action {
         icon.name: "documentinfo"
         text: qsTr("Info")
         checkable: true
@@ -45,7 +45,7 @@ Kirigami.ScrollablePage {
         }
     }
 
-    InfoSheet {
+    KGC.InfoSheet {
         id: sheet
 
         page: page
@@ -75,7 +75,7 @@ Kirigami.ScrollablePage {
                 title: model.title
                 source: model.image
             }
-            contentItem: Controls.Label {
+            contentItem: QQC2.Label {
                 wrapMode: Text.WordWrap
                 text: model.text
             }

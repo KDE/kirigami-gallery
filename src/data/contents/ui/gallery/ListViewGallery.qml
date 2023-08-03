@@ -18,7 +18,7 @@
  */
 
 import QtQuick 2.15
-import QtQuick.Controls 2.15 as Controls
+import QtQuick.Controls 2.15 as QQC2
 import QtQuick.Layouts 1.15
 import org.kde.kirigami 2.20 as Kirigami
 
@@ -64,10 +64,10 @@ Kirigami.ScrollablePage {
             text: "Title"
         }
         footer: RowLayout {
-            Controls.Label {
+            QQC2.Label {
                 text: "Footer:"
             }
-            Controls.TextField {
+            QQC2.TextField {
                 Layout.fillWidth: true
                 Layout.alignment: Qt.AlignCenter
             }
@@ -95,7 +95,7 @@ Kirigami.ScrollablePage {
                     }
                 }
 
-                Controls.Label {
+                QQC2.Label {
                     Layout.fillWidth: true
                     height: Math.max(implicitHeight, Kirigami.Units.iconSizes.smallMedium)
                     text: model.title
