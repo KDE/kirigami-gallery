@@ -18,7 +18,7 @@
  */
 
 import QtQuick 2.1
-import QtQuick.Controls 2.0 as Controls
+import QtQuick.Controls 2.0 as QQC2
 import QtQuick.Layouts 1.2
 import org.kde.kirigami 2.11 as Kirigami
 import "gallery"
@@ -37,7 +37,7 @@ Kirigami.ApplicationWindow {
         showHeaderWhenCollapsed: true
         header: RowLayout {
             Layout.fillWidth: true
-            Controls.ToolButton {
+            QQC2.ToolButton {
                 icon.name: "application-menu"
                 visible: globalDrawer.collapsible
                 checked: !globalDrawer.collapsed
@@ -202,7 +202,7 @@ Kirigami.ApplicationWindow {
             }
             ]
 
-        Controls.CheckBox {
+        QQC2.CheckBox {
             text: "Slow Animations"
             onCheckedChanged: {
                 if (checked) {
@@ -214,14 +214,14 @@ Kirigami.ApplicationWindow {
                 }
             }
         }
-        Controls.CheckBox {
+        QQC2.CheckBox {
             checked: true
             text: "Option 2"
         }
-        Controls.CheckBox {
+        QQC2.CheckBox {
             text: "Option 3"
         }
-        Controls.Slider {
+        QQC2.Slider {
             Layout.fillWidth: true
             value: 0.5
         }
@@ -236,7 +236,7 @@ Kirigami.ApplicationWindow {
             objectName: "settingsPage"
             Rectangle {
                 anchors.fill: parent
-                Controls.Button {
+                QQC2.Button {
                     anchors.centerIn: parent
                     text: "Remove Page"
                     onClicked: applicationWindow().pageStack.pop();

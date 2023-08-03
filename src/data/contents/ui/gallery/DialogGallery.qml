@@ -18,16 +18,16 @@
  */
 
 import QtQuick 2.15
-import QtQuick.Controls 2.15 as Controls
+import QtQuick.Controls 2.15 as QQC2
 import QtQuick.Layouts 1.2
 import org.kde.kirigami 2.19 as Kirigami
 
-import "components"
+import "components" as KGC
 
 Kirigami.ScrollablePage {
     id: page
     Layout.fillWidth: true
-    //implicitWidth: Units.gridUnit * (Math.floor(Math.random() * 35) + 10)
+    //implicitWidth: Kirigami.Units.gridUnit * (Math.floor(Math.random() * 35) + 10)
 
     title: qsTr("Dialogs")
 
@@ -47,7 +47,7 @@ Kirigami.ScrollablePage {
         }
     }
 
-    InfoSheet {
+    KGC.InfoSheet {
         id: sheet
 
         page: page
@@ -87,7 +87,7 @@ Kirigami.ScrollablePage {
             }
         ]
         
-        Controls.TextField {
+        QQC2.TextField {
             placeholderText: qsTr("Folder name...")
         }
     }
@@ -113,7 +113,7 @@ Kirigami.ScrollablePage {
                         append({"name": qsTr("1 hour"), "value": 60});
                     }
                 }
-                delegate: Controls.RadioDelegate {
+                delegate: QQC2.RadioDelegate {
                     Layout.fillWidth: true
                     topPadding: Kirigami.Units.smallSpacing * 2
                     bottomPadding: Kirigami.Units.smallSpacing * 2
@@ -141,7 +141,7 @@ Kirigami.ScrollablePage {
             leftMargin: 0; rightMargin: 0; topMargin: 0; bottomMargin: 0;
             
             model: 100
-            delegate: Controls.RadioDelegate {
+            delegate: QQC2.RadioDelegate {
                 topPadding: Kirigami.Units.smallSpacing * 2
                 bottomPadding: Kirigami.Units.smallSpacing * 2
                 implicitWidth: listView.width
@@ -197,32 +197,32 @@ Kirigami.ScrollablePage {
         width: page.width
         spacing: Kirigami.Units.smallSpacing
 
-        Controls.Button {
+        QQC2.Button {
             text: qsTr("Prompt Dialog")
             Layout.alignment: Qt.AlignHCenter
             onClicked: promptDialog.open()
         }
-        Controls.Button {
+        QQC2.Button {
             text: qsTr("Text Prompt Dialog")
             Layout.alignment: Qt.AlignHCenter
             onClicked: textPromptDialog.open()
         }
-        Controls.Button {
+        QQC2.Button {
             text: qsTr("Selection Dialog")
             Layout.alignment: Qt.AlignHCenter
             onClicked: selectDialog.open()
         }
-        Controls.Button {
+        QQC2.Button {
             text: qsTr("Scrollable Dialog")
             Layout.alignment: Qt.AlignHCenter
             onClicked: scrollableDialog.open()
         }
-        Controls.Button {
+        QQC2.Button {
             text: qsTr("No Footer Dialog")
             Layout.alignment: Qt.AlignHCenter
             onClicked: noFooterDialog.open()
         }
-        Controls.Button {
+        QQC2.Button {
             text: qsTr("Menu Dialog")
             Layout.alignment: Qt.AlignHCenter
             onClicked: menuDialog.open()

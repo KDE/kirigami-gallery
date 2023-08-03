@@ -19,10 +19,10 @@
 
 import QtQuick 2.0
 import QtQuick.Layouts 1.2
-import org.kde.kirigami 2.4
-import QtQuick.Controls 2.0 as Controls
+import org.kde.kirigami 2.4 as Kirigami
+import QtQuick.Controls 2.0 as QQC2
 
-ScrollablePage {
+Kirigami.ScrollablePage {
     id: page
     title: "Colors"
 
@@ -77,47 +77,47 @@ ScrollablePage {
     }
 
     Column {
-        Heading {
+        Kirigami.Heading {
             text: "Colors by Theme.colorSet"
         }
         Repeater {
-            model: Theme.Header + 1
+            model: Kirigami.Theme.Header + 1
             delegate: Column {
                 width: parent.width
-                Heading {
+                Kirigami.Heading {
                     level: 2
                     text: setName(modelData)
                 }
                 Flow {
                     id: view
-                    Theme.colorSet: modelData
-                    Theme.inherit: false
+                    Kirigami.Theme.colorSet: modelData
+                    Kirigami.Theme.inherit: false
                     anchors.horizontalCenter: parent.horizontalCenter
-                    width: Math.floor(parent.width / (Units.gridUnit * 9)) * (Units.gridUnit * 9)
+                    width: Math.floor(parent.width / (Kirigami.Units.gridUnit * 9)) * (Kirigami.Units.gridUnit * 9)
                     Repeater {
                         model: page.getkeys()
 
                         delegate: ColumnLayout {
-                            width: Units.gridUnit * 9
+                            width: Kirigami.Units.gridUnit * 9
                             Rectangle {
                                 Layout.alignment: Qt.AlignHCenter
-                                width: Units.gridUnit * 7
-                                height: Units.gridUnit * 3
-                                color: Theme[modelData]
+                                width: Kirigami.Units.gridUnit * 7
+                                height: Kirigami.Units.gridUnit * 3
+                                color: Kirigami.Theme[modelData]
                                 border {
                                     width: 1
                                     color: "black"
                                 }
                             }
-                            Controls.Label {
-                                Theme.colorSet: Theme.Window
-                                Theme.inherit: false
+                            QQC2.Label {
+                                Kirigami.Theme.colorSet: Kirigami.Theme.Window
+                                Kirigami.Theme.inherit: false
                                 Layout.alignment: Qt.AlignVCenter | Qt.AlignHCenter
                                 text: modelData
                             }
                             Item {
                                 width: 1
-                                height: Units.smallSpacing
+                                height: Kirigami.Units.smallSpacing
                             }
                         }
                     }

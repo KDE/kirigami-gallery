@@ -18,11 +18,11 @@
  */
 
 import QtQuick 2.6
-import QtQuick.Controls 2.0 as Controls
+import QtQuick.Controls 2.0 as QQC2
 import QtQuick.Layouts 1.2
 import org.kde.kirigami 2.4 as Kirigami
 
-import "components"
+import "components" as KGC
 
 Kirigami.ScrollablePage {
     id: page
@@ -45,7 +45,7 @@ Kirigami.ScrollablePage {
         }
     }
 
-    InfoSheet {
+    KGC.InfoSheet {
         id: sheet
 
         page: page
@@ -87,13 +87,13 @@ Kirigami.ScrollablePage {
                         Kirigami.Separator {
                             Layout.fillWidth: true
                         }
-                        Controls.Label {
+                        QQC2.Label {
                             Layout.fillWidth: true
                             wrapMode: Text.WordWrap
                             text: qsTr("Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id risus id augue euismod accumsan.")
                         }
                     }
-                    Controls.Button {
+                    QQC2.Button {
                         Layout.alignment: Qt.AlignRight|Qt.AlignVCenter
                         Layout.columnSpan: 2 
                         text: qsTr("Install")
