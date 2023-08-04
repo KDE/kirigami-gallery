@@ -20,7 +20,7 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Lokalize 20.12.0\n"
 
-#: contents/ui/gallery/ActionToolBarGallery.qml:35
+#: contents/ui/gallery/ActionToolBarGallery.qml:34
 msgctxt "ActionToolBarGallery|"
 msgid "Info"
 msgstr "Informació"
@@ -35,22 +35,22 @@ msgctxt "CardsGridViewGallery|"
 msgid "Info"
 msgstr "Informació"
 
-#: contents/ui/gallery/CardsLayoutGallery.qml:30
+#: contents/ui/gallery/CardsLayoutGallery.qml:29
 msgctxt "CardsLayoutGallery|"
 msgid "Cards Layout"
 msgstr "Disposició de les targetes"
 
-#: contents/ui/gallery/CardsLayoutGallery.qml:34
+#: contents/ui/gallery/CardsLayoutGallery.qml:33
 msgctxt "CardsLayoutGallery|"
 msgid "Info"
 msgstr "Informació"
 
-#: contents/ui/gallery/CardsLayoutGallery.qml:53
+#: contents/ui/gallery/CardsLayoutGallery.qml:52
 msgctxt "CardsLayoutGallery|"
 msgid "AbstractCard"
 msgstr "Targeta abstracta"
 
-#: contents/ui/gallery/CardsLayoutGallery.qml:58
+#: contents/ui/gallery/CardsLayoutGallery.qml:57
 msgctxt "CardsLayoutGallery|"
 msgid ""
 "An AbstractCard is the simplest form of card. It's just a rectangle with a "
@@ -64,7 +64,7 @@ msgstr ""
 "este cas, una «Kirigami.Heading» serà la seua capçalera i un «Label» amb "
 "«WordWrap» serà «contentItem»."
 
-#: contents/ui/gallery/CardsLayoutGallery.qml:66
+#: contents/ui/gallery/CardsLayoutGallery.qml:65
 msgctxt "CardsLayoutGallery|"
 msgid ""
 "This is an AbstractCard with a Label with WordWrap in it and nothing else, "
@@ -82,33 +82,33 @@ msgstr ""
 "establir-ho com a cert si planegeu fer que la targeta reaccione sobre "
 "qualsevol tipus de clic."
 
-#: contents/ui/gallery/CardsLayoutGallery.qml:68
+#: contents/ui/gallery/CardsLayoutGallery.qml:67
 msgctxt "CardsLayoutGallery|"
 msgid "Card clicked"
 msgstr "Targeta clicada"
 
-#: contents/ui/gallery/CardsLayoutGallery.qml:74
-#: contents/ui/gallery/CardsLayoutGallery.qml:96
-#: contents/ui/gallery/CardsLayoutGallery.qml:134
-#: contents/ui/gallery/CardsLayoutGallery.qml:208
+#: contents/ui/gallery/CardsLayoutGallery.qml:73
+#: contents/ui/gallery/CardsLayoutGallery.qml:95
+#: contents/ui/gallery/CardsLayoutGallery.qml:133
+#: contents/ui/gallery/CardsLayoutGallery.qml:207
 msgctxt "CardsLayoutGallery|"
 msgid "Action1"
 msgstr "Acció1"
 
-#: contents/ui/gallery/CardsLayoutGallery.qml:78
-#: contents/ui/gallery/CardsLayoutGallery.qml:100
-#: contents/ui/gallery/CardsLayoutGallery.qml:138
-#: contents/ui/gallery/CardsLayoutGallery.qml:212
+#: contents/ui/gallery/CardsLayoutGallery.qml:77
+#: contents/ui/gallery/CardsLayoutGallery.qml:99
+#: contents/ui/gallery/CardsLayoutGallery.qml:137
+#: contents/ui/gallery/CardsLayoutGallery.qml:211
 msgctxt "CardsLayoutGallery|"
 msgid "Action2"
 msgstr "Acció2"
 
-#: contents/ui/gallery/CardsLayoutGallery.qml:84
+#: contents/ui/gallery/CardsLayoutGallery.qml:83
 msgctxt "CardsLayoutGallery|"
 msgid "Card"
 msgstr "Targeta"
 
-#: contents/ui/gallery/CardsLayoutGallery.qml:88
+#: contents/ui/gallery/CardsLayoutGallery.qml:87
 msgctxt "CardsLayoutGallery|"
 msgid ""
 "This is an instance of the Card type: it can optionally have an image, a "
@@ -121,27 +121,27 @@ msgstr ""
 "«banner», una o totes les propietats juntes. Una «Card» també pot tindre "
 "accions (Actions) que apareixeran al peu de pàgina."
 
-#: contents/ui/gallery/CardsLayoutGallery.qml:104
+#: contents/ui/gallery/CardsLayoutGallery.qml:103
 msgctxt "CardsLayoutGallery|"
 msgid "Action3"
 msgstr "Acció3"
 
-#: contents/ui/gallery/CardsLayoutGallery.qml:108
+#: contents/ui/gallery/CardsLayoutGallery.qml:107
 msgctxt "CardsLayoutGallery|"
 msgid "Action4"
 msgstr "Acció4"
 
-#: contents/ui/gallery/CardsLayoutGallery.qml:112
+#: contents/ui/gallery/CardsLayoutGallery.qml:111
 msgctxt "CardsLayoutGallery|"
 msgid "Action5"
 msgstr "Acció5"
 
-#: contents/ui/gallery/CardsLayoutGallery.qml:116
+#: contents/ui/gallery/CardsLayoutGallery.qml:115
 msgctxt "CardsLayoutGallery|"
 msgid "Action6"
 msgstr "Acció6"
 
-#: contents/ui/gallery/CardsLayoutGallery.qml:127
+#: contents/ui/gallery/CardsLayoutGallery.qml:126
 msgctxt "CardsLayoutGallery|"
 msgid ""
 "The title can be aligned to all corners or centered with a combination of Qt."
@@ -152,12 +152,12 @@ msgstr ""
 "d'etiquetes «Qt.Alignment».\n"
 "Quan hi ha massa accions, llavors es transferiran a un menú de desbordament."
 
-#: contents/ui/gallery/CardsLayoutGallery.qml:142
+#: contents/ui/gallery/CardsLayoutGallery.qml:141
 msgctxt "CardsLayoutGallery|"
 msgid "Action always hidden"
 msgstr "Acció sempre oculta"
 
-#: contents/ui/gallery/CardsLayoutGallery.qml:153
+#: contents/ui/gallery/CardsLayoutGallery.qml:152
 msgctxt "CardsLayoutGallery|"
 msgid ""
 "The Banner can contain only the title and/or an icon, even if there is no "
@@ -166,7 +166,7 @@ msgstr ""
 "«Banner» només pot contindre el títol i/o una icona, fins i tot si no hi ha "
 "cap imatge de bàner."
 
-#: contents/ui/gallery/CardsLayoutGallery.qml:176
+#: contents/ui/gallery/CardsLayoutGallery.qml:175
 msgctxt "CardsLayoutGallery|"
 msgid ""
 "It's possible to have custom contents overlapping the image, for cases where "
@@ -175,7 +175,7 @@ msgstr ""
 "És possible que els continguts a mida se superposen en la imatge, per als "
 "casos en què cal un disseny més personalitzat."
 
-#: contents/ui/gallery/CardsLayoutGallery.qml:191
+#: contents/ui/gallery/CardsLayoutGallery.qml:190
 msgctxt "CardsLayoutGallery|"
 msgid ""
 "It's possible to customize the look and feel for Cards too, if the no "
@@ -193,17 +193,17 @@ msgstr ""
 "la propietat del bàner no s'hauran d'emprar. Si s'utilitza un peu de pàgina "
 "personalitzat (el qual es desaconsella), les accions no s'hauran d'utilitzar."
 
-#: contents/ui/gallery/CardsLayoutGallery.qml:196
+#: contents/ui/gallery/CardsLayoutGallery.qml:195
 msgctxt "CardsLayoutGallery|"
 msgid "Custom footer"
 msgstr "Peu de pàgina personalitzat"
 
-#: contents/ui/gallery/CardsLayoutGallery.qml:199
+#: contents/ui/gallery/CardsLayoutGallery.qml:198
 msgctxt "CardsLayoutGallery|"
 msgid "Ok"
 msgstr "D'acord"
 
-#: contents/ui/gallery/CardsLayoutGallery.qml:222
+#: contents/ui/gallery/CardsLayoutGallery.qml:221
 msgctxt "CardsLayoutGallery|"
 msgid ""
 "A card can optionally have horizontal orientation.\n"
@@ -218,22 +218,22 @@ msgstr ""
 "Si necessiteu posar-la en una «CardsLayout», tindrà de manera predeterminada "
 "una «columnSpan» de 2 (el qual es pot substituir)."
 
-#: contents/ui/gallery/CardsListViewGallery.qml:30
+#: contents/ui/gallery/CardsListViewGallery.qml:29
 msgctxt "CardsListViewGallery|"
 msgid "List view of simple cards"
 msgstr "Vista de llista de targetes senzilles"
 
-#: contents/ui/gallery/CardsListViewGallery.qml:34
+#: contents/ui/gallery/CardsListViewGallery.qml:33
 msgctxt "CardsListViewGallery|"
 msgid "Info"
 msgstr "Informació"
 
-#: contents/ui/gallery/CardsListViewGallery.qml:85
+#: contents/ui/gallery/CardsListViewGallery.qml:84
 msgctxt "CardsListViewGallery|"
 msgid "Product "
 msgstr "Producte"
 
-#: contents/ui/gallery/CardsListViewGallery.qml:93
+#: contents/ui/gallery/CardsListViewGallery.qml:92
 msgctxt "CardsListViewGallery|"
 msgid ""
 "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id risus id "
@@ -242,47 +242,47 @@ msgstr ""
 "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id risus id "
 "augue euismod accumsan."
 
-#: contents/ui/gallery/CardsListViewGallery.qml:99
+#: contents/ui/gallery/CardsListViewGallery.qml:98
 msgctxt "CardsListViewGallery|"
 msgid "Install"
 msgstr "Instal·la"
 
-#: contents/ui/gallery/ChipGallery.qml:32
+#: contents/ui/gallery/ChipGallery.qml:30
 msgctxt "ChipGallery|"
 msgid "Chips"
 msgstr "Chips"
 
-#: contents/ui/gallery/ChipGallery.qml:35
+#: contents/ui/gallery/ChipGallery.qml:33
 msgctxt "ChipGallery|"
 msgid "Info"
 msgstr "Informació"
 
-#: contents/ui/gallery/ChipGallery.qml:65
+#: contents/ui/gallery/ChipGallery.qml:63
 msgctxt "ChipGallery|"
 msgid "Closable Chips"
 msgstr "Chips que es poden tancar"
 
-#: contents/ui/gallery/ChipGallery.qml:95
+#: contents/ui/gallery/ChipGallery.qml:93
 msgctxt "ChipGallery|"
 msgid "Informative Chips"
 msgstr "Chips informatius"
 
-#: contents/ui/gallery/ChipGallery.qml:131
+#: contents/ui/gallery/ChipGallery.qml:129
 msgctxt "ChipGallery|"
 msgid "Checkable Chips"
 msgstr "Chips que es poden marcar"
 
-#: contents/ui/gallery/components/InfoSheet.qml:48
+#: contents/ui/gallery/components/InfoSheet.qml:47
 msgctxt "InfoSheet|"
 msgid "HIG..."
 msgstr "HIG..."
 
-#: contents/ui/gallery/components/InfoSheet.qml:53
+#: contents/ui/gallery/components/InfoSheet.qml:52
 msgctxt "InfoSheet|"
 msgid "Source code..."
 msgstr "Codi font..."
 
-#: contents/ui/gallery/components/InfoSheet.qml:58
+#: contents/ui/gallery/components/InfoSheet.qml:57
 msgctxt "InfoSheet|"
 msgid "API..."
 msgstr "API..."
@@ -559,17 +559,17 @@ msgctxt "DrawerGallery|"
 msgid "Modal Top Drawer"
 msgstr "Calaix superior modal"
 
-#: contents/ui/gallery/FormLayoutGallery.qml:15
+#: contents/ui/gallery/FormLayoutGallery.qml:13
 msgctxt "FormLayoutGallery|"
 msgid "Info"
 msgstr "Informació"
 
-#: contents/ui/gallery/FormLayoutGallery.qml:79
+#: contents/ui/gallery/FormLayoutGallery.qml:77
 msgctxt "FormLayoutGallery|"
 msgid "Expanding Button"
 msgstr "Botons d'expansió"
 
-#: contents/ui/gallery/FormLayoutGallery.qml:129
+#: contents/ui/gallery/FormLayoutGallery.qml:127
 msgctxt "FormLayoutGallery|"
 msgid "Twin Layout:"
 msgstr "Disposició bessona:"
@@ -730,36 +730,36 @@ msgctxt "MultipleColumnsGallery|"
 msgid "Pin page"
 msgstr "Fixa la pàgina"
 
-#: contents/ui/gallery/OverlaySheetGallery.qml:32
+#: contents/ui/gallery/OverlaySheetGallery.qml:31
 msgctxt "OverlaySheetGallery|"
 msgid "Overlay Sheets"
 msgstr "Fulls superposats"
 
-#: contents/ui/gallery/OverlaySheetGallery.qml:36
+#: contents/ui/gallery/OverlaySheetGallery.qml:35
 msgctxt "OverlaySheetGallery|"
 msgid "Info"
 msgstr "Informació"
 
-#: contents/ui/gallery/OverlaySheetGallery.qml:85
+#: contents/ui/gallery/OverlaySheetGallery.qml:84
 msgctxt "OverlaySheetGallery|"
 msgid "Close"
 msgstr "Tanca"
 
-#: contents/ui/gallery/OverlaySheetGallery.qml:95
-#: contents/ui/gallery/OverlaySheetGallery.qml:163
-#: contents/ui/gallery/OverlaySheetGallery.qml:186
+#: contents/ui/gallery/OverlaySheetGallery.qml:94
+#: contents/ui/gallery/OverlaySheetGallery.qml:162
+#: contents/ui/gallery/OverlaySheetGallery.qml:185
 msgctxt "OverlaySheetGallery|"
 msgid "Title"
 msgstr "Títol"
 
-#: contents/ui/gallery/OverlaySheetGallery.qml:99
-#: contents/ui/gallery/OverlaySheetGallery.qml:167
-#: contents/ui/gallery/OverlaySheetGallery.qml:190
+#: contents/ui/gallery/OverlaySheetGallery.qml:98
+#: contents/ui/gallery/OverlaySheetGallery.qml:166
+#: contents/ui/gallery/OverlaySheetGallery.qml:189
 msgctxt "OverlaySheetGallery|"
 msgid "Footer:"
 msgstr "Peu de pàgina:"
 
-#: contents/ui/gallery/OverlaySheetGallery.qml:110
+#: contents/ui/gallery/OverlaySheetGallery.qml:109
 msgctxt "OverlaySheetGallery|"
 msgid ""
 "A sheet can have optional header and footer items which will not scroll away "
@@ -768,7 +768,7 @@ msgstr ""
 "Un full pot contindre elements de capçalera i de peu de pàgina que no es "
 "desplacen quan es desborde el full."
 
-#: contents/ui/gallery/OverlaySheetGallery.qml:129
+#: contents/ui/gallery/OverlaySheetGallery.qml:128
 msgctxt "OverlaySheetGallery|"
 msgid ""
 "A sheet will take the maximum available width in the page by default.\n"
@@ -780,7 +780,7 @@ msgstr ""
 "Tanmateix, si l'element principal establix una «implicitWidth» o una «Layout."
 "preferredWidth», el full no creixerà en amplària més que un valor indicat."
 
-#: contents/ui/gallery/OverlaySheetGallery.qml:150
+#: contents/ui/gallery/OverlaySheetGallery.qml:149
 msgctxt "OverlaySheetGallery|"
 msgid ""
 "A sheet by default will be over a single page, even if the app is in wide "
@@ -794,85 +794,85 @@ msgstr ""
 "part superior de tota la finestra de l'aplicació.\n"
 "En este cas, el full també cobrirà els botons d'acció de la pàgina."
 
-#: contents/ui/gallery/OverlaySheetGallery.qml:178
+#: contents/ui/gallery/OverlaySheetGallery.qml:177
 msgctxt "OverlaySheetGallery|"
 msgid "Item in sheet "
 msgstr "Element al full"
 
-#: contents/ui/gallery/OverlaySheetGallery.qml:222
+#: contents/ui/gallery/OverlaySheetGallery.qml:221
 msgctxt "OverlaySheetGallery|"
 msgid "Very Long Sheet"
 msgstr "Full molt llarg"
 
-#: contents/ui/gallery/SelectionControlsGallery.qml:32
+#: contents/ui/gallery/SelectionControlsGallery.qml:31
 msgctxt "SelectionControlsGallery|"
 msgid "Info"
 msgstr "Informació"
 
-#: contents/ui/gallery/SelectionControlsGallery.qml:39
+#: contents/ui/gallery/SelectionControlsGallery.qml:38
 msgctxt "SelectionControlsGallery|"
 msgid "Selection Controls"
 msgstr "Controls de la selecció"
 
-#: contents/ui/gallery/SelectionControlsGallery.qml:65
+#: contents/ui/gallery/SelectionControlsGallery.qml:64
 msgctxt "SelectionControlsGallery|"
 msgid "Checkable List Items"
 msgstr "Elements de llista que es poden marcar"
 
-#: contents/ui/gallery/SelectionControlsGallery.qml:72
-#: contents/ui/gallery/SelectionControlsGallery.qml:95
-#: contents/ui/gallery/SelectionControlsGallery.qml:118
+#: contents/ui/gallery/SelectionControlsGallery.qml:71
+#: contents/ui/gallery/SelectionControlsGallery.qml:94
+#: contents/ui/gallery/SelectionControlsGallery.qml:117
 #, qt-format
 msgctxt "SelectionControlsGallery|"
 msgid "Delegate %1"
 msgstr "Delegat %1"
 
-#: contents/ui/gallery/SelectionControlsGallery.qml:88
-#: contents/ui/gallery/SelectionControlsGallery.qml:111
+#: contents/ui/gallery/SelectionControlsGallery.qml:87
+#: contents/ui/gallery/SelectionControlsGallery.qml:110
 msgctxt "SelectionControlsGallery|"
 msgid "Radio List Items"
 msgstr "Elements d'una llista d'opcions"
 
-#: contents/ui/gallery/SelectionControlsGallery.qml:127
+#: contents/ui/gallery/SelectionControlsGallery.qml:126
 msgctxt "SelectionControlsGallery|"
 msgid "Checkboxes"
 msgstr "Caselles de selecció"
 
-#: contents/ui/gallery/SelectionControlsGallery.qml:131
-#: contents/ui/gallery/SelectionControlsGallery.qml:149
-#: contents/ui/gallery/SelectionControlsGallery.qml:167
+#: contents/ui/gallery/SelectionControlsGallery.qml:130
+#: contents/ui/gallery/SelectionControlsGallery.qml:148
+#: contents/ui/gallery/SelectionControlsGallery.qml:166
 msgctxt "SelectionControlsGallery|"
 msgid "Item selected"
 msgstr "Element seleccionat"
 
-#: contents/ui/gallery/SelectionControlsGallery.qml:135
-#: contents/ui/gallery/SelectionControlsGallery.qml:153
-#: contents/ui/gallery/SelectionControlsGallery.qml:171
+#: contents/ui/gallery/SelectionControlsGallery.qml:134
+#: contents/ui/gallery/SelectionControlsGallery.qml:152
+#: contents/ui/gallery/SelectionControlsGallery.qml:170
 msgctxt "SelectionControlsGallery|"
 msgid "Item not selected"
 msgstr "Element sense seleccionar"
 
-#: contents/ui/gallery/SelectionControlsGallery.qml:139
+#: contents/ui/gallery/SelectionControlsGallery.qml:138
 msgctxt "SelectionControlsGallery|"
 msgid "Checkable List View"
 msgstr "Vista de llista que es pot marcar"
 
-#: contents/ui/gallery/SelectionControlsGallery.qml:145
+#: contents/ui/gallery/SelectionControlsGallery.qml:144
 msgctxt "SelectionControlsGallery|"
 msgid "Radio buttons"
 msgstr "Botons d'opció"
 
-#: contents/ui/gallery/SelectionControlsGallery.qml:158
+#: contents/ui/gallery/SelectionControlsGallery.qml:157
 msgctxt "SelectionControlsGallery|"
 msgid "Radio List View"
 msgstr "Vista de llista d'opcions"
 
-#: contents/ui/gallery/SelectionControlsGallery.qml:164
+#: contents/ui/gallery/SelectionControlsGallery.qml:163
 msgctxt "SelectionControlsGallery|"
 msgid "Switches"
 msgstr "Interruptors"
 
-#: contents/ui/gallery/SelectionControlsGallery.qml:175
+#: contents/ui/gallery/SelectionControlsGallery.qml:174
 msgctxt "SelectionControlsGallery|"
 msgid "Switch List View"
 msgstr "Vista de llista amb interruptors"

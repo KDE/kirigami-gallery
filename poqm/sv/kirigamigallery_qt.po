@@ -13,7 +13,7 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Lokalize 20.08.1\n"
 
-#: contents/ui/gallery/ActionToolBarGallery.qml:35
+#: contents/ui/gallery/ActionToolBarGallery.qml:34
 msgctxt "ActionToolBarGallery|"
 msgid "Info"
 msgstr "Information"
@@ -28,22 +28,22 @@ msgctxt "CardsGridViewGallery|"
 msgid "Info"
 msgstr "Information"
 
-#: contents/ui/gallery/CardsLayoutGallery.qml:30
+#: contents/ui/gallery/CardsLayoutGallery.qml:29
 msgctxt "CardsLayoutGallery|"
 msgid "Cards Layout"
 msgstr "Layout av Cards"
 
-#: contents/ui/gallery/CardsLayoutGallery.qml:34
+#: contents/ui/gallery/CardsLayoutGallery.qml:33
 msgctxt "CardsLayoutGallery|"
 msgid "Info"
 msgstr "Information"
 
-#: contents/ui/gallery/CardsLayoutGallery.qml:53
+#: contents/ui/gallery/CardsLayoutGallery.qml:52
 msgctxt "CardsLayoutGallery|"
 msgid "AbstractCard"
 msgstr "AbstractCard"
 
-#: contents/ui/gallery/CardsLayoutGallery.qml:58
+#: contents/ui/gallery/CardsLayoutGallery.qml:57
 msgctxt "CardsLayoutGallery|"
 msgid ""
 "An AbstractCard is the simplest form of card. It's just a rectangle with a "
@@ -56,7 +56,7 @@ msgstr ""
 "objekt tilldelade till egenskaperna Header och Footer. I detta fall är "
 "Kirigami.Heading dess sidhuvud och Label med WordWrap är contentItem."
 
-#: contents/ui/gallery/CardsLayoutGallery.qml:66
+#: contents/ui/gallery/CardsLayoutGallery.qml:65
 msgctxt "CardsLayoutGallery|"
 msgid ""
 "This is an AbstractCard with a Label with WordWrap in it and nothing else, "
@@ -73,33 +73,33 @@ msgstr ""
 "någon form av visuell återmatning. Det rekommenderas att ställa in den till "
 "true om du planerar att göra kortet mottagligt för någon form av klick."
 
-#: contents/ui/gallery/CardsLayoutGallery.qml:68
+#: contents/ui/gallery/CardsLayoutGallery.qml:67
 msgctxt "CardsLayoutGallery|"
 msgid "Card clicked"
 msgstr "Card klickat"
 
-#: contents/ui/gallery/CardsLayoutGallery.qml:74
-#: contents/ui/gallery/CardsLayoutGallery.qml:96
-#: contents/ui/gallery/CardsLayoutGallery.qml:134
-#: contents/ui/gallery/CardsLayoutGallery.qml:208
+#: contents/ui/gallery/CardsLayoutGallery.qml:73
+#: contents/ui/gallery/CardsLayoutGallery.qml:95
+#: contents/ui/gallery/CardsLayoutGallery.qml:133
+#: contents/ui/gallery/CardsLayoutGallery.qml:207
 msgctxt "CardsLayoutGallery|"
 msgid "Action1"
 msgstr "Åtgärd 1"
 
-#: contents/ui/gallery/CardsLayoutGallery.qml:78
-#: contents/ui/gallery/CardsLayoutGallery.qml:100
-#: contents/ui/gallery/CardsLayoutGallery.qml:138
-#: contents/ui/gallery/CardsLayoutGallery.qml:212
+#: contents/ui/gallery/CardsLayoutGallery.qml:77
+#: contents/ui/gallery/CardsLayoutGallery.qml:99
+#: contents/ui/gallery/CardsLayoutGallery.qml:137
+#: contents/ui/gallery/CardsLayoutGallery.qml:211
 msgctxt "CardsLayoutGallery|"
 msgid "Action2"
 msgstr "Åtgärd 2"
 
-#: contents/ui/gallery/CardsLayoutGallery.qml:84
+#: contents/ui/gallery/CardsLayoutGallery.qml:83
 msgctxt "CardsLayoutGallery|"
 msgid "Card"
 msgstr "Card"
 
-#: contents/ui/gallery/CardsLayoutGallery.qml:88
+#: contents/ui/gallery/CardsLayoutGallery.qml:87
 msgctxt "CardsLayoutGallery|"
 msgid ""
 "This is an instance of the Card type: it can optionally have an image, a "
@@ -111,27 +111,27 @@ msgstr ""
 "och en ikon tilldelad till gruppegenskapen banner, en eller alla egenskaper "
 "tillsammans. Ett Card kan också ha Actions som dyker upp i sidfoten."
 
-#: contents/ui/gallery/CardsLayoutGallery.qml:104
+#: contents/ui/gallery/CardsLayoutGallery.qml:103
 msgctxt "CardsLayoutGallery|"
 msgid "Action3"
 msgstr "Åtgärd 3"
 
-#: contents/ui/gallery/CardsLayoutGallery.qml:108
+#: contents/ui/gallery/CardsLayoutGallery.qml:107
 msgctxt "CardsLayoutGallery|"
 msgid "Action4"
 msgstr "Åtgärd 4"
 
-#: contents/ui/gallery/CardsLayoutGallery.qml:112
+#: contents/ui/gallery/CardsLayoutGallery.qml:111
 msgctxt "CardsLayoutGallery|"
 msgid "Action5"
 msgstr "Åtgärd 5"
 
-#: contents/ui/gallery/CardsLayoutGallery.qml:116
+#: contents/ui/gallery/CardsLayoutGallery.qml:115
 msgctxt "CardsLayoutGallery|"
 msgid "Action6"
 msgstr "Åtgärd 6"
 
-#: contents/ui/gallery/CardsLayoutGallery.qml:127
+#: contents/ui/gallery/CardsLayoutGallery.qml:126
 msgctxt "CardsLayoutGallery|"
 msgid ""
 "The title can be aligned to all corners or centered with a combination of Qt."
@@ -142,12 +142,12 @@ msgstr ""
 "Qt justeringsflaggor.\n"
 "När det finns för många åtgärder hamnar de i en överflödesmeny."
 
-#: contents/ui/gallery/CardsLayoutGallery.qml:142
+#: contents/ui/gallery/CardsLayoutGallery.qml:141
 msgctxt "CardsLayoutGallery|"
 msgid "Action always hidden"
 msgstr "Åtgärd alltid dold"
 
-#: contents/ui/gallery/CardsLayoutGallery.qml:153
+#: contents/ui/gallery/CardsLayoutGallery.qml:152
 msgctxt "CardsLayoutGallery|"
 msgid ""
 "The Banner can contain only the title and/or an icon, even if there is no "
@@ -156,7 +156,7 @@ msgstr ""
 "En Banner kan bara innehålla rubriken och/eller en ikon, även om det inte "
 "finns någon bild."
 
-#: contents/ui/gallery/CardsLayoutGallery.qml:176
+#: contents/ui/gallery/CardsLayoutGallery.qml:175
 msgctxt "CardsLayoutGallery|"
 msgid ""
 "It's possible to have custom contents overlapping the image, for cases where "
@@ -165,7 +165,7 @@ msgstr ""
 "Det är möjligt att ha eget innehåll som överlappar bilden, i fall då en mer "
 "personlig design behövs."
 
-#: contents/ui/gallery/CardsLayoutGallery.qml:191
+#: contents/ui/gallery/CardsLayoutGallery.qml:190
 msgctxt "CardsLayoutGallery|"
 msgid ""
 "It's possible to customize the look and feel for Cards too, if the no "
@@ -182,17 +182,17 @@ msgstr ""
 "rubriken och ikonen i egenskapen banner användas. Om en egen sidfot används "
 "(vilket avråds från), ska åtgärder inte användas."
 
-#: contents/ui/gallery/CardsLayoutGallery.qml:196
+#: contents/ui/gallery/CardsLayoutGallery.qml:195
 msgctxt "CardsLayoutGallery|"
 msgid "Custom footer"
 msgstr "Egen sidfot"
 
-#: contents/ui/gallery/CardsLayoutGallery.qml:199
+#: contents/ui/gallery/CardsLayoutGallery.qml:198
 msgctxt "CardsLayoutGallery|"
 msgid "Ok"
 msgstr "Ok"
 
-#: contents/ui/gallery/CardsLayoutGallery.qml:222
+#: contents/ui/gallery/CardsLayoutGallery.qml:221
 msgctxt "CardsLayoutGallery|"
 msgid ""
 "A card can optionally have horizontal orientation.\n"
@@ -207,22 +207,22 @@ msgstr ""
 "Om du behöver placera det i en CardsLayout, har det normalt columnSpan 2 "
 "(vilket kan överskridas)."
 
-#: contents/ui/gallery/CardsListViewGallery.qml:30
+#: contents/ui/gallery/CardsListViewGallery.qml:29
 msgctxt "CardsListViewGallery|"
 msgid "List view of simple cards"
 msgstr "Listvy av enkla kort"
 
-#: contents/ui/gallery/CardsListViewGallery.qml:34
+#: contents/ui/gallery/CardsListViewGallery.qml:33
 msgctxt "CardsListViewGallery|"
 msgid "Info"
 msgstr "Information"
 
-#: contents/ui/gallery/CardsListViewGallery.qml:85
+#: contents/ui/gallery/CardsListViewGallery.qml:84
 msgctxt "CardsListViewGallery|"
 msgid "Product "
 msgstr "Produkt"
 
-#: contents/ui/gallery/CardsListViewGallery.qml:93
+#: contents/ui/gallery/CardsListViewGallery.qml:92
 msgctxt "CardsListViewGallery|"
 msgid ""
 "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id risus id "
@@ -234,47 +234,47 @@ msgstr ""
 "upprätthållande. Träutensilierna i ett tryckeri äro ingalunda en oviktig "
 "faktor, för trevnadens ordningens och dock är det icke sällan."
 
-#: contents/ui/gallery/CardsListViewGallery.qml:99
+#: contents/ui/gallery/CardsListViewGallery.qml:98
 msgctxt "CardsListViewGallery|"
 msgid "Install"
 msgstr "Installera"
 
-#: contents/ui/gallery/ChipGallery.qml:32
+#: contents/ui/gallery/ChipGallery.qml:30
 msgctxt "ChipGallery|"
 msgid "Chips"
 msgstr "Chips"
 
-#: contents/ui/gallery/ChipGallery.qml:35
+#: contents/ui/gallery/ChipGallery.qml:33
 msgctxt "ChipGallery|"
 msgid "Info"
 msgstr "Information"
 
-#: contents/ui/gallery/ChipGallery.qml:65
+#: contents/ui/gallery/ChipGallery.qml:63
 msgctxt "ChipGallery|"
 msgid "Closable Chips"
 msgstr "Stängbara chips"
 
-#: contents/ui/gallery/ChipGallery.qml:95
+#: contents/ui/gallery/ChipGallery.qml:93
 msgctxt "ChipGallery|"
 msgid "Informative Chips"
 msgstr "Informativa chips"
 
-#: contents/ui/gallery/ChipGallery.qml:131
+#: contents/ui/gallery/ChipGallery.qml:129
 msgctxt "ChipGallery|"
 msgid "Checkable Chips"
 msgstr "Markeringsbara chips"
 
-#: contents/ui/gallery/components/InfoSheet.qml:48
+#: contents/ui/gallery/components/InfoSheet.qml:47
 msgctxt "InfoSheet|"
 msgid "HIG..."
 msgstr "Riktlinjer för användargränssnitt..."
 
-#: contents/ui/gallery/components/InfoSheet.qml:53
+#: contents/ui/gallery/components/InfoSheet.qml:52
 msgctxt "InfoSheet|"
 msgid "Source code..."
 msgstr "Källkod..."
 
-#: contents/ui/gallery/components/InfoSheet.qml:58
+#: contents/ui/gallery/components/InfoSheet.qml:57
 msgctxt "InfoSheet|"
 msgid "API..."
 msgstr "Programmeringsgränssnitt..."
@@ -549,17 +549,17 @@ msgctxt "DrawerGallery|"
 msgid "Modal Top Drawer"
 msgstr "Blockerade övre låda"
 
-#: contents/ui/gallery/FormLayoutGallery.qml:15
+#: contents/ui/gallery/FormLayoutGallery.qml:13
 msgctxt "FormLayoutGallery|"
 msgid "Info"
 msgstr "Information"
 
-#: contents/ui/gallery/FormLayoutGallery.qml:79
+#: contents/ui/gallery/FormLayoutGallery.qml:77
 msgctxt "FormLayoutGallery|"
 msgid "Expanding Button"
 msgstr "Expanderade knapp"
 
-#: contents/ui/gallery/FormLayoutGallery.qml:129
+#: contents/ui/gallery/FormLayoutGallery.qml:127
 msgctxt "FormLayoutGallery|"
 msgid "Twin Layout:"
 msgstr "Dubbel layout:"
@@ -719,36 +719,36 @@ msgctxt "MultipleColumnsGallery|"
 msgid "Pin page"
 msgstr "Fäst upp sida"
 
-#: contents/ui/gallery/OverlaySheetGallery.qml:32
+#: contents/ui/gallery/OverlaySheetGallery.qml:31
 msgctxt "OverlaySheetGallery|"
 msgid "Overlay Sheets"
 msgstr "Överlagringsblad"
 
-#: contents/ui/gallery/OverlaySheetGallery.qml:36
+#: contents/ui/gallery/OverlaySheetGallery.qml:35
 msgctxt "OverlaySheetGallery|"
 msgid "Info"
 msgstr "Information"
 
-#: contents/ui/gallery/OverlaySheetGallery.qml:85
+#: contents/ui/gallery/OverlaySheetGallery.qml:84
 msgctxt "OverlaySheetGallery|"
 msgid "Close"
 msgstr "Stäng"
 
-#: contents/ui/gallery/OverlaySheetGallery.qml:95
-#: contents/ui/gallery/OverlaySheetGallery.qml:163
-#: contents/ui/gallery/OverlaySheetGallery.qml:186
+#: contents/ui/gallery/OverlaySheetGallery.qml:94
+#: contents/ui/gallery/OverlaySheetGallery.qml:162
+#: contents/ui/gallery/OverlaySheetGallery.qml:185
 msgctxt "OverlaySheetGallery|"
 msgid "Title"
 msgstr "Rubrik"
 
-#: contents/ui/gallery/OverlaySheetGallery.qml:99
-#: contents/ui/gallery/OverlaySheetGallery.qml:167
-#: contents/ui/gallery/OverlaySheetGallery.qml:190
+#: contents/ui/gallery/OverlaySheetGallery.qml:98
+#: contents/ui/gallery/OverlaySheetGallery.qml:166
+#: contents/ui/gallery/OverlaySheetGallery.qml:189
 msgctxt "OverlaySheetGallery|"
 msgid "Footer:"
 msgstr "Sidfot:"
 
-#: contents/ui/gallery/OverlaySheetGallery.qml:110
+#: contents/ui/gallery/OverlaySheetGallery.qml:109
 msgctxt "OverlaySheetGallery|"
 msgid ""
 "A sheet can have optional header and footer items which will not scroll away "
@@ -757,7 +757,7 @@ msgstr ""
 "Ett blad kan ha valfria sidhuvud- och sidfotsobjekt, som inte rullas bort "
 "när bladet blir överfyllt."
 
-#: contents/ui/gallery/OverlaySheetGallery.qml:129
+#: contents/ui/gallery/OverlaySheetGallery.qml:128
 msgctxt "OverlaySheetGallery|"
 msgid ""
 "A sheet will take the maximum available width in the page by default.\n"
@@ -768,7 +768,7 @@ msgstr ""
 "Om huvudobjektet dock anger implicitWidth eller Layout.preferredWidth, "
 "utökas inte bladets bredd mer än ett sådant angivet värde."
 
-#: contents/ui/gallery/OverlaySheetGallery.qml:150
+#: contents/ui/gallery/OverlaySheetGallery.qml:149
 msgctxt "OverlaySheetGallery|"
 msgid ""
 "A sheet by default will be over a single page, even if the app is in wide "
@@ -782,85 +782,85 @@ msgstr ""
 "programfönstret.\n"
 "I sådana fall täcker bladet också sidans åtgärdsknappar."
 
-#: contents/ui/gallery/OverlaySheetGallery.qml:178
+#: contents/ui/gallery/OverlaySheetGallery.qml:177
 msgctxt "OverlaySheetGallery|"
 msgid "Item in sheet "
 msgstr "Objekt på blad"
 
-#: contents/ui/gallery/OverlaySheetGallery.qml:222
+#: contents/ui/gallery/OverlaySheetGallery.qml:221
 msgctxt "OverlaySheetGallery|"
 msgid "Very Long Sheet"
 msgstr "Mycket långt blad"
 
-#: contents/ui/gallery/SelectionControlsGallery.qml:32
+#: contents/ui/gallery/SelectionControlsGallery.qml:31
 msgctxt "SelectionControlsGallery|"
 msgid "Info"
 msgstr "Information"
 
-#: contents/ui/gallery/SelectionControlsGallery.qml:39
+#: contents/ui/gallery/SelectionControlsGallery.qml:38
 msgctxt "SelectionControlsGallery|"
 msgid "Selection Controls"
 msgstr "Urvalskontroller"
 
-#: contents/ui/gallery/SelectionControlsGallery.qml:65
+#: contents/ui/gallery/SelectionControlsGallery.qml:64
 msgctxt "SelectionControlsGallery|"
 msgid "Checkable List Items"
 msgstr "Markeringsbara listobjekt"
 
-#: contents/ui/gallery/SelectionControlsGallery.qml:72
-#: contents/ui/gallery/SelectionControlsGallery.qml:95
-#: contents/ui/gallery/SelectionControlsGallery.qml:118
+#: contents/ui/gallery/SelectionControlsGallery.qml:71
+#: contents/ui/gallery/SelectionControlsGallery.qml:94
+#: contents/ui/gallery/SelectionControlsGallery.qml:117
 #, qt-format
 msgctxt "SelectionControlsGallery|"
 msgid "Delegate %1"
 msgstr "Delegera %1"
 
-#: contents/ui/gallery/SelectionControlsGallery.qml:88
-#: contents/ui/gallery/SelectionControlsGallery.qml:111
+#: contents/ui/gallery/SelectionControlsGallery.qml:87
+#: contents/ui/gallery/SelectionControlsGallery.qml:110
 msgctxt "SelectionControlsGallery|"
 msgid "Radio List Items"
 msgstr "Alternativlistobjekt"
 
-#: contents/ui/gallery/SelectionControlsGallery.qml:127
+#: contents/ui/gallery/SelectionControlsGallery.qml:126
 msgctxt "SelectionControlsGallery|"
 msgid "Checkboxes"
 msgstr "Kryssrutor"
 
-#: contents/ui/gallery/SelectionControlsGallery.qml:131
-#: contents/ui/gallery/SelectionControlsGallery.qml:149
-#: contents/ui/gallery/SelectionControlsGallery.qml:167
+#: contents/ui/gallery/SelectionControlsGallery.qml:130
+#: contents/ui/gallery/SelectionControlsGallery.qml:148
+#: contents/ui/gallery/SelectionControlsGallery.qml:166
 msgctxt "SelectionControlsGallery|"
 msgid "Item selected"
 msgstr "Objekt markerat"
 
-#: contents/ui/gallery/SelectionControlsGallery.qml:135
-#: contents/ui/gallery/SelectionControlsGallery.qml:153
-#: contents/ui/gallery/SelectionControlsGallery.qml:171
+#: contents/ui/gallery/SelectionControlsGallery.qml:134
+#: contents/ui/gallery/SelectionControlsGallery.qml:152
+#: contents/ui/gallery/SelectionControlsGallery.qml:170
 msgctxt "SelectionControlsGallery|"
 msgid "Item not selected"
 msgstr "Objekt ej markerat"
 
-#: contents/ui/gallery/SelectionControlsGallery.qml:139
+#: contents/ui/gallery/SelectionControlsGallery.qml:138
 msgctxt "SelectionControlsGallery|"
 msgid "Checkable List View"
 msgstr "Markeringsbar listvy"
 
-#: contents/ui/gallery/SelectionControlsGallery.qml:145
+#: contents/ui/gallery/SelectionControlsGallery.qml:144
 msgctxt "SelectionControlsGallery|"
 msgid "Radio buttons"
 msgstr "Alternativknappar"
 
-#: contents/ui/gallery/SelectionControlsGallery.qml:158
+#: contents/ui/gallery/SelectionControlsGallery.qml:157
 msgctxt "SelectionControlsGallery|"
 msgid "Radio List View"
 msgstr "Listvy med alternativknappar"
 
-#: contents/ui/gallery/SelectionControlsGallery.qml:164
+#: contents/ui/gallery/SelectionControlsGallery.qml:163
 msgctxt "SelectionControlsGallery|"
 msgid "Switches"
 msgstr "Omkopplare"
 
-#: contents/ui/gallery/SelectionControlsGallery.qml:175
+#: contents/ui/gallery/SelectionControlsGallery.qml:174
 msgctxt "SelectionControlsGallery|"
 msgid "Switch List View"
 msgstr "Listvy med omkopplare"
