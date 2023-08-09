@@ -31,10 +31,10 @@ Kirigami.ScrollablePage {
 
     actions: [
         Kirigami.Action {
-            icon.name: sheet.sheetOpen ? "dialog-cancel" : "document-edit"
+            icon.name: sheet.opened ? "dialog-cancel" : "document-edit"
             text: "Main Action Text"
             checkable: true
-            onCheckedChanged: sheet.sheetOpen = checked;
+            onCheckedChanged: sheet.opened = checked;
             shortcut: "Alt+S"
         },
         Kirigami.Action {
@@ -79,7 +79,7 @@ Kirigami.ScrollablePage {
         },
         Kirigami.Action {
             text: "Action for Sheet"
-            visible: sheet.sheetOpen
+            visible: sheet.opened
         }
     ]
 
@@ -90,7 +90,7 @@ Kirigami.ScrollablePage {
             event.accepted = true;
             bottomDrawer.close();
         }
-        if (sheet.sheetOpen) {
+        if (sheet.opened) {
             event.accepted = true;
             sheet.close();
         }
