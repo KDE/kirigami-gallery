@@ -89,7 +89,7 @@ Kirigami.ScrollablePage {
         }
         QQC2.Switch {
             text: qsTr("Pin page")
-            onCheckedChanged: root.ColumnView.pinned = checked
+            onCheckedChanged: root.Kirigami.ColumnView.pinned = checked
         }
         QQC2.Button {
             text: "Push Another Page"
