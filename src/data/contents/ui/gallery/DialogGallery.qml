@@ -53,13 +53,13 @@ Kirigami.ScrollablePage {
         page: page
         component: "DialogGallery"
     }
-    
+
     Kirigami.PromptDialog {
         id: promptDialog
         title: "Reset settings?"
         subtitle: "The stored settings for the application will be deleted, with the defaults restored."
         standardButtons: Kirigami.Dialog.Ok | Kirigami.Dialog.Cancel
-        
+
         onAccepted: showPassiveNotification("Accepted")
         onRejected: console.log("Rejected")
     }
@@ -67,13 +67,13 @@ Kirigami.ScrollablePage {
     Kirigami.PromptDialog {
         id: textPromptDialog
         title: "New Folder"
-        
+
         standardButtons: Kirigami.Dialog.NoButton
         customFooterActions: [
             Kirigami.Action {
                 text: qsTr("Create Folder")
                 icon.name: "dialog-ok"
-                onTriggered: { 
+                onTriggered: {
                     showPassiveNotification("Created");
                     textPromptDialog.close();
                 }
@@ -81,17 +81,17 @@ Kirigami.ScrollablePage {
             Kirigami.Action {
                 text: qsTr("Cancel")
                 icon.name: "dialog-cancel"
-                onTriggered: { 
+                onTriggered: {
                     textPromptDialog.close();
                 }
             }
         ]
-        
+
         QQC2.TextField {
             placeholderText: qsTr("Folder name…")
         }
     }
-    
+
     Kirigami.Dialog {
         id: selectDialog
         title: qsTr("Alarm Snooze Length")
@@ -117,7 +117,7 @@ Kirigami.ScrollablePage {
                     Layout.fillWidth: true
                     topPadding: Kirigami.Units.smallSpacing * 2
                     bottomPadding: Kirigami.Units.smallSpacing * 2
-                    
+
                     text: name
                     checked: value == 1
                     onCheckedChanged: {
@@ -129,17 +129,17 @@ Kirigami.ScrollablePage {
             }
         }
     }
-    
+
     Kirigami.Dialog {
         id: scrollableDialog
         title: qsTr("Select Number")
-        
+
         ListView {
             id: listView
             implicitWidth: Kirigami.Units.gridUnit * 16
             implicitHeight: Kirigami.Units.gridUnit * 16
             leftMargin: 0; rightMargin: 0; topMargin: 0; bottomMargin: 0;
-            
+
             model: 100
             delegate: QQC2.RadioDelegate {
                 topPadding: Kirigami.Units.smallSpacing * 2
@@ -149,20 +149,20 @@ Kirigami.ScrollablePage {
             }
         }
     }
-    
+
     Kirigami.PromptDialog {
         id: noFooterDialog
         title: qsTr("No Footer Dialog")
         subtitle: qsTr("This dialog has no footer buttons.<br/>It also has no close button.")
-        
+
         standardButtons: Kirigami.Dialog.NoButton
         showCloseButton: false
     }
-    
+
     Kirigami.MenuDialog {
         id: menuDialog
         title: qsTr("Track Options")
-        
+
         actions: [
             Kirigami.Action {
                 icon.name: "media-playback-start"

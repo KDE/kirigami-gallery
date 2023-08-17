@@ -36,11 +36,11 @@ Kirigami.PromptDialog {
     preferredWidth: Kirigami.Units.gridUnit * 20
     onVisibleChanged: page.actions[0].checked = visible
     flatFooterButtons: true
-    
+
     property var info: KGD.InfoData {
         id: infoData
     }
-    
+
     standardButtons: Kirigami.Dialog.NoButton
     customFooterActions: [
         Kirigami.Action {
