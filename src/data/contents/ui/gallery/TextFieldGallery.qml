@@ -36,7 +36,7 @@ Kirigami.ScrollablePage {
             width: page.width
 
             QQC2.TextField {
-                placeholderText: "Search..."
+                placeholderText: "Search…"
                 Kirigami.FormData.label: "Placeholder text:"
             }
             QQC2.TextField {

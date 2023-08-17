@@ -88,7 +88,7 @@ Kirigami.ScrollablePage {
         ]
         
         QQC2.TextField {
-            placeholderText: qsTr("Folder name...")
+            placeholderText: qsTr("Folder name…")
         }
     }
     
