@@ -145,7 +145,7 @@ Kirigami.ScrollablePage {
                     }
                 ]
                 banner {
-                    iconSource: "applications-graphics"
+                    titleIcon: "applications-graphics"
                     title: "Title only"
                 }
                 contentItem: QQC2.Label {
