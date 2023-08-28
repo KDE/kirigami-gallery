@@ -36,7 +36,9 @@ Kirigami.ScrollablePage {
         icon.name: "documentinfo"
         checkable: true
         shortcut: "Alt+I"
-        onCheckedChanged: sheet.visible = checked;
+        onCheckedChanged: checked => {
+            sheet.visible = checked;
+        }
     }
 
     //Close the drawer with the back button
