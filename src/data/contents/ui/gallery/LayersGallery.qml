@@ -17,10 +17,10 @@
  *   51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
  */
 
-import QtQuick 2.0
-import QtQuick.Controls 2.0 as QQC2
-import QtQuick.Layouts 1.2
-import org.kde.kirigami 2.4 as Kirigami
+import QtQuick
+import QtQuick.Controls as QQC2
+import QtQuick.Layouts
+import org.kde.kirigami as Kirigami
 
 Kirigami.ScrollablePage {
     id: page
@@ -29,35 +29,33 @@ Kirigami.ScrollablePage {
 
     title: "Layers"
 
-    actions {
-        main: Kirigami.Action {
+    actions: [
+        Kirigami.Action {
             icon.name: "document-edit"
             text: "Main Action Text"
             onTriggered: {
                 showPassiveNotification("Action button in buttons page clicked");
             }
-        }
-        left: Kirigami.Action {
+        },
+        Kirigami.Action {
             icon.name: "go-previous"
             text: "Left Action Text"
             onTriggered: {
                 showPassiveNotification("Left action triggered")
             }
+        },
+        Kirigami.Action {
+            text:"Action 1"
+            icon.name: "go-next"
+            onTriggered: showPassiveNotification("Action 1 clicked")
+        },
+        Kirigami.Action {
+            text:"Action 2"
+            icon.name: "folder"
+            enabled: false
+            onTriggered: showPassiveNotification("Action 2 clicked")
         }
-        contextualActions: [
-            Kirigami.Action {
-                text:"Action 1"
-                icon.name: "go-next"
-                onTriggered: showPassiveNotification("Action 1 clicked")
-            },
-            Kirigami.Action {
-                text:"Action 2"
-                icon.name: "folder"
-                enabled: false
-                onTriggered: showPassiveNotification("Action 2 clicked")
-            }
-        ]
-    }
+    ]
 
     ColumnLayout {
         width: page.width
@@ -85,6 +83,4 @@ Kirigami.ScrollablePage {
             onClicked: page.globalToolBarStyle =Kirigami.ApplicationHeaderStyle.None
         }
     }
- 
-    
 }
