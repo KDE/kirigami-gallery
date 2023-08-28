@@ -34,7 +34,8 @@ Kirigami.ScrollablePage {
     }
 
     ColumnLayout {
- 
+        spacing: Kirigami.Units.smallSpacing
+
         Kirigami.FormLayout {
             id: layout
             Layout.fillWidth: true
