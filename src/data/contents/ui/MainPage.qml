@@ -199,7 +199,7 @@ Kirigami.ScrollablePage {
     KSortFilterProxyModel {
         id: filteredModel
         sourceModel: galleryModel
-        filterRole: "title"
+        filterRoleName: "title"
         filterRegularExpression: {
             if (searchField.text === "") return new RegExp()
             return new RegExp("%1".arg(searchField.text), "i")
