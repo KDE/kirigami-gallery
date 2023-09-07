@@ -35,7 +35,9 @@ Kirigami.ScrollablePage {
             icon.name: sheet.visible ? "dialog-cancel" : "document-edit"
             text: "Main Action Text"
             checkable: true
-            onCheckedChanged: sheet.visible = checked;
+            onCheckedChanged: checked => {
+                sheet.visible = checked;
+            }
             shortcut: "Alt+S"
         },
         Kirigami.Action {
@@ -175,7 +177,7 @@ Kirigami.ScrollablePage {
                     {"text": "Toolbar", "value":Kirigami.ApplicationHeaderStyle.ToolBar},
                     {"text": "Titles", "value":Kirigami.ApplicationHeaderStyle.Titles},
                     {"text": "None", "value":Kirigami.ApplicationHeaderStyle.None}]
-            onActivated: {
+            onActivated: index => {
                 if (index === 0) {
                     page.globalToolBarStyle = applicationWindow().pageStack.globalToolBar.actualStyle
                 } else {
