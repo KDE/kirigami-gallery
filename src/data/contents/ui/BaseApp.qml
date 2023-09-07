@@ -200,20 +200,8 @@ Kirigami.ApplicationWindow {
                     pageStack.layers.push(Qt.resolvedUrl("gallery/LayersGallery.qml"));
                 }
             }
-            ]
+        ]
 
-        QQC2.CheckBox {
-            text: "Slow Animations"
-            onCheckedChanged: {
-                if (checked) {
-                    Kirigami.Units.longDuration = 2500
-                    Kirigami.Units.shortDuration = 1500
-                } else {
-                    Kirigami.Units.longDuration = 250
-                    Kirigami.Units.shortDuration = 150
-                }
-            }
-        }
         QQC2.CheckBox {
             checked: true
             text: "Option 2"
