@@ -216,12 +216,16 @@ Kirigami.ScrollablePage {
             focus: true
             model: root.pageStack.wideMode ? filteredModel : 0
             delegate: Kirigami.BasicListItem {
+                id: listItem
+
+                required property string title
+                required property string targetPage
+
                 label: title
                 action: Kirigami.PagePoolAction {
-                    id: action
                     pagePool: mainPagePool
                     basePage: pageRoot
-                    page: targetPage
+                    page: listItem.targetPage
                 }
             }
         }
@@ -235,9 +239,14 @@ Kirigami.ScrollablePage {
                 model: filteredModel
                 delegate: Kirigami.Card {
                     id: listItem
+
+                    required property string title
+                    required property string targetPage
+                    required property string img
+
                     banner {
-                        source: Qt.resolvedUrl(img)
-                        title: title
+                        source: Qt.resolvedUrl(listItem.img)
+                        title: listItem.title
                         titleAlignment: Qt.AlignBottom | Qt.AlignLeft
                     }
                     Rectangle {
@@ -260,7 +269,7 @@ Kirigami.ScrollablePage {
                         id: action
                         pagePool: mainPagePool
                         basePage: pageRoot
-                        page: targetPage
+                        page: listItem.targetPage
                     }
                 }
             }
