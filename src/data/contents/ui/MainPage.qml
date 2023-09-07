@@ -17,11 +17,11 @@
  *   51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
  */
 
-import QtQuick 2.3
-import QtQuick.Controls 2.0 as QQC2
-import QtQuick.Layouts 1.2
-import org.kde.kirigami 2.11 as Kirigami
-import org.kde.kitemmodels 1.0
+import QtQuick
+import QtQuick.Controls as QQC2
+import QtQuick.Layouts
+import org.kde.kirigami as Kirigami
+import org.kde.kitemmodels as KItemModels
 
 Kirigami.ScrollablePage {
     id: pageRoot
@@ -196,7 +196,7 @@ Kirigami.ScrollablePage {
             }
         }
     }
-    KSortFilterProxyModel {
+    KItemModels.KSortFilterProxyModel {
         id: filteredModel
         sourceModel: galleryModel
         filterRoleName: "title"

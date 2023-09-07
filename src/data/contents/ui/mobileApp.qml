@@ -17,11 +17,8 @@
  *   51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
  */
 
-import QtQuick 2.1
-import QtQuick.Controls 2.0 as QQC2
-import QtQuick.Layouts 1.2
-import org.kde.kirigami 2.4 as Kirigami
-import "gallery"
+import QtQuick
+import org.kde.kirigami as Kirigami
 
 BaseApp {
     id: root
