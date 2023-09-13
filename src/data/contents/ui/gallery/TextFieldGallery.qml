@@ -1,26 +1,14 @@
 /*
- *   Copyright 2015 Marco Martin <mart@kde.org>
+ *  SPDX-FileCopyrightText: 2015 Marco Martin <mart@kde.org>
+ *  SPDX-FileCopyrightText: 2023 ivan tkachenko <me@ratijas.tk>
  *
- *   This program is free software; you can redistribute it and/or modify
- *   it under the terms of the GNU Library General Public License as
- *   published by the Free Software Foundation; either version 2 or
- *   (at your option) any later version.
- *
- *   This program is distributed in the hope that it will be useful,
- *   but WITHOUT ANY WARRANTY; without even the implied warranty of
- *   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
- *   GNU Library General Public License for more details
- *
- *   You should have received a copy of the GNU Library General Public
- *   License along with this program; if not, write to the
- *   Free Software Foundation, Inc.,
- *   51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
+ *  SPDX-License-Identifier: LGPL-2.0-or-later
  */
 
-import QtQuick 2.0
-import QtQuick.Controls 2.0 as QQC2
-import QtQuick.Layouts 1.2
-import org.kde.kirigami 2.4 as Kirigami
+import QtQuick
+import QtQuick.Controls as QQC2
+import QtQuick.Layouts
+import org.kde.kirigami as Kirigami
 
 Kirigami.ScrollablePage {
     id: page
@@ -29,15 +17,20 @@ Kirigami.ScrollablePage {
     title: "Text fields"
 
     ColumnLayout {
-        Kirigami.FormLayout {
-            Layout.alignment: Qt.AlignHCenter
-            Layout.fillWidth: true
+        anchors.fill: parent
+        spacing: Kirigami.Units.largeSpacing
 
-            width: page.width
+        Kirigami.FormLayout {
+            Layout.fillWidth: true
 
             QQC2.TextField {
                 placeholderText: "Search…"
                 Kirigami.FormData.label: "Placeholder text:"
+            }
+            QQC2.TextField {
+                text: "Read-only"
+                readOnly: true
+                Kirigami.FormData.label: "Read-only:"
             }
             QQC2.TextField {
                 text: "Disabled"
@@ -54,18 +47,27 @@ Kirigami.ScrollablePage {
                 inputMethodHints: Qt.ImhDigitsOnly
                 Kirigami.FormData.label: "Numbers:"
             }
-        }
 
-        QQC2.Label {
-            text: "Text area:"
+            Kirigami.Separator {
+                Kirigami.FormData.label: "Text area"
+                Kirigami.FormData.isSection: true
+            }
+
+            QQC2.CheckBox {
+                id: spellcheckCheckBox
+                text: "Spell Check"
+                checked: false
+            }
         }
 
         QQC2.TextArea {
             id: field
+            Kirigami.SpellChecking.enabled: spellcheckCheckBox.checked
             Layout.fillWidth: true
-            text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eu nisl ac nibh malesuada pretium ut sit amet libero. Nulla libero arcu, pharetra a dignissim nec, iaculis sit amet metus. Suspendisse quis justo efficitur, pharetra dui maximus, aliquam dolor. Vestibulum vel imperdiet turpis. Mauris ut leo mauris. Praesent ut libero sollicitudin, tincidunt nisi a, efficitur erat. Curabitur lacinia leo et tempor aliquam."
+            Layout.fillHeight: true
             Layout.minimumWidth: Kirigami.Units.gridUnit * 12
             Layout.minimumHeight: Kirigami.Units.gridUnit * 12
+            text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eu nisl ac nibh malesuada pretium ut sit amet libero. Nulla libero arcu, pharetra a dignissim nec, iaculis sit amet metus. Suspendisse quis justo efficitur, pharetra dui maximus, aliquam dolor. Vestibulum vel imperdiet turpis. Mauris ut leo mauris. Praesent ut libero sollicitudin, tincidunt nisi a, efficitur erat. Curabitur lacinia leo et tempor aliquam."
             wrapMode: QQC2.TextArea.WordWrap
         }
     }
