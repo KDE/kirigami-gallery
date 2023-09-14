@@ -56,13 +56,15 @@ Kirigami.ScrollablePage {
             QQC2.CheckBox {
                 id: spellcheckCheckBox
                 text: "Spell Check"
-                checked: false
+                checked: field.Kirigami.SpellCheck.enabled
+                onToggled: {
+                    field.Kirigami.SpellCheck.enabled = checked;
+                }
             }
         }
 
         QQC2.TextArea {
             id: field
-            Kirigami.SpellCheck.enabled: spellcheckCheckBox.checked
             Layout.fillWidth: true
             Layout.fillHeight: true
             Layout.minimumWidth: Kirigami.Units.gridUnit * 12
