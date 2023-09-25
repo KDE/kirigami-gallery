@@ -140,6 +140,7 @@ Kirigami.ScrollablePage {
             implicitHeight: Kirigami.Units.gridUnit * 16
             leftMargin: 0; rightMargin: 0; topMargin: 0; bottomMargin: 0;
 
+            reuseItems: true
             model: 100
             delegate: QQC2.RadioDelegate {
                 topPadding: Kirigami.Units.smallSpacing * 2

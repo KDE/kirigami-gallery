@@ -72,6 +72,7 @@ Kirigami.ScrollablePage {
         }
         ListView {
             model: 100
+            reuseItems: true
             implicitWidth: Kirigami.Units.gridUnit * 30
             delegate: Kirigami.BasicListItem {
                 label: "Item in sheet" + modelData
@@ -113,6 +114,7 @@ Kirigami.ScrollablePage {
     }
     ListView {
         id: mainList
+        reuseItems: true
         Timer {
             id: refreshRequestTimer
             interval: 3000

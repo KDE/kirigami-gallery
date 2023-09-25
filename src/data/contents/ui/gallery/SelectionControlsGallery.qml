@@ -67,6 +67,7 @@ Kirigami.ScrollablePage {
         contentItem: QQC2.ScrollView {
             ListView {
                 model: 20
+                reuseItems: true
                 delegate: QQC2.CheckDelegate {
                     width: ListView.view.width - ListView.view.leftMargin - ListView.view.rightMargin
                     text: qsTr("Delegate %1").arg(modelData + 1)
@@ -90,6 +91,7 @@ Kirigami.ScrollablePage {
         contentItem: QQC2.ScrollView {
             ListView {
                 model: 20
+                reuseItems: true
                 delegate: QQC2.RadioDelegate {
                     width: ListView.view.width - ListView.view.leftMargin - ListView.view.rightMargin
                     text: qsTr("Delegate %1").arg(modelData + 1)
@@ -112,6 +114,7 @@ Kirigami.ScrollablePage {
 
         contentItem: QQC2.ScrollView {
             ListView {
+                reuseItems: true
                 model: 20
                 delegate: QQC2.SwitchDelegate {
                     width: ListView.view.width - ListView.view.leftMargin - ListView.view.rightMargin
