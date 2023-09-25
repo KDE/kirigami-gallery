@@ -17,10 +17,10 @@
  *   51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
  */
 
-import QtQuick 2.6
-import QtQuick.Controls 2.0 as QQC2
-import org.kde.kirigami 2.19 as Kirigami
-import Data 1.0 as KGD
+import QtQuick
+import QtQuick.Controls as QQC2
+import org.kde.kirigami as Kirigami
+import Data as KGD
 
 Kirigami.PromptDialog {
     id: root
