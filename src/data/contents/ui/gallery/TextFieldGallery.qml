@@ -37,9 +37,11 @@ Kirigami.ScrollablePage {
                 enabled: false
                 Kirigami.FormData.label: "Disabled field:"
             }
-            QQC2.TextField {
-                echoMode: TextInput.Password
+            Kirigami.PasswordField {
                 Kirigami.FormData.label: "Password:"
+            }
+            Kirigami.SearchField {
+                Kirigami.FormData.label: "Search:"
             }
 
             QQC2.TextField {
