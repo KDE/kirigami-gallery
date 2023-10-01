@@ -35,7 +35,9 @@ Kirigami.ScrollablePage {
         icon.name: "documentinfo"
         text: qsTr("Info")
         checkable: true
-        onCheckedChanged: sheet.visible = checked;
+        onCheckedChanged: checked => {
+            sheet.visible = checked;
+        }
         shortcut: "Alt+I"
     }
 
