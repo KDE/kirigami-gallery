@@ -17,7 +17,7 @@ Kirigami.ScrollablePage {
     actions: [
         Kirigami.Action {
             icon.name: "document-edit"
-            text: "Main Action Text"
+            text: "Action 1"
 
             Kirigami.Action {
                 text: "Sub Action 1"
@@ -31,7 +31,7 @@ Kirigami.ScrollablePage {
         },
         Kirigami.Action {
             icon.name: "go-previous"
-            text: "Left Action Text"
+            text: "Action 2"
             onTriggered: showPassiveNotification("Left action triggered")
 
             Kirigami.Action {
@@ -48,7 +48,7 @@ Kirigami.ScrollablePage {
         },
         Kirigami.Action {
             icon.name: "go-next"
-            text: "Right Action Text"
+            text: "Action 3"
             onTriggered: showPassiveNotification("Right action triggered")
 
             Kirigami.Action {
@@ -62,12 +62,12 @@ Kirigami.ScrollablePage {
             }
         },
         Kirigami.Action {
-            text:"Action 1"
+            text:"Action 4"
             icon.name: "bookmarks"
             onTriggered: showPassiveNotification("Action 1 clicked")
         },
         Kirigami.Action {
-            text:"Action 2"
+            text:"Action 5"
             icon.name: "folder"
             enabled: false
             onTriggered: showPassiveNotification("Action 2 clicked")
