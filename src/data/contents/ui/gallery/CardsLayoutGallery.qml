@@ -200,28 +200,6 @@ Kirigami.ScrollablePage {
                     }
                 }
             }
-
-            Kirigami.Card {
-                headerOrientation: Qt.Horizontal
-                actions: [
-                    Kirigami.Action {
-                        text: qsTr("Action1")
-                        icon.name: "add-placemark"
-                    },
-                    Kirigami.Action {
-                        text: qsTr("Action2")
-                        icon.name: "address-book-new-symbolic"
-                    }
-                ]
-                banner {
-                    source: Qt.resolvedUrl("../banner.jpg")
-                    title: "Title"
-                }
-                contentItem: QQC2.Label {
-                    wrapMode: Text.WordWrap
-                    text: qsTr("A card can optionally have horizontal orientation.\n In this case will be wider than tall, so is fit to be used also in a ColumnLayout.\nIf you need to put it in a CardsLayout, it will have by default a columnSpan of 2 (which can be overridden).")
-                }
-            }
         }
     }
 }
