@@ -52,7 +52,7 @@ Kirigami.ApplicationWindow {
         actions: [
             Kirigami.Action {
                 text: "Top Bar Style…"
-                icon.name: "view-list-icons"
+                icon.name: "view-list-icons-symbolic"
                 Kirigami.Action {
                         text: "Auto"
                         onTriggered: root.pageStack.globalToolBar.style = Kirigami.ApplicationHeaderStyle.Auto
@@ -87,7 +87,7 @@ Kirigami.ApplicationWindow {
             },
             Kirigami.Action {
                 text: "Top Bar Sizing…"
-                icon.name: "folder-sync"
+                icon.name: "resizerow-symbolic"
                 visible: Kirigami.Settings.isMobile
                 Kirigami.Action {
                         text: "Slide Away"
@@ -116,12 +116,11 @@ Kirigami.ApplicationWindow {
             },
             Kirigami.Action {
                 text: "Global Drawer Mode…"
-                icon.name: "go-next"
+                icon.name: globalDrawer.edge === Qt.RightEdge ? "sidebar-collapse-right-symbolic" : "sidebar-collapse-left-symbolic"
                 visible: !Kirigami.Settings.isMobile
                 expandible: true
                 Kirigami.Action {
                     text: "Overlay Drawer"
-                    icon.name: "acrobat"
                     checked: globalDrawer.modal && !globalDrawer.collapsible
                     onTriggered: {
                         globalDrawer.modal = true;
@@ -150,7 +149,7 @@ Kirigami.ApplicationWindow {
             },
             Kirigami.Action {
                 text: "Title style…"
-                icon.name: "format-border-set-top"
+                icon.name: "format-border-set-top-symbolic"
                 Kirigami.Action {
                     text: "Title And Image"
                     checked: root.globalDrawer.title.length > 0
@@ -181,6 +180,7 @@ Kirigami.ApplicationWindow {
             },
             Kirigami.Action {
                 text: "Open A Page"
+                icon.name: "view-pages-single-symbolic"
                 //Need to do this, otherwise it breaks the bindings
                 property bool current: pageStack.currentItem ? pageStack.currentItem.objectName == "settingsPage" : false
                 onCurrentChanged: {
@@ -192,10 +192,7 @@ Kirigami.ApplicationWindow {
             },
             Kirigami.Action {
                 text: "Open A Layer"
-                icon {
-                    name: "configure"
-                    color: Kirigami.Theme.activeTextColor
-                }
+                icon.name: "dialog-layers-symbolic"
                 onTriggered: {
                     pageStack.layers.push(Qt.resolvedUrl("gallery/LayersGallery.qml"));
                 }
