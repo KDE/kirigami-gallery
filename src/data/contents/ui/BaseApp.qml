@@ -64,11 +64,6 @@ Kirigami.ApplicationWindow {
                         checked: root.pageStack.globalToolBar.style == Kirigami.ApplicationHeaderStyle.Breadcrumb
                 }
                 Kirigami.Action {
-                        text: "TabBar"
-                        onTriggered: root.pageStack.globalToolBar.style = Kirigami.ApplicationHeaderStyle.TabBar
-                        checked: root.pageStack.globalToolBar.style == Kirigami.ApplicationHeaderStyle.TabBar
-                }
-                Kirigami.Action {
                         text: "Titles"
                         onTriggered: root.pageStack.globalToolBar.style = Kirigami.ApplicationHeaderStyle.Titles
                         checked: root.pageStack.globalToolBar.style == Kirigami.ApplicationHeaderStyle.Titles
