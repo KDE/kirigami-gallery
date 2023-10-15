@@ -138,11 +138,6 @@ Kirigami.ScrollablePage {
             img: "img/cardlist.svg"
         }
         ListElement {
-            title: "Grid View with Cards"
-            targetPage: "gallery/CardsGridViewGallery.qml"
-            img: "img/cardgrid.svg"
-        }
-        ListElement {
             title: "Inline Messages"
             targetPage: "gallery/InlineMessagesGallery.qml"
             img: "img/inlinemessage.svg"
