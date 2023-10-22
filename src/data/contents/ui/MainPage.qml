@@ -37,9 +37,11 @@ Kirigami.ScrollablePage {
     //flickable: mainListView
     actions: [
         Kirigami.Action {
+            text: "Go home"
             icon.name: "go-home"
-            enabled: root.pageStack.lastVisibleItem != pageRoot
-            onTriggered: root.pageStack.pop(null)
+            onTriggered: root.pageStack.pop(0)
+            displayHint: Kirigami.DisplayHint.IconOnly
+            visible: applicationWindow().pageStack.visibleItems.length !== 1
         },
         Kirigami.Action {
             text:"Action 1"
