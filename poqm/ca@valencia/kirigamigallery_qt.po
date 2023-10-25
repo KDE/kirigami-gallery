@@ -150,7 +150,8 @@ msgid ""
 msgstr ""
 "El títol pot estar alineat a tots els cantons o centrat amb una combinació "
 "d'etiquetes «Qt.Alignment».\n"
-"Quan hi ha massa accions, llavors es transferiran a un menú de desbordament."
+"Quan hi ha massa accions, llavors es transferiran cap a un menú de "
+"desbordament."
 
 #: contents/ui/gallery/CardsLayoutGallery.qml:141
 msgctxt "CardsLayoutGallery|"
