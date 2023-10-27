@@ -36,7 +36,6 @@ target_link_libraries(kirigami2gallery
     Qt${QT_MAJOR_VERSION}::Quick
     Qt${QT_MAJOR_VERSION}::Svg
     Qt${QT_MAJOR_VERSION}::QuickControls2
-    KF6::Kirigami2
     KF6::ItemModels
 )
 
