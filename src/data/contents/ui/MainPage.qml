@@ -39,9 +39,10 @@ Kirigami.ScrollablePage {
         Kirigami.Action {
             text: "Go home"
             icon.name: "go-home"
-            onTriggered: root.pageStack.pop(0)
+            onTriggered: applicationWindow().pageStack.pop(0)
             displayHint: Kirigami.DisplayHint.IconOnly
             visible: applicationWindow().pageStack.visibleItems.length !== 1
+
         },
         Kirigami.Action {
             text:"Action 1"
@@ -216,7 +217,7 @@ Kirigami.ScrollablePage {
         spacing: 0
         Repeater {
             focus: true
-            model: root.pageStack.wideMode ? filteredModel : 0
+            model: applicationWindow().pageStack.wideMode ? filteredModel : 0
             delegate: Kirigami.BasicListItem {
                 id: listItem
 
@@ -232,7 +233,7 @@ Kirigami.ScrollablePage {
             }
         }
         Kirigami.CardsLayout {
-            visible: !root.pageStack.wideMode
+            visible: !applicationWindow().pageStack.wideMode
             Layout.topMargin: Kirigami.Units.largeSpacing
             Layout.leftMargin: Kirigami.Units.gridUnit
             Layout.rightMargin: Kirigami.Units.gridUnit
