@@ -33,7 +33,6 @@
   <name xml:lang="sv">Kirigami-galleri</name>
   <name xml:lang="tr">Kirigami Galerisi</name>
   <name xml:lang="uk">Галерея Kirigami</name>
-  <name xml:lang="x-test">xxKirigami Galleryxx</name>
   <name xml:lang="zh-CN">Kirigami 示例展厅</name>
   <summary>Shows examples of Kirigami components and allows you to play with them</summary>
   <summary xml:lang="ca">Mostra exemples de components del Kirigami i permet jugar-hi</summary>
@@ -66,7 +65,6 @@
   <summary xml:lang="sv">Visar exempel på komponenter i Kirigami och låter dig leka med dem</summary>
   <summary xml:lang="tr">Kirigami bileşenlerinden örnekler gösterir ve onlarla oynamanıza izin verir</summary>
   <summary xml:lang="uk">Показує приклади компонентів Kirigami і надає вам змогу погратися з ними</summary>
-  <summary xml:lang="x-test">xxShows examples of Kirigami components and allows you to play with themxx</summary>
   <summary xml:lang="zh-CN">展示 Kirigami UI 框架提供的各种组件，还能直接操作界面以测试效果</summary>
   <description>
     <p>
@@ -102,7 +100,6 @@
     <p xml:lang="sv">Visa exempel på komponenter i Kirigami</p>
     <p xml:lang="tr">Kirigami bileşenlerinden örnekler gör</p>
     <p xml:lang="uk">Перегляд прикладів компонентів Kirigami</p>
-    <p xml:lang="x-test">xxView examples of Kirigami componentsxx</p>
     <p xml:lang="zh-CN">查看 Kirigami UI 框架的示例组件</p>
     <p xml:lang="zh-TW">檢視 Kirigami 元件範例</p>
   </description>
@@ -140,7 +137,6 @@
   <developer_name xml:lang="sv">Marco Martin &lt;mart@kde.org&gt;</developer_name>
   <developer_name xml:lang="tr">Marco Martin &lt;mart@kde.org&gt;</developer_name>
   <developer_name xml:lang="uk">Marco Martin &lt;mart@kde.org&gt;</developer_name>
-  <developer_name xml:lang="x-test">xxMarco Martin &lt;mart@kde.org&gt;xx</developer_name>
   <developer_name xml:lang="zh-CN">Marco Martin &lt;mart@kde.org&gt;</developer_name>
   <developer_name xml:lang="zh-TW">Marco Martin &lt;mart@kde.org&gt;</developer_name>
   <icon type="stock">preferences-desktop-theme</icon>
