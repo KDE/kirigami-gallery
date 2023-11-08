@@ -223,13 +223,15 @@ Kirigami.ScrollablePage {
         Repeater {
             focus: true
             model: applicationWindow().pageStack.wideMode ? filteredModel : 0
-            delegate: Kirigami.BasicListItem {
+            delegate: QQC2.ItemDelegate {
                 id: listItem
 
                 required property string title
                 required property string targetPage
 
-                label: title
+                text: title
+                width: ListView.view.width
+                highlighted: action.checked
                 action: Kirigami.PagePoolAction {
                     pagePool: mainPagePool
                     basePage: pageRoot
