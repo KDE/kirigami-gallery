@@ -100,8 +100,6 @@ parts:
         stage-packages:
         - qml-module-org-kde-kirigami2
         - qml-module-qtgraphicaleffects
-        stage-snaps:
-        - khelpcenter
         source: .
         source-type: local
         cmake-parameters:
