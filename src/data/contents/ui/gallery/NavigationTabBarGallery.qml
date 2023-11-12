@@ -15,13 +15,6 @@ Kirigami.Page {
     ColumnLayout {
         anchors.centerIn: parent
 
-        QQC2.CheckBox {
-            id: shadowCheckbox
-
-            text: "Draw shadows"
-            checked: true
-        }
-
         QQC2.Label {
             id: pageLabel
 
@@ -30,8 +23,6 @@ Kirigami.Page {
     }
 
     footer: Kirigami.NavigationTabBar {
-        shadow: shadowCheckbox.checked
-
         actions: [
             Kirigami.Action {
                 icon.name: "globe"
