@@ -75,7 +75,8 @@ Kirigami.ScrollablePage {
             reuseItems: true
             implicitWidth: Kirigami.Units.gridUnit * 30
             delegate: QQC2.ItemDelegate {
-                text: "Item in sheet" + modelData
+                required property int index
+                text: qsTr("Item in sheet %1").arg(index)
                 width: ListView.view.width
             }
         }

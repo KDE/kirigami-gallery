@@ -188,7 +188,7 @@ Kirigami.ScrollablePage {
                     Layout.fillWidth: true
                     icon.name: "view-right-close"
                     text: "Delegate1"
-                    QQC2.Button {
+                    contentItem: QQC2.Button {
                         Kirigami.Theme.inherit: true
                         text: "Dynamic Color Button"
                         icon.name: "go-next"
@@ -197,7 +197,7 @@ Kirigami.ScrollablePage {
                 QQC2.ItemDelegate {
                     Layout.fillWidth: true
                     text: "Delegate2"
-                    QQC2.TextField {
+                    contentItem: QQC2.TextField {
                         Kirigami.Theme.inherit: true
                         text: "Dynamic Color Text field"
                     }

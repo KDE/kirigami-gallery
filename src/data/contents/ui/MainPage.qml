@@ -230,7 +230,7 @@ Kirigami.ScrollablePage {
                 required property string targetPage
 
                 text: title
-                width: ListView.view.width
+                Layout.fillWidth: true
                 highlighted: action.checked
                 action: Kirigami.PagePoolAction {
                     pagePool: mainPagePool
