@@ -132,6 +132,27 @@ Kirigami.ScrollablePage {
             text: Kirigami.Units.gridUnit
         }
 
+        QQC2.Label {
+            text: "Units.mediumSpacing:"
+        }
+        QQC2.Label {
+            text: Kirigami.Units.mediumSpacing
+        }
+
+        QQC2.Label {
+            text: "Units.largeSpacing:"
+        }
+        QQC2.Label {
+            text: Kirigami.Units.largeSpacing
+        }
+
+        QQC2.Label {
+            text: "Units.smallSpacing:"
+        }
+        QQC2.Label {
+            text: Kirigami.Units.smallSpacing
+        }
+
         Kirigami.Heading {
             text: "Sizes"
             Layout.columnSpan: 2
