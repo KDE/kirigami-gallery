@@ -96,7 +96,7 @@ Kirigami.ScrollablePage {
             QQC2.Label {
                 Layout.fillWidth: true
                 wrapMode: Text.WordWrap
-                text: qsTr("An inline top drawer covers the whole application width but lets the uncovered pieces to still be interacted with.")
+                text: qsTr("An inline bottom drawer covers the whole application width but lets the uncovered pieces to still be interacted with.")
             }
             QQC2.Button {
                 Layout.alignment: Qt.AlignRight
@@ -132,7 +132,7 @@ Kirigami.ScrollablePage {
             QQC2.Label {
                 Layout.fillWidth: true
                 wrapMode: Text.WordWrap
-                text: qsTr("An inline bottom drawer covers the whole application width but lets the uncovered pieces to still be interacted with.")
+                text: qsTr("An inline top drawer covers the whole application width but lets the uncovered pieces to still be interacted with.")
             }
             QQC2.Button {
                 Layout.alignment: Qt.AlignRight
