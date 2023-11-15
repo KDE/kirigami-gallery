@@ -504,11 +504,11 @@ msgstr "Stäng"
 #: contents/ui/gallery/DrawerGallery.qml:99
 msgctxt "DrawerGallery|"
 msgid ""
-"An inline top drawer covers the whole application width but lets the "
+"An inline bottom drawer covers the whole application width but lets the "
 "uncovered pieces to still be interacted with."
 msgstr ""
-"En övre låda på plats täcker hela programmets bredd, men gör det möjligt att "
-"fortfarande interagera med de otäckta delarna."
+"En undre låda på plats täcker hela programmets bredd, men gör det möjligt "
+"att fortfarande interagera med de otäckta delarna."
 
 #: contents/ui/gallery/DrawerGallery.qml:116
 msgctxt "DrawerGallery|"
@@ -523,11 +523,11 @@ msgstr ""
 #: contents/ui/gallery/DrawerGallery.qml:135
 msgctxt "DrawerGallery|"
 msgid ""
-"An inline bottom drawer covers the whole application width but lets the "
+"An inline top drawer covers the whole application width but lets the "
 "uncovered pieces to still be interacted with."
 msgstr ""
-"En undre låda på plats täcker hela programmets bredd, men gör det möjligt "
-"att fortfarande interagera med de otäckta delarna."
+"En övre låda på plats täcker hela programmets bredd, men gör det möjligt att "
+"fortfarande interagera med de otäckta delarna."
 
 #: contents/ui/gallery/DrawerGallery.qml:150
 msgctxt "DrawerGallery|"

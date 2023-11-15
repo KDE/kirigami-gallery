@@ -514,9 +514,11 @@ msgstr "Закрити"
 #: contents/ui/gallery/DrawerGallery.qml:99
 msgctxt "DrawerGallery|"
 msgid ""
-"An inline top drawer covers the whole application width but lets the "
+"An inline bottom drawer covers the whole application width but lets the "
 "uncovered pieces to still be interacted with."
-msgstr "Вбудована нижня висувна панель…"
+msgstr ""
+"Вбудована висувна панель має ширину усього вікна програми, але надає змогу "
+"користуватися незакритими нею частинами інтерфейсу вікна програми."
 
 #: contents/ui/gallery/DrawerGallery.qml:116
 msgctxt "DrawerGallery|"
@@ -532,11 +534,9 @@ msgstr ""
 #: contents/ui/gallery/DrawerGallery.qml:135
 msgctxt "DrawerGallery|"
 msgid ""
-"An inline bottom drawer covers the whole application width but lets the "
+"An inline top drawer covers the whole application width but lets the "
 "uncovered pieces to still be interacted with."
-msgstr ""
-"Вбудована висувна панель має ширину усього вікна програми, але надає змогу "
-"користуватися незакритими нею частинами інтерфейсу вікна програми."
+msgstr "Вбудована нижня висувна панель…"
 
 #: contents/ui/gallery/DrawerGallery.qml:150
 msgctxt "DrawerGallery|"

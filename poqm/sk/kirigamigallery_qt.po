@@ -515,10 +515,10 @@ msgstr "Zavrieť"
 #: contents/ui/gallery/DrawerGallery.qml:99
 msgctxt "DrawerGallery|"
 msgid ""
-"An inline top drawer covers the whole application width but lets the "
+"An inline bottom drawer covers the whole application width but lets the "
 "uncovered pieces to still be interacted with."
 msgstr ""
-"Vnútorný vrchný vykresľovač pokrýva celú šírku aplikácie, ale nechá "
+"Vnútorný spodný vykresľovač pokrýva celú šírku aplikácie, ale nechá "
 "nepokryté kusy, s ktorými je možné interagovať."
 
 #: contents/ui/gallery/DrawerGallery.qml:116
@@ -534,10 +534,10 @@ msgstr ""
 #: contents/ui/gallery/DrawerGallery.qml:135
 msgctxt "DrawerGallery|"
 msgid ""
-"An inline bottom drawer covers the whole application width but lets the "
+"An inline top drawer covers the whole application width but lets the "
 "uncovered pieces to still be interacted with."
 msgstr ""
-"Vnútorný spodný vykresľovač pokrýva celú šírku aplikácie, ale nechá "
+"Vnútorný vrchný vykresľovač pokrýva celú šírku aplikácie, ale nechá "
 "nepokryté kusy, s ktorými je možné interagovať."
 
 #: contents/ui/gallery/DrawerGallery.qml:150

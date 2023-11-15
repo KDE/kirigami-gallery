@@ -506,10 +506,10 @@ msgstr "Sluiten"
 #: contents/ui/gallery/DrawerGallery.qml:99
 msgctxt "DrawerGallery|"
 msgid ""
-"An inline top drawer covers the whole application width but lets the "
+"An inline bottom drawer covers the whole application width but lets the "
 "uncovered pieces to still be interacted with."
 msgstr ""
-"Een inline bovenste lade bedekt de gehele breedte van de toepassing maar "
+"Een inline onderste lade bedekt de gehele breedte van de toepassing maar "
 "laat de niet bedekte delen vrij zodat ze nog steeds gebruikt kunnen worden."
 
 #: contents/ui/gallery/DrawerGallery.qml:116
@@ -526,10 +526,10 @@ msgstr ""
 #: contents/ui/gallery/DrawerGallery.qml:135
 msgctxt "DrawerGallery|"
 msgid ""
-"An inline bottom drawer covers the whole application width but lets the "
+"An inline top drawer covers the whole application width but lets the "
 "uncovered pieces to still be interacted with."
 msgstr ""
-"Een inline onderste lade bedekt de gehele breedte van de toepassing maar "
+"Een inline bovenste lade bedekt de gehele breedte van de toepassing maar "
 "laat de niet bedekte delen vrij zodat ze nog steeds gebruikt kunnen worden."
 
 #: contents/ui/gallery/DrawerGallery.qml:150

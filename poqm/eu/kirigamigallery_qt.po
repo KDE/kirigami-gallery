@@ -515,11 +515,11 @@ msgstr "Itxi"
 #: contents/ui/gallery/DrawerGallery.qml:99
 msgctxt "DrawerGallery|"
 msgid ""
-"An inline top drawer covers the whole application width but lets the "
+"An inline bottom drawer covers the whole application width but lets the "
 "uncovered pieces to still be interacted with."
 msgstr ""
-"Lerro barruko goiko tiradera batek aplikazioaren zabalera osoa estaltzen du, "
-"baina, estali gabeko piezekin elkarreragin daiteke."
+"Lerro barruko beheko tiradera batek aplikazioaren zabalera osoa estaltzen "
+"du, baina, estali gabeko piezekin elkarreragin daiteke."
 
 #: contents/ui/gallery/DrawerGallery.qml:116
 msgctxt "DrawerGallery|"
@@ -535,11 +535,11 @@ msgstr ""
 #: contents/ui/gallery/DrawerGallery.qml:135
 msgctxt "DrawerGallery|"
 msgid ""
-"An inline bottom drawer covers the whole application width but lets the "
+"An inline top drawer covers the whole application width but lets the "
 "uncovered pieces to still be interacted with."
 msgstr ""
-"Lerro barruko beheko tiradera batek aplikazioaren zabalera osoa estaltzen "
-"du, baina, estali gabeko piezekin elkarreragin daiteke."
+"Lerro barruko goiko tiradera batek aplikazioaren zabalera osoa estaltzen du, "
+"baina, estali gabeko piezekin elkarreragin daiteke."
 
 #: contents/ui/gallery/DrawerGallery.qml:150
 msgctxt "DrawerGallery|"

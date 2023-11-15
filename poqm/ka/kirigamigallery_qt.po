@@ -505,10 +505,10 @@ msgstr "დახურვა"
 #: contents/ui/gallery/DrawerGallery.qml:99
 msgctxt "DrawerGallery|"
 msgid ""
-"An inline top drawer covers the whole application width but lets the "
+"An inline bottom drawer covers the whole application width but lets the "
 "uncovered pieces to still be interacted with."
 msgstr ""
-"ხაზოვანი ზედა უჯრა მოიცავს მთელ პროგრამის სიგანეს, მაგრამ საშუალებას აძლევს "
+"ინლაინ ქვედა უჯრა მოიცავს მთელ პროგრამის სიგანეს, მაგრამ საშუალებას აძლევს "
 "დაუფარავ ნაწილებს კვლავ ურთიერთქმედება."
 
 #: contents/ui/gallery/DrawerGallery.qml:116
@@ -524,10 +524,10 @@ msgstr ""
 #: contents/ui/gallery/DrawerGallery.qml:135
 msgctxt "DrawerGallery|"
 msgid ""
-"An inline bottom drawer covers the whole application width but lets the "
+"An inline top drawer covers the whole application width but lets the "
 "uncovered pieces to still be interacted with."
 msgstr ""
-"ინლაინ ქვედა უჯრა მოიცავს მთელ პროგრამის სიგანეს, მაგრამ საშუალებას აძლევს "
+"ხაზოვანი ზედა უჯრა მოიცავს მთელ პროგრამის სიგანეს, მაგრამ საშუალებას აძლევს "
 "დაუფარავ ნაწილებს კვლავ ურთიერთქმედება."
 
 #: contents/ui/gallery/DrawerGallery.qml:150

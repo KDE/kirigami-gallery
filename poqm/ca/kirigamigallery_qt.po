@@ -513,10 +513,10 @@ msgstr "Tanca"
 #: contents/ui/gallery/DrawerGallery.qml:99
 msgctxt "DrawerGallery|"
 msgid ""
-"An inline top drawer covers the whole application width but lets the "
+"An inline bottom drawer covers the whole application width but lets the "
 "uncovered pieces to still be interacted with."
 msgstr ""
-"Un calaix superior inclòs cobrirà tota l'amplada de l'aplicació, però permet "
+"Un calaix inferior inclòs cobrirà tota l'amplada de l'aplicació, però permet "
 "que encara es pugui interactuar amb les peces sense cobrir."
 
 #: contents/ui/gallery/DrawerGallery.qml:116
@@ -533,10 +533,10 @@ msgstr ""
 #: contents/ui/gallery/DrawerGallery.qml:135
 msgctxt "DrawerGallery|"
 msgid ""
-"An inline bottom drawer covers the whole application width but lets the "
+"An inline top drawer covers the whole application width but lets the "
 "uncovered pieces to still be interacted with."
 msgstr ""
-"Un calaix inferior inclòs cobrirà tota l'amplada de l'aplicació, però permet "
+"Un calaix superior inclòs cobrirà tota l'amplada de l'aplicació, però permet "
 "que encara es pugui interactuar amb les peces sense cobrir."
 
 #: contents/ui/gallery/DrawerGallery.qml:150

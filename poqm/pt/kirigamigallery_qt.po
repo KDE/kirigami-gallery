@@ -514,10 +514,10 @@ msgstr "Fechar"
 #: contents/ui/gallery/DrawerGallery.qml:99
 msgctxt "DrawerGallery|"
 msgid ""
-"An inline top drawer covers the whole application width but lets the "
+"An inline bottom drawer covers the whole application width but lets the "
 "uncovered pieces to still be interacted with."
 msgstr ""
-"Uma área superior incorporada que cobre a largura da aplicação por inteiro, "
+"Uma área inferior incorporada que cobre a largura da aplicação por inteiro, "
 "mas que permite interagir com as peças a descoberto."
 
 #: contents/ui/gallery/DrawerGallery.qml:116
@@ -534,10 +534,10 @@ msgstr ""
 #: contents/ui/gallery/DrawerGallery.qml:135
 msgctxt "DrawerGallery|"
 msgid ""
-"An inline bottom drawer covers the whole application width but lets the "
+"An inline top drawer covers the whole application width but lets the "
 "uncovered pieces to still be interacted with."
 msgstr ""
-"Uma área inferior incorporada que cobre a largura da aplicação por inteiro, "
+"Uma área superior incorporada que cobre a largura da aplicação por inteiro, "
 "mas que permite interagir com as peças a descoberto."
 
 #: contents/ui/gallery/DrawerGallery.qml:150

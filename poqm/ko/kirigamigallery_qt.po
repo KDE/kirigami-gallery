@@ -493,11 +493,11 @@ msgstr "닫기"
 #: contents/ui/gallery/DrawerGallery.qml:99
 msgctxt "DrawerGallery|"
 msgid ""
-"An inline top drawer covers the whole application width but lets the "
+"An inline bottom drawer covers the whole application width but lets the "
 "uncovered pieces to still be interacted with."
 msgstr ""
-"인라인 위쪽 서랍은 앱 전체 폭을 덮지만 덮이지 않은 영역도 계속 사용할 수 있습"
-"니다."
+"인라인 아래쪽 서랍은 앱 전체 폭을 덮지만 덮이지 않은 영역도 계속 사용할 수 있"
+"습니다."
 
 #: contents/ui/gallery/DrawerGallery.qml:116
 msgctxt "DrawerGallery|"
@@ -512,11 +512,11 @@ msgstr ""
 #: contents/ui/gallery/DrawerGallery.qml:135
 msgctxt "DrawerGallery|"
 msgid ""
-"An inline bottom drawer covers the whole application width but lets the "
+"An inline top drawer covers the whole application width but lets the "
 "uncovered pieces to still be interacted with."
 msgstr ""
-"인라인 아래쪽 서랍은 앱 전체 폭을 덮지만 덮이지 않은 영역도 계속 사용할 수 있"
-"습니다."
+"인라인 위쪽 서랍은 앱 전체 폭을 덮지만 덮이지 않은 영역도 계속 사용할 수 있습"
+"니다."
 
 #: contents/ui/gallery/DrawerGallery.qml:150
 msgctxt "DrawerGallery|"
