@@ -510,10 +510,10 @@ msgstr "Lukk"
 #: contents/ui/gallery/DrawerGallery.qml:99
 msgctxt "DrawerGallery|"
 msgid ""
-"An inline top drawer covers the whole application width but lets the "
+"An inline bottom drawer covers the whole application width but lets the "
 "uncovered pieces to still be interacted with."
 msgstr ""
-"Ei inline-toppskuff dekkjer heile breidda av programmet, men elementa som "
+"Ei inline-botnskuff dekkjer heile breidda av programmet, men elementa som "
 "ikkje er dekkja, er framleis interaktive."
 
 #: contents/ui/gallery/DrawerGallery.qml:116
@@ -529,10 +529,10 @@ msgstr ""
 #: contents/ui/gallery/DrawerGallery.qml:135
 msgctxt "DrawerGallery|"
 msgid ""
-"An inline bottom drawer covers the whole application width but lets the "
+"An inline top drawer covers the whole application width but lets the "
 "uncovered pieces to still be interacted with."
 msgstr ""
-"Ei inline-botnskuff dekkjer heile breidda av programmet, men elementa som "
+"Ei inline-toppskuff dekkjer heile breidda av programmet, men elementa som "
 "ikkje er dekkja, er framleis interaktive."
 
 #: contents/ui/gallery/DrawerGallery.qml:150
