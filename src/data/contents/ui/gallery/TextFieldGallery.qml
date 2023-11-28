@@ -72,7 +72,7 @@ Kirigami.ScrollablePage {
             Layout.minimumWidth: Kirigami.Units.gridUnit * 12
             Layout.minimumHeight: Kirigami.Units.gridUnit * 12
             text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eu nisl ac nibh malesuada pretium ut sit amet libero. Nulla libero arcu, pharetra a dignissim nec, iaculis sit amet metus. Suspendisse quis justo efficitur, pharetra dui maximus, aliquam dolor. Vestibulum vel imperdiet turpis. Mauris ut leo mauris. Praesent ut libero sollicitudin, tincidunt nisi a, efficitur erat. Curabitur lacinia leo et tempor aliquam."
-            wrapMode: QQC2.TextArea.WordWrap
+            wrapMode: TextEdit.Wrap
         }
     }
 }
