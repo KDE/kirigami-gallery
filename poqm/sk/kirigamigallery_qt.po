@@ -1,17 +1,17 @@
-# Roman Paholik <wizzardsk@gmail.com>, 2018, 2019.
+# SPDX-FileCopyrightText: 2018, 2019, 2023 Roman Paholik <wizzardsk@gmail.com>
 # Matej Mrenica <matejm98mthw@gmail.com>, 2019, 2020, 2021.
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"PO-Revision-Date: 2021-04-11 18:20+0200\n"
-"Last-Translator: Matej Mrenica <matejm98mthw@gmail.com>\n"
-"Language-Team: Slovak <kde-i18n-doc@kde.org>\n"
+"PO-Revision-Date: 2023-12-07 17:35+0100\n"
+"Last-Translator: Roman Paholik <wizzardsk@gmail.com>\n"
+"Language-Team: Slovak <kde-sk@linux.sk>\n"
 "Language: sk\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
-"X-Generator: Lokalize 21.03.90\n"
+"X-Generator: Lokalize 23.08.3\n"
 "X-Qt-Contexts: true\n"
 
 #: contents/ui/gallery/ActionToolBarGallery.qml:35
@@ -243,9 +243,6 @@ msgid "Chips"
 msgstr ""
 
 #: contents/ui/gallery/ChipGallery.qml:35
-#, fuzzy
-#| msgctxt "ActionToolBarGallery|"
-#| msgid "Info"
 msgctxt "ChipGallery|"
 msgid "Info"
 msgstr "Info"
@@ -286,12 +283,9 @@ msgstr "API..."
 #: contents/ui/gallery/DialogGallery.qml:32
 msgctxt "DialogGallery|"
 msgid "Dialogs"
-msgstr ""
+msgstr "Dialógy"
 
 #: contents/ui/gallery/DialogGallery.qml:36
-#, fuzzy
-#| msgctxt "ActionToolBarGallery|"
-#| msgid "Info"
 msgctxt "DialogGallery|"
 msgid "Info"
 msgstr "Info"
@@ -299,17 +293,17 @@ msgstr "Info"
 #: contents/ui/gallery/DialogGallery.qml:74
 msgctxt "DialogGallery|"
 msgid "Create Folder"
-msgstr ""
+msgstr "Vytvoriť priečinok"
 
 #: contents/ui/gallery/DialogGallery.qml:82
 msgctxt "DialogGallery|"
 msgid "Cancel"
-msgstr ""
+msgstr "Zrušiť"
 
 #: contents/ui/gallery/DialogGallery.qml:91
 msgctxt "DialogGallery|"
 msgid "Folder name..."
-msgstr ""
+msgstr "Názov priečinka..."
 
 #: contents/ui/gallery/DialogGallery.qml:97
 msgctxt "DialogGallery|"
@@ -319,42 +313,42 @@ msgstr ""
 #: contents/ui/gallery/DialogGallery.qml:106
 msgctxt "DialogGallery|"
 msgid "1 minute"
-msgstr ""
+msgstr "1 minúta"
 
 #: contents/ui/gallery/DialogGallery.qml:107
 msgctxt "DialogGallery|"
 msgid "2 minutes"
-msgstr ""
+msgstr "2 minúty"
 
 #: contents/ui/gallery/DialogGallery.qml:108
 msgctxt "DialogGallery|"
 msgid "3 minutes"
-msgstr ""
+msgstr "3 minúty"
 
 #: contents/ui/gallery/DialogGallery.qml:109
 msgctxt "DialogGallery|"
 msgid "4 minutes"
-msgstr ""
+msgstr "4 minúty"
 
 #: contents/ui/gallery/DialogGallery.qml:110
 msgctxt "DialogGallery|"
 msgid "5 minutes"
-msgstr ""
+msgstr "5 minút"
 
 #: contents/ui/gallery/DialogGallery.qml:111
 msgctxt "DialogGallery|"
 msgid "10 minutes"
-msgstr ""
+msgstr "10 minút"
 
 #: contents/ui/gallery/DialogGallery.qml:112
 msgctxt "DialogGallery|"
 msgid "30 minutes"
-msgstr ""
+msgstr "30 minút"
 
 #: contents/ui/gallery/DialogGallery.qml:113
 msgctxt "DialogGallery|"
 msgid "1 hour"
-msgstr ""
+msgstr "1 hodina"
 
 #: contents/ui/gallery/DialogGallery.qml:135
 msgctxt "DialogGallery|"
@@ -375,12 +369,12 @@ msgstr ""
 #: contents/ui/gallery/DialogGallery.qml:164
 msgctxt "DialogGallery|"
 msgid "Track Options"
-msgstr ""
+msgstr "Možnosti skladby"
 
 #: contents/ui/gallery/DialogGallery.qml:169
 msgctxt "DialogGallery|Start playback of the selected track"
 msgid "Play"
-msgstr ""
+msgstr "Prehrať"
 
 #: contents/ui/gallery/DialogGallery.qml:170
 msgctxt "DialogGallery|"
@@ -388,12 +382,9 @@ msgid "Start playback of the selected track"
 msgstr ""
 
 #: contents/ui/gallery/DialogGallery.qml:175
-#, fuzzy
-#| msgctxt "BaseApp|"
-#| msgid "Show Banner"
 msgctxt "DialogGallery|Show the file for this song in the file manager"
 msgid "Show in folder"
-msgstr "Zobraziť banner"
+msgstr "Zobraziť v priečinku"
 
 #: contents/ui/gallery/DialogGallery.qml:176
 msgctxt "DialogGallery|"
@@ -403,7 +394,7 @@ msgstr ""
 #: contents/ui/gallery/DialogGallery.qml:180
 msgctxt "DialogGallery|Show track metadata"
 msgid "View details"
-msgstr ""
+msgstr "Zobraziť podrobnosti"
 
 #: contents/ui/gallery/DialogGallery.qml:181
 msgctxt "DialogGallery|"
@@ -424,7 +415,7 @@ msgstr ""
 #: contents/ui/gallery/DialogGallery.qml:190
 msgctxt "DialogGallery|Enqueue current track"
 msgid "Add to queue"
-msgstr ""
+msgstr "Pridať do poradia"
 
 #: contents/ui/gallery/DialogGallery.qml:191
 msgctxt "DialogGallery|"
@@ -457,7 +448,7 @@ msgstr ""
 #: contents/ui/gallery/DialogGallery.qml:226
 msgctxt "DialogGallery|"
 msgid "Menu Dialog"
-msgstr ""
+msgstr "Dialóg ponuky"
 
 #: contents/ui/gallery/DrawerGallery.qml:30
 msgctxt "DrawerGallery|"
@@ -817,12 +808,10 @@ msgstr "Zaškrtávacie položky zoznamu"
 #: contents/ui/gallery/SelectionControlsGallery.qml:72
 #: contents/ui/gallery/SelectionControlsGallery.qml:95
 #: contents/ui/gallery/SelectionControlsGallery.qml:118
-#, fuzzy, qt-format
-#| msgctxt "SelectionControlsGallery|"
-#| msgid "Delegate"
+#, qt-format
 msgctxt "SelectionControlsGallery|"
 msgid "Delegate %1"
-msgstr "Delegát"
+msgstr "Delegovať %1"
 
 #: contents/ui/gallery/SelectionControlsGallery.qml:88
 #: contents/ui/gallery/SelectionControlsGallery.qml:111
