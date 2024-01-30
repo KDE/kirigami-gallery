@@ -10,7 +10,4 @@ include:
       - /gitlab-templates/windows.yml
       - /gitlab-templates/flatpak.yml
       - /gitlab-templates/craft-android-apks.yml
-  - project: sysadmin/ci-utilities
-    ref: work/kloecker/enable-signing-for-windows-craft-job
-    file:
       - /gitlab-templates/craft-windows-x86-64.yml
