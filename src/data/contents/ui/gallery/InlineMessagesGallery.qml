@@ -54,6 +54,16 @@ Kirigami.ScrollablePage {
         component: "InlineMessagesGallery"
     }
 
+    header: Kirigami.InlineMessage {
+        position: Kirigami.InlineMessage.Header
+        visible: true
+        text: qsTr("This is an informational inline message in the \"Header\" position")
+    }
+    footer: Kirigami.InlineMessage {
+        position: Kirigami.InlineMessage.Footer
+        visible: true
+        text: qsTr("This is an informational inline message in the \"Footer\" position")
+    }
     ColumnLayout {
         spacing: Kirigami.Units.largeSpacing
 
