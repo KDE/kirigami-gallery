@@ -35,6 +35,7 @@
   <name xml:lang="uk">Галерея Kirigami</name>
   <name xml:lang="x-test">xxKirigami Galleryxx</name>
   <name xml:lang="zh-CN">Kirigami 示例展厅</name>
+  <name xml:lang="zh-TW">Kirigami 畫廊</name>
   <summary>Shows examples of Kirigami components and allows you to play with them</summary>
   <summary xml:lang="ca">Mostra exemples de components del Kirigami i permet jugar-hi</summary>
   <summary xml:lang="ca-valencia">Mostra exemples de components de Kirigami i permet jugar-hi</summary>
