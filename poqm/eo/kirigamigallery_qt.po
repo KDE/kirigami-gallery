@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: kirigami-gallery\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2023-11-05 13:43+0100\n"
-"PO-Revision-Date: 2024-02-26 21:30+0100\n"
+"PO-Revision-Date: 2024-03-24 10:34+0100\n"
 "Last-Translator: Oliver Kellogg <okellogg@users.sourceforge.net>\n"
 "Language-Team: Esperanto <kde-i18n-eo.org>\n"
 "Language: eo\n"
@@ -27,7 +27,7 @@ msgstr "Informo"
 #: contents/ui/gallery/CardsGridViewGallery.qml:30
 msgctxt "CardsGridViewGallery|"
 msgid "Grid view of Cards"
-msgstr ""
+msgstr "Kradvido de Kartoj"
 
 #: contents/ui/gallery/CardsGridViewGallery.qml:34
 msgctxt "CardsGridViewGallery|"
@@ -37,7 +37,7 @@ msgstr "Informo"
 #: contents/ui/gallery/CardsLayoutGallery.qml:29
 msgctxt "CardsLayoutGallery|"
 msgid "Cards Layout"
-msgstr ""
+msgstr "Kartoj Aranĝo"
 
 #: contents/ui/gallery/CardsLayoutGallery.qml:33
 msgctxt "CardsLayoutGallery|"
@@ -47,7 +47,7 @@ msgstr "Informo"
 #: contents/ui/gallery/CardsLayoutGallery.qml:52
 msgctxt "CardsLayoutGallery|"
 msgid "AbstractCard"
-msgstr ""
+msgstr "Abstrakta Karto"
 
 #: contents/ui/gallery/CardsLayoutGallery.qml:57
 msgctxt "CardsLayoutGallery|"
@@ -72,7 +72,7 @@ msgstr ""
 #: contents/ui/gallery/CardsLayoutGallery.qml:67
 msgctxt "CardsLayoutGallery|"
 msgid "Card clicked"
-msgstr ""
+msgstr "Karto klakis"
 
 #: contents/ui/gallery/CardsLayoutGallery.qml:73
 #: contents/ui/gallery/CardsLayoutGallery.qml:95
@@ -80,7 +80,7 @@ msgstr ""
 #: contents/ui/gallery/CardsLayoutGallery.qml:207
 msgctxt "CardsLayoutGallery|"
 msgid "Action1"
-msgstr ""
+msgstr "Ago 1"
 
 #: contents/ui/gallery/CardsLayoutGallery.qml:77
 #: contents/ui/gallery/CardsLayoutGallery.qml:99
@@ -88,7 +88,7 @@ msgstr ""
 #: contents/ui/gallery/CardsLayoutGallery.qml:211
 msgctxt "CardsLayoutGallery|"
 msgid "Action2"
-msgstr ""
+msgstr "Ago 2"
 
 #: contents/ui/gallery/CardsLayoutGallery.qml:83
 msgctxt "CardsLayoutGallery|"
@@ -107,22 +107,22 @@ msgstr ""
 #: contents/ui/gallery/CardsLayoutGallery.qml:103
 msgctxt "CardsLayoutGallery|"
 msgid "Action3"
-msgstr ""
+msgstr "Ago3"
 
 #: contents/ui/gallery/CardsLayoutGallery.qml:107
 msgctxt "CardsLayoutGallery|"
 msgid "Action4"
-msgstr ""
+msgstr "Ago4"
 
 #: contents/ui/gallery/CardsLayoutGallery.qml:111
 msgctxt "CardsLayoutGallery|"
 msgid "Action5"
-msgstr ""
+msgstr "Ago5"
 
 #: contents/ui/gallery/CardsLayoutGallery.qml:115
 msgctxt "CardsLayoutGallery|"
 msgid "Action6"
-msgstr ""
+msgstr "Ago6"
 
 #: contents/ui/gallery/CardsLayoutGallery.qml:126
 msgctxt "CardsLayoutGallery|"
@@ -135,7 +135,7 @@ msgstr ""
 #: contents/ui/gallery/CardsLayoutGallery.qml:141
 msgctxt "CardsLayoutGallery|"
 msgid "Action always hidden"
-msgstr ""
+msgstr "Ago ĉiam kaŝita"
 
 #: contents/ui/gallery/CardsLayoutGallery.qml:152
 msgctxt "CardsLayoutGallery|"
@@ -165,7 +165,7 @@ msgstr ""
 #: contents/ui/gallery/CardsLayoutGallery.qml:195
 msgctxt "CardsLayoutGallery|"
 msgid "Custom footer"
-msgstr ""
+msgstr "Propra piedlinio"
 
 #: contents/ui/gallery/CardsLayoutGallery.qml:198
 msgctxt "CardsLayoutGallery|"
@@ -185,7 +185,7 @@ msgstr ""
 #: contents/ui/gallery/CardsListViewGallery.qml:29
 msgctxt "CardsListViewGallery|"
 msgid "List view of simple cards"
-msgstr ""
+msgstr "Listo de simplaj kartoj"
 
 #: contents/ui/gallery/CardsListViewGallery.qml:33
 msgctxt "CardsListViewGallery|"
@@ -195,7 +195,7 @@ msgstr "Informo"
 #: contents/ui/gallery/CardsListViewGallery.qml:84
 msgctxt "CardsListViewGallery|"
 msgid "Product "
-msgstr ""
+msgstr "Produkto"
 
 #: contents/ui/gallery/CardsListViewGallery.qml:92
 msgctxt "CardsListViewGallery|"
@@ -212,7 +212,7 @@ msgstr "Instali"
 #: contents/ui/gallery/ChipGallery.qml:30
 msgctxt "ChipGallery|"
 msgid "Chips"
-msgstr ""
+msgstr "Blatoj"
 
 #: contents/ui/gallery/ChipGallery.qml:33
 msgctxt "ChipGallery|"
@@ -222,32 +222,32 @@ msgstr "Informo"
 #: contents/ui/gallery/ChipGallery.qml:63
 msgctxt "ChipGallery|"
 msgid "Closable Chips"
-msgstr ""
+msgstr "Fermeblaj Blatoj"
 
 #: contents/ui/gallery/ChipGallery.qml:93
 msgctxt "ChipGallery|"
 msgid "Informative Chips"
-msgstr ""
+msgstr "Informaj Blatoj"
 
 #: contents/ui/gallery/ChipGallery.qml:129
 msgctxt "ChipGallery|"
 msgid "Checkable Chips"
-msgstr ""
+msgstr "Kontroleblaj Blatoj"
 
 #: contents/ui/gallery/components/InfoSheet.qml:47
 msgctxt "InfoSheet|"
 msgid "HIG..."
-msgstr ""
+msgstr "ALTA..."
 
 #: contents/ui/gallery/components/InfoSheet.qml:52
 msgctxt "InfoSheet|"
 msgid "Source code..."
-msgstr ""
+msgstr "Fontkodo..."
 
 #: contents/ui/gallery/components/InfoSheet.qml:57
 msgctxt "InfoSheet|"
 msgid "API..."
-msgstr ""
+msgstr "API..."
 
 #: contents/ui/gallery/DialogGallery.qml:32
 msgctxt "DialogGallery|"
@@ -272,12 +272,12 @@ msgstr "Nuligi"
 #: contents/ui/gallery/DialogGallery.qml:91
 msgctxt "DialogGallery|"
 msgid "Folder name..."
-msgstr ""
+msgstr "Nomo de dosierujo..."
 
 #: contents/ui/gallery/DialogGallery.qml:97
 msgctxt "DialogGallery|"
 msgid "Alarm Snooze Length"
-msgstr ""
+msgstr "Alarm-Snooze Longo"
 
 #: contents/ui/gallery/DialogGallery.qml:106
 msgctxt "DialogGallery|"
@@ -292,12 +292,12 @@ msgstr "2 minutoj"
 #: contents/ui/gallery/DialogGallery.qml:108
 msgctxt "DialogGallery|"
 msgid "3 minutes"
-msgstr ""
+msgstr "3 minutoj"
 
 #: contents/ui/gallery/DialogGallery.qml:109
 msgctxt "DialogGallery|"
 msgid "4 minutes"
-msgstr ""
+msgstr "4 minutoj"
 
 #: contents/ui/gallery/DialogGallery.qml:110
 msgctxt "DialogGallery|"
@@ -322,18 +322,19 @@ msgstr "1 horo"
 #: contents/ui/gallery/DialogGallery.qml:135
 msgctxt "DialogGallery|"
 msgid "Select Number"
-msgstr ""
+msgstr "Elekti Numeron"
 
 #: contents/ui/gallery/DialogGallery.qml:155
 #: contents/ui/gallery/DialogGallery.qml:221
 msgctxt "DialogGallery|"
 msgid "No Footer Dialog"
-msgstr ""
+msgstr "Neniu Pieda Dialogo"
 
 #: contents/ui/gallery/DialogGallery.qml:156
 msgctxt "DialogGallery|"
 msgid "This dialog has no footer buttons.<br/>It also has no close button."
 msgstr ""
+"Ĉi tiu dialogo ne havas piedpiedbutonojn.<br/>Ĝi ankaŭ ne havas fermbutonon."
 
 #: contents/ui/gallery/DialogGallery.qml:164
 msgctxt "DialogGallery|"
@@ -348,7 +349,7 @@ msgstr "Ludi"
 #: contents/ui/gallery/DialogGallery.qml:170
 msgctxt "DialogGallery|"
 msgid "Start playback of the selected track"
-msgstr ""
+msgstr "Komenci reproduktadon de la elektita trako"
 
 #: contents/ui/gallery/DialogGallery.qml:175
 msgctxt "DialogGallery|Show the file for this song in the file manager"
@@ -358,7 +359,7 @@ msgstr "Montri en dosierujo"
 #: contents/ui/gallery/DialogGallery.qml:176
 msgctxt "DialogGallery|"
 msgid "Show the file for this song in the file manager"
-msgstr ""
+msgstr "Montri la dosieron por ĉi tiu kanto en la dosieradministranto"
 
 #: contents/ui/gallery/DialogGallery.qml:180
 msgctxt "DialogGallery|Show track metadata"
@@ -368,7 +369,7 @@ msgstr "Rigardi detalojn"
 #: contents/ui/gallery/DialogGallery.qml:181
 msgctxt "DialogGallery|"
 msgid "Show track metadata"
-msgstr ""
+msgstr "Montri trakmetadatumojn"
 
 #: contents/ui/gallery/DialogGallery.qml:185
 msgctxt ""
@@ -379,7 +380,7 @@ msgstr ""
 #: contents/ui/gallery/DialogGallery.qml:186
 msgctxt "DialogGallery|"
 msgid "Add the track to the queue, right after the current track"
-msgstr ""
+msgstr "Aldoni la trakon al la atendovico, tuj post la nuna trako"
 
 #: contents/ui/gallery/DialogGallery.qml:190
 msgctxt "DialogGallery|Enqueue current track"
@@ -389,37 +390,37 @@ msgstr "Aldoni al vico"
 #: contents/ui/gallery/DialogGallery.qml:191
 msgctxt "DialogGallery|"
 msgid "Enqueue current track"
-msgstr ""
+msgstr "Envicigi nunan trakon"
 
 #: contents/ui/gallery/DialogGallery.qml:201
 msgctxt "DialogGallery|"
 msgid "Prompt Dialog"
-msgstr ""
+msgstr "Prompta Dialogo"
 
 #: contents/ui/gallery/DialogGallery.qml:206
 msgctxt "DialogGallery|"
 msgid "Text Prompt Dialog"
-msgstr ""
+msgstr "Teksta Prompta Dialogo"
 
 #: contents/ui/gallery/DialogGallery.qml:211
 msgctxt "DialogGallery|"
 msgid "Selection Dialog"
-msgstr ""
+msgstr "Elektodialogo"
 
 #: contents/ui/gallery/DialogGallery.qml:216
 msgctxt "DialogGallery|"
 msgid "Scrollable Dialog"
-msgstr ""
+msgstr "Rulumebla Dialogo"
 
 #: contents/ui/gallery/DialogGallery.qml:226
 msgctxt "DialogGallery|"
 msgid "Menu Dialog"
-msgstr ""
+msgstr "Menua Dialogo"
 
 #: contents/ui/gallery/DrawerGallery.qml:30
 msgctxt "DrawerGallery|"
 msgid "Drawers"
-msgstr ""
+msgstr "Kestoj"
 
 #: contents/ui/gallery/DrawerGallery.qml:35
 msgctxt "DrawerGallery|"
@@ -429,27 +430,27 @@ msgstr "Informo"
 #: contents/ui/gallery/DrawerGallery.qml:42
 msgctxt "DrawerGallery|"
 msgid "Action 1"
-msgstr ""
+msgstr "Ago 1"
 
 #: contents/ui/gallery/DrawerGallery.qml:44
 msgctxt "DrawerGallery|"
 msgid "Action 1 clicked"
-msgstr ""
+msgstr "Ago 1 klakis"
 
 #: contents/ui/gallery/DrawerGallery.qml:47
 msgctxt "DrawerGallery|"
 msgid "Disabled Action"
-msgstr ""
+msgstr "Malfunkciigita Ago"
 
 #: contents/ui/gallery/DrawerGallery.qml:52
 msgctxt "DrawerGallery|"
 msgid "Action 3"
-msgstr ""
+msgstr "Ago 3"
 
 #: contents/ui/gallery/DrawerGallery.qml:53
 msgctxt "DrawerGallery|"
 msgid "Action 3 clicked"
-msgstr ""
+msgstr "Ago 3 klakis"
 
 #: contents/ui/gallery/DrawerGallery.qml:80
 msgctxt "DrawerGallery|"
@@ -492,22 +493,22 @@ msgstr ""
 #: contents/ui/gallery/DrawerGallery.qml:150
 msgctxt "DrawerGallery|"
 msgid "Left Global Drawer"
-msgstr ""
+msgstr "Maldekstra Ĉiea Kesto"
 
 #: contents/ui/gallery/DrawerGallery.qml:155
 msgctxt "DrawerGallery|"
 msgid "Right Context Drawer"
-msgstr ""
+msgstr "Dekstra Kunteksta Kesto"
 
 #: contents/ui/gallery/DrawerGallery.qml:161
 msgctxt "DrawerGallery|"
 msgid "Modal Bottom Drawer"
-msgstr ""
+msgstr "Modala Malsupra Kesto"
 
 #: contents/ui/gallery/DrawerGallery.qml:171
 msgctxt "DrawerGallery|"
 msgid "Modal Top Drawer"
-msgstr ""
+msgstr "Modala Supra Kesto"
 
 #: contents/ui/gallery/FormLayoutGallery.qml:13
 msgctxt "FormLayoutGallery|"
@@ -517,17 +518,17 @@ msgstr "Informo"
 #: contents/ui/gallery/FormLayoutGallery.qml:77
 msgctxt "FormLayoutGallery|"
 msgid "Expanding Button"
-msgstr ""
+msgstr "Vastiganta Butono"
 
 #: contents/ui/gallery/FormLayoutGallery.qml:127
 msgctxt "FormLayoutGallery|"
 msgid "Twin Layout:"
-msgstr ""
+msgstr "Dua Aranĝo:"
 
 #: contents/ui/gallery/InlineMessagesGallery.qml:31
 msgctxt "InlineMessagesGallery|"
 msgid "Inline Messages"
-msgstr ""
+msgstr "Enliniaj Mesaĝoj"
 
 #: contents/ui/gallery/InlineMessagesGallery.qml:35
 msgctxt "InlineMessagesGallery|"
@@ -565,7 +566,7 @@ msgstr ""
 #: contents/ui/gallery/InlineMessagesGallery.qml:109
 msgctxt "InlineMessagesGallery|"
 msgid "Inline messages can optionally have a custom icon set."
-msgstr ""
+msgstr "Enliniaj mesaĝoj povas laŭvole havi propran piktogramaron."
 
 #: contents/ui/gallery/InlineMessagesGallery.qml:117
 msgctxt "InlineMessagesGallery|"
@@ -578,7 +579,7 @@ msgstr ""
 #: contents/ui/gallery/InlineMessagesGallery.qml:129
 msgctxt "InlineMessagesGallery|"
 msgid "Inline messages can have an optional close button."
-msgstr ""
+msgstr "Enliniaj mesaĝoj povas havi laŭvolan fermbutonon."
 
 #: contents/ui/gallery/InlineMessagesGallery.qml:147
 msgctxt "InlineMessagesGallery|"
@@ -588,27 +589,28 @@ msgstr "Aldoni tekston"
 #: contents/ui/gallery/InlineMessagesGallery.qml:157
 msgctxt "InlineMessagesGallery|"
 msgid "Reset text"
-msgstr ""
+msgstr "Restarigi tekston"
 
 #: contents/ui/gallery/InlineMessagesGallery.qml:179
 msgctxt "InlineMessagesGallery|"
 msgid "Inline messages are initially hidden and animate when revealed. Try it!"
 msgstr ""
+"Enliniaj mesaĝoj estas komence kaŝitaj kaj viglaj kiam malkaŝite. Provu ĝin!"
 
 #: contents/ui/gallery/InlineMessagesGallery.qml:188
 msgctxt "InlineMessagesGallery|"
 msgid "Show additional message"
-msgstr ""
+msgstr "Montri plian mesaĝon"
 
 #: contents/ui/gallery/InlineMessagesGallery.qml:205
 msgctxt "InlineMessagesGallery|"
 msgid "Boo!"
-msgstr ""
+msgstr "Ho!"
 
 #: contents/ui/gallery/InlineMessagesGallery.qml:209
 msgctxt "InlineMessagesGallery|"
 msgid "Shush"
-msgstr ""
+msgstr "Silentu"
 
 #: contents/ui/gallery/MetricsGallery.qml:42
 msgctxt "MetricsGallery|"
@@ -642,12 +644,12 @@ msgstr "Titolo 4"
 #: contents/ui/gallery/MiscGallery.qml:74
 msgctxt "MiscGallery|"
 msgid "Text Beside Icon"
-msgstr ""
+msgstr "Teksto Apud Piktogramo"
 
 #: contents/ui/gallery/MiscGallery.qml:89
 msgctxt "MiscGallery|"
 msgid "Text Under Icon"
-msgstr ""
+msgstr "Teksto Sub Piktogramo"
 
 #: contents/ui/gallery/MiscGallery.qml:104
 msgctxt "MiscGallery|"
@@ -657,17 +659,17 @@ msgstr "Nur Teksto"
 #: contents/ui/gallery/MiscGallery.qml:119
 msgctxt "MiscGallery|"
 msgid "Icon Only"
-msgstr ""
+msgstr "Piktogramo Nur"
 
 #: contents/ui/gallery/MultipleColumnsGallery.qml:119
 msgctxt "MultipleColumnsGallery|"
 msgid "Pin page"
-msgstr ""
+msgstr "Pinpaĝo"
 
 #: contents/ui/gallery/OverlaySheetGallery.qml:31
 msgctxt "OverlaySheetGallery|"
 msgid "Overlay Sheets"
-msgstr ""
+msgstr "Supermeti Foliojn"
 
 #: contents/ui/gallery/OverlaySheetGallery.qml:35
 msgctxt "OverlaySheetGallery|"
@@ -691,7 +693,7 @@ msgstr "Titolo"
 #: contents/ui/gallery/OverlaySheetGallery.qml:189
 msgctxt "OverlaySheetGallery|"
 msgid "Footer:"
-msgstr ""
+msgstr "Piedo:"
 
 #: contents/ui/gallery/OverlaySheetGallery.qml:109
 msgctxt "OverlaySheetGallery|"
@@ -720,12 +722,12 @@ msgstr ""
 #: contents/ui/gallery/OverlaySheetGallery.qml:177
 msgctxt "OverlaySheetGallery|"
 msgid "Item in sheet "
-msgstr ""
+msgstr "Ero en folio"
 
 #: contents/ui/gallery/OverlaySheetGallery.qml:221
 msgctxt "OverlaySheetGallery|"
 msgid "Very Long Sheet"
-msgstr ""
+msgstr "Tre Longa Folio"
 
 #: contents/ui/gallery/SelectionControlsGallery.qml:31
 msgctxt "SelectionControlsGallery|"
@@ -735,12 +737,12 @@ msgstr "Informo"
 #: contents/ui/gallery/SelectionControlsGallery.qml:38
 msgctxt "SelectionControlsGallery|"
 msgid "Selection Controls"
-msgstr ""
+msgstr "Elektaj Kontroloj"
 
 #: contents/ui/gallery/SelectionControlsGallery.qml:64
 msgctxt "SelectionControlsGallery|"
 msgid "Checkable List Items"
-msgstr ""
+msgstr "Kontroleblaj Listo Eroj"
 
 #: contents/ui/gallery/SelectionControlsGallery.qml:71
 #: contents/ui/gallery/SelectionControlsGallery.qml:94
@@ -748,13 +750,13 @@ msgstr ""
 #, qt-format
 msgctxt "SelectionControlsGallery|"
 msgid "Delegate %1"
-msgstr ""
+msgstr "Delegito %1"
 
 #: contents/ui/gallery/SelectionControlsGallery.qml:87
 #: contents/ui/gallery/SelectionControlsGallery.qml:110
 msgctxt "SelectionControlsGallery|"
 msgid "Radio List Items"
-msgstr ""
+msgstr "Radio-Listo-Eroj"
 
 #: contents/ui/gallery/SelectionControlsGallery.qml:126
 msgctxt "SelectionControlsGallery|"
@@ -766,29 +768,29 @@ msgstr "Markobutonoj"
 #: contents/ui/gallery/SelectionControlsGallery.qml:166
 msgctxt "SelectionControlsGallery|"
 msgid "Item selected"
-msgstr ""
+msgstr "Elektita ero"
 
 #: contents/ui/gallery/SelectionControlsGallery.qml:134
 #: contents/ui/gallery/SelectionControlsGallery.qml:152
 #: contents/ui/gallery/SelectionControlsGallery.qml:170
 msgctxt "SelectionControlsGallery|"
 msgid "Item not selected"
-msgstr ""
+msgstr "Ero ne elektita"
 
 #: contents/ui/gallery/SelectionControlsGallery.qml:138
 msgctxt "SelectionControlsGallery|"
 msgid "Checkable List View"
-msgstr ""
+msgstr "Kontrolebla Listo Vido"
 
 #: contents/ui/gallery/SelectionControlsGallery.qml:144
 msgctxt "SelectionControlsGallery|"
 msgid "Radio buttons"
-msgstr ""
+msgstr "Radiobutonoj"
 
 #: contents/ui/gallery/SelectionControlsGallery.qml:157
 msgctxt "SelectionControlsGallery|"
 msgid "Radio List View"
-msgstr ""
+msgstr "Radio Listo Vido"
 
 #: contents/ui/gallery/SelectionControlsGallery.qml:163
 msgctxt "SelectionControlsGallery|"
@@ -798,7 +800,7 @@ msgstr "Ŝaltiloj"
 #: contents/ui/gallery/SelectionControlsGallery.qml:174
 msgctxt "SelectionControlsGallery|"
 msgid "Switch List View"
-msgstr ""
+msgstr "Ŝanĝi Listo Vidon"
 
 #: contents/ui/MainPage.qml:35
 msgctxt "MainPage|"
