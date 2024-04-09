@@ -84,34 +84,41 @@ Kirigami.ScrollablePage {
 
     Component {
         id: delegateComponent
-        Kirigami.SwipeListItem {
-            id: listItem
-            width: ListView.view ? ListView.view.width : implicitWidth
-            contentItem: RowLayout {
-                Kirigami.ListItemDragHandle {
-                    listItem: listItem
-                    listView: mainList
-                    onMoveRequested: (oldIndex, newIndex) => listModel.move(oldIndex, newIndex, 1)
-                }
+        Item {
+            id: delegate
+            width: listItem.implicitWidth
+            height: listItem.implicitHeight
+            Kirigami.SwipeListItem {
+                id: listItem
+                implicitWidth: delegate.ListView.view ? delegate.ListView.view.width : implicitWidth
+                contentItem: RowLayout {
+                    Kirigami.ListItemDragHandle {
+                        listItem: listItem
+                        listView: mainList
+                        onMoveRequested: (oldIndex, newIndex) => {
+                            listModel.move(oldIndex, newIndex, 1)
+                        }
+                    }
 
-                QQC2.Label {
-                    Layout.fillWidth: true
-                    height: Math.max(implicitHeight, Kirigami.Units.iconSizes.smallMedium)
-                    text: model.title
-                    color: listItem.checked || (listItem.pressed && !listItem.checked && !listItem.sectionDelegate) ? listItem.activeTextColor : listItem.textColor
+                    QQC2.Label {
+                        Layout.fillWidth: true
+                        height: Math.max(implicitHeight, Kirigami.Units.iconSizes.smallMedium)
+                        text: model.title
+                        color: listItem.checked || (listItem.pressed && !listItem.checked && !listItem.sectionDelegate) ? listItem.activeTextColor : listItem.textColor
+                    }
                 }
+                actions: [
+                    Kirigami.Action {
+                        icon.name: "document-decrypt"
+                        text: "Action 1"
+                        onTriggered: showPassiveNotification(model.text + " Action 1 clicked")
+                    },
+                    Kirigami.Action {
+                        icon.name: "mail-reply-sender"
+                        text: "Action 2"
+                        onTriggered: showPassiveNotification(model.text + " Action 2 clicked")
+                    }]
             }
-            actions: [
-                Kirigami.Action {
-                    icon.name: "document-decrypt"
-                    text: "Action 1"
-                    onTriggered: showPassiveNotification(model.text + " Action 1 clicked")
-                },
-                Kirigami.Action {
-                    icon.name: "mail-reply-sender"
-                    text: "Action 2"
-                    onTriggered: showPassiveNotification(model.text + " Action 2 clicked")
-                }]
         }
     }
     ListView {
