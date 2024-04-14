@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: kirigami-gallery\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2023-11-05 13:43+0100\n"
-"PO-Revision-Date: 2024-03-24 10:34+0100\n"
+"PO-Revision-Date: 2024-04-08 08:59+0100\n"
 "Last-Translator: Oliver Kellogg <okellogg@users.sourceforge.net>\n"
 "Language-Team: Esperanto <kde-i18n-eo.org>\n"
 "Language: eo\n"
@@ -761,7 +761,7 @@ msgstr "Radio-Listo-Eroj"
 #: contents/ui/gallery/SelectionControlsGallery.qml:126
 msgctxt "SelectionControlsGallery|"
 msgid "Checkboxes"
-msgstr "Markobutonoj"
+msgstr "Markokestoj"
 
 #: contents/ui/gallery/SelectionControlsGallery.qml:130
 #: contents/ui/gallery/SelectionControlsGallery.qml:148
