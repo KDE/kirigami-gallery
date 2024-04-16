@@ -6,7 +6,7 @@ include:
     file:
       - /gitlab-templates/linux.yml
       - /gitlab-templates/freebsd.yml
-      - /gitlab-templates/android.yml
+      # - /gitlab-templates/android.yml
       - /gitlab-templates/windows.yml
       - /gitlab-templates/flatpak.yml
       - /gitlab-templates/craft-android-apks.yml
