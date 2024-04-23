@@ -4,6 +4,6 @@
 Dependencies:
 - 'on': ['@all']
   'require':
-    'frameworks/extra-cmake-modules': '@stable'
-    'frameworks/kirigami': '@stable'
-    'frameworks/kitemmodels': '@stable'
+    'frameworks/extra-cmake-modules': '@latest-kf6'
+    'frameworks/kirigami': '@latest-kf6'
+    'frameworks/kitemmodels': '@latest-kf6'
