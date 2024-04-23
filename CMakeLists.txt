@@ -31,9 +31,7 @@ find_package(Qt${QT_MAJOR_VERSION} ${REQUIRED_QT_VERSION} REQUIRED NO_MODULE COM
 
 find_package(KF6 ${KF5_DEP_VERSION} REQUIRED COMPONENTS Kirigami2 ItemModels)
 
-if(ANDROID)
-    find_package(Qt${QT_MAJOR_VERSION}AndroidExtras ${REQUIRED_QT_VERSION} REQUIRED)
-else()
+if(NOT ANDROID)
     find_package(Qt${QT_MAJOR_VERSION}Widgets ${REQUIRED_QT_VERSION} REQUIRED)
 endif()
 
