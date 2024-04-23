@@ -27,14 +27,15 @@ Kirigami.Page {
     Layout.fillWidth: true
     title: "Simple Page"
 
-    actions {
-        main: Kirigami.Action {
+    actions: [
+        Kirigami.Action {
             icon.name: sheet.sheetOpen ? "dialog-cancel" : "document-edit"
             text: "Main Action Text"
             checkable: true
-            onCheckedChanged: sheet.visible = checked;
+            checked: sheet.opened
+            onTriggered: sheet.opened = !sheet.opened;
         }
-    }
+    ]
 
     header: QQC2.Button {
         text: "bah"
@@ -53,7 +54,6 @@ Kirigami.Page {
 
     Kirigami.OverlaySheet {
         id: sheet
-        onSheetOpenChanged: page.actions.main.checked = sheetOpen;
         QQC2.Label {
             property int implicitWidth: Kirigami.Units.gridUnit * 30
             wrapMode: Text.WordWrap

@@ -8,7 +8,7 @@ Kirigami.ScrollablePage {
     id: page
     title: "Form Layout"
 
-    actions.main: Kirigami.Action {
+    actions: Kirigami.Action {
         icon.name: "documentinfo"
         text: qsTr("Info")
         checkable: true

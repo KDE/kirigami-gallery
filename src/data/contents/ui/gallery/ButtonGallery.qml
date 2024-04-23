@@ -29,62 +29,59 @@ Kirigami.ScrollablePage {
 
     title: "Buttons"
 
-    actions {
-        main: Kirigami.Action {
-            icon.name: sheet.sheetOpen ? "dialog-cancel" : "document-edit"
+    actions: [
+        Kirigami.Action {
+            icon.name: sheet.opened ? "dialog-cancel" : "document-edit"
             text: "Main Action Text"
             checkable: true
-            onCheckedChanged: sheet.sheetOpen = checked;
+            checked: sheet.opened
             shortcut: "Alt+S"
-        }
-        left: Kirigami.Action {
+        },
+        Kirigami.Action {
             icon.name: "go-previous"
             text: "Left Action Text"
             onTriggered: {
                 showPassiveNotification("Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id risus id augue euismod accumsan. Nunc vestibulum placerat bibendum. Morbi commodo auctor varius. Donec molestie euismod ultrices. Sed facilisis augue nec eros auctor, vitae mattis quam rhoncus. Nam ut erat diam. Curabitur iaculis accumsan magna, eget fermentum massa scelerisque eu. Cras elementum erat non erat euismod accumsan. Vestibulum ac mi sed dui finibus pulvinar. Vivamus dictum, leo sed lobortis porttitor, nisl magna faucibus orci, sit amet euismod arcu elit eget est. Duis et vehicula nibh. In arcu sapien, laoreet sit amet porttitor non, rhoncus vel magna. Suspendisse imperdiet consectetur est nec ornare. Pellentesque bibendum sapien at erat efficitur vehicula. Morbi sed porta nibh. Vestibulum ut urna ut dolor sagittis mattis.")
             }
-        }
-        right: Kirigami.Action {
+        },
+        Kirigami.Action {
             icon.name: "go-next"
             text: "Right Action Text"
             onTriggered: {
                 showPassiveNotification("Right action triggered")
             }
-        }
-        contextualActions: [
+        },
+        Kirigami.Action {
+            text:"Action Parent Expandible"
+            icon.name: "bookmarks"
+            expandible: true
             Kirigami.Action {
-                text:"Action Parent Expandible"
-                icon.name: "bookmarks"
-                expandible: true
-                Kirigami.Action {
-                    text: "Sub action 1"
-                }
-                Kirigami.Action {
-                    text: "Sub action 1"
-                }
-            },
-            Kirigami.Action {
-                text:"Action Parent"
-                icon.name: "bookmarks"
-                Kirigami.Action {
-                    text: "Sub action 1"
-                }
-                Kirigami.Action {
-                    text: "Sub action 1"
-                }
-            },
-            Kirigami.Action {
-                text:"Disabled Action"
-                icon.name: "folder"
-                enabled: false
-            },
-            Kirigami.Action {
-                text: "Action for Sheet"
-                visible: sheet.sheetOpen
+                text: "Sub action 1"
             }
-        ]
-    }
-
+            Kirigami.Action {
+                text: "Sub action 1"
+            }
+        },
+        Kirigami.Action {
+            text:"Action Parent"
+            icon.name: "bookmarks"
+            Kirigami.Action {
+                text: "Sub action 1"
+            }
+            Kirigami.Action {
+                text: "Sub action 1"
+            }
+        },
+        Kirigami.Action {
+            text:"Disabled Action"
+            icon.name: "folder"
+            enabled: false
+        },
+        Kirigami.Action {
+            text: "Action for Sheet"
+            visible: sheet.opened
+        }
+    ]
 
     //Close the drawer with the back button
     onBackRequested: {
@@ -92,7 +89,7 @@ Kirigami.ScrollablePage {
             event.accepted = true;
             bottomDrawer.close();
         }
-        if (sheet.sheetOpen) {
+        if (sheet.opened) {
             event.accepted = true;
             sheet.close();
         }
@@ -122,7 +119,6 @@ Kirigami.ScrollablePage {
 
     Kirigami.OverlaySheet {
         id: sheet
-        onSheetOpenChanged: page.actions.main.checked = sheetOpen
         header: Kirigami.Heading {
             text: "Title"
         }

@@ -35,34 +35,32 @@ Kirigami.ScrollablePage {
     title: qsTr("Kirigami Gallery")
 
     //flickable: mainListView
-    actions {
-        main: Kirigami.Action {
+    actions: [
+        Kirigami.Action {
             icon.name: "go-home"
             enabled: root.pageStack.lastVisibleItem != pageRoot
             onTriggered: root.pageStack.pop(-1)
+        },
+        Kirigami.Action {
+            text:"Action 1"
+            icon.name: "document-decrypt"
+            onTriggered: showPassiveNotification("Action 1 clicked")
+        },
+        Kirigami.Action {
+            id: shareAction
+            visible: checkableAction.checked
+            text:"Action 2"
+            icon.name: "document-share"
+            onTriggered: showPassiveNotification("Action 2 clicked")
+        },
+        Kirigami.Action {
+            id: checkableAction
+            text:"Checkable"
+            checkable: true
+            icon.name: "dashboard-show"
+            onCheckedChanged: showPassiveNotification("Checked: " + checked)
         }
-        contextualActions: [
-            Kirigami.Action {
-                text:"Action 1"
-                icon.name: "document-decrypt"
-                onTriggered: showPassiveNotification("Action 1 clicked")
-            },
-            Kirigami.Action {
-                id: shareAction
-                visible: checkableAction.checked
-                text:"Action 2"
-                icon.name: "document-share"
-                onTriggered: showPassiveNotification("Action 2 clicked")
-            },
-            Kirigami.Action {
-                id: checkableAction
-                text:"Checkable"
-                checkable: true
-                icon.name: "dashboard-show"
-                onCheckedChanged: showPassiveNotification("Checked: " + checked)
-            }
-        ]
-    }
+    ]
 
     Kirigami.PagePool {
         id: mainPagePool
@@ -140,11 +138,6 @@ Kirigami.ScrollablePage {
             img: "img/cardlist.svg"
         }
         ListElement {
-            title: "Grid View with Cards"
-            targetPage: "gallery/CardsGridViewGallery.qml"
-            img: "img/cardgrid.svg"
-        }
-        ListElement {
             title: "Inline Messages"
             targetPage: "gallery/InlineMessagesGallery.qml"
             img: "img/inlinemessage.svg"
@@ -163,11 +156,6 @@ Kirigami.ScrollablePage {
             title: "List View"
             targetPage: "gallery/ListViewGallery.qml"
             img: "img/listview.svg"
-        }
-        ListElement {
-            title: "List Headers"
-            targetPage: "gallery/ListViewHeaderItemsGallery.qml"
-            img: "img/headers.svg"
         }
         ListElement {
             title: "Non Scrollable Page"
@@ -211,7 +199,7 @@ Kirigami.ScrollablePage {
     KTM.KSortFilterProxyModel {
         id: filteredModel
         sourceModel: galleryModel
-        filterRole: "title"
+        filterRoleName: "title"
         filterRegularExpression: {
             if (searchField.text === "") return new RegExp()
             return new RegExp("%1".arg(searchField.text), "i")
@@ -227,8 +215,8 @@ Kirigami.ScrollablePage {
         Repeater {
             focus: true
             model: root.pageStack.wideMode ? filteredModel : 0
-            delegate: Kirigami.BasicListItem {
-                label: title
+            delegate: QQC2.ItemDelegate {
+                text: title
                 action: Kirigami.PagePoolAction {
                     id: action
                     pagePool: mainPagePool

@@ -30,7 +30,7 @@ Kirigami.ScrollablePage {
 
     title: qsTr("Overlay Sheets")
 
-    actions.main: Kirigami.Action {
+    actions: Kirigami.Action {
         icon.name: "documentinfo"
         text: qsTr("Info")
         checkable: true
@@ -172,8 +172,8 @@ Kirigami.ScrollablePage {
         ListView {
             model: 100
             implicitWidth: Kirigami.Units.gridUnit * 30
-            delegate: Kirigami.BasicListItem {
-                label: qsTr("Item in sheet ") + modelData
+            delegate: QQC2.ItemDelegate {
+                text: qsTr("Item in sheet ") + modelData
             }
         }
     }

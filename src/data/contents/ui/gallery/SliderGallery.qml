@@ -29,22 +29,22 @@ Kirigami.ScrollablePage {
 
     title: "Sliders"
 
-    actions {
-        left: Kirigami.Action {
+    actions: [
+        Kirigami.Action {
             icon.name: "folder-sync"
             text: "Left Action Text"
             onTriggered: {
                 showPassiveNotification("Left action triggered")
             }
-        }
-        right: Kirigami.Action {
+        },
+        Kirigami.Action {
             icon.name: "configure"
             text: "Right Action Text"
             onTriggered: {
                 showPassiveNotification("Right action triggered")
             }
         }
-    }
+    ]
 
     Kirigami.FormLayout {
         id: formLayout

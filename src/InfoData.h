@@ -17,7 +17,7 @@ class InfoData : public QObject
     Q_PROPERTY(QString text READ text NOTIFY textChanged)
 
 public:
-    InfoData(QObject *parent=0);
+    InfoData(QObject *parent = nullptr);
     
     QString component() const;
     QString higUrl() const;
@@ -28,7 +28,7 @@ public:
     
     void setComponent(const QString &componentName);
 
-signals:
+Q_SIGNALS:
     void componentChanged();
     void higUrlChanged();
     void sourceUrlChanged();

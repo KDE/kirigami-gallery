@@ -29,13 +29,15 @@ Kirigami.ScrollablePage {
 
     title: "Action Tool Bar"
 
-    actions.main: Kirigami.Action {
-        icon.name: "documentinfo"
-        text: qsTr("Info")
-        checkable: true
-        onCheckedChanged: sheet.visible = checked;
-        shortcut: "Alt+I"
-    }
+    actions: [
+        Kirigami.Action {
+            icon.name: "documentinfo"
+            text: qsTr("Info")
+            checkable: true
+            onCheckedChanged: sheet.visible = checked;
+            shortcut: "Alt+I"
+        }
+    ]
 
     //Close the drawer with the back button
     onBackRequested: {

@@ -8,15 +8,12 @@ set (RELEASE_SERVICE_VERSION "${RELEASE_SERVICE_VERSION_MAJOR}.${RELEASE_SERVICE
 
 project(kirigami2gallery VERSION ${RELEASE_SERVICE_VERSION})
 
-set(REQUIRED_QT_VERSION "5.15.0")
-if (ANDROID)
-    set(REQUIRED_QT_VERSION "5.15.10")
-endif()
-set(KF5_DEP_VERSION "5.79.0")
+set(REQUIRED_QT_VERSION "6.0.0")
+set(KF_DEP_VERSION "6.0.0")
 
 set(CMAKE_CXX_STANDARD 17)
 
-find_package(ECM ${KF5_DEP_VERSION} REQUIRED)
+find_package(ECM ${KF_DEP_VERSION} REQUIRED)
 
 # where to look first for cmake modules, before ${CMAKE_ROOT}/Modules/ is checked
 set(CMAKE_MODULE_PATH ${CMAKE_MODULE_PATH} ${ECM_MODULE_PATH})
@@ -32,10 +29,10 @@ include(ECMQMLModules)
 
 find_package(Qt${QT_MAJOR_VERSION} ${REQUIRED_QT_VERSION} REQUIRED NO_MODULE COMPONENTS Core Quick Gui Svg QuickControls2)
 
-find_package(KF5 ${KF5_DEP_VERSION} REQUIRED COMPONENTS Kirigami2 ItemModels)
+find_package(KF6 ${KF5_DEP_VERSION} REQUIRED COMPONENTS Kirigami2 ItemModels)
 
 if(ANDROID)
-    find_package(Qt5AndroidExtras ${REQUIRED_QT_VERSION} REQUIRED)
+    find_package(Qt${QT_MAJOR_VERSION}AndroidExtras ${REQUIRED_QT_VERSION} REQUIRED)
 else()
     find_package(Qt${QT_MAJOR_VERSION}Widgets ${REQUIRED_QT_VERSION} REQUIRED)
 endif()
@@ -44,6 +41,7 @@ ecm_find_qmlmodule(QtGraphicalEffects 1.0)
 ecm_find_qmlmodule(org.kde.kitemmodels 1.0)
 
 add_definitions(-DQT_NO_URL_CAST_FROM_STRING)
+remove_definitions(-DQT_NO_CAST_FROM_ASCII)
 
 add_subdirectory(src)
 

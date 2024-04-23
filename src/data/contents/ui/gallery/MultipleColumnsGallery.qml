@@ -31,8 +31,8 @@ Kirigami.ScrollablePage {
 
     title: "Page " + depth
 
-    actions {
-        main: Kirigami.Action {
+    actions: [
+        Kirigami.Action {
             icon.name: "document-edit"
             text: "Main Action Text"
 
@@ -48,8 +48,8 @@ Kirigami.ScrollablePage {
                     showPassiveNotification("Sub Action 2 clicked");
                 }
             }
-        }
-        left: Kirigami.Action {
+        },
+        Kirigami.Action {
             icon.name: "go-previous"
             text: "Left Action Text"
             onTriggered: {
@@ -67,8 +67,8 @@ Kirigami.ScrollablePage {
                     showPassiveNotification("Sub Action 2 clicked");
                 }
             }
-        }
-        right: Kirigami.Action {
+        },
+        Kirigami.Action {
             icon.name: "go-next"
             text: "Right Action Text"
             onTriggered: {
@@ -86,21 +86,19 @@ Kirigami.ScrollablePage {
                     showPassiveNotification("Sub Action 2 clicked");
                 }
             }
+        },
+        Kirigami.Action {
+            text:"Action 1"
+            icon.name: "bookmarks"
+            onTriggered: showPassiveNotification("Action 1 clicked")
+        },
+        Kirigami.Action {
+            text:"Action 2"
+            icon.name: "folder"
+            enabled: false
+            onTriggered: showPassiveNotification("Action 2 clicked")
         }
-        contextualActions: [
-            Kirigami.Action {
-                text:"Action 1"
-                icon.name: "bookmarks"
-                onTriggered: showPassiveNotification("Action 1 clicked")
-            },
-            Kirigami.Action {
-                text:"Action 2"
-                icon.name: "folder"
-                enabled: false
-                onTriggered: showPassiveNotification("Action 2 clicked")
-            }
-        ]
-    }
+    ]
 
     ColumnLayout {
         width: root.width

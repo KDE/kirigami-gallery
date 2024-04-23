@@ -59,7 +59,7 @@ void InfoData::setComponent(const QString &componentName)
 {
     if (componentName != m_component) {
         m_component = componentName;
-        emit componentChanged();
+        Q_EMIT componentChanged();
         m_jsonMap.contains(componentName) ? setComponentData() : clearComponentData();
     }
 }

@@ -29,22 +29,22 @@ Kirigami.ScrollablePage {
 
     title: "Progress Indicators"
 
-    actions {
-        main: Kirigami.Action {
+    actions: [
+        Kirigami.Action {
             icon.name: "document-edit"
             text: "Main Action Text"
             onTriggered: {
                 showPassiveNotification("Main action triggered");
             }
-        }
-        right: Kirigami.Action {
+        },
+        Kirigami.Action {
             icon.name: "folder-sync"
             text: "Right Action Text"
             onTriggered: {
                 showPassiveNotification("Right action triggered")
             }
         }
-    }
+    ]
 
     ColumnLayout {
         width: page.width

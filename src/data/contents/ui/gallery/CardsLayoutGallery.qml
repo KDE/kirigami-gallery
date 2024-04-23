@@ -28,13 +28,15 @@ Kirigami.ScrollablePage {
 
     title: qsTr("Cards Layout")
 
-    actions.main: Kirigami.Action {
-        icon.name: "documentinfo"
-        text: qsTr("Info")
-        checkable: true
-        onCheckedChanged: sheet.visible = checked;
-        shortcut: "Alt+I"
-    }
+    actions: [
+        Kirigami.Action {
+            icon.name: "documentinfo"
+            text: qsTr("Info")
+            checkable: true
+            onCheckedChanged: sheet.visible = checked;
+            shortcut: "Alt+I"
+        }
+    ]
 
     KGC.InfoSheet {
         id: sheet
@@ -144,7 +146,7 @@ Kirigami.ScrollablePage {
                     }
                 ]
                 banner {
-                    iconSource: "applications-graphics"
+                    titleIcon: "applications-graphics"
                     title: "Title only"
                 }
                 contentItem: QQC2.Label {

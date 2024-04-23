@@ -26,7 +26,7 @@ import "components" as KGC
 
 Kirigami.ScrollablePage {
     id: page
-    actions.main: Kirigami.Action {
+    actions: Kirigami.Action {
         icon.name: "documentinfo"
         text: qsTr("Info")
         checkable: true

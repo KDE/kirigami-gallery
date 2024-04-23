@@ -26,13 +26,13 @@ Kirigami.ScrollablePage {
     id: page
     title: "Misc controls"
 
-    actions {
-        main: Kirigami.Action {
+    actions: [
+        Kirigami.Action {
             icon.name: "document-edit"
             icon.color: Kirigami.Theme.negativeTextColor
             text: "Main Action Text"
-        }
-        left: Kirigami.Action {
+        },
+        Kirigami.Action {
             icon.name: "go-previous"
             icon.color: Kirigami.Theme.positiveTextColor
             enabled: false
@@ -40,29 +40,27 @@ Kirigami.ScrollablePage {
             onTriggered: {
                 showPassiveNotification("Left action triggered")
             }
-        }
-        right: Kirigami.Action {
+        },
+        Kirigami.Action {
             icon.name: "go-next"
             icon.color: Kirigami.Theme.neutralTextColor
             text: "Right Action Text"
             onTriggered: {
                 showPassiveNotification("Right action triggered")
             }
+        },
+        Kirigami.Action {
+            text:"Action for buttons"
+            icon.name: "bookmarks"
+            icon.color: Kirigami.Theme.activeTextColor
+            onTriggered: showPassiveNotification("Action 1 clicked")
+        },
+        Kirigami.Action {
+            text:"Disabled Action"
+            icon.name: "folder"
+            enabled: false
         }
-        contextualActions: [
-            Kirigami.Action {
-                text:"Action for buttons"
-                icon.name: "bookmarks"
-                icon.color: Kirigami.Theme.activeTextColor
-                onTriggered: showPassiveNotification("Action 1 clicked")
-            },
-            Kirigami.Action {
-                text:"Disabled Action"
-                icon.name: "folder"
-                enabled: false
-            }
-        ]
-    }
+    ]
 
     header: QQC2.ToolBar {
         contentItem: Kirigami.ActionToolBar {

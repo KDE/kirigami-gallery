@@ -71,14 +71,14 @@ Kirigami.ScrollablePage {
                 QQC2.Label {
                     text: "Set inherited from parent Item"
                 }
-                Kirigami.BasicListItem {
+                Kirigami.SubtitleDelegate {
                     width: parent.width
-                    icon: "view-right-close"
-                    label: "Delegate1"
+                    icon.name: "view-right-close"
+                    text: "Delegate1"
                 }
-                Kirigami.BasicListItem {
+                Kirigami.SubtitleDelegate {
                     width: parent.width
-                    label: "Delegate2"
+                    text: "Delegate2"
                 }
             }
         }
@@ -99,14 +99,14 @@ Kirigami.ScrollablePage {
                 QQC2.Label {
                     text: "Window Set"
                 }
-                Kirigami.BasicListItem {
+                Kirigami.SubtitleDelegate {
                     width: parent.width
-                    icon: "view-right-close"
-                    label: "Delegate1"
+                    icon.name: "view-right-close"
+                    text: "Delegate1"
                 }
-                Kirigami.BasicListItem {
+                Kirigami.SubtitleDelegate {
                     width: parent.width
-                    label: "Delegate2"
+                    text: "Delegate2"
                 }
             }
         }
@@ -127,14 +127,14 @@ Kirigami.ScrollablePage {
                 QQC2.Label {
                     text: "View Set"
                 }
-                Kirigami.BasicListItem {
+                Kirigami.SubtitleDelegate {
                     width: parent.width
-                    icon: "view-right-close"
-                    label: "Delegate1"
+                    icon.name: "view-right-close"
+                    text: "Delegate1"
                 }
-                Kirigami.BasicListItem {
+                Kirigami.SubtitleDelegate {
                     width: parent.width
-                    label: "Delegate2"
+                    text: "Delegate2"
                 }
             }
         }
@@ -154,14 +154,14 @@ Kirigami.ScrollablePage {
                 QQC2.Label {
                     text: "Complementary Set"
                 }
-                Kirigami.BasicListItem {
+                Kirigami.SubtitleDelegate {
                     width: parent.width
-                    icon: "view-right-close"
-                    label: "Delegate1"
+                    icon.name: "view-right-close"
+                    text: "Delegate1"
                 }
-                Kirigami.BasicListItem {
+                Kirigami.SubtitleDelegate {
                     width: parent.width
-                    label: "Delegate2"
+                    text: "Delegate2"
                 }
             }
         }
@@ -184,19 +184,19 @@ Kirigami.ScrollablePage {
                 QQC2.Label {
                     text: "Window set with Custom Colors"
                 }
-                Kirigami.BasicListItem {
+                Kirigami.SubtitleDelegate {
                     width: parent.width
-                    icon: "view-right-close"
-                    label: "Delegate1"
+                    icon.name: "view-right-close"
+                    text: "Delegate1"
                     QQC2.Button {
                         Kirigami.Theme.inherit: true
                         text: "Dynamic Color Button"
                         icon.name: "go-next"
                     }
                 }
-                Kirigami.BasicListItem {
+                Kirigami.SubtitleDelegate {
                     width: parent.width
-                    label: "Delegate2"
+                    text: "Delegate2"
                     QQC2.TextField {
                         Kirigami.Theme.inherit: true
                         text: "Dynamic Color Text field"
