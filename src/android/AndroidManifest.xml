@@ -6,9 +6,9 @@
           android:installLocation="auto">
 
     <supports-screens android:largeScreens="true" android:normalScreens="true" android:anyDensity="true" android:smallScreens="true"/>
-    <application android:hardwareAccelerated="true" android:name="org.qtproject.qt5.android.bindings.QtApplication" android:label="Kirigami Gallery" android:icon="@mipmap/ic_launcher">
+    <application android:hardwareAccelerated="true" android:name="org.qtproject.qt.android.bindings.QtApplication" android:label="Kirigami Gallery" android:icon="@mipmap/ic_launcher">
         <activity android:configChanges="orientation|uiMode|screenLayout|screenSize|smallestScreenSize|layoutDirection|locale|fontScale|keyboard|keyboardHidden|navigation"
-                  android:name="org.qtproject.qt5.android.bindings.QtActivity"
+                  android:name="org.qtproject.qt.android.bindings.QtActivity"
                   android:label="Kirigami Gallery"
                   android:theme="@style/AppTheme"
                   android:screenOrientation="unspecified"

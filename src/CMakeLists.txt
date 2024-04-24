@@ -36,6 +36,7 @@ if (ANDROID)
     kirigami_package_breeze_icons(ICONS applications-graphics view-list-icons folder-sync view-list-details configure document-edit dialog-information dialog-positive dialog-warning dialog-error dialog-cancel document-decrypt system-run mail-reply-sender bookmarks folder media-record-symbolic add-placemark address-book-new-symbolic view-right-new view-right-close documentinfo go-home)
 
     configure_file(${CMAKE_CURRENT_SOURCE_DIR}/android/version.gradle.in ${CMAKE_BINARY_DIR}/version.gradle)
+    ecm_add_android_apk(kirigami2gallery ANDROID_DIR ${CMAKE_CURRENT_SOURCE_DIR}/android)
 else()
     target_link_libraries(kirigami2gallery Qt::Widgets)
 endif()
