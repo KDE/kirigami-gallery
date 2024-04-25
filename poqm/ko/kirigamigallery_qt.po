@@ -1,0 +1,875 @@
+# Shinjo Park <kde@peremen.name>, 2019, 2020, 2021, 2022.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"PO-Revision-Date: 2022-10-03 15:51+0200\n"
+"Last-Translator: Shinjo Park <kde@peremen.name>\n"
+"Language-Team: Korean <kde-i18n-doc@kde.org>\n"
+"Language: ko\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Lokalize 21.12.3\n"
+"X-Qt-Contexts: true\n"
+
+#: contents/ui/gallery/ActionToolBarGallery.qml:35
+msgctxt "ActionToolBarGallery|"
+msgid "Info"
+msgstr "정보"
+
+#: contents/ui/gallery/CardsLayoutGallery.qml:29
+msgctxt "CardsLayoutGallery|"
+msgid "Cards Layout"
+msgstr "카드 레이아웃"
+
+#: contents/ui/gallery/CardsLayoutGallery.qml:34
+msgctxt "CardsLayoutGallery|"
+msgid "Info"
+msgstr "정보"
+
+#: contents/ui/gallery/CardsLayoutGallery.qml:54
+msgctxt "CardsLayoutGallery|"
+msgid "AbstractCard"
+msgstr "AbstractCard"
+
+#: contents/ui/gallery/CardsLayoutGallery.qml:59
+msgctxt "CardsLayoutGallery|"
+msgid ""
+"An AbstractCard is the simplest form of card. It's just a rectangle with a "
+"shadow, which can contain any Item in it. It can also have items assigned to "
+"the Header or Footer properties. In this case a Kirigami.Heading is its "
+"header and a Label with WordWrap is the contentItem."
+msgstr ""
+"AbstractCard는 가장 간단한 카드입니다. 그림자가 있는 직사각형으로 임의의 Item"
+"을 배치할 수 있습니다. Header나 Footer 속성에 항목을 할당할 수 있습니다. 지"
+"금 보고 있는 이 카드에는 Kirigami.Heading을 header, WordWrap 속성을 적용한 "
+"Label은 contentItem으로 지정했습니다."
+
+#: contents/ui/gallery/CardsLayoutGallery.qml:67
+msgctxt "CardsLayoutGallery|"
+msgid ""
+"This is an AbstractCard with a Label with WordWrap in it and nothing else, "
+"it's the simplest form Cards can be found in.\n"
+"An AbstractCard can be clicked itself, with the usual onClicked signal "
+"handler and the showClickFeedback property can be used if the click should "
+"show any kind of visual feedback. It is recommended to set it to true if you "
+"plan to make the card reactive on any kind of click."
+msgstr ""
+"이것은 WordWrap을 적용한 Label이 들어 있는 AbstractCard이며, 다른 것은 아무것"
+"도 없습니다. 가장 간단한 Cards 형태입니다.\n"
+"AbstractCard는 클릭할 수 있으며, onClicked 시그널 핸들러가 호출됩니다. "
+"showClickFeedback 속성을 사용하면 클릭했을 때 시각적인 피드백 표시 여부를 제"
+"어할 수 있습니다. 카드가 클릭에 반응하도록 하려면 이 값을 true로 설정하는 것"
+"을 추천합니다."
+
+#: contents/ui/gallery/CardsLayoutGallery.qml:69
+msgctxt "CardsLayoutGallery|"
+msgid "Card clicked"
+msgstr "카드 클릭됨"
+
+#: contents/ui/gallery/CardsLayoutGallery.qml:75
+#: contents/ui/gallery/CardsLayoutGallery.qml:97
+#: contents/ui/gallery/CardsLayoutGallery.qml:135
+#: contents/ui/gallery/CardsLayoutGallery.qml:209
+msgctxt "CardsLayoutGallery|"
+msgid "Action1"
+msgstr "동작1"
+
+#: contents/ui/gallery/CardsLayoutGallery.qml:79
+#: contents/ui/gallery/CardsLayoutGallery.qml:101
+#: contents/ui/gallery/CardsLayoutGallery.qml:139
+#: contents/ui/gallery/CardsLayoutGallery.qml:213
+msgctxt "CardsLayoutGallery|"
+msgid "Action2"
+msgstr "동작2"
+
+#: contents/ui/gallery/CardsLayoutGallery.qml:85
+msgctxt "CardsLayoutGallery|"
+msgid "Card"
+msgstr "Card"
+
+#: contents/ui/gallery/CardsLayoutGallery.qml:89
+msgctxt "CardsLayoutGallery|"
+msgid ""
+"This is an instance of the Card type: it can optionally have an image, a "
+"title and an icon assigned to its banner group property, one or all of the "
+"properties together. A Card can also have Actions that will appear in the "
+"footer."
+msgstr ""
+"이것은 Card 형식의 인스턴스입니다. banner 그룹 속성에 이미지, 제목, 아이콘 "
+"중 하나 또는 여러 개를 지정할 수 있습니다. Card에는 바닥글에 나타날 Action을 "
+"정의할 수 있습니다."
+
+#: contents/ui/gallery/CardsLayoutGallery.qml:105
+msgctxt "CardsLayoutGallery|"
+msgid "Action3"
+msgstr "동작3"
+
+#: contents/ui/gallery/CardsLayoutGallery.qml:109
+msgctxt "CardsLayoutGallery|"
+msgid "Action4"
+msgstr "동작4"
+
+#: contents/ui/gallery/CardsLayoutGallery.qml:113
+msgctxt "CardsLayoutGallery|"
+msgid "Action5"
+msgstr "동작5"
+
+#: contents/ui/gallery/CardsLayoutGallery.qml:117
+msgctxt "CardsLayoutGallery|"
+msgid "Action6"
+msgstr "동작6"
+
+#: contents/ui/gallery/CardsLayoutGallery.qml:128
+msgctxt "CardsLayoutGallery|"
+msgid ""
+"The title can be aligned to all corners or centered with a combination of Qt."
+"Alignment flags.\n"
+" When there are too many actions, they go in an overflow menu."
+msgstr ""
+"Qt.Alignment 플래그의 조합을 사용하여 제목을 모서리나 가운데로 정렬할 수 있습"
+"니다.\n"
+"등록된 Action이 너무 많으면 흘러 넘침 메뉴에 표시됩니다."
+
+#: contents/ui/gallery/CardsLayoutGallery.qml:143
+msgctxt "CardsLayoutGallery|"
+msgid "Action always hidden"
+msgstr "Action 항상 숨김"
+
+#: contents/ui/gallery/CardsLayoutGallery.qml:154
+msgctxt "CardsLayoutGallery|"
+msgid ""
+"The Banner can contain only the title and/or an icon, even if there is no "
+"banner image."
+msgstr "Banner에는 이미지가 없어도 제목이나 아이콘만 포함될 수 있습니다."
+
+#: contents/ui/gallery/CardsLayoutGallery.qml:177
+msgctxt "CardsLayoutGallery|"
+msgid ""
+"It's possible to have custom contents overlapping the image, for cases where "
+"a more personalized design is needed."
+msgstr ""
+"이미지를 덮는 사용자 정의 콘텐츠를 둘 수 있으며, 개인화된 디자인이 필요할 때 "
+"사용할 수 있습니다."
+
+#: contents/ui/gallery/CardsLayoutGallery.qml:192
+msgctxt "CardsLayoutGallery|"
+msgid ""
+"It's possible to customize the look and feel for Cards too, if the no "
+"padding behavior for headers is needed. This is usually discouraged in order "
+"to have greater consistency, but in some cases the design requires a more "
+"fancy layout, as shown in this example of a Card. If a custom header is "
+"used, the title and icon in the banner property shouldn't be used. If a "
+"custom footer is used (which is discouraged), actions shouldn't be used."
+msgstr ""
+"머리글 패딩을 사용하지 않아도 되는 경우에는 Card의 모습과 느낌을 사용자 정의"
+"할 수 있습니다. 일관성 때문에 이러한 설정을 사용하는 것은 추천하지 않지만, 일"
+"부 디자인에는 이 Card 예제처럼 더 예쁜 레이아웃이 필요할 수도 있습니다. 사용"
+"자 정의 머리글을 사용했다면 banner 속성의 title과 icon을 지정하면 안 됩니다. "
+"사용자 정의 바닥글을 사용했다면(권장하지 않음) 동작을 배치할 수 없습니다."
+
+#: contents/ui/gallery/CardsLayoutGallery.qml:197
+msgctxt "CardsLayoutGallery|"
+msgid "Custom footer"
+msgstr "사용자 정의 바닥글"
+
+#: contents/ui/gallery/CardsLayoutGallery.qml:200
+msgctxt "CardsLayoutGallery|"
+msgid "Ok"
+msgstr "확인"
+
+#: contents/ui/gallery/CardsLayoutGallery.qml:223
+msgctxt "CardsLayoutGallery|"
+msgid ""
+"A card can optionally have horizontal orientation.\n"
+" In this case will be wider than tall, so is fit to be used also in a "
+"ColumnLayout.\n"
+"If you need to put it in a CardsLayout, it will have by default a columnSpan "
+"of 2 (which can be overridden)."
+msgstr ""
+"Card를 수평으로 배치할 수도 있습니다.\n"
+"이 Card는 수평으로 더 길기 때문에 ColumnLayout에도 사용할 수 있습니다.\n"
+"CardsLayout에 이 카드를 패치하면 기본값으로 columnSpan은 2로 지정됩니다(재정"
+"의 가능)."
+
+#: contents/ui/gallery/CardsListViewGallery.qml:29
+msgctxt "CardsListViewGallery|"
+msgid "List view of simple cards"
+msgstr "간단한 카드 목록 보기"
+
+#: contents/ui/gallery/CardsListViewGallery.qml:34
+msgctxt "CardsListViewGallery|"
+msgid "Info"
+msgstr "정보"
+
+#: contents/ui/gallery/CardsListViewGallery.qml:86
+msgctxt "CardsListViewGallery|"
+msgid "Product "
+msgstr "제품"
+
+#: contents/ui/gallery/CardsListViewGallery.qml:94
+msgctxt "CardsListViewGallery|"
+msgid ""
+"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id risus id "
+"augue euismod accumsan."
+msgstr "키스의 고유 조건은 입술끼리 만나야 되고 특별한 요령은 필요치 않다."
+
+#: contents/ui/gallery/CardsListViewGallery.qml:100
+msgctxt "CardsListViewGallery|"
+msgid "Install"
+msgstr "설치"
+
+#: contents/ui/gallery/ChipGallery.qml:30
+msgctxt "ChipGallery|"
+msgid "Chips"
+msgstr "칩"
+
+#: contents/ui/gallery/ChipGallery.qml:34
+msgctxt "ChipGallery|"
+msgid "Info"
+msgstr "정보"
+
+#: contents/ui/gallery/ChipGallery.qml:65
+msgctxt "ChipGallery|"
+msgid "Closable Chips"
+msgstr "닫을 수 있는 칩"
+
+#: contents/ui/gallery/ChipGallery.qml:95
+msgctxt "ChipGallery|"
+msgid "Informative Chips"
+msgstr "정보 제공 칩"
+
+#: contents/ui/gallery/ChipGallery.qml:131
+msgctxt "ChipGallery|"
+msgid "Checkable Chips"
+msgstr "체크할 수 있는 칩"
+
+#: contents/ui/gallery/components/InfoSheet.qml:47
+msgctxt "InfoSheet|"
+msgid "HIG..."
+msgstr "HIG..."
+
+#: contents/ui/gallery/components/InfoSheet.qml:52
+msgctxt "InfoSheet|"
+msgid "Source code..."
+msgstr "소스 코드..."
+
+#: contents/ui/gallery/components/InfoSheet.qml:57
+msgctxt "InfoSheet|"
+msgid "API..."
+msgstr "API..."
+
+#: contents/ui/gallery/DialogGallery.qml:32
+msgctxt "DialogGallery|"
+msgid "Dialogs"
+msgstr "대화 상자"
+
+#: contents/ui/gallery/DialogGallery.qml:37
+msgctxt "DialogGallery|"
+msgid "Info"
+msgstr "정보"
+
+#: contents/ui/gallery/DialogGallery.qml:76
+msgctxt "DialogGallery|"
+msgid "Create Folder"
+msgstr "폴더 만들기"
+
+#: contents/ui/gallery/DialogGallery.qml:84
+msgctxt "DialogGallery|"
+msgid "Cancel"
+msgstr "취소"
+
+#: contents/ui/gallery/DialogGallery.qml:93
+msgctxt "DialogGallery|"
+msgid "Folder name..."
+msgstr "폴더 이름:"
+
+#: contents/ui/gallery/DialogGallery.qml:99
+msgctxt "DialogGallery|"
+msgid "Alarm Snooze Length"
+msgstr "알람 지연 길이"
+
+#: contents/ui/gallery/DialogGallery.qml:108
+msgctxt "DialogGallery|"
+msgid "1 minute"
+msgstr "1분"
+
+#: contents/ui/gallery/DialogGallery.qml:109
+msgctxt "DialogGallery|"
+msgid "2 minutes"
+msgstr "2분"
+
+#: contents/ui/gallery/DialogGallery.qml:110
+msgctxt "DialogGallery|"
+msgid "3 minutes"
+msgstr "3분"
+
+#: contents/ui/gallery/DialogGallery.qml:111
+msgctxt "DialogGallery|"
+msgid "4 minutes"
+msgstr "4분"
+
+#: contents/ui/gallery/DialogGallery.qml:112
+msgctxt "DialogGallery|"
+msgid "5 minutes"
+msgstr "5분"
+
+#: contents/ui/gallery/DialogGallery.qml:113
+msgctxt "DialogGallery|"
+msgid "10 minutes"
+msgstr "10분"
+
+#: contents/ui/gallery/DialogGallery.qml:114
+msgctxt "DialogGallery|"
+msgid "30 minutes"
+msgstr "30분"
+
+#: contents/ui/gallery/DialogGallery.qml:115
+msgctxt "DialogGallery|"
+msgid "1 hour"
+msgstr "1시간"
+
+#: contents/ui/gallery/DialogGallery.qml:137
+msgctxt "DialogGallery|"
+msgid "Select Number"
+msgstr "숫자 선택"
+
+#: contents/ui/gallery/DialogGallery.qml:157
+#: contents/ui/gallery/DialogGallery.qml:223
+msgctxt "DialogGallery|"
+msgid "No Footer Dialog"
+msgstr "꼬리말 대화 상자 없음"
+
+#: contents/ui/gallery/DialogGallery.qml:158
+msgctxt "DialogGallery|"
+msgid "This dialog has no footer buttons.<br/>It also has no close button."
+msgstr "이 대화 상자에는 꼬리말 단추가 없습니다.<br/>닫기 단추도 없습니다."
+
+#: contents/ui/gallery/DialogGallery.qml:166
+msgctxt "DialogGallery|"
+msgid "Track Options"
+msgstr "트랙 옵션"
+
+#: contents/ui/gallery/DialogGallery.qml:171
+msgctxt "DialogGallery|Start playback of the selected track"
+msgid "Play"
+msgstr "재생"
+
+#: contents/ui/gallery/DialogGallery.qml:172
+msgctxt "DialogGallery|"
+msgid "Start playback of the selected track"
+msgstr "선택한 트랙 재생 시작"
+
+#: contents/ui/gallery/DialogGallery.qml:177
+msgctxt "DialogGallery|Show the file for this song in the file manager"
+msgid "Show in folder"
+msgstr "포함하는 폴더 열기"
+
+#: contents/ui/gallery/DialogGallery.qml:178
+msgctxt "DialogGallery|"
+msgid "Show the file for this song in the file manager"
+msgstr "이 노래에 해당하는 파일을 파일 관리자에 표시"
+
+#: contents/ui/gallery/DialogGallery.qml:182
+msgctxt "DialogGallery|Show track metadata"
+msgid "View details"
+msgstr "자세한 정보 표시"
+
+#: contents/ui/gallery/DialogGallery.qml:183
+msgctxt "DialogGallery|"
+msgid "Show track metadata"
+msgstr "트랙 메타데이터 표시"
+
+#: contents/ui/gallery/DialogGallery.qml:187
+msgctxt ""
+"DialogGallery|Add the track to the queue, right after the current track"
+msgid "Play next"
+msgstr "다음 재생"
+
+#: contents/ui/gallery/DialogGallery.qml:188
+msgctxt "DialogGallery|"
+msgid "Add the track to the queue, right after the current track"
+msgstr "선택한 트랙을 현재 트랙 다음에 대기열에 추가"
+
+#: contents/ui/gallery/DialogGallery.qml:192
+msgctxt "DialogGallery|Enqueue current track"
+msgid "Add to queue"
+msgstr "대기열에 추가"
+
+#: contents/ui/gallery/DialogGallery.qml:193
+msgctxt "DialogGallery|"
+msgid "Enqueue current track"
+msgstr "현재 트랙을 대기열에 추가"
+
+#: contents/ui/gallery/DialogGallery.qml:203
+msgctxt "DialogGallery|"
+msgid "Prompt Dialog"
+msgstr "프롬프트 대화 상자"
+
+#: contents/ui/gallery/DialogGallery.qml:208
+msgctxt "DialogGallery|"
+msgid "Text Prompt Dialog"
+msgstr "텍스트 프롬프트 대화 상자"
+
+#: contents/ui/gallery/DialogGallery.qml:213
+msgctxt "DialogGallery|"
+msgid "Selection Dialog"
+msgstr "선택 대화 상자"
+
+#: contents/ui/gallery/DialogGallery.qml:218
+msgctxt "DialogGallery|"
+msgid "Scrollable Dialog"
+msgstr "스크롤할 수 있는 대화 상자"
+
+#: contents/ui/gallery/DialogGallery.qml:228
+msgctxt "DialogGallery|"
+msgid "Menu Dialog"
+msgstr "메뉴 대화 상자"
+
+#: contents/ui/gallery/DrawerGallery.qml:30
+msgctxt "DrawerGallery|"
+msgid "Drawers"
+msgstr "서랍"
+
+#: contents/ui/gallery/DrawerGallery.qml:35
+msgctxt "DrawerGallery|"
+msgid "Info"
+msgstr "정보"
+
+#: contents/ui/gallery/DrawerGallery.qml:41
+msgctxt "DrawerGallery|"
+msgid "Action 1"
+msgstr "동작 1"
+
+#: contents/ui/gallery/DrawerGallery.qml:43
+msgctxt "DrawerGallery|"
+msgid "Action 1 clicked"
+msgstr "동작 1 클릭됨"
+
+#: contents/ui/gallery/DrawerGallery.qml:46
+msgctxt "DrawerGallery|"
+msgid "Disabled Action"
+msgstr "비활성화된 동작"
+
+#: contents/ui/gallery/DrawerGallery.qml:51
+msgctxt "DrawerGallery|"
+msgid "Action 3"
+msgstr "동작 3"
+
+#: contents/ui/gallery/DrawerGallery.qml:52
+msgctxt "DrawerGallery|"
+msgid "Action 3 clicked"
+msgstr "동작 3 클릭됨"
+
+#: contents/ui/gallery/DrawerGallery.qml:78
+msgctxt "DrawerGallery|"
+msgid ""
+"A modal bottom drawer will span for the whole application window width and "
+"will darken the rest of the app. Clicking on a darkened will dismiss the "
+"drawer."
+msgstr ""
+"모달 아래쪽 서랍은 전체 앱 창 너비로 펼쳐지며 앱의 나머지 부분을 어둡게 합니"
+"다. 어두워진 영역을 클릭하면 서랍을 닫습니다."
+
+#: contents/ui/gallery/DrawerGallery.qml:82
+#: contents/ui/gallery/DrawerGallery.qml:101
+#: contents/ui/gallery/DrawerGallery.qml:118
+#: contents/ui/gallery/DrawerGallery.qml:137
+msgctxt "DrawerGallery|"
+msgid "Close"
+msgstr "닫기"
+
+#: contents/ui/gallery/DrawerGallery.qml:97
+msgctxt "DrawerGallery|"
+msgid ""
+"An inline bottom drawer covers the whole application width but lets the "
+"uncovered pieces to still be interacted with."
+msgstr ""
+"인라인 아래쪽 서랍은 앱 전체 폭을 덮지만 덮이지 않은 영역도 계속 사용할 수 있"
+"습니다."
+
+#: contents/ui/gallery/DrawerGallery.qml:114
+msgctxt "DrawerGallery|"
+msgid ""
+"A modal top drawer will span for the whole application window width and will "
+"darken the rest of the app. Clicking on the darkened area will dismiss the "
+"drawer."
+msgstr ""
+"모달 위쪽 서랍은 전체 앱 창 너비로 펼쳐지며 앱의 나머지 부분을 어둡게 합니"
+"다. 어두워진 영역을 클릭하면 서랍을 닫습니다."
+
+#: contents/ui/gallery/DrawerGallery.qml:133
+msgctxt "DrawerGallery|"
+msgid ""
+"An inline top drawer covers the whole application width but lets the "
+"uncovered pieces to still be interacted with."
+msgstr ""
+"인라인 위쪽 서랍은 앱 전체 폭을 덮지만 덮이지 않은 영역도 계속 사용할 수 있습"
+"니다."
+
+#: contents/ui/gallery/DrawerGallery.qml:148
+msgctxt "DrawerGallery|"
+msgid "Left Global Drawer"
+msgstr "왼쪽 전역 서랍"
+
+#: contents/ui/gallery/DrawerGallery.qml:153
+msgctxt "DrawerGallery|"
+msgid "Right Context Drawer"
+msgstr "오른쪽 콘텍스트 서랍"
+
+#: contents/ui/gallery/DrawerGallery.qml:159
+msgctxt "DrawerGallery|"
+msgid "Modal Bottom Drawer"
+msgstr "모달 아래쪽 서랍"
+
+#: contents/ui/gallery/DrawerGallery.qml:169
+msgctxt "DrawerGallery|"
+msgid "Modal Top Drawer"
+msgstr "모달 위쪽 서랍"
+
+#: contents/ui/gallery/FormLayoutGallery.qml:13
+msgctxt "FormLayoutGallery|"
+msgid "Info"
+msgstr "정보"
+
+#: contents/ui/gallery/FormLayoutGallery.qml:77
+msgctxt "FormLayoutGallery|"
+msgid "Expanding Button"
+msgstr "확장되는 단추"
+
+#: contents/ui/gallery/FormLayoutGallery.qml:127
+msgctxt "FormLayoutGallery|"
+msgid "Twin Layout:"
+msgstr "쌍둥이 레이아웃:"
+
+#: contents/ui/gallery/InlineMessagesGallery.qml:31
+msgctxt "InlineMessagesGallery|"
+msgid "Inline Messages"
+msgstr "인라인 메시지"
+
+#: contents/ui/gallery/InlineMessagesGallery.qml:35
+msgctxt "InlineMessagesGallery|"
+msgid "Info"
+msgstr "정보"
+
+#: contents/ui/gallery/InlineMessagesGallery.qml:65
+msgctxt "InlineMessagesGallery|"
+msgid ""
+"This is an informational inline message (the default type). Use it for "
+"example to announce a result or provide commentary."
+msgstr ""
+"이것은 정보성 인라인 메시지입니다(기본 형식). 결과를 알려 주거나 설명이 필요"
+"할 때 사용하십시오."
+
+#: contents/ui/gallery/InlineMessagesGallery.qml:75
+msgctxt "InlineMessagesGallery|"
+msgid ""
+"This is a positive inline message. Use it for example to announce a "
+"successful result or the successful completion of a procedure."
+msgstr ""
+"이것은 긍정적 인라인 메시지입니다. 성공적인 결과나 작업의 성공적인 완료를 알"
+"릴 때 사용하십시오."
+
+#: contents/ui/gallery/InlineMessagesGallery.qml:85
+msgctxt "InlineMessagesGallery|"
+msgid ""
+"This is a warning inline message. Use it for example to provide critical "
+"guidance or warn about something that is not going to work."
+msgstr ""
+"이것은 경고 인라인 메시지입니다. 중요한 안내나 작동하지 않는 무언가를 안내할 "
+"때 사용하십시오."
+
+#: contents/ui/gallery/InlineMessagesGallery.qml:95
+msgctxt "InlineMessagesGallery|"
+msgid ""
+"This is an error inline message. Use it for example to announce something "
+"has gone wrong or that input will not be accepted."
+msgstr ""
+"이것은 오류 인라인 메시지입니다. 무언가 잘못되었거나 입력값이 처리되지 않을 "
+"때 사용하십시오."
+
+#: contents/ui/gallery/InlineMessagesGallery.qml:109
+msgctxt "InlineMessagesGallery|"
+msgid "Inline messages can optionally have a custom icon set."
+msgstr "인라인 메시지에는 사용자 정의 아이콘을 설정할 수 있습니다."
+
+#: contents/ui/gallery/InlineMessagesGallery.qml:117
+msgctxt "InlineMessagesGallery|"
+msgid ""
+"You can use rich text in inline messages and optionally handle clicks on "
+"links (opens in browser): <a href=\"https://www.kde.org\">https://www.kde."
+"org/<a/>"
+msgstr ""
+"인라인 메시지에 서식 있는 텍스트를 사용할 수 있으며 웹 브라우저로 열리는 클"
+"릭 가능한 링크를 추가할 수도 있습니다: <a href=\"https://www.kde.org"
+"\">https://www.kde.org/<a/>"
+
+#: contents/ui/gallery/InlineMessagesGallery.qml:129
+msgctxt "InlineMessagesGallery|"
+msgid "Inline messages can have an optional close button."
+msgstr "인라인 메시지에는 닫기 단추를 표시할 수 있습니다(선택)."
+
+#: contents/ui/gallery/InlineMessagesGallery.qml:147
+msgctxt "InlineMessagesGallery|"
+msgid "Add text"
+msgstr "텍스트 추가"
+
+#: contents/ui/gallery/InlineMessagesGallery.qml:157
+msgctxt "InlineMessagesGallery|"
+msgid "Reset text"
+msgstr "텍스트 초기화"
+
+#: contents/ui/gallery/InlineMessagesGallery.qml:179
+msgctxt "InlineMessagesGallery|"
+msgid "Inline messages are initially hidden and animate when revealed. Try it!"
+msgstr ""
+"인라인 메시지는 처음에는 숨겨져 있고 나타날 때에는 애니메이션을 사용합니다. "
+"시도해 보세요!"
+
+#: contents/ui/gallery/InlineMessagesGallery.qml:188
+msgctxt "InlineMessagesGallery|"
+msgid "Show additional message"
+msgstr "추가 메시지 표시"
+
+#: contents/ui/gallery/InlineMessagesGallery.qml:205
+msgctxt "InlineMessagesGallery|"
+msgid "Boo!"
+msgstr "우우!"
+
+#: contents/ui/gallery/InlineMessagesGallery.qml:209
+msgctxt "InlineMessagesGallery|"
+msgid "Shush"
+msgstr "쉿"
+
+#: contents/ui/gallery/MetricsGallery.qml:42
+msgctxt "MetricsGallery|"
+msgid "Heading 1"
+msgstr "머리글 1"
+
+#: contents/ui/gallery/MetricsGallery.qml:47
+#: contents/ui/gallery/MetricsGallery.qml:57
+#: contents/ui/gallery/MetricsGallery.qml:67
+#: contents/ui/gallery/MetricsGallery.qml:77
+#, qt-format
+msgctxt "MetricsGallery|"
+msgid "%1 points"
+msgstr "%1포인트"
+
+#: contents/ui/gallery/MetricsGallery.qml:52
+msgctxt "MetricsGallery|"
+msgid "Heading 2"
+msgstr "머리글 2"
+
+#: contents/ui/gallery/MetricsGallery.qml:62
+msgctxt "MetricsGallery|"
+msgid "Heading 3"
+msgstr "머리글 3"
+
+#: contents/ui/gallery/MetricsGallery.qml:72
+msgctxt "MetricsGallery|"
+msgid "Heading 4"
+msgstr "머리글 4"
+
+#: contents/ui/gallery/MiscGallery.qml:72
+msgctxt "MiscGallery|"
+msgid "Text Beside Icon"
+msgstr "아이콘 옆에 텍스트"
+
+#: contents/ui/gallery/MiscGallery.qml:87
+msgctxt "MiscGallery|"
+msgid "Text Under Icon"
+msgstr "아이콘 밑에 텍스트"
+
+#: contents/ui/gallery/MiscGallery.qml:102
+msgctxt "MiscGallery|"
+msgid "Text Only"
+msgstr "텍스트만"
+
+#: contents/ui/gallery/MiscGallery.qml:117
+msgctxt "MiscGallery|"
+msgid "Icon Only"
+msgstr "아이콘만"
+
+#: contents/ui/gallery/MultipleColumnsGallery.qml:117
+msgctxt "MultipleColumnsGallery|"
+msgid "Pin page"
+msgstr "쪽 고정"
+
+#: contents/ui/gallery/OverlaySheetGallery.qml:31
+msgctxt "OverlaySheetGallery|"
+msgid "Overlay Sheets"
+msgstr "오버레이 시트"
+
+#: contents/ui/gallery/OverlaySheetGallery.qml:35
+msgctxt "OverlaySheetGallery|"
+msgid "Info"
+msgstr "정보"
+
+#: contents/ui/gallery/OverlaySheetGallery.qml:83
+msgctxt "OverlaySheetGallery|"
+msgid "Close"
+msgstr "닫기"
+
+#: contents/ui/gallery/OverlaySheetGallery.qml:93
+#: contents/ui/gallery/OverlaySheetGallery.qml:161
+#: contents/ui/gallery/OverlaySheetGallery.qml:184
+msgctxt "OverlaySheetGallery|"
+msgid "Title"
+msgstr "제목"
+
+#: contents/ui/gallery/OverlaySheetGallery.qml:97
+#: contents/ui/gallery/OverlaySheetGallery.qml:165
+#: contents/ui/gallery/OverlaySheetGallery.qml:188
+msgctxt "OverlaySheetGallery|"
+msgid "Footer:"
+msgstr "바닥글:"
+
+#: contents/ui/gallery/OverlaySheetGallery.qml:108
+msgctxt "OverlaySheetGallery|"
+msgid ""
+"A sheet can have optional header and footer items which will not scroll away "
+"when the sheet overflows."
+msgstr ""
+"Sheet에는 선택적으로 header와 footer에 항목을 지정할 수 있으며, Sheet의 내용"
+"이 넘쳐도 스크롤할 때 사라지지 않습니다."
+
+#: contents/ui/gallery/OverlaySheetGallery.qml:127
+msgctxt "OverlaySheetGallery|"
+msgid ""
+"A sheet will take the maximum available width in the page by default.\n"
+"However, if the main item sets an implicitWidth or Layout.preferredWidth, "
+"the sheet won't grow in width more than such given value."
+msgstr ""
+"Sheet는 기본값으로 최대 페이지 너비를 사용합니다.\n"
+"주 항목에 implicitWidth나 Layout.preferredWidth 속성이 설정되어 있으면 Sheet"
+"의 크기는 여기에 주어진 크기 이상으로 커지지 않습니다."
+
+#: contents/ui/gallery/OverlaySheetGallery.qml:148
+msgctxt "OverlaySheetGallery|"
+msgid ""
+"A sheet by default will be over a single page, even if the app is in wide "
+"mode. By changing the sheet parent to applicationWindow().overlay it will "
+"display the sheet as an overlay on top of the whole application window.\n"
+"In this case the sheet will cover the page Action buttons too."
+msgstr ""
+"Sheet는 앱이 와이드 모르에 있어도 기본적으로 한 쪽에 걸칩니다. Sheet의 부모"
+"를 applicationWindow().overlay로 변경하면 시트를 전체 앱 창에 걸쳐서 표시합니"
+"다.\n"
+"이 때에는 페이지 Action 단추도 덮게 됩니다."
+
+#: contents/ui/gallery/OverlaySheetGallery.qml:176
+msgctxt "OverlaySheetGallery|"
+msgid "Item in sheet "
+msgstr "시트의 항목 "
+
+#: contents/ui/gallery/OverlaySheetGallery.qml:220
+msgctxt "OverlaySheetGallery|"
+msgid "Very Long Sheet"
+msgstr "매우 긴 시트"
+
+#: contents/ui/gallery/SelectionControlsGallery.qml:31
+msgctxt "SelectionControlsGallery|"
+msgid "Info"
+msgstr "정보"
+
+#: contents/ui/gallery/SelectionControlsGallery.qml:38
+msgctxt "SelectionControlsGallery|"
+msgid "Selection Controls"
+msgstr "선택 제어"
+
+#: contents/ui/gallery/SelectionControlsGallery.qml:64
+msgctxt "SelectionControlsGallery|"
+msgid "Checkable List Items"
+msgstr "체크할 수 있는 목록 항목"
+
+#: contents/ui/gallery/SelectionControlsGallery.qml:71
+#: contents/ui/gallery/SelectionControlsGallery.qml:94
+#: contents/ui/gallery/SelectionControlsGallery.qml:117
+#, qt-format
+msgctxt "SelectionControlsGallery|"
+msgid "Delegate %1"
+msgstr "%1 위임"
+
+#: contents/ui/gallery/SelectionControlsGallery.qml:87
+#: contents/ui/gallery/SelectionControlsGallery.qml:110
+msgctxt "SelectionControlsGallery|"
+msgid "Radio List Items"
+msgstr "라디오 목록 항목"
+
+#: contents/ui/gallery/SelectionControlsGallery.qml:126
+msgctxt "SelectionControlsGallery|"
+msgid "Checkboxes"
+msgstr "체크 상자"
+
+#: contents/ui/gallery/SelectionControlsGallery.qml:130
+#: contents/ui/gallery/SelectionControlsGallery.qml:148
+#: contents/ui/gallery/SelectionControlsGallery.qml:166
+msgctxt "SelectionControlsGallery|"
+msgid "Item selected"
+msgstr "항목 선택됨"
+
+#: contents/ui/gallery/SelectionControlsGallery.qml:134
+#: contents/ui/gallery/SelectionControlsGallery.qml:152
+#: contents/ui/gallery/SelectionControlsGallery.qml:170
+msgctxt "SelectionControlsGallery|"
+msgid "Item not selected"
+msgstr "항목 선택되지 않음"
+
+#: contents/ui/gallery/SelectionControlsGallery.qml:138
+msgctxt "SelectionControlsGallery|"
+msgid "Checkable List View"
+msgstr "체크 가능한 목록 보기"
+
+#: contents/ui/gallery/SelectionControlsGallery.qml:144
+msgctxt "SelectionControlsGallery|"
+msgid "Radio buttons"
+msgstr "라디오 단추"
+
+#: contents/ui/gallery/SelectionControlsGallery.qml:157
+msgctxt "SelectionControlsGallery|"
+msgid "Radio List View"
+msgstr "라디오 목록 보기"
+
+#: contents/ui/gallery/SelectionControlsGallery.qml:163
+msgctxt "SelectionControlsGallery|"
+msgid "Switches"
+msgstr "스위치"
+
+#: contents/ui/gallery/SelectionControlsGallery.qml:174
+msgctxt "SelectionControlsGallery|"
+msgid "Switch List View"
+msgstr "스위치 목록 보기"
+
+#: contents/ui/MainPage.qml:35
+msgctxt "MainPage|"
+msgid "Kirigami Gallery"
+msgstr "Kirigami 갤러리"
+
+#~ msgctxt "CardsGridViewGallery|"
+#~ msgid "Grid view of Cards"
+#~ msgstr "카드 모눈 보기"
+
+#~ msgctxt "CardsGridViewGallery|"
+#~ msgid "Info"
+#~ msgstr "정보"
+
+#~ msgctxt "MainPage|"
+#~ msgid "Buttons"
+#~ msgstr "단추"
+
+#~ msgctxt "MainPage|"
+#~ msgid "Selection Controls"
+#~ msgstr "선택 제어"
+
+#~ msgctxt "MainPage|"
+#~ msgid "Overlay Sheets"
+#~ msgstr "오버레이 시트"
+
+#~ msgctxt "MainPage|"
+#~ msgid "Drawers"
+#~ msgstr "서랍"
+
+#~ msgctxt "DrawerGallery|"
+#~ msgid "Overlay Sheets"
+#~ msgstr "오버레이 시트"

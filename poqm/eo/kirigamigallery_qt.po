@@ -1,0 +1,870 @@
+# translation of kirigamigallery_qt.pot to Esperanto
+# Copyright (C) 2024 Free Software Foundation, Inc.
+# This file is distributed under the same license as the kirigami-gallery package.
+# Oliver Kellogg <okellogg@users.sourceforge.net>, 2024.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: kirigami-gallery\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2023-11-05 13:43+0100\n"
+"PO-Revision-Date: 2024-04-23 19:26+0100\n"
+"Last-Translator: Oliver Kellogg <okellogg@users.sourceforge.net>\n"
+"Language-Team: Esperanto <kde-i18n-eo.org>\n"
+"Language: eo\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Qt-Contexts: true\n"
+"X-Generator: translate-po (https://github.com/zcribe/translate-po)\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+
+#: contents/ui/gallery/ActionToolBarGallery.qml:35
+msgctxt "ActionToolBarGallery|"
+msgid "Info"
+msgstr "Informo"
+
+#: contents/ui/gallery/CardsLayoutGallery.qml:29
+msgctxt "CardsLayoutGallery|"
+msgid "Cards Layout"
+msgstr "Kartoj Aranĝo"
+
+#: contents/ui/gallery/CardsLayoutGallery.qml:34
+msgctxt "CardsLayoutGallery|"
+msgid "Info"
+msgstr "Informo"
+
+#: contents/ui/gallery/CardsLayoutGallery.qml:54
+msgctxt "CardsLayoutGallery|"
+msgid "AbstractCard"
+msgstr "Abstrakta Karto"
+
+#: contents/ui/gallery/CardsLayoutGallery.qml:59
+msgctxt "CardsLayoutGallery|"
+msgid ""
+"An AbstractCard is the simplest form of card. It's just a rectangle with a "
+"shadow, which can contain any Item in it. It can also have items assigned to "
+"the Header or Footer properties. In this case a Kirigami.Heading is its "
+"header and a Label with WordWrap is the contentItem."
+msgstr ""
+"AbstractCard estas la plej simpla formo de karto. Ĝi estas nur rektangulo "
+"kun ombro, kiu povas enhavi ajnan Eron en ĝi. Ĝi ankaŭ povas havi erojn "
+"asignitaj al la proprecoj Kapo aŭ Piedo. En ĉi tiu kazo Kirigami.Heading "
+"estas ĝia kaplinio kaj Etikedo kun WordWrap estas la enhavoItem."
+
+#: contents/ui/gallery/CardsLayoutGallery.qml:67
+msgctxt "CardsLayoutGallery|"
+msgid ""
+"This is an AbstractCard with a Label with WordWrap in it and nothing else, "
+"it's the simplest form Cards can be found in.\n"
+"An AbstractCard can be clicked itself, with the usual onClicked signal "
+"handler and the showClickFeedback property can be used if the click should "
+"show any kind of visual feedback. It is recommended to set it to true if you "
+"plan to make the card reactive on any kind of click."
+msgstr ""
+"Ĉi tio estas AbstractCard kun Etikedo kun WordWrap en ĝi kaj nenio alia, ĝi "
+"estas la plej simpla formo, en kiu Kartoj troveblas.\n"
+"Abstraktkarto povas esti klakita mem, kun la kutima onClicked-signaltraktilo "
+"kaj la showClickFeedback-propreco povas esti uzata se la klako devus montri "
+"ajnan specon de vida retrosciigo. Oni rekomendas agordi ĝin al vera se vi "
+"planas igi la karton reaktiva je ia klako."
+
+#: contents/ui/gallery/CardsLayoutGallery.qml:69
+msgctxt "CardsLayoutGallery|"
+msgid "Card clicked"
+msgstr "Karto klakis"
+
+#: contents/ui/gallery/CardsLayoutGallery.qml:75
+#: contents/ui/gallery/CardsLayoutGallery.qml:97
+#: contents/ui/gallery/CardsLayoutGallery.qml:135
+#: contents/ui/gallery/CardsLayoutGallery.qml:209
+msgctxt "CardsLayoutGallery|"
+msgid "Action1"
+msgstr "Ago 1"
+
+#: contents/ui/gallery/CardsLayoutGallery.qml:79
+#: contents/ui/gallery/CardsLayoutGallery.qml:101
+#: contents/ui/gallery/CardsLayoutGallery.qml:139
+#: contents/ui/gallery/CardsLayoutGallery.qml:213
+msgctxt "CardsLayoutGallery|"
+msgid "Action2"
+msgstr "Ago 2"
+
+#: contents/ui/gallery/CardsLayoutGallery.qml:85
+msgctxt "CardsLayoutGallery|"
+msgid "Card"
+msgstr "Karto"
+
+#: contents/ui/gallery/CardsLayoutGallery.qml:89
+msgctxt "CardsLayoutGallery|"
+msgid ""
+"This is an instance of the Card type: it can optionally have an image, a "
+"title and an icon assigned to its banner group property, one or all of the "
+"properties together. A Card can also have Actions that will appear in the "
+"footer."
+msgstr ""
+"Ĉi tio estas ekzemplo de la Karto-tipo: ĝi povas laŭvole havi bildon, "
+"titolon kaj piktogramon asignitaj al sia rubanda grupa propreco, unu aŭ ĉiuj "
+"el la proprecoj kune. Karto ankaŭ povas havi Agojn, kiuj aperos en la "
+"piedlinio."
+
+#: contents/ui/gallery/CardsLayoutGallery.qml:105
+msgctxt "CardsLayoutGallery|"
+msgid "Action3"
+msgstr "Ago3"
+
+#: contents/ui/gallery/CardsLayoutGallery.qml:109
+msgctxt "CardsLayoutGallery|"
+msgid "Action4"
+msgstr "Ago4"
+
+#: contents/ui/gallery/CardsLayoutGallery.qml:113
+msgctxt "CardsLayoutGallery|"
+msgid "Action5"
+msgstr "Ago5"
+
+#: contents/ui/gallery/CardsLayoutGallery.qml:117
+msgctxt "CardsLayoutGallery|"
+msgid "Action6"
+msgstr "Ago6"
+
+#: contents/ui/gallery/CardsLayoutGallery.qml:128
+msgctxt "CardsLayoutGallery|"
+msgid ""
+"The title can be aligned to all corners or centered with a combination of Qt."
+"Alignment flags.\n"
+" When there are too many actions, they go in an overflow menu."
+msgstr ""
+"La titolo povas esti vicigita al ĉiuj anguloj aŭ centrita kun kombinaĵo de "
+"Qt.Alignment-flagoj.\n"
+"Kiam estas tro da agoj, ili iras en superflua menuo."
+
+#: contents/ui/gallery/CardsLayoutGallery.qml:143
+msgctxt "CardsLayoutGallery|"
+msgid "Action always hidden"
+msgstr "Ago ĉiam kaŝita"
+
+#: contents/ui/gallery/CardsLayoutGallery.qml:154
+msgctxt "CardsLayoutGallery|"
+msgid ""
+"The Banner can contain only the title and/or an icon, even if there is no "
+"banner image."
+msgstr ""
+"La Rubando povas enhavi nur la titolon kaj/aŭ piktogramon, eĉ se ne ekzistas "
+"rubanda bildo."
+
+#: contents/ui/gallery/CardsLayoutGallery.qml:177
+msgctxt "CardsLayoutGallery|"
+msgid ""
+"It's possible to have custom contents overlapping the image, for cases where "
+"a more personalized design is needed."
+msgstr ""
+"Eblas havi proprajn enhavojn interkovrantajn la bildon, por kazoj kie "
+"necesas pli personigita dezajno."
+
+#: contents/ui/gallery/CardsLayoutGallery.qml:192
+msgctxt "CardsLayoutGallery|"
+msgid ""
+"It's possible to customize the look and feel for Cards too, if the no "
+"padding behavior for headers is needed. This is usually discouraged in order "
+"to have greater consistency, but in some cases the design requires a more "
+"fancy layout, as shown in this example of a Card. If a custom header is "
+"used, the title and icon in the banner property shouldn't be used. If a "
+"custom footer is used (which is discouraged), actions shouldn't be used."
+msgstr ""
+"Eblas personecigi ankaŭ la aspekton por Kartoj, se necesas la senpleniga "
+"konduto por kaplinioj. Tio estas kutime malinstigita por havi pli grandan "
+"konsistencon, sed en kelkaj kazoj la dezajno postulas pli ŝika aranĝo, kiel "
+"montrite en tiu ekzemplo de Karto. Se propra kaplinio estas uzata, la titolo "
+"kaj piktogramo en la rubanda propreco ne estu uzataj. Se propra piedlinio "
+"estas uzata (kiu estas malinstigita), agoj ne estu uzataj."
+
+#: contents/ui/gallery/CardsLayoutGallery.qml:197
+msgctxt "CardsLayoutGallery|"
+msgid "Custom footer"
+msgstr "Propra piedlinio"
+
+#: contents/ui/gallery/CardsLayoutGallery.qml:200
+msgctxt "CardsLayoutGallery|"
+msgid "Ok"
+msgstr "Bone"
+
+#: contents/ui/gallery/CardsLayoutGallery.qml:223
+msgctxt "CardsLayoutGallery|"
+msgid ""
+"A card can optionally have horizontal orientation.\n"
+" In this case will be wider than tall, so is fit to be used also in a "
+"ColumnLayout.\n"
+"If you need to put it in a CardsLayout, it will have by default a columnSpan "
+"of 2 (which can be overridden)."
+msgstr ""
+"Karto povas laŭvole havi horizontalan orientiĝon.\n"
+" En ĉi tiu kazo estos pli larĝa ol alta, do taŭgas por esti uzata ankaŭ en "
+"ColumnLayout.\n"
+"Se vi bezonas meti ĝin en CardsLayout, ĝi havos defaŭlte kolonSpan de 2 (kiu "
+"povas esti forigita)."
+
+#: contents/ui/gallery/CardsListViewGallery.qml:29
+msgctxt "CardsListViewGallery|"
+msgid "List view of simple cards"
+msgstr "Listo de simplaj kartoj"
+
+#: contents/ui/gallery/CardsListViewGallery.qml:34
+msgctxt "CardsListViewGallery|"
+msgid "Info"
+msgstr "Informo"
+
+#: contents/ui/gallery/CardsListViewGallery.qml:86
+msgctxt "CardsListViewGallery|"
+msgid "Product "
+msgstr "Produkto"
+
+#: contents/ui/gallery/CardsListViewGallery.qml:94
+msgctxt "CardsListViewGallery|"
+msgid ""
+"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id risus id "
+"augue euismod accumsan."
+msgstr ""
+"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id risus id "
+"augue euismod accumsan."
+
+#: contents/ui/gallery/CardsListViewGallery.qml:100
+msgctxt "CardsListViewGallery|"
+msgid "Install"
+msgstr "Instali"
+
+#: contents/ui/gallery/ChipGallery.qml:30
+msgctxt "ChipGallery|"
+msgid "Chips"
+msgstr "Blatoj"
+
+#: contents/ui/gallery/ChipGallery.qml:34
+msgctxt "ChipGallery|"
+msgid "Info"
+msgstr "Informo"
+
+#: contents/ui/gallery/ChipGallery.qml:65
+msgctxt "ChipGallery|"
+msgid "Closable Chips"
+msgstr "Fermeblaj Blatoj"
+
+#: contents/ui/gallery/ChipGallery.qml:95
+msgctxt "ChipGallery|"
+msgid "Informative Chips"
+msgstr "Informaj Blatoj"
+
+#: contents/ui/gallery/ChipGallery.qml:131
+msgctxt "ChipGallery|"
+msgid "Checkable Chips"
+msgstr "Kontroleblaj Blatoj"
+
+#: contents/ui/gallery/components/InfoSheet.qml:47
+msgctxt "InfoSheet|"
+msgid "HIG..."
+msgstr "ALTA..."
+
+#: contents/ui/gallery/components/InfoSheet.qml:52
+msgctxt "InfoSheet|"
+msgid "Source code..."
+msgstr "Fontkodo..."
+
+#: contents/ui/gallery/components/InfoSheet.qml:57
+msgctxt "InfoSheet|"
+msgid "API..."
+msgstr "API..."
+
+#: contents/ui/gallery/DialogGallery.qml:32
+msgctxt "DialogGallery|"
+msgid "Dialogs"
+msgstr "Dialogoj"
+
+#: contents/ui/gallery/DialogGallery.qml:37
+msgctxt "DialogGallery|"
+msgid "Info"
+msgstr "Informo"
+
+#: contents/ui/gallery/DialogGallery.qml:76
+msgctxt "DialogGallery|"
+msgid "Create Folder"
+msgstr "Krei Dosierujon"
+
+#: contents/ui/gallery/DialogGallery.qml:84
+msgctxt "DialogGallery|"
+msgid "Cancel"
+msgstr "Nuligi"
+
+#: contents/ui/gallery/DialogGallery.qml:93
+msgctxt "DialogGallery|"
+msgid "Folder name..."
+msgstr "Nomo de dosierujo..."
+
+#: contents/ui/gallery/DialogGallery.qml:99
+msgctxt "DialogGallery|"
+msgid "Alarm Snooze Length"
+msgstr "Alarm-Snooze Longo"
+
+#: contents/ui/gallery/DialogGallery.qml:108
+msgctxt "DialogGallery|"
+msgid "1 minute"
+msgstr "1 minuton"
+
+#: contents/ui/gallery/DialogGallery.qml:109
+msgctxt "DialogGallery|"
+msgid "2 minutes"
+msgstr "2 minutoj"
+
+#: contents/ui/gallery/DialogGallery.qml:110
+msgctxt "DialogGallery|"
+msgid "3 minutes"
+msgstr "3 minutoj"
+
+#: contents/ui/gallery/DialogGallery.qml:111
+msgctxt "DialogGallery|"
+msgid "4 minutes"
+msgstr "4 minutoj"
+
+#: contents/ui/gallery/DialogGallery.qml:112
+msgctxt "DialogGallery|"
+msgid "5 minutes"
+msgstr "5 minutoj"
+
+#: contents/ui/gallery/DialogGallery.qml:113
+msgctxt "DialogGallery|"
+msgid "10 minutes"
+msgstr "10 minutoj"
+
+#: contents/ui/gallery/DialogGallery.qml:114
+msgctxt "DialogGallery|"
+msgid "30 minutes"
+msgstr "30 minutoj"
+
+#: contents/ui/gallery/DialogGallery.qml:115
+msgctxt "DialogGallery|"
+msgid "1 hour"
+msgstr "1 horo"
+
+#: contents/ui/gallery/DialogGallery.qml:137
+msgctxt "DialogGallery|"
+msgid "Select Number"
+msgstr "Elekti Numeron"
+
+#: contents/ui/gallery/DialogGallery.qml:157
+#: contents/ui/gallery/DialogGallery.qml:223
+msgctxt "DialogGallery|"
+msgid "No Footer Dialog"
+msgstr "Neniu Pieda Dialogo"
+
+#: contents/ui/gallery/DialogGallery.qml:158
+msgctxt "DialogGallery|"
+msgid "This dialog has no footer buttons.<br/>It also has no close button."
+msgstr ""
+"Ĉi tiu dialogo ne havas piedpiedbutonojn.<br/>Ĝi ankaŭ ne havas fermbutonon."
+
+#: contents/ui/gallery/DialogGallery.qml:166
+msgctxt "DialogGallery|"
+msgid "Track Options"
+msgstr "Trak-Opcioj"
+
+#: contents/ui/gallery/DialogGallery.qml:171
+msgctxt "DialogGallery|Start playback of the selected track"
+msgid "Play"
+msgstr "Ludi"
+
+#: contents/ui/gallery/DialogGallery.qml:172
+msgctxt "DialogGallery|"
+msgid "Start playback of the selected track"
+msgstr "Komenci reproduktadon de la elektita trako"
+
+#: contents/ui/gallery/DialogGallery.qml:177
+msgctxt "DialogGallery|Show the file for this song in the file manager"
+msgid "Show in folder"
+msgstr "Montri en dosierujo"
+
+#: contents/ui/gallery/DialogGallery.qml:178
+msgctxt "DialogGallery|"
+msgid "Show the file for this song in the file manager"
+msgstr "Montri la dosieron por ĉi tiu kanto en la dosieradministranto"
+
+#: contents/ui/gallery/DialogGallery.qml:182
+msgctxt "DialogGallery|Show track metadata"
+msgid "View details"
+msgstr "Rigardi detalojn"
+
+#: contents/ui/gallery/DialogGallery.qml:183
+msgctxt "DialogGallery|"
+msgid "Show track metadata"
+msgstr "Montri trakmetadatumojn"
+
+#: contents/ui/gallery/DialogGallery.qml:187
+msgctxt ""
+"DialogGallery|Add the track to the queue, right after the current track"
+msgid "Play next"
+msgstr "Ludi sekvante"
+
+#: contents/ui/gallery/DialogGallery.qml:188
+msgctxt "DialogGallery|"
+msgid "Add the track to the queue, right after the current track"
+msgstr "Aldoni la trakon al la atendovico, tuj post la nuna trako"
+
+#: contents/ui/gallery/DialogGallery.qml:192
+msgctxt "DialogGallery|Enqueue current track"
+msgid "Add to queue"
+msgstr "Aldoni al vico"
+
+#: contents/ui/gallery/DialogGallery.qml:193
+msgctxt "DialogGallery|"
+msgid "Enqueue current track"
+msgstr "Envicigi nunan trakon"
+
+#: contents/ui/gallery/DialogGallery.qml:203
+msgctxt "DialogGallery|"
+msgid "Prompt Dialog"
+msgstr "Prompta Dialogo"
+
+#: contents/ui/gallery/DialogGallery.qml:208
+msgctxt "DialogGallery|"
+msgid "Text Prompt Dialog"
+msgstr "Teksta Prompta Dialogo"
+
+#: contents/ui/gallery/DialogGallery.qml:213
+msgctxt "DialogGallery|"
+msgid "Selection Dialog"
+msgstr "Elektodialogo"
+
+#: contents/ui/gallery/DialogGallery.qml:218
+msgctxt "DialogGallery|"
+msgid "Scrollable Dialog"
+msgstr "Rulumebla Dialogo"
+
+#: contents/ui/gallery/DialogGallery.qml:228
+msgctxt "DialogGallery|"
+msgid "Menu Dialog"
+msgstr "Menua Dialogo"
+
+#: contents/ui/gallery/DrawerGallery.qml:30
+msgctxt "DrawerGallery|"
+msgid "Drawers"
+msgstr "Kestoj"
+
+#: contents/ui/gallery/DrawerGallery.qml:35
+msgctxt "DrawerGallery|"
+msgid "Info"
+msgstr "Informo"
+
+#: contents/ui/gallery/DrawerGallery.qml:41
+msgctxt "DrawerGallery|"
+msgid "Action 1"
+msgstr "Ago 1"
+
+#: contents/ui/gallery/DrawerGallery.qml:43
+msgctxt "DrawerGallery|"
+msgid "Action 1 clicked"
+msgstr "Ago 1 klakis"
+
+#: contents/ui/gallery/DrawerGallery.qml:46
+msgctxt "DrawerGallery|"
+msgid "Disabled Action"
+msgstr "Malfunkciigita Ago"
+
+#: contents/ui/gallery/DrawerGallery.qml:51
+msgctxt "DrawerGallery|"
+msgid "Action 3"
+msgstr "Ago 3"
+
+#: contents/ui/gallery/DrawerGallery.qml:52
+msgctxt "DrawerGallery|"
+msgid "Action 3 clicked"
+msgstr "Ago 3 klakis"
+
+#: contents/ui/gallery/DrawerGallery.qml:78
+msgctxt "DrawerGallery|"
+msgid ""
+"A modal bottom drawer will span for the whole application window width and "
+"will darken the rest of the app. Clicking on a darkened will dismiss the "
+"drawer."
+msgstr ""
+"Modala malsupra tirkesto daŭros por la tuta larĝo de la aplika fenestro kaj "
+"mallumigos la reston de la programo. Klako sur mallumigita forĵetos la "
+"tirkeston."
+
+#: contents/ui/gallery/DrawerGallery.qml:82
+#: contents/ui/gallery/DrawerGallery.qml:101
+#: contents/ui/gallery/DrawerGallery.qml:118
+#: contents/ui/gallery/DrawerGallery.qml:137
+msgctxt "DrawerGallery|"
+msgid "Close"
+msgstr "Fermi"
+
+#: contents/ui/gallery/DrawerGallery.qml:97
+msgctxt "DrawerGallery|"
+msgid ""
+"An inline bottom drawer covers the whole application width but lets the "
+"uncovered pieces to still be interacted with."
+msgstr ""
+"Enlinia malsupra tirkesto kovras la tutan aplikaĵlarĝon sed lasas la "
+"nekovritajn pecojn ankoraŭ interagi kun."
+
+#: contents/ui/gallery/DrawerGallery.qml:114
+msgctxt "DrawerGallery|"
+msgid ""
+"A modal top drawer will span for the whole application window width and will "
+"darken the rest of the app. Clicking on the darkened area will dismiss the "
+"drawer."
+msgstr ""
+"Modala supra tirkesto daŭros por la tuta larĝo de la aplika fenestro kaj "
+"mallumigos la reston de la programo. Klako sur la mallumigita areo forigos "
+"la tirkeston."
+
+#: contents/ui/gallery/DrawerGallery.qml:133
+msgctxt "DrawerGallery|"
+msgid ""
+"An inline top drawer covers the whole application width but lets the "
+"uncovered pieces to still be interacted with."
+msgstr ""
+"Enlinia supra tirkesto kovras la tutan aplikaĵlarĝon sed lasas la "
+"nekovritajn pecojn ankoraŭ interagi kun."
+
+#: contents/ui/gallery/DrawerGallery.qml:148
+msgctxt "DrawerGallery|"
+msgid "Left Global Drawer"
+msgstr "Maldekstra Ĉiea Kesto"
+
+#: contents/ui/gallery/DrawerGallery.qml:153
+msgctxt "DrawerGallery|"
+msgid "Right Context Drawer"
+msgstr "Dekstra Kunteksta Kesto"
+
+#: contents/ui/gallery/DrawerGallery.qml:159
+msgctxt "DrawerGallery|"
+msgid "Modal Bottom Drawer"
+msgstr "Modala Malsupra Kesto"
+
+#: contents/ui/gallery/DrawerGallery.qml:169
+msgctxt "DrawerGallery|"
+msgid "Modal Top Drawer"
+msgstr "Modala Supra Kesto"
+
+#: contents/ui/gallery/FormLayoutGallery.qml:13
+msgctxt "FormLayoutGallery|"
+msgid "Info"
+msgstr "Informo"
+
+#: contents/ui/gallery/FormLayoutGallery.qml:77
+msgctxt "FormLayoutGallery|"
+msgid "Expanding Button"
+msgstr "Vastiganta Butono"
+
+#: contents/ui/gallery/FormLayoutGallery.qml:127
+msgctxt "FormLayoutGallery|"
+msgid "Twin Layout:"
+msgstr "Dua Aranĝo:"
+
+#: contents/ui/gallery/InlineMessagesGallery.qml:31
+msgctxt "InlineMessagesGallery|"
+msgid "Inline Messages"
+msgstr "Enliniaj Mesaĝoj"
+
+#: contents/ui/gallery/InlineMessagesGallery.qml:35
+msgctxt "InlineMessagesGallery|"
+msgid "Info"
+msgstr "Informo"
+
+#: contents/ui/gallery/InlineMessagesGallery.qml:65
+msgctxt "InlineMessagesGallery|"
+msgid ""
+"This is an informational inline message (the default type). Use it for "
+"example to announce a result or provide commentary."
+msgstr ""
+"Ĉi tio estas informa enlinia mesaĝo (la defaŭlta tipo). Uzu ĝin ekzemple por "
+"anonci rezulton aŭ doni komenton."
+
+#: contents/ui/gallery/InlineMessagesGallery.qml:75
+msgctxt "InlineMessagesGallery|"
+msgid ""
+"This is a positive inline message. Use it for example to announce a "
+"successful result or the successful completion of a procedure."
+msgstr ""
+"Ĉi tio estas pozitiva enlinia mesaĝo. Uzu ĝin ekzemple por anonci sukcesan "
+"rezulton aŭ la sukcesan finon de proceduro."
+
+#: contents/ui/gallery/InlineMessagesGallery.qml:85
+msgctxt "InlineMessagesGallery|"
+msgid ""
+"This is a warning inline message. Use it for example to provide critical "
+"guidance or warn about something that is not going to work."
+msgstr ""
+"Ĉi tio estas averta enlinia mesaĝo. Uzu ĝin ekzemple por doni kritikan "
+"gvidadon aŭ averti pri io, kio ne funkcios."
+
+#: contents/ui/gallery/InlineMessagesGallery.qml:95
+msgctxt "InlineMessagesGallery|"
+msgid ""
+"This is an error inline message. Use it for example to announce something "
+"has gone wrong or that input will not be accepted."
+msgstr ""
+"Ĉi tio estas erara enlinia mesaĝo. Uzu ĝin ekzemple por anonci ke io "
+"misfunkciis aŭ ke tiu enigo ne estos akceptita."
+
+#: contents/ui/gallery/InlineMessagesGallery.qml:109
+msgctxt "InlineMessagesGallery|"
+msgid "Inline messages can optionally have a custom icon set."
+msgstr "Enliniaj mesaĝoj povas laŭvole havi propran piktogramaron."
+
+#: contents/ui/gallery/InlineMessagesGallery.qml:117
+msgctxt "InlineMessagesGallery|"
+msgid ""
+"You can use rich text in inline messages and optionally handle clicks on "
+"links (opens in browser): <a href=\"https://www.kde.org\">https://www.kde."
+"org/<a/>"
+msgstr ""
+"Vi povas uzi riĉan tekston en enliniaj mesaĝoj kaj laŭvole trakti klakojn "
+"sur ligiloj (malfermiĝas en retumilo): <a href=\"https://www.kde.org"
+"\">https://www.kde.org/<a />"
+
+#: contents/ui/gallery/InlineMessagesGallery.qml:129
+msgctxt "InlineMessagesGallery|"
+msgid "Inline messages can have an optional close button."
+msgstr "Enliniaj mesaĝoj povas havi laŭvolan fermbutonon."
+
+#: contents/ui/gallery/InlineMessagesGallery.qml:147
+msgctxt "InlineMessagesGallery|"
+msgid "Add text"
+msgstr "Aldoni tekston"
+
+#: contents/ui/gallery/InlineMessagesGallery.qml:157
+msgctxt "InlineMessagesGallery|"
+msgid "Reset text"
+msgstr "Restarigi tekston"
+
+#: contents/ui/gallery/InlineMessagesGallery.qml:179
+msgctxt "InlineMessagesGallery|"
+msgid "Inline messages are initially hidden and animate when revealed. Try it!"
+msgstr ""
+"Enliniaj mesaĝoj estas komence kaŝitaj kaj viglaj kiam malkaŝite. Provu ĝin!"
+
+#: contents/ui/gallery/InlineMessagesGallery.qml:188
+msgctxt "InlineMessagesGallery|"
+msgid "Show additional message"
+msgstr "Montri plian mesaĝon"
+
+#: contents/ui/gallery/InlineMessagesGallery.qml:205
+msgctxt "InlineMessagesGallery|"
+msgid "Boo!"
+msgstr "Ho!"
+
+#: contents/ui/gallery/InlineMessagesGallery.qml:209
+msgctxt "InlineMessagesGallery|"
+msgid "Shush"
+msgstr "Silentu"
+
+#: contents/ui/gallery/MetricsGallery.qml:42
+msgctxt "MetricsGallery|"
+msgid "Heading 1"
+msgstr "Titolo 1"
+
+#: contents/ui/gallery/MetricsGallery.qml:47
+#: contents/ui/gallery/MetricsGallery.qml:57
+#: contents/ui/gallery/MetricsGallery.qml:67
+#: contents/ui/gallery/MetricsGallery.qml:77
+#, qt-format
+msgctxt "MetricsGallery|"
+msgid "%1 points"
+msgstr "%1 poentoj"
+
+#: contents/ui/gallery/MetricsGallery.qml:52
+msgctxt "MetricsGallery|"
+msgid "Heading 2"
+msgstr "Titolo 2"
+
+#: contents/ui/gallery/MetricsGallery.qml:62
+msgctxt "MetricsGallery|"
+msgid "Heading 3"
+msgstr "Titolo 3"
+
+#: contents/ui/gallery/MetricsGallery.qml:72
+msgctxt "MetricsGallery|"
+msgid "Heading 4"
+msgstr "Titolo 4"
+
+#: contents/ui/gallery/MiscGallery.qml:72
+msgctxt "MiscGallery|"
+msgid "Text Beside Icon"
+msgstr "Teksto Apud Piktogramo"
+
+#: contents/ui/gallery/MiscGallery.qml:87
+msgctxt "MiscGallery|"
+msgid "Text Under Icon"
+msgstr "Teksto Sub Piktogramo"
+
+#: contents/ui/gallery/MiscGallery.qml:102
+msgctxt "MiscGallery|"
+msgid "Text Only"
+msgstr "Nur Teksto"
+
+#: contents/ui/gallery/MiscGallery.qml:117
+msgctxt "MiscGallery|"
+msgid "Icon Only"
+msgstr "Piktogramo Nur"
+
+#: contents/ui/gallery/MultipleColumnsGallery.qml:117
+msgctxt "MultipleColumnsGallery|"
+msgid "Pin page"
+msgstr "Pinpaĝo"
+
+#: contents/ui/gallery/OverlaySheetGallery.qml:31
+msgctxt "OverlaySheetGallery|"
+msgid "Overlay Sheets"
+msgstr "Supermeti Foliojn"
+
+#: contents/ui/gallery/OverlaySheetGallery.qml:35
+msgctxt "OverlaySheetGallery|"
+msgid "Info"
+msgstr "Informo"
+
+#: contents/ui/gallery/OverlaySheetGallery.qml:83
+msgctxt "OverlaySheetGallery|"
+msgid "Close"
+msgstr "Fermi"
+
+#: contents/ui/gallery/OverlaySheetGallery.qml:93
+#: contents/ui/gallery/OverlaySheetGallery.qml:161
+#: contents/ui/gallery/OverlaySheetGallery.qml:184
+msgctxt "OverlaySheetGallery|"
+msgid "Title"
+msgstr "Titolo"
+
+#: contents/ui/gallery/OverlaySheetGallery.qml:97
+#: contents/ui/gallery/OverlaySheetGallery.qml:165
+#: contents/ui/gallery/OverlaySheetGallery.qml:188
+msgctxt "OverlaySheetGallery|"
+msgid "Footer:"
+msgstr "Piedo:"
+
+#: contents/ui/gallery/OverlaySheetGallery.qml:108
+msgctxt "OverlaySheetGallery|"
+msgid ""
+"A sheet can have optional header and footer items which will not scroll away "
+"when the sheet overflows."
+msgstr ""
+"Folio povas havi laŭvolajn titolojn kaj piedpiedaĵojn, kiuj ne ruliĝos for "
+"kiam la folio superfluas."
+
+#: contents/ui/gallery/OverlaySheetGallery.qml:127
+msgctxt "OverlaySheetGallery|"
+msgid ""
+"A sheet will take the maximum available width in the page by default.\n"
+"However, if the main item sets an implicitWidth or Layout.preferredWidth, "
+"the sheet won't grow in width more than such given value."
+msgstr ""
+"Folio prenos la maksimuman disponeblan larĝon en la paĝo defaŭlte.\n"
+"Tamen, se la ĉefa ero fiksas implicitWidth aŭ Layout.preferredWidth, la "
+"folio ne kreskos larĝe pli ol tia donita valoro."
+
+#: contents/ui/gallery/OverlaySheetGallery.qml:148
+msgctxt "OverlaySheetGallery|"
+msgid ""
+"A sheet by default will be over a single page, even if the app is in wide "
+"mode. By changing the sheet parent to applicationWindow().overlay it will "
+"display the sheet as an overlay on top of the whole application window.\n"
+"In this case the sheet will cover the page Action buttons too."
+msgstr ""
+"Folio defaŭlte estos super ununura paĝo, eĉ se la programo estas en larĝa "
+"reĝimo. Ŝanĝante la foliopatron al applicationWindow().overlay ĝi montros la "
+"folion kiel kovraĵon supre de la tuta aplika fenestro.\n"
+"En ĉi tiu kazo la folio kovros ankaŭ la paĝon Ago-butonoj."
+
+#: contents/ui/gallery/OverlaySheetGallery.qml:176
+msgctxt "OverlaySheetGallery|"
+msgid "Item in sheet "
+msgstr "Ero en folio"
+
+#: contents/ui/gallery/OverlaySheetGallery.qml:220
+msgctxt "OverlaySheetGallery|"
+msgid "Very Long Sheet"
+msgstr "Tre Longa Folio"
+
+#: contents/ui/gallery/SelectionControlsGallery.qml:31
+msgctxt "SelectionControlsGallery|"
+msgid "Info"
+msgstr "Informo"
+
+#: contents/ui/gallery/SelectionControlsGallery.qml:38
+msgctxt "SelectionControlsGallery|"
+msgid "Selection Controls"
+msgstr "Elektaj Kontroloj"
+
+#: contents/ui/gallery/SelectionControlsGallery.qml:64
+msgctxt "SelectionControlsGallery|"
+msgid "Checkable List Items"
+msgstr "Kontroleblaj Listo Eroj"
+
+#: contents/ui/gallery/SelectionControlsGallery.qml:71
+#: contents/ui/gallery/SelectionControlsGallery.qml:94
+#: contents/ui/gallery/SelectionControlsGallery.qml:117
+#, qt-format
+msgctxt "SelectionControlsGallery|"
+msgid "Delegate %1"
+msgstr "Delegito %1"
+
+#: contents/ui/gallery/SelectionControlsGallery.qml:87
+#: contents/ui/gallery/SelectionControlsGallery.qml:110
+msgctxt "SelectionControlsGallery|"
+msgid "Radio List Items"
+msgstr "Radio-Listo-Eroj"
+
+#: contents/ui/gallery/SelectionControlsGallery.qml:126
+msgctxt "SelectionControlsGallery|"
+msgid "Checkboxes"
+msgstr "Markokestoj"
+
+#: contents/ui/gallery/SelectionControlsGallery.qml:130
+#: contents/ui/gallery/SelectionControlsGallery.qml:148
+#: contents/ui/gallery/SelectionControlsGallery.qml:166
+msgctxt "SelectionControlsGallery|"
+msgid "Item selected"
+msgstr "Elektita ero"
+
+#: contents/ui/gallery/SelectionControlsGallery.qml:134
+#: contents/ui/gallery/SelectionControlsGallery.qml:152
+#: contents/ui/gallery/SelectionControlsGallery.qml:170
+msgctxt "SelectionControlsGallery|"
+msgid "Item not selected"
+msgstr "Ero ne elektita"
+
+#: contents/ui/gallery/SelectionControlsGallery.qml:138
+msgctxt "SelectionControlsGallery|"
+msgid "Checkable List View"
+msgstr "Kontrolebla Listo Vido"
+
+#: contents/ui/gallery/SelectionControlsGallery.qml:144
+msgctxt "SelectionControlsGallery|"
+msgid "Radio buttons"
+msgstr "Radiobutonoj"
+
+#: contents/ui/gallery/SelectionControlsGallery.qml:157
+msgctxt "SelectionControlsGallery|"
+msgid "Radio List View"
+msgstr "Radio Listo Vido"
+
+#: contents/ui/gallery/SelectionControlsGallery.qml:163
+msgctxt "SelectionControlsGallery|"
+msgid "Switches"
+msgstr "Ŝaltiloj"
+
+#: contents/ui/gallery/SelectionControlsGallery.qml:174
+msgctxt "SelectionControlsGallery|"
+msgid "Switch List View"
+msgstr "Ŝanĝi Listo Vidon"
+
+#: contents/ui/MainPage.qml:35
+msgctxt "MainPage|"
+msgid "Kirigami Gallery"
+msgstr "Kirigami-Galerio"
+
+#~ msgctxt "CardsGridViewGallery|"
+#~ msgid "Grid view of Cards"
+#~ msgstr "Kradvido de Kartoj"
+
+#~ msgctxt "CardsGridViewGallery|"
+#~ msgid "Info"
+#~ msgstr "Informo"
