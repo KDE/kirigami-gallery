@@ -862,11 +862,3 @@ msgstr "Byt listevising"
 msgctxt "MainPage|"
 msgid "Kirigami Gallery"
 msgstr "Kirigami-galleri"
-
-#~ msgctxt "CardsGridViewGallery|"
-#~ msgid "Grid view of Cards"
-#~ msgstr "Rutenettvising av kort"
-
-#~ msgctxt "CardsGridViewGallery|"
-#~ msgid "Info"
-#~ msgstr "Info"
