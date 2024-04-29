@@ -21,6 +21,7 @@ import QtQuick 2.15
 import QtQuick.Controls 2.15 as QQC2
 import QtQuick.Layouts 1.15
 import org.kde.kirigami 2.20 as Kirigami
+import org.kde.kirigamiaddons.formcard as FormCard
 
 import "components" as KGC
 
@@ -89,8 +90,10 @@ Kirigami.ScrollablePage {
             }
         ]
 
-        QQC2.TextField {
-            placeholderText: qsTr("Folder name...")
+        FormCard.FormTextFieldDelegate {
+            label: qsTr("Folder name:")
+            leftPadding: 0
+            rightPadding: 0
         }
     }
 
