@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: kirigami-gallery\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2023-11-05 13:43+0100\n"
-"PO-Revision-Date: 2024-04-08 08:59+0100\n"
+"PO-Revision-Date: 2024-04-23 19:26+0100\n"
 "Last-Translator: Oliver Kellogg <okellogg@users.sourceforge.net>\n"
 "Language-Team: Esperanto <kde-i18n-eo.org>\n"
 "Language: eo\n"
@@ -57,6 +57,10 @@ msgid ""
 "the Header or Footer properties. In this case a Kirigami.Heading is its "
 "header and a Label with WordWrap is the contentItem."
 msgstr ""
+"AbstractCard estas la plej simpla formo de karto. Ĝi estas nur rektangulo "
+"kun ombro, kiu povas enhavi ajnan Eron en ĝi. Ĝi ankaŭ povas havi erojn "
+"asignitaj al la proprecoj Kapo aŭ Piedo. En ĉi tiu kazo Kirigami.Heading "
+"estas ĝia kaplinio kaj Etikedo kun WordWrap estas la enhavoItem."
 
 #: contents/ui/gallery/CardsLayoutGallery.qml:65
 msgctxt "CardsLayoutGallery|"
@@ -68,6 +72,12 @@ msgid ""
 "show any kind of visual feedback. It is recommended to set it to true if you "
 "plan to make the card reactive on any kind of click."
 msgstr ""
+"Ĉi tio estas AbstractCard kun Etikedo kun WordWrap en ĝi kaj nenio alia, ĝi "
+"estas la plej simpla formo, en kiu Kartoj troveblas.\n"
+"Abstraktkarto povas esti klakita mem, kun la kutima onClicked-signaltraktilo "
+"kaj la showClickFeedback-propreco povas esti uzata se la klako devus montri "
+"ajnan specon de vida retrosciigo. Oni rekomendas agordi ĝin al vera se vi "
+"planas igi la karton reaktiva je ia klako."
 
 #: contents/ui/gallery/CardsLayoutGallery.qml:67
 msgctxt "CardsLayoutGallery|"
@@ -103,6 +113,10 @@ msgid ""
 "properties together. A Card can also have Actions that will appear in the "
 "footer."
 msgstr ""
+"Ĉi tio estas ekzemplo de la Karto-tipo: ĝi povas laŭvole havi bildon, "
+"titolon kaj piktogramon asignitaj al sia rubanda grupa propreco, unu aŭ ĉiuj "
+"el la proprecoj kune. Karto ankaŭ povas havi Agojn, kiuj aperos en la "
+"piedlinio."
 
 #: contents/ui/gallery/CardsLayoutGallery.qml:103
 msgctxt "CardsLayoutGallery|"
@@ -131,6 +145,9 @@ msgid ""
 "Alignment flags.\n"
 " When there are too many actions, they go in an overflow menu."
 msgstr ""
+"La titolo povas esti vicigita al ĉiuj anguloj aŭ centrita kun kombinaĵo de "
+"Qt.Alignment-flagoj.\n"
+"Kiam estas tro da agoj, ili iras en superflua menuo."
 
 #: contents/ui/gallery/CardsLayoutGallery.qml:141
 msgctxt "CardsLayoutGallery|"
@@ -143,6 +160,8 @@ msgid ""
 "The Banner can contain only the title and/or an icon, even if there is no "
 "banner image."
 msgstr ""
+"La Rubando povas enhavi nur la titolon kaj/aŭ piktogramon, eĉ se ne ekzistas "
+"rubanda bildo."
 
 #: contents/ui/gallery/CardsLayoutGallery.qml:175
 msgctxt "CardsLayoutGallery|"
@@ -150,6 +169,8 @@ msgid ""
 "It's possible to have custom contents overlapping the image, for cases where "
 "a more personalized design is needed."
 msgstr ""
+"Eblas havi proprajn enhavojn interkovrantajn la bildon, por kazoj kie "
+"necesas pli personigita dezajno."
 
 #: contents/ui/gallery/CardsLayoutGallery.qml:190
 msgctxt "CardsLayoutGallery|"
@@ -161,6 +182,12 @@ msgid ""
 "used, the title and icon in the banner property shouldn't be used. If a "
 "custom footer is used (which is discouraged), actions shouldn't be used."
 msgstr ""
+"Eblas personecigi ankaŭ la aspekton por Kartoj, se necesas la senpleniga "
+"konduto por kaplinioj. Tio estas kutime malinstigita por havi pli grandan "
+"konsistencon, sed en kelkaj kazoj la dezajno postulas pli ŝika aranĝo, kiel "
+"montrite en tiu ekzemplo de Karto. Se propra kaplinio estas uzata, la titolo "
+"kaj piktogramo en la rubanda propreco ne estu uzataj. Se propra piedlinio "
+"estas uzata (kiu estas malinstigita), agoj ne estu uzataj."
 
 #: contents/ui/gallery/CardsLayoutGallery.qml:195
 msgctxt "CardsLayoutGallery|"
@@ -181,6 +208,11 @@ msgid ""
 "If you need to put it in a CardsLayout, it will have by default a columnSpan "
 "of 2 (which can be overridden)."
 msgstr ""
+"Karto povas laŭvole havi horizontalan orientiĝon.\n"
+" En ĉi tiu kazo estos pli larĝa ol alta, do taŭgas por esti uzata ankaŭ en "
+"ColumnLayout.\n"
+"Se vi bezonas meti ĝin en CardsLayout, ĝi havos defaŭlte kolonSpan de 2 (kiu "
+"povas esti forigita)."
 
 #: contents/ui/gallery/CardsListViewGallery.qml:29
 msgctxt "CardsListViewGallery|"
@@ -203,6 +235,8 @@ msgid ""
 "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id risus id "
 "augue euismod accumsan."
 msgstr ""
+"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id risus id "
+"augue euismod accumsan."
 
 #: contents/ui/gallery/CardsListViewGallery.qml:98
 msgctxt "CardsListViewGallery|"
@@ -375,7 +409,7 @@ msgstr "Montri trakmetadatumojn"
 msgctxt ""
 "DialogGallery|Add the track to the queue, right after the current track"
 msgid "Play next"
-msgstr ""
+msgstr "Ludi sekvante"
 
 #: contents/ui/gallery/DialogGallery.qml:186
 msgctxt "DialogGallery|"
@@ -459,6 +493,9 @@ msgid ""
 "will darken the rest of the app. Clicking on a darkened will dismiss the "
 "drawer."
 msgstr ""
+"Modala malsupra tirkesto daŭros por la tuta larĝo de la aplika fenestro kaj "
+"mallumigos la reston de la programo. Klako sur mallumigita forĵetos la "
+"tirkeston."
 
 #: contents/ui/gallery/DrawerGallery.qml:84
 #: contents/ui/gallery/DrawerGallery.qml:103
@@ -474,6 +511,8 @@ msgid ""
 "An inline bottom drawer covers the whole application width but lets the "
 "uncovered pieces to still be interacted with."
 msgstr ""
+"Enlinia malsupra tirkesto kovras la tutan aplikaĵlarĝon sed lasas la "
+"nekovritajn pecojn ankoraŭ interagi kun."
 
 #: contents/ui/gallery/DrawerGallery.qml:116
 msgctxt "DrawerGallery|"
@@ -482,6 +521,9 @@ msgid ""
 "darken the rest of the app. Clicking on the darkened area will dismiss the "
 "drawer."
 msgstr ""
+"Modala supra tirkesto daŭros por la tuta larĝo de la aplika fenestro kaj "
+"mallumigos la reston de la programo. Klako sur la mallumigita areo forigos "
+"la tirkeston."
 
 #: contents/ui/gallery/DrawerGallery.qml:135
 msgctxt "DrawerGallery|"
@@ -489,6 +531,8 @@ msgid ""
 "An inline top drawer covers the whole application width but lets the "
 "uncovered pieces to still be interacted with."
 msgstr ""
+"Enlinia supra tirkesto kovras la tutan aplikaĵlarĝon sed lasas la "
+"nekovritajn pecojn ankoraŭ interagi kun."
 
 #: contents/ui/gallery/DrawerGallery.qml:150
 msgctxt "DrawerGallery|"
@@ -541,6 +585,8 @@ msgid ""
 "This is an informational inline message (the default type). Use it for "
 "example to announce a result or provide commentary."
 msgstr ""
+"Ĉi tio estas informa enlinia mesaĝo (la defaŭlta tipo). Uzu ĝin ekzemple por "
+"anonci rezulton aŭ doni komenton."
 
 #: contents/ui/gallery/InlineMessagesGallery.qml:75
 msgctxt "InlineMessagesGallery|"
@@ -548,6 +594,8 @@ msgid ""
 "This is a positive inline message. Use it for example to announce a "
 "successful result or the successful completion of a procedure."
 msgstr ""
+"Ĉi tio estas pozitiva enlinia mesaĝo. Uzu ĝin ekzemple por anonci sukcesan "
+"rezulton aŭ la sukcesan finon de proceduro."
 
 #: contents/ui/gallery/InlineMessagesGallery.qml:85
 msgctxt "InlineMessagesGallery|"
@@ -555,6 +603,8 @@ msgid ""
 "This is a warning inline message. Use it for example to provide critical "
 "guidance or warn about something that is not going to work."
 msgstr ""
+"Ĉi tio estas averta enlinia mesaĝo. Uzu ĝin ekzemple por doni kritikan "
+"gvidadon aŭ averti pri io, kio ne funkcios."
 
 #: contents/ui/gallery/InlineMessagesGallery.qml:95
 msgctxt "InlineMessagesGallery|"
@@ -562,6 +612,8 @@ msgid ""
 "This is an error inline message. Use it for example to announce something "
 "has gone wrong or that input will not be accepted."
 msgstr ""
+"Ĉi tio estas erara enlinia mesaĝo. Uzu ĝin ekzemple por anonci ke io "
+"misfunkciis aŭ ke tiu enigo ne estos akceptita."
 
 #: contents/ui/gallery/InlineMessagesGallery.qml:109
 msgctxt "InlineMessagesGallery|"
@@ -575,6 +627,9 @@ msgid ""
 "links (opens in browser): <a href=\"https://www.kde.org\">https://www.kde."
 "org/<a/>"
 msgstr ""
+"Vi povas uzi riĉan tekston en enliniaj mesaĝoj kaj laŭvole trakti klakojn "
+"sur ligiloj (malfermiĝas en retumilo): <a href=\"https://www.kde.org"
+"\">https://www.kde.org/<a />"
 
 #: contents/ui/gallery/InlineMessagesGallery.qml:129
 msgctxt "InlineMessagesGallery|"
@@ -701,6 +756,8 @@ msgid ""
 "A sheet can have optional header and footer items which will not scroll away "
 "when the sheet overflows."
 msgstr ""
+"Folio povas havi laŭvolajn titolojn kaj piedpiedaĵojn, kiuj ne ruliĝos for "
+"kiam la folio superfluas."
 
 #: contents/ui/gallery/OverlaySheetGallery.qml:128
 msgctxt "OverlaySheetGallery|"
@@ -709,6 +766,9 @@ msgid ""
 "However, if the main item sets an implicitWidth or Layout.preferredWidth, "
 "the sheet won't grow in width more than such given value."
 msgstr ""
+"Folio prenos la maksimuman disponeblan larĝon en la paĝo defaŭlte.\n"
+"Tamen, se la ĉefa ero fiksas implicitWidth aŭ Layout.preferredWidth, la "
+"folio ne kreskos larĝe pli ol tia donita valoro."
 
 #: contents/ui/gallery/OverlaySheetGallery.qml:149
 msgctxt "OverlaySheetGallery|"
@@ -718,6 +778,10 @@ msgid ""
 "display the sheet as an overlay on top of the whole application window.\n"
 "In this case the sheet will cover the page Action buttons too."
 msgstr ""
+"Folio defaŭlte estos super ununura paĝo, eĉ se la programo estas en larĝa "
+"reĝimo. Ŝanĝante la foliopatron al applicationWindow().overlay ĝi montros la "
+"folion kiel kovraĵon supre de la tuta aplika fenestro.\n"
+"En ĉi tiu kazo la folio kovros ankaŭ la paĝon Ago-butonoj."
 
 #: contents/ui/gallery/OverlaySheetGallery.qml:177
 msgctxt "OverlaySheetGallery|"
