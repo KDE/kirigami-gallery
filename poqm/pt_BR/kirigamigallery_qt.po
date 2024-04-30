@@ -274,170 +274,173 @@ msgctxt "InfoSheet|"
 msgid "API..."
 msgstr "API..."
 
-#: contents/ui/gallery/DialogGallery.qml:32
+#: contents/ui/gallery/DialogGallery.qml:33
 msgctxt "DialogGallery|"
 msgid "Dialogs"
 msgstr "Janelas"
 
-#: contents/ui/gallery/DialogGallery.qml:37
+#: contents/ui/gallery/DialogGallery.qml:38
 msgctxt "DialogGallery|"
 msgid "Info"
 msgstr "Informações"
 
-#: contents/ui/gallery/DialogGallery.qml:76
+#: contents/ui/gallery/DialogGallery.qml:77
 msgctxt "DialogGallery|"
 msgid "Create Folder"
 msgstr "Criar pasta"
 
-#: contents/ui/gallery/DialogGallery.qml:84
+#: contents/ui/gallery/DialogGallery.qml:85
 msgctxt "DialogGallery|"
 msgid "Cancel"
 msgstr "Cancelar"
 
-#: contents/ui/gallery/DialogGallery.qml:93
+#: contents/ui/gallery/DialogGallery.qml:94
+#, fuzzy
+#| msgctxt "DialogGallery|"
+#| msgid "Folder name..."
 msgctxt "DialogGallery|"
-msgid "Folder name..."
+msgid "Folder name:"
 msgstr "Nome da pasta..."
 
-#: contents/ui/gallery/DialogGallery.qml:99
+#: contents/ui/gallery/DialogGallery.qml:102
 msgctxt "DialogGallery|"
 msgid "Alarm Snooze Length"
 msgstr "Duração da soneca do alarme"
 
-#: contents/ui/gallery/DialogGallery.qml:108
+#: contents/ui/gallery/DialogGallery.qml:111
 msgctxt "DialogGallery|"
 msgid "1 minute"
 msgstr "1 minuto"
 
-#: contents/ui/gallery/DialogGallery.qml:109
+#: contents/ui/gallery/DialogGallery.qml:112
 msgctxt "DialogGallery|"
 msgid "2 minutes"
 msgstr "2 minutos"
 
-#: contents/ui/gallery/DialogGallery.qml:110
+#: contents/ui/gallery/DialogGallery.qml:113
 msgctxt "DialogGallery|"
 msgid "3 minutes"
 msgstr "3 minutos"
 
-#: contents/ui/gallery/DialogGallery.qml:111
+#: contents/ui/gallery/DialogGallery.qml:114
 msgctxt "DialogGallery|"
 msgid "4 minutes"
 msgstr "4 minutos"
 
-#: contents/ui/gallery/DialogGallery.qml:112
+#: contents/ui/gallery/DialogGallery.qml:115
 msgctxt "DialogGallery|"
 msgid "5 minutes"
 msgstr "5 minutos"
 
-#: contents/ui/gallery/DialogGallery.qml:113
+#: contents/ui/gallery/DialogGallery.qml:116
 msgctxt "DialogGallery|"
 msgid "10 minutes"
 msgstr "10 minutos"
 
-#: contents/ui/gallery/DialogGallery.qml:114
+#: contents/ui/gallery/DialogGallery.qml:117
 msgctxt "DialogGallery|"
 msgid "30 minutes"
 msgstr "30 minutos"
 
-#: contents/ui/gallery/DialogGallery.qml:115
+#: contents/ui/gallery/DialogGallery.qml:118
 msgctxt "DialogGallery|"
 msgid "1 hour"
 msgstr "1 hora"
 
-#: contents/ui/gallery/DialogGallery.qml:137
+#: contents/ui/gallery/DialogGallery.qml:140
 msgctxt "DialogGallery|"
 msgid "Select Number"
 msgstr "Selecionar número"
 
-#: contents/ui/gallery/DialogGallery.qml:157
-#: contents/ui/gallery/DialogGallery.qml:223
+#: contents/ui/gallery/DialogGallery.qml:160
+#: contents/ui/gallery/DialogGallery.qml:226
 msgctxt "DialogGallery|"
 msgid "No Footer Dialog"
 msgstr "Nenhuma rodapé da janela"
 
-#: contents/ui/gallery/DialogGallery.qml:158
+#: contents/ui/gallery/DialogGallery.qml:161
 msgctxt "DialogGallery|"
 msgid "This dialog has no footer buttons.<br/>It also has no close button."
 msgstr ""
 "Esta janela não tem botões no rodapé<br/>Também não tem botão de fechar."
 
-#: contents/ui/gallery/DialogGallery.qml:166
+#: contents/ui/gallery/DialogGallery.qml:169
 msgctxt "DialogGallery|"
 msgid "Track Options"
 msgstr "Opções da faixa"
 
-#: contents/ui/gallery/DialogGallery.qml:171
+#: contents/ui/gallery/DialogGallery.qml:174
 msgctxt "DialogGallery|Start playback of the selected track"
 msgid "Play"
 msgstr "Reproduzir"
 
-#: contents/ui/gallery/DialogGallery.qml:172
+#: contents/ui/gallery/DialogGallery.qml:175
 msgctxt "DialogGallery|"
 msgid "Start playback of the selected track"
 msgstr "Iniciar a reprodução da faixa selecionada"
 
-#: contents/ui/gallery/DialogGallery.qml:177
+#: contents/ui/gallery/DialogGallery.qml:180
 msgctxt "DialogGallery|Show the file for this song in the file manager"
 msgid "Show in folder"
 msgstr "Mostrar na pasta"
 
-#: contents/ui/gallery/DialogGallery.qml:178
+#: contents/ui/gallery/DialogGallery.qml:181
 msgctxt "DialogGallery|"
 msgid "Show the file for this song in the file manager"
 msgstr "Mostrar o arquivo para esta música no gerenciador de arquivos"
 
-#: contents/ui/gallery/DialogGallery.qml:182
+#: contents/ui/gallery/DialogGallery.qml:185
 msgctxt "DialogGallery|Show track metadata"
 msgid "View details"
 msgstr "Mostrar detalhes"
 
-#: contents/ui/gallery/DialogGallery.qml:183
+#: contents/ui/gallery/DialogGallery.qml:186
 msgctxt "DialogGallery|"
 msgid "Show track metadata"
 msgstr "Mostrar metadados da faixa"
 
-#: contents/ui/gallery/DialogGallery.qml:187
+#: contents/ui/gallery/DialogGallery.qml:190
 msgctxt ""
 "DialogGallery|Add the track to the queue, right after the current track"
 msgid "Play next"
 msgstr "Reproduzir próxima"
 
-#: contents/ui/gallery/DialogGallery.qml:188
+#: contents/ui/gallery/DialogGallery.qml:191
 msgctxt "DialogGallery|"
 msgid "Add the track to the queue, right after the current track"
 msgstr "Adicionar a faixa à fila, logo após a faixa atual"
 
-#: contents/ui/gallery/DialogGallery.qml:192
+#: contents/ui/gallery/DialogGallery.qml:195
 msgctxt "DialogGallery|Enqueue current track"
 msgid "Add to queue"
 msgstr "Adicionar à fila"
 
-#: contents/ui/gallery/DialogGallery.qml:193
+#: contents/ui/gallery/DialogGallery.qml:196
 msgctxt "DialogGallery|"
 msgid "Enqueue current track"
 msgstr "Enfileirar a faixa atual"
 
-#: contents/ui/gallery/DialogGallery.qml:203
+#: contents/ui/gallery/DialogGallery.qml:206
 msgctxt "DialogGallery|"
 msgid "Prompt Dialog"
 msgstr "Caixa de diálogo de prompt"
 
-#: contents/ui/gallery/DialogGallery.qml:208
+#: contents/ui/gallery/DialogGallery.qml:211
 msgctxt "DialogGallery|"
 msgid "Text Prompt Dialog"
 msgstr "Caixa de Diálogo para prompt de texto"
 
-#: contents/ui/gallery/DialogGallery.qml:213
+#: contents/ui/gallery/DialogGallery.qml:216
 msgctxt "DialogGallery|"
 msgid "Selection Dialog"
 msgstr "Janela de seleção"
 
-#: contents/ui/gallery/DialogGallery.qml:218
+#: contents/ui/gallery/DialogGallery.qml:221
 msgctxt "DialogGallery|"
 msgid "Scrollable Dialog"
 msgstr "Janela rolável"
 
-#: contents/ui/gallery/DialogGallery.qml:228
+#: contents/ui/gallery/DialogGallery.qml:231
 msgctxt "DialogGallery|"
 msgid "Menu Dialog"
 msgstr "Janela de menu"

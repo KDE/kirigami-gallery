@@ -260,169 +260,172 @@ msgctxt "InfoSheet|"
 msgid "API..."
 msgstr "API..."
 
-#: contents/ui/gallery/DialogGallery.qml:32
+#: contents/ui/gallery/DialogGallery.qml:33
 msgctxt "DialogGallery|"
 msgid "Dialogs"
 msgstr "대화 상자"
 
-#: contents/ui/gallery/DialogGallery.qml:37
+#: contents/ui/gallery/DialogGallery.qml:38
 msgctxt "DialogGallery|"
 msgid "Info"
 msgstr "정보"
 
-#: contents/ui/gallery/DialogGallery.qml:76
+#: contents/ui/gallery/DialogGallery.qml:77
 msgctxt "DialogGallery|"
 msgid "Create Folder"
 msgstr "폴더 만들기"
 
-#: contents/ui/gallery/DialogGallery.qml:84
+#: contents/ui/gallery/DialogGallery.qml:85
 msgctxt "DialogGallery|"
 msgid "Cancel"
 msgstr "취소"
 
-#: contents/ui/gallery/DialogGallery.qml:93
+#: contents/ui/gallery/DialogGallery.qml:94
+#, fuzzy
+#| msgctxt "DialogGallery|"
+#| msgid "Folder name..."
 msgctxt "DialogGallery|"
-msgid "Folder name..."
+msgid "Folder name:"
 msgstr "폴더 이름:"
 
-#: contents/ui/gallery/DialogGallery.qml:99
+#: contents/ui/gallery/DialogGallery.qml:102
 msgctxt "DialogGallery|"
 msgid "Alarm Snooze Length"
 msgstr "알람 지연 길이"
 
-#: contents/ui/gallery/DialogGallery.qml:108
+#: contents/ui/gallery/DialogGallery.qml:111
 msgctxt "DialogGallery|"
 msgid "1 minute"
 msgstr "1분"
 
-#: contents/ui/gallery/DialogGallery.qml:109
+#: contents/ui/gallery/DialogGallery.qml:112
 msgctxt "DialogGallery|"
 msgid "2 minutes"
 msgstr "2분"
 
-#: contents/ui/gallery/DialogGallery.qml:110
+#: contents/ui/gallery/DialogGallery.qml:113
 msgctxt "DialogGallery|"
 msgid "3 minutes"
 msgstr "3분"
 
-#: contents/ui/gallery/DialogGallery.qml:111
+#: contents/ui/gallery/DialogGallery.qml:114
 msgctxt "DialogGallery|"
 msgid "4 minutes"
 msgstr "4분"
 
-#: contents/ui/gallery/DialogGallery.qml:112
+#: contents/ui/gallery/DialogGallery.qml:115
 msgctxt "DialogGallery|"
 msgid "5 minutes"
 msgstr "5분"
 
-#: contents/ui/gallery/DialogGallery.qml:113
+#: contents/ui/gallery/DialogGallery.qml:116
 msgctxt "DialogGallery|"
 msgid "10 minutes"
 msgstr "10분"
 
-#: contents/ui/gallery/DialogGallery.qml:114
+#: contents/ui/gallery/DialogGallery.qml:117
 msgctxt "DialogGallery|"
 msgid "30 minutes"
 msgstr "30분"
 
-#: contents/ui/gallery/DialogGallery.qml:115
+#: contents/ui/gallery/DialogGallery.qml:118
 msgctxt "DialogGallery|"
 msgid "1 hour"
 msgstr "1시간"
 
-#: contents/ui/gallery/DialogGallery.qml:137
+#: contents/ui/gallery/DialogGallery.qml:140
 msgctxt "DialogGallery|"
 msgid "Select Number"
 msgstr "숫자 선택"
 
-#: contents/ui/gallery/DialogGallery.qml:157
-#: contents/ui/gallery/DialogGallery.qml:223
+#: contents/ui/gallery/DialogGallery.qml:160
+#: contents/ui/gallery/DialogGallery.qml:226
 msgctxt "DialogGallery|"
 msgid "No Footer Dialog"
 msgstr "꼬리말 대화 상자 없음"
 
-#: contents/ui/gallery/DialogGallery.qml:158
+#: contents/ui/gallery/DialogGallery.qml:161
 msgctxt "DialogGallery|"
 msgid "This dialog has no footer buttons.<br/>It also has no close button."
 msgstr "이 대화 상자에는 꼬리말 단추가 없습니다.<br/>닫기 단추도 없습니다."
 
-#: contents/ui/gallery/DialogGallery.qml:166
+#: contents/ui/gallery/DialogGallery.qml:169
 msgctxt "DialogGallery|"
 msgid "Track Options"
 msgstr "트랙 옵션"
 
-#: contents/ui/gallery/DialogGallery.qml:171
+#: contents/ui/gallery/DialogGallery.qml:174
 msgctxt "DialogGallery|Start playback of the selected track"
 msgid "Play"
 msgstr "재생"
 
-#: contents/ui/gallery/DialogGallery.qml:172
+#: contents/ui/gallery/DialogGallery.qml:175
 msgctxt "DialogGallery|"
 msgid "Start playback of the selected track"
 msgstr "선택한 트랙 재생 시작"
 
-#: contents/ui/gallery/DialogGallery.qml:177
+#: contents/ui/gallery/DialogGallery.qml:180
 msgctxt "DialogGallery|Show the file for this song in the file manager"
 msgid "Show in folder"
 msgstr "포함하는 폴더 열기"
 
-#: contents/ui/gallery/DialogGallery.qml:178
+#: contents/ui/gallery/DialogGallery.qml:181
 msgctxt "DialogGallery|"
 msgid "Show the file for this song in the file manager"
 msgstr "이 노래에 해당하는 파일을 파일 관리자에 표시"
 
-#: contents/ui/gallery/DialogGallery.qml:182
+#: contents/ui/gallery/DialogGallery.qml:185
 msgctxt "DialogGallery|Show track metadata"
 msgid "View details"
 msgstr "자세한 정보 표시"
 
-#: contents/ui/gallery/DialogGallery.qml:183
+#: contents/ui/gallery/DialogGallery.qml:186
 msgctxt "DialogGallery|"
 msgid "Show track metadata"
 msgstr "트랙 메타데이터 표시"
 
-#: contents/ui/gallery/DialogGallery.qml:187
+#: contents/ui/gallery/DialogGallery.qml:190
 msgctxt ""
 "DialogGallery|Add the track to the queue, right after the current track"
 msgid "Play next"
 msgstr "다음 재생"
 
-#: contents/ui/gallery/DialogGallery.qml:188
+#: contents/ui/gallery/DialogGallery.qml:191
 msgctxt "DialogGallery|"
 msgid "Add the track to the queue, right after the current track"
 msgstr "선택한 트랙을 현재 트랙 다음에 대기열에 추가"
 
-#: contents/ui/gallery/DialogGallery.qml:192
+#: contents/ui/gallery/DialogGallery.qml:195
 msgctxt "DialogGallery|Enqueue current track"
 msgid "Add to queue"
 msgstr "대기열에 추가"
 
-#: contents/ui/gallery/DialogGallery.qml:193
+#: contents/ui/gallery/DialogGallery.qml:196
 msgctxt "DialogGallery|"
 msgid "Enqueue current track"
 msgstr "현재 트랙을 대기열에 추가"
 
-#: contents/ui/gallery/DialogGallery.qml:203
+#: contents/ui/gallery/DialogGallery.qml:206
 msgctxt "DialogGallery|"
 msgid "Prompt Dialog"
 msgstr "프롬프트 대화 상자"
 
-#: contents/ui/gallery/DialogGallery.qml:208
+#: contents/ui/gallery/DialogGallery.qml:211
 msgctxt "DialogGallery|"
 msgid "Text Prompt Dialog"
 msgstr "텍스트 프롬프트 대화 상자"
 
-#: contents/ui/gallery/DialogGallery.qml:213
+#: contents/ui/gallery/DialogGallery.qml:216
 msgctxt "DialogGallery|"
 msgid "Selection Dialog"
 msgstr "선택 대화 상자"
 
-#: contents/ui/gallery/DialogGallery.qml:218
+#: contents/ui/gallery/DialogGallery.qml:221
 msgctxt "DialogGallery|"
 msgid "Scrollable Dialog"
 msgstr "스크롤할 수 있는 대화 상자"
 
-#: contents/ui/gallery/DialogGallery.qml:228
+#: contents/ui/gallery/DialogGallery.qml:231
 msgctxt "DialogGallery|"
 msgid "Menu Dialog"
 msgstr "메뉴 대화 상자"
