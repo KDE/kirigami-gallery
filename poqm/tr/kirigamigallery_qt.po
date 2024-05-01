@@ -1,8 +1,8 @@
-# Emir SARI <emir_sari@icloud.com>, 2022.
+# SPDX-FileCopyrightText: 2022, 2024 Emir SARI <emir_sari@icloud.com>
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"PO-Revision-Date: 2022-11-10 21:16+0300\n"
+"PO-Revision-Date: 2024-04-30 06:00+0300\n"
 "Last-Translator: Emir SARI <emir_sari@icloud.com>\n"
 "Language-Team: Turkish <kde-l10n-tr@kde.org>\n"
 "Language: tr\n"
@@ -11,7 +11,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Qt-Contexts: true\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Lokalize 22.08.3\n"
+"X-Generator: Lokalize 24.07.70\n"
 
 #: contents/ui/gallery/ActionToolBarGallery.qml:35
 msgctxt "ActionToolBarGallery|"
@@ -44,8 +44,8 @@ msgstr ""
 "Bir AbstractCard, bir kartın olabilecek en yalın biçimidir. Yalnızca gölgeli "
 "bir dörtgendir ve içinde herhangi bir öge barındırabilir. Aynı zamanda "
 "Header ve Footer özelliklerine atanmış ögeler de alabilir. Bu durumda bir "
-"Kirigami.Heading onun üstbilgisidir ve WordWrap'li bir Label da onun "
-"contentItem'ıdır."
+"Kirigami.Heading onun üstbilgisidir ve WordWrap’li bir Label da onun "
+"contentItem’ıdır."
 
 #: contents/ui/gallery/CardsLayoutGallery.qml:67
 msgctxt "CardsLayoutGallery|"
@@ -57,7 +57,7 @@ msgid ""
 "show any kind of visual feedback. It is recommended to set it to true if you "
 "plan to make the card reactive on any kind of click."
 msgstr ""
-"Bu, içinde WordWrap'lı bir Label bulunduran bir AbstractCard'dır; "
+"Bu, içinde WordWrap’lı bir Label bulunduran bir AbstractCard’dır; "
 "bulunabilecek en yalın kart biçimidir.\n"
 "Bir AbstractCard tıklanabilirdir (onClicked sinyal işleyicisi ve tıklamanın "
 "görsel bir geri bildirimde bulunması gerekiyorsa showClickFeedback özelliği "
@@ -100,7 +100,7 @@ msgid ""
 msgstr ""
 "Bu, Kart türünün bir örneğidir: İsteğe bağlı olarak bir görsel, başlık ve "
 "pankart grup özelliğine ilişik bir simge alabilir (hepsi birlikte veya teker "
-"teker). Bir Kart'ın aynı zamanda altbilgide görünecek Eylemler'i de olabilir."
+"teker). Bir Card’ın aynı zamanda altbilgide görünecek Actions’u da olabilir."
 
 #: contents/ui/gallery/CardsLayoutGallery.qml:105
 msgctxt "CardsLayoutGallery|"
@@ -166,13 +166,12 @@ msgid ""
 "used, the title and icon in the banner property shouldn't be used. If a "
 "custom footer is used (which is discouraged), actions shouldn't be used."
 msgstr ""
-"Kartlar'ın görünüm ve hisini özelleştirmek de olanaklıdır; eğer üstbilgi "
-"için bir boşluklandırma davranışına gerek yoksa. Bu, genelde daha tutarlı "
-"olması açısından önerilmez; ancak bazı durumlarda tasarımın daha afili "
-"olması gerekiyorsa (bu Kart örneğinde olduğu gibi) olabilir. Özel bir "
-"üstbilgi kullanılmışsa pankart özelliğindeki başlık ve simge "
-"kullanılmamalıdır. Özel bir altbilgi kullanılmışsa (önerilmez) eylemler "
-"kullanılmamalıdır."
+"Cards’ın görünüm ve hissini özelleştirmek de olanaklıdır; eğer üstbilgi için "
+"bir boşluklandırma davranışına gerek yoksa. Bu, genelde daha tutarlı olması "
+"açısından önerilmez; ancak bazı durumlarda tasarımın daha afili olması "
+"gerekiyorsa (bu Card örneğinde olduğu gibi) olabilir. Özel bir üstbilgi "
+"kullanılmışsa pankart özelliğindeki başlık ve simge kullanılmamalıdır. Özel "
+"bir altbilgi kullanılmışsa (önerilmez) eylemler kullanılmamalıdır."
 
 #: contents/ui/gallery/CardsLayoutGallery.qml:197
 msgctxt "CardsLayoutGallery|"
@@ -193,9 +192,9 @@ msgid ""
 "If you need to put it in a CardsLayout, it will have by default a columnSpan "
 "of 2 (which can be overridden)."
 msgstr ""
-"Bir kart, isteğe bağlı olarak yatay yönelenebilir.\n"
+"Bir kart, isteğe bağlı olarak yatay yönelebilir.\n"
 "Bu durumda, uzundan çok daha geniş olacaktır, bundan dolayı bir "
-"ColumnLayout'ta \"is fit\" kullanılmalıdır.\n"
+"ColumnLayout’ta “is fit” kullanılmalıdır.\n"
 "Eğer bir CardsLayout içine koymanız gerekiyorsa columnSpan öntanımlı olarak "
 "2 olacaktır (geçersiz kılınabilir)."
 
@@ -256,17 +255,17 @@ msgstr "Denetlenebilir Fişler"
 #: contents/ui/gallery/components/InfoSheet.qml:47
 msgctxt "InfoSheet|"
 msgid "HIG..."
-msgstr "İnsan Arayüzü Yönergeleri..."
+msgstr "İnsan Arayüzü Yönergeleri…"
 
 #: contents/ui/gallery/components/InfoSheet.qml:52
 msgctxt "InfoSheet|"
 msgid "Source code..."
-msgstr "Kaynak kodu..."
+msgstr "Kaynak Kodu…"
 
 #: contents/ui/gallery/components/InfoSheet.qml:57
 msgctxt "InfoSheet|"
 msgid "API..."
-msgstr "API..."
+msgstr "API…"
 
 #: contents/ui/gallery/DialogGallery.qml:33
 msgctxt "DialogGallery|"
@@ -289,12 +288,9 @@ msgid "Cancel"
 msgstr "İptal"
 
 #: contents/ui/gallery/DialogGallery.qml:94
-#, fuzzy
-#| msgctxt "DialogGallery|"
-#| msgid "Folder name..."
 msgctxt "DialogGallery|"
 msgid "Folder name:"
-msgstr "Klasör adı..."
+msgstr "Klasör adı:"
 
 #: contents/ui/gallery/DialogGallery.qml:102
 msgctxt "DialogGallery|"
@@ -555,7 +551,7 @@ msgstr "Genişleyen Düğme"
 #: contents/ui/gallery/FormLayoutGallery.qml:127
 msgctxt "FormLayoutGallery|"
 msgid "Twin Layout:"
-msgstr "İkiz Yerleşim:"
+msgstr "İkiz yerleşim:"
 
 #: contents/ui/gallery/InlineMessagesGallery.qml:31
 msgctxt "InlineMessagesGallery|"
@@ -804,7 +800,7 @@ msgstr "İmlenebilir Liste Ögeleri"
 #, qt-format
 msgctxt "SelectionControlsGallery|"
 msgid "Delegate %1"
-msgstr "Vekil Yap: %1"
+msgstr "Vekil yap: %1"
 
 #: contents/ui/gallery/SelectionControlsGallery.qml:87
 #: contents/ui/gallery/SelectionControlsGallery.qml:110

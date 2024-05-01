@@ -11,7 +11,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Qt-Contexts: true\n"
-"X-Generator: Poedit 3.2.2\n"
+"X-Generator: Poedit 3.3.2\n"
 
 #: contents/ui/gallery/ActionToolBarGallery.qml:35
 msgctxt "ActionToolBarGallery|"
@@ -291,12 +291,9 @@ msgid "Cancel"
 msgstr "გაუქმება"
 
 #: contents/ui/gallery/DialogGallery.qml:94
-#, fuzzy
-#| msgctxt "DialogGallery|"
-#| msgid "Folder name..."
 msgctxt "DialogGallery|"
 msgid "Folder name:"
-msgstr "საქაღალდის სახელი..."
+msgstr "საქაღალდის სახელი:"
 
 #: contents/ui/gallery/DialogGallery.qml:102
 msgctxt "DialogGallery|"

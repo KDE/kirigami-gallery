@@ -1,15 +1,15 @@
 # Translation of kirigamigallery_qt.po to Catalan (Valencian)
-# Copyright (C) 2018-2023 This_file_is_part_of_KDE
+# Copyright (C) 2018-2024 This_file_is_part_of_KDE
 # This file is distributed under the license LGPL version 2.1 or
 # version 3 or later versions approved by the membership of KDE e.V.
 #
 # Antoni Bella Pérez <antonibella5@yahoo.com>, 2018, 2020, 2021.
-# Josep M. Ferrer <txemaq@gmail.com>, 2019, 2020, 2021, 2022, 2023.
+# Josep M. Ferrer <txemaq@gmail.com>, 2019, 2020, 2021, 2022, 2023, 2024.
 msgid ""
 msgstr ""
 "Project-Id-Version: kirigami-gallery\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"PO-Revision-Date: 2023-03-22 12:43+0100\n"
+"PO-Revision-Date: 2024-04-30 12:17+0200\n"
 "Last-Translator: Josep M. Ferrer <txemaq@gmail.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
 "Language: ca@valencia\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Qt-Contexts: true\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 20.12.0\n"
+"X-Generator: Lokalize 22.12.3\n"
 
 #: contents/ui/gallery/ActionToolBarGallery.qml:35
 msgctxt "ActionToolBarGallery|"
@@ -299,12 +299,9 @@ msgid "Cancel"
 msgstr "Cancel·la"
 
 #: contents/ui/gallery/DialogGallery.qml:94
-#, fuzzy
-#| msgctxt "DialogGallery|"
-#| msgid "Folder name..."
 msgctxt "DialogGallery|"
 msgid "Folder name:"
-msgstr "Nom de la carpeta..."
+msgstr "Nom de la carpeta:"
 
 #: contents/ui/gallery/DialogGallery.qml:102
 msgctxt "DialogGallery|"
@@ -875,11 +872,3 @@ msgstr "Vista de llista amb interruptors"
 msgctxt "MainPage|"
 msgid "Kirigami Gallery"
 msgstr "Galeria de Kirigami"
-
-#~ msgctxt "CardsGridViewGallery|"
-#~ msgid "Grid view of Cards"
-#~ msgstr "Vista de quadrícula de les targetes"
-
-#~ msgctxt "CardsGridViewGallery|"
-#~ msgid "Info"
-#~ msgstr "Informació"
