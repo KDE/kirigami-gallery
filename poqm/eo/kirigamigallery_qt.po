@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: kirigami-gallery\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2023-11-05 13:43+0100\n"
-"PO-Revision-Date: 2024-04-23 19:26+0100\n"
+"PO-Revision-Date: 2024-05-01 17:30+0100\n"
 "Last-Translator: Oliver Kellogg <okellogg@users.sourceforge.net>\n"
 "Language-Team: Esperanto <kde-i18n-eo.org>\n"
 "Language: eo\n"
@@ -294,17 +294,14 @@ msgid "Cancel"
 msgstr "Nuligi"
 
 #: contents/ui/gallery/DialogGallery.qml:94
-#, fuzzy
-#| msgctxt "DialogGallery|"
-#| msgid "Folder name..."
 msgctxt "DialogGallery|"
 msgid "Folder name:"
-msgstr "Nomo de dosierujo..."
+msgstr "Nomo de dosierujo:"
 
 #: contents/ui/gallery/DialogGallery.qml:102
 msgctxt "DialogGallery|"
 msgid "Alarm Snooze Length"
-msgstr "Alarm-Snooze Longo"
+msgstr "Alarm-Snooze Daŭro"
 
 #: contents/ui/gallery/DialogGallery.qml:111
 msgctxt "DialogGallery|"
@@ -863,11 +860,3 @@ msgstr "Ŝanĝi Listo Vidon"
 msgctxt "MainPage|"
 msgid "Kirigami Gallery"
 msgstr "Kirigami-Galerio"
-
-#~ msgctxt "CardsGridViewGallery|"
-#~ msgid "Grid view of Cards"
-#~ msgstr "Kradvido de Kartoj"
-
-#~ msgctxt "CardsGridViewGallery|"
-#~ msgid "Info"
-#~ msgstr "Informo"
