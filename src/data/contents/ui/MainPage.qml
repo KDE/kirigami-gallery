@@ -225,6 +225,7 @@ Kirigami.ScrollablePage {
             focus: true
             model: root.pageStack.wideMode ? filteredModel : 0
             delegate: QQC2.ItemDelegate {
+                Layout.fillWidth: true
                 text: title
                 action: Kirigami.PagePoolAction {
                     id: action
