@@ -21,7 +21,7 @@ import QtQuick
 import QtQuick.Controls as QQC2
 import QtQuick.Layouts
 import org.kde.kirigami as Kirigami
-import org.kde.kitemmodels as KTM
+import org.kde.kitemmodels as KItemModels
 
 Kirigami.ScrollablePage {
     id: pageRoot
@@ -205,7 +205,7 @@ Kirigami.ScrollablePage {
             }
         }
     }
-    KTM.KSortFilterProxyModel {
+    KItemModels.KSortFilterProxyModel {
         id: filteredModel
         sourceModel: galleryModel
         filterRoleName: "title"
