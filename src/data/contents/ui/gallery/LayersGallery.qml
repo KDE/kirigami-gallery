@@ -29,35 +29,37 @@ Kirigami.ScrollablePage {
 
     title: "Layers"
 
-    actions {
-        main: Kirigami.Action {
+    actions: [
+        Kirigami.Action {
             icon.name: "document-edit"
             text: "Main Action Text"
-            onTriggered: {
+            onTriggered: source => {
                 showPassiveNotification("Action button in buttons page clicked");
             }
-        }
-        left: Kirigami.Action {
+        },
+        Kirigami.Action {
             icon.name: "go-previous"
             text: "Left Action Text"
-            onTriggered: {
-                showPassiveNotification("Left action triggered")
+            onTriggered: source => {
+                showPassiveNotification("Left action triggered");
+            }
+        },
+        Kirigami.Action {
+            text: "Action 1"
+            icon.name: "go-next"
+            onTriggered: source => {
+                showPassiveNotification("Action 1 clicked");
+            }
+        },
+        Kirigami.Action {
+            text: "Action 2"
+            icon.name: "folder"
+            enabled: false
+            onTriggered: source => {
+                showPassiveNotification("Action 2 clicked");
             }
         }
-        contextualActions: [
-            Kirigami.Action {
-                text:"Action 1"
-                icon.name: "go-next"
-                onTriggered: showPassiveNotification("Action 1 clicked")
-            },
-            Kirigami.Action {
-                text:"Action 2"
-                icon.name: "folder"
-                enabled: false
-                onTriggered: showPassiveNotification("Action 2 clicked")
-            }
-        ]
-    }
+    ]
 
     ColumnLayout {
         width: page.width
@@ -82,7 +84,9 @@ Kirigami.ScrollablePage {
         QQC2.Button {
             text: "Toggle header"
             Layout.alignment: Qt.AlignHCenter
-            onClicked: page.globalToolBarStyle = ApplicationHeaderStyle.None
+            onClicked: {
+                page.globalToolBarStyle = Kirigami.ApplicationHeaderStyle.None;
+            }
         }
     }
 }
