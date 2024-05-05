@@ -51,7 +51,7 @@ Kirigami.ApplicationWindow {
 
         actions: [
             Kirigami.Action {
-                text: "Top Bar Style..."
+                text: "Top Bar Style…"
                 icon.name: "view-list-icons"
                 Kirigami.Action {
                         text: "Auto"
@@ -86,7 +86,7 @@ Kirigami.ApplicationWindow {
                 }
             },
             Kirigami.Action {
-                text: "Top Bar Sizing..."
+                text: "Top Bar Sizing…"
                 icon.name: "folder-sync"
                 visible: Kirigami.Settings.isMobile
                 Kirigami.Action {
@@ -115,7 +115,7 @@ Kirigami.ApplicationWindow {
                 }
             },
             Kirigami.Action {
-                text: "Global Drawer Mode..."
+                text: "Global Drawer Mode…"
                 icon.name: "go-next"
                 visible: !Kirigami.Settings.isMobile
                 expandible: true
@@ -149,7 +149,7 @@ Kirigami.ApplicationWindow {
                 }
             },
             Kirigami.Action {
-                text: "Title style..."
+                text: "Title style…"
                 icon.name: "format-border-set-top"
                 Kirigami.Action {
                     text: "Title And Image"
