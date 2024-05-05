@@ -58,7 +58,7 @@ Q_DECL_EXPORT int main(int argc, char *argv[])
     //Extra debug if needed
     //qputenv("QML_IMPORT_TRACE", "1");
     QQmlApplicationEngine engine;
-    
+
     qmlRegisterType<InfoData>("Data", 1, 0, "InfoData");
 
     //we want different main files on desktop or mobile
@@ -75,7 +75,7 @@ Q_DECL_EXPORT int main(int argc, char *argv[])
         return -1;
     }
 
-    //HACK to color the system bar on Android, use qtandroidextras and call the appropriate Java methods 
+    //HACK to color the system bar on Android, use qtandroidextras and call the appropriate Java methods
 #ifdef Q_OS_ANDROID
     //QtAndroid::runOnAndroidThread([=]() {
     //    QAndroidJniObject window = QtAndroid::androidActivity().callObjectMethod("getWindow", "()Landroid/view/Window;");
