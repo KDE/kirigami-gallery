@@ -40,27 +40,34 @@ Kirigami.ScrollablePage {
             text: qsTr("Home")
             icon.name: "go-home"
             displayHint: Kirigami.DisplayHint.IconOnly
-            enabled: root.pageStack.lastVisibleItem != pageRoot
-            onTriggered: root.pageStack.pop(-1)
+            enabled: root.pageStack.lastVisibleItem !== pageRoot
+            onTriggered: source => {
+                root.pageStack.pop(pageRoot);
+            }
         },
         Kirigami.Action {
-            text:"Action 1"
+            text: "Action 1"
             icon.name: "document-decrypt"
-            onTriggered: showPassiveNotification("Action 1 clicked")
+            onTriggered: source => {
+                showPassiveNotification("Action 1 clicked")
+            }
         },
         Kirigami.Action {
-            id: shareAction
             visible: checkableAction.checked
-            text:"Action 2"
+            text: "Action 2"
             icon.name: "document-share"
-            onTriggered: showPassiveNotification("Action 2 clicked")
+            onTriggered: source => {
+                showPassiveNotification("Action 2 clicked")
+            }
         },
         Kirigami.Action {
             id: checkableAction
-            text:"Checkable"
+            text: "Checkable"
             checkable: true
             icon.name: "dashboard-show"
-            onCheckedChanged: showPassiveNotification("Checked: " + checked)
+            onToggled: source => {
+                showPassiveNotification(checked ? "Checked" : "Unchecked");
+            }
         }
     ]
 
