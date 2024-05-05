@@ -30,7 +30,7 @@ include(ECMAddAndroidApk)
 
 find_package(Qt${QT_MAJOR_VERSION} ${REQUIRED_QT_VERSION} REQUIRED NO_MODULE COMPONENTS Core Quick Gui Svg QuickControls2)
 
-find_package(KF6 ${KF5_DEP_VERSION} REQUIRED COMPONENTS Kirigami2 ItemModels)
+find_package(KF6 ${KF_DEP_VERSION} REQUIRED COMPONENTS Kirigami2 ItemModels)
 
 if(NOT ANDROID)
     find_package(Qt${QT_MAJOR_VERSION}Widgets ${REQUIRED_QT_VERSION} REQUIRED)
