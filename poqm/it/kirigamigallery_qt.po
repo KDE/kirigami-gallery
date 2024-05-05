@@ -1,8 +1,8 @@
-# Valter Mura <valtermura@gmail.com>, 2019, 2020, 2021, 2022.
+# SPDX-FileCopyrightText: 2019, 2020, 2021, 2022, 2024 Valter Mura <valtermura@gmail.com>
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"PO-Revision-Date: 2022-09-13 20:09+0200\n"
+"PO-Revision-Date: 2024-05-01 16:21+0200\n"
 "Last-Translator: Valter Mura <valtermura@gmail.com>\n"
 "Language-Team: Italian <kde-i18n-it@kde.org>\n"
 "Language: it\n"
@@ -10,7 +10,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Lokalize 22.04.0\n"
+"X-Generator: Lokalize 23.08.5\n"
 "X-Qt-Contexts: true\n"
 
 #: contents/ui/gallery/ActionToolBarGallery.qml:35
@@ -292,12 +292,9 @@ msgid "Cancel"
 msgstr "Annulla"
 
 #: contents/ui/gallery/DialogGallery.qml:94
-#, fuzzy
-#| msgctxt "DialogGallery|"
-#| msgid "Folder name..."
 msgctxt "DialogGallery|"
 msgid "Folder name:"
-msgstr "Nome cartella..."
+msgstr "Nome della cartella:"
 
 #: contents/ui/gallery/DialogGallery.qml:102
 msgctxt "DialogGallery|"
