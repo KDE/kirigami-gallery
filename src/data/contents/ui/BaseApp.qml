@@ -56,33 +56,33 @@ Kirigami.ApplicationWindow {
                 Kirigami.Action {
                     text: "Auto"
                     onTriggered: root.pageStack.globalToolBar.style = Kirigami.ApplicationHeaderStyle.Auto
-                    checked: root.pageStack.globalToolBar.style == Kirigami.ApplicationHeaderStyle.Auto
+                    checked: root.pageStack.globalToolBar.style === Kirigami.ApplicationHeaderStyle.Auto
                 }
                 Kirigami.Action {
                     text: "Breadcrumb"
                     onTriggered: root.pageStack.globalToolBar.style = Kirigami.ApplicationHeaderStyle.Breadcrumb
-                    checked: root.pageStack.globalToolBar.style == Kirigami.ApplicationHeaderStyle.Breadcrumb
+                    checked: root.pageStack.globalToolBar.style === Kirigami.ApplicationHeaderStyle.Breadcrumb
                 }
                 Kirigami.Action {
                     text: "TabBar"
                     onTriggered: root.pageStack.globalToolBar.style = Kirigami.ApplicationHeaderStyle.TabBar
-                    checked: root.pageStack.globalToolBar.style == Kirigami.ApplicationHeaderStyle.TabBar
+                    checked: root.pageStack.globalToolBar.style === Kirigami.ApplicationHeaderStyle.TabBar
                 }
                 Kirigami.Action {
                     text: "Titles"
                     onTriggered: root.pageStack.globalToolBar.style = Kirigami.ApplicationHeaderStyle.Titles
-                    checked: root.pageStack.globalToolBar.style == Kirigami.ApplicationHeaderStyle.Titles
+                    checked: root.pageStack.globalToolBar.style === Kirigami.ApplicationHeaderStyle.Titles
                 }
                 Kirigami.Action {
                     text: "ToolBar"
                     visible: !Kirigami.Settings.isMobile
                     onTriggered: root.pageStack.globalToolBar.style = Kirigami.ApplicationHeaderStyle.ToolBar
-                    checked: root.pageStack.globalToolBar.style == Kirigami.ApplicationHeaderStyle.ToolBar
+                    checked: root.pageStack.globalToolBar.style === Kirigami.ApplicationHeaderStyle.ToolBar
                 }
                 Kirigami.Action {
                     text: "None"
                     onTriggered: root.pageStack.globalToolBar.style = Kirigami.ApplicationHeaderStyle.None
-                    checked: root.pageStack.globalToolBar.style == Kirigami.ApplicationHeaderStyle.None
+                    checked: root.pageStack.globalToolBar.style === Kirigami.ApplicationHeaderStyle.None
                 }
             },
             Kirigami.Action {
@@ -95,7 +95,7 @@ Kirigami.ApplicationWindow {
                         root.pageStack.globalToolBar.minimumHeight = 0;
                         root.pageStack.globalToolBar.preferredHeight = 42;
                     }
-                    checked: root.pageStack.globalToolBar.minimumHeight == 0
+                    checked: root.pageStack.globalToolBar.minimumHeight === 0
                 }
                 Kirigami.Action {
                     text: "Fixed"
@@ -103,7 +103,7 @@ Kirigami.ApplicationWindow {
                         root.pageStack.globalToolBar.minimumHeight = 42;
                         root.pageStack.globalToolBar.preferredHeight = 42;
                     }
-                    checked: root.pageStack.globalToolBar.minimumHeight == 42
+                    checked: root.pageStack.globalToolBar.minimumHeight === 42
                 }
                 Kirigami.Action {
                     text: "Resizing"
@@ -111,7 +111,7 @@ Kirigami.ApplicationWindow {
                         root.pageStack.globalToolBar.minimumHeight = 20;
                         root.pageStack.globalToolBar.preferredHeight = 52;
                     }
-                    checked: root.pageStack.globalToolBar.minimumHeight == 20
+                    checked: root.pageStack.globalToolBar.minimumHeight === 20
                 }
             },
             Kirigami.Action {
@@ -171,7 +171,7 @@ Kirigami.ApplicationWindow {
                 }
                 Kirigami.Action {
                     text: "None"
-                    checked: root.globalDrawer.title.length == 0
+                    checked: root.globalDrawer.title.length === 0
                     enabled: globalDrawer.bannerVisible
                     onTriggered: {
                         root.globalDrawer.title = ""
@@ -182,7 +182,7 @@ Kirigami.ApplicationWindow {
             Kirigami.Action {
                 text: "Open A Page"
                 //Need to do this, otherwise it breaks the bindings
-                property bool current: pageStack.currentItem ? pageStack.currentItem.objectName == "settingsPage" : false
+                property bool current: pageStack.currentItem ? pageStack.currentItem.objectName === "settingsPage" : false
                 onCurrentChanged: {
                     checked = current;
                 }
@@ -198,7 +198,7 @@ Kirigami.ApplicationWindow {
                     pageStack.layers.push(Qt.resolvedUrl("gallery/LayersGallery.qml"));
                 }
             }
-            ]
+        ]
 
         QQC2.CheckBox {
             text: "Slow Animations"
