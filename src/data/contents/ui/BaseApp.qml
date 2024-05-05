@@ -54,35 +54,35 @@ Kirigami.ApplicationWindow {
                 text: "Top Bar Style…"
                 icon.name: "view-list-icons"
                 Kirigami.Action {
-                        text: "Auto"
-                        onTriggered: root.pageStack.globalToolBar.style = Kirigami.ApplicationHeaderStyle.Auto
-                        checked: root.pageStack.globalToolBar.style == Kirigami.ApplicationHeaderStyle.Auto
+                    text: "Auto"
+                    onTriggered: root.pageStack.globalToolBar.style = Kirigami.ApplicationHeaderStyle.Auto
+                    checked: root.pageStack.globalToolBar.style == Kirigami.ApplicationHeaderStyle.Auto
                 }
                 Kirigami.Action {
-                        text: "Breadcrumb"
-                        onTriggered: root.pageStack.globalToolBar.style = Kirigami.ApplicationHeaderStyle.Breadcrumb
-                        checked: root.pageStack.globalToolBar.style == Kirigami.ApplicationHeaderStyle.Breadcrumb
+                    text: "Breadcrumb"
+                    onTriggered: root.pageStack.globalToolBar.style = Kirigami.ApplicationHeaderStyle.Breadcrumb
+                    checked: root.pageStack.globalToolBar.style == Kirigami.ApplicationHeaderStyle.Breadcrumb
                 }
                 Kirigami.Action {
-                        text: "TabBar"
-                        onTriggered: root.pageStack.globalToolBar.style = Kirigami.ApplicationHeaderStyle.TabBar
-                        checked: root.pageStack.globalToolBar.style == Kirigami.ApplicationHeaderStyle.TabBar
+                    text: "TabBar"
+                    onTriggered: root.pageStack.globalToolBar.style = Kirigami.ApplicationHeaderStyle.TabBar
+                    checked: root.pageStack.globalToolBar.style == Kirigami.ApplicationHeaderStyle.TabBar
                 }
                 Kirigami.Action {
-                        text: "Titles"
-                        onTriggered: root.pageStack.globalToolBar.style = Kirigami.ApplicationHeaderStyle.Titles
-                        checked: root.pageStack.globalToolBar.style == Kirigami.ApplicationHeaderStyle.Titles
+                    text: "Titles"
+                    onTriggered: root.pageStack.globalToolBar.style = Kirigami.ApplicationHeaderStyle.Titles
+                    checked: root.pageStack.globalToolBar.style == Kirigami.ApplicationHeaderStyle.Titles
                 }
                 Kirigami.Action {
-                        text: "ToolBar"
-                        visible: !Kirigami.Settings.isMobile
-                        onTriggered: root.pageStack.globalToolBar.style = Kirigami.ApplicationHeaderStyle.ToolBar
-                        checked: root.pageStack.globalToolBar.style == Kirigami.ApplicationHeaderStyle.ToolBar
+                    text: "ToolBar"
+                    visible: !Kirigami.Settings.isMobile
+                    onTriggered: root.pageStack.globalToolBar.style = Kirigami.ApplicationHeaderStyle.ToolBar
+                    checked: root.pageStack.globalToolBar.style == Kirigami.ApplicationHeaderStyle.ToolBar
                 }
                 Kirigami.Action {
-                        text: "None"
-                        onTriggered: root.pageStack.globalToolBar.style = Kirigami.ApplicationHeaderStyle.None
-                        checked: root.pageStack.globalToolBar.style == Kirigami.ApplicationHeaderStyle.None
+                    text: "None"
+                    onTriggered: root.pageStack.globalToolBar.style = Kirigami.ApplicationHeaderStyle.None
+                    checked: root.pageStack.globalToolBar.style == Kirigami.ApplicationHeaderStyle.None
                 }
             },
             Kirigami.Action {
@@ -90,28 +90,28 @@ Kirigami.ApplicationWindow {
                 icon.name: "folder-sync"
                 visible: Kirigami.Settings.isMobile
                 Kirigami.Action {
-                        text: "Slide Away"
-                        onTriggered: {
-                            root.pageStack.globalToolBar.minimumHeight = 0;
-                            root.pageStack.globalToolBar.preferredHeight = 42;
-                        }
-                        checked: root.pageStack.globalToolBar.minimumHeight == 0
+                    text: "Slide Away"
+                    onTriggered: {
+                        root.pageStack.globalToolBar.minimumHeight = 0;
+                        root.pageStack.globalToolBar.preferredHeight = 42;
+                    }
+                    checked: root.pageStack.globalToolBar.minimumHeight == 0
                 }
                 Kirigami.Action {
-                        text: "Fixed"
-                        onTriggered: {
-                            root.pageStack.globalToolBar.minimumHeight = 42;
-                            root.pageStack.globalToolBar.preferredHeight = 42;
-                        }
-                        checked: root.pageStack.globalToolBar.minimumHeight == 42
+                    text: "Fixed"
+                    onTriggered: {
+                        root.pageStack.globalToolBar.minimumHeight = 42;
+                        root.pageStack.globalToolBar.preferredHeight = 42;
+                    }
+                    checked: root.pageStack.globalToolBar.minimumHeight == 42
                 }
                 Kirigami.Action {
-                        text: "Resizing"
-                        onTriggered: {
-                            root.pageStack.globalToolBar.minimumHeight = 20;
-                            root.pageStack.globalToolBar.preferredHeight = 52;
-                        }
-                        checked: root.pageStack.globalToolBar.minimumHeight == 20
+                    text: "Resizing"
+                    onTriggered: {
+                        root.pageStack.globalToolBar.minimumHeight = 20;
+                        root.pageStack.globalToolBar.preferredHeight = 52;
+                    }
+                    checked: root.pageStack.globalToolBar.minimumHeight == 20
                 }
             },
             Kirigami.Action {
