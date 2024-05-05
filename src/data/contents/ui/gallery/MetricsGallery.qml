@@ -133,12 +133,6 @@ Kirigami.ScrollablePage {
         }
 
         QQC2.Label {
-            text: "Units.devicePixelRatio:"
-        }
-        QQC2.Label {
-            text: Kirigami.Units.devicePixelRatio.toFixed(2)
-        }
-        QQC2.Label {
             text: "Screen.devicePixelRatio:"
         }
         QQC2.Label {
