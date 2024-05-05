@@ -1,5 +1,6 @@
 /*
  *   Copyright 2021 Devin Lin <espidev@gmail.com>
+ *   Copyright 2024 ivan tkachenko <me@ratijas.tk>
  *
  *   This program is free software; you can redistribute it and/or modify
  *   it under the terms of the GNU Library General Public License as
@@ -32,27 +33,7 @@ Kirigami.ScrollablePage {
 
     title: qsTr("Dialogs")
 
-    actions: [
-        Kirigami.Action {
-            icon.name: "documentinfo"
-            text: qsTr("Info")
-            checkable: true
-            onCheckedChanged: sheet.visible = checked;
-            shortcut: "Alt+I"
-        }
-    ]
-
-    //Close the drawer with the back button
-    onBackRequested: {
-        if (sheet.sheetOpen) {
-            event.accepted = true;
-            sheet.close();
-        }
-    }
-
-    KGC.InfoSheet {
-        id: sheet
-
+    actions: KGC.InfoSheetAction {
         page: page
         component: "DialogGallery"
     }

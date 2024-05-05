@@ -1,3 +1,10 @@
+/*
+ *  SPDX-FileCopyrightText: 2018 Marco Martin <mart@kde.org>
+ *  SPDX-FileCopyrightText: 2024 ivan tkachenko <me@ratijas.tk>
+ *
+ *  SPDX-License-Identifier: LGPL-2.0-or-later
+ */
+
 import QtQuick 2.15
 import QtQuick.Controls 2.15 as QQC2
 import QtQuick.Layouts 1.15
@@ -6,27 +13,10 @@ import "components" as KGC
 
 Kirigami.ScrollablePage {
     id: page
+
     title: "Form Layout"
 
-    actions: Kirigami.Action {
-        icon.name: "documentinfo"
-        text: qsTr("Info")
-        checkable: true
-        onCheckedChanged: sheet.visible = checked;
-        shortcut: "Alt+I"
-    }
-
-    //Close the drawer with the back button
-    onBackRequested: {
-        if (sheet.sheetOpen) {
-            event.accepted = true;
-            sheet.close();
-        }
-    }
-
-    KGC.InfoSheet {
-        id: sheet
-
+    actions: KGC.InfoSheetAction {
         page: page
         component: "FormLayoutGallery"
     }

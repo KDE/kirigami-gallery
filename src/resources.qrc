@@ -3,6 +3,7 @@
         <file alias="contents/ui/MainPage.qml">./data/contents/ui/MainPage.qml</file>
         <file alias="contents/ui/banner.jpg">./data/contents/ui/banner.jpg</file>
         <file alias="contents/ui/gallery/components/InfoSheet.qml">./data/contents/ui/gallery/components/InfoSheet.qml</file>
+        <file alias="contents/ui/gallery/components/InfoSheetAction.qml">./data/contents/ui/gallery/components/InfoSheetAction.qml</file>
         <file alias="contents/ui/gallery/NonScrollableGallery.qml">./data/contents/ui/gallery/NonScrollableGallery.qml</file>
         <file alias="contents/ui/gallery/ButtonGallery.qml">./data/contents/ui/gallery/ButtonGallery.qml</file>
         <file alias="contents/ui/gallery/ChipGallery.qml">./data/contents/ui/gallery/ChipGallery.qml</file>

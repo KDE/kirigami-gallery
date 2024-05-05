@@ -1,5 +1,6 @@
 /*
  *   Copyright 2022 Felipe Kinoshita <kinofhek@gmail.com>
+ *   Copyright 2024 ivan tkachenko <me@ratijas.tk>
  *
  *   This program is free software; you can redistribute it and/or modify
  *   it under the terms of the GNU Library General Public License as
@@ -29,27 +30,7 @@ Kirigami.ScrollablePage {
 
     title: qsTr("Chips")
 
-    actions: [
-        Kirigami.Action {
-            text: qsTr("Info")
-            icon.name: "documentinfo"
-            checkable: true
-            shortcut: "Alt+I"
-            onCheckedChanged: sheet.visible = checked;
-        }
-    ]
-
-    //Close the drawer with the back button
-    onBackRequested: {
-        if (sheet.sheetOpen) {
-            event.accepted = true;
-            sheet.close();
-        }
-    }
-
-    KGC.InfoSheet {
-        id: sheet
-
+    actions: KGC.InfoSheetAction {
         page: page
         component: "ChipGallery"
     }

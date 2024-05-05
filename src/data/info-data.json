@@ -1,10 +1,10 @@
 {
     "FormLayoutGallery": {
-        "title":"Form Layout", 
-        "higUrl": "https://hig.kde.org/patterns/content/form.html", 
+        "title":"Form Layout",
+        "higUrl": "https://hig.kde.org/patterns/content/form.html",
         "sourceUrl": "https://invent.kde.org/sdk/kirigami-gallery/-/blob/master/src/data/contents/ui/gallery/FormLayoutGallery.qml",
         "apiUrl": "https://api.kde.org/frameworks/kirigami/html/classorg_1_1kde_1_1kirigami_1_1FormLayout.html",
-        "text": "<p>A Form layout is used to help align and structure a layout containing many control and input fields</p><br><p><b>When to use</b></p><br><ul><li>Use a Form layout when there are many related controls and input fields.</li><li>Form layouts are ideal for settings dialogs</li></ul>"
+        "text": "<p>A Form layout is used to help align and structure a layout containing many control and input fields.</p><p><b>When to use</b></p><ul><li>Use a Form layout when there are many related controls and input fields.</li><li>Form layouts are ideal for settings dialogs.</li></ul>"
     },
     "SelectionControlsGallery" : {
         "title" : "Selection Controls",

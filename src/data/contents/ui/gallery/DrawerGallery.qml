@@ -1,5 +1,6 @@
 /*
  *   Copyright 2018 Marco Martin <mart@kde.org>
+ *   Copyright 2024 ivan tkachenko <me@ratijas.tk>
  *
  *   This program is free software; you can redistribute it and/or modify
  *   it under the terms of the GNU Library General Public License as
@@ -30,12 +31,9 @@ Kirigami.ScrollablePage {
     title: qsTr("Drawers")
 
     actions: [
-        Kirigami.Action {
-            icon.name: "documentinfo"
-            text: qsTr("Info")
-            checkable: true
-            onCheckedChanged: sheet.visible = checked;
-            shortcut: "Alt+I"
+        KGC.InfoSheetAction {
+            page: page
+            component: "DrawerGallery"
         },
         Kirigami.Action {
             text: qsTr("Action 1")
@@ -52,21 +50,6 @@ Kirigami.ScrollablePage {
             onTriggered: showPassiveNotification(qsTr("Action 3 clicked"))
         }
     ]
-
-    //Close the drawer with the back button
-    onBackRequested: {
-        if (sheet.sheetOpen) {
-            event.accepted = true;
-            sheet.close();
-        }
-    }
-
-    KGC.InfoSheet {
-        id: sheet
-
-        page: page
-        component: "DrawerGallery"
-    }
 
     Kirigami.OverlayDrawer {
         id: modalBottomDrawer

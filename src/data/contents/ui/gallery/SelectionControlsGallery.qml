@@ -1,6 +1,6 @@
 /*
  *   Copyright 2015 Marco Martin <mart@kde.org>
- *   Copyright 2022 ivan tkachenko <me@ratijas.tk>
+ *   Copyright 2022,2024 ivan tkachenko <me@ratijas.tk>
  *
  *   This program is free software; you can redistribute it and/or modify
  *   it under the terms of the GNU Library General Public License as
@@ -26,28 +26,11 @@ import "components" as KGC
 
 Kirigami.ScrollablePage {
     id: page
-    actions: Kirigami.Action {
-        icon.name: "documentinfo"
-        text: qsTr("Info")
-        checkable: true
-        onCheckedChanged: sheet.visible = checked;
-        shortcut: "Alt+I"
-    }
 
     Layout.fillWidth: true
     title: qsTr("Selection Controls")
 
-    //Close the drawer with the back button
-    onBackRequested: {
-        if (sheet.sheetOpen) {
-            event.accepted = true;
-            sheet.close();
-        }
-    }
-
-    KGC.InfoSheet {
-        id: sheet
-
+    actions: KGC.InfoSheetAction {
         page: page
         component: "SelectionControlsGallery"
     }
