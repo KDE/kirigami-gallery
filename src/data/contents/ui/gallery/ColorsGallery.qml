@@ -17,107 +17,134 @@
  *   51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
  */
 
+pragma ComponentBehavior: Bound
+
 import QtQuick
 import QtQuick.Controls as QQC2
 import QtQuick.Layouts
 import org.kde.kirigami as Kirigami
 
 Kirigami.ScrollablePage {
-    id: page
-    title: "Colors"
+    id: root
 
-   // leftPadding: 20//Units.gridUnit
-    function endsWith(subject, predicate) {
-        var idx = subject.indexOf(predicate);
-        return idx + predicate.length == subject.length;
-    }
+    title: qsTr("Colors")
 
-    function getkeys() {
-         var keys = ["textColor",
-            "disabledTextColor",
-            "highlightedTextColor",
-            "activeTextColor",
-            "linkColor",
-            "visitedLinkColor",
-            "negativeTextColor",
-            "neutralTextColor",
-            "positiveTextColor",
-            "backgroundColor",
-            "highlightColor",
-            "activeBackgroundColor",
-            "linkBackgroundColor",
-            "visitedLinkBackgroundColor",
-            "negativeBackgroundColor",
-            "neutralBackgroundColor",
-            "positiveBackgroundColor",
-            "alternateBackgroundColor",
-            "focusColor",
-            "hoverColor"];
+    readonly property list<string> keys: [
+        "textColor",
+        "disabledTextColor",
+        "highlightedTextColor",
+        "activeTextColor",
+        "linkColor",
+        "visitedLinkColor",
+        "negativeTextColor",
+        "neutralTextColor",
+        "positiveTextColor",
+        "backgroundColor",
+        "highlightColor",
+        "activeBackgroundColor",
+        "linkBackgroundColor",
+        "visitedLinkBackgroundColor",
+        "negativeBackgroundColor",
+        "neutralBackgroundColor",
+        "positiveBackgroundColor",
+        "alternateBackgroundColor",
+        "focusColor",
+        "hoverColor",
+    ];
 
-            return keys;
-    }
-
-    function setName(id) {
-        switch(id) {
-        case 0:
+    function setName(id: int): string {
+        switch (id) {
+        case Kirigami.Theme.View:
             return "Theme.View";
-        case 1:
+        case Kirigami.Theme.Window:
             return "Theme.Window";
-        case 2:
+        case Kirigami.Theme.Button:
             return "Theme.Button";
-        case 3:
+        case Kirigami.Theme.Selection:
             return "Theme.Selection";
-        case 4:
+        case Kirigami.Theme.Tooltip:
             return "Theme.Tooltip";
-        case 5:
+        case Kirigami.Theme.Complementary:
             return "Theme.Complementary";
-        case 6:
+        case Kirigami.Theme.Header:
             return "Theme.Header";
         }
     }
 
+    function preProcessWrap(string: string): string {
+        // split camelCase string with ZWSP (Zero-width space) characters, so it can word-wrap on sub-word boundaries.
+        // This is very rudimentary replacement; a better algorithm is in kcoreaddons KStringHandler::preProcessWrap.
+        return string.replace(/[A-Z]/g, "\u200b$&");
+    }
+
     Column {
-         Kirigami.Heading {
+        Kirigami.Heading {
             text: "Colors by Theme.colorSet"
+            width: parent.width
+            horizontalAlignment: Text.AlignHCenter
+            bottomPadding: Kirigami.Units.largeSpacing
         }
+
         Repeater {
-            model: Kirigami.Theme.Header + 1
+            model: Kirigami.Theme.ColorSetCount
             delegate: Column {
+                id: colorSetDelegate
+
+                required property int index
+
                 width: parent.width
-                 Kirigami.Heading {
+
+                Kirigami.Heading {
+                    width: parent.width
+                    horizontalAlignment: Text.AlignHCenter
+
+                    topPadding: Kirigami.Units.gridUnit
+                    bottomPadding: Kirigami.Units.largeSpacing
+
                     level: 2
-                    text: setName(modelData)
+                    text: setName(index)
                 }
+
                 Flow {
                     id: view
-                    Kirigami.Theme.colorSet: modelData
+
+                    Kirigami.Theme.colorSet: colorSetDelegate.index
                     Kirigami.Theme.inherit: false
+
                     anchors.horizontalCenter: parent.horizontalCenter
                     width: Math.floor(parent.width / (Kirigami.Units.gridUnit * 9)) * (Kirigami.Units.gridUnit * 9)
+
                     Repeater {
-                        model: page.getkeys()
+                        model: root.keys
 
                         delegate: ColumnLayout {
+                            id: colorDelegate
+
+                            required property string modelData
+
                             width: Kirigami.Units.gridUnit * 9
+
                             Rectangle {
                                 Layout.alignment: Qt.AlignHCenter
                                 width: Kirigami.Units.gridUnit * 7
                                 height: Kirigami.Units.gridUnit * 3
-                                color: Kirigami.Theme[modelData]
+                                color: Kirigami.Theme[colorDelegate.modelData]
                                 border {
                                     width: 1
                                     color: "black"
                                 }
                             }
-                            QQC2.Label {
+
+                            Kirigami.SelectableLabel {
                                 Kirigami.Theme.colorSet: Kirigami.Theme.Window
                                 Kirigami.Theme.inherit: false
-                                Layout.alignment: Qt.AlignVCenter | Qt.AlignHCenter
-                                text: modelData
-                            }
-                            Item {
-                                width: 1
-                                height: Kirigami.Units.smallSpacing
+                                Layout.fillWidth: true
+                                Layout.leftMargin: Kirigami.Units.gridUnit
+                                Layout.rightMargin: Kirigami.Units.gridUnit
+                                Layout.bottomMargin: Kirigami.Units.gridUnit
+                                horizontalAlignment: TextEdit.AlignHCenter
+                                text: root.preProcessWrap(colorDelegate.modelData)
+                                wrapMode: Text.Wrap
                             }
                         }
                     }
