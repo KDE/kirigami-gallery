@@ -44,17 +44,17 @@ Kirigami.PromptDialog {
     standardButtons: Kirigami.Dialog.NoButton
     customFooterActions: [
         Kirigami.Action {
-            text: qsTr("HIG...")
+            text: qsTr("HIG…")
             enabled: higUrl != ""
             onTriggered: Qt.openUrlExternally(higUrl);
         },
         Kirigami.Action {
-            text: qsTr("Source code...")
+            text: qsTr("Source code…")
             enabled: sourceUrl != ""
             onTriggered: Qt.openUrlExternally(sourceUrl)
         },
         Kirigami.Action {
-            text: qsTr("API...")
+            text: qsTr("API…")
             enabled: apiUrl != ""
             onTriggered: Qt.openUrlExternally(apiUrl)
         }
