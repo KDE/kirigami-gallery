@@ -22,7 +22,7 @@ import QtQuick
 import org.kde.kirigami as Kirigami
 import Data
 
-Kirigami.PromptDialog {
+Kirigami.Dialog {
     id: root
 
     required property string component
@@ -34,11 +34,17 @@ Kirigami.PromptDialog {
     }
 
     title: infoData.title
-    subtitle: infoData.text
-    preferredWidth: Kirigami.Units.gridUnit * 20
-    flatFooterButtons: true
 
-    standardButtons: Kirigami.Dialog.NoButton
+    Kirigami.Padding {
+        horizontalPadding: Kirigami.Units.largeSpacing
+
+        contentItem: Kirigami.SelectableLabel {
+            text: infoData.text
+        }
+    }
+
+    implicitWidth: Kirigami.Units.gridUnit * 20
+
     customFooterActions: [
         Kirigami.Action {
             text: qsTr("HIG…")
