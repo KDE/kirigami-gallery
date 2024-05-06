@@ -13,27 +13,17 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Lokalize 19.08.1\n"
 
-#: contents/ui/gallery/ActionToolBarGallery.qml:35
-msgctxt "ActionToolBarGallery|"
-msgid "Info"
-msgstr "Teave"
-
-#: contents/ui/gallery/CardsLayoutGallery.qml:29
+#: contents/ui/gallery/CardsLayoutGallery.qml:30
 msgctxt "CardsLayoutGallery|"
 msgid "Cards Layout"
 msgstr "Kaartide paigutus"
 
-#: contents/ui/gallery/CardsLayoutGallery.qml:34
-msgctxt "CardsLayoutGallery|"
-msgid "Info"
-msgstr "Teave"
-
-#: contents/ui/gallery/CardsLayoutGallery.qml:54
+#: contents/ui/gallery/CardsLayoutGallery.qml:43
 msgctxt "CardsLayoutGallery|"
 msgid "AbstractCard"
 msgstr "AbstraktKaart"
 
-#: contents/ui/gallery/CardsLayoutGallery.qml:59
+#: contents/ui/gallery/CardsLayoutGallery.qml:48
 msgctxt "CardsLayoutGallery|"
 msgid ""
 "An AbstractCard is the simplest form of card. It's just a rectangle with a "
@@ -46,7 +36,7 @@ msgstr ""
 "omadustega elemente. Sel juhul on päiseks Kirigami.Heading ja sisuelemendiks "
 "reamurdmist võimaldav pealdis."
 
-#: contents/ui/gallery/CardsLayoutGallery.qml:67
+#: contents/ui/gallery/CardsLayoutGallery.qml:56
 msgctxt "CardsLayoutGallery|"
 msgid ""
 "This is an AbstractCard with a Label with WordWrap in it and nothing else, "
@@ -57,33 +47,33 @@ msgid ""
 "plan to make the card reactive on any kind of click."
 msgstr ""
 
-#: contents/ui/gallery/CardsLayoutGallery.qml:69
+#: contents/ui/gallery/CardsLayoutGallery.qml:58
 msgctxt "CardsLayoutGallery|"
 msgid "Card clicked"
 msgstr "Kaardile klõpsati"
 
-#: contents/ui/gallery/CardsLayoutGallery.qml:75
-#: contents/ui/gallery/CardsLayoutGallery.qml:97
-#: contents/ui/gallery/CardsLayoutGallery.qml:135
-#: contents/ui/gallery/CardsLayoutGallery.qml:209
+#: contents/ui/gallery/CardsLayoutGallery.qml:64
+#: contents/ui/gallery/CardsLayoutGallery.qml:86
+#: contents/ui/gallery/CardsLayoutGallery.qml:124
+#: contents/ui/gallery/CardsLayoutGallery.qml:198
 msgctxt "CardsLayoutGallery|"
 msgid "Action1"
 msgstr "Toiming1"
 
-#: contents/ui/gallery/CardsLayoutGallery.qml:79
-#: contents/ui/gallery/CardsLayoutGallery.qml:101
-#: contents/ui/gallery/CardsLayoutGallery.qml:139
-#: contents/ui/gallery/CardsLayoutGallery.qml:213
+#: contents/ui/gallery/CardsLayoutGallery.qml:68
+#: contents/ui/gallery/CardsLayoutGallery.qml:90
+#: contents/ui/gallery/CardsLayoutGallery.qml:128
+#: contents/ui/gallery/CardsLayoutGallery.qml:202
 msgctxt "CardsLayoutGallery|"
 msgid "Action2"
 msgstr "Toiming2"
 
-#: contents/ui/gallery/CardsLayoutGallery.qml:85
+#: contents/ui/gallery/CardsLayoutGallery.qml:74
 msgctxt "CardsLayoutGallery|"
 msgid "Card"
 msgstr "Kaart"
 
-#: contents/ui/gallery/CardsLayoutGallery.qml:89
+#: contents/ui/gallery/CardsLayoutGallery.qml:78
 msgctxt "CardsLayoutGallery|"
 msgid ""
 "This is an instance of the Card type: it can optionally have an image, a "
@@ -92,27 +82,27 @@ msgid ""
 "footer."
 msgstr ""
 
-#: contents/ui/gallery/CardsLayoutGallery.qml:105
+#: contents/ui/gallery/CardsLayoutGallery.qml:94
 msgctxt "CardsLayoutGallery|"
 msgid "Action3"
 msgstr "Toiming3"
 
-#: contents/ui/gallery/CardsLayoutGallery.qml:109
+#: contents/ui/gallery/CardsLayoutGallery.qml:98
 msgctxt "CardsLayoutGallery|"
 msgid "Action4"
 msgstr "Toiming4"
 
-#: contents/ui/gallery/CardsLayoutGallery.qml:113
+#: contents/ui/gallery/CardsLayoutGallery.qml:102
 msgctxt "CardsLayoutGallery|"
 msgid "Action5"
 msgstr "Toiming5"
 
-#: contents/ui/gallery/CardsLayoutGallery.qml:117
+#: contents/ui/gallery/CardsLayoutGallery.qml:106
 msgctxt "CardsLayoutGallery|"
 msgid "Action6"
 msgstr "Toiming6"
 
-#: contents/ui/gallery/CardsLayoutGallery.qml:128
+#: contents/ui/gallery/CardsLayoutGallery.qml:117
 msgctxt "CardsLayoutGallery|"
 msgid ""
 "The title can be aligned to all corners or centered with a combination of Qt."
@@ -123,12 +113,12 @@ msgstr ""
 "Alignment lippe kombineerides.\n"
 "Kui toiminguid on liiga palju, paigutatakse need nurgatagusesse menüüsse."
 
-#: contents/ui/gallery/CardsLayoutGallery.qml:143
+#: contents/ui/gallery/CardsLayoutGallery.qml:132
 msgctxt "CardsLayoutGallery|"
 msgid "Action always hidden"
 msgstr "Alati peidetud toiming"
 
-#: contents/ui/gallery/CardsLayoutGallery.qml:154
+#: contents/ui/gallery/CardsLayoutGallery.qml:143
 msgctxt "CardsLayoutGallery|"
 msgid ""
 "The Banner can contain only the title and/or an icon, even if there is no "
@@ -137,14 +127,14 @@ msgstr ""
 "Loosung võib sisaldada ainult pealkirja ja/või ikooni, isegi kui pole "
 "loosungi pilti."
 
-#: contents/ui/gallery/CardsLayoutGallery.qml:177
+#: contents/ui/gallery/CardsLayoutGallery.qml:166
 msgctxt "CardsLayoutGallery|"
 msgid ""
 "It's possible to have custom contents overlapping the image, for cases where "
 "a more personalized design is needed."
 msgstr ""
 
-#: contents/ui/gallery/CardsLayoutGallery.qml:192
+#: contents/ui/gallery/CardsLayoutGallery.qml:181
 msgctxt "CardsLayoutGallery|"
 msgid ""
 "It's possible to customize the look and feel for Cards too, if the no "
@@ -155,17 +145,17 @@ msgid ""
 "custom footer is used (which is discouraged), actions shouldn't be used."
 msgstr ""
 
-#: contents/ui/gallery/CardsLayoutGallery.qml:197
+#: contents/ui/gallery/CardsLayoutGallery.qml:186
 msgctxt "CardsLayoutGallery|"
 msgid "Custom footer"
 msgstr "Kohandatud jalus"
 
-#: contents/ui/gallery/CardsLayoutGallery.qml:200
+#: contents/ui/gallery/CardsLayoutGallery.qml:189
 msgctxt "CardsLayoutGallery|"
 msgid "Ok"
 msgstr "OK"
 
-#: contents/ui/gallery/CardsLayoutGallery.qml:223
+#: contents/ui/gallery/CardsLayoutGallery.qml:212
 msgctxt "CardsLayoutGallery|"
 msgid ""
 "A card can optionally have horizontal orientation.\n"
@@ -175,22 +165,17 @@ msgid ""
 "of 2 (which can be overridden)."
 msgstr ""
 
-#: contents/ui/gallery/CardsListViewGallery.qml:29
+#: contents/ui/gallery/CardsListViewGallery.qml:30
 msgctxt "CardsListViewGallery|"
 msgid "List view of simple cards"
 msgstr "Lihtsate kaartide loendivaade"
 
-#: contents/ui/gallery/CardsListViewGallery.qml:34
-msgctxt "CardsListViewGallery|"
-msgid "Info"
-msgstr "Teave"
-
-#: contents/ui/gallery/CardsListViewGallery.qml:86
+#: contents/ui/gallery/CardsListViewGallery.qml:67
 msgctxt "CardsListViewGallery|"
 msgid "Product "
 msgstr "Toode"
 
-#: contents/ui/gallery/CardsListViewGallery.qml:94
+#: contents/ui/gallery/CardsListViewGallery.qml:75
 msgctxt "CardsListViewGallery|"
 msgid ""
 "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id risus id "
@@ -199,35 +184,27 @@ msgstr ""
 "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id risus id "
 "augue euismod accumsan."
 
-#: contents/ui/gallery/CardsListViewGallery.qml:100
+#: contents/ui/gallery/CardsListViewGallery.qml:81
 msgctxt "CardsListViewGallery|"
 msgid "Install"
 msgstr "Paigalda"
 
-#: contents/ui/gallery/ChipGallery.qml:30
+#: contents/ui/gallery/ChipGallery.qml:31
 msgctxt "ChipGallery|"
 msgid "Chips"
 msgstr ""
 
-#: contents/ui/gallery/ChipGallery.qml:34
-#, fuzzy
-#| msgctxt "ActionToolBarGallery|"
-#| msgid "Info"
-msgctxt "ChipGallery|"
-msgid "Info"
-msgstr "Teave"
-
-#: contents/ui/gallery/ChipGallery.qml:65
+#: contents/ui/gallery/ChipGallery.qml:46
 msgctxt "ChipGallery|"
 msgid "Closable Chips"
 msgstr ""
 
-#: contents/ui/gallery/ChipGallery.qml:95
+#: contents/ui/gallery/ChipGallery.qml:76
 msgctxt "ChipGallery|"
 msgid "Informative Chips"
 msgstr ""
 
-#: contents/ui/gallery/ChipGallery.qml:131
+#: contents/ui/gallery/ChipGallery.qml:112
 #, fuzzy
 #| msgctxt "SelectionControlsGallery|"
 #| msgid "Checkable List View"
@@ -235,126 +212,134 @@ msgctxt "ChipGallery|"
 msgid "Checkable Chips"
 msgstr "Märkekastidega loendi vaade"
 
-#: contents/ui/gallery/components/InfoSheet.qml:47
-msgctxt "InfoSheet|"
-msgid "HIG..."
-msgstr "HIG ..."
+#: contents/ui/gallery/ColorsGallery.qml:30
+msgctxt "ColorsGallery|"
+msgid "Colors"
+msgstr ""
 
-#: contents/ui/gallery/components/InfoSheet.qml:52
+#: contents/ui/gallery/components/InfoSheet.qml:44
 msgctxt "InfoSheet|"
-msgid "Source code..."
+msgid "HIG…"
+msgstr ""
+
+#: contents/ui/gallery/components/InfoSheet.qml:49
+#, fuzzy
+#| msgctxt "InfoSheet|"
+#| msgid "Source code..."
+msgctxt "InfoSheet|"
+msgid "Source code…"
 msgstr "Lähtekood ..."
 
-#: contents/ui/gallery/components/InfoSheet.qml:57
+#: contents/ui/gallery/components/InfoSheet.qml:54
 msgctxt "InfoSheet|"
-msgid "API..."
-msgstr "API..."
+msgid "API…"
+msgstr ""
 
-#: contents/ui/gallery/DialogGallery.qml:33
+#: contents/ui/gallery/components/InfoSheetAction.qml:18
+#, fuzzy
+#| msgctxt "ActionToolBarGallery|"
+#| msgid "Info"
+msgctxt "InfoSheetAction|"
+msgid "Info"
+msgstr "Teave"
+
+#: contents/ui/gallery/DialogGallery.qml:34
 msgctxt "DialogGallery|"
 msgid "Dialogs"
 msgstr ""
 
-#: contents/ui/gallery/DialogGallery.qml:38
-#, fuzzy
-#| msgctxt "ActionToolBarGallery|"
-#| msgid "Info"
-msgctxt "DialogGallery|"
-msgid "Info"
-msgstr "Teave"
-
-#: contents/ui/gallery/DialogGallery.qml:77
+#: contents/ui/gallery/DialogGallery.qml:58
 msgctxt "DialogGallery|"
 msgid "Create Folder"
 msgstr ""
 
-#: contents/ui/gallery/DialogGallery.qml:85
+#: contents/ui/gallery/DialogGallery.qml:66
 msgctxt "DialogGallery|"
 msgid "Cancel"
 msgstr ""
 
-#: contents/ui/gallery/DialogGallery.qml:94
+#: contents/ui/gallery/DialogGallery.qml:75
 msgctxt "DialogGallery|"
 msgid "Folder name:"
 msgstr ""
 
-#: contents/ui/gallery/DialogGallery.qml:102
+#: contents/ui/gallery/DialogGallery.qml:83
 msgctxt "DialogGallery|"
 msgid "Alarm Snooze Length"
 msgstr ""
 
-#: contents/ui/gallery/DialogGallery.qml:111
+#: contents/ui/gallery/DialogGallery.qml:92
 msgctxt "DialogGallery|"
 msgid "1 minute"
 msgstr ""
 
-#: contents/ui/gallery/DialogGallery.qml:112
+#: contents/ui/gallery/DialogGallery.qml:93
 msgctxt "DialogGallery|"
 msgid "2 minutes"
 msgstr ""
 
-#: contents/ui/gallery/DialogGallery.qml:113
+#: contents/ui/gallery/DialogGallery.qml:94
 msgctxt "DialogGallery|"
 msgid "3 minutes"
 msgstr ""
 
-#: contents/ui/gallery/DialogGallery.qml:114
+#: contents/ui/gallery/DialogGallery.qml:95
 msgctxt "DialogGallery|"
 msgid "4 minutes"
 msgstr ""
 
-#: contents/ui/gallery/DialogGallery.qml:115
+#: contents/ui/gallery/DialogGallery.qml:96
 msgctxt "DialogGallery|"
 msgid "5 minutes"
 msgstr ""
 
-#: contents/ui/gallery/DialogGallery.qml:116
+#: contents/ui/gallery/DialogGallery.qml:97
 msgctxt "DialogGallery|"
 msgid "10 minutes"
 msgstr ""
 
-#: contents/ui/gallery/DialogGallery.qml:117
+#: contents/ui/gallery/DialogGallery.qml:98
 msgctxt "DialogGallery|"
 msgid "30 minutes"
 msgstr ""
 
-#: contents/ui/gallery/DialogGallery.qml:118
+#: contents/ui/gallery/DialogGallery.qml:99
 msgctxt "DialogGallery|"
 msgid "1 hour"
 msgstr ""
 
-#: contents/ui/gallery/DialogGallery.qml:140
+#: contents/ui/gallery/DialogGallery.qml:121
 msgctxt "DialogGallery|"
 msgid "Select Number"
 msgstr ""
 
-#: contents/ui/gallery/DialogGallery.qml:160
-#: contents/ui/gallery/DialogGallery.qml:226
+#: contents/ui/gallery/DialogGallery.qml:141
+#: contents/ui/gallery/DialogGallery.qml:207
 msgctxt "DialogGallery|"
 msgid "No Footer Dialog"
 msgstr ""
 
-#: contents/ui/gallery/DialogGallery.qml:161
+#: contents/ui/gallery/DialogGallery.qml:142
 msgctxt "DialogGallery|"
 msgid "This dialog has no footer buttons.<br/>It also has no close button."
 msgstr ""
 
-#: contents/ui/gallery/DialogGallery.qml:169
+#: contents/ui/gallery/DialogGallery.qml:150
 msgctxt "DialogGallery|"
 msgid "Track Options"
 msgstr ""
 
-#: contents/ui/gallery/DialogGallery.qml:174
+#: contents/ui/gallery/DialogGallery.qml:155
 msgctxt "DialogGallery|Start playback of the selected track"
 msgid "Play"
 msgstr ""
 
-#: contents/ui/gallery/DialogGallery.qml:175
+#: contents/ui/gallery/DialogGallery.qml:156
 msgctxt "DialogGallery|"
 msgid "Start playback of the selected track"
 msgstr ""
 
-#: contents/ui/gallery/DialogGallery.qml:180
+#: contents/ui/gallery/DialogGallery.qml:161
 #, fuzzy
 #| msgctxt "BaseApp|"
 #| msgid "Show Banner"
@@ -362,53 +347,53 @@ msgctxt "DialogGallery|Show the file for this song in the file manager"
 msgid "Show in folder"
 msgstr "Loosungi näitamine"
 
-#: contents/ui/gallery/DialogGallery.qml:181
+#: contents/ui/gallery/DialogGallery.qml:162
 msgctxt "DialogGallery|"
 msgid "Show the file for this song in the file manager"
 msgstr ""
 
-#: contents/ui/gallery/DialogGallery.qml:185
+#: contents/ui/gallery/DialogGallery.qml:166
 msgctxt "DialogGallery|Show track metadata"
 msgid "View details"
 msgstr ""
 
-#: contents/ui/gallery/DialogGallery.qml:186
+#: contents/ui/gallery/DialogGallery.qml:167
 msgctxt "DialogGallery|"
 msgid "Show track metadata"
 msgstr ""
 
-#: contents/ui/gallery/DialogGallery.qml:190
+#: contents/ui/gallery/DialogGallery.qml:171
 msgctxt ""
 "DialogGallery|Add the track to the queue, right after the current track"
 msgid "Play next"
 msgstr ""
 
-#: contents/ui/gallery/DialogGallery.qml:191
+#: contents/ui/gallery/DialogGallery.qml:172
 msgctxt "DialogGallery|"
 msgid "Add the track to the queue, right after the current track"
 msgstr ""
 
-#: contents/ui/gallery/DialogGallery.qml:195
+#: contents/ui/gallery/DialogGallery.qml:176
 msgctxt "DialogGallery|Enqueue current track"
 msgid "Add to queue"
 msgstr ""
 
-#: contents/ui/gallery/DialogGallery.qml:196
+#: contents/ui/gallery/DialogGallery.qml:177
 msgctxt "DialogGallery|"
 msgid "Enqueue current track"
 msgstr ""
 
-#: contents/ui/gallery/DialogGallery.qml:206
+#: contents/ui/gallery/DialogGallery.qml:187
 msgctxt "DialogGallery|"
 msgid "Prompt Dialog"
 msgstr ""
 
-#: contents/ui/gallery/DialogGallery.qml:211
+#: contents/ui/gallery/DialogGallery.qml:192
 msgctxt "DialogGallery|"
 msgid "Text Prompt Dialog"
 msgstr ""
 
-#: contents/ui/gallery/DialogGallery.qml:216
+#: contents/ui/gallery/DialogGallery.qml:197
 #, fuzzy
 #| msgctxt "SelectionControlsGallery|"
 #| msgid "Selection Controls"
@@ -416,52 +401,47 @@ msgctxt "DialogGallery|"
 msgid "Selection Dialog"
 msgstr "Valiku juhtelemendid"
 
-#: contents/ui/gallery/DialogGallery.qml:221
+#: contents/ui/gallery/DialogGallery.qml:202
 msgctxt "DialogGallery|"
 msgid "Scrollable Dialog"
 msgstr ""
 
-#: contents/ui/gallery/DialogGallery.qml:231
+#: contents/ui/gallery/DialogGallery.qml:212
 msgctxt "DialogGallery|"
 msgid "Menu Dialog"
 msgstr ""
 
-#: contents/ui/gallery/DrawerGallery.qml:30
+#: contents/ui/gallery/DrawerGallery.qml:31
 msgctxt "DrawerGallery|"
 msgid "Drawers"
 msgstr ""
 
-#: contents/ui/gallery/DrawerGallery.qml:35
-msgctxt "DrawerGallery|"
-msgid "Info"
-msgstr "Teave"
-
-#: contents/ui/gallery/DrawerGallery.qml:41
+#: contents/ui/gallery/DrawerGallery.qml:39
 msgctxt "DrawerGallery|"
 msgid "Action 1"
 msgstr "Toiming 1"
 
-#: contents/ui/gallery/DrawerGallery.qml:43
+#: contents/ui/gallery/DrawerGallery.qml:41
 msgctxt "DrawerGallery|"
 msgid "Action 1 clicked"
 msgstr "Toimingule 1 klõpsati"
 
-#: contents/ui/gallery/DrawerGallery.qml:46
+#: contents/ui/gallery/DrawerGallery.qml:44
 msgctxt "DrawerGallery|"
 msgid "Disabled Action"
 msgstr "Keelatud toiming"
 
-#: contents/ui/gallery/DrawerGallery.qml:51
+#: contents/ui/gallery/DrawerGallery.qml:49
 msgctxt "DrawerGallery|"
 msgid "Action 3"
 msgstr "Toiming 3"
 
-#: contents/ui/gallery/DrawerGallery.qml:52
+#: contents/ui/gallery/DrawerGallery.qml:50
 msgctxt "DrawerGallery|"
 msgid "Action 3 clicked"
 msgstr "Toimingule 3 klõpsati"
 
-#: contents/ui/gallery/DrawerGallery.qml:78
+#: contents/ui/gallery/DrawerGallery.qml:61
 msgctxt "DrawerGallery|"
 msgid ""
 "A modal bottom drawer will span for the whole application window width and "
@@ -469,22 +449,22 @@ msgid ""
 "drawer."
 msgstr ""
 
-#: contents/ui/gallery/DrawerGallery.qml:82
+#: contents/ui/gallery/DrawerGallery.qml:65
+#: contents/ui/gallery/DrawerGallery.qml:84
 #: contents/ui/gallery/DrawerGallery.qml:101
-#: contents/ui/gallery/DrawerGallery.qml:118
-#: contents/ui/gallery/DrawerGallery.qml:137
+#: contents/ui/gallery/DrawerGallery.qml:120
 msgctxt "DrawerGallery|"
 msgid "Close"
 msgstr "Sulge"
 
-#: contents/ui/gallery/DrawerGallery.qml:97
+#: contents/ui/gallery/DrawerGallery.qml:80
 msgctxt "DrawerGallery|"
 msgid ""
 "An inline bottom drawer covers the whole application width but lets the "
 "uncovered pieces to still be interacted with."
 msgstr ""
 
-#: contents/ui/gallery/DrawerGallery.qml:114
+#: contents/ui/gallery/DrawerGallery.qml:97
 msgctxt "DrawerGallery|"
 msgid ""
 "A modal top drawer will span for the whole application window width and will "
@@ -492,59 +472,49 @@ msgid ""
 "drawer."
 msgstr ""
 
-#: contents/ui/gallery/DrawerGallery.qml:133
+#: contents/ui/gallery/DrawerGallery.qml:116
 msgctxt "DrawerGallery|"
 msgid ""
 "An inline top drawer covers the whole application width but lets the "
 "uncovered pieces to still be interacted with."
 msgstr ""
 
-#: contents/ui/gallery/DrawerGallery.qml:148
+#: contents/ui/gallery/DrawerGallery.qml:131
 msgctxt "DrawerGallery|"
 msgid "Left Global Drawer"
 msgstr ""
 
-#: contents/ui/gallery/DrawerGallery.qml:153
+#: contents/ui/gallery/DrawerGallery.qml:136
 msgctxt "DrawerGallery|"
 msgid "Right Context Drawer"
 msgstr ""
 
-#: contents/ui/gallery/DrawerGallery.qml:159
+#: contents/ui/gallery/DrawerGallery.qml:142
 msgctxt "DrawerGallery|"
 msgid "Modal Bottom Drawer"
 msgstr ""
 
-#: contents/ui/gallery/DrawerGallery.qml:169
+#: contents/ui/gallery/DrawerGallery.qml:152
 msgctxt "DrawerGallery|"
 msgid "Modal Top Drawer"
 msgstr ""
 
-#: contents/ui/gallery/FormLayoutGallery.qml:13
-msgctxt "FormLayoutGallery|"
-msgid "Info"
-msgstr "Teave"
-
-#: contents/ui/gallery/FormLayoutGallery.qml:77
+#: contents/ui/gallery/FormLayoutGallery.qml:67
 msgctxt "FormLayoutGallery|"
 msgid "Expanding Button"
 msgstr "Laienev nupp"
 
-#: contents/ui/gallery/FormLayoutGallery.qml:127
+#: contents/ui/gallery/FormLayoutGallery.qml:117
 msgctxt "FormLayoutGallery|"
 msgid "Twin Layout:"
 msgstr ""
 
-#: contents/ui/gallery/InlineMessagesGallery.qml:31
+#: contents/ui/gallery/InlineMessagesGallery.qml:32
 msgctxt "InlineMessagesGallery|"
 msgid "Inline Messages"
 msgstr "Pealistekstid"
 
-#: contents/ui/gallery/InlineMessagesGallery.qml:35
-msgctxt "InlineMessagesGallery|"
-msgid "Info"
-msgstr "Teave"
-
-#: contents/ui/gallery/InlineMessagesGallery.qml:65
+#: contents/ui/gallery/InlineMessagesGallery.qml:47
 msgctxt "InlineMessagesGallery|"
 msgid ""
 "This is an informational inline message (the default type). Use it for "
@@ -553,7 +523,7 @@ msgstr ""
 "See on teavitav pealistekst (vaikimisi tüüp). See võimaldab näiteks anda "
 "teada tulemusest või lisada kommentaari."
 
-#: contents/ui/gallery/InlineMessagesGallery.qml:75
+#: contents/ui/gallery/InlineMessagesGallery.qml:57
 msgctxt "InlineMessagesGallery|"
 msgid ""
 "This is a positive inline message. Use it for example to announce a "
@@ -562,7 +532,7 @@ msgstr ""
 "See on positiivne pealistekst. See võimaldab teada anda näiteks edukast "
 "tulemusest või millegi edukast lõpetamisest."
 
-#: contents/ui/gallery/InlineMessagesGallery.qml:85
+#: contents/ui/gallery/InlineMessagesGallery.qml:67
 msgctxt "InlineMessagesGallery|"
 msgid ""
 "This is a warning inline message. Use it for example to provide critical "
@@ -571,7 +541,7 @@ msgstr ""
 "See on hoiatav pealistekst. See võimaldab teada anda näiteks kriitilise "
 "tähtsusega juhistes või hoiatada millegi eest, mis nagunii ei toimi."
 
-#: contents/ui/gallery/InlineMessagesGallery.qml:95
+#: contents/ui/gallery/InlineMessagesGallery.qml:77
 msgctxt "InlineMessagesGallery|"
 msgid ""
 "This is an error inline message. Use it for example to announce something "
@@ -580,12 +550,12 @@ msgstr ""
 "See on tõrkest teada andev pealistekst. See võimaldab teada anda, et midagi "
 "on valesti läinud või et sisendit ei tunnistata kehtivaks."
 
-#: contents/ui/gallery/InlineMessagesGallery.qml:109
+#: contents/ui/gallery/InlineMessagesGallery.qml:91
 msgctxt "InlineMessagesGallery|"
 msgid "Inline messages can optionally have a custom icon set."
 msgstr "Pealistekstile võib soovi korral lisada kohandatud ikoone."
 
-#: contents/ui/gallery/InlineMessagesGallery.qml:117
+#: contents/ui/gallery/InlineMessagesGallery.qml:99
 msgctxt "InlineMessagesGallery|"
 msgid ""
 "You can use rich text in inline messages and optionally handle clicks on "
@@ -596,39 +566,39 @@ msgstr ""
 "linkidele (need avatakse veebilehitsejas): <a href=\"https://www.kde.org"
 "\">https://www.kde.org<a/>"
 
-#: contents/ui/gallery/InlineMessagesGallery.qml:129
+#: contents/ui/gallery/InlineMessagesGallery.qml:111
 msgctxt "InlineMessagesGallery|"
 msgid "Inline messages can have an optional close button."
 msgstr "Pealistekstile võib soovi korral lisada sulgemisnupu."
 
-#: contents/ui/gallery/InlineMessagesGallery.qml:147
+#: contents/ui/gallery/InlineMessagesGallery.qml:129
 msgctxt "InlineMessagesGallery|"
 msgid "Add text"
 msgstr "Lisa teksti"
 
-#: contents/ui/gallery/InlineMessagesGallery.qml:157
+#: contents/ui/gallery/InlineMessagesGallery.qml:139
 msgctxt "InlineMessagesGallery|"
 msgid "Reset text"
 msgstr "Lähtesta tekst"
 
-#: contents/ui/gallery/InlineMessagesGallery.qml:179
+#: contents/ui/gallery/InlineMessagesGallery.qml:161
 msgctxt "InlineMessagesGallery|"
 msgid "Inline messages are initially hidden and animate when revealed. Try it!"
 msgstr ""
 "Pealistekstid on algselt peidetud ja tulevad nähtavale animatsiooniga. "
 "Proovi seda!"
 
-#: contents/ui/gallery/InlineMessagesGallery.qml:188
+#: contents/ui/gallery/InlineMessagesGallery.qml:170
 msgctxt "InlineMessagesGallery|"
 msgid "Show additional message"
 msgstr "Näita lisasõnumit"
 
-#: contents/ui/gallery/InlineMessagesGallery.qml:205
+#: contents/ui/gallery/InlineMessagesGallery.qml:186
 msgctxt "InlineMessagesGallery|"
 msgid "Boo!"
 msgstr "Jahuu!"
 
-#: contents/ui/gallery/InlineMessagesGallery.qml:209
+#: contents/ui/gallery/InlineMessagesGallery.qml:190
 msgctxt "InlineMessagesGallery|"
 msgid "Shush"
 msgstr "Psst"
@@ -687,43 +657,38 @@ msgctxt "MultipleColumnsGallery|"
 msgid "Pin page"
 msgstr ""
 
-#: contents/ui/gallery/OverlaySheetGallery.qml:31
+#: contents/ui/gallery/OverlaySheetGallery.qml:32
 msgctxt "OverlaySheetGallery|"
 msgid "Overlay Sheets"
 msgstr ""
 
-#: contents/ui/gallery/OverlaySheetGallery.qml:35
-msgctxt "OverlaySheetGallery|"
-msgid "Info"
-msgstr "Teave"
-
-#: contents/ui/gallery/OverlaySheetGallery.qml:83
+#: contents/ui/gallery/OverlaySheetGallery.qml:65
 msgctxt "OverlaySheetGallery|"
 msgid "Close"
 msgstr "Sulge"
 
-#: contents/ui/gallery/OverlaySheetGallery.qml:93
-#: contents/ui/gallery/OverlaySheetGallery.qml:161
-#: contents/ui/gallery/OverlaySheetGallery.qml:184
+#: contents/ui/gallery/OverlaySheetGallery.qml:75
+#: contents/ui/gallery/OverlaySheetGallery.qml:143
+#: contents/ui/gallery/OverlaySheetGallery.qml:166
 msgctxt "OverlaySheetGallery|"
 msgid "Title"
 msgstr "Pealkiri"
 
-#: contents/ui/gallery/OverlaySheetGallery.qml:97
-#: contents/ui/gallery/OverlaySheetGallery.qml:165
-#: contents/ui/gallery/OverlaySheetGallery.qml:188
+#: contents/ui/gallery/OverlaySheetGallery.qml:79
+#: contents/ui/gallery/OverlaySheetGallery.qml:147
+#: contents/ui/gallery/OverlaySheetGallery.qml:170
 msgctxt "OverlaySheetGallery|"
 msgid "Footer:"
 msgstr "Jalus:"
 
-#: contents/ui/gallery/OverlaySheetGallery.qml:108
+#: contents/ui/gallery/OverlaySheetGallery.qml:90
 msgctxt "OverlaySheetGallery|"
 msgid ""
 "A sheet can have optional header and footer items which will not scroll away "
 "when the sheet overflows."
 msgstr ""
 
-#: contents/ui/gallery/OverlaySheetGallery.qml:127
+#: contents/ui/gallery/OverlaySheetGallery.qml:109
 msgctxt "OverlaySheetGallery|"
 msgid ""
 "A sheet will take the maximum available width in the page by default.\n"
@@ -731,7 +696,7 @@ msgid ""
 "the sheet won't grow in width more than such given value."
 msgstr ""
 
-#: contents/ui/gallery/OverlaySheetGallery.qml:148
+#: contents/ui/gallery/OverlaySheetGallery.qml:130
 msgctxt "OverlaySheetGallery|"
 msgid ""
 "A sheet by default will be over a single page, even if the app is in wide "
@@ -740,34 +705,29 @@ msgid ""
 "In this case the sheet will cover the page Action buttons too."
 msgstr ""
 
-#: contents/ui/gallery/OverlaySheetGallery.qml:176
+#: contents/ui/gallery/OverlaySheetGallery.qml:158
 msgctxt "OverlaySheetGallery|"
 msgid "Item in sheet "
 msgstr "Element poognal"
 
-#: contents/ui/gallery/OverlaySheetGallery.qml:220
+#: contents/ui/gallery/OverlaySheetGallery.qml:202
 msgctxt "OverlaySheetGallery|"
 msgid "Very Long Sheet"
 msgstr "Väga pikk poogen"
 
 #: contents/ui/gallery/SelectionControlsGallery.qml:31
 msgctxt "SelectionControlsGallery|"
-msgid "Info"
-msgstr "Teave"
-
-#: contents/ui/gallery/SelectionControlsGallery.qml:38
-msgctxt "SelectionControlsGallery|"
 msgid "Selection Controls"
 msgstr "Valiku juhtelemendid"
 
-#: contents/ui/gallery/SelectionControlsGallery.qml:64
+#: contents/ui/gallery/SelectionControlsGallery.qml:47
 msgctxt "SelectionControlsGallery|"
 msgid "Checkable List Items"
 msgstr "Märkeruutudega loendi kirjed"
 
-#: contents/ui/gallery/SelectionControlsGallery.qml:71
-#: contents/ui/gallery/SelectionControlsGallery.qml:94
-#: contents/ui/gallery/SelectionControlsGallery.qml:117
+#: contents/ui/gallery/SelectionControlsGallery.qml:54
+#: contents/ui/gallery/SelectionControlsGallery.qml:77
+#: contents/ui/gallery/SelectionControlsGallery.qml:100
 #, fuzzy, qt-format
 #| msgctxt "SelectionControlsGallery|"
 #| msgid "Delegate"
@@ -775,52 +735,52 @@ msgctxt "SelectionControlsGallery|"
 msgid "Delegate %1"
 msgstr "Tegevus"
 
-#: contents/ui/gallery/SelectionControlsGallery.qml:87
-#: contents/ui/gallery/SelectionControlsGallery.qml:110
+#: contents/ui/gallery/SelectionControlsGallery.qml:70
+#: contents/ui/gallery/SelectionControlsGallery.qml:93
 msgctxt "SelectionControlsGallery|"
 msgid "Radio List Items"
 msgstr "Raadionuppudega loendi kirjed"
 
-#: contents/ui/gallery/SelectionControlsGallery.qml:126
+#: contents/ui/gallery/SelectionControlsGallery.qml:109
 msgctxt "SelectionControlsGallery|"
 msgid "Checkboxes"
 msgstr "Märkekastid"
 
-#: contents/ui/gallery/SelectionControlsGallery.qml:130
-#: contents/ui/gallery/SelectionControlsGallery.qml:148
-#: contents/ui/gallery/SelectionControlsGallery.qml:166
+#: contents/ui/gallery/SelectionControlsGallery.qml:113
+#: contents/ui/gallery/SelectionControlsGallery.qml:131
+#: contents/ui/gallery/SelectionControlsGallery.qml:149
 msgctxt "SelectionControlsGallery|"
 msgid "Item selected"
 msgstr "Element on valitud"
 
-#: contents/ui/gallery/SelectionControlsGallery.qml:134
-#: contents/ui/gallery/SelectionControlsGallery.qml:152
-#: contents/ui/gallery/SelectionControlsGallery.qml:170
+#: contents/ui/gallery/SelectionControlsGallery.qml:117
+#: contents/ui/gallery/SelectionControlsGallery.qml:135
+#: contents/ui/gallery/SelectionControlsGallery.qml:153
 msgctxt "SelectionControlsGallery|"
 msgid "Item not selected"
 msgstr "Element ei ole valitud"
 
-#: contents/ui/gallery/SelectionControlsGallery.qml:138
+#: contents/ui/gallery/SelectionControlsGallery.qml:121
 msgctxt "SelectionControlsGallery|"
 msgid "Checkable List View"
 msgstr "Märkekastidega loendi vaade"
 
-#: contents/ui/gallery/SelectionControlsGallery.qml:144
+#: contents/ui/gallery/SelectionControlsGallery.qml:127
 msgctxt "SelectionControlsGallery|"
 msgid "Radio buttons"
 msgstr "Raadionupud"
 
-#: contents/ui/gallery/SelectionControlsGallery.qml:157
+#: contents/ui/gallery/SelectionControlsGallery.qml:140
 msgctxt "SelectionControlsGallery|"
 msgid "Radio List View"
 msgstr "Raadionuppudega loendi vaade"
 
-#: contents/ui/gallery/SelectionControlsGallery.qml:163
+#: contents/ui/gallery/SelectionControlsGallery.qml:146
 msgctxt "SelectionControlsGallery|"
 msgid "Switches"
 msgstr "Lülitid"
 
-#: contents/ui/gallery/SelectionControlsGallery.qml:174
+#: contents/ui/gallery/SelectionControlsGallery.qml:157
 msgctxt "SelectionControlsGallery|"
 msgid "Switch List View"
 msgstr "Lülititega loendi vaade"
@@ -829,6 +789,61 @@ msgstr "Lülititega loendi vaade"
 msgctxt "MainPage|"
 msgid "Kirigami Gallery"
 msgstr "Kirigami galerii"
+
+#: contents/ui/MainPage.qml:40
+msgctxt "MainPage|"
+msgid "Home"
+msgstr ""
+
+#~ msgctxt "CardsLayoutGallery|"
+#~ msgid "Info"
+#~ msgstr "Teave"
+
+#~ msgctxt "CardsListViewGallery|"
+#~ msgid "Info"
+#~ msgstr "Teave"
+
+#, fuzzy
+#~| msgctxt "ActionToolBarGallery|"
+#~| msgid "Info"
+#~ msgctxt "ChipGallery|"
+#~ msgid "Info"
+#~ msgstr "Teave"
+
+#~ msgctxt "InfoSheet|"
+#~ msgid "HIG..."
+#~ msgstr "HIG ..."
+
+#~ msgctxt "InfoSheet|"
+#~ msgid "API..."
+#~ msgstr "API..."
+
+#, fuzzy
+#~| msgctxt "ActionToolBarGallery|"
+#~| msgid "Info"
+#~ msgctxt "DialogGallery|"
+#~ msgid "Info"
+#~ msgstr "Teave"
+
+#~ msgctxt "DrawerGallery|"
+#~ msgid "Info"
+#~ msgstr "Teave"
+
+#~ msgctxt "FormLayoutGallery|"
+#~ msgid "Info"
+#~ msgstr "Teave"
+
+#~ msgctxt "InlineMessagesGallery|"
+#~ msgid "Info"
+#~ msgstr "Teave"
+
+#~ msgctxt "OverlaySheetGallery|"
+#~ msgid "Info"
+#~ msgstr "Teave"
+
+#~ msgctxt "SelectionControlsGallery|"
+#~ msgid "Info"
+#~ msgstr "Teave"
 
 #~ msgctxt "CardsGridViewGallery|"
 #~ msgid "Grid view of Cards"

@@ -14,27 +14,17 @@ msgstr ""
 "|| n%100>=20) ? 1 : 2);\n"
 "X-Generator: Lokalize 22.08.2\n"
 
-#: contents/ui/gallery/ActionToolBarGallery.qml:35
-msgctxt "ActionToolBarGallery|"
-msgid "Info"
-msgstr "Dane"
-
-#: contents/ui/gallery/CardsLayoutGallery.qml:29
+#: contents/ui/gallery/CardsLayoutGallery.qml:30
 msgctxt "CardsLayoutGallery|"
 msgid "Cards Layout"
 msgstr "Układ kart"
 
-#: contents/ui/gallery/CardsLayoutGallery.qml:34
-msgctxt "CardsLayoutGallery|"
-msgid "Info"
-msgstr "Dane"
-
-#: contents/ui/gallery/CardsLayoutGallery.qml:54
+#: contents/ui/gallery/CardsLayoutGallery.qml:43
 msgctxt "CardsLayoutGallery|"
 msgid "AbstractCard"
 msgstr "Abstrakcyjna karta"
 
-#: contents/ui/gallery/CardsLayoutGallery.qml:59
+#: contents/ui/gallery/CardsLayoutGallery.qml:48
 msgctxt "CardsLayoutGallery|"
 msgid ""
 "An AbstractCard is the simplest form of card. It's just a rectangle with a "
@@ -48,7 +38,7 @@ msgstr ""
 "Heading jest jego nagłówkiem, a etykieta z zawijaniem słów jest treścią "
 "elementu."
 
-#: contents/ui/gallery/CardsLayoutGallery.qml:67
+#: contents/ui/gallery/CardsLayoutGallery.qml:56
 msgctxt "CardsLayoutGallery|"
 msgid ""
 "This is an AbstractCard with a Label with WordWrap in it and nothing else, "
@@ -65,33 +55,33 @@ msgstr ""
 "sposób być widoczne. Zaleca się ustawienie tego, gdy masz zamiar stworzyć "
 "kartę, która odpowiada na dowolne kliknięcie."
 
-#: contents/ui/gallery/CardsLayoutGallery.qml:69
+#: contents/ui/gallery/CardsLayoutGallery.qml:58
 msgctxt "CardsLayoutGallery|"
 msgid "Card clicked"
 msgstr "Kliknięto kartę"
 
-#: contents/ui/gallery/CardsLayoutGallery.qml:75
-#: contents/ui/gallery/CardsLayoutGallery.qml:97
-#: contents/ui/gallery/CardsLayoutGallery.qml:135
-#: contents/ui/gallery/CardsLayoutGallery.qml:209
+#: contents/ui/gallery/CardsLayoutGallery.qml:64
+#: contents/ui/gallery/CardsLayoutGallery.qml:86
+#: contents/ui/gallery/CardsLayoutGallery.qml:124
+#: contents/ui/gallery/CardsLayoutGallery.qml:198
 msgctxt "CardsLayoutGallery|"
 msgid "Action1"
 msgstr "Działanie1"
 
-#: contents/ui/gallery/CardsLayoutGallery.qml:79
-#: contents/ui/gallery/CardsLayoutGallery.qml:101
-#: contents/ui/gallery/CardsLayoutGallery.qml:139
-#: contents/ui/gallery/CardsLayoutGallery.qml:213
+#: contents/ui/gallery/CardsLayoutGallery.qml:68
+#: contents/ui/gallery/CardsLayoutGallery.qml:90
+#: contents/ui/gallery/CardsLayoutGallery.qml:128
+#: contents/ui/gallery/CardsLayoutGallery.qml:202
 msgctxt "CardsLayoutGallery|"
 msgid "Action2"
 msgstr "Działanie2"
 
-#: contents/ui/gallery/CardsLayoutGallery.qml:85
+#: contents/ui/gallery/CardsLayoutGallery.qml:74
 msgctxt "CardsLayoutGallery|"
 msgid "Card"
 msgstr "Karta"
 
-#: contents/ui/gallery/CardsLayoutGallery.qml:89
+#: contents/ui/gallery/CardsLayoutGallery.qml:78
 msgctxt "CardsLayoutGallery|"
 msgid ""
 "This is an instance of the Card type: it can optionally have an image, a "
@@ -104,27 +94,27 @@ msgstr ""
 "wszystkich właściwości. Karta może także mieć działania, które będą "
 "wyświetlane w stopce."
 
-#: contents/ui/gallery/CardsLayoutGallery.qml:105
+#: contents/ui/gallery/CardsLayoutGallery.qml:94
 msgctxt "CardsLayoutGallery|"
 msgid "Action3"
 msgstr "Działanie3"
 
-#: contents/ui/gallery/CardsLayoutGallery.qml:109
+#: contents/ui/gallery/CardsLayoutGallery.qml:98
 msgctxt "CardsLayoutGallery|"
 msgid "Action4"
 msgstr "Działanie4"
 
-#: contents/ui/gallery/CardsLayoutGallery.qml:113
+#: contents/ui/gallery/CardsLayoutGallery.qml:102
 msgctxt "CardsLayoutGallery|"
 msgid "Action5"
 msgstr "Działanie5"
 
-#: contents/ui/gallery/CardsLayoutGallery.qml:117
+#: contents/ui/gallery/CardsLayoutGallery.qml:106
 msgctxt "CardsLayoutGallery|"
 msgid "Action6"
 msgstr "Działanie6"
 
-#: contents/ui/gallery/CardsLayoutGallery.qml:128
+#: contents/ui/gallery/CardsLayoutGallery.qml:117
 msgctxt "CardsLayoutGallery|"
 msgid ""
 "The title can be aligned to all corners or centered with a combination of Qt."
@@ -135,12 +125,12 @@ msgstr ""
 "użyciu mieszanki flag Qt.Alignment.\n"
 " Gdy pojawi się zbyt wiele działań, to przejdą one do menu przepełnienia."
 
-#: contents/ui/gallery/CardsLayoutGallery.qml:143
+#: contents/ui/gallery/CardsLayoutGallery.qml:132
 msgctxt "CardsLayoutGallery|"
 msgid "Action always hidden"
 msgstr "Działanie zawsze ukryte"
 
-#: contents/ui/gallery/CardsLayoutGallery.qml:154
+#: contents/ui/gallery/CardsLayoutGallery.qml:143
 msgctxt "CardsLayoutGallery|"
 msgid ""
 "The Banner can contain only the title and/or an icon, even if there is no "
@@ -148,7 +138,7 @@ msgid ""
 msgstr ""
 "Baner może zawierać tylko tytuł i/lub ikonę, nawet gdy brakuje obrazu baneru."
 
-#: contents/ui/gallery/CardsLayoutGallery.qml:177
+#: contents/ui/gallery/CardsLayoutGallery.qml:166
 msgctxt "CardsLayoutGallery|"
 msgid ""
 "It's possible to have custom contents overlapping the image, for cases where "
@@ -157,7 +147,7 @@ msgstr ""
 "Możliwe jest posiadanie własnych treści nakładających się na obraz w "
 "przypadkach wyglądu dopasowanego do własnych potrzeb."
 
-#: contents/ui/gallery/CardsLayoutGallery.qml:192
+#: contents/ui/gallery/CardsLayoutGallery.qml:181
 msgctxt "CardsLayoutGallery|"
 msgid ""
 "It's possible to customize the look and feel for Cards too, if the no "
@@ -174,17 +164,17 @@ msgstr ""
 "to nie powinno używać się właściwości ikony i baneru. Jeśli używana jest "
 "własna stopka (co jest niezalecane), to nie powinno używać się działań."
 
-#: contents/ui/gallery/CardsLayoutGallery.qml:197
+#: contents/ui/gallery/CardsLayoutGallery.qml:186
 msgctxt "CardsLayoutGallery|"
 msgid "Custom footer"
 msgstr "Własna stopka"
 
-#: contents/ui/gallery/CardsLayoutGallery.qml:200
+#: contents/ui/gallery/CardsLayoutGallery.qml:189
 msgctxt "CardsLayoutGallery|"
 msgid "Ok"
 msgstr "Ok"
 
-#: contents/ui/gallery/CardsLayoutGallery.qml:223
+#: contents/ui/gallery/CardsLayoutGallery.qml:212
 msgctxt "CardsLayoutGallery|"
 msgid ""
 "A card can optionally have horizontal orientation.\n"
@@ -199,22 +189,17 @@ msgstr ""
 "Jeśli potrzebujesz umieścić ją w UkładzieKart, to będzie miała domyślnie "
 "rozpiętość kolumnową równą 2 (co można zastąpić)."
 
-#: contents/ui/gallery/CardsListViewGallery.qml:29
+#: contents/ui/gallery/CardsListViewGallery.qml:30
 msgctxt "CardsListViewGallery|"
 msgid "List view of simple cards"
 msgstr "Widok listy prostych kart"
 
-#: contents/ui/gallery/CardsListViewGallery.qml:34
-msgctxt "CardsListViewGallery|"
-msgid "Info"
-msgstr "Dane"
-
-#: contents/ui/gallery/CardsListViewGallery.qml:86
+#: contents/ui/gallery/CardsListViewGallery.qml:67
 msgctxt "CardsListViewGallery|"
 msgid "Product "
 msgstr "Produkt"
 
-#: contents/ui/gallery/CardsListViewGallery.qml:94
+#: contents/ui/gallery/CardsListViewGallery.qml:75
 msgctxt "CardsListViewGallery|"
 msgid ""
 "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id risus id "
@@ -223,72 +208,78 @@ msgstr ""
 "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id risus id "
 "augue euismod accumsan."
 
-#: contents/ui/gallery/CardsListViewGallery.qml:100
+#: contents/ui/gallery/CardsListViewGallery.qml:81
 msgctxt "CardsListViewGallery|"
 msgid "Install"
 msgstr "Wgraj"
 
-#: contents/ui/gallery/ChipGallery.qml:30
+#: contents/ui/gallery/ChipGallery.qml:31
 msgctxt "ChipGallery|"
 msgid "Chips"
 msgstr "Chipsy"
 
-#: contents/ui/gallery/ChipGallery.qml:34
-msgctxt "ChipGallery|"
-msgid "Info"
-msgstr "Dane"
-
-#: contents/ui/gallery/ChipGallery.qml:65
+#: contents/ui/gallery/ChipGallery.qml:46
 msgctxt "ChipGallery|"
 msgid "Closable Chips"
 msgstr "Zamykalne czipsy"
 
-#: contents/ui/gallery/ChipGallery.qml:95
+#: contents/ui/gallery/ChipGallery.qml:76
 msgctxt "ChipGallery|"
 msgid "Informative Chips"
 msgstr "Informacyjne czipsy"
 
-#: contents/ui/gallery/ChipGallery.qml:131
+#: contents/ui/gallery/ChipGallery.qml:112
 msgctxt "ChipGallery|"
 msgid "Checkable Chips"
 msgstr "Zaznaczalne czipsy"
 
-#: contents/ui/gallery/components/InfoSheet.qml:47
-msgctxt "InfoSheet|"
-msgid "HIG..."
-msgstr "HIG..."
+#: contents/ui/gallery/ColorsGallery.qml:30
+msgctxt "ColorsGallery|"
+msgid "Colors"
+msgstr ""
 
-#: contents/ui/gallery/components/InfoSheet.qml:52
+#: contents/ui/gallery/components/InfoSheet.qml:44
 msgctxt "InfoSheet|"
-msgid "Source code..."
+msgid "HIG…"
+msgstr ""
+
+#: contents/ui/gallery/components/InfoSheet.qml:49
+#, fuzzy
+#| msgctxt "InfoSheet|"
+#| msgid "Source code..."
+msgctxt "InfoSheet|"
+msgid "Source code…"
 msgstr "Kod źródłowy..."
 
-#: contents/ui/gallery/components/InfoSheet.qml:57
+#: contents/ui/gallery/components/InfoSheet.qml:54
 msgctxt "InfoSheet|"
-msgid "API..."
-msgstr "API..."
+msgid "API…"
+msgstr ""
 
-#: contents/ui/gallery/DialogGallery.qml:33
+#: contents/ui/gallery/components/InfoSheetAction.qml:18
+#, fuzzy
+#| msgctxt "ActionToolBarGallery|"
+#| msgid "Info"
+msgctxt "InfoSheetAction|"
+msgid "Info"
+msgstr "Dane"
+
+#: contents/ui/gallery/DialogGallery.qml:34
 msgctxt "DialogGallery|"
 msgid "Dialogs"
 msgstr "Okna dialogowe"
 
-#: contents/ui/gallery/DialogGallery.qml:38
-msgctxt "DialogGallery|"
-msgid "Info"
-msgstr "Dane"
-
-#: contents/ui/gallery/DialogGallery.qml:77
+#: contents/ui/gallery/DialogGallery.qml:58
 msgctxt "DialogGallery|"
 msgid "Create Folder"
 msgstr "Utwórz katalog"
 
-#: contents/ui/gallery/DialogGallery.qml:85
+#: contents/ui/gallery/DialogGallery.qml:66
 msgctxt "DialogGallery|"
 msgid "Cancel"
 msgstr "Anuluj"
 
-#: contents/ui/gallery/DialogGallery.qml:94
+#: contents/ui/gallery/DialogGallery.qml:75
 #, fuzzy
 #| msgctxt "DialogGallery|"
 #| msgid "Folder name..."
@@ -296,185 +287,180 @@ msgctxt "DialogGallery|"
 msgid "Folder name:"
 msgstr "Nazwa katalogu..."
 
-#: contents/ui/gallery/DialogGallery.qml:102
+#: contents/ui/gallery/DialogGallery.qml:83
 msgctxt "DialogGallery|"
 msgid "Alarm Snooze Length"
 msgstr "Długość drzemki alarmu"
 
-#: contents/ui/gallery/DialogGallery.qml:111
+#: contents/ui/gallery/DialogGallery.qml:92
 msgctxt "DialogGallery|"
 msgid "1 minute"
 msgstr "1 minuta"
 
-#: contents/ui/gallery/DialogGallery.qml:112
+#: contents/ui/gallery/DialogGallery.qml:93
 msgctxt "DialogGallery|"
 msgid "2 minutes"
 msgstr "2 minuty"
 
-#: contents/ui/gallery/DialogGallery.qml:113
+#: contents/ui/gallery/DialogGallery.qml:94
 msgctxt "DialogGallery|"
 msgid "3 minutes"
 msgstr "3 minuty"
 
-#: contents/ui/gallery/DialogGallery.qml:114
+#: contents/ui/gallery/DialogGallery.qml:95
 msgctxt "DialogGallery|"
 msgid "4 minutes"
 msgstr "4 minuty"
 
-#: contents/ui/gallery/DialogGallery.qml:115
+#: contents/ui/gallery/DialogGallery.qml:96
 msgctxt "DialogGallery|"
 msgid "5 minutes"
 msgstr "5 minut"
 
-#: contents/ui/gallery/DialogGallery.qml:116
+#: contents/ui/gallery/DialogGallery.qml:97
 msgctxt "DialogGallery|"
 msgid "10 minutes"
 msgstr "10 minut"
 
-#: contents/ui/gallery/DialogGallery.qml:117
+#: contents/ui/gallery/DialogGallery.qml:98
 msgctxt "DialogGallery|"
 msgid "30 minutes"
 msgstr "30 minut"
 
-#: contents/ui/gallery/DialogGallery.qml:118
+#: contents/ui/gallery/DialogGallery.qml:99
 msgctxt "DialogGallery|"
 msgid "1 hour"
 msgstr "1 godzina"
 
-#: contents/ui/gallery/DialogGallery.qml:140
+#: contents/ui/gallery/DialogGallery.qml:121
 msgctxt "DialogGallery|"
 msgid "Select Number"
 msgstr "Wybierz liczbę"
 
-#: contents/ui/gallery/DialogGallery.qml:160
-#: contents/ui/gallery/DialogGallery.qml:226
+#: contents/ui/gallery/DialogGallery.qml:141
+#: contents/ui/gallery/DialogGallery.qml:207
 msgctxt "DialogGallery|"
 msgid "No Footer Dialog"
 msgstr "Okno bez stopki"
 
-#: contents/ui/gallery/DialogGallery.qml:161
+#: contents/ui/gallery/DialogGallery.qml:142
 msgctxt "DialogGallery|"
 msgid "This dialog has no footer buttons.<br/>It also has no close button."
 msgstr ""
 "To okno nie ma przycisków w stopce.<br/>Nie ma także przycisku zamykania."
 
-#: contents/ui/gallery/DialogGallery.qml:169
+#: contents/ui/gallery/DialogGallery.qml:150
 msgctxt "DialogGallery|"
 msgid "Track Options"
 msgstr "Ustawienia utworu"
 
-#: contents/ui/gallery/DialogGallery.qml:174
+#: contents/ui/gallery/DialogGallery.qml:155
 msgctxt "DialogGallery|Start playback of the selected track"
 msgid "Play"
 msgstr "Odtwórz"
 
-#: contents/ui/gallery/DialogGallery.qml:175
+#: contents/ui/gallery/DialogGallery.qml:156
 msgctxt "DialogGallery|"
 msgid "Start playback of the selected track"
 msgstr "Rozpocznij odtwarzanie wybranego utworu"
 
-#: contents/ui/gallery/DialogGallery.qml:180
+#: contents/ui/gallery/DialogGallery.qml:161
 msgctxt "DialogGallery|Show the file for this song in the file manager"
 msgid "Show in folder"
 msgstr "Pokaż w katalogu"
 
-#: contents/ui/gallery/DialogGallery.qml:181
+#: contents/ui/gallery/DialogGallery.qml:162
 msgctxt "DialogGallery|"
 msgid "Show the file for this song in the file manager"
 msgstr "Pokaż plik dla tego utworu w przeglądarce plików"
 
-#: contents/ui/gallery/DialogGallery.qml:185
+#: contents/ui/gallery/DialogGallery.qml:166
 msgctxt "DialogGallery|Show track metadata"
 msgid "View details"
 msgstr "Zobacz szczegóły"
 
-#: contents/ui/gallery/DialogGallery.qml:186
+#: contents/ui/gallery/DialogGallery.qml:167
 msgctxt "DialogGallery|"
 msgid "Show track metadata"
 msgstr "Pokaż metadane utworu"
 
-#: contents/ui/gallery/DialogGallery.qml:190
+#: contents/ui/gallery/DialogGallery.qml:171
 msgctxt ""
 "DialogGallery|Add the track to the queue, right after the current track"
 msgid "Play next"
 msgstr "Odtwórz następny"
 
-#: contents/ui/gallery/DialogGallery.qml:191
+#: contents/ui/gallery/DialogGallery.qml:172
 msgctxt "DialogGallery|"
 msgid "Add the track to the queue, right after the current track"
 msgstr "Dodaj utwór do kolejki zaraz po bieżącym utworze"
 
-#: contents/ui/gallery/DialogGallery.qml:195
+#: contents/ui/gallery/DialogGallery.qml:176
 msgctxt "DialogGallery|Enqueue current track"
 msgid "Add to queue"
 msgstr "Dodaj do kolejki"
 
-#: contents/ui/gallery/DialogGallery.qml:196
+#: contents/ui/gallery/DialogGallery.qml:177
 msgctxt "DialogGallery|"
 msgid "Enqueue current track"
 msgstr "Zakolejkuj bieżący utwór"
 
-#: contents/ui/gallery/DialogGallery.qml:206
+#: contents/ui/gallery/DialogGallery.qml:187
 msgctxt "DialogGallery|"
 msgid "Prompt Dialog"
 msgstr "Okno zapytania"
 
-#: contents/ui/gallery/DialogGallery.qml:211
+#: contents/ui/gallery/DialogGallery.qml:192
 msgctxt "DialogGallery|"
 msgid "Text Prompt Dialog"
 msgstr "Okno zapytania tekstowego"
 
-#: contents/ui/gallery/DialogGallery.qml:216
+#: contents/ui/gallery/DialogGallery.qml:197
 msgctxt "DialogGallery|"
 msgid "Selection Dialog"
 msgstr "Okno zaznaczania"
 
-#: contents/ui/gallery/DialogGallery.qml:221
+#: contents/ui/gallery/DialogGallery.qml:202
 msgctxt "DialogGallery|"
 msgid "Scrollable Dialog"
 msgstr "Okno z przewijaniem"
 
-#: contents/ui/gallery/DialogGallery.qml:231
+#: contents/ui/gallery/DialogGallery.qml:212
 msgctxt "DialogGallery|"
 msgid "Menu Dialog"
 msgstr "Okno z menu"
 
-#: contents/ui/gallery/DrawerGallery.qml:30
+#: contents/ui/gallery/DrawerGallery.qml:31
 msgctxt "DrawerGallery|"
 msgid "Drawers"
 msgstr "Panele"
 
-#: contents/ui/gallery/DrawerGallery.qml:35
-msgctxt "DrawerGallery|"
-msgid "Info"
-msgstr "Dane"
-
-#: contents/ui/gallery/DrawerGallery.qml:41
+#: contents/ui/gallery/DrawerGallery.qml:39
 msgctxt "DrawerGallery|"
 msgid "Action 1"
 msgstr "Działanie 1"
 
-#: contents/ui/gallery/DrawerGallery.qml:43
+#: contents/ui/gallery/DrawerGallery.qml:41
 msgctxt "DrawerGallery|"
 msgid "Action 1 clicked"
 msgstr "Kliknięto działanie 1"
 
-#: contents/ui/gallery/DrawerGallery.qml:46
+#: contents/ui/gallery/DrawerGallery.qml:44
 msgctxt "DrawerGallery|"
 msgid "Disabled Action"
 msgstr "Wyłączone działanie"
 
-#: contents/ui/gallery/DrawerGallery.qml:51
+#: contents/ui/gallery/DrawerGallery.qml:49
 msgctxt "DrawerGallery|"
 msgid "Action 3"
 msgstr "Działanie 3"
 
-#: contents/ui/gallery/DrawerGallery.qml:52
+#: contents/ui/gallery/DrawerGallery.qml:50
 msgctxt "DrawerGallery|"
 msgid "Action 3 clicked"
 msgstr "Kliknięto działanie 3"
 
-#: contents/ui/gallery/DrawerGallery.qml:78
+#: contents/ui/gallery/DrawerGallery.qml:61
 msgctxt "DrawerGallery|"
 msgid ""
 "A modal bottom drawer will span for the whole application window width and "
@@ -484,15 +470,15 @@ msgstr ""
 "Modalny dolny panel zajmie całą szerokość okna aplikacji i przyciemni jej "
 "resztę. Kliknięcie na przyciemnionym obszarze odwoła szufladę."
 
-#: contents/ui/gallery/DrawerGallery.qml:82
+#: contents/ui/gallery/DrawerGallery.qml:65
+#: contents/ui/gallery/DrawerGallery.qml:84
 #: contents/ui/gallery/DrawerGallery.qml:101
-#: contents/ui/gallery/DrawerGallery.qml:118
-#: contents/ui/gallery/DrawerGallery.qml:137
+#: contents/ui/gallery/DrawerGallery.qml:120
 msgctxt "DrawerGallery|"
 msgid "Close"
 msgstr "Zamknij"
 
-#: contents/ui/gallery/DrawerGallery.qml:97
+#: contents/ui/gallery/DrawerGallery.qml:80
 msgctxt "DrawerGallery|"
 msgid ""
 "An inline bottom drawer covers the whole application width but lets the "
@@ -501,7 +487,7 @@ msgstr ""
 "Wbudowany dolny panel przykrywa całą szerokość aplikacji, lecz nadal pozwala "
 "na oddziaływanie na niezakryte obszary."
 
-#: contents/ui/gallery/DrawerGallery.qml:114
+#: contents/ui/gallery/DrawerGallery.qml:97
 msgctxt "DrawerGallery|"
 msgid ""
 "A modal top drawer will span for the whole application window width and will "
@@ -511,7 +497,7 @@ msgstr ""
 "Modalny górny panel zajmie całą szerokość okna aplikacji i przyciemni jej "
 "resztę. Kliknięcie na przyciemnionym obszarze odwoła szufladę."
 
-#: contents/ui/gallery/DrawerGallery.qml:133
+#: contents/ui/gallery/DrawerGallery.qml:116
 msgctxt "DrawerGallery|"
 msgid ""
 "An inline top drawer covers the whole application width but lets the "
@@ -520,52 +506,42 @@ msgstr ""
 "Wtopiony górny panel przykrywa całą szerokość aplikacji, lecz nadal pozwala "
 "na oddziaływanie na niezakryte obszary."
 
-#: contents/ui/gallery/DrawerGallery.qml:148
+#: contents/ui/gallery/DrawerGallery.qml:131
 msgctxt "DrawerGallery|"
 msgid "Left Global Drawer"
 msgstr "Lewy globalny panel"
 
-#: contents/ui/gallery/DrawerGallery.qml:153
+#: contents/ui/gallery/DrawerGallery.qml:136
 msgctxt "DrawerGallery|"
 msgid "Right Context Drawer"
 msgstr "Prawy podręczny panel"
 
-#: contents/ui/gallery/DrawerGallery.qml:159
+#: contents/ui/gallery/DrawerGallery.qml:142
 msgctxt "DrawerGallery|"
 msgid "Modal Bottom Drawer"
 msgstr "Modalny dolny panel"
 
-#: contents/ui/gallery/DrawerGallery.qml:169
+#: contents/ui/gallery/DrawerGallery.qml:152
 msgctxt "DrawerGallery|"
 msgid "Modal Top Drawer"
 msgstr "Modalny górny panel"
 
-#: contents/ui/gallery/FormLayoutGallery.qml:13
-msgctxt "FormLayoutGallery|"
-msgid "Info"
-msgstr "Dane"
-
-#: contents/ui/gallery/FormLayoutGallery.qml:77
+#: contents/ui/gallery/FormLayoutGallery.qml:67
 msgctxt "FormLayoutGallery|"
 msgid "Expanding Button"
 msgstr "Rozszerzający się przycisk"
 
-#: contents/ui/gallery/FormLayoutGallery.qml:127
+#: contents/ui/gallery/FormLayoutGallery.qml:117
 msgctxt "FormLayoutGallery|"
 msgid "Twin Layout:"
 msgstr "Układ bliźniaczy:"
 
-#: contents/ui/gallery/InlineMessagesGallery.qml:31
+#: contents/ui/gallery/InlineMessagesGallery.qml:32
 msgctxt "InlineMessagesGallery|"
 msgid "Inline Messages"
 msgstr "Wtopione wiadomości"
 
-#: contents/ui/gallery/InlineMessagesGallery.qml:35
-msgctxt "InlineMessagesGallery|"
-msgid "Info"
-msgstr "Dane"
-
-#: contents/ui/gallery/InlineMessagesGallery.qml:65
+#: contents/ui/gallery/InlineMessagesGallery.qml:47
 msgctxt "InlineMessagesGallery|"
 msgid ""
 "This is an informational inline message (the default type). Use it for "
@@ -574,7 +550,7 @@ msgstr ""
 "Oto informacyjna wtopiona wiadomość (domyślny rodzaj). Użyj jej, aby np. "
 "powiadomić o wyniku lub aby przekazać komentarz."
 
-#: contents/ui/gallery/InlineMessagesGallery.qml:75
+#: contents/ui/gallery/InlineMessagesGallery.qml:57
 msgctxt "InlineMessagesGallery|"
 msgid ""
 "This is a positive inline message. Use it for example to announce a "
@@ -583,7 +559,7 @@ msgstr ""
 "Oto pomyślna wtopiona wiadomość. Użyj jej, aby np. powiadomić pomyślnym "
 "wyniku lub pomyślnym ukończeniu działania."
 
-#: contents/ui/gallery/InlineMessagesGallery.qml:85
+#: contents/ui/gallery/InlineMessagesGallery.qml:67
 msgctxt "InlineMessagesGallery|"
 msgid ""
 "This is a warning inline message. Use it for example to provide critical "
@@ -592,7 +568,7 @@ msgstr ""
 "Oto wtopiona wiadomość ostrzeżenia. Użyj jej, aby np. doradzić lub ostrzec, "
 "że coś nie zadziała."
 
-#: contents/ui/gallery/InlineMessagesGallery.qml:95
+#: contents/ui/gallery/InlineMessagesGallery.qml:77
 msgctxt "InlineMessagesGallery|"
 msgid ""
 "This is an error inline message. Use it for example to announce something "
@@ -601,12 +577,12 @@ msgstr ""
 "Oto wtopiona wiadomość błędu. Użyj jej, aby np. powiadomić o tym, że coś "
 "poszło nie tak lub że wprowadzone dane są nie do przyjęcia."
 
-#: contents/ui/gallery/InlineMessagesGallery.qml:109
+#: contents/ui/gallery/InlineMessagesGallery.qml:91
 msgctxt "InlineMessagesGallery|"
 msgid "Inline messages can optionally have a custom icon set."
 msgstr "Wtopione wiadomości mogą opcjonalnie zawierać własny zestaw ikon."
 
-#: contents/ui/gallery/InlineMessagesGallery.qml:117
+#: contents/ui/gallery/InlineMessagesGallery.qml:99
 msgctxt "InlineMessagesGallery|"
 msgid ""
 "You can use rich text in inline messages and optionally handle clicks on "
@@ -617,39 +593,39 @@ msgstr ""
 "obsługiwać łącza (otwierane w przeglądarce): <a href=\"https://www.kde.org"
 "\">https://www.kde.org/<a/>"
 
-#: contents/ui/gallery/InlineMessagesGallery.qml:129
+#: contents/ui/gallery/InlineMessagesGallery.qml:111
 msgctxt "InlineMessagesGallery|"
 msgid "Inline messages can have an optional close button."
 msgstr "Wtopione wiadomości mogą opcjonalnie zawierać przycisk zamykania."
 
-#: contents/ui/gallery/InlineMessagesGallery.qml:147
+#: contents/ui/gallery/InlineMessagesGallery.qml:129
 msgctxt "InlineMessagesGallery|"
 msgid "Add text"
 msgstr "Dodaj tekst"
 
-#: contents/ui/gallery/InlineMessagesGallery.qml:157
+#: contents/ui/gallery/InlineMessagesGallery.qml:139
 msgctxt "InlineMessagesGallery|"
 msgid "Reset text"
 msgstr "Wyzeruj tekst"
 
-#: contents/ui/gallery/InlineMessagesGallery.qml:179
+#: contents/ui/gallery/InlineMessagesGallery.qml:161
 msgctxt "InlineMessagesGallery|"
 msgid "Inline messages are initially hidden and animate when revealed. Try it!"
 msgstr ""
 "Wtopione wiadomości są z początku ukryte i wykazują ruch, gdy są odkrywane. "
 "Spróbuj ich!"
 
-#: contents/ui/gallery/InlineMessagesGallery.qml:188
+#: contents/ui/gallery/InlineMessagesGallery.qml:170
 msgctxt "InlineMessagesGallery|"
 msgid "Show additional message"
 msgstr "Pokaż dodatkową wiadomość"
 
-#: contents/ui/gallery/InlineMessagesGallery.qml:205
+#: contents/ui/gallery/InlineMessagesGallery.qml:186
 msgctxt "InlineMessagesGallery|"
 msgid "Boo!"
 msgstr "Boo!"
 
-#: contents/ui/gallery/InlineMessagesGallery.qml:209
+#: contents/ui/gallery/InlineMessagesGallery.qml:190
 msgctxt "InlineMessagesGallery|"
 msgid "Shush"
 msgstr "Shush"
@@ -708,36 +684,31 @@ msgctxt "MultipleColumnsGallery|"
 msgid "Pin page"
 msgstr "Przypnij stronę"
 
-#: contents/ui/gallery/OverlaySheetGallery.qml:31
+#: contents/ui/gallery/OverlaySheetGallery.qml:32
 msgctxt "OverlaySheetGallery|"
 msgid "Overlay Sheets"
 msgstr "Arkusze nakładania"
 
-#: contents/ui/gallery/OverlaySheetGallery.qml:35
-msgctxt "OverlaySheetGallery|"
-msgid "Info"
-msgstr "Dane"
-
-#: contents/ui/gallery/OverlaySheetGallery.qml:83
+#: contents/ui/gallery/OverlaySheetGallery.qml:65
 msgctxt "OverlaySheetGallery|"
 msgid "Close"
 msgstr "Zamknij"
 
-#: contents/ui/gallery/OverlaySheetGallery.qml:93
-#: contents/ui/gallery/OverlaySheetGallery.qml:161
-#: contents/ui/gallery/OverlaySheetGallery.qml:184
+#: contents/ui/gallery/OverlaySheetGallery.qml:75
+#: contents/ui/gallery/OverlaySheetGallery.qml:143
+#: contents/ui/gallery/OverlaySheetGallery.qml:166
 msgctxt "OverlaySheetGallery|"
 msgid "Title"
 msgstr "Tytuł"
 
-#: contents/ui/gallery/OverlaySheetGallery.qml:97
-#: contents/ui/gallery/OverlaySheetGallery.qml:165
-#: contents/ui/gallery/OverlaySheetGallery.qml:188
+#: contents/ui/gallery/OverlaySheetGallery.qml:79
+#: contents/ui/gallery/OverlaySheetGallery.qml:147
+#: contents/ui/gallery/OverlaySheetGallery.qml:170
 msgctxt "OverlaySheetGallery|"
 msgid "Footer:"
 msgstr "Stopka:"
 
-#: contents/ui/gallery/OverlaySheetGallery.qml:108
+#: contents/ui/gallery/OverlaySheetGallery.qml:90
 msgctxt "OverlaySheetGallery|"
 msgid ""
 "A sheet can have optional header and footer items which will not scroll away "
@@ -746,7 +717,7 @@ msgstr ""
 "Arkusz może opcjonalnie zawierać nagłówek i stopkę, które nie znikną, gdy "
 "arkusz zostanie przepełniony."
 
-#: contents/ui/gallery/OverlaySheetGallery.qml:127
+#: contents/ui/gallery/OverlaySheetGallery.qml:109
 msgctxt "OverlaySheetGallery|"
 msgid ""
 "A sheet will take the maximum available width in the page by default.\n"
@@ -757,7 +728,7 @@ msgstr ""
 "Jednakże, jeśli główny element ustawi implicitWidth lub Layout."
 "preferredWidth, to arkusz nie zwiększy się ponad te wartości."
 
-#: contents/ui/gallery/OverlaySheetGallery.qml:148
+#: contents/ui/gallery/OverlaySheetGallery.qml:130
 msgctxt "OverlaySheetGallery|"
 msgid ""
 "A sheet by default will be over a single page, even if the app is in wide "
@@ -771,85 +742,80 @@ msgstr ""
 "wierzch okna całej aplikacji.\n"
 "W tym przypadku arkusz przykryje także przyciski działań strony."
 
-#: contents/ui/gallery/OverlaySheetGallery.qml:176
+#: contents/ui/gallery/OverlaySheetGallery.qml:158
 msgctxt "OverlaySheetGallery|"
 msgid "Item in sheet "
 msgstr "Element na arkuszu"
 
-#: contents/ui/gallery/OverlaySheetGallery.qml:220
+#: contents/ui/gallery/OverlaySheetGallery.qml:202
 msgctxt "OverlaySheetGallery|"
 msgid "Very Long Sheet"
 msgstr "Bardzo długi arkusz"
 
 #: contents/ui/gallery/SelectionControlsGallery.qml:31
 msgctxt "SelectionControlsGallery|"
-msgid "Info"
-msgstr "Dane"
-
-#: contents/ui/gallery/SelectionControlsGallery.qml:38
-msgctxt "SelectionControlsGallery|"
 msgid "Selection Controls"
 msgstr "Elementy zaznaczania"
 
-#: contents/ui/gallery/SelectionControlsGallery.qml:64
+#: contents/ui/gallery/SelectionControlsGallery.qml:47
 msgctxt "SelectionControlsGallery|"
 msgid "Checkable List Items"
 msgstr "Elementy listy pól zaznaczanych"
 
-#: contents/ui/gallery/SelectionControlsGallery.qml:71
-#: contents/ui/gallery/SelectionControlsGallery.qml:94
-#: contents/ui/gallery/SelectionControlsGallery.qml:117
+#: contents/ui/gallery/SelectionControlsGallery.qml:54
+#: contents/ui/gallery/SelectionControlsGallery.qml:77
+#: contents/ui/gallery/SelectionControlsGallery.qml:100
 #, qt-format
 msgctxt "SelectionControlsGallery|"
 msgid "Delegate %1"
 msgstr "Delegat %1"
 
-#: contents/ui/gallery/SelectionControlsGallery.qml:87
-#: contents/ui/gallery/SelectionControlsGallery.qml:110
+#: contents/ui/gallery/SelectionControlsGallery.qml:70
+#: contents/ui/gallery/SelectionControlsGallery.qml:93
 msgctxt "SelectionControlsGallery|"
 msgid "Radio List Items"
 msgstr "Elementy listy radio"
 
-#: contents/ui/gallery/SelectionControlsGallery.qml:126
+#: contents/ui/gallery/SelectionControlsGallery.qml:109
 msgctxt "SelectionControlsGallery|"
 msgid "Checkboxes"
 msgstr "Pola zaznaczania"
 
-#: contents/ui/gallery/SelectionControlsGallery.qml:130
-#: contents/ui/gallery/SelectionControlsGallery.qml:148
-#: contents/ui/gallery/SelectionControlsGallery.qml:166
+#: contents/ui/gallery/SelectionControlsGallery.qml:113
+#: contents/ui/gallery/SelectionControlsGallery.qml:131
+#: contents/ui/gallery/SelectionControlsGallery.qml:149
 msgctxt "SelectionControlsGallery|"
 msgid "Item selected"
 msgstr "Element zaznaczony"
 
-#: contents/ui/gallery/SelectionControlsGallery.qml:134
-#: contents/ui/gallery/SelectionControlsGallery.qml:152
-#: contents/ui/gallery/SelectionControlsGallery.qml:170
+#: contents/ui/gallery/SelectionControlsGallery.qml:117
+#: contents/ui/gallery/SelectionControlsGallery.qml:135
+#: contents/ui/gallery/SelectionControlsGallery.qml:153
 msgctxt "SelectionControlsGallery|"
 msgid "Item not selected"
 msgstr "Element niezaznaczony"
 
-#: contents/ui/gallery/SelectionControlsGallery.qml:138
+#: contents/ui/gallery/SelectionControlsGallery.qml:121
 msgctxt "SelectionControlsGallery|"
 msgid "Checkable List View"
 msgstr "Widok listy pól zaznaczanych"
 
-#: contents/ui/gallery/SelectionControlsGallery.qml:144
+#: contents/ui/gallery/SelectionControlsGallery.qml:127
 msgctxt "SelectionControlsGallery|"
 msgid "Radio buttons"
 msgstr "Przyciski radio"
 
-#: contents/ui/gallery/SelectionControlsGallery.qml:157
+#: contents/ui/gallery/SelectionControlsGallery.qml:140
 msgctxt "SelectionControlsGallery|"
 msgid "Radio List View"
 msgstr "Widok listy przycisków radio"
 
-#: contents/ui/gallery/SelectionControlsGallery.qml:163
+#: contents/ui/gallery/SelectionControlsGallery.qml:146
 msgctxt "SelectionControlsGallery|"
 msgid "Switches"
 msgstr "Przełączniki"
 
-#: contents/ui/gallery/SelectionControlsGallery.qml:174
+#: contents/ui/gallery/SelectionControlsGallery.qml:157
 msgctxt "SelectionControlsGallery|"
 msgid "Switch List View"
 msgstr "Przełącz widok listy"
@@ -858,6 +824,55 @@ msgstr "Przełącz widok listy"
 msgctxt "MainPage|"
 msgid "Kirigami Gallery"
 msgstr "Galeria Kirigami"
+
+#: contents/ui/MainPage.qml:40
+msgctxt "MainPage|"
+msgid "Home"
+msgstr ""
+
+#~ msgctxt "CardsLayoutGallery|"
+#~ msgid "Info"
+#~ msgstr "Dane"
+
+#~ msgctxt "CardsListViewGallery|"
+#~ msgid "Info"
+#~ msgstr "Dane"
+
+#~ msgctxt "ChipGallery|"
+#~ msgid "Info"
+#~ msgstr "Dane"
+
+#~ msgctxt "InfoSheet|"
+#~ msgid "HIG..."
+#~ msgstr "HIG..."
+
+#~ msgctxt "InfoSheet|"
+#~ msgid "API..."
+#~ msgstr "API..."
+
+#~ msgctxt "DialogGallery|"
+#~ msgid "Info"
+#~ msgstr "Dane"
+
+#~ msgctxt "DrawerGallery|"
+#~ msgid "Info"
+#~ msgstr "Dane"
+
+#~ msgctxt "FormLayoutGallery|"
+#~ msgid "Info"
+#~ msgstr "Dane"
+
+#~ msgctxt "InlineMessagesGallery|"
+#~ msgid "Info"
+#~ msgstr "Dane"
+
+#~ msgctxt "OverlaySheetGallery|"
+#~ msgid "Info"
+#~ msgstr "Dane"
+
+#~ msgctxt "SelectionControlsGallery|"
+#~ msgid "Info"
+#~ msgstr "Dane"
 
 #~ msgctxt "CardsGridViewGallery|"
 #~ msgid "Grid view of Cards"

@@ -19,27 +19,17 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Lokalize 22.08.0\n"
 
-#: contents/ui/gallery/ActionToolBarGallery.qml:35
-msgctxt "ActionToolBarGallery|"
-msgid "Info"
-msgstr "Informazioa"
-
-#: contents/ui/gallery/CardsLayoutGallery.qml:29
+#: contents/ui/gallery/CardsLayoutGallery.qml:30
 msgctxt "CardsLayoutGallery|"
 msgid "Cards Layout"
 msgstr "Txartelen antolaera"
 
-#: contents/ui/gallery/CardsLayoutGallery.qml:34
-msgctxt "CardsLayoutGallery|"
-msgid "Info"
-msgstr "Informazioa"
-
-#: contents/ui/gallery/CardsLayoutGallery.qml:54
+#: contents/ui/gallery/CardsLayoutGallery.qml:43
 msgctxt "CardsLayoutGallery|"
 msgid "AbstractCard"
 msgstr "AbstractCard"
 
-#: contents/ui/gallery/CardsLayoutGallery.qml:59
+#: contents/ui/gallery/CardsLayoutGallery.qml:48
 msgctxt "CardsLayoutGallery|"
 msgid ""
 "An AbstractCard is the simplest form of card. It's just a rectangle with a "
@@ -54,7 +44,7 @@ msgstr ""
 "bere goiburua eta «WordWrap» (itzulbiratzea) duen «Label» (etiketa) bat da "
 "«ContentItem» (eduki-elementua)."
 
-#: contents/ui/gallery/CardsLayoutGallery.qml:67
+#: contents/ui/gallery/CardsLayoutGallery.qml:56
 msgctxt "CardsLayoutGallery|"
 msgid ""
 "This is an AbstractCard with a Label with WordWrap in it and nothing else, "
@@ -73,33 +63,33 @@ msgstr ""
 "erreakziorik erakutsi behar badu. Txartela edonolako kliketara erreaktibo "
 "egiteko asmorik baduzu, propietate hau egia gisa ezartzea gomendatzen da."
 
-#: contents/ui/gallery/CardsLayoutGallery.qml:69
+#: contents/ui/gallery/CardsLayoutGallery.qml:58
 msgctxt "CardsLayoutGallery|"
 msgid "Card clicked"
 msgstr "Txartela sakatuta"
 
-#: contents/ui/gallery/CardsLayoutGallery.qml:75
-#: contents/ui/gallery/CardsLayoutGallery.qml:97
-#: contents/ui/gallery/CardsLayoutGallery.qml:135
-#: contents/ui/gallery/CardsLayoutGallery.qml:209
+#: contents/ui/gallery/CardsLayoutGallery.qml:64
+#: contents/ui/gallery/CardsLayoutGallery.qml:86
+#: contents/ui/gallery/CardsLayoutGallery.qml:124
+#: contents/ui/gallery/CardsLayoutGallery.qml:198
 msgctxt "CardsLayoutGallery|"
 msgid "Action1"
 msgstr "Ekintza1"
 
-#: contents/ui/gallery/CardsLayoutGallery.qml:79
-#: contents/ui/gallery/CardsLayoutGallery.qml:101
-#: contents/ui/gallery/CardsLayoutGallery.qml:139
-#: contents/ui/gallery/CardsLayoutGallery.qml:213
+#: contents/ui/gallery/CardsLayoutGallery.qml:68
+#: contents/ui/gallery/CardsLayoutGallery.qml:90
+#: contents/ui/gallery/CardsLayoutGallery.qml:128
+#: contents/ui/gallery/CardsLayoutGallery.qml:202
 msgctxt "CardsLayoutGallery|"
 msgid "Action2"
 msgstr "Ekintza2"
 
-#: contents/ui/gallery/CardsLayoutGallery.qml:85
+#: contents/ui/gallery/CardsLayoutGallery.qml:74
 msgctxt "CardsLayoutGallery|"
 msgid "Card"
 msgstr "Txartela"
 
-#: contents/ui/gallery/CardsLayoutGallery.qml:89
+#: contents/ui/gallery/CardsLayoutGallery.qml:78
 msgctxt "CardsLayoutGallery|"
 msgid ""
 "This is an instance of the Card type: it can optionally have an image, a "
@@ -112,27 +102,27 @@ msgstr ""
 "aukera du, haietako bakarra edo guztiak batera. Txartel batek, orri-oinean "
 "agertuko diren ekintzak ere izan ditzake."
 
-#: contents/ui/gallery/CardsLayoutGallery.qml:105
+#: contents/ui/gallery/CardsLayoutGallery.qml:94
 msgctxt "CardsLayoutGallery|"
 msgid "Action3"
 msgstr "Ekintza3"
 
-#: contents/ui/gallery/CardsLayoutGallery.qml:109
+#: contents/ui/gallery/CardsLayoutGallery.qml:98
 msgctxt "CardsLayoutGallery|"
 msgid "Action4"
 msgstr "Ekintza4"
 
-#: contents/ui/gallery/CardsLayoutGallery.qml:113
+#: contents/ui/gallery/CardsLayoutGallery.qml:102
 msgctxt "CardsLayoutGallery|"
 msgid "Action5"
 msgstr "Ekintza5"
 
-#: contents/ui/gallery/CardsLayoutGallery.qml:117
+#: contents/ui/gallery/CardsLayoutGallery.qml:106
 msgctxt "CardsLayoutGallery|"
 msgid "Action6"
 msgstr "Ekintza6"
 
-#: contents/ui/gallery/CardsLayoutGallery.qml:128
+#: contents/ui/gallery/CardsLayoutGallery.qml:117
 msgctxt "CardsLayoutGallery|"
 msgid ""
 "The title can be aligned to all corners or centered with a combination of Qt."
@@ -143,12 +133,12 @@ msgstr ""
 "bandera konbinazio bat erabiliz.\n"
 " Ekintza gehiegi daudenean, gainezkatze menu batean sartzen dira."
 
-#: contents/ui/gallery/CardsLayoutGallery.qml:143
+#: contents/ui/gallery/CardsLayoutGallery.qml:132
 msgctxt "CardsLayoutGallery|"
 msgid "Action always hidden"
 msgstr "Ekintza beti ezkutuan"
 
-#: contents/ui/gallery/CardsLayoutGallery.qml:154
+#: contents/ui/gallery/CardsLayoutGallery.qml:143
 msgctxt "CardsLayoutGallery|"
 msgid ""
 "The Banner can contain only the title and/or an icon, even if there is no "
@@ -157,7 +147,7 @@ msgstr ""
 "«Banner», iragarki-bandak, soilik, titulua eta/edo ikono bat izan ditzake, "
 "nahiz eta iragarki-bandako irudirik ez egon."
 
-#: contents/ui/gallery/CardsLayoutGallery.qml:177
+#: contents/ui/gallery/CardsLayoutGallery.qml:166
 msgctxt "CardsLayoutGallery|"
 msgid ""
 "It's possible to have custom contents overlapping the image, for cases where "
@@ -166,7 +156,7 @@ msgstr ""
 "Diseinu pertsonalizatuagoa behar denerako, norberak egokitutako edukia "
 "irudiari gainjartzea posible da."
 
-#: contents/ui/gallery/CardsLayoutGallery.qml:192
+#: contents/ui/gallery/CardsLayoutGallery.qml:181
 msgctxt "CardsLayoutGallery|"
 msgid ""
 "It's possible to customize the look and feel for Cards too, if the no "
@@ -185,17 +175,17 @@ msgstr ""
 "behar. Norbere erara egokitutako orri-oin bat erabiltzen bada (ez da "
 "gomendagarria), ekintzak ez lirateke erabili behar."
 
-#: contents/ui/gallery/CardsLayoutGallery.qml:197
+#: contents/ui/gallery/CardsLayoutGallery.qml:186
 msgctxt "CardsLayoutGallery|"
 msgid "Custom footer"
 msgstr "Norberak finkatutako orri-oina"
 
-#: contents/ui/gallery/CardsLayoutGallery.qml:200
+#: contents/ui/gallery/CardsLayoutGallery.qml:189
 msgctxt "CardsLayoutGallery|"
 msgid "Ok"
 msgstr "Ados"
 
-#: contents/ui/gallery/CardsLayoutGallery.qml:223
+#: contents/ui/gallery/CardsLayoutGallery.qml:212
 msgctxt "CardsLayoutGallery|"
 msgid ""
 "A card can optionally have horizontal orientation.\n"
@@ -210,22 +200,17 @@ msgstr ""
 "«CardsLayout» (Txartel-antolaera) batean ipini behar baduzu, lehenetsitako "
 "«columnSpan» (Zutabe-hedadura) 2 izango du (baliogabetu daiteke)."
 
-#: contents/ui/gallery/CardsListViewGallery.qml:29
+#: contents/ui/gallery/CardsListViewGallery.qml:30
 msgctxt "CardsListViewGallery|"
 msgid "List view of simple cards"
 msgstr "Txartel soilen zerrenda ikuspegia"
 
-#: contents/ui/gallery/CardsListViewGallery.qml:34
-msgctxt "CardsListViewGallery|"
-msgid "Info"
-msgstr "Informazioa"
-
-#: contents/ui/gallery/CardsListViewGallery.qml:86
+#: contents/ui/gallery/CardsListViewGallery.qml:67
 msgctxt "CardsListViewGallery|"
 msgid "Product "
 msgstr "Produktua "
 
-#: contents/ui/gallery/CardsListViewGallery.qml:94
+#: contents/ui/gallery/CardsListViewGallery.qml:75
 msgctxt "CardsListViewGallery|"
 msgid ""
 "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id risus id "
@@ -234,72 +219,78 @@ msgstr ""
 "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id risus id "
 "augue euismod accumsan."
 
-#: contents/ui/gallery/CardsListViewGallery.qml:100
+#: contents/ui/gallery/CardsListViewGallery.qml:81
 msgctxt "CardsListViewGallery|"
 msgid "Install"
 msgstr "Instalatu"
 
-#: contents/ui/gallery/ChipGallery.qml:30
+#: contents/ui/gallery/ChipGallery.qml:31
 msgctxt "ChipGallery|"
 msgid "Chips"
 msgstr "Txipak"
 
-#: contents/ui/gallery/ChipGallery.qml:34
-msgctxt "ChipGallery|"
-msgid "Info"
-msgstr "Informazioa"
-
-#: contents/ui/gallery/ChipGallery.qml:65
+#: contents/ui/gallery/ChipGallery.qml:46
 msgctxt "ChipGallery|"
 msgid "Closable Chips"
 msgstr "Itxi daitezkeen txipak"
 
-#: contents/ui/gallery/ChipGallery.qml:95
+#: contents/ui/gallery/ChipGallery.qml:76
 msgctxt "ChipGallery|"
 msgid "Informative Chips"
 msgstr "Informazio txipak"
 
-#: contents/ui/gallery/ChipGallery.qml:131
+#: contents/ui/gallery/ChipGallery.qml:112
 msgctxt "ChipGallery|"
 msgid "Checkable Chips"
 msgstr "Marka daitezkeen txipak"
 
-#: contents/ui/gallery/components/InfoSheet.qml:47
-msgctxt "InfoSheet|"
-msgid "HIG..."
-msgstr "HIG..."
+#: contents/ui/gallery/ColorsGallery.qml:30
+msgctxt "ColorsGallery|"
+msgid "Colors"
+msgstr ""
 
-#: contents/ui/gallery/components/InfoSheet.qml:52
+#: contents/ui/gallery/components/InfoSheet.qml:44
 msgctxt "InfoSheet|"
-msgid "Source code..."
+msgid "HIG…"
+msgstr ""
+
+#: contents/ui/gallery/components/InfoSheet.qml:49
+#, fuzzy
+#| msgctxt "InfoSheet|"
+#| msgid "Source code..."
+msgctxt "InfoSheet|"
+msgid "Source code…"
 msgstr "Sorburu kodea..."
 
-#: contents/ui/gallery/components/InfoSheet.qml:57
+#: contents/ui/gallery/components/InfoSheet.qml:54
 msgctxt "InfoSheet|"
-msgid "API..."
-msgstr "API..."
+msgid "API…"
+msgstr ""
 
-#: contents/ui/gallery/DialogGallery.qml:33
+#: contents/ui/gallery/components/InfoSheetAction.qml:18
+#, fuzzy
+#| msgctxt "ActionToolBarGallery|"
+#| msgid "Info"
+msgctxt "InfoSheetAction|"
+msgid "Info"
+msgstr "Informazioa"
+
+#: contents/ui/gallery/DialogGallery.qml:34
 msgctxt "DialogGallery|"
 msgid "Dialogs"
 msgstr "Elkarrizketa-koadroak"
 
-#: contents/ui/gallery/DialogGallery.qml:38
-msgctxt "DialogGallery|"
-msgid "Info"
-msgstr "Informazioa"
-
-#: contents/ui/gallery/DialogGallery.qml:77
+#: contents/ui/gallery/DialogGallery.qml:58
 msgctxt "DialogGallery|"
 msgid "Create Folder"
 msgstr "Sortu karpeta"
 
-#: contents/ui/gallery/DialogGallery.qml:85
+#: contents/ui/gallery/DialogGallery.qml:66
 msgctxt "DialogGallery|"
 msgid "Cancel"
 msgstr "Utzi"
 
-#: contents/ui/gallery/DialogGallery.qml:94
+#: contents/ui/gallery/DialogGallery.qml:75
 #, fuzzy
 #| msgctxt "DialogGallery|"
 #| msgid "Folder name..."
@@ -307,186 +298,181 @@ msgctxt "DialogGallery|"
 msgid "Folder name:"
 msgstr "Karpeta-izena..."
 
-#: contents/ui/gallery/DialogGallery.qml:102
+#: contents/ui/gallery/DialogGallery.qml:83
 msgctxt "DialogGallery|"
 msgid "Alarm Snooze Length"
 msgstr "Alarma-kuluxkaren iraupena"
 
-#: contents/ui/gallery/DialogGallery.qml:111
+#: contents/ui/gallery/DialogGallery.qml:92
 msgctxt "DialogGallery|"
 msgid "1 minute"
 msgstr "minutu 1"
 
-#: contents/ui/gallery/DialogGallery.qml:112
+#: contents/ui/gallery/DialogGallery.qml:93
 msgctxt "DialogGallery|"
 msgid "2 minutes"
 msgstr "2 minutu"
 
-#: contents/ui/gallery/DialogGallery.qml:113
+#: contents/ui/gallery/DialogGallery.qml:94
 msgctxt "DialogGallery|"
 msgid "3 minutes"
 msgstr "3 minutu"
 
-#: contents/ui/gallery/DialogGallery.qml:114
+#: contents/ui/gallery/DialogGallery.qml:95
 msgctxt "DialogGallery|"
 msgid "4 minutes"
 msgstr "4 minutu"
 
-#: contents/ui/gallery/DialogGallery.qml:115
+#: contents/ui/gallery/DialogGallery.qml:96
 msgctxt "DialogGallery|"
 msgid "5 minutes"
 msgstr "5 minutu"
 
-#: contents/ui/gallery/DialogGallery.qml:116
+#: contents/ui/gallery/DialogGallery.qml:97
 msgctxt "DialogGallery|"
 msgid "10 minutes"
 msgstr "10 minutu"
 
-#: contents/ui/gallery/DialogGallery.qml:117
+#: contents/ui/gallery/DialogGallery.qml:98
 msgctxt "DialogGallery|"
 msgid "30 minutes"
 msgstr "30 minutu"
 
-#: contents/ui/gallery/DialogGallery.qml:118
+#: contents/ui/gallery/DialogGallery.qml:99
 msgctxt "DialogGallery|"
 msgid "1 hour"
 msgstr "ordu 1"
 
-#: contents/ui/gallery/DialogGallery.qml:140
+#: contents/ui/gallery/DialogGallery.qml:121
 msgctxt "DialogGallery|"
 msgid "Select Number"
 msgstr "Hautatu zenbakia"
 
-#: contents/ui/gallery/DialogGallery.qml:160
-#: contents/ui/gallery/DialogGallery.qml:226
+#: contents/ui/gallery/DialogGallery.qml:141
+#: contents/ui/gallery/DialogGallery.qml:207
 msgctxt "DialogGallery|"
 msgid "No Footer Dialog"
 msgstr "Oinik gabeko elkarrizketa-koadroa"
 
-#: contents/ui/gallery/DialogGallery.qml:161
+#: contents/ui/gallery/DialogGallery.qml:142
 msgctxt "DialogGallery|"
 msgid "This dialog has no footer buttons.<br/>It also has no close button."
 msgstr ""
 "Elkarrizketa-koadroak ez dauka oineko botoirik.<br/>Ez dauka ixteko botoirik "
 "ere."
 
-#: contents/ui/gallery/DialogGallery.qml:169
+#: contents/ui/gallery/DialogGallery.qml:150
 msgctxt "DialogGallery|"
 msgid "Track Options"
 msgstr "Pistaren aukerak"
 
-#: contents/ui/gallery/DialogGallery.qml:174
+#: contents/ui/gallery/DialogGallery.qml:155
 msgctxt "DialogGallery|Start playback of the selected track"
 msgid "Play"
 msgstr "Jo"
 
-#: contents/ui/gallery/DialogGallery.qml:175
+#: contents/ui/gallery/DialogGallery.qml:156
 msgctxt "DialogGallery|"
 msgid "Start playback of the selected track"
 msgstr "Abiatu hautatutako pistaren atzera-jotzea"
 
-#: contents/ui/gallery/DialogGallery.qml:180
+#: contents/ui/gallery/DialogGallery.qml:161
 msgctxt "DialogGallery|Show the file for this song in the file manager"
 msgid "Show in folder"
 msgstr "Erakutsi karpetan"
 
-#: contents/ui/gallery/DialogGallery.qml:181
+#: contents/ui/gallery/DialogGallery.qml:162
 msgctxt "DialogGallery|"
 msgid "Show the file for this song in the file manager"
 msgstr "Erakutsi abesti honetarako fitxategia fitxategi kudeatzailean"
 
-#: contents/ui/gallery/DialogGallery.qml:185
+#: contents/ui/gallery/DialogGallery.qml:166
 msgctxt "DialogGallery|Show track metadata"
 msgid "View details"
 msgstr "Ikusi xehetasunak"
 
-#: contents/ui/gallery/DialogGallery.qml:186
+#: contents/ui/gallery/DialogGallery.qml:167
 msgctxt "DialogGallery|"
 msgid "Show track metadata"
 msgstr "Erakutsi pistaren metadatuak"
 
-#: contents/ui/gallery/DialogGallery.qml:190
+#: contents/ui/gallery/DialogGallery.qml:171
 msgctxt ""
 "DialogGallery|Add the track to the queue, right after the current track"
 msgid "Play next"
 msgstr "Jo hurrengoa"
 
-#: contents/ui/gallery/DialogGallery.qml:191
+#: contents/ui/gallery/DialogGallery.qml:172
 msgctxt "DialogGallery|"
 msgid "Add the track to the queue, right after the current track"
 msgstr "Gehitu pista ilaran, justu uneko pistaren ondoren"
 
-#: contents/ui/gallery/DialogGallery.qml:195
+#: contents/ui/gallery/DialogGallery.qml:176
 msgctxt "DialogGallery|Enqueue current track"
 msgid "Add to queue"
 msgstr "Gehitu ilaran"
 
-#: contents/ui/gallery/DialogGallery.qml:196
+#: contents/ui/gallery/DialogGallery.qml:177
 msgctxt "DialogGallery|"
 msgid "Enqueue current track"
 msgstr "Uneko pista ilaran ipini"
 
-#: contents/ui/gallery/DialogGallery.qml:206
+#: contents/ui/gallery/DialogGallery.qml:187
 msgctxt "DialogGallery|"
 msgid "Prompt Dialog"
 msgstr "Gonbit elkarrizketa-koadroa"
 
-#: contents/ui/gallery/DialogGallery.qml:211
+#: contents/ui/gallery/DialogGallery.qml:192
 msgctxt "DialogGallery|"
 msgid "Text Prompt Dialog"
 msgstr "Testu-gonbit elkarrizketa-koadroa"
 
-#: contents/ui/gallery/DialogGallery.qml:216
+#: contents/ui/gallery/DialogGallery.qml:197
 msgctxt "DialogGallery|"
 msgid "Selection Dialog"
 msgstr "Hautapen elkarrizketa-koadroa"
 
-#: contents/ui/gallery/DialogGallery.qml:221
+#: contents/ui/gallery/DialogGallery.qml:202
 msgctxt "DialogGallery|"
 msgid "Scrollable Dialog"
 msgstr "Kiribil daitekeen elkarrizketa-koadroa"
 
-#: contents/ui/gallery/DialogGallery.qml:231
+#: contents/ui/gallery/DialogGallery.qml:212
 msgctxt "DialogGallery|"
 msgid "Menu Dialog"
 msgstr "Menu elkarrizketa-koadroa"
 
-#: contents/ui/gallery/DrawerGallery.qml:30
+#: contents/ui/gallery/DrawerGallery.qml:31
 msgctxt "DrawerGallery|"
 msgid "Drawers"
 msgstr "Tiraderak"
 
-#: contents/ui/gallery/DrawerGallery.qml:35
-msgctxt "DrawerGallery|"
-msgid "Info"
-msgstr "Informazioa"
-
-#: contents/ui/gallery/DrawerGallery.qml:41
+#: contents/ui/gallery/DrawerGallery.qml:39
 msgctxt "DrawerGallery|"
 msgid "Action 1"
 msgstr "Ekintza 1"
 
-#: contents/ui/gallery/DrawerGallery.qml:43
+#: contents/ui/gallery/DrawerGallery.qml:41
 msgctxt "DrawerGallery|"
 msgid "Action 1 clicked"
 msgstr "Ekintza 1 klikatuta"
 
-#: contents/ui/gallery/DrawerGallery.qml:46
+#: contents/ui/gallery/DrawerGallery.qml:44
 msgctxt "DrawerGallery|"
 msgid "Disabled Action"
 msgstr "Desgaitutako ekintza"
 
-#: contents/ui/gallery/DrawerGallery.qml:51
+#: contents/ui/gallery/DrawerGallery.qml:49
 msgctxt "DrawerGallery|"
 msgid "Action 3"
 msgstr "Ekintza 3"
 
-#: contents/ui/gallery/DrawerGallery.qml:52
+#: contents/ui/gallery/DrawerGallery.qml:50
 msgctxt "DrawerGallery|"
 msgid "Action 3 clicked"
 msgstr "Ekintza 3 klikatuta"
 
-#: contents/ui/gallery/DrawerGallery.qml:78
+#: contents/ui/gallery/DrawerGallery.qml:61
 msgctxt "DrawerGallery|"
 msgid ""
 "A modal bottom drawer will span for the whole application window width and "
@@ -497,15 +483,15 @@ msgstr ""
 "aplikazioaren gainerakoa ilunduko du. Ilundutako aldean klik eginda tiradera "
 "uxatuko da."
 
-#: contents/ui/gallery/DrawerGallery.qml:82
+#: contents/ui/gallery/DrawerGallery.qml:65
+#: contents/ui/gallery/DrawerGallery.qml:84
 #: contents/ui/gallery/DrawerGallery.qml:101
-#: contents/ui/gallery/DrawerGallery.qml:118
-#: contents/ui/gallery/DrawerGallery.qml:137
+#: contents/ui/gallery/DrawerGallery.qml:120
 msgctxt "DrawerGallery|"
 msgid "Close"
 msgstr "Itxi"
 
-#: contents/ui/gallery/DrawerGallery.qml:97
+#: contents/ui/gallery/DrawerGallery.qml:80
 msgctxt "DrawerGallery|"
 msgid ""
 "An inline bottom drawer covers the whole application width but lets the "
@@ -514,7 +500,7 @@ msgstr ""
 "Lerro barruko beheko tiradera batek aplikazioaren zabalera osoa estaltzen "
 "du, baina, estali gabeko piezekin elkarreragin daiteke."
 
-#: contents/ui/gallery/DrawerGallery.qml:114
+#: contents/ui/gallery/DrawerGallery.qml:97
 msgctxt "DrawerGallery|"
 msgid ""
 "A modal top drawer will span for the whole application window width and will "
@@ -525,7 +511,7 @@ msgstr ""
 "aplikazioaren gainerakoa ilunduko du. Ilundutako aldean klik eginda tiradera "
 "uxatuko da."
 
-#: contents/ui/gallery/DrawerGallery.qml:133
+#: contents/ui/gallery/DrawerGallery.qml:116
 msgctxt "DrawerGallery|"
 msgid ""
 "An inline top drawer covers the whole application width but lets the "
@@ -534,52 +520,42 @@ msgstr ""
 "Lerro barruko goiko tiradera batek aplikazioaren zabalera osoa estaltzen du, "
 "baina, estali gabeko piezekin elkarreragin daiteke."
 
-#: contents/ui/gallery/DrawerGallery.qml:148
+#: contents/ui/gallery/DrawerGallery.qml:131
 msgctxt "DrawerGallery|"
 msgid "Left Global Drawer"
 msgstr "Ezkerreko tiradera orokorra"
 
-#: contents/ui/gallery/DrawerGallery.qml:153
+#: contents/ui/gallery/DrawerGallery.qml:136
 msgctxt "DrawerGallery|"
 msgid "Right Context Drawer"
 msgstr "Eskuineko tiradera orokorra"
 
-#: contents/ui/gallery/DrawerGallery.qml:159
+#: contents/ui/gallery/DrawerGallery.qml:142
 msgctxt "DrawerGallery|"
 msgid "Modal Bottom Drawer"
 msgstr "Beheko tiradera modala"
 
-#: contents/ui/gallery/DrawerGallery.qml:169
+#: contents/ui/gallery/DrawerGallery.qml:152
 msgctxt "DrawerGallery|"
 msgid "Modal Top Drawer"
 msgstr "Goiko tiradera modala"
 
-#: contents/ui/gallery/FormLayoutGallery.qml:13
-msgctxt "FormLayoutGallery|"
-msgid "Info"
-msgstr "Informazioa"
-
-#: contents/ui/gallery/FormLayoutGallery.qml:77
+#: contents/ui/gallery/FormLayoutGallery.qml:67
 msgctxt "FormLayoutGallery|"
 msgid "Expanding Button"
 msgstr "Hedapen-botoia"
 
-#: contents/ui/gallery/FormLayoutGallery.qml:127
+#: contents/ui/gallery/FormLayoutGallery.qml:117
 msgctxt "FormLayoutGallery|"
 msgid "Twin Layout:"
 msgstr "Antolaera bikia:"
 
-#: contents/ui/gallery/InlineMessagesGallery.qml:31
+#: contents/ui/gallery/InlineMessagesGallery.qml:32
 msgctxt "InlineMessagesGallery|"
 msgid "Inline Messages"
 msgstr "Lerro barruko mezuak"
 
-#: contents/ui/gallery/InlineMessagesGallery.qml:35
-msgctxt "InlineMessagesGallery|"
-msgid "Info"
-msgstr "Informazioa"
-
-#: contents/ui/gallery/InlineMessagesGallery.qml:65
+#: contents/ui/gallery/InlineMessagesGallery.qml:47
 msgctxt "InlineMessagesGallery|"
 msgid ""
 "This is an informational inline message (the default type). Use it for "
@@ -588,7 +564,7 @@ msgstr ""
 "Hau lerro barruko mezu informatibo bat da (lehenetsitako mota). Erabil "
 "ezazu, adibidez, emaitza baten berri emateko edo iruzkinak emateko."
 
-#: contents/ui/gallery/InlineMessagesGallery.qml:75
+#: contents/ui/gallery/InlineMessagesGallery.qml:57
 msgctxt "InlineMessagesGallery|"
 msgid ""
 "This is a positive inline message. Use it for example to announce a "
@@ -597,7 +573,7 @@ msgstr ""
 "Hau lerro barruko mezu positibo bat da. Erabil ezazu, adibidez, emaitza "
 "arrakastatsu bat edo ondo amaitu den prozedura bat iragartzeko."
 
-#: contents/ui/gallery/InlineMessagesGallery.qml:85
+#: contents/ui/gallery/InlineMessagesGallery.qml:67
 msgctxt "InlineMessagesGallery|"
 msgid ""
 "This is a warning inline message. Use it for example to provide critical "
@@ -606,7 +582,7 @@ msgstr ""
 "Hau lerro barruko abisu-mezu bat da. Erabil ezazu, adibidez, orientazio "
 "kritikoa emateko edo ibiliko ez den zerbaiti buruz ohartarazteko."
 
-#: contents/ui/gallery/InlineMessagesGallery.qml:95
+#: contents/ui/gallery/InlineMessagesGallery.qml:77
 msgctxt "InlineMessagesGallery|"
 msgid ""
 "This is an error inline message. Use it for example to announce something "
@@ -615,14 +591,14 @@ msgstr ""
 "Hau lerro barruko errore-mezu bat da. Erabil ezazu, adibidez, zerbait gaizki "
 "joan dela edo sarrerakoa ez dela onartuko jakinarazteko."
 
-#: contents/ui/gallery/InlineMessagesGallery.qml:109
+#: contents/ui/gallery/InlineMessagesGallery.qml:91
 msgctxt "InlineMessagesGallery|"
 msgid "Inline messages can optionally have a custom icon set."
 msgstr ""
 "Lerro barruko mezuek hautazko gisa norberak finkatutako ikono-multzo bat "
 "izan dezakete."
 
-#: contents/ui/gallery/InlineMessagesGallery.qml:117
+#: contents/ui/gallery/InlineMessagesGallery.qml:99
 msgctxt "InlineMessagesGallery|"
 msgid ""
 "You can use rich text in inline messages and optionally handle clicks on "
@@ -633,39 +609,39 @@ msgstr ""
 "egindako klikak (arakatzailean irekitzen da) kudeatzeko aukera duzu: <a href="
 "\"https://www.kde.org\">https://www.kde.org/<a/>"
 
-#: contents/ui/gallery/InlineMessagesGallery.qml:129
+#: contents/ui/gallery/InlineMessagesGallery.qml:111
 msgctxt "InlineMessagesGallery|"
 msgid "Inline messages can have an optional close button."
 msgstr "Lerro barruko mezuek hautazko ixteko botoi bat izan dezakete."
 
-#: contents/ui/gallery/InlineMessagesGallery.qml:147
+#: contents/ui/gallery/InlineMessagesGallery.qml:129
 msgctxt "InlineMessagesGallery|"
 msgid "Add text"
 msgstr "Gehitu testua"
 
-#: contents/ui/gallery/InlineMessagesGallery.qml:157
+#: contents/ui/gallery/InlineMessagesGallery.qml:139
 msgctxt "InlineMessagesGallery|"
 msgid "Reset text"
 msgstr "Berrezarri testua"
 
-#: contents/ui/gallery/InlineMessagesGallery.qml:179
+#: contents/ui/gallery/InlineMessagesGallery.qml:161
 msgctxt "InlineMessagesGallery|"
 msgid "Inline messages are initially hidden and animate when revealed. Try it!"
 msgstr ""
 "Lerro barruko mezuak hasieran ezkutuan daude eta agertzean animatzen dira. "
 "Proba ezazu!"
 
-#: contents/ui/gallery/InlineMessagesGallery.qml:188
+#: contents/ui/gallery/InlineMessagesGallery.qml:170
 msgctxt "InlineMessagesGallery|"
 msgid "Show additional message"
 msgstr "Erakutsi mezu osagarria"
 
-#: contents/ui/gallery/InlineMessagesGallery.qml:205
+#: contents/ui/gallery/InlineMessagesGallery.qml:186
 msgctxt "InlineMessagesGallery|"
 msgid "Boo!"
 msgstr "Buu!"
 
-#: contents/ui/gallery/InlineMessagesGallery.qml:209
+#: contents/ui/gallery/InlineMessagesGallery.qml:190
 msgctxt "InlineMessagesGallery|"
 msgid "Shush"
 msgstr "Ixo"
@@ -724,36 +700,31 @@ msgctxt "MultipleColumnsGallery|"
 msgid "Pin page"
 msgstr "Iltzatu orria"
 
-#: contents/ui/gallery/OverlaySheetGallery.qml:31
+#: contents/ui/gallery/OverlaySheetGallery.qml:32
 msgctxt "OverlaySheetGallery|"
 msgid "Overlay Sheets"
 msgstr "Gainjarritako orriak"
 
-#: contents/ui/gallery/OverlaySheetGallery.qml:35
-msgctxt "OverlaySheetGallery|"
-msgid "Info"
-msgstr "Informazioa"
-
-#: contents/ui/gallery/OverlaySheetGallery.qml:83
+#: contents/ui/gallery/OverlaySheetGallery.qml:65
 msgctxt "OverlaySheetGallery|"
 msgid "Close"
 msgstr "Itxi"
 
-#: contents/ui/gallery/OverlaySheetGallery.qml:93
-#: contents/ui/gallery/OverlaySheetGallery.qml:161
-#: contents/ui/gallery/OverlaySheetGallery.qml:184
+#: contents/ui/gallery/OverlaySheetGallery.qml:75
+#: contents/ui/gallery/OverlaySheetGallery.qml:143
+#: contents/ui/gallery/OverlaySheetGallery.qml:166
 msgctxt "OverlaySheetGallery|"
 msgid "Title"
 msgstr "Titulua"
 
-#: contents/ui/gallery/OverlaySheetGallery.qml:97
-#: contents/ui/gallery/OverlaySheetGallery.qml:165
-#: contents/ui/gallery/OverlaySheetGallery.qml:188
+#: contents/ui/gallery/OverlaySheetGallery.qml:79
+#: contents/ui/gallery/OverlaySheetGallery.qml:147
+#: contents/ui/gallery/OverlaySheetGallery.qml:170
 msgctxt "OverlaySheetGallery|"
 msgid "Footer:"
 msgstr "Orri-oina:"
 
-#: contents/ui/gallery/OverlaySheetGallery.qml:108
+#: contents/ui/gallery/OverlaySheetGallery.qml:90
 msgctxt "OverlaySheetGallery|"
 msgid ""
 "A sheet can have optional header and footer items which will not scroll away "
@@ -762,7 +733,7 @@ msgstr ""
 "Orri batek hautazko goiburu eta orri-oin elementuak izan ditzake, "
 "kiribiltzean ez direnak aldenduko orriak gainezka egiten duenean. "
 
-#: contents/ui/gallery/OverlaySheetGallery.qml:127
+#: contents/ui/gallery/OverlaySheetGallery.qml:109
 msgctxt "OverlaySheetGallery|"
 msgid ""
 "A sheet will take the maximum available width in the page by default.\n"
@@ -775,7 +746,7 @@ msgstr ""
 "«Layout.preferredWidth» (Antolaera.zabaleraHobetsia) ezartzen badu, orriak "
 "zabaleran ezingo du hartu emandakoa baino balio handiagoa."
 
-#: contents/ui/gallery/OverlaySheetGallery.qml:148
+#: contents/ui/gallery/OverlaySheetGallery.qml:130
 msgctxt "OverlaySheetGallery|"
 msgid ""
 "A sheet by default will be over a single page, even if the app is in wide "
@@ -789,85 +760,80 @@ msgstr ""
 "gainean estalgarri gisa azalduko du.\n"
 "Kasu horretan, orriak, orrialdeko Ekintza botoiak ere estaliko ditu."
 
-#: contents/ui/gallery/OverlaySheetGallery.qml:176
+#: contents/ui/gallery/OverlaySheetGallery.qml:158
 msgctxt "OverlaySheetGallery|"
 msgid "Item in sheet "
 msgstr "Orriko elementua"
 
-#: contents/ui/gallery/OverlaySheetGallery.qml:220
+#: contents/ui/gallery/OverlaySheetGallery.qml:202
 msgctxt "OverlaySheetGallery|"
 msgid "Very Long Sheet"
 msgstr "Orri oso luzea"
 
 #: contents/ui/gallery/SelectionControlsGallery.qml:31
 msgctxt "SelectionControlsGallery|"
-msgid "Info"
-msgstr "Informazioa"
-
-#: contents/ui/gallery/SelectionControlsGallery.qml:38
-msgctxt "SelectionControlsGallery|"
 msgid "Selection Controls"
 msgstr "Hautapen aginteak"
 
-#: contents/ui/gallery/SelectionControlsGallery.qml:64
+#: contents/ui/gallery/SelectionControlsGallery.qml:47
 msgctxt "SelectionControlsGallery|"
 msgid "Checkable List Items"
 msgstr "Egiaztapen zerrendako elementuak"
 
-#: contents/ui/gallery/SelectionControlsGallery.qml:71
-#: contents/ui/gallery/SelectionControlsGallery.qml:94
-#: contents/ui/gallery/SelectionControlsGallery.qml:117
+#: contents/ui/gallery/SelectionControlsGallery.qml:54
+#: contents/ui/gallery/SelectionControlsGallery.qml:77
+#: contents/ui/gallery/SelectionControlsGallery.qml:100
 #, qt-format
 msgctxt "SelectionControlsGallery|"
 msgid "Delegate %1"
 msgstr "Eskuordetu %1"
 
-#: contents/ui/gallery/SelectionControlsGallery.qml:87
-#: contents/ui/gallery/SelectionControlsGallery.qml:110
+#: contents/ui/gallery/SelectionControlsGallery.qml:70
+#: contents/ui/gallery/SelectionControlsGallery.qml:93
 msgctxt "SelectionControlsGallery|"
 msgid "Radio List Items"
 msgstr "Aukera bakarreko zerrendako elementuak"
 
-#: contents/ui/gallery/SelectionControlsGallery.qml:126
+#: contents/ui/gallery/SelectionControlsGallery.qml:109
 msgctxt "SelectionControlsGallery|"
 msgid "Checkboxes"
 msgstr "Egiaztapen-laukiak"
 
-#: contents/ui/gallery/SelectionControlsGallery.qml:130
-#: contents/ui/gallery/SelectionControlsGallery.qml:148
-#: contents/ui/gallery/SelectionControlsGallery.qml:166
+#: contents/ui/gallery/SelectionControlsGallery.qml:113
+#: contents/ui/gallery/SelectionControlsGallery.qml:131
+#: contents/ui/gallery/SelectionControlsGallery.qml:149
 msgctxt "SelectionControlsGallery|"
 msgid "Item selected"
 msgstr "Elementua hautatu da"
 
-#: contents/ui/gallery/SelectionControlsGallery.qml:134
-#: contents/ui/gallery/SelectionControlsGallery.qml:152
-#: contents/ui/gallery/SelectionControlsGallery.qml:170
+#: contents/ui/gallery/SelectionControlsGallery.qml:117
+#: contents/ui/gallery/SelectionControlsGallery.qml:135
+#: contents/ui/gallery/SelectionControlsGallery.qml:153
 msgctxt "SelectionControlsGallery|"
 msgid "Item not selected"
 msgstr "Elementua ez da hautatu"
 
-#: contents/ui/gallery/SelectionControlsGallery.qml:138
+#: contents/ui/gallery/SelectionControlsGallery.qml:121
 msgctxt "SelectionControlsGallery|"
 msgid "Checkable List View"
 msgstr "Zerrenda ikuspegi egiaztagarria"
 
-#: contents/ui/gallery/SelectionControlsGallery.qml:144
+#: contents/ui/gallery/SelectionControlsGallery.qml:127
 msgctxt "SelectionControlsGallery|"
 msgid "Radio buttons"
 msgstr "Aukera-botoiak"
 
-#: contents/ui/gallery/SelectionControlsGallery.qml:157
+#: contents/ui/gallery/SelectionControlsGallery.qml:140
 msgctxt "SelectionControlsGallery|"
 msgid "Radio List View"
 msgstr "Aukera-zerrenda ikuspegia"
 
-#: contents/ui/gallery/SelectionControlsGallery.qml:163
+#: contents/ui/gallery/SelectionControlsGallery.qml:146
 msgctxt "SelectionControlsGallery|"
 msgid "Switches"
 msgstr "Etengailuak"
 
-#: contents/ui/gallery/SelectionControlsGallery.qml:174
+#: contents/ui/gallery/SelectionControlsGallery.qml:157
 msgctxt "SelectionControlsGallery|"
 msgid "Switch List View"
 msgstr "Etengailu-zerrenda ikuspegia "
@@ -876,6 +842,55 @@ msgstr "Etengailu-zerrenda ikuspegia "
 msgctxt "MainPage|"
 msgid "Kirigami Gallery"
 msgstr "Kirigami galeria"
+
+#: contents/ui/MainPage.qml:40
+msgctxt "MainPage|"
+msgid "Home"
+msgstr ""
+
+#~ msgctxt "CardsLayoutGallery|"
+#~ msgid "Info"
+#~ msgstr "Informazioa"
+
+#~ msgctxt "CardsListViewGallery|"
+#~ msgid "Info"
+#~ msgstr "Informazioa"
+
+#~ msgctxt "ChipGallery|"
+#~ msgid "Info"
+#~ msgstr "Informazioa"
+
+#~ msgctxt "InfoSheet|"
+#~ msgid "HIG..."
+#~ msgstr "HIG..."
+
+#~ msgctxt "InfoSheet|"
+#~ msgid "API..."
+#~ msgstr "API..."
+
+#~ msgctxt "DialogGallery|"
+#~ msgid "Info"
+#~ msgstr "Informazioa"
+
+#~ msgctxt "DrawerGallery|"
+#~ msgid "Info"
+#~ msgstr "Informazioa"
+
+#~ msgctxt "FormLayoutGallery|"
+#~ msgid "Info"
+#~ msgstr "Informazioa"
+
+#~ msgctxt "InlineMessagesGallery|"
+#~ msgid "Info"
+#~ msgstr "Informazioa"
+
+#~ msgctxt "OverlaySheetGallery|"
+#~ msgid "Info"
+#~ msgstr "Informazioa"
+
+#~ msgctxt "SelectionControlsGallery|"
+#~ msgid "Info"
+#~ msgstr "Informazioa"
 
 #~ msgctxt "CardsGridViewGallery|"
 #~ msgid "Grid view of Cards"
