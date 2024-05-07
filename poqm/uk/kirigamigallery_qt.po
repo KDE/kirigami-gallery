@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kirigamigallery_qt\n"
-"PO-Revision-Date: 2024-04-30 14:42+0300\n"
+"PO-Revision-Date: 2024-05-06 07:33+0300\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian\n"
 "Language: uk\n"
@@ -246,30 +246,24 @@ msgstr "Чіпси із позначками"
 #: contents/ui/gallery/ColorsGallery.qml:30
 msgctxt "ColorsGallery|"
 msgid "Colors"
-msgstr ""
+msgstr "Кольори"
 
-#: contents/ui/gallery/components/InfoSheet.qml:44
+#: contents/ui/gallery/components/InfoSheet.qml:50
 msgctxt "InfoSheet|"
 msgid "HIG…"
-msgstr ""
+msgstr "HIG…"
 
-#: contents/ui/gallery/components/InfoSheet.qml:49
-#, fuzzy
-#| msgctxt "InfoSheet|"
-#| msgid "Source code..."
+#: contents/ui/gallery/components/InfoSheet.qml:55
 msgctxt "InfoSheet|"
 msgid "Source code…"
 msgstr "Початковий код…"
 
-#: contents/ui/gallery/components/InfoSheet.qml:54
+#: contents/ui/gallery/components/InfoSheet.qml:60
 msgctxt "InfoSheet|"
 msgid "API…"
-msgstr ""
+msgstr "Програмний інтерфейс…"
 
 #: contents/ui/gallery/components/InfoSheetAction.qml:18
-#, fuzzy
-#| msgctxt "ActionToolBarGallery|"
-#| msgid "Info"
 msgctxt "InfoSheetAction|"
 msgid "Info"
 msgstr "Відомості"
@@ -841,7 +835,7 @@ msgstr "Галерея Kirigami"
 #: contents/ui/MainPage.qml:40
 msgctxt "MainPage|"
 msgid "Home"
-msgstr ""
+msgstr "Домівка"
 
 #~ msgctxt "CardsLayoutGallery|"
 #~ msgid "Info"

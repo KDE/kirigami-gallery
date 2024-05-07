@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: desktop files\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2024-04-30 06:23+0200\n"
+"PO-Revision-Date: 2024-05-06 06:01+0200\n"
 "Last-Translator: Matjaž Jeran <matjaz.jeran@amis.net>\n"
 "Language-Team: Slovenian <lugos-slo@lugos.si>\n"
 "Language: sl\n"
@@ -241,30 +241,24 @@ msgstr "Preverljiv čipi"
 #: contents/ui/gallery/ColorsGallery.qml:30
 msgctxt "ColorsGallery|"
 msgid "Colors"
-msgstr ""
+msgstr "Barve"
 
-#: contents/ui/gallery/components/InfoSheet.qml:44
+#: contents/ui/gallery/components/InfoSheet.qml:50
 msgctxt "InfoSheet|"
 msgid "HIG…"
-msgstr ""
+msgstr "HIG…"
 
-#: contents/ui/gallery/components/InfoSheet.qml:49
-#, fuzzy
-#| msgctxt "InfoSheet|"
-#| msgid "Source code..."
+#: contents/ui/gallery/components/InfoSheet.qml:55
 msgctxt "InfoSheet|"
 msgid "Source code…"
-msgstr "Izvorna koda..."
+msgstr "Izvorna koda…"
 
-#: contents/ui/gallery/components/InfoSheet.qml:54
+#: contents/ui/gallery/components/InfoSheet.qml:60
 msgctxt "InfoSheet|"
 msgid "API…"
-msgstr ""
+msgstr "API…"
 
 #: contents/ui/gallery/components/InfoSheetAction.qml:18
-#, fuzzy
-#| msgctxt "ActionToolBarGallery|"
-#| msgid "Info"
 msgctxt "InfoSheetAction|"
 msgid "Info"
 msgstr "Informacije"
@@ -829,7 +823,7 @@ msgstr "Galerija Kirigami"
 #: contents/ui/MainPage.qml:40
 msgctxt "MainPage|"
 msgid "Home"
-msgstr ""
+msgstr "Domov"
 
 #~ msgctxt "CardsLayoutGallery|"
 #~ msgid "Info"

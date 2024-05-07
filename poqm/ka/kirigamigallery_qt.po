@@ -238,30 +238,24 @@ msgstr "შემოწმებადი ჩიპები"
 #: contents/ui/gallery/ColorsGallery.qml:30
 msgctxt "ColorsGallery|"
 msgid "Colors"
-msgstr ""
+msgstr "ფერები"
 
-#: contents/ui/gallery/components/InfoSheet.qml:44
+#: contents/ui/gallery/components/InfoSheet.qml:50
 msgctxt "InfoSheet|"
 msgid "HIG…"
-msgstr ""
+msgstr "HIG…"
 
-#: contents/ui/gallery/components/InfoSheet.qml:49
-#, fuzzy
-#| msgctxt "InfoSheet|"
-#| msgid "Source code..."
+#: contents/ui/gallery/components/InfoSheet.qml:55
 msgctxt "InfoSheet|"
 msgid "Source code…"
-msgstr "საწყისი კოდი..."
+msgstr "საწყისი კოდი…"
 
-#: contents/ui/gallery/components/InfoSheet.qml:54
+#: contents/ui/gallery/components/InfoSheet.qml:60
 msgctxt "InfoSheet|"
 msgid "API…"
-msgstr ""
+msgstr "API…"
 
 #: contents/ui/gallery/components/InfoSheetAction.qml:18
-#, fuzzy
-#| msgctxt "ActionToolBarGallery|"
-#| msgid "Info"
 msgctxt "InfoSheetAction|"
 msgid "Info"
 msgstr "ინფორმაცია"
@@ -830,7 +824,7 @@ msgstr "Kirigami -ის გალერეა"
 #: contents/ui/MainPage.qml:40
 msgctxt "MainPage|"
 msgid "Home"
-msgstr ""
+msgstr "მთავარი"
 
 #~ msgctxt "CardsLayoutGallery|"
 #~ msgid "Info"

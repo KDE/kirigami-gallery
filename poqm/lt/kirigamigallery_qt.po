@@ -201,17 +201,17 @@ msgctxt "ColorsGallery|"
 msgid "Colors"
 msgstr ""
 
-#: contents/ui/gallery/components/InfoSheet.qml:44
+#: contents/ui/gallery/components/InfoSheet.qml:50
 msgctxt "InfoSheet|"
 msgid "HIG…"
 msgstr ""
 
-#: contents/ui/gallery/components/InfoSheet.qml:49
+#: contents/ui/gallery/components/InfoSheet.qml:55
 msgctxt "InfoSheet|"
 msgid "Source code…"
 msgstr ""
 
-#: contents/ui/gallery/components/InfoSheet.qml:54
+#: contents/ui/gallery/components/InfoSheet.qml:60
 msgctxt "InfoSheet|"
 msgid "API…"
 msgstr ""

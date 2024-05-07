@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"PO-Revision-Date: 2024-04-30 10:07+0200\n"
+"PO-Revision-Date: 2024-05-06 11:01+0200\n"
 "Last-Translator: Freek de Kruijf <freekdekruijf@kde.nl>\n"
 "Language-Team: \n"
 "Language: nl\n"
@@ -239,30 +239,24 @@ msgstr "Te activeren chips"
 #: contents/ui/gallery/ColorsGallery.qml:30
 msgctxt "ColorsGallery|"
 msgid "Colors"
-msgstr ""
+msgstr "Kleuren"
 
-#: contents/ui/gallery/components/InfoSheet.qml:44
+#: contents/ui/gallery/components/InfoSheet.qml:50
 msgctxt "InfoSheet|"
 msgid "HIG…"
-msgstr ""
+msgstr "HIG…"
 
-#: contents/ui/gallery/components/InfoSheet.qml:49
-#, fuzzy
-#| msgctxt "InfoSheet|"
-#| msgid "Source code..."
+#: contents/ui/gallery/components/InfoSheet.qml:55
 msgctxt "InfoSheet|"
 msgid "Source code…"
-msgstr "Broncode..."
+msgstr "Broncode…"
 
-#: contents/ui/gallery/components/InfoSheet.qml:54
+#: contents/ui/gallery/components/InfoSheet.qml:60
 msgctxt "InfoSheet|"
 msgid "API…"
-msgstr ""
+msgstr "API…"
 
 #: contents/ui/gallery/components/InfoSheetAction.qml:18
-#, fuzzy
-#| msgctxt "ActionToolBarGallery|"
-#| msgid "Info"
 msgctxt "InfoSheetAction|"
 msgid "Info"
 msgstr "Informatie"
@@ -832,7 +826,7 @@ msgstr "Kirigami galerij"
 #: contents/ui/MainPage.qml:40
 msgctxt "MainPage|"
 msgid "Home"
-msgstr ""
+msgstr "Home"
 
 #~ msgctxt "CardsLayoutGallery|"
 #~ msgid "Info"
