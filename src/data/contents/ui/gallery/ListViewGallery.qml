@@ -17,31 +17,56 @@
  *   51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
  */
 
+pragma ComponentBehavior: Bound
+
 import QtQuick
 import QtQuick.Controls as QQC2
 import QtQuick.Layouts
+import QtQuick.Templates as T
 import org.kde.kirigami as Kirigami
+
+import "components" as KGC
 
 Kirigami.ScrollablePage {
     id: page
     Layout.fillWidth: true
     title: "Long List view"
 
-    actions: [
-        Kirigami.Action {
-            icon.name: sheet.sheetOpen ? "dialog-cancel" : "document-edit"
-            text: "Main Action Text"
-            checkable: true
-            checked: sheet.opened
-            onTriggered: sheet.opened = !sheet.opened;
-        }
-    ]
+    actions: KGC.SheetAction {
+        id: yahaha
 
-    //Close the drawer with the back button
-    onBackRequested: {
-        if (sheet.sheetOpen) {
-            event.accepted = true;
-            sheet.close();
+        page: page
+
+        icon.name: sheetVisible() ? "dialog-cancel-symbolic" : "document-edit-symbolic"
+        text: qsTr("Main Action Text")
+
+        sheetComponent: Kirigami.OverlaySheet {
+            parent: page.QQC2.Overlay.overlay
+            header: Kirigami.Heading {
+                text: "Title"
+            }
+            footer: RowLayout {
+                spacing: Kirigami.Units.smallSpacing
+
+                QQC2.Label {
+                    text: qsTr("Footer:")
+                }
+                QQC2.TextField {
+                    Layout.fillWidth: true
+                    Layout.alignment: Qt.AlignCenter
+                }
+            }
+            ListView {
+                model: 100
+                implicitWidth: Kirigami.Units.gridUnit * 30
+                delegate: QQC2.ItemDelegate {
+                    required property int index
+
+                    width: ListView.view.width - ListView.view.leftMargin - ListView.view.rightMargin
+
+                    text: qsTr("Item in sheet %n", "", index)
+                }
+            }
         }
     }
 
@@ -57,34 +82,15 @@ Kirigami.ScrollablePage {
     background: Rectangle {
         color: Kirigami.Theme.backgroundColor
     }
-    Kirigami.OverlaySheet {
-        id: sheet
-        parent: applicationWindow().overlay
-        header: Kirigami.Heading {
-            text: "Title"
-        }
-        footer: RowLayout {
-            QQC2.Label {
-                text: "Footer:"
-            }
-            QQC2.TextField {
-                Layout.fillWidth: true
-                Layout.alignment: Qt.AlignCenter
-            }
-        }
-        ListView {
-            model: 100
-            implicitWidth: Kirigami.Units.gridUnit * 30
-            delegate: QQC2.ItemDelegate {
-                text: "Item in sheet" + modelData
-            }
-        }
-    }
 
     Component {
         id: delegateComponent
         Kirigami.SwipeListItem {
             id: listItem
+
+            required property int index
+            required property string title
+
             width: ListView.view ? ListView.view.width : implicitWidth
             contentItem: RowLayout {
                 Kirigami.ListItemDragHandle {
@@ -98,21 +104,26 @@ Kirigami.ScrollablePage {
                 QQC2.Label {
                     Layout.fillWidth: true
                     height: Math.max(implicitHeight, Kirigami.Units.iconSizes.smallMedium)
-                    text: model.title
+                    text: listItem.title
                     color: listItem.checked || (listItem.pressed && !listItem.checked && !listItem.sectionDelegate) ? listItem.activeTextColor : listItem.textColor
                 }
             }
             actions: [
                 Kirigami.Action {
                     icon.name: "document-decrypt"
-                    text: "Action 1"
-                    onTriggered: showPassiveNotification(model.text + " Action 1 clicked")
+                    text: qsTr("Action 1")
+                    onTriggered: source => {
+                        showPassiveNotification(qsTr("%1: %2 clicked").arg(listItem.title).arg(text));
+                    }
                 },
                 Kirigami.Action {
                     icon.name: "mail-reply-sender"
-                    text: "Action 2"
-                    onTriggered: showPassiveNotification(model.text + " Action 2 clicked")
-                }]
+                    text: qsTr("Action 2")
+                    onTriggered: source => {
+                        showPassiveNotification(qsTr("%1: %2 clicked").arg(listItem.title).arg(text));
+                    }
+                }
+            ]
         }
     }
     ListView {
@@ -120,18 +131,19 @@ Kirigami.ScrollablePage {
         Timer {
             id: refreshRequestTimer
             interval: 3000
-            onTriggered: page.refreshing = false
+            onTriggered: {
+                page.refreshing = false;
+            }
         }
         model: ListModel {
             id: listModel
 
             Component.onCompleted: {
-                for (var i = 0; i < 200; ++i) {
-                    listModel.append({"title": "Item " + i,
-                        "actions": [{text: "Action 1", icon: "document-decrypt"},
-                                    {text: "Action 2", icon: "mail-reply-sender"}],
-                        "sec": Math.floor(i/10)
-                    })
+                for (let i = 0; i < 200; ++i) {
+                    listModel.append({
+                        title: qsTr("Item %1").arg(String(i)),
+                        section: Math.floor(i / 10),
+                    });
                 }
             }
         }
@@ -143,9 +155,12 @@ Kirigami.ScrollablePage {
         }
         delegate: delegateComponent
         section {
-            property: "sec"
+            property: "section"
             delegate: Kirigami.ListSectionHeader {
-                text: "Section " + (parseInt(section) + 1)
+                required property string section
+
+                text: qsTr("Section %1").arg(parseInt(section) + 1)
+                width: ListView.view.width - ListView.view.leftMargin - ListView.view.rightMargin
             }
         }
     }
