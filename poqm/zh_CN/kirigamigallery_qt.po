@@ -227,22 +227,16 @@ msgid "HIG…"
 msgstr ""
 
 #: contents/ui/gallery/components/InfoSheet.qml:55
-#, fuzzy
-#| msgctxt "InfoSheet|"
-#| msgid "Source code..."
 msgctxt "InfoSheet|"
 msgid "Source code…"
-msgstr "源代码..."
+msgstr ""
 
 #: contents/ui/gallery/components/InfoSheet.qml:60
 msgctxt "InfoSheet|"
 msgid "API…"
 msgstr ""
 
-#: contents/ui/gallery/components/InfoSheetAction.qml:18
-#, fuzzy
-#| msgctxt "ActionToolBarGallery|"
-#| msgid "Info"
+#: contents/ui/gallery/components/InfoSheetAction.qml:16
 msgctxt "InfoSheetAction|"
 msgid "Info"
 msgstr "信息"
@@ -263,12 +257,9 @@ msgid "Cancel"
 msgstr "取消"
 
 #: contents/ui/gallery/DialogGallery.qml:75
-#, fuzzy
-#| msgctxt "DialogGallery|"
-#| msgid "Folder name..."
 msgctxt "DialogGallery|"
 msgid "Folder name:"
-msgstr "文件夹名称..."
+msgstr ""
 
 #: contents/ui/gallery/DialogGallery.qml:83
 msgctxt "DialogGallery|"
@@ -591,6 +582,65 @@ msgctxt "InlineMessagesGallery|"
 msgid "Shush"
 msgstr ""
 
+#: contents/ui/gallery/ListViewGallery.qml:41
+msgctxt "ListViewGallery|"
+msgid "Main Action Text"
+msgstr ""
+
+#: contents/ui/gallery/ListViewGallery.qml:52
+#, fuzzy
+#| msgctxt "OverlaySheetGallery|"
+#| msgid "Footer:"
+msgctxt "ListViewGallery|"
+msgid "Footer:"
+msgstr "页脚:"
+
+#: contents/ui/gallery/ListViewGallery.qml:67
+#, qt-format
+msgctxt "ListViewGallery|"
+msgid "Item in sheet %n"
+msgid_plural "Item in sheet %n"
+msgstr[0] ""
+
+#: contents/ui/gallery/ListViewGallery.qml:114
+#, fuzzy
+#| msgctxt "CardsLayoutGallery|"
+#| msgid "Action1"
+msgctxt "ListViewGallery|"
+msgid "Action 1"
+msgstr "操作1"
+
+#: contents/ui/gallery/ListViewGallery.qml:116
+#: contents/ui/gallery/ListViewGallery.qml:123
+#, fuzzy, qt-format
+#| msgctxt "CardsLayoutGallery|"
+#| msgid "Card clicked"
+msgctxt "ListViewGallery|"
+msgid "%1: %2 clicked"
+msgstr "卡片被点击"
+
+#: contents/ui/gallery/ListViewGallery.qml:121
+#, fuzzy
+#| msgctxt "CardsLayoutGallery|"
+#| msgid "Action2"
+msgctxt "ListViewGallery|"
+msgid "Action 2"
+msgstr "操作2"
+
+#: contents/ui/gallery/ListViewGallery.qml:144
+#, qt-format
+msgctxt "ListViewGallery|"
+msgid "Item %1"
+msgstr ""
+
+#: contents/ui/gallery/ListViewGallery.qml:162
+#, fuzzy, qt-format
+#| msgctxt "CardsLayoutGallery|"
+#| msgid "Action1"
+msgctxt "ListViewGallery|"
+msgid "Section %1"
+msgstr "操作1"
+
 #: contents/ui/gallery/MetricsGallery.qml:42
 msgctxt "MetricsGallery|"
 msgid "Heading 1"
@@ -780,39 +830,3 @@ msgstr "Kirigami 示例展厅"
 msgctxt "MainPage|"
 msgid "Home"
 msgstr ""
-
-#~ msgctxt "CardsLayoutGallery|"
-#~ msgid "Info"
-#~ msgstr "信息"
-
-#~ msgctxt "CardsListViewGallery|"
-#~ msgid "Info"
-#~ msgstr "信息"
-
-#~ msgctxt "InfoSheet|"
-#~ msgid "API..."
-#~ msgstr "API..."
-
-#~ msgctxt "DrawerGallery|"
-#~ msgid "Info"
-#~ msgstr "信息"
-
-#~ msgctxt "InlineMessagesGallery|"
-#~ msgid "Info"
-#~ msgstr "信息"
-
-#~ msgctxt "OverlaySheetGallery|"
-#~ msgid "Info"
-#~ msgstr "信息"
-
-#~ msgctxt "SelectionControlsGallery|"
-#~ msgid "Info"
-#~ msgstr "信息"
-
-#~ msgctxt "CardsGridViewGallery|"
-#~ msgid "Grid view of Cards"
-#~ msgstr "卡片的网格视图"
-
-#~ msgctxt "CardsGridViewGallery|"
-#~ msgid "Info"
-#~ msgstr "信息"

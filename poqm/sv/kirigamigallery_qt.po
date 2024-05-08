@@ -257,7 +257,7 @@ msgctxt "InfoSheet|"
 msgid "API…"
 msgstr ""
 
-#: contents/ui/gallery/components/InfoSheetAction.qml:18
+#: contents/ui/gallery/components/InfoSheetAction.qml:16
 #, fuzzy
 #| msgctxt "ActionToolBarGallery|"
 #| msgid "Info"
@@ -633,6 +633,68 @@ msgstr "Bu!"
 msgctxt "InlineMessagesGallery|"
 msgid "Shush"
 msgstr "Hysch"
+
+#: contents/ui/gallery/ListViewGallery.qml:41
+msgctxt "ListViewGallery|"
+msgid "Main Action Text"
+msgstr ""
+
+#: contents/ui/gallery/ListViewGallery.qml:52
+#, fuzzy
+#| msgctxt "OverlaySheetGallery|"
+#| msgid "Footer:"
+msgctxt "ListViewGallery|"
+msgid "Footer:"
+msgstr "Sidfot:"
+
+#: contents/ui/gallery/ListViewGallery.qml:67
+#, fuzzy, qt-format
+#| msgctxt "OverlaySheetGallery|"
+#| msgid "Item in sheet "
+msgctxt "ListViewGallery|"
+msgid "Item in sheet %n"
+msgid_plural "Item in sheet %n"
+msgstr[0] "Objekt på blad"
+msgstr[1] "Objekt på blad"
+
+#: contents/ui/gallery/ListViewGallery.qml:114
+#, fuzzy
+#| msgctxt "DrawerGallery|"
+#| msgid "Action 1"
+msgctxt "ListViewGallery|"
+msgid "Action 1"
+msgstr "Åtgärd 1"
+
+#: contents/ui/gallery/ListViewGallery.qml:116
+#: contents/ui/gallery/ListViewGallery.qml:123
+#, fuzzy, qt-format
+#| msgctxt "CardsLayoutGallery|"
+#| msgid "Card clicked"
+msgctxt "ListViewGallery|"
+msgid "%1: %2 clicked"
+msgstr "Card klickat"
+
+#: contents/ui/gallery/ListViewGallery.qml:121
+#, fuzzy
+#| msgctxt "CardsLayoutGallery|"
+#| msgid "Action2"
+msgctxt "ListViewGallery|"
+msgid "Action 2"
+msgstr "Åtgärd 2"
+
+#: contents/ui/gallery/ListViewGallery.qml:144
+#, qt-format
+msgctxt "ListViewGallery|"
+msgid "Item %1"
+msgstr ""
+
+#: contents/ui/gallery/ListViewGallery.qml:162
+#, fuzzy, qt-format
+#| msgctxt "DrawerGallery|"
+#| msgid "Action 1"
+msgctxt "ListViewGallery|"
+msgid "Section %1"
+msgstr "Åtgärd 1"
 
 #: contents/ui/gallery/MetricsGallery.qml:42
 msgctxt "MetricsGallery|"

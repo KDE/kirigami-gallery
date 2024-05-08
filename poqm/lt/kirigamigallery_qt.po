@@ -216,7 +216,7 @@ msgctxt "InfoSheet|"
 msgid "API…"
 msgstr ""
 
-#: contents/ui/gallery/components/InfoSheetAction.qml:18
+#: contents/ui/gallery/components/InfoSheetAction.qml:16
 msgctxt "InfoSheetAction|"
 msgid "Info"
 msgstr ""
@@ -560,6 +560,55 @@ msgstr ""
 #: contents/ui/gallery/InlineMessagesGallery.qml:190
 msgctxt "InlineMessagesGallery|"
 msgid "Shush"
+msgstr ""
+
+#: contents/ui/gallery/ListViewGallery.qml:41
+msgctxt "ListViewGallery|"
+msgid "Main Action Text"
+msgstr ""
+
+#: contents/ui/gallery/ListViewGallery.qml:52
+msgctxt "ListViewGallery|"
+msgid "Footer:"
+msgstr ""
+
+#: contents/ui/gallery/ListViewGallery.qml:67
+#, qt-format
+msgctxt "ListViewGallery|"
+msgid "Item in sheet %n"
+msgid_plural "Item in sheet %n"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+
+#: contents/ui/gallery/ListViewGallery.qml:114
+msgctxt "ListViewGallery|"
+msgid "Action 1"
+msgstr ""
+
+#: contents/ui/gallery/ListViewGallery.qml:116
+#: contents/ui/gallery/ListViewGallery.qml:123
+#, qt-format
+msgctxt "ListViewGallery|"
+msgid "%1: %2 clicked"
+msgstr ""
+
+#: contents/ui/gallery/ListViewGallery.qml:121
+msgctxt "ListViewGallery|"
+msgid "Action 2"
+msgstr ""
+
+#: contents/ui/gallery/ListViewGallery.qml:144
+#, qt-format
+msgctxt "ListViewGallery|"
+msgid "Item %1"
+msgstr ""
+
+#: contents/ui/gallery/ListViewGallery.qml:162
+#, qt-format
+msgctxt "ListViewGallery|"
+msgid "Section %1"
 msgstr ""
 
 #: contents/ui/gallery/MetricsGallery.qml:42

@@ -1,16 +1,16 @@
-# Vit Pelcak <vit@pelcak.org>, 2018, 2019, 2020, 2021, 2022, 2023.
+# SPDX-FileCopyrightText: 2018, 2019, 2020, 2021, 2022, 2023, 2024 Vit Pelcak <vit@pelcak.org>
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"PO-Revision-Date: 2023-01-30 11:00+0100\n"
-"Last-Translator: Vit Pelcak <vit@pelcak.org>\n"
+"PO-Revision-Date: 2024-04-30 15:18+0200\n"
+"Last-Translator: Vit Pelcak <vpelcak@suse.cz>\n"
 "Language-Team: Czech <kde-i18n-doc@kde.org>\n"
 "Language: cs\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
-"X-Generator: Lokalize 22.12.1\n"
+"X-Generator: Lokalize 24.02.2\n"
 "X-Qt-Contexts: true\n"
 
 #: contents/ui/gallery/CardsLayoutGallery.qml:30
@@ -209,25 +209,19 @@ msgid "HIG…"
 msgstr ""
 
 #: contents/ui/gallery/components/InfoSheet.qml:55
-#, fuzzy
-#| msgctxt "InfoSheet|"
-#| msgid "Source code..."
 msgctxt "InfoSheet|"
 msgid "Source code…"
-msgstr "Zdrojový kód..."
+msgstr ""
 
 #: contents/ui/gallery/components/InfoSheet.qml:60
 msgctxt "InfoSheet|"
 msgid "API…"
 msgstr ""
 
-#: contents/ui/gallery/components/InfoSheetAction.qml:18
-#, fuzzy
-#| msgctxt "ActionToolBarGallery|"
-#| msgid "Info"
+#: contents/ui/gallery/components/InfoSheetAction.qml:16
 msgctxt "InfoSheetAction|"
 msgid "Info"
-msgstr "Informace"
+msgstr ""
 
 #: contents/ui/gallery/DialogGallery.qml:34
 msgctxt "DialogGallery|"
@@ -245,12 +239,9 @@ msgid "Cancel"
 msgstr "Zrušit"
 
 #: contents/ui/gallery/DialogGallery.qml:75
-#, fuzzy
-#| msgctxt "DialogGallery|"
-#| msgid "Folder name..."
 msgctxt "DialogGallery|"
 msgid "Folder name:"
-msgstr "Název složky..."
+msgstr "Název složky:"
 
 #: contents/ui/gallery/DialogGallery.qml:83
 msgctxt "DialogGallery|"
@@ -573,6 +564,67 @@ msgctxt "InlineMessagesGallery|"
 msgid "Shush"
 msgstr ""
 
+#: contents/ui/gallery/ListViewGallery.qml:41
+msgctxt "ListViewGallery|"
+msgid "Main Action Text"
+msgstr ""
+
+#: contents/ui/gallery/ListViewGallery.qml:52
+#, fuzzy
+#| msgctxt "OverlaySheetGallery|"
+#| msgid "Footer:"
+msgctxt "ListViewGallery|"
+msgid "Footer:"
+msgstr "Zápatí:"
+
+#: contents/ui/gallery/ListViewGallery.qml:67
+#, fuzzy, qt-format
+#| msgctxt "SelectionControlsGallery|"
+#| msgid "Item selected"
+msgctxt "ListViewGallery|"
+msgid "Item in sheet %n"
+msgid_plural "Item in sheet %n"
+msgstr[0] "Položka vybrána"
+msgstr[1] "Položka vybrána"
+msgstr[2] "Položka vybrána"
+
+#: contents/ui/gallery/ListViewGallery.qml:114
+#, fuzzy
+#| msgctxt "DrawerGallery|"
+#| msgid "Action 1"
+msgctxt "ListViewGallery|"
+msgid "Action 1"
+msgstr "Činnost 1"
+
+#: contents/ui/gallery/ListViewGallery.qml:116
+#: contents/ui/gallery/ListViewGallery.qml:123
+#, qt-format
+msgctxt "ListViewGallery|"
+msgid "%1: %2 clicked"
+msgstr ""
+
+#: contents/ui/gallery/ListViewGallery.qml:121
+#, fuzzy
+#| msgctxt "CardsLayoutGallery|"
+#| msgid "Action2"
+msgctxt "ListViewGallery|"
+msgid "Action 2"
+msgstr "Činnost2"
+
+#: contents/ui/gallery/ListViewGallery.qml:144
+#, qt-format
+msgctxt "ListViewGallery|"
+msgid "Item %1"
+msgstr ""
+
+#: contents/ui/gallery/ListViewGallery.qml:162
+#, fuzzy, qt-format
+#| msgctxt "DrawerGallery|"
+#| msgid "Action 1"
+msgctxt "ListViewGallery|"
+msgid "Section %1"
+msgstr "Činnost 1"
+
 #: contents/ui/gallery/MetricsGallery.qml:42
 msgctxt "MetricsGallery|"
 msgid "Heading 1"
@@ -762,47 +814,3 @@ msgstr "Galerie Kirigami"
 msgctxt "MainPage|"
 msgid "Home"
 msgstr ""
-
-#~ msgctxt "CardsLayoutGallery|"
-#~ msgid "Info"
-#~ msgstr "Informace"
-
-#~ msgctxt "CardsListViewGallery|"
-#~ msgid "Info"
-#~ msgstr "Informace"
-
-#~ msgctxt "ChipGallery|"
-#~ msgid "Info"
-#~ msgstr "Informace"
-
-#~ msgctxt "InfoSheet|"
-#~ msgid "API..."
-#~ msgstr "API..."
-
-#~ msgctxt "DialogGallery|"
-#~ msgid "Info"
-#~ msgstr "Informace"
-
-#~ msgctxt "DrawerGallery|"
-#~ msgid "Info"
-#~ msgstr "Informace"
-
-#~ msgctxt "FormLayoutGallery|"
-#~ msgid "Info"
-#~ msgstr "Informace"
-
-#~ msgctxt "InlineMessagesGallery|"
-#~ msgid "Info"
-#~ msgstr "Informace"
-
-#~ msgctxt "OverlaySheetGallery|"
-#~ msgid "Info"
-#~ msgstr "Informace"
-
-#~ msgctxt "SelectionControlsGallery|"
-#~ msgid "Info"
-#~ msgstr "Informace"
-
-#~ msgctxt "CardsGridViewGallery|"
-#~ msgid "Info"
-#~ msgstr "Informace"

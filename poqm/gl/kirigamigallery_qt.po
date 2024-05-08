@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"PO-Revision-Date: 2024-05-01 13:05+0200\n"
+"PO-Revision-Date: 2024-05-07 08:10+0200\n"
 "Last-Translator: Adrián Chaves (Gallaecio) <adrian@chaves.io>\n"
 "Language-Team: Proxecto Trasno (proxecto@trasno.gal)\n"
 "Language: gl\n"
@@ -235,17 +235,14 @@ msgstr "Chips marcábeis"
 #: contents/ui/gallery/ColorsGallery.qml:30
 msgctxt "ColorsGallery|"
 msgid "Colors"
-msgstr ""
+msgstr "Cores"
 
 #: contents/ui/gallery/components/InfoSheet.qml:50
 msgctxt "InfoSheet|"
 msgid "HIG…"
-msgstr ""
+msgstr "HIG…"
 
 #: contents/ui/gallery/components/InfoSheet.qml:55
-#, fuzzy
-#| msgctxt "InfoSheet|"
-#| msgid "Source code..."
 msgctxt "InfoSheet|"
 msgid "Source code…"
 msgstr "Código fonte…"
@@ -253,12 +250,9 @@ msgstr "Código fonte…"
 #: contents/ui/gallery/components/InfoSheet.qml:60
 msgctxt "InfoSheet|"
 msgid "API…"
-msgstr ""
+msgstr "API…"
 
-#: contents/ui/gallery/components/InfoSheetAction.qml:18
-#, fuzzy
-#| msgctxt "ActionToolBarGallery|"
-#| msgid "Info"
+#: contents/ui/gallery/components/InfoSheetAction.qml:16
 msgctxt "InfoSheetAction|"
 msgid "Info"
 msgstr "Información"
@@ -628,6 +622,68 @@ msgctxt "InlineMessagesGallery|"
 msgid "Shush"
 msgstr "Silencio"
 
+#: contents/ui/gallery/ListViewGallery.qml:41
+msgctxt "ListViewGallery|"
+msgid "Main Action Text"
+msgstr ""
+
+#: contents/ui/gallery/ListViewGallery.qml:52
+#, fuzzy
+#| msgctxt "OverlaySheetGallery|"
+#| msgid "Footer:"
+msgctxt "ListViewGallery|"
+msgid "Footer:"
+msgstr "Pé:"
+
+#: contents/ui/gallery/ListViewGallery.qml:67
+#, fuzzy, qt-format
+#| msgctxt "OverlaySheetGallery|"
+#| msgid "Item in sheet "
+msgctxt "ListViewGallery|"
+msgid "Item in sheet %n"
+msgid_plural "Item in sheet %n"
+msgstr[0] "Elemento na folla"
+msgstr[1] "Elemento na folla"
+
+#: contents/ui/gallery/ListViewGallery.qml:114
+#, fuzzy
+#| msgctxt "DrawerGallery|"
+#| msgid "Action 1"
+msgctxt "ListViewGallery|"
+msgid "Action 1"
+msgstr "Acción 1"
+
+#: contents/ui/gallery/ListViewGallery.qml:116
+#: contents/ui/gallery/ListViewGallery.qml:123
+#, fuzzy, qt-format
+#| msgctxt "CardsLayoutGallery|"
+#| msgid "Card clicked"
+msgctxt "ListViewGallery|"
+msgid "%1: %2 clicked"
+msgstr "Tarxeta premida"
+
+#: contents/ui/gallery/ListViewGallery.qml:121
+#, fuzzy
+#| msgctxt "CardsLayoutGallery|"
+#| msgid "Action2"
+msgctxt "ListViewGallery|"
+msgid "Action 2"
+msgstr "Acción 2"
+
+#: contents/ui/gallery/ListViewGallery.qml:144
+#, qt-format
+msgctxt "ListViewGallery|"
+msgid "Item %1"
+msgstr ""
+
+#: contents/ui/gallery/ListViewGallery.qml:162
+#, fuzzy, qt-format
+#| msgctxt "DrawerGallery|"
+#| msgid "Action 1"
+msgctxt "ListViewGallery|"
+msgid "Section %1"
+msgstr "Acción 1"
+
 #: contents/ui/gallery/MetricsGallery.qml:42
 msgctxt "MetricsGallery|"
 msgid "Heading 1"
@@ -827,7 +883,7 @@ msgstr "Galería de Kirigami"
 #: contents/ui/MainPage.qml:40
 msgctxt "MainPage|"
 msgid "Home"
-msgstr ""
+msgstr "Inicio"
 
 #~ msgctxt "CardsLayoutGallery|"
 #~ msgid "Info"
