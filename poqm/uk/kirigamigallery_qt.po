@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kirigamigallery_qt\n"
-"PO-Revision-Date: 2024-05-06 07:33+0300\n"
+"PO-Revision-Date: 2024-05-08 09:20+0300\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian\n"
 "Language: uk\n"
@@ -640,66 +640,51 @@ msgstr "Ш-ш-ш!"
 #: contents/ui/gallery/ListViewGallery.qml:41
 msgctxt "ListViewGallery|"
 msgid "Main Action Text"
-msgstr ""
+msgstr "Текст основної дії"
 
 #: contents/ui/gallery/ListViewGallery.qml:52
-#, fuzzy
-#| msgctxt "OverlaySheetGallery|"
-#| msgid "Footer:"
 msgctxt "ListViewGallery|"
 msgid "Footer:"
-msgstr "Підвал:"
+msgstr "Нижній колонтитул:"
 
 #: contents/ui/gallery/ListViewGallery.qml:67
-#, fuzzy, qt-format
-#| msgctxt "OverlaySheetGallery|"
-#| msgid "Item in sheet "
+#, qt-format
 msgctxt "ListViewGallery|"
 msgid "Item in sheet %n"
 msgid_plural "Item in sheet %n"
-msgstr[0] "Запис на аркуші "
-msgstr[1] "Запис на аркуші "
-msgstr[2] "Запис на аркуші "
-msgstr[3] "Запис на аркуші "
+msgstr[0] "Запис на аркуші %n"
+msgstr[1] "Запис на аркуші %n"
+msgstr[2] "Запис на аркуші %n"
+msgstr[3] "Запис на аркуші %n"
 
 #: contents/ui/gallery/ListViewGallery.qml:114
-#, fuzzy
-#| msgctxt "DrawerGallery|"
-#| msgid "Action 1"
 msgctxt "ListViewGallery|"
 msgid "Action 1"
 msgstr "Дія 1"
 
 #: contents/ui/gallery/ListViewGallery.qml:116
 #: contents/ui/gallery/ListViewGallery.qml:123
-#, fuzzy, qt-format
-#| msgctxt "CardsLayoutGallery|"
-#| msgid "Card clicked"
+#, qt-format
 msgctxt "ListViewGallery|"
 msgid "%1: %2 clicked"
-msgstr "Картку натиснуто"
+msgstr "%1: натиснуто %2"
 
 #: contents/ui/gallery/ListViewGallery.qml:121
-#, fuzzy
-#| msgctxt "CardsLayoutGallery|"
-#| msgid "Action2"
 msgctxt "ListViewGallery|"
 msgid "Action 2"
-msgstr "Дія2"
+msgstr "Дія 2"
 
 #: contents/ui/gallery/ListViewGallery.qml:144
 #, qt-format
 msgctxt "ListViewGallery|"
 msgid "Item %1"
-msgstr ""
+msgstr "Запис %1"
 
 #: contents/ui/gallery/ListViewGallery.qml:162
-#, fuzzy, qt-format
-#| msgctxt "DrawerGallery|"
-#| msgid "Action 1"
+#, qt-format
 msgctxt "ListViewGallery|"
 msgid "Section %1"
-msgstr "Дія 1"
+msgstr "Розділ %1"
 
 #: contents/ui/gallery/MetricsGallery.qml:42
 msgctxt "MetricsGallery|"
