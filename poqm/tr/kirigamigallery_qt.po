@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"PO-Revision-Date: 2024-05-06 13:56+0300\n"
+"PO-Revision-Date: 2024-05-09 18:51+0300\n"
 "Last-Translator: Emir SARI <emir_sari@icloud.com>\n"
 "Language-Team: Turkish <kde-l10n-tr@kde.org>\n"
 "Language: tr\n"
@@ -626,64 +626,49 @@ msgstr "Şşşş"
 #: contents/ui/gallery/ListViewGallery.qml:41
 msgctxt "ListViewGallery|"
 msgid "Main Action Text"
-msgstr ""
+msgstr "Eylem Metni Yap"
 
 #: contents/ui/gallery/ListViewGallery.qml:52
-#, fuzzy
-#| msgctxt "OverlaySheetGallery|"
-#| msgid "Footer:"
 msgctxt "ListViewGallery|"
 msgid "Footer:"
 msgstr "Altbilgi:"
 
 #: contents/ui/gallery/ListViewGallery.qml:67
-#, fuzzy, qt-format
-#| msgctxt "OverlaySheetGallery|"
-#| msgid "Item in sheet "
+#, qt-format
 msgctxt "ListViewGallery|"
 msgid "Item in sheet %n"
 msgid_plural "Item in sheet %n"
-msgstr[0] "Yaprakta öge"
-msgstr[1] "Yaprakta öge"
+msgstr[0] "Öge %n sayfada"
+msgstr[1] "Öge %n sayfada"
 
 #: contents/ui/gallery/ListViewGallery.qml:114
-#, fuzzy
-#| msgctxt "DrawerGallery|"
-#| msgid "Action 1"
 msgctxt "ListViewGallery|"
 msgid "Action 1"
 msgstr "Eylem 1"
 
 #: contents/ui/gallery/ListViewGallery.qml:116
 #: contents/ui/gallery/ListViewGallery.qml:123
-#, fuzzy, qt-format
-#| msgctxt "CardsLayoutGallery|"
-#| msgid "Card clicked"
+#, qt-format
 msgctxt "ListViewGallery|"
 msgid "%1: %2 clicked"
-msgstr "Kart tıklandı"
+msgstr "%1: %2 tıklandı"
 
 #: contents/ui/gallery/ListViewGallery.qml:121
-#, fuzzy
-#| msgctxt "CardsLayoutGallery|"
-#| msgid "Action2"
 msgctxt "ListViewGallery|"
 msgid "Action 2"
-msgstr "Eylem2"
+msgstr "Eylem 2"
 
 #: contents/ui/gallery/ListViewGallery.qml:144
 #, qt-format
 msgctxt "ListViewGallery|"
 msgid "Item %1"
-msgstr ""
+msgstr "Öge %1"
 
 #: contents/ui/gallery/ListViewGallery.qml:162
-#, fuzzy, qt-format
-#| msgctxt "DrawerGallery|"
-#| msgid "Action 1"
+#, qt-format
 msgctxt "ListViewGallery|"
 msgid "Section %1"
-msgstr "Eylem 1"
+msgstr "Bölüm %1"
 
 #: contents/ui/gallery/MetricsGallery.qml:42
 msgctxt "MetricsGallery|"
@@ -883,55 +868,3 @@ msgstr "Kirigami Galerisi"
 msgctxt "MainPage|"
 msgid "Home"
 msgstr "Ana Sayfa"
-
-#~ msgctxt "CardsLayoutGallery|"
-#~ msgid "Info"
-#~ msgstr "Bilgi"
-
-#~ msgctxt "CardsListViewGallery|"
-#~ msgid "Info"
-#~ msgstr "Bilgi"
-
-#~ msgctxt "ChipGallery|"
-#~ msgid "Info"
-#~ msgstr "Bilgi"
-
-#~ msgctxt "InfoSheet|"
-#~ msgid "HIG..."
-#~ msgstr "İnsan Arayüzü Yönergeleri…"
-
-#~ msgctxt "InfoSheet|"
-#~ msgid "API..."
-#~ msgstr "API…"
-
-#~ msgctxt "DialogGallery|"
-#~ msgid "Info"
-#~ msgstr "Bilgi"
-
-#~ msgctxt "DrawerGallery|"
-#~ msgid "Info"
-#~ msgstr "Bilgi"
-
-#~ msgctxt "FormLayoutGallery|"
-#~ msgid "Info"
-#~ msgstr "Bilgi"
-
-#~ msgctxt "InlineMessagesGallery|"
-#~ msgid "Info"
-#~ msgstr "Bilgi"
-
-#~ msgctxt "OverlaySheetGallery|"
-#~ msgid "Info"
-#~ msgstr "Bilgi"
-
-#~ msgctxt "SelectionControlsGallery|"
-#~ msgid "Info"
-#~ msgstr "Bilgi"
-
-#~ msgctxt "CardsGridViewGallery|"
-#~ msgid "Grid view of Cards"
-#~ msgstr "Kartların Izgara Görünümü"
-
-#~ msgctxt "CardsGridViewGallery|"
-#~ msgid "Info"
-#~ msgstr "Bilgi"
