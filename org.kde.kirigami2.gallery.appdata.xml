@@ -16,6 +16,7 @@
   <name xml:lang="fi">Kirigami Gallery</name>
   <name xml:lang="fr">Galerie Kirigami</name>
   <name xml:lang="gl">Galería de Kirigami</name>
+  <name xml:lang="ia">Galeria de Kirigami</name>
   <name xml:lang="id">Kirigami Gallery</name>
   <name xml:lang="it">Galleria di Kirigami</name>
   <name xml:lang="ka">Kirigami -ის გალერეა</name>
@@ -50,6 +51,7 @@
   <summary xml:lang="fi">Näyttää esimerkkejä Kirigami-alkioista ja miten niitä käytetään</summary>
   <summary xml:lang="fr">Affiche des exemples des composants Kirigami et permet de jouer avec eux</summary>
   <summary xml:lang="gl">Amosa exemplos de compoñentes de Kirigami e permítelle xogar con eles</summary>
+  <summary xml:lang="ia">MOnstar exemplos de componentes de Kirigami e te permitte jocar con illos</summary>
   <summary xml:lang="id">Menampilkan contoh komponen Kirigami dan memungkinkan kamu untuk bermain dengannya</summary>
   <summary xml:lang="it">Mostra esempi di componenti Kirigami e ti permette di giocare con essi</summary>
   <summary xml:lang="ka">გაჩვენებთ Kirigami-ის კომპონენტების მაგალითებს და საშუალებას გაძლევთ, ითამაშოთ მათით</summary>
@@ -86,6 +88,7 @@
     <p xml:lang="fi">Näyttää esimerkkejä Kirigami-alkioista</p>
     <p xml:lang="fr">Affiche des exemples des composants Kirigami</p>
     <p xml:lang="gl">Ver exemplos de compoñentes de Kirigami</p>
+    <p xml:lang="ia">Vide exemplos de componentes de Kirigami</p>
     <p xml:lang="id">Tampilan contoh komponen Kirigami</p>
     <p xml:lang="it">Visualizza esempi di componenti Kirigami</p>
     <p xml:lang="ka">Kirigami-ის კომპონენტების მაგალითების ნახვა</p>
@@ -124,6 +127,7 @@
   <developer_name xml:lang="fi">Marco Martin &lt;mart@kde.org&gt;</developer_name>
   <developer_name xml:lang="fr">Marco Martin &lt;mart@kde.org&gt;</developer_name>
   <developer_name xml:lang="gl">Marco Martin &lt;mart@kde.org&gt;</developer_name>
+  <developer_name xml:lang="ia">Marco Martin &lt;mart@kde.org&gt;</developer_name>
   <developer_name xml:lang="id">Marco Martin &lt;mart@kde.org&gt;</developer_name>
   <developer_name xml:lang="it">Marco Martin &lt;mart@kde.org&gt;</developer_name>
   <developer_name xml:lang="ka">Marco Martin &lt;mart@kde.org&gt;</developer_name>
