@@ -4,7 +4,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kirigamigallery_qt\n"
-"PO-Revision-Date: 2024-05-03 11:54+0200\n"
+"PO-Revision-Date: 2024-05-11 11:09+0200\n"
 "Last-Translator: Xavier Besnard <xavier.besnard@kde.org>\n"
 "Language-Team: French <French <kde-francophone@kde.org>>\n"
 "Language: fr\n"
@@ -12,11 +12,11 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Lokalize 23.08.5\n"
-"X-Environment: kde\n"
 "X-Accelerator-Marker: &\n"
-"X-Text-Markup: kde4\n"
+"X-Environment: kde\n"
+"X-Generator: Lokalize 23.08.5\n"
 "X-Qt-Contexts: true\n"
+"X-Text-Markup: kde4\n"
 
 #: contents/ui/gallery/CardsLayoutGallery.qml:30
 msgctxt "CardsLayoutGallery|"
@@ -244,17 +244,14 @@ msgstr "Jetons vérifiables"
 #: contents/ui/gallery/ColorsGallery.qml:30
 msgctxt "ColorsGallery|"
 msgid "Colors"
-msgstr ""
+msgstr "Couleurs"
 
 #: contents/ui/gallery/components/InfoSheet.qml:50
 msgctxt "InfoSheet|"
 msgid "HIG…"
-msgstr ""
+msgstr "HIG…"
 
 #: contents/ui/gallery/components/InfoSheet.qml:55
-#, fuzzy
-#| msgctxt "InfoSheet|"
-#| msgid "Source code..."
 msgctxt "InfoSheet|"
 msgid "Source code…"
 msgstr "Code source..."
@@ -262,15 +259,12 @@ msgstr "Code source..."
 #: contents/ui/gallery/components/InfoSheet.qml:60
 msgctxt "InfoSheet|"
 msgid "API…"
-msgstr ""
+msgstr "API…"
 
 #: contents/ui/gallery/components/InfoSheetAction.qml:16
-#, fuzzy
-#| msgctxt "ActionToolBarGallery|"
-#| msgid "Info"
 msgctxt "InfoSheetAction|"
 msgid "Info"
-msgstr "Info"
+msgstr "Informations"
 
 #: contents/ui/gallery/DialogGallery.qml:34
 msgctxt "DialogGallery|"
@@ -644,64 +638,49 @@ msgstr "Chut"
 #: contents/ui/gallery/ListViewGallery.qml:41
 msgctxt "ListViewGallery|"
 msgid "Main Action Text"
-msgstr ""
+msgstr "Texte de l'action principale"
 
 #: contents/ui/gallery/ListViewGallery.qml:52
-#, fuzzy
-#| msgctxt "OverlaySheetGallery|"
-#| msgid "Footer:"
 msgctxt "ListViewGallery|"
 msgid "Footer:"
 msgstr "Pied de page :"
 
 #: contents/ui/gallery/ListViewGallery.qml:67
-#, fuzzy, qt-format
-#| msgctxt "OverlaySheetGallery|"
-#| msgid "Item in sheet "
+#, qt-format
 msgctxt "ListViewGallery|"
 msgid "Item in sheet %n"
 msgid_plural "Item in sheet %n"
-msgstr[0] "Élément dans la liste"
-msgstr[1] "Élément dans la liste"
+msgstr[0] "Élément dans la feuille %n"
+msgstr[1] "Élément dans la feuille %n"
 
 #: contents/ui/gallery/ListViewGallery.qml:114
-#, fuzzy
-#| msgctxt "DrawerGallery|"
-#| msgid "Action 1"
 msgctxt "ListViewGallery|"
 msgid "Action 1"
 msgstr "Action 1"
 
 #: contents/ui/gallery/ListViewGallery.qml:116
 #: contents/ui/gallery/ListViewGallery.qml:123
-#, fuzzy, qt-format
-#| msgctxt "CardsLayoutGallery|"
-#| msgid "Card clicked"
+#, qt-format
 msgctxt "ListViewGallery|"
 msgid "%1: %2 clicked"
-msgstr "Carte ayant été cliquée"
+msgstr "%1 : %2 ayant été cliqué"
 
 #: contents/ui/gallery/ListViewGallery.qml:121
-#, fuzzy
-#| msgctxt "CardsLayoutGallery|"
-#| msgid "Action2"
 msgctxt "ListViewGallery|"
 msgid "Action 2"
-msgstr "Action2"
+msgstr "Action 2"
 
 #: contents/ui/gallery/ListViewGallery.qml:144
 #, qt-format
 msgctxt "ListViewGallery|"
 msgid "Item %1"
-msgstr ""
+msgstr "Élément %1"
 
 #: contents/ui/gallery/ListViewGallery.qml:162
-#, fuzzy, qt-format
-#| msgctxt "DrawerGallery|"
-#| msgid "Action 1"
+#, qt-format
 msgctxt "ListViewGallery|"
 msgid "Section %1"
-msgstr "Action 1"
+msgstr "Section %1"
 
 #: contents/ui/gallery/MetricsGallery.qml:42
 msgctxt "MetricsGallery|"
@@ -903,7 +882,7 @@ msgstr "Galerie de Kirigami"
 #: contents/ui/MainPage.qml:40
 msgctxt "MainPage|"
 msgid "Home"
-msgstr ""
+msgstr "Accueil"
 
 #~ msgctxt "CardsLayoutGallery|"
 #~ msgid "Info"
