@@ -276,17 +276,17 @@ msgstr "Chips que es poden marcar"
 #: contents/ui/gallery/components/InfoSheet.qml:47
 msgctxt "InfoSheet|"
 msgid "HIG..."
-msgstr "HIG..."
+msgstr "HIG…"
 
 #: contents/ui/gallery/components/InfoSheet.qml:52
 msgctxt "InfoSheet|"
 msgid "Source code..."
-msgstr "Codi font..."
+msgstr "Codi font…"
 
 #: contents/ui/gallery/components/InfoSheet.qml:57
 msgctxt "InfoSheet|"
 msgid "API..."
-msgstr "API..."
+msgstr "API…"
 
 #: contents/ui/gallery/DialogGallery.qml:32
 msgctxt "DialogGallery|"
@@ -311,7 +311,7 @@ msgstr "Cancel·la"
 #: contents/ui/gallery/DialogGallery.qml:91
 msgctxt "DialogGallery|"
 msgid "Folder name..."
-msgstr "Nom de la carpeta..."
+msgstr "Nom de la carpeta…"
 
 #: contents/ui/gallery/DialogGallery.qml:97
 msgctxt "DialogGallery|"
