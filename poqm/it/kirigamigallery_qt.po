@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"PO-Revision-Date: 2024-05-01 16:21+0200\n"
+"PO-Revision-Date: 2024-05-12 11:06+0200\n"
 "Last-Translator: Valter Mura <valtermura@gmail.com>\n"
 "Language-Team: Italian <kde-i18n-it@kde.org>\n"
 "Language: it\n"
@@ -239,30 +239,24 @@ msgstr "Chip selezionabili"
 #: contents/ui/gallery/ColorsGallery.qml:30
 msgctxt "ColorsGallery|"
 msgid "Colors"
-msgstr ""
+msgstr "Colori"
 
 #: contents/ui/gallery/components/InfoSheet.qml:50
 msgctxt "InfoSheet|"
 msgid "HIG…"
-msgstr ""
+msgstr "HIG…"
 
 #: contents/ui/gallery/components/InfoSheet.qml:55
-#, fuzzy
-#| msgctxt "InfoSheet|"
-#| msgid "Source code..."
 msgctxt "InfoSheet|"
 msgid "Source code…"
-msgstr "Codice sorgente..."
+msgstr "Codice sorgente…"
 
 #: contents/ui/gallery/components/InfoSheet.qml:60
 msgctxt "InfoSheet|"
 msgid "API…"
-msgstr ""
+msgstr "API…"
 
 #: contents/ui/gallery/components/InfoSheetAction.qml:16
-#, fuzzy
-#| msgctxt "ActionToolBarGallery|"
-#| msgid "Info"
 msgctxt "InfoSheetAction|"
 msgid "Info"
 msgstr "Info"
@@ -638,64 +632,49 @@ msgstr "Silenzio"
 #: contents/ui/gallery/ListViewGallery.qml:41
 msgctxt "ListViewGallery|"
 msgid "Main Action Text"
-msgstr ""
+msgstr "Testo azione principale"
 
 #: contents/ui/gallery/ListViewGallery.qml:52
-#, fuzzy
-#| msgctxt "OverlaySheetGallery|"
-#| msgid "Footer:"
 msgctxt "ListViewGallery|"
 msgid "Footer:"
 msgstr "Piè di pagina:"
 
 #: contents/ui/gallery/ListViewGallery.qml:67
-#, fuzzy, qt-format
-#| msgctxt "OverlaySheetGallery|"
-#| msgid "Item in sheet "
+#, qt-format
 msgctxt "ListViewGallery|"
 msgid "Item in sheet %n"
 msgid_plural "Item in sheet %n"
-msgstr[0] "Elemento nel foglio"
-msgstr[1] "Elemento nel foglio"
+msgstr[0] "Elemento nel foglio %n"
+msgstr[1] "Elemento nel foglio %n"
 
 #: contents/ui/gallery/ListViewGallery.qml:114
-#, fuzzy
-#| msgctxt "DrawerGallery|"
-#| msgid "Action 1"
 msgctxt "ListViewGallery|"
 msgid "Action 1"
 msgstr "Azione 1"
 
 #: contents/ui/gallery/ListViewGallery.qml:116
 #: contents/ui/gallery/ListViewGallery.qml:123
-#, fuzzy, qt-format
-#| msgctxt "CardsLayoutGallery|"
-#| msgid "Card clicked"
+#, qt-format
 msgctxt "ListViewGallery|"
 msgid "%1: %2 clicked"
-msgstr "Clic su Card"
+msgstr "%1: clic su %2"
 
 #: contents/ui/gallery/ListViewGallery.qml:121
-#, fuzzy
-#| msgctxt "CardsLayoutGallery|"
-#| msgid "Action2"
 msgctxt "ListViewGallery|"
 msgid "Action 2"
-msgstr "Azione2"
+msgstr "Azione 2"
 
 #: contents/ui/gallery/ListViewGallery.qml:144
 #, qt-format
 msgctxt "ListViewGallery|"
 msgid "Item %1"
-msgstr ""
+msgstr "Elemento %1"
 
 #: contents/ui/gallery/ListViewGallery.qml:162
-#, fuzzy, qt-format
-#| msgctxt "DrawerGallery|"
-#| msgid "Action 1"
+#, qt-format
 msgctxt "ListViewGallery|"
 msgid "Section %1"
-msgstr "Azione 1"
+msgstr "Sezione %1"
 
 #: contents/ui/gallery/MetricsGallery.qml:42
 msgctxt "MetricsGallery|"
@@ -781,8 +760,8 @@ msgid ""
 "A sheet can have optional header and footer items which will not scroll away "
 "when the sheet overflows."
 msgstr ""
-"Uno foglio (sheet) può contenere elementi header e footer opzionali che "
-"permangono quando il foglio scorre oltre i limiti."
+"Un foglio (sheet) può contenere elementi di intestazione e piè di pagina "
+"opzionali che permangono quando il foglio scorre oltre i limiti."
 
 #: contents/ui/gallery/OverlaySheetGallery.qml:109
 msgctxt "OverlaySheetGallery|"
@@ -791,7 +770,7 @@ msgid ""
 "However, if the main item sets an implicitWidth or Layout.preferredWidth, "
 "the sheet won't grow in width more than such given value."
 msgstr ""
-"Uno foglio, per impostazione predefinita, occupa la larghezza massima "
+"Un foglio, per impostazione predefinita, occupa la larghezza massima "
 "disponibile nella pagina.\n"
 "Tuttavia, se l'elemento principale imposta un implicitWidth o Layout."
 "preferredWidth, il foglio non cresce in larghezza più di tale valore "
@@ -897,7 +876,7 @@ msgstr "Galleria di Kirigami"
 #: contents/ui/MainPage.qml:40
 msgctxt "MainPage|"
 msgid "Home"
-msgstr ""
+msgstr "Pagina iniziale"
 
 #~ msgctxt "CardsLayoutGallery|"
 #~ msgid "Info"
