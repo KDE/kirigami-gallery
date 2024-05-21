@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2024-05-18 15:51+0300\n"
+"PO-Revision-Date: 2024-05-19 08:13+0300\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
 "Language-Team: צוות התרגום של KDE ישראל\n"
 "Language: he\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Plural-Forms: nplurals=4; plural=(n == 1) ? 0 : ((n == 2) ? 1 : ((n > 10 && "
 "n % 10 == 0) ? 2 : 3));\n"
 "X-Qt-Contexts: true\n"
-"X-Generator: Poedit 3.4.2\n"
+"X-Generator: Lokalize 24.02.2\n"
 
 #: contents/ui/gallery/CardsLayoutGallery.qml:30
 msgctxt "CardsLayoutGallery|"
@@ -545,22 +545,22 @@ msgstr ""
 #: contents/ui/gallery/InlineMessagesGallery.qml:129
 msgctxt "InlineMessagesGallery|"
 msgid "Add text"
-msgstr ""
+msgstr "הוספת טקסט"
 
 #: contents/ui/gallery/InlineMessagesGallery.qml:139
 msgctxt "InlineMessagesGallery|"
 msgid "Reset text"
-msgstr ""
+msgstr "איפוס טקסט"
 
 #: contents/ui/gallery/InlineMessagesGallery.qml:161
 msgctxt "InlineMessagesGallery|"
 msgid "Inline messages are initially hidden and animate when revealed. Try it!"
-msgstr ""
+msgstr "הודעות פנימיות מוסתרות בהתחלה ומונפשות בעת חשיפתן. כדאי לנסות!"
 
 #: contents/ui/gallery/InlineMessagesGallery.qml:170
 msgctxt "InlineMessagesGallery|"
 msgid "Show additional message"
-msgstr ""
+msgstr "הצגת הודעה נוספת"
 
 #: contents/ui/gallery/InlineMessagesGallery.qml:186
 msgctxt "InlineMessagesGallery|"
