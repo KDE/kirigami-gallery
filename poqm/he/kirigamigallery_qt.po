@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2024-05-23 10:50+0300\n"
+"PO-Revision-Date: 2024-05-24 10:42+0300\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
 "Language-Team: צוות התרגום של KDE ישראל\n"
 "Language: he\n"
@@ -315,7 +315,7 @@ msgstr "אין חלונית תחתונה"
 #: contents/ui/gallery/DialogGallery.qml:142
 msgctxt "DialogGallery|"
 msgid "This dialog has no footer buttons.<br/>It also has no close button."
-msgstr ""
+msgstr "לחלונית הזאת יש כפתורים בכותרת התחתונה<br/>גם אין לה כפתור סגירה."
 
 #: contents/ui/gallery/DialogGallery.qml:150
 msgctxt "DialogGallery|"
