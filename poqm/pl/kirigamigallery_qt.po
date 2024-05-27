@@ -590,8 +590,8 @@ msgid ""
 "org/<a/>"
 msgstr ""
 "We wtopionych wiadomościach możesz stosować tekst formatowany i opcjonalnie "
-"obsługiwać łącza (otwierane w przeglądarce): <a href=\"https://www.kde.org"
-"\">https://www.kde.org/<a/>"
+"obsługiwać łącza (otwierane w przeglądarce): <a href=\"https://www.kde."
+"org\">https://www.kde.org/<a/>"
 
 #: contents/ui/gallery/InlineMessagesGallery.qml:111
 msgctxt "InlineMessagesGallery|"

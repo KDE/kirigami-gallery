@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2024-05-24 10:42+0300\n"
+"PO-Revision-Date: 2024-05-26 07:46+0300\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
 "Language-Team: צוות התרגום של KDE ישראל\n"
 "Language: he\n"
@@ -194,22 +194,22 @@ msgstr "התקנה"
 #: contents/ui/gallery/ChipGallery.qml:31
 msgctxt "ChipGallery|"
 msgid "Chips"
-msgstr ""
+msgstr "תגים"
 
 #: contents/ui/gallery/ChipGallery.qml:46
 msgctxt "ChipGallery|"
 msgid "Closable Chips"
-msgstr ""
+msgstr "תגים שאפשר לסגור"
 
 #: contents/ui/gallery/ChipGallery.qml:76
 msgctxt "ChipGallery|"
 msgid "Informative Chips"
-msgstr ""
+msgstr "תגים מיידעים"
 
 #: contents/ui/gallery/ChipGallery.qml:112
 msgctxt "ChipGallery|"
 msgid "Checkable Chips"
-msgstr ""
+msgstr "תגים שאפשר לסמן"
 
 #: contents/ui/gallery/ColorsGallery.qml:30
 msgctxt "ColorsGallery|"
@@ -450,6 +450,8 @@ msgid ""
 "An inline bottom drawer covers the whole application width but lets the "
 "uncovered pieces to still be interacted with."
 msgstr ""
+"מגירה תחתונה משולבת שמסתירה את כל רוחב היישום אבל מאפשרת לתפעל את החלקים "
+"שאינם מכוסים."
 
 #: contents/ui/gallery/DrawerGallery.qml:97
 msgctxt "DrawerGallery|"
@@ -458,6 +460,8 @@ msgid ""
 "darken the rest of the app. Clicking on the darkened area will dismiss the "
 "drawer."
 msgstr ""
+"מגירה עליונה חוסמת שמשתרעת על פני כל רוחב חלון היישום ותכהה את שאר היישום. "
+"לחיצה על האזור המוכהה תסלק את המגירה."
 
 #: contents/ui/gallery/DrawerGallery.qml:116
 msgctxt "DrawerGallery|"
@@ -465,6 +469,8 @@ msgid ""
 "An inline top drawer covers the whole application width but lets the "
 "uncovered pieces to still be interacted with."
 msgstr ""
+"מגירה עליונה משולבת שמסתירה את כל רוחב היישום אבל מאפשרת לתפעל את החלקים "
+"שאינם מכוסים."
 
 #: contents/ui/gallery/DrawerGallery.qml:131
 msgctxt "DrawerGallery|"
@@ -514,6 +520,8 @@ msgid ""
 "This is a positive inline message. Use it for example to announce a "
 "successful result or the successful completion of a procedure."
 msgstr ""
+"זאת הודעה חיובית משולבת. אפשר להשתמש בה למשל כדי להכריז על תוצאה מוצלחת או "
+"לאחר שתהליך כלשהו הסתיים בהצלחה."
 
 #: contents/ui/gallery/InlineMessagesGallery.qml:67
 msgctxt "InlineMessagesGallery|"
@@ -521,6 +529,8 @@ msgid ""
 "This is a warning inline message. Use it for example to provide critical "
 "guidance or warn about something that is not going to work."
 msgstr ""
+"זאת הודעת אזהרה משולבת. אפשר להשתמש בה למשל כדי לספק הנחיה מהותית או להזהיר "
+"על משהו שלא הולך לעבוד כראוי."
 
 #: contents/ui/gallery/InlineMessagesGallery.qml:77
 msgctxt "InlineMessagesGallery|"
@@ -528,11 +538,13 @@ msgid ""
 "This is an error inline message. Use it for example to announce something "
 "has gone wrong or that input will not be accepted."
 msgstr ""
+"זאת הודעת שגיאה משולבת. אפשר להשתמש בה למשל כדי להכריז על משהו שהשתבש או "
+"שהקלט לא יתקבל."
 
 #: contents/ui/gallery/InlineMessagesGallery.qml:91
 msgctxt "InlineMessagesGallery|"
 msgid "Inline messages can optionally have a custom icon set."
-msgstr ""
+msgstr "להודעות משובצות אפשר להגדיר סמל בהגדרתך."
 
 #: contents/ui/gallery/InlineMessagesGallery.qml:99
 msgctxt "InlineMessagesGallery|"
@@ -541,11 +553,13 @@ msgid ""
 "links (opens in browser): <a href=\"https://www.kde.org\">https://www.kde."
 "org/<a/>"
 msgstr ""
+"אפשר להשתמש בטקסט עשיר בהודעות משובצות ולטפל בלחיצות על קישורים לפי הצורך "
+"(נפתח בדפדפן): <a href=\"https://www.kde.org\">https://www.kde.org/<a/>"
 
 #: contents/ui/gallery/InlineMessagesGallery.qml:111
 msgctxt "InlineMessagesGallery|"
 msgid "Inline messages can have an optional close button."
-msgstr ""
+msgstr "להודעות משולבות יכולים להיות כפתורי סגירה כרשות."
 
 #: contents/ui/gallery/InlineMessagesGallery.qml:129
 msgctxt "InlineMessagesGallery|"
@@ -683,7 +697,7 @@ msgstr "נעיצת עמוד"
 #: contents/ui/gallery/OverlaySheetGallery.qml:32
 msgctxt "OverlaySheetGallery|"
 msgid "Overlay Sheets"
-msgstr ""
+msgstr "גיליונות חופפים"
 
 #: contents/ui/gallery/OverlaySheetGallery.qml:65
 msgctxt "OverlaySheetGallery|"
