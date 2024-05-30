@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"PO-Revision-Date: 2024-04-30 15:18+0200\n"
+"PO-Revision-Date: 2024-05-29 11:46+0200\n"
 "Last-Translator: Vit Pelcak <vpelcak@suse.cz>\n"
 "Language-Team: Czech <kde-i18n-doc@kde.org>\n"
 "Language: cs\n"
@@ -201,7 +201,7 @@ msgstr ""
 #: contents/ui/gallery/ColorsGallery.qml:30
 msgctxt "ColorsGallery|"
 msgid "Colors"
-msgstr ""
+msgstr "Barvy"
 
 #: contents/ui/gallery/components/InfoSheet.qml:50
 msgctxt "InfoSheet|"
@@ -211,7 +211,7 @@ msgstr ""
 #: contents/ui/gallery/components/InfoSheet.qml:55
 msgctxt "InfoSheet|"
 msgid "Source code…"
-msgstr ""
+msgstr "Zdrojový kód…"
 
 #: contents/ui/gallery/components/InfoSheet.qml:60
 msgctxt "InfoSheet|"
@@ -221,7 +221,7 @@ msgstr ""
 #: contents/ui/gallery/components/InfoSheetAction.qml:16
 msgctxt "InfoSheetAction|"
 msgid "Info"
-msgstr ""
+msgstr "Informace"
 
 #: contents/ui/gallery/DialogGallery.qml:34
 msgctxt "DialogGallery|"
@@ -572,7 +572,7 @@ msgstr ""
 #: contents/ui/gallery/ListViewGallery.qml:52
 msgctxt "ListViewGallery|"
 msgid "Footer:"
-msgstr ""
+msgstr "Zápatí:"
 
 #: contents/ui/gallery/ListViewGallery.qml:67
 #, qt-format
@@ -586,7 +586,7 @@ msgstr[2] ""
 #: contents/ui/gallery/ListViewGallery.qml:114
 msgctxt "ListViewGallery|"
 msgid "Action 1"
-msgstr ""
+msgstr "Činnost 1"
 
 #: contents/ui/gallery/ListViewGallery.qml:116
 #: contents/ui/gallery/ListViewGallery.qml:123
@@ -598,19 +598,19 @@ msgstr ""
 #: contents/ui/gallery/ListViewGallery.qml:121
 msgctxt "ListViewGallery|"
 msgid "Action 2"
-msgstr ""
+msgstr "Činnost 2"
 
 #: contents/ui/gallery/ListViewGallery.qml:144
 #, qt-format
 msgctxt "ListViewGallery|"
 msgid "Item %1"
-msgstr ""
+msgstr "Položka %1"
 
 #: contents/ui/gallery/ListViewGallery.qml:162
 #, qt-format
 msgctxt "ListViewGallery|"
 msgid "Section %1"
-msgstr ""
+msgstr "Sekce %1"
 
 #: contents/ui/gallery/MetricsGallery.qml:42
 msgctxt "MetricsGallery|"
@@ -800,4 +800,4 @@ msgstr "Galerie Kirigami"
 #: contents/ui/MainPage.qml:40
 msgctxt "MainPage|"
 msgid "Home"
-msgstr ""
+msgstr "Domů"
