@@ -48,6 +48,7 @@ Kirigami.ScrollablePage {
 
         contentItem: QQC2.ScrollView {
             ListView {
+                clip: true
                 model: 20
                 delegate: QQC2.CheckDelegate {
                     width: ListView.view.width - ListView.view.leftMargin - ListView.view.rightMargin
@@ -71,6 +72,7 @@ Kirigami.ScrollablePage {
 
         contentItem: QQC2.ScrollView {
             ListView {
+                clip: true
                 model: 20
                 delegate: QQC2.RadioDelegate {
                     width: ListView.view.width - ListView.view.leftMargin - ListView.view.rightMargin
@@ -94,6 +96,7 @@ Kirigami.ScrollablePage {
 
         contentItem: QQC2.ScrollView {
             ListView {
+                clip: true
                 model: 20
                 delegate: QQC2.SwitchDelegate {
                     width: ListView.view.width - ListView.view.leftMargin - ListView.view.rightMargin
