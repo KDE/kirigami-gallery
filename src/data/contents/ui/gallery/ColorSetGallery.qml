@@ -61,23 +61,21 @@ Kirigami.ScrollablePage {
             Layout.minimumHeight: childrenRect.height
             Layout.fillWidth: true
             height: childrenRect.height
-            width: parent.width
             background: Rectangle {
                 color: Kirigami.Theme.backgroundColor
             }
             contentItem: ColumnLayout {
                 spacing: 0
-                width: parent.width
                 QQC2.Label {
                     text: "Set inherited from parent Item"
                 }
                 Kirigami.SubtitleDelegate {
-                    width: parent.width
+                    Layout.fillWidth: true
                     icon.name: "view-right-close"
                     text: "Delegate1"
                 }
                 Kirigami.SubtitleDelegate {
-                    width: parent.width
+                    Layout.fillWidth: true
                     text: "Delegate2"
                 }
             }
@@ -89,23 +87,21 @@ Kirigami.ScrollablePage {
             Layout.minimumHeight: childrenRect.height
             Layout.fillWidth: true
             height: childrenRect.height
-            width: parent.width
             background: Rectangle {
                 color: Kirigami.Theme.backgroundColor
             }
             contentItem: ColumnLayout {
                 spacing: 0
-                width: parent.width
                 QQC2.Label {
                     text: "Window Set"
                 }
                 Kirigami.SubtitleDelegate {
-                    width: parent.width
+                    Layout.fillWidth: true
                     icon.name: "view-right-close"
                     text: "Delegate1"
                 }
                 Kirigami.SubtitleDelegate {
-                    width: parent.width
+                    Layout.fillWidth: true
                     text: "Delegate2"
                 }
             }
@@ -117,23 +113,21 @@ Kirigami.ScrollablePage {
             Layout.minimumHeight: childrenRect.height
             Layout.fillWidth: true
             height: childrenRect.height
-            width: parent.width
             background: Rectangle {
                 color: Kirigami.Theme.backgroundColor
             }
             contentItem: ColumnLayout {
                 spacing: 0
-                width: parent.width
                 QQC2.Label {
                     text: "View Set"
                 }
                 Kirigami.SubtitleDelegate {
-                    width: parent.width
+                    Layout.fillWidth: true
                     icon.name: "view-right-close"
                     text: "Delegate1"
                 }
                 Kirigami.SubtitleDelegate {
-                    width: parent.width
+                    Layout.fillWidth: true
                     text: "Delegate2"
                 }
             }
@@ -145,7 +139,6 @@ Kirigami.ScrollablePage {
             Layout.minimumHeight: childrenRect.height
             Layout.fillWidth: true
             height: childrenRect.height
-            width: parent.width
             background: Rectangle {
                 color: Kirigami.Theme.backgroundColor
             }
@@ -155,12 +148,12 @@ Kirigami.ScrollablePage {
                     text: "Complementary Set"
                 }
                 Kirigami.SubtitleDelegate {
-                    width: parent.width
+                    Layout.fillWidth: true
                     icon.name: "view-right-close"
                     text: "Delegate1"
                 }
                 Kirigami.SubtitleDelegate {
-                    width: parent.width
+                    Layout.fillWidth: true
                     text: "Delegate2"
                 }
             }
@@ -175,7 +168,6 @@ Kirigami.ScrollablePage {
             Layout.minimumHeight: childrenRect.height
             Layout.fillWidth: true
             height: childrenRect.height
-            width: parent.width
             background: Rectangle {
                 color: Kirigami.Theme.backgroundColor
             }
@@ -185,7 +177,7 @@ Kirigami.ScrollablePage {
                     text: "Window set with Custom Colors"
                 }
                 Kirigami.SubtitleDelegate {
-                    width: parent.width
+                    Layout.fillWidth: true
                     icon.name: "view-right-close"
                     text: "Delegate1"
                     QQC2.Button {
@@ -195,7 +187,7 @@ Kirigami.ScrollablePage {
                     }
                 }
                 Kirigami.SubtitleDelegate {
-                    width: parent.width
+                    Layout.fillWidth: true
                     text: "Delegate2"
                     QQC2.TextField {
                         Kirigami.Theme.inherit: true
