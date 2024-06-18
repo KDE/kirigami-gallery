@@ -54,6 +54,7 @@ Kirigami.ScrollablePage {
     Kirigami.OverlayDrawer {
         id: modalBottomDrawer
         edge: Qt.BottomEdge
+        parent: QQC2.Overlay.overlay
         contentItem: ColumnLayout {
             QQC2.Label {
                 Layout.fillWidth: true
@@ -90,6 +91,7 @@ Kirigami.ScrollablePage {
     Kirigami.OverlayDrawer {
         id: modalTopDrawer
         edge: Qt.TopEdge
+        parent: QQC2.Overlay.overlay
         contentItem: ColumnLayout {
             QQC2.Label {
                 Layout.fillWidth: true
