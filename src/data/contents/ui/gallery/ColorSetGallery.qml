@@ -178,9 +178,17 @@ Kirigami.ScrollablePage {
                 }
                 Kirigami.SubtitleDelegate {
                     Layout.fillWidth: true
+                    Layout.preferredHeight: Math.max(implicitHeight, button.implicitHeight + 2 * Kirigami.Units.largeSpacing)
                     icon.name: "view-right-close"
                     text: "Delegate1"
+
                     QQC2.Button {
+                        id: button
+                        anchors {
+                            right: parent.right
+                            verticalCenter: parent.verticalCenter
+                            rightMargin: Kirigami.Units.largeSpacing
+                        }
                         Kirigami.Theme.inherit: true
                         text: "Dynamic Color Button"
                         icon.name: "go-next"
@@ -188,8 +196,16 @@ Kirigami.ScrollablePage {
                 }
                 Kirigami.SubtitleDelegate {
                     Layout.fillWidth: true
+                    Layout.preferredHeight: Math.max(implicitHeight, textField.implicitHeight + 2 * Kirigami.Units.largeSpacing)
                     text: "Delegate2"
+
                     QQC2.TextField {
+                        id: textField
+                        anchors {
+                            right: parent.right
+                            verticalCenter: parent.verticalCenter
+                            rightMargin: Kirigami.Units.largeSpacing
+                        }
                         Kirigami.Theme.inherit: true
                         text: "Dynamic Color Text field"
                     }
