@@ -466,7 +466,7 @@ msgctxt "DrawerGallery|"
 msgid "Action 3 clicked"
 msgstr "Нажат пункт действия 3"
 
-#: contents/ui/gallery/DrawerGallery.qml:61
+#: contents/ui/gallery/DrawerGallery.qml:62
 msgctxt "DrawerGallery|"
 msgid ""
 "A modal bottom drawer will span for the whole application window width and "
@@ -477,15 +477,15 @@ msgstr ""
 "затемняет остальное окно программы и имеет ширину, равную ширине окна. "
 "Щелчок по затемнённой области окна приведёт к сворачиванию выдвижной панели."
 
-#: contents/ui/gallery/DrawerGallery.qml:65
-#: contents/ui/gallery/DrawerGallery.qml:84
-#: contents/ui/gallery/DrawerGallery.qml:101
-#: contents/ui/gallery/DrawerGallery.qml:120
+#: contents/ui/gallery/DrawerGallery.qml:66
+#: contents/ui/gallery/DrawerGallery.qml:85
+#: contents/ui/gallery/DrawerGallery.qml:103
+#: contents/ui/gallery/DrawerGallery.qml:122
 msgctxt "DrawerGallery|"
 msgid "Close"
 msgstr "Закрыть"
 
-#: contents/ui/gallery/DrawerGallery.qml:80
+#: contents/ui/gallery/DrawerGallery.qml:81
 msgctxt "DrawerGallery|"
 msgid ""
 "An inline bottom drawer covers the whole application width but lets the "
@@ -494,7 +494,7 @@ msgstr ""
 "Встроенная нижняя выдвижная панель в ширину равна всему окну программы, но "
 "всё равно позволяет взаимодействовать с незакрытыми ей частями окна."
 
-#: contents/ui/gallery/DrawerGallery.qml:97
+#: contents/ui/gallery/DrawerGallery.qml:99
 msgctxt "DrawerGallery|"
 msgid ""
 "A modal top drawer will span for the whole application window width and will "
@@ -506,7 +506,7 @@ msgstr ""
 "окна. Щелчок по затемнённой области окна приведёт к сворачиванию выдвижной "
 "панели."
 
-#: contents/ui/gallery/DrawerGallery.qml:116
+#: contents/ui/gallery/DrawerGallery.qml:118
 msgctxt "DrawerGallery|"
 msgid ""
 "An inline top drawer covers the whole application width but lets the "
@@ -515,22 +515,22 @@ msgstr ""
 "Встроенная верхняя выдвижная панель в ширину равна всему окну программы, но "
 "всё равно позволяет взаимодействовать с незакрытыми ей частями окна."
 
-#: contents/ui/gallery/DrawerGallery.qml:131
+#: contents/ui/gallery/DrawerGallery.qml:133
 msgctxt "DrawerGallery|"
 msgid "Left Global Drawer"
 msgstr "Левая глобальная выдвижная панель"
 
-#: contents/ui/gallery/DrawerGallery.qml:136
+#: contents/ui/gallery/DrawerGallery.qml:138
 msgctxt "DrawerGallery|"
 msgid "Right Context Drawer"
 msgstr "Правая контекстная выдвижная панель"
 
-#: contents/ui/gallery/DrawerGallery.qml:142
+#: contents/ui/gallery/DrawerGallery.qml:144
 msgctxt "DrawerGallery|"
 msgid "Modal Bottom Drawer"
 msgstr "Модальная нижняя выдвижная панель"
 
-#: contents/ui/gallery/DrawerGallery.qml:152
+#: contents/ui/gallery/DrawerGallery.qml:154
 msgctxt "DrawerGallery|"
 msgid "Modal Top Drawer"
 msgstr "Модальная верхняя выдвижная панель"
@@ -540,7 +540,7 @@ msgctxt "FormLayoutGallery|"
 msgid "Expanding Button"
 msgstr "Кнопка разворачивания"
 
-#: contents/ui/gallery/FormLayoutGallery.qml:117
+#: contents/ui/gallery/FormLayoutGallery.qml:116
 msgctxt "FormLayoutGallery|"
 msgid "Twin Layout:"
 msgstr "Двойная компоновка:"
@@ -771,14 +771,14 @@ msgstr "Закрыть"
 
 #: contents/ui/gallery/OverlaySheetGallery.qml:75
 #: contents/ui/gallery/OverlaySheetGallery.qml:143
-#: contents/ui/gallery/OverlaySheetGallery.qml:166
+#: contents/ui/gallery/OverlaySheetGallery.qml:167
 msgctxt "OverlaySheetGallery|"
 msgid "Title"
 msgstr "Заголовок"
 
 #: contents/ui/gallery/OverlaySheetGallery.qml:79
 #: contents/ui/gallery/OverlaySheetGallery.qml:147
-#: contents/ui/gallery/OverlaySheetGallery.qml:170
+#: contents/ui/gallery/OverlaySheetGallery.qml:171
 msgctxt "OverlaySheetGallery|"
 msgid "Footer:"
 msgstr "Нижний колонтитул:"
@@ -817,12 +817,12 @@ msgstr ""
 "программы.\n"
 "В этом случае лист закроет также и кнопки действий страницы."
 
-#: contents/ui/gallery/OverlaySheetGallery.qml:158
+#: contents/ui/gallery/OverlaySheetGallery.qml:159
 msgctxt "OverlaySheetGallery|"
 msgid "Item in sheet "
 msgstr "Элемент на листе "
 
-#: contents/ui/gallery/OverlaySheetGallery.qml:202
+#: contents/ui/gallery/OverlaySheetGallery.qml:203
 msgctxt "OverlaySheetGallery|"
 msgid "Very Long Sheet"
 msgstr "Очень длинный лист"
@@ -837,60 +837,60 @@ msgctxt "SelectionControlsGallery|"
 msgid "Checkable List Items"
 msgstr "Пункты списка вариантов с флажками"
 
-#: contents/ui/gallery/SelectionControlsGallery.qml:54
-#: contents/ui/gallery/SelectionControlsGallery.qml:77
-#: contents/ui/gallery/SelectionControlsGallery.qml:100
+#: contents/ui/gallery/SelectionControlsGallery.qml:55
+#: contents/ui/gallery/SelectionControlsGallery.qml:79
+#: contents/ui/gallery/SelectionControlsGallery.qml:103
 #, qt-format
 msgctxt "SelectionControlsGallery|"
 msgid "Delegate %1"
 msgstr "Поручить %1"
 
-#: contents/ui/gallery/SelectionControlsGallery.qml:70
-#: contents/ui/gallery/SelectionControlsGallery.qml:93
+#: contents/ui/gallery/SelectionControlsGallery.qml:71
+#: contents/ui/gallery/SelectionControlsGallery.qml:95
 msgctxt "SelectionControlsGallery|"
 msgid "Radio List Items"
 msgstr "Пункты списка вариантов"
 
-#: contents/ui/gallery/SelectionControlsGallery.qml:109
+#: contents/ui/gallery/SelectionControlsGallery.qml:112
 msgctxt "SelectionControlsGallery|"
 msgid "Checkboxes"
 msgstr "Флажки"
 
-#: contents/ui/gallery/SelectionControlsGallery.qml:113
-#: contents/ui/gallery/SelectionControlsGallery.qml:131
-#: contents/ui/gallery/SelectionControlsGallery.qml:149
+#: contents/ui/gallery/SelectionControlsGallery.qml:116
+#: contents/ui/gallery/SelectionControlsGallery.qml:134
+#: contents/ui/gallery/SelectionControlsGallery.qml:152
 msgctxt "SelectionControlsGallery|"
 msgid "Item selected"
 msgstr "Пункт выбран"
 
-#: contents/ui/gallery/SelectionControlsGallery.qml:117
-#: contents/ui/gallery/SelectionControlsGallery.qml:135
-#: contents/ui/gallery/SelectionControlsGallery.qml:153
+#: contents/ui/gallery/SelectionControlsGallery.qml:120
+#: contents/ui/gallery/SelectionControlsGallery.qml:138
+#: contents/ui/gallery/SelectionControlsGallery.qml:156
 msgctxt "SelectionControlsGallery|"
 msgid "Item not selected"
 msgstr "Пункт не выбран"
 
-#: contents/ui/gallery/SelectionControlsGallery.qml:121
+#: contents/ui/gallery/SelectionControlsGallery.qml:124
 msgctxt "SelectionControlsGallery|"
 msgid "Checkable List View"
 msgstr "Список флажков"
 
-#: contents/ui/gallery/SelectionControlsGallery.qml:127
+#: contents/ui/gallery/SelectionControlsGallery.qml:130
 msgctxt "SelectionControlsGallery|"
 msgid "Radio buttons"
 msgstr "Кнопки вариантов"
 
-#: contents/ui/gallery/SelectionControlsGallery.qml:140
+#: contents/ui/gallery/SelectionControlsGallery.qml:143
 msgctxt "SelectionControlsGallery|"
 msgid "Radio List View"
 msgstr "Список вариантов"
 
-#: contents/ui/gallery/SelectionControlsGallery.qml:146
+#: contents/ui/gallery/SelectionControlsGallery.qml:149
 msgctxt "SelectionControlsGallery|"
 msgid "Switches"
 msgstr "Переключатели"
 
-#: contents/ui/gallery/SelectionControlsGallery.qml:157
+#: contents/ui/gallery/SelectionControlsGallery.qml:160
 msgctxt "SelectionControlsGallery|"
 msgid "Switch List View"
 msgstr "Список переключателей"

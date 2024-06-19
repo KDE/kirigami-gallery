@@ -472,7 +472,7 @@ msgctxt "DrawerGallery|"
 msgid "Action 3 clicked"
 msgstr "Ekintza 3 klikatuta"
 
-#: contents/ui/gallery/DrawerGallery.qml:61
+#: contents/ui/gallery/DrawerGallery.qml:62
 msgctxt "DrawerGallery|"
 msgid ""
 "A modal bottom drawer will span for the whole application window width and "
@@ -483,15 +483,15 @@ msgstr ""
 "aplikazioaren gainerakoa ilunduko du. Ilundutako aldean klik eginda tiradera "
 "uxatuko da."
 
-#: contents/ui/gallery/DrawerGallery.qml:65
-#: contents/ui/gallery/DrawerGallery.qml:84
-#: contents/ui/gallery/DrawerGallery.qml:101
-#: contents/ui/gallery/DrawerGallery.qml:120
+#: contents/ui/gallery/DrawerGallery.qml:66
+#: contents/ui/gallery/DrawerGallery.qml:85
+#: contents/ui/gallery/DrawerGallery.qml:103
+#: contents/ui/gallery/DrawerGallery.qml:122
 msgctxt "DrawerGallery|"
 msgid "Close"
 msgstr "Itxi"
 
-#: contents/ui/gallery/DrawerGallery.qml:80
+#: contents/ui/gallery/DrawerGallery.qml:81
 msgctxt "DrawerGallery|"
 msgid ""
 "An inline bottom drawer covers the whole application width but lets the "
@@ -500,7 +500,7 @@ msgstr ""
 "Lerro barruko beheko tiradera batek aplikazioaren zabalera osoa estaltzen "
 "du, baina, estali gabeko piezekin elkarreragin daiteke."
 
-#: contents/ui/gallery/DrawerGallery.qml:97
+#: contents/ui/gallery/DrawerGallery.qml:99
 msgctxt "DrawerGallery|"
 msgid ""
 "A modal top drawer will span for the whole application window width and will "
@@ -511,7 +511,7 @@ msgstr ""
 "aplikazioaren gainerakoa ilunduko du. Ilundutako aldean klik eginda tiradera "
 "uxatuko da."
 
-#: contents/ui/gallery/DrawerGallery.qml:116
+#: contents/ui/gallery/DrawerGallery.qml:118
 msgctxt "DrawerGallery|"
 msgid ""
 "An inline top drawer covers the whole application width but lets the "
@@ -520,22 +520,22 @@ msgstr ""
 "Lerro barruko goiko tiradera batek aplikazioaren zabalera osoa estaltzen du, "
 "baina, estali gabeko piezekin elkarreragin daiteke."
 
-#: contents/ui/gallery/DrawerGallery.qml:131
+#: contents/ui/gallery/DrawerGallery.qml:133
 msgctxt "DrawerGallery|"
 msgid "Left Global Drawer"
 msgstr "Ezkerreko tiradera orokorra"
 
-#: contents/ui/gallery/DrawerGallery.qml:136
+#: contents/ui/gallery/DrawerGallery.qml:138
 msgctxt "DrawerGallery|"
 msgid "Right Context Drawer"
 msgstr "Eskuineko tiradera orokorra"
 
-#: contents/ui/gallery/DrawerGallery.qml:142
+#: contents/ui/gallery/DrawerGallery.qml:144
 msgctxt "DrawerGallery|"
 msgid "Modal Bottom Drawer"
 msgstr "Beheko tiradera modala"
 
-#: contents/ui/gallery/DrawerGallery.qml:152
+#: contents/ui/gallery/DrawerGallery.qml:154
 msgctxt "DrawerGallery|"
 msgid "Modal Top Drawer"
 msgstr "Goiko tiradera modala"
@@ -545,7 +545,7 @@ msgctxt "FormLayoutGallery|"
 msgid "Expanding Button"
 msgstr "Hedapen-botoia"
 
-#: contents/ui/gallery/FormLayoutGallery.qml:117
+#: contents/ui/gallery/FormLayoutGallery.qml:116
 msgctxt "FormLayoutGallery|"
 msgid "Twin Layout:"
 msgstr "Antolaera bikia:"
@@ -774,14 +774,14 @@ msgstr "Itxi"
 
 #: contents/ui/gallery/OverlaySheetGallery.qml:75
 #: contents/ui/gallery/OverlaySheetGallery.qml:143
-#: contents/ui/gallery/OverlaySheetGallery.qml:166
+#: contents/ui/gallery/OverlaySheetGallery.qml:167
 msgctxt "OverlaySheetGallery|"
 msgid "Title"
 msgstr "Titulua"
 
 #: contents/ui/gallery/OverlaySheetGallery.qml:79
 #: contents/ui/gallery/OverlaySheetGallery.qml:147
-#: contents/ui/gallery/OverlaySheetGallery.qml:170
+#: contents/ui/gallery/OverlaySheetGallery.qml:171
 msgctxt "OverlaySheetGallery|"
 msgid "Footer:"
 msgstr "Orri-oina:"
@@ -822,12 +822,12 @@ msgstr ""
 "gainean estalgarri gisa azalduko du.\n"
 "Kasu horretan, orriak, orrialdeko Ekintza botoiak ere estaliko ditu."
 
-#: contents/ui/gallery/OverlaySheetGallery.qml:158
+#: contents/ui/gallery/OverlaySheetGallery.qml:159
 msgctxt "OverlaySheetGallery|"
 msgid "Item in sheet "
 msgstr "Orriko elementua"
 
-#: contents/ui/gallery/OverlaySheetGallery.qml:202
+#: contents/ui/gallery/OverlaySheetGallery.qml:203
 msgctxt "OverlaySheetGallery|"
 msgid "Very Long Sheet"
 msgstr "Orri oso luzea"
@@ -842,60 +842,60 @@ msgctxt "SelectionControlsGallery|"
 msgid "Checkable List Items"
 msgstr "Egiaztapen zerrendako elementuak"
 
-#: contents/ui/gallery/SelectionControlsGallery.qml:54
-#: contents/ui/gallery/SelectionControlsGallery.qml:77
-#: contents/ui/gallery/SelectionControlsGallery.qml:100
+#: contents/ui/gallery/SelectionControlsGallery.qml:55
+#: contents/ui/gallery/SelectionControlsGallery.qml:79
+#: contents/ui/gallery/SelectionControlsGallery.qml:103
 #, qt-format
 msgctxt "SelectionControlsGallery|"
 msgid "Delegate %1"
 msgstr "Eskuordetu %1"
 
-#: contents/ui/gallery/SelectionControlsGallery.qml:70
-#: contents/ui/gallery/SelectionControlsGallery.qml:93
+#: contents/ui/gallery/SelectionControlsGallery.qml:71
+#: contents/ui/gallery/SelectionControlsGallery.qml:95
 msgctxt "SelectionControlsGallery|"
 msgid "Radio List Items"
 msgstr "Aukera bakarreko zerrendako elementuak"
 
-#: contents/ui/gallery/SelectionControlsGallery.qml:109
+#: contents/ui/gallery/SelectionControlsGallery.qml:112
 msgctxt "SelectionControlsGallery|"
 msgid "Checkboxes"
 msgstr "Egiaztapen-laukiak"
 
-#: contents/ui/gallery/SelectionControlsGallery.qml:113
-#: contents/ui/gallery/SelectionControlsGallery.qml:131
-#: contents/ui/gallery/SelectionControlsGallery.qml:149
+#: contents/ui/gallery/SelectionControlsGallery.qml:116
+#: contents/ui/gallery/SelectionControlsGallery.qml:134
+#: contents/ui/gallery/SelectionControlsGallery.qml:152
 msgctxt "SelectionControlsGallery|"
 msgid "Item selected"
 msgstr "Elementua hautatu da"
 
-#: contents/ui/gallery/SelectionControlsGallery.qml:117
-#: contents/ui/gallery/SelectionControlsGallery.qml:135
-#: contents/ui/gallery/SelectionControlsGallery.qml:153
+#: contents/ui/gallery/SelectionControlsGallery.qml:120
+#: contents/ui/gallery/SelectionControlsGallery.qml:138
+#: contents/ui/gallery/SelectionControlsGallery.qml:156
 msgctxt "SelectionControlsGallery|"
 msgid "Item not selected"
 msgstr "Elementua ez da hautatu"
 
-#: contents/ui/gallery/SelectionControlsGallery.qml:121
+#: contents/ui/gallery/SelectionControlsGallery.qml:124
 msgctxt "SelectionControlsGallery|"
 msgid "Checkable List View"
 msgstr "Zerrenda ikuspegi egiaztagarria"
 
-#: contents/ui/gallery/SelectionControlsGallery.qml:127
+#: contents/ui/gallery/SelectionControlsGallery.qml:130
 msgctxt "SelectionControlsGallery|"
 msgid "Radio buttons"
 msgstr "Aukera-botoiak"
 
-#: contents/ui/gallery/SelectionControlsGallery.qml:140
+#: contents/ui/gallery/SelectionControlsGallery.qml:143
 msgctxt "SelectionControlsGallery|"
 msgid "Radio List View"
 msgstr "Aukera-zerrenda ikuspegia"
 
-#: contents/ui/gallery/SelectionControlsGallery.qml:146
+#: contents/ui/gallery/SelectionControlsGallery.qml:149
 msgctxt "SelectionControlsGallery|"
 msgid "Switches"
 msgstr "Etengailuak"
 
-#: contents/ui/gallery/SelectionControlsGallery.qml:157
+#: contents/ui/gallery/SelectionControlsGallery.qml:160
 msgctxt "SelectionControlsGallery|"
 msgid "Switch List View"
 msgstr "Etengailu-zerrenda ikuspegia "

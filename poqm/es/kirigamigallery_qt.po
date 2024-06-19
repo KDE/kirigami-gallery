@@ -453,7 +453,7 @@ msgctxt "DrawerGallery|"
 msgid "Action 3 clicked"
 msgstr "Acción 3 pulsada"
 
-#: contents/ui/gallery/DrawerGallery.qml:61
+#: contents/ui/gallery/DrawerGallery.qml:62
 msgctxt "DrawerGallery|"
 msgid ""
 "A modal bottom drawer will span for the whole application window width and "
@@ -464,15 +464,15 @@ msgstr ""
 "aplicación y oscurecerá el resto de la aplicación. Al hacer clic en un área "
 "oscura se descartará el cajón."
 
-#: contents/ui/gallery/DrawerGallery.qml:65
-#: contents/ui/gallery/DrawerGallery.qml:84
-#: contents/ui/gallery/DrawerGallery.qml:101
-#: contents/ui/gallery/DrawerGallery.qml:120
+#: contents/ui/gallery/DrawerGallery.qml:66
+#: contents/ui/gallery/DrawerGallery.qml:85
+#: contents/ui/gallery/DrawerGallery.qml:103
+#: contents/ui/gallery/DrawerGallery.qml:122
 msgctxt "DrawerGallery|"
 msgid "Close"
 msgstr "Cerrar"
 
-#: contents/ui/gallery/DrawerGallery.qml:80
+#: contents/ui/gallery/DrawerGallery.qml:81
 msgctxt "DrawerGallery|"
 msgid ""
 "An inline bottom drawer covers the whole application width but lets the "
@@ -481,7 +481,7 @@ msgstr ""
 "Un cajón inferior en línea cubre la anchura total de la aplicación, pero le "
 "permite seguir interactuando con las partes no cubiertas."
 
-#: contents/ui/gallery/DrawerGallery.qml:97
+#: contents/ui/gallery/DrawerGallery.qml:99
 msgctxt "DrawerGallery|"
 msgid ""
 "A modal top drawer will span for the whole application window width and will "
@@ -492,7 +492,7 @@ msgstr ""
 "aplicación y oscurecerá el resto de la aplicación. Al hacer clic en un área "
 "oscura se descartará el cajón."
 
-#: contents/ui/gallery/DrawerGallery.qml:116
+#: contents/ui/gallery/DrawerGallery.qml:118
 msgctxt "DrawerGallery|"
 msgid ""
 "An inline top drawer covers the whole application width but lets the "
@@ -501,22 +501,22 @@ msgstr ""
 "Un cajón superior en línea cubre la anchura total de la aplicación, pero le "
 "permite seguir interactuando con las partes no cubiertas."
 
-#: contents/ui/gallery/DrawerGallery.qml:131
+#: contents/ui/gallery/DrawerGallery.qml:133
 msgctxt "DrawerGallery|"
 msgid "Left Global Drawer"
 msgstr "Cajón global izquierdo"
 
-#: contents/ui/gallery/DrawerGallery.qml:136
+#: contents/ui/gallery/DrawerGallery.qml:138
 msgctxt "DrawerGallery|"
 msgid "Right Context Drawer"
 msgstr "Cajón de contexto derecho"
 
-#: contents/ui/gallery/DrawerGallery.qml:142
+#: contents/ui/gallery/DrawerGallery.qml:144
 msgctxt "DrawerGallery|"
 msgid "Modal Bottom Drawer"
 msgstr "Cajón inferior modal"
 
-#: contents/ui/gallery/DrawerGallery.qml:152
+#: contents/ui/gallery/DrawerGallery.qml:154
 msgctxt "DrawerGallery|"
 msgid "Modal Top Drawer"
 msgstr "Cajón superior modal"
@@ -526,7 +526,7 @@ msgctxt "FormLayoutGallery|"
 msgid "Expanding Button"
 msgstr "Botón de expansión"
 
-#: contents/ui/gallery/FormLayoutGallery.qml:117
+#: contents/ui/gallery/FormLayoutGallery.qml:116
 msgctxt "FormLayoutGallery|"
 msgid "Twin Layout:"
 msgstr "Diseño gemelo:"
@@ -741,14 +741,14 @@ msgstr "Cerrar"
 
 #: contents/ui/gallery/OverlaySheetGallery.qml:75
 #: contents/ui/gallery/OverlaySheetGallery.qml:143
-#: contents/ui/gallery/OverlaySheetGallery.qml:166
+#: contents/ui/gallery/OverlaySheetGallery.qml:167
 msgctxt "OverlaySheetGallery|"
 msgid "Title"
 msgstr "Título"
 
 #: contents/ui/gallery/OverlaySheetGallery.qml:79
 #: contents/ui/gallery/OverlaySheetGallery.qml:147
-#: contents/ui/gallery/OverlaySheetGallery.qml:170
+#: contents/ui/gallery/OverlaySheetGallery.qml:171
 msgctxt "OverlaySheetGallery|"
 msgid "Footer:"
 msgstr "Pie:"
@@ -788,12 +788,12 @@ msgstr ""
 "de la ventana completa de la aplicación.\n"
 "En este caso, la hoja cubrirá también la página de botones de acción."
 
-#: contents/ui/gallery/OverlaySheetGallery.qml:158
+#: contents/ui/gallery/OverlaySheetGallery.qml:159
 msgctxt "OverlaySheetGallery|"
 msgid "Item in sheet "
 msgstr "Elemento de la hoja"
 
-#: contents/ui/gallery/OverlaySheetGallery.qml:202
+#: contents/ui/gallery/OverlaySheetGallery.qml:203
 msgctxt "OverlaySheetGallery|"
 msgid "Very Long Sheet"
 msgstr "Hoja muy grande"
@@ -808,60 +808,60 @@ msgctxt "SelectionControlsGallery|"
 msgid "Checkable List Items"
 msgstr "Elementos de lista de casillas"
 
-#: contents/ui/gallery/SelectionControlsGallery.qml:54
-#: contents/ui/gallery/SelectionControlsGallery.qml:77
-#: contents/ui/gallery/SelectionControlsGallery.qml:100
+#: contents/ui/gallery/SelectionControlsGallery.qml:55
+#: contents/ui/gallery/SelectionControlsGallery.qml:79
+#: contents/ui/gallery/SelectionControlsGallery.qml:103
 #, qt-format
 msgctxt "SelectionControlsGallery|"
 msgid "Delegate %1"
 msgstr "Delegado %1"
 
-#: contents/ui/gallery/SelectionControlsGallery.qml:70
-#: contents/ui/gallery/SelectionControlsGallery.qml:93
+#: contents/ui/gallery/SelectionControlsGallery.qml:71
+#: contents/ui/gallery/SelectionControlsGallery.qml:95
 msgctxt "SelectionControlsGallery|"
 msgid "Radio List Items"
 msgstr "Elementos de lista de opciones"
 
-#: contents/ui/gallery/SelectionControlsGallery.qml:109
+#: contents/ui/gallery/SelectionControlsGallery.qml:112
 msgctxt "SelectionControlsGallery|"
 msgid "Checkboxes"
 msgstr "Casillas"
 
-#: contents/ui/gallery/SelectionControlsGallery.qml:113
-#: contents/ui/gallery/SelectionControlsGallery.qml:131
-#: contents/ui/gallery/SelectionControlsGallery.qml:149
+#: contents/ui/gallery/SelectionControlsGallery.qml:116
+#: contents/ui/gallery/SelectionControlsGallery.qml:134
+#: contents/ui/gallery/SelectionControlsGallery.qml:152
 msgctxt "SelectionControlsGallery|"
 msgid "Item selected"
 msgstr "Elemento seleccionado"
 
-#: contents/ui/gallery/SelectionControlsGallery.qml:117
-#: contents/ui/gallery/SelectionControlsGallery.qml:135
-#: contents/ui/gallery/SelectionControlsGallery.qml:153
+#: contents/ui/gallery/SelectionControlsGallery.qml:120
+#: contents/ui/gallery/SelectionControlsGallery.qml:138
+#: contents/ui/gallery/SelectionControlsGallery.qml:156
 msgctxt "SelectionControlsGallery|"
 msgid "Item not selected"
 msgstr "Elemento no seleccionado"
 
-#: contents/ui/gallery/SelectionControlsGallery.qml:121
+#: contents/ui/gallery/SelectionControlsGallery.qml:124
 msgctxt "SelectionControlsGallery|"
 msgid "Checkable List View"
 msgstr "Vista de lista de casillas"
 
-#: contents/ui/gallery/SelectionControlsGallery.qml:127
+#: contents/ui/gallery/SelectionControlsGallery.qml:130
 msgctxt "SelectionControlsGallery|"
 msgid "Radio buttons"
 msgstr "Botones de opciones"
 
-#: contents/ui/gallery/SelectionControlsGallery.qml:140
+#: contents/ui/gallery/SelectionControlsGallery.qml:143
 msgctxt "SelectionControlsGallery|"
 msgid "Radio List View"
 msgstr "Vista de lista de opciones"
 
-#: contents/ui/gallery/SelectionControlsGallery.qml:146
+#: contents/ui/gallery/SelectionControlsGallery.qml:149
 msgctxt "SelectionControlsGallery|"
 msgid "Switches"
 msgstr "Interruptores"
 
-#: contents/ui/gallery/SelectionControlsGallery.qml:157
+#: contents/ui/gallery/SelectionControlsGallery.qml:160
 msgctxt "SelectionControlsGallery|"
 msgid "Switch List View"
 msgstr "Vista de lista de interruptores"

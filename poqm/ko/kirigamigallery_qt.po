@@ -451,7 +451,7 @@ msgctxt "DrawerGallery|"
 msgid "Action 3 clicked"
 msgstr "동작 3 클릭됨"
 
-#: contents/ui/gallery/DrawerGallery.qml:61
+#: contents/ui/gallery/DrawerGallery.qml:62
 msgctxt "DrawerGallery|"
 msgid ""
 "A modal bottom drawer will span for the whole application window width and "
@@ -461,15 +461,15 @@ msgstr ""
 "모달 아래쪽 서랍은 전체 앱 창 너비로 펼쳐지며 앱의 나머지 부분을 어둡게 합니"
 "다. 어두워진 영역을 클릭하면 서랍을 닫습니다."
 
-#: contents/ui/gallery/DrawerGallery.qml:65
-#: contents/ui/gallery/DrawerGallery.qml:84
-#: contents/ui/gallery/DrawerGallery.qml:101
-#: contents/ui/gallery/DrawerGallery.qml:120
+#: contents/ui/gallery/DrawerGallery.qml:66
+#: contents/ui/gallery/DrawerGallery.qml:85
+#: contents/ui/gallery/DrawerGallery.qml:103
+#: contents/ui/gallery/DrawerGallery.qml:122
 msgctxt "DrawerGallery|"
 msgid "Close"
 msgstr "닫기"
 
-#: contents/ui/gallery/DrawerGallery.qml:80
+#: contents/ui/gallery/DrawerGallery.qml:81
 msgctxt "DrawerGallery|"
 msgid ""
 "An inline bottom drawer covers the whole application width but lets the "
@@ -478,7 +478,7 @@ msgstr ""
 "인라인 아래쪽 서랍은 앱 전체 폭을 덮지만 덮이지 않은 영역도 계속 사용할 수 있"
 "습니다."
 
-#: contents/ui/gallery/DrawerGallery.qml:97
+#: contents/ui/gallery/DrawerGallery.qml:99
 msgctxt "DrawerGallery|"
 msgid ""
 "A modal top drawer will span for the whole application window width and will "
@@ -488,7 +488,7 @@ msgstr ""
 "모달 위쪽 서랍은 전체 앱 창 너비로 펼쳐지며 앱의 나머지 부분을 어둡게 합니"
 "다. 어두워진 영역을 클릭하면 서랍을 닫습니다."
 
-#: contents/ui/gallery/DrawerGallery.qml:116
+#: contents/ui/gallery/DrawerGallery.qml:118
 msgctxt "DrawerGallery|"
 msgid ""
 "An inline top drawer covers the whole application width but lets the "
@@ -497,22 +497,22 @@ msgstr ""
 "인라인 위쪽 서랍은 앱 전체 폭을 덮지만 덮이지 않은 영역도 계속 사용할 수 있습"
 "니다."
 
-#: contents/ui/gallery/DrawerGallery.qml:131
+#: contents/ui/gallery/DrawerGallery.qml:133
 msgctxt "DrawerGallery|"
 msgid "Left Global Drawer"
 msgstr "왼쪽 전역 서랍"
 
-#: contents/ui/gallery/DrawerGallery.qml:136
+#: contents/ui/gallery/DrawerGallery.qml:138
 msgctxt "DrawerGallery|"
 msgid "Right Context Drawer"
 msgstr "오른쪽 콘텍스트 서랍"
 
-#: contents/ui/gallery/DrawerGallery.qml:142
+#: contents/ui/gallery/DrawerGallery.qml:144
 msgctxt "DrawerGallery|"
 msgid "Modal Bottom Drawer"
 msgstr "모달 아래쪽 서랍"
 
-#: contents/ui/gallery/DrawerGallery.qml:152
+#: contents/ui/gallery/DrawerGallery.qml:154
 msgctxt "DrawerGallery|"
 msgid "Modal Top Drawer"
 msgstr "모달 위쪽 서랍"
@@ -522,7 +522,7 @@ msgctxt "FormLayoutGallery|"
 msgid "Expanding Button"
 msgstr "확장되는 단추"
 
-#: contents/ui/gallery/FormLayoutGallery.qml:117
+#: contents/ui/gallery/FormLayoutGallery.qml:116
 msgctxt "FormLayoutGallery|"
 msgid "Twin Layout:"
 msgstr "쌍둥이 레이아웃:"
@@ -748,14 +748,14 @@ msgstr "닫기"
 
 #: contents/ui/gallery/OverlaySheetGallery.qml:75
 #: contents/ui/gallery/OverlaySheetGallery.qml:143
-#: contents/ui/gallery/OverlaySheetGallery.qml:166
+#: contents/ui/gallery/OverlaySheetGallery.qml:167
 msgctxt "OverlaySheetGallery|"
 msgid "Title"
 msgstr "제목"
 
 #: contents/ui/gallery/OverlaySheetGallery.qml:79
 #: contents/ui/gallery/OverlaySheetGallery.qml:147
-#: contents/ui/gallery/OverlaySheetGallery.qml:170
+#: contents/ui/gallery/OverlaySheetGallery.qml:171
 msgctxt "OverlaySheetGallery|"
 msgid "Footer:"
 msgstr "바닥글:"
@@ -793,12 +793,12 @@ msgstr ""
 "다.\n"
 "이 때에는 페이지 Action 단추도 덮게 됩니다."
 
-#: contents/ui/gallery/OverlaySheetGallery.qml:158
+#: contents/ui/gallery/OverlaySheetGallery.qml:159
 msgctxt "OverlaySheetGallery|"
 msgid "Item in sheet "
 msgstr "시트의 항목 "
 
-#: contents/ui/gallery/OverlaySheetGallery.qml:202
+#: contents/ui/gallery/OverlaySheetGallery.qml:203
 msgctxt "OverlaySheetGallery|"
 msgid "Very Long Sheet"
 msgstr "매우 긴 시트"
@@ -813,60 +813,60 @@ msgctxt "SelectionControlsGallery|"
 msgid "Checkable List Items"
 msgstr "체크할 수 있는 목록 항목"
 
-#: contents/ui/gallery/SelectionControlsGallery.qml:54
-#: contents/ui/gallery/SelectionControlsGallery.qml:77
-#: contents/ui/gallery/SelectionControlsGallery.qml:100
+#: contents/ui/gallery/SelectionControlsGallery.qml:55
+#: contents/ui/gallery/SelectionControlsGallery.qml:79
+#: contents/ui/gallery/SelectionControlsGallery.qml:103
 #, qt-format
 msgctxt "SelectionControlsGallery|"
 msgid "Delegate %1"
 msgstr "%1 위임"
 
-#: contents/ui/gallery/SelectionControlsGallery.qml:70
-#: contents/ui/gallery/SelectionControlsGallery.qml:93
+#: contents/ui/gallery/SelectionControlsGallery.qml:71
+#: contents/ui/gallery/SelectionControlsGallery.qml:95
 msgctxt "SelectionControlsGallery|"
 msgid "Radio List Items"
 msgstr "라디오 목록 항목"
 
-#: contents/ui/gallery/SelectionControlsGallery.qml:109
+#: contents/ui/gallery/SelectionControlsGallery.qml:112
 msgctxt "SelectionControlsGallery|"
 msgid "Checkboxes"
 msgstr "체크 상자"
 
-#: contents/ui/gallery/SelectionControlsGallery.qml:113
-#: contents/ui/gallery/SelectionControlsGallery.qml:131
-#: contents/ui/gallery/SelectionControlsGallery.qml:149
+#: contents/ui/gallery/SelectionControlsGallery.qml:116
+#: contents/ui/gallery/SelectionControlsGallery.qml:134
+#: contents/ui/gallery/SelectionControlsGallery.qml:152
 msgctxt "SelectionControlsGallery|"
 msgid "Item selected"
 msgstr "항목 선택됨"
 
-#: contents/ui/gallery/SelectionControlsGallery.qml:117
-#: contents/ui/gallery/SelectionControlsGallery.qml:135
-#: contents/ui/gallery/SelectionControlsGallery.qml:153
+#: contents/ui/gallery/SelectionControlsGallery.qml:120
+#: contents/ui/gallery/SelectionControlsGallery.qml:138
+#: contents/ui/gallery/SelectionControlsGallery.qml:156
 msgctxt "SelectionControlsGallery|"
 msgid "Item not selected"
 msgstr "항목 선택되지 않음"
 
-#: contents/ui/gallery/SelectionControlsGallery.qml:121
+#: contents/ui/gallery/SelectionControlsGallery.qml:124
 msgctxt "SelectionControlsGallery|"
 msgid "Checkable List View"
 msgstr "체크 가능한 목록 보기"
 
-#: contents/ui/gallery/SelectionControlsGallery.qml:127
+#: contents/ui/gallery/SelectionControlsGallery.qml:130
 msgctxt "SelectionControlsGallery|"
 msgid "Radio buttons"
 msgstr "라디오 단추"
 
-#: contents/ui/gallery/SelectionControlsGallery.qml:140
+#: contents/ui/gallery/SelectionControlsGallery.qml:143
 msgctxt "SelectionControlsGallery|"
 msgid "Radio List View"
 msgstr "라디오 목록 보기"
 
-#: contents/ui/gallery/SelectionControlsGallery.qml:146
+#: contents/ui/gallery/SelectionControlsGallery.qml:149
 msgctxt "SelectionControlsGallery|"
 msgid "Switches"
 msgstr "스위치"
 
-#: contents/ui/gallery/SelectionControlsGallery.qml:157
+#: contents/ui/gallery/SelectionControlsGallery.qml:160
 msgctxt "SelectionControlsGallery|"
 msgid "Switch List View"
 msgstr "스위치 목록 보기"
