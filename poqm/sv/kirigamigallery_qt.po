@@ -1,8 +1,8 @@
-# Stefan Asserhäll <stefan.asserhall@gmail.com>, 2018, 2019, 2020, 2021, 2022.
+# SPDX-FileCopyrightText: 2018, 2019, 2020, 2021, 2022, 2024 Stefan Asserhäll <stefan.asserhall@gmail.com>
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"PO-Revision-Date: 2022-09-24 16:15+0200\n"
+"PO-Revision-Date: 2024-06-19 19:10+0200\n"
 "Last-Translator: Stefan Asserhäll <stefan.asserhall@gmail.com>\n"
 "Language-Team: Swedish <kde-i18n-doc@kde.org>\n"
 "Language: sv\n"
@@ -11,7 +11,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Qt-Contexts: true\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 20.08.1\n"
+"X-Generator: Lokalize 23.08.5\n"
 
 #: contents/ui/gallery/CardsLayoutGallery.qml:30
 msgctxt "CardsLayoutGallery|"
@@ -237,30 +237,24 @@ msgstr "Markeringsbara chips"
 #: contents/ui/gallery/ColorsGallery.qml:30
 msgctxt "ColorsGallery|"
 msgid "Colors"
-msgstr ""
+msgstr "Färger"
 
 #: contents/ui/gallery/components/InfoSheet.qml:50
 msgctxt "InfoSheet|"
 msgid "HIG…"
-msgstr ""
+msgstr "HIG…"
 
 #: contents/ui/gallery/components/InfoSheet.qml:55
-#, fuzzy
-#| msgctxt "InfoSheet|"
-#| msgid "Source code..."
 msgctxt "InfoSheet|"
 msgid "Source code…"
-msgstr "Källkod..."
+msgstr "Källkod…"
 
 #: contents/ui/gallery/components/InfoSheet.qml:60
 msgctxt "InfoSheet|"
 msgid "API…"
-msgstr ""
+msgstr "Programmeringsgränssnitt…"
 
 #: contents/ui/gallery/components/InfoSheetAction.qml:16
-#, fuzzy
-#| msgctxt "ActionToolBarGallery|"
-#| msgid "Info"
 msgctxt "InfoSheetAction|"
 msgid "Info"
 msgstr "Information"
@@ -281,12 +275,9 @@ msgid "Cancel"
 msgstr "Avbryt"
 
 #: contents/ui/gallery/DialogGallery.qml:75
-#, fuzzy
-#| msgctxt "DialogGallery|"
-#| msgid "Folder name..."
 msgctxt "DialogGallery|"
 msgid "Folder name:"
-msgstr "Katalognamn..."
+msgstr "Katalognamn:"
 
 #: contents/ui/gallery/DialogGallery.qml:83
 msgctxt "DialogGallery|"
@@ -462,7 +453,7 @@ msgctxt "DrawerGallery|"
 msgid "Action 3 clicked"
 msgstr "Åtgärd 3 klickad"
 
-#: contents/ui/gallery/DrawerGallery.qml:61
+#: contents/ui/gallery/DrawerGallery.qml:62
 msgctxt "DrawerGallery|"
 msgid ""
 "A modal bottom drawer will span for the whole application window width and "
@@ -472,15 +463,15 @@ msgstr ""
 "En blockerande undre låda omfattar hela programfönstrets bredd och gör "
 "resten av programmet mörkare. Att klicka på ett mörkat område avfärdar lådan."
 
-#: contents/ui/gallery/DrawerGallery.qml:65
-#: contents/ui/gallery/DrawerGallery.qml:84
-#: contents/ui/gallery/DrawerGallery.qml:101
-#: contents/ui/gallery/DrawerGallery.qml:120
+#: contents/ui/gallery/DrawerGallery.qml:66
+#: contents/ui/gallery/DrawerGallery.qml:85
+#: contents/ui/gallery/DrawerGallery.qml:103
+#: contents/ui/gallery/DrawerGallery.qml:122
 msgctxt "DrawerGallery|"
 msgid "Close"
 msgstr "Stäng"
 
-#: contents/ui/gallery/DrawerGallery.qml:80
+#: contents/ui/gallery/DrawerGallery.qml:81
 msgctxt "DrawerGallery|"
 msgid ""
 "An inline bottom drawer covers the whole application width but lets the "
@@ -489,7 +480,7 @@ msgstr ""
 "En undre låda på plats täcker hela programmets bredd, men gör det möjligt "
 "att fortfarande interagera med de otäckta delarna."
 
-#: contents/ui/gallery/DrawerGallery.qml:97
+#: contents/ui/gallery/DrawerGallery.qml:99
 msgctxt "DrawerGallery|"
 msgid ""
 "A modal top drawer will span for the whole application window width and will "
@@ -499,7 +490,7 @@ msgstr ""
 "En blockerande övre låda omfattar hela programfönstrets bredd och gör resten "
 "av programmet mörkare. Att klicka på ett mörkat område avfärdar lådan."
 
-#: contents/ui/gallery/DrawerGallery.qml:116
+#: contents/ui/gallery/DrawerGallery.qml:118
 msgctxt "DrawerGallery|"
 msgid ""
 "An inline top drawer covers the whole application width but lets the "
@@ -508,22 +499,22 @@ msgstr ""
 "En övre låda på plats täcker hela programmets bredd, men gör det möjligt att "
 "fortfarande interagera med de otäckta delarna."
 
-#: contents/ui/gallery/DrawerGallery.qml:131
+#: contents/ui/gallery/DrawerGallery.qml:133
 msgctxt "DrawerGallery|"
 msgid "Left Global Drawer"
 msgstr "Vänster global låda"
 
-#: contents/ui/gallery/DrawerGallery.qml:136
+#: contents/ui/gallery/DrawerGallery.qml:138
 msgctxt "DrawerGallery|"
 msgid "Right Context Drawer"
 msgstr "Höger sammanhangsberoende låda"
 
-#: contents/ui/gallery/DrawerGallery.qml:142
+#: contents/ui/gallery/DrawerGallery.qml:144
 msgctxt "DrawerGallery|"
 msgid "Modal Bottom Drawer"
 msgstr "Blockerade undre låda"
 
-#: contents/ui/gallery/DrawerGallery.qml:152
+#: contents/ui/gallery/DrawerGallery.qml:154
 msgctxt "DrawerGallery|"
 msgid "Modal Top Drawer"
 msgstr "Blockerade övre låda"
@@ -533,7 +524,7 @@ msgctxt "FormLayoutGallery|"
 msgid "Expanding Button"
 msgstr "Expanderade knapp"
 
-#: contents/ui/gallery/FormLayoutGallery.qml:117
+#: contents/ui/gallery/FormLayoutGallery.qml:116
 msgctxt "FormLayoutGallery|"
 msgid "Twin Layout:"
 msgstr "Dubbel layout:"
@@ -637,47 +628,34 @@ msgstr "Hysch"
 #: contents/ui/gallery/ListViewGallery.qml:41
 msgctxt "ListViewGallery|"
 msgid "Main Action Text"
-msgstr ""
+msgstr "Huvudåtgärdstext"
 
 #: contents/ui/gallery/ListViewGallery.qml:52
-#, fuzzy
-#| msgctxt "OverlaySheetGallery|"
-#| msgid "Footer:"
 msgctxt "ListViewGallery|"
 msgid "Footer:"
 msgstr "Sidfot:"
 
 #: contents/ui/gallery/ListViewGallery.qml:67
-#, fuzzy, qt-format
-#| msgctxt "OverlaySheetGallery|"
-#| msgid "Item in sheet "
+#, qt-format
 msgctxt "ListViewGallery|"
 msgid "Item in sheet %n"
 msgid_plural "Item in sheet %n"
-msgstr[0] "Objekt på blad"
-msgstr[1] "Objekt på blad"
+msgstr[0] "Objekt på blad %n"
+msgstr[1] "Objekt på blad %n"
 
 #: contents/ui/gallery/ListViewGallery.qml:114
-#, fuzzy
-#| msgctxt "DrawerGallery|"
-#| msgid "Action 1"
 msgctxt "ListViewGallery|"
 msgid "Action 1"
 msgstr "Åtgärd 1"
 
 #: contents/ui/gallery/ListViewGallery.qml:116
 #: contents/ui/gallery/ListViewGallery.qml:123
-#, fuzzy, qt-format
-#| msgctxt "CardsLayoutGallery|"
-#| msgid "Card clicked"
+#, qt-format
 msgctxt "ListViewGallery|"
 msgid "%1: %2 clicked"
-msgstr "Card klickat"
+msgstr "%1: %2 klickades"
 
 #: contents/ui/gallery/ListViewGallery.qml:121
-#, fuzzy
-#| msgctxt "CardsLayoutGallery|"
-#| msgid "Action2"
 msgctxt "ListViewGallery|"
 msgid "Action 2"
 msgstr "Åtgärd 2"
@@ -686,15 +664,13 @@ msgstr "Åtgärd 2"
 #, qt-format
 msgctxt "ListViewGallery|"
 msgid "Item %1"
-msgstr ""
+msgstr "Objekt %1"
 
 #: contents/ui/gallery/ListViewGallery.qml:162
-#, fuzzy, qt-format
-#| msgctxt "DrawerGallery|"
-#| msgid "Action 1"
+#, qt-format
 msgctxt "ListViewGallery|"
 msgid "Section %1"
-msgstr "Åtgärd 1"
+msgstr "Avsnitt %1"
 
 #: contents/ui/gallery/MetricsGallery.qml:42
 msgctxt "MetricsGallery|"
@@ -762,14 +738,14 @@ msgstr "Stäng"
 
 #: contents/ui/gallery/OverlaySheetGallery.qml:75
 #: contents/ui/gallery/OverlaySheetGallery.qml:143
-#: contents/ui/gallery/OverlaySheetGallery.qml:166
+#: contents/ui/gallery/OverlaySheetGallery.qml:167
 msgctxt "OverlaySheetGallery|"
 msgid "Title"
 msgstr "Rubrik"
 
 #: contents/ui/gallery/OverlaySheetGallery.qml:79
 #: contents/ui/gallery/OverlaySheetGallery.qml:147
-#: contents/ui/gallery/OverlaySheetGallery.qml:170
+#: contents/ui/gallery/OverlaySheetGallery.qml:171
 msgctxt "OverlaySheetGallery|"
 msgid "Footer:"
 msgstr "Sidfot:"
@@ -808,12 +784,12 @@ msgstr ""
 "programfönstret.\n"
 "I sådana fall täcker bladet också sidans åtgärdsknappar."
 
-#: contents/ui/gallery/OverlaySheetGallery.qml:158
+#: contents/ui/gallery/OverlaySheetGallery.qml:159
 msgctxt "OverlaySheetGallery|"
 msgid "Item in sheet "
 msgstr "Objekt på blad"
 
-#: contents/ui/gallery/OverlaySheetGallery.qml:202
+#: contents/ui/gallery/OverlaySheetGallery.qml:203
 msgctxt "OverlaySheetGallery|"
 msgid "Very Long Sheet"
 msgstr "Mycket långt blad"
@@ -828,60 +804,60 @@ msgctxt "SelectionControlsGallery|"
 msgid "Checkable List Items"
 msgstr "Markeringsbara listobjekt"
 
-#: contents/ui/gallery/SelectionControlsGallery.qml:54
-#: contents/ui/gallery/SelectionControlsGallery.qml:77
-#: contents/ui/gallery/SelectionControlsGallery.qml:100
+#: contents/ui/gallery/SelectionControlsGallery.qml:55
+#: contents/ui/gallery/SelectionControlsGallery.qml:79
+#: contents/ui/gallery/SelectionControlsGallery.qml:103
 #, qt-format
 msgctxt "SelectionControlsGallery|"
 msgid "Delegate %1"
 msgstr "Delegera %1"
 
-#: contents/ui/gallery/SelectionControlsGallery.qml:70
-#: contents/ui/gallery/SelectionControlsGallery.qml:93
+#: contents/ui/gallery/SelectionControlsGallery.qml:71
+#: contents/ui/gallery/SelectionControlsGallery.qml:95
 msgctxt "SelectionControlsGallery|"
 msgid "Radio List Items"
 msgstr "Alternativlistobjekt"
 
-#: contents/ui/gallery/SelectionControlsGallery.qml:109
+#: contents/ui/gallery/SelectionControlsGallery.qml:112
 msgctxt "SelectionControlsGallery|"
 msgid "Checkboxes"
 msgstr "Kryssrutor"
 
-#: contents/ui/gallery/SelectionControlsGallery.qml:113
-#: contents/ui/gallery/SelectionControlsGallery.qml:131
-#: contents/ui/gallery/SelectionControlsGallery.qml:149
+#: contents/ui/gallery/SelectionControlsGallery.qml:116
+#: contents/ui/gallery/SelectionControlsGallery.qml:134
+#: contents/ui/gallery/SelectionControlsGallery.qml:152
 msgctxt "SelectionControlsGallery|"
 msgid "Item selected"
 msgstr "Objekt markerat"
 
-#: contents/ui/gallery/SelectionControlsGallery.qml:117
-#: contents/ui/gallery/SelectionControlsGallery.qml:135
-#: contents/ui/gallery/SelectionControlsGallery.qml:153
+#: contents/ui/gallery/SelectionControlsGallery.qml:120
+#: contents/ui/gallery/SelectionControlsGallery.qml:138
+#: contents/ui/gallery/SelectionControlsGallery.qml:156
 msgctxt "SelectionControlsGallery|"
 msgid "Item not selected"
 msgstr "Objekt ej markerat"
 
-#: contents/ui/gallery/SelectionControlsGallery.qml:121
+#: contents/ui/gallery/SelectionControlsGallery.qml:124
 msgctxt "SelectionControlsGallery|"
 msgid "Checkable List View"
 msgstr "Markeringsbar listvy"
 
-#: contents/ui/gallery/SelectionControlsGallery.qml:127
+#: contents/ui/gallery/SelectionControlsGallery.qml:130
 msgctxt "SelectionControlsGallery|"
 msgid "Radio buttons"
 msgstr "Alternativknappar"
 
-#: contents/ui/gallery/SelectionControlsGallery.qml:140
+#: contents/ui/gallery/SelectionControlsGallery.qml:143
 msgctxt "SelectionControlsGallery|"
 msgid "Radio List View"
 msgstr "Listvy med alternativknappar"
 
-#: contents/ui/gallery/SelectionControlsGallery.qml:146
+#: contents/ui/gallery/SelectionControlsGallery.qml:149
 msgctxt "SelectionControlsGallery|"
 msgid "Switches"
 msgstr "Omkopplare"
 
-#: contents/ui/gallery/SelectionControlsGallery.qml:157
+#: contents/ui/gallery/SelectionControlsGallery.qml:160
 msgctxt "SelectionControlsGallery|"
 msgid "Switch List View"
 msgstr "Listvy med omkopplare"
@@ -894,7 +870,7 @@ msgstr "Kirigami-galleri"
 #: contents/ui/MainPage.qml:40
 msgctxt "MainPage|"
 msgid "Home"
-msgstr ""
+msgstr "Hem"
 
 #~ msgctxt "CardsLayoutGallery|"
 #~ msgid "Info"
