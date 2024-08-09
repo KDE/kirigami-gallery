@@ -1,20 +1,17 @@
 {
     "FormLayoutGallery": {
         "title":"Form Layout",
-        "higUrl": "https://hig.kde.org/patterns/content/form.html",
         "sourceUrl": "https://invent.kde.org/sdk/kirigami-gallery/-/blob/master/src/data/contents/ui/gallery/FormLayoutGallery.qml",
         "apiUrl": "https://api.kde.org/frameworks/kirigami/html/classorg_1_1kde_1_1kirigami_1_1FormLayout.html",
         "text": "<p>A Form layout is used to help align and structure a layout containing many control and input fields.</p><p><b>When to use</b></p><ul><li>Use a Form layout when there are many related controls and input fields.</li><li>Form layouts are ideal for settings dialogs.</li></ul>"
     },
     "SelectionControlsGallery" : {
         "title" : "Selection Controls",
-        "higUrl": "https://hig.kde.org/components/index.html#selection",
         "sourceUrl": "https://invent.kde.org/sdk/kirigami-gallery/-/blob/master/src/data/contents/ui/gallery/SelectionControlsGallery.qml",
         "text":"<p>Selection controls allow users to complete tasks that involve a choice or a selection.</p> <p>Depending on the kind of choice that has to be made, the best control to use may be a Checkbox, a RadioButton, or a Switch.</p> <ul><li>Use checkboxes for non-exclusive options that have clear alternatives. Mutually exclusive options should use a set of radio buttons or a combo box.</li> <li>Use radio buttons for a few mutually exclusive options. If there are more than five options (or if there is not enough space to arrange four or five options), use a combo box or list instead.</li> <li>Use switches on Mobile, when immediately activating or deactivating something (ok/Apply buttons not needed).</li></ul>"
     },
     "CardsLayoutGallery" : {
         "title": "Cards Layout",
-        "higUrl": "https://hig.kde.org/components/editing/card.html",
         "sourceUrl": "https://invent.kde.org/sdk/kirigami-gallery/-/blob/master/src/data/contents/ui/gallery/CardsLayoutGallery.qml",
         "apiUrl": "https://api.kde.org/frameworks/kirigami/html/classorg_1_1kde_1_1kirigami_1_1CardsLayout.html",
         "text": "The Kirigami types AbstractCard and Card are used to implement the popular Card pattern used on many mobile and web platforms that is used to display a collection of information or actions.<br>Besides the Card components, Kirigami offers also 3 kinds of views and positioners to help to present cards with beautiful and responsive layouts.<br><br>In this page, CardsLayout is presented, which should be used when the cards are not instantiated by a model or by a model which has always very few items (In the case of a big model CardsListView or CardsGridview should be used instead). They are presented as a grid of two columns which will remain centered if the application is really wide, or become a single column if there is not enough space for two columns, such as a mobile phone screen.<br>A CardsLayout should always be contained within a ColumnLayout."
