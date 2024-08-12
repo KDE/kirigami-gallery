@@ -85,7 +85,12 @@ Kirigami.ScrollablePage {
             text: "Toggle header"
             Layout.alignment: Qt.AlignHCenter
             onClicked: {
-                page.globalToolBarStyle = Kirigami.ApplicationHeaderStyle.None;
+                if (page.globalToolBarStyle == Kirigami.ApplicationHeaderStyle.None) {
+                    page.globalToolBarStyle = Kirigami.ApplicationHeaderStyle.ToolBar;
+                }
+                else {
+                    page.globalToolBarStyle = Kirigami.ApplicationHeaderStyle.None;
+                }
             }
         }
     }
