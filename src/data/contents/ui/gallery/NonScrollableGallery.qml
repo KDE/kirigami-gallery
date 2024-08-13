@@ -45,7 +45,7 @@ Kirigami.Page {
     }
     Rectangle {
         anchors.fill: parent
-        color: "red"
+        color: Kirigami.Theme.positiveBackgroundColor
         QQC2.Label {
             anchors.centerIn: parent
             text: "Rectangle with automatic margins"
