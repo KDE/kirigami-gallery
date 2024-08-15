@@ -30,14 +30,14 @@ include(ECMAddAndroidApk)
 
 find_package(Qt${QT_MAJOR_VERSION} ${REQUIRED_QT_VERSION} REQUIRED NO_MODULE COMPONENTS Core Quick Gui Svg QuickControls2)
 
-find_package(KF6 ${KF_DEP_VERSION} REQUIRED COMPONENTS Kirigami2 ItemModels)
+find_package(KF6 ${KF_DEP_VERSION} REQUIRED COMPONENTS Kirigami ItemModels)
 
 if(NOT ANDROID)
     find_package(Qt${QT_MAJOR_VERSION}Widgets ${REQUIRED_QT_VERSION} REQUIRED)
 endif()
 
-ecm_find_qmlmodule(QtGraphicalEffects 1.0)
 ecm_find_qmlmodule(org.kde.kitemmodels 1.0)
+ecm_find_qmlmodule(org.kde.kirigamiaddons.formcard 1.0)
 
 add_definitions(-DQT_NO_URL_CAST_FROM_STRING)
 remove_definitions(-DQT_NO_CAST_FROM_ASCII)
