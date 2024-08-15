@@ -160,10 +160,5 @@ Kirigami.ScrollablePage {
             height: Math.round(Screen.pixelDensity * 20)
             color: "black"
         }
-
-        QQC2.Label {
-            Layout.columnSpan: 2
-            Layout.fillHeight: true
-        }
     }
 }

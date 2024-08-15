@@ -29,11 +29,11 @@ Kirigami.Page {
 
     actions: [
         Kirigami.Action {
-            icon.name: sheet.sheetOpen ? "dialog-cancel" : "document-edit"
+            icon.name: sheet.opened ? "dialog-cancel-symbolic" : "document-edit-symbolic"
             text: "Main Action Text"
             checkable: true
             checked: sheet.opened
-            onTriggered: sheet.opened = !sheet.opened;
+            onTriggered: sheet.open();
         }
     ]
 
@@ -54,6 +54,7 @@ Kirigami.Page {
 
     Kirigami.OverlaySheet {
         id: sheet
+        parent: page.QQC2.Overlay.overlay
         QQC2.Label {
             property int implicitWidth: Kirigami.Units.gridUnit * 30
             wrapMode: Text.WordWrap
