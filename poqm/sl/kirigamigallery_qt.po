@@ -455,7 +455,7 @@ msgctxt "DrawerGallery|"
 msgid "Action 3 clicked"
 msgstr "Kliknjena akcija 3"
 
-#: contents/ui/gallery/DrawerGallery.qml:62
+#: contents/ui/gallery/DrawerGallery.qml:63
 msgctxt "DrawerGallery|"
 msgid ""
 "A modal bottom drawer will span for the whole application window width and "
@@ -465,15 +465,15 @@ msgstr ""
 "Modalni spodnji predal bo obsegal celotno širino okna aplikacije in bo "
 "zatemnil preostanek aplikacije. Klik na zatemnjen del bo opustil predalnik."
 
-#: contents/ui/gallery/DrawerGallery.qml:66
-#: contents/ui/gallery/DrawerGallery.qml:85
-#: contents/ui/gallery/DrawerGallery.qml:103
-#: contents/ui/gallery/DrawerGallery.qml:122
+#: contents/ui/gallery/DrawerGallery.qml:67
+#: contents/ui/gallery/DrawerGallery.qml:86
+#: contents/ui/gallery/DrawerGallery.qml:105
+#: contents/ui/gallery/DrawerGallery.qml:124
 msgctxt "DrawerGallery|"
 msgid "Close"
 msgstr "Zapri"
 
-#: contents/ui/gallery/DrawerGallery.qml:81
+#: contents/ui/gallery/DrawerGallery.qml:82
 msgctxt "DrawerGallery|"
 msgid ""
 "An inline bottom drawer covers the whole application width but lets the "
@@ -482,7 +482,7 @@ msgstr ""
 "Spodnji predal pokriva celotno širino aplikacije, a omogoča, da nepokriti "
 "kosi še vedno komunicirajo."
 
-#: contents/ui/gallery/DrawerGallery.qml:99
+#: contents/ui/gallery/DrawerGallery.qml:101
 msgctxt "DrawerGallery|"
 msgid ""
 "A modal top drawer will span for the whole application window width and will "
@@ -493,7 +493,7 @@ msgstr ""
 "in bo zatemnil preostali del aplikacije. Klik na zatemnjeno območje bo "
 "odpustil predalnik."
 
-#: contents/ui/gallery/DrawerGallery.qml:118
+#: contents/ui/gallery/DrawerGallery.qml:120
 msgctxt "DrawerGallery|"
 msgid ""
 "An inline top drawer covers the whole application width but lets the "
@@ -502,22 +502,22 @@ msgstr ""
 "Notranji vrhnji predal pokriva celotno širino aplikacije, vendar omogoča, da "
 "nepokriti kosi še vedno komunicirajo."
 
-#: contents/ui/gallery/DrawerGallery.qml:133
+#: contents/ui/gallery/DrawerGallery.qml:135
 msgctxt "DrawerGallery|"
 msgid "Left Global Drawer"
 msgstr "Levi globalni predal"
 
-#: contents/ui/gallery/DrawerGallery.qml:138
+#: contents/ui/gallery/DrawerGallery.qml:140
 msgctxt "DrawerGallery|"
 msgid "Right Context Drawer"
 msgstr "Desni kontekstni predal"
 
-#: contents/ui/gallery/DrawerGallery.qml:144
+#: contents/ui/gallery/DrawerGallery.qml:146
 msgctxt "DrawerGallery|"
 msgid "Modal Bottom Drawer"
 msgstr "Modalni spodnji predal"
 
-#: contents/ui/gallery/DrawerGallery.qml:154
+#: contents/ui/gallery/DrawerGallery.qml:156
 msgctxt "DrawerGallery|"
 msgid "Modal Top Drawer"
 msgstr "Modalni vrhnji predal"

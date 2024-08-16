@@ -451,7 +451,7 @@ msgctxt "DrawerGallery|"
 msgid "Action 3 clicked"
 msgstr "Noklikšķināta 3. darbība"
 
-#: contents/ui/gallery/DrawerGallery.qml:62
+#: contents/ui/gallery/DrawerGallery.qml:63
 msgctxt "DrawerGallery|"
 msgid ""
 "A modal bottom drawer will span for the whole application window width and "
@@ -462,15 +462,15 @@ msgstr ""
 "tā aptumšos pārējo programmu. Klikšķinot uz aptumšotā apgabala, atvilktne "
 "aizvērsies."
 
-#: contents/ui/gallery/DrawerGallery.qml:66
-#: contents/ui/gallery/DrawerGallery.qml:85
-#: contents/ui/gallery/DrawerGallery.qml:103
-#: contents/ui/gallery/DrawerGallery.qml:122
+#: contents/ui/gallery/DrawerGallery.qml:67
+#: contents/ui/gallery/DrawerGallery.qml:86
+#: contents/ui/gallery/DrawerGallery.qml:105
+#: contents/ui/gallery/DrawerGallery.qml:124
 msgctxt "DrawerGallery|"
 msgid "Close"
 msgstr "Aizvērt"
 
-#: contents/ui/gallery/DrawerGallery.qml:81
+#: contents/ui/gallery/DrawerGallery.qml:82
 msgctxt "DrawerGallery|"
 msgid ""
 "An inline bottom drawer covers the whole application width but lets the "
@@ -479,7 +479,7 @@ msgstr ""
 "Iekļautās apakšējās atvilktnes platums ir vienāds ar programmas platumu, bet "
 "tā ļauj turpināt mijiedarboties ar programmas neaizklātajām daļām."
 
-#: contents/ui/gallery/DrawerGallery.qml:99
+#: contents/ui/gallery/DrawerGallery.qml:101
 msgctxt "DrawerGallery|"
 msgid ""
 "A modal top drawer will span for the whole application window width and will "
@@ -490,7 +490,7 @@ msgstr ""
 "aptumšos pārējo programmu. Klikšķināšana uz aptumšotā apgabala aizvērs "
 "atvilktni."
 
-#: contents/ui/gallery/DrawerGallery.qml:118
+#: contents/ui/gallery/DrawerGallery.qml:120
 msgctxt "DrawerGallery|"
 msgid ""
 "An inline top drawer covers the whole application width but lets the "
@@ -499,22 +499,22 @@ msgstr ""
 "Iekļautās augšējās atvilktnes platums ir vienāds ar visas programmas "
 "platumu, bet tā ļauj mijiedarboties ar neaizklātajām programmas daļām."
 
-#: contents/ui/gallery/DrawerGallery.qml:133
+#: contents/ui/gallery/DrawerGallery.qml:135
 msgctxt "DrawerGallery|"
 msgid "Left Global Drawer"
 msgstr "Kreisā globālā atvilktne"
 
-#: contents/ui/gallery/DrawerGallery.qml:138
+#: contents/ui/gallery/DrawerGallery.qml:140
 msgctxt "DrawerGallery|"
 msgid "Right Context Drawer"
 msgstr "Labā konteksta atvilktne"
 
-#: contents/ui/gallery/DrawerGallery.qml:144
+#: contents/ui/gallery/DrawerGallery.qml:146
 msgctxt "DrawerGallery|"
 msgid "Modal Bottom Drawer"
 msgstr "Modālā apakšējā atvilktne"
 
-#: contents/ui/gallery/DrawerGallery.qml:154
+#: contents/ui/gallery/DrawerGallery.qml:156
 msgctxt "DrawerGallery|"
 msgid "Modal Top Drawer"
 msgstr "Modālā augšējā atvilktne"

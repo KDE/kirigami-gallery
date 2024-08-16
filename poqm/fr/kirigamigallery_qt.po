@@ -460,7 +460,7 @@ msgctxt "DrawerGallery|"
 msgid "Action 3 clicked"
 msgstr "Action 3 cliquée"
 
-#: contents/ui/gallery/DrawerGallery.qml:62
+#: contents/ui/gallery/DrawerGallery.qml:63
 msgctxt "DrawerGallery|"
 msgid ""
 "A modal bottom drawer will span for the whole application window width and "
@@ -471,15 +471,15 @@ msgstr ""
 "l'application et assombrira le reste de l'application. Un clic dans la zone "
 "assombrie effacera le tiroir."
 
-#: contents/ui/gallery/DrawerGallery.qml:66
-#: contents/ui/gallery/DrawerGallery.qml:85
-#: contents/ui/gallery/DrawerGallery.qml:103
-#: contents/ui/gallery/DrawerGallery.qml:122
+#: contents/ui/gallery/DrawerGallery.qml:67
+#: contents/ui/gallery/DrawerGallery.qml:86
+#: contents/ui/gallery/DrawerGallery.qml:105
+#: contents/ui/gallery/DrawerGallery.qml:124
 msgctxt "DrawerGallery|"
 msgid "Close"
 msgstr "Fermer"
 
-#: contents/ui/gallery/DrawerGallery.qml:81
+#: contents/ui/gallery/DrawerGallery.qml:82
 msgctxt "DrawerGallery|"
 msgid ""
 "An inline bottom drawer covers the whole application width but lets the "
@@ -488,7 +488,7 @@ msgstr ""
 "Un tiroir de boutons intégré recouvre toute la largeur de l'application mais "
 "laisse des parties visibles avec lesquelles il est possible d'interagir."
 
-#: contents/ui/gallery/DrawerGallery.qml:99
+#: contents/ui/gallery/DrawerGallery.qml:101
 msgctxt "DrawerGallery|"
 msgid ""
 "A modal top drawer will span for the whole application window width and will "
@@ -499,7 +499,7 @@ msgstr ""
 "l'application et assombrira le reste de l'application. Un clic dans la zone "
 "assombrie effacera le tiroir."
 
-#: contents/ui/gallery/DrawerGallery.qml:118
+#: contents/ui/gallery/DrawerGallery.qml:120
 msgctxt "DrawerGallery|"
 msgid ""
 "An inline top drawer covers the whole application width but lets the "
@@ -509,22 +509,22 @@ msgstr ""
 "l'application mais laisse des parties visibles avec lesquelles il est "
 "possible d'interagir."
 
-#: contents/ui/gallery/DrawerGallery.qml:133
+#: contents/ui/gallery/DrawerGallery.qml:135
 msgctxt "DrawerGallery|"
 msgid "Left Global Drawer"
 msgstr "Tiroir global à gauche"
 
-#: contents/ui/gallery/DrawerGallery.qml:138
+#: contents/ui/gallery/DrawerGallery.qml:140
 msgctxt "DrawerGallery|"
 msgid "Right Context Drawer"
 msgstr "Tiroir de contexte à droite"
 
-#: contents/ui/gallery/DrawerGallery.qml:144
+#: contents/ui/gallery/DrawerGallery.qml:146
 msgctxt "DrawerGallery|"
 msgid "Modal Bottom Drawer"
 msgstr "Tiroir modal du bas "
 
-#: contents/ui/gallery/DrawerGallery.qml:154
+#: contents/ui/gallery/DrawerGallery.qml:156
 msgctxt "DrawerGallery|"
 msgid "Modal Top Drawer"
 msgstr "Tiroir modal du haut"

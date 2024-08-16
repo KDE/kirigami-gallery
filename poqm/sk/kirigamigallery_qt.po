@@ -464,7 +464,7 @@ msgctxt "DrawerGallery|"
 msgid "Action 3 clicked"
 msgstr "Akcia 3 kliknutá"
 
-#: contents/ui/gallery/DrawerGallery.qml:62
+#: contents/ui/gallery/DrawerGallery.qml:63
 msgctxt "DrawerGallery|"
 msgid ""
 "A modal bottom drawer will span for the whole application window width and "
@@ -474,15 +474,15 @@ msgstr ""
 "Modálny spodný vykresľovač presiahne cez celú šírku okna aplikácie a stmaví "
 "zvyšok aplikácie. Kliknutím na stmavnutú oblasť sa zatvorí vykresľovač."
 
-#: contents/ui/gallery/DrawerGallery.qml:66
-#: contents/ui/gallery/DrawerGallery.qml:85
-#: contents/ui/gallery/DrawerGallery.qml:103
-#: contents/ui/gallery/DrawerGallery.qml:122
+#: contents/ui/gallery/DrawerGallery.qml:67
+#: contents/ui/gallery/DrawerGallery.qml:86
+#: contents/ui/gallery/DrawerGallery.qml:105
+#: contents/ui/gallery/DrawerGallery.qml:124
 msgctxt "DrawerGallery|"
 msgid "Close"
 msgstr "Zavrieť"
 
-#: contents/ui/gallery/DrawerGallery.qml:81
+#: contents/ui/gallery/DrawerGallery.qml:82
 msgctxt "DrawerGallery|"
 msgid ""
 "An inline bottom drawer covers the whole application width but lets the "
@@ -491,7 +491,7 @@ msgstr ""
 "Vnútorný spodný vykresľovač pokrýva celú šírku aplikácie, ale nechá "
 "nepokryté kusy, s ktorými je možné interagovať."
 
-#: contents/ui/gallery/DrawerGallery.qml:99
+#: contents/ui/gallery/DrawerGallery.qml:101
 msgctxt "DrawerGallery|"
 msgid ""
 "A modal top drawer will span for the whole application window width and will "
@@ -501,7 +501,7 @@ msgstr ""
 "Modálny vrchný vykresľovač presiahne cez celú šírku okna aplikácie a stmaví "
 "zvyšok aplikácie. Kliknutím na stmavnutú oblasť sa zatvorí vykresľovač."
 
-#: contents/ui/gallery/DrawerGallery.qml:118
+#: contents/ui/gallery/DrawerGallery.qml:120
 msgctxt "DrawerGallery|"
 msgid ""
 "An inline top drawer covers the whole application width but lets the "
@@ -510,22 +510,22 @@ msgstr ""
 "Vnútorný vrchný vykresľovač pokrýva celú šírku aplikácie, ale nechá "
 "nepokryté kusy, s ktorými je možné interagovať."
 
-#: contents/ui/gallery/DrawerGallery.qml:133
+#: contents/ui/gallery/DrawerGallery.qml:135
 msgctxt "DrawerGallery|"
 msgid "Left Global Drawer"
 msgstr "Ľavý globálny vykresľovač"
 
-#: contents/ui/gallery/DrawerGallery.qml:138
+#: contents/ui/gallery/DrawerGallery.qml:140
 msgctxt "DrawerGallery|"
 msgid "Right Context Drawer"
 msgstr "Pravý kontexktový vykresľovač"
 
-#: contents/ui/gallery/DrawerGallery.qml:144
+#: contents/ui/gallery/DrawerGallery.qml:146
 msgctxt "DrawerGallery|"
 msgid "Modal Bottom Drawer"
 msgstr "Modálny spodný vykresľovač"
 
-#: contents/ui/gallery/DrawerGallery.qml:154
+#: contents/ui/gallery/DrawerGallery.qml:156
 msgctxt "DrawerGallery|"
 msgid "Modal Top Drawer"
 msgstr "Modálny horný vykresľovač"

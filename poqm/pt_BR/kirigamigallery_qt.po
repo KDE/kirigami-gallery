@@ -466,7 +466,7 @@ msgctxt "DrawerGallery|"
 msgid "Action 3 clicked"
 msgstr "Ação 3 clicada"
 
-#: contents/ui/gallery/DrawerGallery.qml:62
+#: contents/ui/gallery/DrawerGallery.qml:63
 msgctxt "DrawerGallery|"
 msgid ""
 "A modal bottom drawer will span for the whole application window width and "
@@ -477,15 +477,15 @@ msgstr ""
 "aplicativo e escurecerá o resto do aplicativo. Clicar em um objeto escuro "
 "irá dispensar a gaveta."
 
-#: contents/ui/gallery/DrawerGallery.qml:66
-#: contents/ui/gallery/DrawerGallery.qml:85
-#: contents/ui/gallery/DrawerGallery.qml:103
-#: contents/ui/gallery/DrawerGallery.qml:122
+#: contents/ui/gallery/DrawerGallery.qml:67
+#: contents/ui/gallery/DrawerGallery.qml:86
+#: contents/ui/gallery/DrawerGallery.qml:105
+#: contents/ui/gallery/DrawerGallery.qml:124
 msgctxt "DrawerGallery|"
 msgid "Close"
 msgstr "Fechar"
 
-#: contents/ui/gallery/DrawerGallery.qml:81
+#: contents/ui/gallery/DrawerGallery.qml:82
 msgctxt "DrawerGallery|"
 msgid ""
 "An inline bottom drawer covers the whole application width but lets the "
@@ -494,7 +494,7 @@ msgstr ""
 "Uma gaveta inferior em linha cobre toda a largura do aplicativo, mas permite "
 "que as peças descobertas ainda sejam interagidas."
 
-#: contents/ui/gallery/DrawerGallery.qml:99
+#: contents/ui/gallery/DrawerGallery.qml:101
 msgctxt "DrawerGallery|"
 msgid ""
 "A modal top drawer will span for the whole application window width and will "
@@ -505,7 +505,7 @@ msgstr ""
 "aplicativo e escurecerá o resto do aplicativo. Clicar na área escura "
 "descartará a gaveta."
 
-#: contents/ui/gallery/DrawerGallery.qml:118
+#: contents/ui/gallery/DrawerGallery.qml:120
 msgctxt "DrawerGallery|"
 msgid ""
 "An inline top drawer covers the whole application width but lets the "
@@ -514,22 +514,22 @@ msgstr ""
 "Uma gaveta superior em linha cobre toda a largura do aplicativo, mas permite "
 "que as peças descobertas ainda sejam interagidas."
 
-#: contents/ui/gallery/DrawerGallery.qml:133
+#: contents/ui/gallery/DrawerGallery.qml:135
 msgctxt "DrawerGallery|"
 msgid "Left Global Drawer"
 msgstr "Gaveta global esquerda"
 
-#: contents/ui/gallery/DrawerGallery.qml:138
+#: contents/ui/gallery/DrawerGallery.qml:140
 msgctxt "DrawerGallery|"
 msgid "Right Context Drawer"
 msgstr "Gaveta de contexto direito"
 
-#: contents/ui/gallery/DrawerGallery.qml:144
+#: contents/ui/gallery/DrawerGallery.qml:146
 msgctxt "DrawerGallery|"
 msgid "Modal Bottom Drawer"
 msgstr "Gaveta modal inferior"
 
-#: contents/ui/gallery/DrawerGallery.qml:154
+#: contents/ui/gallery/DrawerGallery.qml:156
 msgctxt "DrawerGallery|"
 msgid "Modal Top Drawer"
 msgstr "Gaveta modal superior"
