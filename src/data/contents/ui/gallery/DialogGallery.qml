@@ -117,6 +117,23 @@ Kirigami.ScrollablePage {
     }
 
     Kirigami.Dialog {
+        id: subtitleDialog
+        title: qsTr("Select Number")
+        implicitWidth: Kirigami.Units.gridUnit * 16
+
+        ColumnLayout {
+            Repeater {
+                model: 5
+                delegate: Kirigami.RadioSubtitleDelegate {
+                    subtitle: qsTr("Subtitle text")
+                    text: modelData
+                    Layout.fillWidth: true
+                }
+            }
+        }
+    }
+
+    Kirigami.Dialog {
         id: scrollableDialog
         title: qsTr("Select Number")
 
@@ -197,6 +214,11 @@ Kirigami.ScrollablePage {
             text: qsTr("Selection Dialog")
             Layout.alignment: Qt.AlignHCenter
             onClicked: selectDialog.open()
+        }
+        QQC2.Button {
+            text: qsTr("Selection Dialog with subtitles")
+            Layout.alignment: Qt.AlignHCenter
+            onClicked: subtitleDialog.open()
         }
         QQC2.Button {
             text: qsTr("Scrollable Dialog")
