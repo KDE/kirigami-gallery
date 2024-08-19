@@ -41,7 +41,11 @@ Kirigami.ScrollablePage {
         width: page.width
         spacing: Kirigami.Units.smallSpacing
 
-        QQC2.Label { text: "Basic Actions and Alignment"; elide: Text.ElideRight; Layout.fillWidth: true }
+        QQC2.Label {
+            text: "Basic Actions and Alignment"
+            elide: Text.ElideRight
+            Layout.fillWidth: true
+        }
 
         QQC2.GroupBox {
             Layout.fillWidth: true
@@ -51,14 +55,29 @@ Kirigami.ScrollablePage {
                 anchors.fill: parent
                 alignment: page.alignment
                 actions: [
-                    Kirigami.Action { text: "Align Left"; icon.name: "align-horizontal-left"; onTriggered: page.alignment = Qt.AlignLeft },
-                    Kirigami.Action { text: "Align Center"; icon.name: "align-horizontal-center"; onTriggered: page.alignment = Qt.AlignHCenter },
-                    Kirigami.Action { text: "Align Right"; icon.name: "align-horizontal-right"; onTriggered: page.alignment = Qt.AlignRight }
+                    Kirigami.Action {
+                        text: "Align Left"
+                        icon.name: "align-horizontal-left"
+                        onTriggered: page.alignment = Qt.AlignLeft
+                    },
+                    Kirigami.Action {
+                        text: "Align Center"
+                        icon.name: "align-horizontal-center"
+                        onTriggered: page.alignment = Qt.AlignHCenter
+                    },
+                    Kirigami.Action { text: "Align Right"
+                        icon.name: "align-horizontal-right"
+                        onTriggered: page.alignment = Qt.AlignRight
+                    }
                 ]
             }
         }
 
-        QQC2.Label { text: "Display Hints"; elide: Text.ElideRight; Layout.fillWidth: true }
+        QQC2.Label {
+            text: "Display Hints"
+            elide: Text.ElideRight
+            Layout.fillWidth: true
+        }
 
         QQC2.GroupBox {
             Layout.fillWidth: true
@@ -68,10 +87,18 @@ Kirigami.ScrollablePage {
                 anchors.fill: parent
                 alignment: page.alignment
                 actions: [
-                    Kirigami.Action { text: "IconOnly"; icon.name: "view-list-icons"; displayHint: Kirigami.DisplayHint.IconOnly },
-                    Kirigami.Action { text: "KeepVisible"; icon.name: "view-visible"; displayHint: Kirigami.DisplayHint.KeepVisible },
                     Kirigami.Action {
-                        text: "HideChildIndicator";
+                        text: "IconOnly"
+                        icon.name: "view-list-icons"
+                        displayHint: Kirigami.DisplayHint.IconOnly
+                    },
+                    Kirigami.Action {
+                        text: "KeepVisible"
+                        icon.name: "view-visible"
+                        displayHint: Kirigami.DisplayHint.KeepVisible
+                    },
+                    Kirigami.Action {
+                        text: "HideChildIndicator"
                         icon.name: "overflow-menu"
                         displayHint: Kirigami.DisplayHint.HideChildIndicator
 
@@ -79,12 +106,20 @@ Kirigami.ScrollablePage {
                             text: "Child Action"
                         }
                     },
-                    Kirigami.Action { text: "AlwaysHide"; icon.name: "password-show-off"; displayHint: Kirigami.DisplayHint.AlwaysHide }
+                    Kirigami.Action {
+                        text: "AlwaysHide"
+                        icon.name: "password-show-off"
+                        displayHint: Kirigami.DisplayHint.AlwaysHide
+                    }
                 ]
             }
         }
 
-        QQC2.Label { text: "Custom Display Component"; elide: Text.ElideRight; Layout.fillWidth: true }
+        QQC2.Label {
+            text: "Custom Display Component"
+            elide: Text.ElideRight
+            Layout.fillWidth: true
+        }
 
         QQC2.GroupBox {
             Layout.fillWidth: true
@@ -94,14 +129,19 @@ Kirigami.ScrollablePage {
                 anchors.fill: parent
                 alignment: page.alignment
                 actions: [
-                    Kirigami.Action { id: customAction; text: "Custom Component"; icon.name: "search"; displayComponent: Kirigami.SearchField { } },
                     Kirigami.Action {
-                        text: "Add IconOnly Hint";
-                        icon.name: "list-add";
+                        id: customAction
+                        text: "Custom Component"
+                        icon.name: "search"
+                        displayComponent: Kirigami.SearchField { }
+                    },
+                    Kirigami.Action {
+                        text: "Add IconOnly Hint"
+                        icon.name: "list-add"
                         onTriggered: customAction.displayHint |= Kirigami.DisplayHint.IconOnly
                     },
                     Kirigami.Action {
-                        text: "Remove IconOnly Hint";
+                        text: "Remove IconOnly Hint"
                         icon.name: "list-remove"
                         onTriggered: customAction.displayHint ^= Kirigami.DisplayHint.IconOnly
                     }
@@ -109,7 +149,11 @@ Kirigami.ScrollablePage {
             }
         }
 
-        QQC2.Label { text: "All Custom Components and Layouts"; elide: Text.ElideRight; Layout.fillWidth: true }
+        QQC2.Label {
+            text: "All Custom Components and Layouts"
+            elide: Text.ElideRight
+            Layout.fillWidth: true
+        }
 
         QQC2.GroupBox {
             Layout.fillWidth: true
@@ -119,13 +163,31 @@ Kirigami.ScrollablePage {
                 anchors.fill: parent
                 alignment: page.alignment
                 actions: [
-                    Kirigami.Action { id: kirigamiAction; text: "Action 1"; displayComponent: QQC2.Button { text: kirigamiAction.text } },
                     Kirigami.Action {
-                        text: "Action 2";
-                        displayComponent: QQC2.TextField { placeholderText: kirigamiAction.text; Layout.fillWidth: true; Layout.maximumWidth: 350 }
+                        id: kirigamiAction
+                        text: "Action 1"
+                        displayComponent: QQC2.Button {
+                            text: kirigamiAction.text
+                        }
                     },
-                    Kirigami.Action { text: "Action 3"; displayComponent: QQC2.SpinBox { } },
-                    Kirigami.Action { text: "Action 4"; displayComponent: QQC2.RangeSlider { Layout.fillWidth: true } }
+                    Kirigami.Action {
+                        text: "Action 2"
+                        displayComponent: QQC2.TextField {
+                            placeholderText: kirigamiAction.text
+                            Layout.fillWidth: true
+                            Layout.maximumWidth: 350
+                        }
+                    },
+                    Kirigami.Action {
+                        text: "Action 3"
+                        displayComponent: QQC2.SpinBox { }
+                    },
+                    Kirigami.Action {
+                        text: "Action 4"
+                        displayComponent: QQC2.RangeSlider {
+                            Layout.fillWidth: true
+                        }
+                    }
                 ]
             }
         }
