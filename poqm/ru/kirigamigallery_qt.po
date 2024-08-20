@@ -338,100 +338,114 @@ msgid "1 hour"
 msgstr "1 час"
 
 #: contents/ui/gallery/DialogGallery.qml:121
+#: contents/ui/gallery/DialogGallery.qml:138
 msgctxt "DialogGallery|"
 msgid "Select Number"
 msgstr "Выберите число"
 
-#: contents/ui/gallery/DialogGallery.qml:141
-#: contents/ui/gallery/DialogGallery.qml:207
+#: contents/ui/gallery/DialogGallery.qml:128
+msgctxt "DialogGallery|"
+msgid "Subtitle text"
+msgstr ""
+
+#: contents/ui/gallery/DialogGallery.qml:158
+#: contents/ui/gallery/DialogGallery.qml:229
 msgctxt "DialogGallery|"
 msgid "No Footer Dialog"
 msgstr "Диалоговое окно без нижнего колонтитула"
 
-#: contents/ui/gallery/DialogGallery.qml:142
+#: contents/ui/gallery/DialogGallery.qml:159
 msgctxt "DialogGallery|"
 msgid "This dialog has no footer buttons.<br/>It also has no close button."
 msgstr ""
 "У этого диалогового окна нет кнопок нижнего колонтитула.<br/>Также у него "
 "нет кнопки закрытия."
 
-#: contents/ui/gallery/DialogGallery.qml:150
+#: contents/ui/gallery/DialogGallery.qml:167
 msgctxt "DialogGallery|"
 msgid "Track Options"
 msgstr "Параметры дорожки"
 
-#: contents/ui/gallery/DialogGallery.qml:155
+#: contents/ui/gallery/DialogGallery.qml:172
 msgctxt "DialogGallery|Start playback of the selected track"
 msgid "Play"
 msgstr "Воспроизвести"
 
-#: contents/ui/gallery/DialogGallery.qml:156
+#: contents/ui/gallery/DialogGallery.qml:173
 msgctxt "DialogGallery|"
 msgid "Start playback of the selected track"
 msgstr "Начать воспроизведение выбранной дорожки"
 
-#: contents/ui/gallery/DialogGallery.qml:161
+#: contents/ui/gallery/DialogGallery.qml:178
 msgctxt "DialogGallery|Show the file for this song in the file manager"
 msgid "Show in folder"
 msgstr "Показать в папке"
 
-#: contents/ui/gallery/DialogGallery.qml:162
+#: contents/ui/gallery/DialogGallery.qml:179
 msgctxt "DialogGallery|"
 msgid "Show the file for this song in the file manager"
 msgstr "Показать файл этой дорожки в диспетчере файлов"
 
-#: contents/ui/gallery/DialogGallery.qml:166
+#: contents/ui/gallery/DialogGallery.qml:183
 msgctxt "DialogGallery|Show track metadata"
 msgid "View details"
 msgstr "Просмотреть сведения"
 
-#: contents/ui/gallery/DialogGallery.qml:167
+#: contents/ui/gallery/DialogGallery.qml:184
 msgctxt "DialogGallery|"
 msgid "Show track metadata"
 msgstr "Показать метаданные дорожки"
 
-#: contents/ui/gallery/DialogGallery.qml:171
+#: contents/ui/gallery/DialogGallery.qml:188
 msgctxt ""
 "DialogGallery|Add the track to the queue, right after the current track"
 msgid "Play next"
 msgstr "Воспроизвести следующей"
 
-#: contents/ui/gallery/DialogGallery.qml:172
+#: contents/ui/gallery/DialogGallery.qml:189
 msgctxt "DialogGallery|"
 msgid "Add the track to the queue, right after the current track"
 msgstr "Добавить дорожку в очередь, сразу за текущей дорожкой"
 
-#: contents/ui/gallery/DialogGallery.qml:176
+#: contents/ui/gallery/DialogGallery.qml:193
 msgctxt "DialogGallery|Enqueue current track"
 msgid "Add to queue"
 msgstr "Добавить в очередь"
 
-#: contents/ui/gallery/DialogGallery.qml:177
+#: contents/ui/gallery/DialogGallery.qml:194
 msgctxt "DialogGallery|"
 msgid "Enqueue current track"
 msgstr "Добавить текущую дорожку в очередь"
 
-#: contents/ui/gallery/DialogGallery.qml:187
+#: contents/ui/gallery/DialogGallery.qml:204
 msgctxt "DialogGallery|"
 msgid "Prompt Dialog"
 msgstr "Диалоговое окно запроса"
 
-#: contents/ui/gallery/DialogGallery.qml:192
+#: contents/ui/gallery/DialogGallery.qml:209
 msgctxt "DialogGallery|"
 msgid "Text Prompt Dialog"
 msgstr "Диалоговое окно текстового запроса"
 
-#: contents/ui/gallery/DialogGallery.qml:197
+#: contents/ui/gallery/DialogGallery.qml:214
 msgctxt "DialogGallery|"
 msgid "Selection Dialog"
 msgstr "Диалоговое окно выбора"
 
-#: contents/ui/gallery/DialogGallery.qml:202
+#: contents/ui/gallery/DialogGallery.qml:219
+#, fuzzy
+#| msgctxt "DialogGallery|"
+#| msgid "Selection Dialog"
+msgctxt "DialogGallery|"
+msgid "Selection Dialog with subtitles"
+msgstr "Диалоговое окно выбора"
+
+#: contents/ui/gallery/DialogGallery.qml:224
 msgctxt "DialogGallery|"
 msgid "Scrollable Dialog"
 msgstr "Диалоговое окно с возможностью прокрутки"
 
-#: contents/ui/gallery/DialogGallery.qml:212
+#: contents/ui/gallery/DialogGallery.qml:234
 msgctxt "DialogGallery|"
 msgid "Menu Dialog"
 msgstr "Диалоговое окно меню"

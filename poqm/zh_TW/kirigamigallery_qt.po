@@ -312,98 +312,112 @@ msgid "1 hour"
 msgstr "1 小時"
 
 #: contents/ui/gallery/DialogGallery.qml:121
+#: contents/ui/gallery/DialogGallery.qml:138
 msgctxt "DialogGallery|"
 msgid "Select Number"
 msgstr "選擇號碼"
 
-#: contents/ui/gallery/DialogGallery.qml:141
-#: contents/ui/gallery/DialogGallery.qml:207
+#: contents/ui/gallery/DialogGallery.qml:128
+msgctxt "DialogGallery|"
+msgid "Subtitle text"
+msgstr ""
+
+#: contents/ui/gallery/DialogGallery.qml:158
+#: contents/ui/gallery/DialogGallery.qml:229
 msgctxt "DialogGallery|"
 msgid "No Footer Dialog"
 msgstr "沒有註腳的對話框"
 
-#: contents/ui/gallery/DialogGallery.qml:142
+#: contents/ui/gallery/DialogGallery.qml:159
 msgctxt "DialogGallery|"
 msgid "This dialog has no footer buttons.<br/>It also has no close button."
 msgstr "這個對話框沒有註腳按鈕。<br/>它也沒有關閉按鈕。"
 
-#: contents/ui/gallery/DialogGallery.qml:150
+#: contents/ui/gallery/DialogGallery.qml:167
 msgctxt "DialogGallery|"
 msgid "Track Options"
 msgstr "曲目選項"
 
-#: contents/ui/gallery/DialogGallery.qml:155
+#: contents/ui/gallery/DialogGallery.qml:172
 msgctxt "DialogGallery|Start playback of the selected track"
 msgid "Play"
 msgstr "播放"
 
-#: contents/ui/gallery/DialogGallery.qml:156
+#: contents/ui/gallery/DialogGallery.qml:173
 msgctxt "DialogGallery|"
 msgid "Start playback of the selected track"
 msgstr "播放選擇的曲目"
 
-#: contents/ui/gallery/DialogGallery.qml:161
+#: contents/ui/gallery/DialogGallery.qml:178
 msgctxt "DialogGallery|Show the file for this song in the file manager"
 msgid "Show in folder"
 msgstr "在資料夾顯示"
 
-#: contents/ui/gallery/DialogGallery.qml:162
+#: contents/ui/gallery/DialogGallery.qml:179
 msgctxt "DialogGallery|"
 msgid "Show the file for this song in the file manager"
 msgstr "在檔案管理員中顯示這首歌曲的檔案"
 
-#: contents/ui/gallery/DialogGallery.qml:166
+#: contents/ui/gallery/DialogGallery.qml:183
 msgctxt "DialogGallery|Show track metadata"
 msgid "View details"
 msgstr "檢視詳細資訊"
 
-#: contents/ui/gallery/DialogGallery.qml:167
+#: contents/ui/gallery/DialogGallery.qml:184
 msgctxt "DialogGallery|"
 msgid "Show track metadata"
 msgstr "顯示曲目中繼資料"
 
-#: contents/ui/gallery/DialogGallery.qml:171
+#: contents/ui/gallery/DialogGallery.qml:188
 msgctxt ""
 "DialogGallery|Add the track to the queue, right after the current track"
 msgid "Play next"
 msgstr "接著播放"
 
-#: contents/ui/gallery/DialogGallery.qml:172
+#: contents/ui/gallery/DialogGallery.qml:189
 msgctxt "DialogGallery|"
 msgid "Add the track to the queue, right after the current track"
 msgstr "將曲目加入待播清單中，作為目前曲目的下一首"
 
-#: contents/ui/gallery/DialogGallery.qml:176
+#: contents/ui/gallery/DialogGallery.qml:193
 msgctxt "DialogGallery|Enqueue current track"
 msgid "Add to queue"
 msgstr "加入待播清單"
 
-#: contents/ui/gallery/DialogGallery.qml:177
+#: contents/ui/gallery/DialogGallery.qml:194
 msgctxt "DialogGallery|"
 msgid "Enqueue current track"
 msgstr "將目前曲目加入待播清單"
 
-#: contents/ui/gallery/DialogGallery.qml:187
+#: contents/ui/gallery/DialogGallery.qml:204
 msgctxt "DialogGallery|"
 msgid "Prompt Dialog"
 msgstr "提示對話框"
 
-#: contents/ui/gallery/DialogGallery.qml:192
+#: contents/ui/gallery/DialogGallery.qml:209
 msgctxt "DialogGallery|"
 msgid "Text Prompt Dialog"
 msgstr "文字提示對話框"
 
-#: contents/ui/gallery/DialogGallery.qml:197
+#: contents/ui/gallery/DialogGallery.qml:214
 msgctxt "DialogGallery|"
 msgid "Selection Dialog"
 msgstr "選取對話框"
 
-#: contents/ui/gallery/DialogGallery.qml:202
+#: contents/ui/gallery/DialogGallery.qml:219
+#, fuzzy
+#| msgctxt "DialogGallery|"
+#| msgid "Selection Dialog"
+msgctxt "DialogGallery|"
+msgid "Selection Dialog with subtitles"
+msgstr "選取對話框"
+
+#: contents/ui/gallery/DialogGallery.qml:224
 msgctxt "DialogGallery|"
 msgid "Scrollable Dialog"
 msgstr "可捲動對話框"
 
-#: contents/ui/gallery/DialogGallery.qml:212
+#: contents/ui/gallery/DialogGallery.qml:234
 msgctxt "DialogGallery|"
 msgid "Menu Dialog"
 msgstr "選單對話框"

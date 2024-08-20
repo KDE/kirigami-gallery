@@ -333,100 +333,114 @@ msgid "1 hour"
 msgstr "1 hora"
 
 #: contents/ui/gallery/DialogGallery.qml:121
+#: contents/ui/gallery/DialogGallery.qml:138
 msgctxt "DialogGallery|"
 msgid "Select Number"
 msgstr "Seleccioneu el número"
 
-#: contents/ui/gallery/DialogGallery.qml:141
-#: contents/ui/gallery/DialogGallery.qml:207
+#: contents/ui/gallery/DialogGallery.qml:128
+msgctxt "DialogGallery|"
+msgid "Subtitle text"
+msgstr ""
+
+#: contents/ui/gallery/DialogGallery.qml:158
+#: contents/ui/gallery/DialogGallery.qml:229
 msgctxt "DialogGallery|"
 msgid "No Footer Dialog"
 msgstr "Sense diàleg de peu de pàgina"
 
-#: contents/ui/gallery/DialogGallery.qml:142
+#: contents/ui/gallery/DialogGallery.qml:159
 msgctxt "DialogGallery|"
 msgid "This dialog has no footer buttons.<br/>It also has no close button."
 msgstr ""
 "Aquest diàleg no té botons de peu de pàgina.<br/>Tampoc té cap botó de "
 "tancament."
 
-#: contents/ui/gallery/DialogGallery.qml:150
+#: contents/ui/gallery/DialogGallery.qml:167
 msgctxt "DialogGallery|"
 msgid "Track Options"
 msgstr "Opcions de les pistes"
 
-#: contents/ui/gallery/DialogGallery.qml:155
+#: contents/ui/gallery/DialogGallery.qml:172
 msgctxt "DialogGallery|Start playback of the selected track"
 msgid "Play"
 msgstr "Reprodueix"
 
-#: contents/ui/gallery/DialogGallery.qml:156
+#: contents/ui/gallery/DialogGallery.qml:173
 msgctxt "DialogGallery|"
 msgid "Start playback of the selected track"
 msgstr "Inicia la reproducció de la pista seleccionada"
 
-#: contents/ui/gallery/DialogGallery.qml:161
+#: contents/ui/gallery/DialogGallery.qml:178
 msgctxt "DialogGallery|Show the file for this song in the file manager"
 msgid "Show in folder"
 msgstr "Mostra a la carpeta"
 
-#: contents/ui/gallery/DialogGallery.qml:162
+#: contents/ui/gallery/DialogGallery.qml:179
 msgctxt "DialogGallery|"
 msgid "Show the file for this song in the file manager"
 msgstr "Mostra el fitxer d'aquesta cançó en el gestor de fitxers"
 
-#: contents/ui/gallery/DialogGallery.qml:166
+#: contents/ui/gallery/DialogGallery.qml:183
 msgctxt "DialogGallery|Show track metadata"
 msgid "View details"
 msgstr "Visualitza els detalls"
 
-#: contents/ui/gallery/DialogGallery.qml:167
+#: contents/ui/gallery/DialogGallery.qml:184
 msgctxt "DialogGallery|"
 msgid "Show track metadata"
 msgstr "Mostra les metadades de la pista"
 
-#: contents/ui/gallery/DialogGallery.qml:171
+#: contents/ui/gallery/DialogGallery.qml:188
 msgctxt ""
 "DialogGallery|Add the track to the queue, right after the current track"
 msgid "Play next"
 msgstr "Reprodueix la següent"
 
-#: contents/ui/gallery/DialogGallery.qml:172
+#: contents/ui/gallery/DialogGallery.qml:189
 msgctxt "DialogGallery|"
 msgid "Add the track to the queue, right after the current track"
 msgstr "Afegeix la pista a la cua, just després de la pista actual"
 
-#: contents/ui/gallery/DialogGallery.qml:176
+#: contents/ui/gallery/DialogGallery.qml:193
 msgctxt "DialogGallery|Enqueue current track"
 msgid "Add to queue"
 msgstr "Afegeix a la cua"
 
-#: contents/ui/gallery/DialogGallery.qml:177
+#: contents/ui/gallery/DialogGallery.qml:194
 msgctxt "DialogGallery|"
 msgid "Enqueue current track"
 msgstr "Posa a la cua la pista actual"
 
-#: contents/ui/gallery/DialogGallery.qml:187
+#: contents/ui/gallery/DialogGallery.qml:204
 msgctxt "DialogGallery|"
 msgid "Prompt Dialog"
 msgstr "Diàleg de l'indicatiu"
 
-#: contents/ui/gallery/DialogGallery.qml:192
+#: contents/ui/gallery/DialogGallery.qml:209
 msgctxt "DialogGallery|"
 msgid "Text Prompt Dialog"
 msgstr "Diàleg de l'indicatiu de text"
 
-#: contents/ui/gallery/DialogGallery.qml:197
+#: contents/ui/gallery/DialogGallery.qml:214
 msgctxt "DialogGallery|"
 msgid "Selection Dialog"
 msgstr "Diàleg de selecció"
 
-#: contents/ui/gallery/DialogGallery.qml:202
+#: contents/ui/gallery/DialogGallery.qml:219
+#, fuzzy
+#| msgctxt "DialogGallery|"
+#| msgid "Selection Dialog"
+msgctxt "DialogGallery|"
+msgid "Selection Dialog with subtitles"
+msgstr "Diàleg de selecció"
+
+#: contents/ui/gallery/DialogGallery.qml:224
 msgctxt "DialogGallery|"
 msgid "Scrollable Dialog"
 msgstr "Diàleg desplaçable"
 
-#: contents/ui/gallery/DialogGallery.qml:212
+#: contents/ui/gallery/DialogGallery.qml:234
 msgctxt "DialogGallery|"
 msgid "Menu Dialog"
 msgstr "Diàleg de menú"

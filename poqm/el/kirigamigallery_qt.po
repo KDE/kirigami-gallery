@@ -296,100 +296,111 @@ msgid "1 hour"
 msgstr "1 ώρα"
 
 #: contents/ui/gallery/DialogGallery.qml:121
+#: contents/ui/gallery/DialogGallery.qml:138
 msgctxt "DialogGallery|"
 msgid "Select Number"
 msgstr "Επιλογή αριθμού"
 
-#: contents/ui/gallery/DialogGallery.qml:141
-#: contents/ui/gallery/DialogGallery.qml:207
+#: contents/ui/gallery/DialogGallery.qml:128
+msgctxt "DialogGallery|"
+msgid "Subtitle text"
+msgstr ""
+
+#: contents/ui/gallery/DialogGallery.qml:158
+#: contents/ui/gallery/DialogGallery.qml:229
 msgctxt "DialogGallery|"
 msgid "No Footer Dialog"
 msgstr "Παράθυρο διαλόγου χωρίς υποσέλιδο"
 
-#: contents/ui/gallery/DialogGallery.qml:142
+#: contents/ui/gallery/DialogGallery.qml:159
 msgctxt "DialogGallery|"
 msgid "This dialog has no footer buttons.<br/>It also has no close button."
 msgstr ""
 "Αυτό το παράθυρο διαλόγου δεν έχει κουμπιά στο υποσέλιδο.<br/>Επίσης δεν "
 "έχει κουμπί κλεισίματος."
 
-#: contents/ui/gallery/DialogGallery.qml:150
+#: contents/ui/gallery/DialogGallery.qml:167
 msgctxt "DialogGallery|"
 msgid "Track Options"
 msgstr "Παρακολούθηση επιλογών"
 
-#: contents/ui/gallery/DialogGallery.qml:155
+#: contents/ui/gallery/DialogGallery.qml:172
 msgctxt "DialogGallery|Start playback of the selected track"
 msgid "Play"
 msgstr "Αναπαραγωγή"
 
-#: contents/ui/gallery/DialogGallery.qml:156
+#: contents/ui/gallery/DialogGallery.qml:173
 msgctxt "DialogGallery|"
 msgid "Start playback of the selected track"
 msgstr "Έναρξη αναπαραγωγής του επιλεγμένου κομματιού"
 
-#: contents/ui/gallery/DialogGallery.qml:161
+#: contents/ui/gallery/DialogGallery.qml:178
 msgctxt "DialogGallery|Show the file for this song in the file manager"
 msgid "Show in folder"
 msgstr "Εμφάνιση στον φάκελο"
 
-#: contents/ui/gallery/DialogGallery.qml:162
+#: contents/ui/gallery/DialogGallery.qml:179
 msgctxt "DialogGallery|"
 msgid "Show the file for this song in the file manager"
 msgstr "Εμφάνισε το αρχείο για αυτό το τραγούδι στο διαχειριστή αρχείων"
 
-#: contents/ui/gallery/DialogGallery.qml:166
+#: contents/ui/gallery/DialogGallery.qml:183
 msgctxt "DialogGallery|Show track metadata"
 msgid "View details"
 msgstr "Προβολή λεπτομερειών"
 
-#: contents/ui/gallery/DialogGallery.qml:167
+#: contents/ui/gallery/DialogGallery.qml:184
 msgctxt "DialogGallery|"
 msgid "Show track metadata"
 msgstr "Εμφάνιση μεταδεδομένων κομματιού"
 
-#: contents/ui/gallery/DialogGallery.qml:171
+#: contents/ui/gallery/DialogGallery.qml:188
 msgctxt ""
 "DialogGallery|Add the track to the queue, right after the current track"
 msgid "Play next"
 msgstr "Αναπαραγωγή επόμενου"
 
-#: contents/ui/gallery/DialogGallery.qml:172
+#: contents/ui/gallery/DialogGallery.qml:189
 msgctxt "DialogGallery|"
 msgid "Add the track to the queue, right after the current track"
 msgstr "Πρόσθεσε το κομμάτι στην ουρά, αμέσως μετά το τρέχον κομμάτι"
 
-#: contents/ui/gallery/DialogGallery.qml:176
+#: contents/ui/gallery/DialogGallery.qml:193
 msgctxt "DialogGallery|Enqueue current track"
 msgid "Add to queue"
 msgstr "Προσθήκη στην ουρά"
 
-#: contents/ui/gallery/DialogGallery.qml:177
+#: contents/ui/gallery/DialogGallery.qml:194
 msgctxt "DialogGallery|"
 msgid "Enqueue current track"
 msgstr "Προσθήκη στην ουρά του τρέχοντος κομματιού"
 
-#: contents/ui/gallery/DialogGallery.qml:187
+#: contents/ui/gallery/DialogGallery.qml:204
 msgctxt "DialogGallery|"
 msgid "Prompt Dialog"
 msgstr ""
 
-#: contents/ui/gallery/DialogGallery.qml:192
+#: contents/ui/gallery/DialogGallery.qml:209
 msgctxt "DialogGallery|"
 msgid "Text Prompt Dialog"
 msgstr ""
 
-#: contents/ui/gallery/DialogGallery.qml:197
+#: contents/ui/gallery/DialogGallery.qml:214
 msgctxt "DialogGallery|"
 msgid "Selection Dialog"
 msgstr ""
 
-#: contents/ui/gallery/DialogGallery.qml:202
+#: contents/ui/gallery/DialogGallery.qml:219
+msgctxt "DialogGallery|"
+msgid "Selection Dialog with subtitles"
+msgstr ""
+
+#: contents/ui/gallery/DialogGallery.qml:224
 msgctxt "DialogGallery|"
 msgid "Scrollable Dialog"
 msgstr ""
 
-#: contents/ui/gallery/DialogGallery.qml:212
+#: contents/ui/gallery/DialogGallery.qml:234
 msgctxt "DialogGallery|"
 msgid "Menu Dialog"
 msgstr ""
