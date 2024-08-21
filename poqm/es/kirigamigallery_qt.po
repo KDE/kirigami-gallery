@@ -3,7 +3,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kirigamigallery_qt\n"
-"PO-Revision-Date: 2024-05-08 12:40+0200\n"
+"PO-Revision-Date: 2024-08-20 03:40+0200\n"
 "Last-Translator: Eloy Cuadra <ecuadra@eloihr.net>\n"
 "Language-Team: Spanish <kde-l10n-es@kde.org>\n"
 "Language: es\n"
@@ -11,7 +11,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 24.02.2\n"
+"X-Generator: Lokalize 24.05.2\n"
 "X-Qt-Contexts: true\n"
 
 #: contents/ui/gallery/CardsLayoutGallery.qml:30
@@ -334,7 +334,7 @@ msgstr "Seleccionar número"
 #: contents/ui/gallery/DialogGallery.qml:128
 msgctxt "DialogGallery|"
 msgid "Subtitle text"
-msgstr ""
+msgstr "Texto de subtítulo"
 
 #: contents/ui/gallery/DialogGallery.qml:158
 #: contents/ui/gallery/DialogGallery.qml:229
@@ -420,12 +420,9 @@ msgid "Selection Dialog"
 msgstr "Diálogo de selección"
 
 #: contents/ui/gallery/DialogGallery.qml:219
-#, fuzzy
-#| msgctxt "DialogGallery|"
-#| msgid "Selection Dialog"
 msgctxt "DialogGallery|"
 msgid "Selection Dialog with subtitles"
-msgstr "Diálogo de selección"
+msgstr "Diálogo de selección con subtítulos"
 
 #: contents/ui/gallery/DialogGallery.qml:224
 msgctxt "DialogGallery|"

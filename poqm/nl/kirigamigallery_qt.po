@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"PO-Revision-Date: 2024-05-08 10:46+0200\n"
+"PO-Revision-Date: 2024-08-20 17:24+0200\n"
 "Last-Translator: Freek de Kruijf <freekdekruijf@kde.nl>\n"
 "Language-Team: \n"
 "Language: nl\n"
@@ -11,7 +11,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Qt-Contexts: true\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 24.02.2\n"
+"X-Generator: Lokalize 24.05.2\n"
 
 #: contents/ui/gallery/CardsLayoutGallery.qml:30
 msgctxt "CardsLayoutGallery|"
@@ -335,7 +335,7 @@ msgstr "Aantal selecteren"
 #: contents/ui/gallery/DialogGallery.qml:128
 msgctxt "DialogGallery|"
 msgid "Subtitle text"
-msgstr ""
+msgstr "Ondertiteltekst"
 
 #: contents/ui/gallery/DialogGallery.qml:158
 #: contents/ui/gallery/DialogGallery.qml:229
@@ -421,12 +421,9 @@ msgid "Selection Dialog"
 msgstr "Selectiedialoog"
 
 #: contents/ui/gallery/DialogGallery.qml:219
-#, fuzzy
-#| msgctxt "DialogGallery|"
-#| msgid "Selection Dialog"
 msgctxt "DialogGallery|"
 msgid "Selection Dialog with subtitles"
-msgstr "Selectiedialoog"
+msgstr "Selectiedialoog met ondertitels"
 
 #: contents/ui/gallery/DialogGallery.qml:224
 msgctxt "DialogGallery|"

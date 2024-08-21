@@ -334,7 +334,7 @@ msgstr "აირჩიეთ რიცხვი"
 #: contents/ui/gallery/DialogGallery.qml:128
 msgctxt "DialogGallery|"
 msgid "Subtitle text"
-msgstr ""
+msgstr "სუბტიტრის ტექსტი"
 
 #: contents/ui/gallery/DialogGallery.qml:158
 #: contents/ui/gallery/DialogGallery.qml:229
@@ -421,12 +421,9 @@ msgid "Selection Dialog"
 msgstr "არჩევის ფანჯარა"
 
 #: contents/ui/gallery/DialogGallery.qml:219
-#, fuzzy
-#| msgctxt "DialogGallery|"
-#| msgid "Selection Dialog"
 msgctxt "DialogGallery|"
 msgid "Selection Dialog with subtitles"
-msgstr "არჩევის ფანჯარა"
+msgstr "მონიშვნის დიალოგი სუბტიტრებით"
 
 #: contents/ui/gallery/DialogGallery.qml:224
 msgctxt "DialogGallery|"

@@ -2,15 +2,15 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"PO-Revision-Date: 2024-05-29 11:46+0200\n"
-"Last-Translator: Vit Pelcak <vpelcak@suse.cz>\n"
+"PO-Revision-Date: 2024-08-20 14:10+0200\n"
+"Last-Translator: Vit Pelcak <vit@pelcak.org>\n"
 "Language-Team: Czech <kde-i18n-doc@kde.org>\n"
 "Language: cs\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
-"X-Generator: Lokalize 24.02.2\n"
+"X-Generator: Lokalize 24.05.2\n"
 "X-Qt-Contexts: true\n"
 
 #: contents/ui/gallery/CardsLayoutGallery.qml:30
@@ -297,7 +297,7 @@ msgstr "Vyberte číslo"
 #: contents/ui/gallery/DialogGallery.qml:128
 msgctxt "DialogGallery|"
 msgid "Subtitle text"
-msgstr ""
+msgstr "Text titulků"
 
 #: contents/ui/gallery/DialogGallery.qml:158
 #: contents/ui/gallery/DialogGallery.qml:229
@@ -382,12 +382,9 @@ msgid "Selection Dialog"
 msgstr "Dialog výběru"
 
 #: contents/ui/gallery/DialogGallery.qml:219
-#, fuzzy
-#| msgctxt "DialogGallery|"
-#| msgid "Selection Dialog"
 msgctxt "DialogGallery|"
 msgid "Selection Dialog with subtitles"
-msgstr "Dialog výběru"
+msgstr "Dialog výběru s titulky"
 
 #: contents/ui/gallery/DialogGallery.qml:224
 msgctxt "DialogGallery|"
