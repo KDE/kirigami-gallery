@@ -4,7 +4,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kirigamigallery_qt\n"
-"PO-Revision-Date: 2024-05-11 11:09+0200\n"
+"PO-Revision-Date: 2024-08-21 09:16+0200\n"
 "Last-Translator: Xavier Besnard <xavier.besnard@kde.org>\n"
 "Language-Team: French <French <kde-francophone@kde.org>>\n"
 "Language: fr\n"
@@ -340,7 +340,7 @@ msgstr "Sélectionner un numéro"
 #: contents/ui/gallery/DialogGallery.qml:128
 msgctxt "DialogGallery|"
 msgid "Subtitle text"
-msgstr ""
+msgstr "Texte des sous-titres"
 
 #: contents/ui/gallery/DialogGallery.qml:158
 #: contents/ui/gallery/DialogGallery.qml:229
@@ -427,12 +427,9 @@ msgid "Selection Dialog"
 msgstr "Boîte de dialogue de sélection"
 
 #: contents/ui/gallery/DialogGallery.qml:219
-#, fuzzy
-#| msgctxt "DialogGallery|"
-#| msgid "Selection Dialog"
 msgctxt "DialogGallery|"
 msgid "Selection Dialog with subtitles"
-msgstr "Boîte de dialogue de sélection"
+msgstr "Boîte de dialogue de sélection avec les sous-titres"
 
 #: contents/ui/gallery/DialogGallery.qml:224
 msgctxt "DialogGallery|"

@@ -426,8 +426,6 @@ msgstr "Utvals-dialogvindauge"
 
 #: contents/ui/gallery/DialogGallery.qml:219
 #, fuzzy
-#| msgctxt "DialogGallery|"
-#| msgid "Selection Dialog"
 msgctxt "DialogGallery|"
 msgid "Selection Dialog with subtitles"
 msgstr "Utvals-dialogvindauge"
