@@ -46,5 +46,8 @@ add_subdirectory(src)
 
 ecm_install_po_files_as_qm(poqm)
 
+install(FILES org.kde.kirigami2.gallery.desktop DESTINATION ${KDE_INSTALL_APPDIR})
+install(FILES org.kde.kirigami2.gallery.appdata.xml DESTINATION ${KDE_INSTALL_METAINFODIR})
+
 feature_summary(WHAT ALL INCLUDE_QUIET_PACKAGES FATAL_ON_MISSING_REQUIRED_PACKAGES)
 
