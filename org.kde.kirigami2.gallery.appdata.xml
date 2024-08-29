@@ -118,45 +118,46 @@
   </description>
   <url type="homepage">https://kde.org</url>
   <url type="donation">https://www.kde.org/donate.php?app=org.kde.kirigami2.gallery</url>
-  <developer_name>Marco Martin &lt;mart@kde.org&gt;</developer_name>
-  <developer_name xml:lang="ca">Marco Martin &lt;mart@kde.org&gt;</developer_name>
-  <developer_name xml:lang="ca-valencia">Marco Martin &lt;mart@kde.org&gt;</developer_name>
-  <developer_name xml:lang="cs">Marco Martin &lt;mart@kde.org&gt;</developer_name>
-  <developer_name xml:lang="da">Marco Martin &lt;mart@kde.org&gt;</developer_name>
-  <developer_name xml:lang="de">Marco Martin &lt;mart@kde.org&gt;</developer_name>
-  <developer_name xml:lang="el">Marco Martin &lt;mart@kde.org&gt;</developer_name>
-  <developer_name xml:lang="en-GB">Marco Martin &lt;mart@kde.org&gt;</developer_name>
-  <developer_name xml:lang="eo">Marco Martin &lt;mart@kde.org&gt;</developer_name>
-  <developer_name xml:lang="es">Marco Martin &lt;mart@kde.org&gt;</developer_name>
-  <developer_name xml:lang="et">Marco Martin &lt;mart@kde.org&gt;</developer_name>
-  <developer_name xml:lang="eu">Marco Martin &lt;mart@kde.org&gt;</developer_name>
-  <developer_name xml:lang="fi">Marco Martin &lt;mart@kde.org&gt;</developer_name>
-  <developer_name xml:lang="fr">Marco Martin &lt;mart@kde.org&gt;</developer_name>
-  <developer_name xml:lang="gl">Marco Martin &lt;mart@kde.org&gt;</developer_name>
-  <developer_name xml:lang="he">מרקו מרטין &lt;mart@kde.org&gt;</developer_name>
-  <developer_name xml:lang="ia">Marco Martin &lt;mart@kde.org&gt;</developer_name>
-  <developer_name xml:lang="id">Marco Martin &lt;mart@kde.org&gt;</developer_name>
-  <developer_name xml:lang="it">Marco Martin &lt;mart@kde.org&gt;</developer_name>
-  <developer_name xml:lang="ka">Marco Martin &lt;mart@kde.org&gt;</developer_name>
-  <developer_name xml:lang="ko">Marco Martin &lt;mart@kde.org&gt;</developer_name>
-  <developer_name xml:lang="lv">Marco Martin &lt;mart@kde.org&gt;</developer_name>
-  <developer_name xml:lang="nl">Marco Martin &lt;mart@kde.org&gt;</developer_name>
-  <developer_name xml:lang="nn">Marco Martin &lt;mart@kde.org&gt;</developer_name>
-  <developer_name xml:lang="pa">Marco Martin &lt;mart@kde.org&gt;</developer_name>
-  <developer_name xml:lang="pl">Marco Martin &lt;mart@kde.org&gt;</developer_name>
-  <developer_name xml:lang="pt">Marco Martin &lt;mart@kde.org&gt;</developer_name>
-  <developer_name xml:lang="pt-BR">Marco Martin &lt;mart@kde.org&gt;</developer_name>
-  <developer_name xml:lang="ro">Marco Martin &lt;mart@kde.org&gt;</developer_name>
-  <developer_name xml:lang="ru">Marco Martin &lt;mart@kde.org&gt;</developer_name>
-  <developer_name xml:lang="sk">Marco Martin &lt;mart@kde.org&gt;</developer_name>
-  <developer_name xml:lang="sl">Marco Martin &lt;mart@kde.org&gt;</developer_name>
-  <developer_name xml:lang="sv">Marco Martin &lt;mart@kde.org&gt;</developer_name>
-  <developer_name xml:lang="tr">Marco Martin &lt;mart@kde.org&gt;</developer_name>
-  <developer_name xml:lang="uk">Marco Martin &lt;mart@kde.org&gt;</developer_name>
-  <developer_name xml:lang="x-test">xxMarco Martin &lt;mart@kde.org&gt;xx</developer_name>
-  <developer_name xml:lang="zh-CN">Marco Martin &lt;mart@kde.org&gt;</developer_name>
-  <developer_name xml:lang="zh-TW">Marco Martin &lt;mart@kde.org&gt;</developer_name>
-  <icon type="stock">preferences-desktop-theme</icon>
+  <developer id="org.kde">
+    <name>Marco Martin &lt;mart@kde.org&gt;</name>
+    <name xml:lang="ca">Marco Martin &lt;mart@kde.org&gt;</name>
+    <name xml:lang="ca-valencia">Marco Martin &lt;mart@kde.org&gt;</name>
+    <name xml:lang="cs">Marco Martin &lt;mart@kde.org&gt;</name>
+    <name xml:lang="da">Marco Martin &lt;mart@kde.org&gt;</name>
+    <name xml:lang="de">Marco Martin &lt;mart@kde.org&gt;</name>
+    <name xml:lang="el">Marco Martin &lt;mart@kde.org&gt;</name>
+    <name xml:lang="en-GB">Marco Martin &lt;mart@kde.org&gt;</name>
+    <name xml:lang="eo">Marco Martin &lt;mart@kde.org&gt;</name>
+    <name xml:lang="es">Marco Martin &lt;mart@kde.org&gt;</name>
+    <name xml:lang="et">Marco Martin &lt;mart@kde.org&gt;</name>
+    <name xml:lang="eu">Marco Martin &lt;mart@kde.org&gt;</name>
+    <name xml:lang="fi">Marco Martin &lt;mart@kde.org&gt;</name>
+    <name xml:lang="fr">Marco Martin &lt;mart@kde.org&gt;</name>
+    <name xml:lang="gl">Marco Martin &lt;mart@kde.org&gt;</name>
+    <name xml:lang="he">מרקו מרטין &lt;mart@kde.org&gt;</name>
+    <name xml:lang="ia">Marco Martin &lt;mart@kde.org&gt;</name>
+    <name xml:lang="id">Marco Martin &lt;mart@kde.org&gt;</name>
+    <name xml:lang="it">Marco Martin &lt;mart@kde.org&gt;</name>
+    <name xml:lang="ka">Marco Martin &lt;mart@kde.org&gt;</name>
+    <name xml:lang="ko">Marco Martin &lt;mart@kde.org&gt;</name>
+    <name xml:lang="lv">Marco Martin &lt;mart@kde.org&gt;</name>
+    <name xml:lang="nl">Marco Martin &lt;mart@kde.org&gt;</name>
+    <name xml:lang="nn">Marco Martin &lt;mart@kde.org&gt;</name>
+    <name xml:lang="pa">Marco Martin &lt;mart@kde.org&gt;</name>
+    <name xml:lang="pl">Marco Martin &lt;mart@kde.org&gt;</name>
+    <name xml:lang="pt">Marco Martin &lt;mart@kde.org&gt;</name>
+    <name xml:lang="pt-BR">Marco Martin &lt;mart@kde.org&gt;</name>
+    <name xml:lang="ro">Marco Martin &lt;mart@kde.org&gt;</name>
+    <name xml:lang="ru">Marco Martin &lt;mart@kde.org&gt;</name>
+    <name xml:lang="sk">Marco Martin &lt;mart@kde.org&gt;</name>
+    <name xml:lang="sl">Marco Martin &lt;mart@kde.org&gt;</name>
+    <name xml:lang="sv">Marco Martin &lt;mart@kde.org&gt;</name>
+    <name xml:lang="tr">Marco Martin &lt;mart@kde.org&gt;</name>
+    <name xml:lang="uk">Marco Martin &lt;mart@kde.org&gt;</name>
+    <name xml:lang="x-test">xxMarco Martin &lt;mart@kde.org&gt;xx</name>
+    <name xml:lang="zh-CN">Marco Martin &lt;mart@kde.org&gt;</name>
+    <name xml:lang="zh-TW">Marco Martin &lt;mart@kde.org&gt;</name>
+  </developer>
   <project_license>GPL-2.0</project_license>
   <metadata_license>CC0-1.0</metadata_license>
   <screenshots>
@@ -165,7 +166,7 @@
     </screenshot>
   </screenshots>
   <project_group>KDE</project_group>
-  <launchable type="desktop-id">org.kde.kirigami2.gallery</launchable>
+  <launchable type="desktop-id">org.kde.kirigami2.gallery.desktop</launchable>
   <provides>
     <binary>kirigami2gallery</binary>
   </provides>
