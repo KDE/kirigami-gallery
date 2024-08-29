@@ -42,4 +42,3 @@ else()
 endif()
 
 install(TARGETS kirigami2gallery ${KDE_INSTALL_TARGETS_DEFAULT_ARGS})
-install(FILES data/metadata.desktop DESTINATION ${KDE_INSTALL_APPDIR} RENAME org.kde.kirigami2.gallery.desktop)

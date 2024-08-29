@@ -54,7 +54,7 @@
         <file alias="contents/ui/img/tabbar.svg">./data/contents/ui/img/tabbar.svg</file>
         <file alias="contents/ui/img/navigation-tabbar.svg">./data/contents/ui/img/navigation-tabbar.svg</file>
         <file alias="contents/ui/img/textfield.svg">./data/contents/ui/img/textfield.svg</file>
-        <file alias="metadata.desktop">./data/metadata.desktop</file>
+        <file alias="metadata.json">./data/metadata.json</file>
         <file alias="qtquickcontrols2.conf">qtquickcontrols2.conf</file>
         <file alias="info-data.json">./data/info-data.json</file>
     </qresource>
