@@ -21,6 +21,7 @@ import QtQuick
 import QtQuick.Controls as QQC2
 import QtQuick.Layouts
 import org.kde.kirigami as Kirigami
+import "components" as KGC
 
 Kirigami.Page {
     id: page
@@ -28,6 +29,10 @@ Kirigami.Page {
     title: "Simple Page"
 
     actions: [
+        KGC.InfoSheetAction {
+            page: page
+            component: "NonScrollableGallery"
+        },
         Kirigami.Action {
             icon.name: sheet.opened ? "dialog-cancel-symbolic" : "document-edit-symbolic"
             text: "Main Action Text"

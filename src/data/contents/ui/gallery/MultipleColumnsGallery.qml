@@ -21,6 +21,7 @@ import QtQuick
 import QtQuick.Controls as QQC2
 import QtQuick.Layouts
 import org.kde.kirigami as Kirigami
+import "components" as KGC
 
 Kirigami.ScrollablePage {
     id: root
@@ -32,6 +33,10 @@ Kirigami.ScrollablePage {
     title: "Page " + depth
 
     actions: [
+        KGC.InfoSheetAction {
+            page: page
+            component: "MultipleColumnsGallery"
+        },
         Kirigami.Action {
             icon.name: "document-edit"
             text: "Main Action Text"

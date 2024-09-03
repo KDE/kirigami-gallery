@@ -24,7 +24,6 @@ import QtQuick.Controls as QQC2
 import QtQuick.Layouts
 import QtQuick.Templates as T
 import org.kde.kirigami as Kirigami
-
 import "components" as KGC
 
 Kirigami.ScrollablePage {
@@ -32,43 +31,49 @@ Kirigami.ScrollablePage {
     Layout.fillWidth: true
     title: "Long List view"
 
-    actions: KGC.SheetAction {
-        id: yahaha
+    actions: [
+        KGC.InfoSheetAction {
+            page: page
+            component: "ListViewGallery"
+        },
+        KGC.SheetAction {
+            id: yahaha
 
-        page: page
+            page: page
 
-        icon.name: sheetVisible() ? "dialog-cancel-symbolic" : "document-edit-symbolic"
-        text: qsTr("Main Action Text")
+            icon.name: sheetVisible() ? "dialog-cancel-symbolic" : "document-edit-symbolic"
+            text: qsTr("Main Action Text")
 
-        sheetComponent: Kirigami.OverlaySheet {
-            parent: page.QQC2.Overlay.overlay
-            header: Kirigami.Heading {
-                text: "Title"
-            }
-            footer: RowLayout {
-                spacing: Kirigami.Units.smallSpacing
-
-                QQC2.Label {
-                    text: qsTr("Footer:")
+            sheetComponent: Kirigami.OverlaySheet {
+                parent: page.QQC2.Overlay.overlay
+                header: Kirigami.Heading {
+                    text: "Title"
                 }
-                QQC2.TextField {
-                    Layout.fillWidth: true
-                    Layout.alignment: Qt.AlignCenter
+                footer: RowLayout {
+                    spacing: Kirigami.Units.smallSpacing
+
+                    QQC2.Label {
+                        text: qsTr("Footer:")
+                    }
+                    QQC2.TextField {
+                        Layout.fillWidth: true
+                        Layout.alignment: Qt.AlignCenter
+                    }
                 }
-            }
-            ListView {
-                model: 100
-                implicitWidth: Kirigami.Units.gridUnit * 30
-                delegate: QQC2.ItemDelegate {
-                    required property int index
+                ListView {
+                    model: 100
+                    implicitWidth: Kirigami.Units.gridUnit * 30
+                    delegate: QQC2.ItemDelegate {
+                        required property int index
 
-                    width: ListView.view.width - ListView.view.leftMargin - ListView.view.rightMargin
+                        width: ListView.view.width - ListView.view.leftMargin - ListView.view.rightMargin
 
-                    text: qsTr("Item in sheet %n", "", index)
+                        text: qsTr("Item in sheet %n", "", index)
+                    }
                 }
             }
         }
-    }
+    ]
 
     supportsRefreshing: true
     onRefreshingChanged: {

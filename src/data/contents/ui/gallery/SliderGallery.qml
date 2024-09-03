@@ -22,6 +22,7 @@ import QtQuick
 import QtQuick.Controls as QQC2
 import QtQuick.Layouts
 import org.kde.kirigami as Kirigami
+import "components" as KGC
 
 Kirigami.ScrollablePage {
     id: page
@@ -30,6 +31,10 @@ Kirigami.ScrollablePage {
     title: "Sliders"
 
     actions: [
+        KGC.InfoSheetAction {
+            page: page
+            component: "SliderGallery"
+        },
         Kirigami.Action {
             icon.name: "folder-sync"
             text: "Left Action Text"

@@ -58,5 +58,73 @@
         "sourceUrl": "https://invent.kde.org/sdk/kirigami-gallery/-/blob/master/src/data/contents/ui/gallery/ActionToolBarGallery.qml",
         "apiUrl": "https://api.kde.org/frameworks/kirigami/html/classActionToolBar.html",
         "text": "ActionToolBar is a component that can be used to display a list of Action objects. It will try to display as many of them as possible, with those that do not fit being put in an overflow menu. When resized, ActionToolBar will update which actions are visible and move them accordingly."
+    },
+    "ButtonGallery": {
+        "title": "Buttons",
+        "sourceUrl": "https://invent.kde.org/sdk/kirigami-gallery/-/blob/master/src/data/contents/ui/gallery/ButtonGallery.qml",
+        "apiUrl": "https://doc.qt.io/qt-6/qtquick-controls-qmlmodule.html"
+    },
+    "ColorSetGallery": {
+        "title": "Color Sets",
+        "sourceUrl": "https://invent.kde.org/sdk/kirigami-gallery/-/blob/master/src/data/contents/ui/gallery/ColorSetGallery.qml",
+        "apiUrl": "https://api.kde.org/frameworks/kirigami/html/classKirigami_1_1Platform_1_1PlatformTheme.html"
+    },
+    "ColorsGallery": {
+        "title": "Colors",
+        "sourceUrl": "https://invent.kde.org/sdk/kirigami-gallery/-/blob/master/src/data/contents/ui/gallery/ColorsGallery.qml",
+        "apiUrl": "https://api.kde.org/frameworks/kirigami/html/classKirigami_1_1Platform_1_1PlatformTheme.html"
+    },
+    "LayersGallery": {
+        "title": "Layers Gallery",
+        "sourceUrl": "https://invent.kde.org/sdk/kirigami-gallery/-/blob/master/src/data/contents/ui/gallery/LayersGallery.qml",
+        "apiUrl": "https://api.kde.org/frameworks/kirigami/html/classPageRow.html"
+    },
+    "ListViewGallery": {
+        "title": "Long List View",
+        "sourceUrl": "https://invent.kde.org/sdk/kirigami-gallery/-/blob/master/src/data/contents/ui/gallery/ListViewGallery.qml",
+        "apiUrl": "https://api.kde.org/frameworks/kirigami/html/classSwipeListItem.html"
+    },
+    "MetricsGallery": {
+        "title": "Size Units",
+        "sourceUrl": "https://invent.kde.org/sdk/kirigami-gallery/-/blob/master/src/data/contents/ui/gallery/MetricsGallery.qml",
+        "apiUrl": "https://api.kde.org/frameworks/kirigami/html/classKirigami_1_1Platform_1_1Units.html"
+    },
+    "MiscGallery": {
+        "title": "Misc Controls",
+        "sourceUrl": "https://invent.kde.org/sdk/kirigami-gallery/-/blob/master/src/data/contents/ui/gallery/MiscGallery.qml"
+    },
+    "MultipleColumnsGallery": {
+        "title": "Multiple Columns",
+        "sourceUrl": "https://invent.kde.org/sdk/kirigami-gallery/-/blob/master/src/data/contents/ui/gallery/MultipleColumnsGallery.qml",
+        "apiUrl": "https://doc.qt.io/qt-6/qml-qtquick-layouts-columnlayout.html"
+    },
+    "NavigationTabBarGallery": {
+        "title": "Navigation Tab Bar",
+        "sourceUrl": "https://invent.kde.org/sdk/kirigami-gallery/-/blob/master/src/data/contents/ui/gallery/NavigationTabBarGallery.qml",
+        "apiUrl": "https://api.kde.org/frameworks/kirigami/html/classNavigationTabBar.html"
+    },
+    "NonScrollableGallery": {
+        "title": "Simple page",
+        "sourceUrl": "https://invent.kde.org/sdk/kirigami-gallery/-/blob/master/src/data/contents/ui/gallery/NonScrollableGallery.qml",
+        "apiUrl": "https://api.kde.org/frameworks/kirigami/html/classPage.html"
+    },
+    "ProgressBarGallery": {
+        "title": "Progress Indicators",
+        "sourceUrl": "https://invent.kde.org/sdk/kirigami-gallery/-/blob/master/src/data/contents/ui/gallery/ProgressBarGallery.qml",
+        "apiUrl": "https://doc.qt.io/qt-6/qtquick-controls-qmlmodule.html"
+    },
+    "SliderGallery": {
+        "title": "Sliders",
+        "sourceUrl": "https://invent.kde.org/sdk/kirigami-gallery/-/blob/master/src/data/contents/ui/gallery/SliderGallery.qml",
+        "apiUrl": "https://doc.qt.io/qt-6/qml-qtquick-controls-slider.html"
+    },
+    "TabBarGallery": {
+        "title": "Tab Bar",
+        "sourceUrl": "https://invent.kde.org/sdk/kirigami-gallery/-/blob/master/src/data/contents/ui/gallery/TabBarGallery.qml",
+        "apiUrl": "https://doc.qt.io/qt-6/qml-qtquick-controls-tabbar.html"
+    },
+    "TextFieldGallery": {
+        "title": "Text Fields",
+        "sourceUrl": "https://invent.kde.org/sdk/kirigami-gallery/-/blob/master/src/data/contents/ui/gallery/TextFieldGallery.qml"
     }
 }

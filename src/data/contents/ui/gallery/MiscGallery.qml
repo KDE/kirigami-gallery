@@ -21,12 +21,17 @@ import QtQuick
 import QtQuick.Controls as QQC2
 import QtQuick.Layouts
 import org.kde.kirigami as Kirigami
+import "components" as KGC
 
 Kirigami.ScrollablePage {
     id: page
     title: "Misc controls"
 
     actions: [
+        KGC.InfoSheetAction{
+            page: page
+            component: "MiscGallery"
+        },
         Kirigami.Action {
             icon.name: "document-edit"
             icon.color: Kirigami.Theme.negativeTextColor

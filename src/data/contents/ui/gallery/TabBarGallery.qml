@@ -20,11 +20,17 @@
 import QtQuick
 import QtQuick.Controls as QQC2
 import org.kde.kirigami as Kirigami
+import "components" as KGC
 
 Kirigami.Page {
     id: page
 
     title: "Tab Bar"
+
+    actions: KGC.InfoSheetAction {
+        page: page
+        component: "TabBarGallery"
+    }
 
     header: QQC2.TabBar {
         id: tabBar

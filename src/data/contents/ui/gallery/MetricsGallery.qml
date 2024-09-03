@@ -22,11 +22,17 @@ import QtQuick.Controls as QQC2
 import QtQuick.Layouts
 import QtQuick.Window
 import org.kde.kirigami as Kirigami
+import "components" as KGC
 
 Kirigami.ScrollablePage {
     id: page
 
     title: "Size Units"
+
+    actions: KGC.InfoSheetAction {
+        page: page
+        component: "MetricsGallery"
+    }
 
     GridLayout {
         id: themetest

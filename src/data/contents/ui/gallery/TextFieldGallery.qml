@@ -9,12 +9,18 @@ import QtQuick
 import QtQuick.Controls as QQC2
 import QtQuick.Layouts
 import org.kde.kirigami as Kirigami
+import "components" as KGC
 
 Kirigami.ScrollablePage {
     id: page
     Layout.fillWidth: true
     implicitWidth: applicationWindow().width
     title: "Text fields"
+
+    actions: KGC.InfoSheetAction {
+        page: page
+        component: "TextFieldGallery"
+    }
 
     ColumnLayout {
         anchors.fill: parent

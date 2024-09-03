@@ -22,6 +22,7 @@ import QtQuick
 import QtQuick.Controls as QQC2
 import QtQuick.Layouts
 import org.kde.kirigami as Kirigami
+import "components" as KGC
 
 Kirigami.ScrollablePage {
     id: page
@@ -30,6 +31,10 @@ Kirigami.ScrollablePage {
     title: "Progress Indicators"
 
     actions: [
+        KGC.InfoSheetAction {
+            page: page
+            component: "ProgressBarGallery"
+        },
         Kirigami.Action {
             icon.name: "document-edit"
             text: "Main Action Text"
