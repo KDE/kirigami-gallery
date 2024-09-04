@@ -243,7 +243,7 @@ msgctxt "ChipGallery|"
 msgid "Checkable Chips"
 msgstr "Чіпси із позначками"
 
-#: contents/ui/gallery/ColorsGallery.qml:30
+#: contents/ui/gallery/ColorsGallery.qml:31
 msgctxt "ColorsGallery|"
 msgid "Colors"
 msgstr "Кольори"
@@ -268,212 +268,212 @@ msgctxt "InfoSheetAction|"
 msgid "Info"
 msgstr "Відомості"
 
-#: contents/ui/gallery/DialogGallery.qml:34
+#: contents/ui/gallery/DialogGallery.qml:33
 msgctxt "DialogGallery|"
 msgid "Dialogs"
 msgstr "Діалогові вікна"
 
-#: contents/ui/gallery/DialogGallery.qml:58
+#: contents/ui/gallery/DialogGallery.qml:57
 msgctxt "DialogGallery|"
 msgid "Create Folder"
 msgstr "Створити теку"
 
-#: contents/ui/gallery/DialogGallery.qml:66
+#: contents/ui/gallery/DialogGallery.qml:65
 msgctxt "DialogGallery|"
 msgid "Cancel"
 msgstr "Скасувати"
 
-#: contents/ui/gallery/DialogGallery.qml:75
+#: contents/ui/gallery/DialogGallery.qml:74
 msgctxt "DialogGallery|"
 msgid "Folder name:"
 msgstr "Назва теки:"
 
-#: contents/ui/gallery/DialogGallery.qml:83
+#: contents/ui/gallery/DialogGallery.qml:82
 msgctxt "DialogGallery|"
 msgid "Alarm Snooze Length"
 msgstr "Тривалість присипляння нагадування"
 
-#: contents/ui/gallery/DialogGallery.qml:92
+#: contents/ui/gallery/DialogGallery.qml:91
 msgctxt "DialogGallery|"
 msgid "1 minute"
 msgstr "1 хвилина"
 
-#: contents/ui/gallery/DialogGallery.qml:93
+#: contents/ui/gallery/DialogGallery.qml:92
 msgctxt "DialogGallery|"
 msgid "2 minutes"
 msgstr "2 хвилини"
 
-#: contents/ui/gallery/DialogGallery.qml:94
+#: contents/ui/gallery/DialogGallery.qml:93
 msgctxt "DialogGallery|"
 msgid "3 minutes"
 msgstr "3 хвилини"
 
-#: contents/ui/gallery/DialogGallery.qml:95
+#: contents/ui/gallery/DialogGallery.qml:94
 msgctxt "DialogGallery|"
 msgid "4 minutes"
 msgstr "4 хвилини"
 
-#: contents/ui/gallery/DialogGallery.qml:96
+#: contents/ui/gallery/DialogGallery.qml:95
 msgctxt "DialogGallery|"
 msgid "5 minutes"
 msgstr "5 хвилин"
 
-#: contents/ui/gallery/DialogGallery.qml:97
+#: contents/ui/gallery/DialogGallery.qml:96
 msgctxt "DialogGallery|"
 msgid "10 minutes"
 msgstr "10 хвилин"
 
-#: contents/ui/gallery/DialogGallery.qml:98
+#: contents/ui/gallery/DialogGallery.qml:97
 msgctxt "DialogGallery|"
 msgid "30 minutes"
 msgstr "30 хвилин"
 
-#: contents/ui/gallery/DialogGallery.qml:99
+#: contents/ui/gallery/DialogGallery.qml:98
 msgctxt "DialogGallery|"
 msgid "1 hour"
 msgstr "1 година"
 
-#: contents/ui/gallery/DialogGallery.qml:121
-#: contents/ui/gallery/DialogGallery.qml:138
+#: contents/ui/gallery/DialogGallery.qml:120
+#: contents/ui/gallery/DialogGallery.qml:137
 msgctxt "DialogGallery|"
 msgid "Select Number"
 msgstr "Виберіть число"
 
-#: contents/ui/gallery/DialogGallery.qml:128
+#: contents/ui/gallery/DialogGallery.qml:127
 msgctxt "DialogGallery|"
 msgid "Subtitle text"
 msgstr "Текст субтитрів"
 
-#: contents/ui/gallery/DialogGallery.qml:158
-#: contents/ui/gallery/DialogGallery.qml:229
+#: contents/ui/gallery/DialogGallery.qml:157
+#: contents/ui/gallery/DialogGallery.qml:228
 msgctxt "DialogGallery|"
 msgid "No Footer Dialog"
 msgstr "Вікно без підвалу"
 
-#: contents/ui/gallery/DialogGallery.qml:159
+#: contents/ui/gallery/DialogGallery.qml:158
 msgctxt "DialogGallery|"
 msgid "This dialog has no footer buttons.<br/>It also has no close button."
 msgstr ""
 "У цього вікна немає кнопок у підвалі.<br/>У нього також немає кнопки "
 "закриття."
 
-#: contents/ui/gallery/DialogGallery.qml:167
+#: contents/ui/gallery/DialogGallery.qml:166
 msgctxt "DialogGallery|"
 msgid "Track Options"
 msgstr "Параметри композиції"
 
-#: contents/ui/gallery/DialogGallery.qml:172
+#: contents/ui/gallery/DialogGallery.qml:171
 msgctxt "DialogGallery|Start playback of the selected track"
 msgid "Play"
 msgstr "Відтворити"
 
-#: contents/ui/gallery/DialogGallery.qml:173
+#: contents/ui/gallery/DialogGallery.qml:172
 msgctxt "DialogGallery|"
 msgid "Start playback of the selected track"
 msgstr "Почати відтворення позначеної композиції"
 
-#: contents/ui/gallery/DialogGallery.qml:178
+#: contents/ui/gallery/DialogGallery.qml:177
 msgctxt "DialogGallery|Show the file for this song in the file manager"
 msgid "Show in folder"
 msgstr "Показати у теці"
 
-#: contents/ui/gallery/DialogGallery.qml:179
+#: contents/ui/gallery/DialogGallery.qml:178
 msgctxt "DialogGallery|"
 msgid "Show the file for this song in the file manager"
 msgstr "Показати файл цієї композиції у програмі для керування файлами"
 
-#: contents/ui/gallery/DialogGallery.qml:183
+#: contents/ui/gallery/DialogGallery.qml:182
 msgctxt "DialogGallery|Show track metadata"
 msgid "View details"
 msgstr "Переглянути подробиці"
 
-#: contents/ui/gallery/DialogGallery.qml:184
+#: contents/ui/gallery/DialogGallery.qml:183
 msgctxt "DialogGallery|"
 msgid "Show track metadata"
 msgstr "Показати метадані композиції"
 
-#: contents/ui/gallery/DialogGallery.qml:188
+#: contents/ui/gallery/DialogGallery.qml:187
 msgctxt ""
 "DialogGallery|Add the track to the queue, right after the current track"
 msgid "Play next"
 msgstr "Відтворити наступну"
 
-#: contents/ui/gallery/DialogGallery.qml:189
+#: contents/ui/gallery/DialogGallery.qml:188
 msgctxt "DialogGallery|"
 msgid "Add the track to the queue, right after the current track"
 msgstr "Додати композицію до черги, одразу після поточної композиції"
 
-#: contents/ui/gallery/DialogGallery.qml:193
+#: contents/ui/gallery/DialogGallery.qml:192
 msgctxt "DialogGallery|Enqueue current track"
 msgid "Add to queue"
 msgstr "Додати до черги відтворення"
 
-#: contents/ui/gallery/DialogGallery.qml:194
+#: contents/ui/gallery/DialogGallery.qml:193
 msgctxt "DialogGallery|"
 msgid "Enqueue current track"
 msgstr "Додати поточну композицію до черги"
 
-#: contents/ui/gallery/DialogGallery.qml:204
+#: contents/ui/gallery/DialogGallery.qml:203
 msgctxt "DialogGallery|"
 msgid "Prompt Dialog"
 msgstr "Вікно запиту"
 
-#: contents/ui/gallery/DialogGallery.qml:209
+#: contents/ui/gallery/DialogGallery.qml:208
 msgctxt "DialogGallery|"
 msgid "Text Prompt Dialog"
 msgstr "Вікно текстового запиту"
 
-#: contents/ui/gallery/DialogGallery.qml:214
+#: contents/ui/gallery/DialogGallery.qml:213
 msgctxt "DialogGallery|"
 msgid "Selection Dialog"
 msgstr "Вікно позначення"
 
-#: contents/ui/gallery/DialogGallery.qml:219
+#: contents/ui/gallery/DialogGallery.qml:218
 msgctxt "DialogGallery|"
 msgid "Selection Dialog with subtitles"
 msgstr "Вікно позначення з субтитрами"
 
-#: contents/ui/gallery/DialogGallery.qml:224
+#: contents/ui/gallery/DialogGallery.qml:223
 msgctxt "DialogGallery|"
 msgid "Scrollable Dialog"
 msgstr "Вікно з гортанням"
 
-#: contents/ui/gallery/DialogGallery.qml:234
+#: contents/ui/gallery/DialogGallery.qml:233
 msgctxt "DialogGallery|"
 msgid "Menu Dialog"
 msgstr "Вікно меню"
 
-#: contents/ui/gallery/DrawerGallery.qml:31
+#: contents/ui/gallery/DrawerGallery.qml:30
 msgctxt "DrawerGallery|"
 msgid "Drawers"
 msgstr "Висувні панелі"
 
-#: contents/ui/gallery/DrawerGallery.qml:39
+#: contents/ui/gallery/DrawerGallery.qml:38
 msgctxt "DrawerGallery|"
 msgid "Action 1"
 msgstr "Дія 1"
 
-#: contents/ui/gallery/DrawerGallery.qml:41
+#: contents/ui/gallery/DrawerGallery.qml:40
 msgctxt "DrawerGallery|"
 msgid "Action 1 clicked"
 msgstr "Натиснуто пункт дії 1"
 
-#: contents/ui/gallery/DrawerGallery.qml:44
+#: contents/ui/gallery/DrawerGallery.qml:43
 msgctxt "DrawerGallery|"
 msgid "Disabled Action"
 msgstr "Вимкнена дія"
 
-#: contents/ui/gallery/DrawerGallery.qml:49
+#: contents/ui/gallery/DrawerGallery.qml:48
 msgctxt "DrawerGallery|"
 msgid "Action 3"
 msgstr "Дія 3"
 
-#: contents/ui/gallery/DrawerGallery.qml:50
+#: contents/ui/gallery/DrawerGallery.qml:49
 msgctxt "DrawerGallery|"
 msgid "Action 3 clicked"
 msgstr "Натиснуто пункт дії 3"
 
-#: contents/ui/gallery/DrawerGallery.qml:63
+#: contents/ui/gallery/DrawerGallery.qml:62
 msgctxt "DrawerGallery|"
 msgid ""
 "A modal bottom drawer will span for the whole application window width and "
@@ -484,15 +484,15 @@ msgstr ""
 "затінює решту вікна програми і має ширину рівну ширині вікна. Клацання на "
 "затемненій області вікна призведе до згортання висувної панелі."
 
-#: contents/ui/gallery/DrawerGallery.qml:67
-#: contents/ui/gallery/DrawerGallery.qml:86
-#: contents/ui/gallery/DrawerGallery.qml:105
-#: contents/ui/gallery/DrawerGallery.qml:124
+#: contents/ui/gallery/DrawerGallery.qml:66
+#: contents/ui/gallery/DrawerGallery.qml:85
+#: contents/ui/gallery/DrawerGallery.qml:104
+#: contents/ui/gallery/DrawerGallery.qml:123
 msgctxt "DrawerGallery|"
 msgid "Close"
 msgstr "Закрити"
 
-#: contents/ui/gallery/DrawerGallery.qml:82
+#: contents/ui/gallery/DrawerGallery.qml:81
 msgctxt "DrawerGallery|"
 msgid ""
 "An inline bottom drawer covers the whole application width but lets the "
@@ -501,7 +501,7 @@ msgstr ""
 "Вбудована висувна панель має ширину усього вікна програми, але надає змогу "
 "користуватися незакритими нею частинами інтерфейсу вікна програми."
 
-#: contents/ui/gallery/DrawerGallery.qml:101
+#: contents/ui/gallery/DrawerGallery.qml:100
 msgctxt "DrawerGallery|"
 msgid ""
 "A modal top drawer will span for the whole application window width and will "
@@ -512,29 +512,29 @@ msgstr ""
 "затінює решту вікна програми і має ширину рівну ширині вікна. Клацання на "
 "затемненій області вікна призведе до згортання висувної панелі."
 
-#: contents/ui/gallery/DrawerGallery.qml:120
+#: contents/ui/gallery/DrawerGallery.qml:119
 msgctxt "DrawerGallery|"
 msgid ""
 "An inline top drawer covers the whole application width but lets the "
 "uncovered pieces to still be interacted with."
 msgstr "Вбудована нижня висувна панель…"
 
-#: contents/ui/gallery/DrawerGallery.qml:135
+#: contents/ui/gallery/DrawerGallery.qml:134
 msgctxt "DrawerGallery|"
 msgid "Left Global Drawer"
 msgstr "Ліва загальна висувна панель"
 
-#: contents/ui/gallery/DrawerGallery.qml:140
+#: contents/ui/gallery/DrawerGallery.qml:139
 msgctxt "DrawerGallery|"
 msgid "Right Context Drawer"
 msgstr "Права контекстна висувна панель"
 
-#: contents/ui/gallery/DrawerGallery.qml:146
+#: contents/ui/gallery/DrawerGallery.qml:145
 msgctxt "DrawerGallery|"
 msgid "Modal Bottom Drawer"
 msgstr "Модальна нижня висувна панель"
 
-#: contents/ui/gallery/DrawerGallery.qml:156
+#: contents/ui/gallery/DrawerGallery.qml:155
 msgctxt "DrawerGallery|"
 msgid "Modal Top Drawer"
 msgstr "Модальна верхня висувна панель"
@@ -549,12 +549,12 @@ msgctxt "FormLayoutGallery|"
 msgid "Twin Layout:"
 msgstr "Подвійне компонування:"
 
-#: contents/ui/gallery/InlineMessagesGallery.qml:32
+#: contents/ui/gallery/InlineMessagesGallery.qml:31
 msgctxt "InlineMessagesGallery|"
 msgid "Inline Messages"
 msgstr "Вбудовані повідомлення"
 
-#: contents/ui/gallery/InlineMessagesGallery.qml:47
+#: contents/ui/gallery/InlineMessagesGallery.qml:46
 msgctxt "InlineMessagesGallery|"
 msgid ""
 "This is an informational inline message (the default type). Use it for "
@@ -563,7 +563,7 @@ msgstr ""
 "Це інформаційне вбудоване повідомлення (стандартний тип). Скористайтеся ним "
 "як прикладом для сповіщення про результат дії або надання коментарів."
 
-#: contents/ui/gallery/InlineMessagesGallery.qml:57
+#: contents/ui/gallery/InlineMessagesGallery.qml:56
 msgctxt "InlineMessagesGallery|"
 msgid ""
 "This is a positive inline message. Use it for example to announce a "
@@ -573,7 +573,7 @@ msgstr ""
 "прикладом, щоб сповістити про успішне виконання дії або успішне завершення "
 "процедури."
 
-#: contents/ui/gallery/InlineMessagesGallery.qml:67
+#: contents/ui/gallery/InlineMessagesGallery.qml:66
 msgctxt "InlineMessagesGallery|"
 msgid ""
 "This is a warning inline message. Use it for example to provide critical "
@@ -583,7 +583,7 @@ msgstr ""
 "для надання критичних настанов або попередження про те, що щось не "
 "працюватиме."
 
-#: contents/ui/gallery/InlineMessagesGallery.qml:77
+#: contents/ui/gallery/InlineMessagesGallery.qml:76
 msgctxt "InlineMessagesGallery|"
 msgid ""
 "This is an error inline message. Use it for example to announce something "
@@ -593,12 +593,12 @@ msgstr ""
 "сповіщення щодо того, що щось працює не так, або про те, що введені дані не "
 "буде прийнято."
 
-#: contents/ui/gallery/InlineMessagesGallery.qml:91
+#: contents/ui/gallery/InlineMessagesGallery.qml:90
 msgctxt "InlineMessagesGallery|"
 msgid "Inline messages can optionally have a custom icon set."
 msgstr "Вбудовані повідомлення можуть мати нетиповий набір піктограм."
 
-#: contents/ui/gallery/InlineMessagesGallery.qml:99
+#: contents/ui/gallery/InlineMessagesGallery.qml:98
 msgctxt "InlineMessagesGallery|"
 msgid ""
 "You can use rich text in inline messages and optionally handle clicks on "
@@ -609,56 +609,56 @@ msgstr ""
 "можливо, обробити натискання посилань (відкрити їх у програмі для перегляду "
 "інтернету): <a href=\"https://www.kde.org\">https://www.kde.org/<a/>"
 
-#: contents/ui/gallery/InlineMessagesGallery.qml:111
+#: contents/ui/gallery/InlineMessagesGallery.qml:110
 msgctxt "InlineMessagesGallery|"
 msgid "Inline messages can have an optional close button."
 msgstr "Вбудовані повідомлення можуть містити додаткову кнопку закриття."
 
-#: contents/ui/gallery/InlineMessagesGallery.qml:129
+#: contents/ui/gallery/InlineMessagesGallery.qml:128
 msgctxt "InlineMessagesGallery|"
 msgid "Add text"
 msgstr ""
 "Додати текст\n"
 "додавання тексту"
 
-#: contents/ui/gallery/InlineMessagesGallery.qml:139
+#: contents/ui/gallery/InlineMessagesGallery.qml:138
 msgctxt "InlineMessagesGallery|"
 msgid "Reset text"
 msgstr "Скинути текст"
 
-#: contents/ui/gallery/InlineMessagesGallery.qml:161
+#: contents/ui/gallery/InlineMessagesGallery.qml:160
 msgctxt "InlineMessagesGallery|"
 msgid "Inline messages are initially hidden and animate when revealed. Try it!"
 msgstr ""
 "Вбудовані повідомлення початкового приховуються і анімуються під час показу. "
 "Спробуйте!"
 
-#: contents/ui/gallery/InlineMessagesGallery.qml:170
+#: contents/ui/gallery/InlineMessagesGallery.qml:169
 msgctxt "InlineMessagesGallery|"
 msgid "Show additional message"
 msgstr "Показати додаткове повідомлення"
 
-#: contents/ui/gallery/InlineMessagesGallery.qml:186
+#: contents/ui/gallery/InlineMessagesGallery.qml:185
 msgctxt "InlineMessagesGallery|"
 msgid "Boo!"
 msgstr "Гав!"
 
-#: contents/ui/gallery/InlineMessagesGallery.qml:190
+#: contents/ui/gallery/InlineMessagesGallery.qml:189
 msgctxt "InlineMessagesGallery|"
 msgid "Shush"
 msgstr "Ш-ш-ш!"
 
-#: contents/ui/gallery/ListViewGallery.qml:41
+#: contents/ui/gallery/ListViewGallery.qml:45
 msgctxt "ListViewGallery|"
 msgid "Main Action Text"
 msgstr "Текст основної дії"
 
-#: contents/ui/gallery/ListViewGallery.qml:52
+#: contents/ui/gallery/ListViewGallery.qml:56
 msgctxt "ListViewGallery|"
 msgid "Footer:"
 msgstr "Нижній колонтитул:"
 
-#: contents/ui/gallery/ListViewGallery.qml:67
+#: contents/ui/gallery/ListViewGallery.qml:71
 #, qt-format
 msgctxt "ListViewGallery|"
 msgid "Item in sheet %n"
@@ -668,85 +668,85 @@ msgstr[1] "Запис на аркуші %n"
 msgstr[2] "Запис на аркуші %n"
 msgstr[3] "Запис на аркуші %n"
 
-#: contents/ui/gallery/ListViewGallery.qml:114
+#: contents/ui/gallery/ListViewGallery.qml:119
 msgctxt "ListViewGallery|"
 msgid "Action 1"
 msgstr "Дія 1"
 
-#: contents/ui/gallery/ListViewGallery.qml:116
-#: contents/ui/gallery/ListViewGallery.qml:123
+#: contents/ui/gallery/ListViewGallery.qml:121
+#: contents/ui/gallery/ListViewGallery.qml:128
 #, qt-format
 msgctxt "ListViewGallery|"
 msgid "%1: %2 clicked"
 msgstr "%1: натиснуто %2"
 
-#: contents/ui/gallery/ListViewGallery.qml:121
+#: contents/ui/gallery/ListViewGallery.qml:126
 msgctxt "ListViewGallery|"
 msgid "Action 2"
 msgstr "Дія 2"
 
-#: contents/ui/gallery/ListViewGallery.qml:144
+#: contents/ui/gallery/ListViewGallery.qml:149
 #, qt-format
 msgctxt "ListViewGallery|"
 msgid "Item %1"
 msgstr "Запис %1"
 
-#: contents/ui/gallery/ListViewGallery.qml:162
+#: contents/ui/gallery/ListViewGallery.qml:167
 #, qt-format
 msgctxt "ListViewGallery|"
 msgid "Section %1"
 msgstr "Розділ %1"
 
-#: contents/ui/gallery/MetricsGallery.qml:42
+#: contents/ui/gallery/MetricsGallery.qml:48
 msgctxt "MetricsGallery|"
 msgid "Heading 1"
 msgstr "Заголовок 1"
 
-#: contents/ui/gallery/MetricsGallery.qml:47
-#: contents/ui/gallery/MetricsGallery.qml:57
-#: contents/ui/gallery/MetricsGallery.qml:67
-#: contents/ui/gallery/MetricsGallery.qml:77
+#: contents/ui/gallery/MetricsGallery.qml:53
+#: contents/ui/gallery/MetricsGallery.qml:63
+#: contents/ui/gallery/MetricsGallery.qml:73
+#: contents/ui/gallery/MetricsGallery.qml:83
 #, qt-format
 msgctxt "MetricsGallery|"
 msgid "%1 points"
 msgstr "%1 точок"
 
-#: contents/ui/gallery/MetricsGallery.qml:52
+#: contents/ui/gallery/MetricsGallery.qml:58
 msgctxt "MetricsGallery|"
 msgid "Heading 2"
 msgstr "Заголовок 2"
 
-#: contents/ui/gallery/MetricsGallery.qml:62
+#: contents/ui/gallery/MetricsGallery.qml:68
 msgctxt "MetricsGallery|"
 msgid "Heading 3"
 msgstr "Заголовок 3"
 
-#: contents/ui/gallery/MetricsGallery.qml:72
+#: contents/ui/gallery/MetricsGallery.qml:78
 msgctxt "MetricsGallery|"
 msgid "Heading 4"
 msgstr "Заголовок 4"
 
-#: contents/ui/gallery/MiscGallery.qml:72
+#: contents/ui/gallery/MiscGallery.qml:77
 msgctxt "MiscGallery|"
 msgid "Text Beside Icon"
 msgstr "Текст поряд із піктограмою"
 
-#: contents/ui/gallery/MiscGallery.qml:87
+#: contents/ui/gallery/MiscGallery.qml:92
 msgctxt "MiscGallery|"
 msgid "Text Under Icon"
 msgstr "Текст під піктограмою"
 
-#: contents/ui/gallery/MiscGallery.qml:102
+#: contents/ui/gallery/MiscGallery.qml:107
 msgctxt "MiscGallery|"
 msgid "Text Only"
 msgstr "Лише текст"
 
-#: contents/ui/gallery/MiscGallery.qml:117
+#: contents/ui/gallery/MiscGallery.qml:122
 msgctxt "MiscGallery|"
 msgid "Icon Only"
 msgstr "Лише піктограма"
 
-#: contents/ui/gallery/MultipleColumnsGallery.qml:117
+#: contents/ui/gallery/MultipleColumnsGallery.qml:122
 msgctxt "MultipleColumnsGallery|"
 msgid "Pin page"
 msgstr "Пришпилити сторінку"

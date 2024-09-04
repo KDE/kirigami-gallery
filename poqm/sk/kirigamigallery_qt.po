@@ -235,7 +235,7 @@ msgctxt "ChipGallery|"
 msgid "Checkable Chips"
 msgstr "Zobrazenie zaškrtávacieho zoznamu"
 
-#: contents/ui/gallery/ColorsGallery.qml:30
+#: contents/ui/gallery/ColorsGallery.qml:31
 msgctxt "ColorsGallery|"
 msgid "Colors"
 msgstr ""
@@ -266,109 +266,109 @@ msgctxt "InfoSheetAction|"
 msgid "Info"
 msgstr "Info"
 
-#: contents/ui/gallery/DialogGallery.qml:34
+#: contents/ui/gallery/DialogGallery.qml:33
 msgctxt "DialogGallery|"
 msgid "Dialogs"
 msgstr ""
 
-#: contents/ui/gallery/DialogGallery.qml:58
+#: contents/ui/gallery/DialogGallery.qml:57
 msgctxt "DialogGallery|"
 msgid "Create Folder"
 msgstr ""
 
-#: contents/ui/gallery/DialogGallery.qml:66
+#: contents/ui/gallery/DialogGallery.qml:65
 msgctxt "DialogGallery|"
 msgid "Cancel"
 msgstr ""
 
-#: contents/ui/gallery/DialogGallery.qml:75
+#: contents/ui/gallery/DialogGallery.qml:74
 msgctxt "DialogGallery|"
 msgid "Folder name:"
 msgstr ""
 
-#: contents/ui/gallery/DialogGallery.qml:83
+#: contents/ui/gallery/DialogGallery.qml:82
 msgctxt "DialogGallery|"
 msgid "Alarm Snooze Length"
 msgstr ""
 
-#: contents/ui/gallery/DialogGallery.qml:92
+#: contents/ui/gallery/DialogGallery.qml:91
 msgctxt "DialogGallery|"
 msgid "1 minute"
 msgstr ""
 
-#: contents/ui/gallery/DialogGallery.qml:93
+#: contents/ui/gallery/DialogGallery.qml:92
 msgctxt "DialogGallery|"
 msgid "2 minutes"
 msgstr ""
 
-#: contents/ui/gallery/DialogGallery.qml:94
+#: contents/ui/gallery/DialogGallery.qml:93
 msgctxt "DialogGallery|"
 msgid "3 minutes"
 msgstr ""
 
-#: contents/ui/gallery/DialogGallery.qml:95
+#: contents/ui/gallery/DialogGallery.qml:94
 msgctxt "DialogGallery|"
 msgid "4 minutes"
 msgstr ""
 
-#: contents/ui/gallery/DialogGallery.qml:96
+#: contents/ui/gallery/DialogGallery.qml:95
 msgctxt "DialogGallery|"
 msgid "5 minutes"
 msgstr ""
 
-#: contents/ui/gallery/DialogGallery.qml:97
+#: contents/ui/gallery/DialogGallery.qml:96
 msgctxt "DialogGallery|"
 msgid "10 minutes"
 msgstr ""
 
-#: contents/ui/gallery/DialogGallery.qml:98
+#: contents/ui/gallery/DialogGallery.qml:97
 msgctxt "DialogGallery|"
 msgid "30 minutes"
 msgstr ""
 
-#: contents/ui/gallery/DialogGallery.qml:99
+#: contents/ui/gallery/DialogGallery.qml:98
 msgctxt "DialogGallery|"
 msgid "1 hour"
 msgstr ""
 
-#: contents/ui/gallery/DialogGallery.qml:121
-#: contents/ui/gallery/DialogGallery.qml:138
+#: contents/ui/gallery/DialogGallery.qml:120
+#: contents/ui/gallery/DialogGallery.qml:137
 msgctxt "DialogGallery|"
 msgid "Select Number"
 msgstr ""
 
-#: contents/ui/gallery/DialogGallery.qml:128
+#: contents/ui/gallery/DialogGallery.qml:127
 msgctxt "DialogGallery|"
 msgid "Subtitle text"
 msgstr ""
 
-#: contents/ui/gallery/DialogGallery.qml:158
-#: contents/ui/gallery/DialogGallery.qml:229
+#: contents/ui/gallery/DialogGallery.qml:157
+#: contents/ui/gallery/DialogGallery.qml:228
 msgctxt "DialogGallery|"
 msgid "No Footer Dialog"
 msgstr ""
 
-#: contents/ui/gallery/DialogGallery.qml:159
+#: contents/ui/gallery/DialogGallery.qml:158
 msgctxt "DialogGallery|"
 msgid "This dialog has no footer buttons.<br/>It also has no close button."
 msgstr ""
 
-#: contents/ui/gallery/DialogGallery.qml:167
+#: contents/ui/gallery/DialogGallery.qml:166
 msgctxt "DialogGallery|"
 msgid "Track Options"
 msgstr ""
 
-#: contents/ui/gallery/DialogGallery.qml:172
+#: contents/ui/gallery/DialogGallery.qml:171
 msgctxt "DialogGallery|Start playback of the selected track"
 msgid "Play"
 msgstr ""
 
-#: contents/ui/gallery/DialogGallery.qml:173
+#: contents/ui/gallery/DialogGallery.qml:172
 msgctxt "DialogGallery|"
 msgid "Start playback of the selected track"
 msgstr ""
 
-#: contents/ui/gallery/DialogGallery.qml:178
+#: contents/ui/gallery/DialogGallery.qml:177
 #, fuzzy
 #| msgctxt "BaseApp|"
 #| msgid "Show Banner"
@@ -376,53 +376,53 @@ msgctxt "DialogGallery|Show the file for this song in the file manager"
 msgid "Show in folder"
 msgstr "Zobraziť banner"
 
-#: contents/ui/gallery/DialogGallery.qml:179
+#: contents/ui/gallery/DialogGallery.qml:178
 msgctxt "DialogGallery|"
 msgid "Show the file for this song in the file manager"
 msgstr ""
 
-#: contents/ui/gallery/DialogGallery.qml:183
+#: contents/ui/gallery/DialogGallery.qml:182
 msgctxt "DialogGallery|Show track metadata"
 msgid "View details"
 msgstr ""
 
-#: contents/ui/gallery/DialogGallery.qml:184
+#: contents/ui/gallery/DialogGallery.qml:183
 msgctxt "DialogGallery|"
 msgid "Show track metadata"
 msgstr ""
 
-#: contents/ui/gallery/DialogGallery.qml:188
+#: contents/ui/gallery/DialogGallery.qml:187
 msgctxt ""
 "DialogGallery|Add the track to the queue, right after the current track"
 msgid "Play next"
 msgstr ""
 
-#: contents/ui/gallery/DialogGallery.qml:189
+#: contents/ui/gallery/DialogGallery.qml:188
 msgctxt "DialogGallery|"
 msgid "Add the track to the queue, right after the current track"
 msgstr ""
 
-#: contents/ui/gallery/DialogGallery.qml:193
+#: contents/ui/gallery/DialogGallery.qml:192
 msgctxt "DialogGallery|Enqueue current track"
 msgid "Add to queue"
 msgstr ""
 
-#: contents/ui/gallery/DialogGallery.qml:194
+#: contents/ui/gallery/DialogGallery.qml:193
 msgctxt "DialogGallery|"
 msgid "Enqueue current track"
 msgstr ""
 
-#: contents/ui/gallery/DialogGallery.qml:204
+#: contents/ui/gallery/DialogGallery.qml:203
 msgctxt "DialogGallery|"
 msgid "Prompt Dialog"
 msgstr ""
 
-#: contents/ui/gallery/DialogGallery.qml:209
+#: contents/ui/gallery/DialogGallery.qml:208
 msgctxt "DialogGallery|"
 msgid "Text Prompt Dialog"
 msgstr ""
 
-#: contents/ui/gallery/DialogGallery.qml:214
+#: contents/ui/gallery/DialogGallery.qml:213
 #, fuzzy
 #| msgctxt "SelectionControlsGallery|"
 #| msgid "Selection Controls"
@@ -430,7 +430,7 @@ msgctxt "DialogGallery|"
 msgid "Selection Dialog"
 msgstr "Ovládače výberu"
 
-#: contents/ui/gallery/DialogGallery.qml:219
+#: contents/ui/gallery/DialogGallery.qml:218
 #, fuzzy
 #| msgctxt "SelectionControlsGallery|"
 #| msgid "Selection Controls"
@@ -438,47 +438,47 @@ msgctxt "DialogGallery|"
 msgid "Selection Dialog with subtitles"
 msgstr "Ovládače výberu"
 
-#: contents/ui/gallery/DialogGallery.qml:224
+#: contents/ui/gallery/DialogGallery.qml:223
 msgctxt "DialogGallery|"
 msgid "Scrollable Dialog"
 msgstr ""
 
-#: contents/ui/gallery/DialogGallery.qml:234
+#: contents/ui/gallery/DialogGallery.qml:233
 msgctxt "DialogGallery|"
 msgid "Menu Dialog"
 msgstr ""
 
-#: contents/ui/gallery/DrawerGallery.qml:31
+#: contents/ui/gallery/DrawerGallery.qml:30
 msgctxt "DrawerGallery|"
 msgid "Drawers"
 msgstr "Zásuvky"
 
-#: contents/ui/gallery/DrawerGallery.qml:39
+#: contents/ui/gallery/DrawerGallery.qml:38
 msgctxt "DrawerGallery|"
 msgid "Action 1"
 msgstr "Akcia 1"
 
-#: contents/ui/gallery/DrawerGallery.qml:41
+#: contents/ui/gallery/DrawerGallery.qml:40
 msgctxt "DrawerGallery|"
 msgid "Action 1 clicked"
 msgstr "Akcia 1 kliknutá"
 
-#: contents/ui/gallery/DrawerGallery.qml:44
+#: contents/ui/gallery/DrawerGallery.qml:43
 msgctxt "DrawerGallery|"
 msgid "Disabled Action"
 msgstr "Zakázaná akcia"
 
-#: contents/ui/gallery/DrawerGallery.qml:49
+#: contents/ui/gallery/DrawerGallery.qml:48
 msgctxt "DrawerGallery|"
 msgid "Action 3"
 msgstr "Akcia 3"
 
-#: contents/ui/gallery/DrawerGallery.qml:50
+#: contents/ui/gallery/DrawerGallery.qml:49
 msgctxt "DrawerGallery|"
 msgid "Action 3 clicked"
 msgstr "Akcia 3 kliknutá"
 
-#: contents/ui/gallery/DrawerGallery.qml:63
+#: contents/ui/gallery/DrawerGallery.qml:62
 msgctxt "DrawerGallery|"
 msgid ""
 "A modal bottom drawer will span for the whole application window width and "
@@ -488,15 +488,15 @@ msgstr ""
 "Modálny spodný vykresľovač presiahne cez celú šírku okna aplikácie a stmaví "
 "zvyšok aplikácie. Kliknutím na stmavnutú oblasť sa zatvorí vykresľovač."
 
-#: contents/ui/gallery/DrawerGallery.qml:67
-#: contents/ui/gallery/DrawerGallery.qml:86
-#: contents/ui/gallery/DrawerGallery.qml:105
-#: contents/ui/gallery/DrawerGallery.qml:124
+#: contents/ui/gallery/DrawerGallery.qml:66
+#: contents/ui/gallery/DrawerGallery.qml:85
+#: contents/ui/gallery/DrawerGallery.qml:104
+#: contents/ui/gallery/DrawerGallery.qml:123
 msgctxt "DrawerGallery|"
 msgid "Close"
 msgstr "Zavrieť"
 
-#: contents/ui/gallery/DrawerGallery.qml:82
+#: contents/ui/gallery/DrawerGallery.qml:81
 msgctxt "DrawerGallery|"
 msgid ""
 "An inline bottom drawer covers the whole application width but lets the "
@@ -505,7 +505,7 @@ msgstr ""
 "Vnútorný spodný vykresľovač pokrýva celú šírku aplikácie, ale nechá "
 "nepokryté kusy, s ktorými je možné interagovať."
 
-#: contents/ui/gallery/DrawerGallery.qml:101
+#: contents/ui/gallery/DrawerGallery.qml:100
 msgctxt "DrawerGallery|"
 msgid ""
 "A modal top drawer will span for the whole application window width and will "
@@ -515,7 +515,7 @@ msgstr ""
 "Modálny vrchný vykresľovač presiahne cez celú šírku okna aplikácie a stmaví "
 "zvyšok aplikácie. Kliknutím na stmavnutú oblasť sa zatvorí vykresľovač."
 
-#: contents/ui/gallery/DrawerGallery.qml:120
+#: contents/ui/gallery/DrawerGallery.qml:119
 msgctxt "DrawerGallery|"
 msgid ""
 "An inline top drawer covers the whole application width but lets the "
@@ -524,22 +524,22 @@ msgstr ""
 "Vnútorný vrchný vykresľovač pokrýva celú šírku aplikácie, ale nechá "
 "nepokryté kusy, s ktorými je možné interagovať."
 
-#: contents/ui/gallery/DrawerGallery.qml:135
+#: contents/ui/gallery/DrawerGallery.qml:134
 msgctxt "DrawerGallery|"
 msgid "Left Global Drawer"
 msgstr "Ľavý globálny vykresľovač"
 
-#: contents/ui/gallery/DrawerGallery.qml:140
+#: contents/ui/gallery/DrawerGallery.qml:139
 msgctxt "DrawerGallery|"
 msgid "Right Context Drawer"
 msgstr "Pravý kontexktový vykresľovač"
 
-#: contents/ui/gallery/DrawerGallery.qml:146
+#: contents/ui/gallery/DrawerGallery.qml:145
 msgctxt "DrawerGallery|"
 msgid "Modal Bottom Drawer"
 msgstr "Modálny spodný vykresľovač"
 
-#: contents/ui/gallery/DrawerGallery.qml:156
+#: contents/ui/gallery/DrawerGallery.qml:155
 msgctxt "DrawerGallery|"
 msgid "Modal Top Drawer"
 msgstr "Modálny horný vykresľovač"
@@ -554,12 +554,12 @@ msgctxt "FormLayoutGallery|"
 msgid "Twin Layout:"
 msgstr "Dvojité zobrazenie:"
 
-#: contents/ui/gallery/InlineMessagesGallery.qml:32
+#: contents/ui/gallery/InlineMessagesGallery.qml:31
 msgctxt "InlineMessagesGallery|"
 msgid "Inline Messages"
 msgstr "Vnorené správy"
 
-#: contents/ui/gallery/InlineMessagesGallery.qml:47
+#: contents/ui/gallery/InlineMessagesGallery.qml:46
 msgctxt "InlineMessagesGallery|"
 msgid ""
 "This is an informational inline message (the default type). Use it for "
@@ -568,7 +568,7 @@ msgstr ""
 "Toto informačná vnútorná správa (predvolený typ). Použite ju napríklad na "
 "oznámenie výsledku alebo poskytnutie komentára."
 
-#: contents/ui/gallery/InlineMessagesGallery.qml:57
+#: contents/ui/gallery/InlineMessagesGallery.qml:56
 msgctxt "InlineMessagesGallery|"
 msgid ""
 "This is a positive inline message. Use it for example to announce a "
@@ -577,7 +577,7 @@ msgstr ""
 "Toto je pozitívna vnútorná správa. Použite ju napríklad na oznámenie "
 "úspešného výsledku alebo úspešného vykonania ukončenia procedúry."
 
-#: contents/ui/gallery/InlineMessagesGallery.qml:67
+#: contents/ui/gallery/InlineMessagesGallery.qml:66
 msgctxt "InlineMessagesGallery|"
 msgid ""
 "This is a warning inline message. Use it for example to provide critical "
@@ -586,7 +586,7 @@ msgstr ""
 "Toto je vnútorná správa upozornenia. Použite ju napríklad na poskytnutie "
 "kritického usmernenia alebo upozornenia o niečom, čo nebude fungovať."
 
-#: contents/ui/gallery/InlineMessagesGallery.qml:77
+#: contents/ui/gallery/InlineMessagesGallery.qml:76
 msgctxt "InlineMessagesGallery|"
 msgid ""
 "This is an error inline message. Use it for example to announce something "
@@ -595,12 +595,12 @@ msgstr ""
 "Toto je chybová vnútorná správa. Použite ju napríklad na uvedenie, že niečo "
 "sa stalo zlé alebo ktorý vstup nie je akceptovaný."
 
-#: contents/ui/gallery/InlineMessagesGallery.qml:91
+#: contents/ui/gallery/InlineMessagesGallery.qml:90
 msgctxt "InlineMessagesGallery|"
 msgid "Inline messages can optionally have a custom icon set."
 msgstr "Vnútorné správy môžu voliteľne mať vlastnú sadu ikon."
 
-#: contents/ui/gallery/InlineMessagesGallery.qml:99
+#: contents/ui/gallery/InlineMessagesGallery.qml:98
 msgctxt "InlineMessagesGallery|"
 msgid ""
 "You can use rich text in inline messages and optionally handle clicks on "
@@ -611,48 +611,48 @@ msgstr ""
 "na odkazy (otvoria sa v prehliadači): <a href=\"https://www.kde.org"
 "\">https://www.kde.org/<a/>"
 
-#: contents/ui/gallery/InlineMessagesGallery.qml:111
+#: contents/ui/gallery/InlineMessagesGallery.qml:110
 msgctxt "InlineMessagesGallery|"
 msgid "Inline messages can have an optional close button."
 msgstr "Vnútorné správy môžu mať voliteľné tlačidlo zatvorenia."
 
-#: contents/ui/gallery/InlineMessagesGallery.qml:129
+#: contents/ui/gallery/InlineMessagesGallery.qml:128
 msgctxt "InlineMessagesGallery|"
 msgid "Add text"
 msgstr "Pridať text"
 
-#: contents/ui/gallery/InlineMessagesGallery.qml:139
+#: contents/ui/gallery/InlineMessagesGallery.qml:138
 msgctxt "InlineMessagesGallery|"
 msgid "Reset text"
 msgstr "Vynulovať text"
 
-#: contents/ui/gallery/InlineMessagesGallery.qml:161
+#: contents/ui/gallery/InlineMessagesGallery.qml:160
 msgctxt "InlineMessagesGallery|"
 msgid "Inline messages are initially hidden and animate when revealed. Try it!"
 msgstr ""
 "Vnútorné správy sú pôvodne skryté a animované pri zobrazení. Skúste to!"
 
-#: contents/ui/gallery/InlineMessagesGallery.qml:170
+#: contents/ui/gallery/InlineMessagesGallery.qml:169
 msgctxt "InlineMessagesGallery|"
 msgid "Show additional message"
 msgstr "Zobraziť dodatočnú správu"
 
-#: contents/ui/gallery/InlineMessagesGallery.qml:186
+#: contents/ui/gallery/InlineMessagesGallery.qml:185
 msgctxt "InlineMessagesGallery|"
 msgid "Boo!"
 msgstr "Boo!"
 
-#: contents/ui/gallery/InlineMessagesGallery.qml:190
+#: contents/ui/gallery/InlineMessagesGallery.qml:189
 msgctxt "InlineMessagesGallery|"
 msgid "Shush"
 msgstr "Shush"
 
-#: contents/ui/gallery/ListViewGallery.qml:41
+#: contents/ui/gallery/ListViewGallery.qml:45
 msgctxt "ListViewGallery|"
 msgid "Main Action Text"
 msgstr ""
 
-#: contents/ui/gallery/ListViewGallery.qml:52
+#: contents/ui/gallery/ListViewGallery.qml:56
 #, fuzzy
 #| msgctxt "OverlaySheetGallery|"
 #| msgid "Footer:"
@@ -660,7 +660,7 @@ msgctxt "ListViewGallery|"
 msgid "Footer:"
 msgstr "Pätička:"
 
-#: contents/ui/gallery/ListViewGallery.qml:67
+#: contents/ui/gallery/ListViewGallery.qml:71
 #, fuzzy, qt-format
 #| msgctxt "OverlaySheetGallery|"
 #| msgid "Item in sheet "
@@ -671,7 +671,7 @@ msgstr[0] "Položky v liste"
 msgstr[1] "Položky v liste"
 msgstr[2] "Položky v liste"
 
-#: contents/ui/gallery/ListViewGallery.qml:114
+#: contents/ui/gallery/ListViewGallery.qml:119
 #, fuzzy
 #| msgctxt "DrawerGallery|"
 #| msgid "Action 1"
@@ -679,8 +679,8 @@ msgctxt "ListViewGallery|"
 msgid "Action 1"
 msgstr "Akcia 1"
 
-#: contents/ui/gallery/ListViewGallery.qml:116
-#: contents/ui/gallery/ListViewGallery.qml:123
+#: contents/ui/gallery/ListViewGallery.qml:121
+#: contents/ui/gallery/ListViewGallery.qml:128
 #, fuzzy, qt-format
 #| msgctxt "CardsLayoutGallery|"
 #| msgid "Card clicked"
@@ -688,7 +688,7 @@ msgctxt "ListViewGallery|"
 msgid "%1: %2 clicked"
 msgstr "Karta kliknutá"
 
-#: contents/ui/gallery/ListViewGallery.qml:121
+#: contents/ui/gallery/ListViewGallery.qml:126
 #, fuzzy
 #| msgctxt "CardsLayoutGallery|"
 #| msgid "Action2"
@@ -696,13 +696,13 @@ msgctxt "ListViewGallery|"
 msgid "Action 2"
 msgstr "Akcia2"
 
-#: contents/ui/gallery/ListViewGallery.qml:144
+#: contents/ui/gallery/ListViewGallery.qml:149
 #, qt-format
 msgctxt "ListViewGallery|"
 msgid "Item %1"
 msgstr ""
 
-#: contents/ui/gallery/ListViewGallery.qml:162
+#: contents/ui/gallery/ListViewGallery.qml:167
 #, fuzzy, qt-format
 #| msgctxt "DrawerGallery|"
 #| msgid "Action 1"
@@ -710,56 +710,56 @@ msgctxt "ListViewGallery|"
 msgid "Section %1"
 msgstr "Akcia 1"
 
-#: contents/ui/gallery/MetricsGallery.qml:42
+#: contents/ui/gallery/MetricsGallery.qml:48
 msgctxt "MetricsGallery|"
 msgid "Heading 1"
 msgstr "Nadpis 1"
 
-#: contents/ui/gallery/MetricsGallery.qml:47
-#: contents/ui/gallery/MetricsGallery.qml:57
-#: contents/ui/gallery/MetricsGallery.qml:67
-#: contents/ui/gallery/MetricsGallery.qml:77
+#: contents/ui/gallery/MetricsGallery.qml:53
+#: contents/ui/gallery/MetricsGallery.qml:63
+#: contents/ui/gallery/MetricsGallery.qml:73
+#: contents/ui/gallery/MetricsGallery.qml:83
 #, qt-format
 msgctxt "MetricsGallery|"
 msgid "%1 points"
 msgstr "%1 bodov"
 
-#: contents/ui/gallery/MetricsGallery.qml:52
+#: contents/ui/gallery/MetricsGallery.qml:58
 msgctxt "MetricsGallery|"
 msgid "Heading 2"
 msgstr "Nadpis 2"
 
-#: contents/ui/gallery/MetricsGallery.qml:62
+#: contents/ui/gallery/MetricsGallery.qml:68
 msgctxt "MetricsGallery|"
 msgid "Heading 3"
 msgstr "Nadpis 3"
 
-#: contents/ui/gallery/MetricsGallery.qml:72
+#: contents/ui/gallery/MetricsGallery.qml:78
 msgctxt "MetricsGallery|"
 msgid "Heading 4"
 msgstr "Nadpis 4"
 
-#: contents/ui/gallery/MiscGallery.qml:72
+#: contents/ui/gallery/MiscGallery.qml:77
 msgctxt "MiscGallery|"
 msgid "Text Beside Icon"
 msgstr "Text nad ikonami"
 
-#: contents/ui/gallery/MiscGallery.qml:87
+#: contents/ui/gallery/MiscGallery.qml:92
 msgctxt "MiscGallery|"
 msgid "Text Under Icon"
 msgstr "Text pod ikonami"
 
-#: contents/ui/gallery/MiscGallery.qml:102
+#: contents/ui/gallery/MiscGallery.qml:107
 msgctxt "MiscGallery|"
 msgid "Text Only"
 msgstr "Iba text"
 
-#: contents/ui/gallery/MiscGallery.qml:117
+#: contents/ui/gallery/MiscGallery.qml:122
 msgctxt "MiscGallery|"
 msgid "Icon Only"
 msgstr "Iba ikona"
 
-#: contents/ui/gallery/MultipleColumnsGallery.qml:117
+#: contents/ui/gallery/MultipleColumnsGallery.qml:122
 msgctxt "MultipleColumnsGallery|"
 msgid "Pin page"
 msgstr "Pripnúť stránku"

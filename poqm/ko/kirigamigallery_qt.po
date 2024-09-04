@@ -225,7 +225,7 @@ msgctxt "ChipGallery|"
 msgid "Checkable Chips"
 msgstr "체크할 수 있는 칩"
 
-#: contents/ui/gallery/ColorsGallery.qml:30
+#: contents/ui/gallery/ColorsGallery.qml:31
 msgctxt "ColorsGallery|"
 msgid "Colors"
 msgstr "색상"
@@ -250,210 +250,210 @@ msgctxt "InfoSheetAction|"
 msgid "Info"
 msgstr "정보"
 
-#: contents/ui/gallery/DialogGallery.qml:34
+#: contents/ui/gallery/DialogGallery.qml:33
 msgctxt "DialogGallery|"
 msgid "Dialogs"
 msgstr "대화 상자"
 
-#: contents/ui/gallery/DialogGallery.qml:58
+#: contents/ui/gallery/DialogGallery.qml:57
 msgctxt "DialogGallery|"
 msgid "Create Folder"
 msgstr "폴더 만들기"
 
-#: contents/ui/gallery/DialogGallery.qml:66
+#: contents/ui/gallery/DialogGallery.qml:65
 msgctxt "DialogGallery|"
 msgid "Cancel"
 msgstr "취소"
 
-#: contents/ui/gallery/DialogGallery.qml:75
+#: contents/ui/gallery/DialogGallery.qml:74
 msgctxt "DialogGallery|"
 msgid "Folder name:"
 msgstr "폴더 이름:"
 
-#: contents/ui/gallery/DialogGallery.qml:83
+#: contents/ui/gallery/DialogGallery.qml:82
 msgctxt "DialogGallery|"
 msgid "Alarm Snooze Length"
 msgstr "알람 지연 길이"
 
-#: contents/ui/gallery/DialogGallery.qml:92
+#: contents/ui/gallery/DialogGallery.qml:91
 msgctxt "DialogGallery|"
 msgid "1 minute"
 msgstr "1분"
 
-#: contents/ui/gallery/DialogGallery.qml:93
+#: contents/ui/gallery/DialogGallery.qml:92
 msgctxt "DialogGallery|"
 msgid "2 minutes"
 msgstr "2분"
 
-#: contents/ui/gallery/DialogGallery.qml:94
+#: contents/ui/gallery/DialogGallery.qml:93
 msgctxt "DialogGallery|"
 msgid "3 minutes"
 msgstr "3분"
 
-#: contents/ui/gallery/DialogGallery.qml:95
+#: contents/ui/gallery/DialogGallery.qml:94
 msgctxt "DialogGallery|"
 msgid "4 minutes"
 msgstr "4분"
 
-#: contents/ui/gallery/DialogGallery.qml:96
+#: contents/ui/gallery/DialogGallery.qml:95
 msgctxt "DialogGallery|"
 msgid "5 minutes"
 msgstr "5분"
 
-#: contents/ui/gallery/DialogGallery.qml:97
+#: contents/ui/gallery/DialogGallery.qml:96
 msgctxt "DialogGallery|"
 msgid "10 minutes"
 msgstr "10분"
 
-#: contents/ui/gallery/DialogGallery.qml:98
+#: contents/ui/gallery/DialogGallery.qml:97
 msgctxt "DialogGallery|"
 msgid "30 minutes"
 msgstr "30분"
 
-#: contents/ui/gallery/DialogGallery.qml:99
+#: contents/ui/gallery/DialogGallery.qml:98
 msgctxt "DialogGallery|"
 msgid "1 hour"
 msgstr "1시간"
 
-#: contents/ui/gallery/DialogGallery.qml:121
-#: contents/ui/gallery/DialogGallery.qml:138
+#: contents/ui/gallery/DialogGallery.qml:120
+#: contents/ui/gallery/DialogGallery.qml:137
 msgctxt "DialogGallery|"
 msgid "Select Number"
 msgstr "숫자 선택"
 
-#: contents/ui/gallery/DialogGallery.qml:128
+#: contents/ui/gallery/DialogGallery.qml:127
 msgctxt "DialogGallery|"
 msgid "Subtitle text"
 msgstr "부제목 텍스트"
 
-#: contents/ui/gallery/DialogGallery.qml:158
-#: contents/ui/gallery/DialogGallery.qml:229
+#: contents/ui/gallery/DialogGallery.qml:157
+#: contents/ui/gallery/DialogGallery.qml:228
 msgctxt "DialogGallery|"
 msgid "No Footer Dialog"
 msgstr "꼬리말 대화 상자 없음"
 
-#: contents/ui/gallery/DialogGallery.qml:159
+#: contents/ui/gallery/DialogGallery.qml:158
 msgctxt "DialogGallery|"
 msgid "This dialog has no footer buttons.<br/>It also has no close button."
 msgstr "이 대화 상자에는 꼬리말 단추가 없습니다.<br/>닫기 단추도 없습니다."
 
-#: contents/ui/gallery/DialogGallery.qml:167
+#: contents/ui/gallery/DialogGallery.qml:166
 msgctxt "DialogGallery|"
 msgid "Track Options"
 msgstr "트랙 옵션"
 
-#: contents/ui/gallery/DialogGallery.qml:172
+#: contents/ui/gallery/DialogGallery.qml:171
 msgctxt "DialogGallery|Start playback of the selected track"
 msgid "Play"
 msgstr "재생"
 
-#: contents/ui/gallery/DialogGallery.qml:173
+#: contents/ui/gallery/DialogGallery.qml:172
 msgctxt "DialogGallery|"
 msgid "Start playback of the selected track"
 msgstr "선택한 트랙 재생 시작"
 
-#: contents/ui/gallery/DialogGallery.qml:178
+#: contents/ui/gallery/DialogGallery.qml:177
 msgctxt "DialogGallery|Show the file for this song in the file manager"
 msgid "Show in folder"
 msgstr "포함하는 폴더 열기"
 
-#: contents/ui/gallery/DialogGallery.qml:179
+#: contents/ui/gallery/DialogGallery.qml:178
 msgctxt "DialogGallery|"
 msgid "Show the file for this song in the file manager"
 msgstr "이 노래에 해당하는 파일을 파일 관리자에 표시"
 
-#: contents/ui/gallery/DialogGallery.qml:183
+#: contents/ui/gallery/DialogGallery.qml:182
 msgctxt "DialogGallery|Show track metadata"
 msgid "View details"
 msgstr "자세한 정보 표시"
 
-#: contents/ui/gallery/DialogGallery.qml:184
+#: contents/ui/gallery/DialogGallery.qml:183
 msgctxt "DialogGallery|"
 msgid "Show track metadata"
 msgstr "트랙 메타데이터 표시"
 
-#: contents/ui/gallery/DialogGallery.qml:188
+#: contents/ui/gallery/DialogGallery.qml:187
 msgctxt ""
 "DialogGallery|Add the track to the queue, right after the current track"
 msgid "Play next"
 msgstr "다음 재생"
 
-#: contents/ui/gallery/DialogGallery.qml:189
+#: contents/ui/gallery/DialogGallery.qml:188
 msgctxt "DialogGallery|"
 msgid "Add the track to the queue, right after the current track"
 msgstr "선택한 트랙을 현재 트랙 다음에 대기열에 추가"
 
-#: contents/ui/gallery/DialogGallery.qml:193
+#: contents/ui/gallery/DialogGallery.qml:192
 msgctxt "DialogGallery|Enqueue current track"
 msgid "Add to queue"
 msgstr "대기열에 추가"
 
-#: contents/ui/gallery/DialogGallery.qml:194
+#: contents/ui/gallery/DialogGallery.qml:193
 msgctxt "DialogGallery|"
 msgid "Enqueue current track"
 msgstr "현재 트랙을 대기열에 추가"
 
-#: contents/ui/gallery/DialogGallery.qml:204
+#: contents/ui/gallery/DialogGallery.qml:203
 msgctxt "DialogGallery|"
 msgid "Prompt Dialog"
 msgstr "프롬프트 대화 상자"
 
-#: contents/ui/gallery/DialogGallery.qml:209
+#: contents/ui/gallery/DialogGallery.qml:208
 msgctxt "DialogGallery|"
 msgid "Text Prompt Dialog"
 msgstr "텍스트 프롬프트 대화 상자"
 
-#: contents/ui/gallery/DialogGallery.qml:214
+#: contents/ui/gallery/DialogGallery.qml:213
 msgctxt "DialogGallery|"
 msgid "Selection Dialog"
 msgstr "선택 대화 상자"
 
-#: contents/ui/gallery/DialogGallery.qml:219
+#: contents/ui/gallery/DialogGallery.qml:218
 msgctxt "DialogGallery|"
 msgid "Selection Dialog with subtitles"
 msgstr "부제목이 있는 선택 대화 상자"
 
-#: contents/ui/gallery/DialogGallery.qml:224
+#: contents/ui/gallery/DialogGallery.qml:223
 msgctxt "DialogGallery|"
 msgid "Scrollable Dialog"
 msgstr "스크롤할 수 있는 대화 상자"
 
-#: contents/ui/gallery/DialogGallery.qml:234
+#: contents/ui/gallery/DialogGallery.qml:233
 msgctxt "DialogGallery|"
 msgid "Menu Dialog"
 msgstr "메뉴 대화 상자"
 
-#: contents/ui/gallery/DrawerGallery.qml:31
+#: contents/ui/gallery/DrawerGallery.qml:30
 msgctxt "DrawerGallery|"
 msgid "Drawers"
 msgstr "서랍"
 
-#: contents/ui/gallery/DrawerGallery.qml:39
+#: contents/ui/gallery/DrawerGallery.qml:38
 msgctxt "DrawerGallery|"
 msgid "Action 1"
 msgstr "동작 1"
 
-#: contents/ui/gallery/DrawerGallery.qml:41
+#: contents/ui/gallery/DrawerGallery.qml:40
 msgctxt "DrawerGallery|"
 msgid "Action 1 clicked"
 msgstr "동작 1 클릭됨"
 
-#: contents/ui/gallery/DrawerGallery.qml:44
+#: contents/ui/gallery/DrawerGallery.qml:43
 msgctxt "DrawerGallery|"
 msgid "Disabled Action"
 msgstr "비활성화된 동작"
 
-#: contents/ui/gallery/DrawerGallery.qml:49
+#: contents/ui/gallery/DrawerGallery.qml:48
 msgctxt "DrawerGallery|"
 msgid "Action 3"
 msgstr "동작 3"
 
-#: contents/ui/gallery/DrawerGallery.qml:50
+#: contents/ui/gallery/DrawerGallery.qml:49
 msgctxt "DrawerGallery|"
 msgid "Action 3 clicked"
 msgstr "동작 3 클릭됨"
 
-#: contents/ui/gallery/DrawerGallery.qml:63
+#: contents/ui/gallery/DrawerGallery.qml:62
 msgctxt "DrawerGallery|"
 msgid ""
 "A modal bottom drawer will span for the whole application window width and "
@@ -463,15 +463,15 @@ msgstr ""
 "모달 아래쪽 서랍은 전체 앱 창 너비로 펼쳐지며 앱의 나머지 부분을 어둡게 합니"
 "다. 어두워진 영역을 클릭하면 서랍을 닫습니다."
 
-#: contents/ui/gallery/DrawerGallery.qml:67
-#: contents/ui/gallery/DrawerGallery.qml:86
-#: contents/ui/gallery/DrawerGallery.qml:105
-#: contents/ui/gallery/DrawerGallery.qml:124
+#: contents/ui/gallery/DrawerGallery.qml:66
+#: contents/ui/gallery/DrawerGallery.qml:85
+#: contents/ui/gallery/DrawerGallery.qml:104
+#: contents/ui/gallery/DrawerGallery.qml:123
 msgctxt "DrawerGallery|"
 msgid "Close"
 msgstr "닫기"
 
-#: contents/ui/gallery/DrawerGallery.qml:82
+#: contents/ui/gallery/DrawerGallery.qml:81
 msgctxt "DrawerGallery|"
 msgid ""
 "An inline bottom drawer covers the whole application width but lets the "
@@ -480,7 +480,7 @@ msgstr ""
 "인라인 아래쪽 서랍은 앱 전체 폭을 덮지만 덮이지 않은 영역도 계속 사용할 수 있"
 "습니다."
 
-#: contents/ui/gallery/DrawerGallery.qml:101
+#: contents/ui/gallery/DrawerGallery.qml:100
 msgctxt "DrawerGallery|"
 msgid ""
 "A modal top drawer will span for the whole application window width and will "
@@ -490,7 +490,7 @@ msgstr ""
 "모달 위쪽 서랍은 전체 앱 창 너비로 펼쳐지며 앱의 나머지 부분을 어둡게 합니"
 "다. 어두워진 영역을 클릭하면 서랍을 닫습니다."
 
-#: contents/ui/gallery/DrawerGallery.qml:120
+#: contents/ui/gallery/DrawerGallery.qml:119
 msgctxt "DrawerGallery|"
 msgid ""
 "An inline top drawer covers the whole application width but lets the "
@@ -499,22 +499,22 @@ msgstr ""
 "인라인 위쪽 서랍은 앱 전체 폭을 덮지만 덮이지 않은 영역도 계속 사용할 수 있습"
 "니다."
 
-#: contents/ui/gallery/DrawerGallery.qml:135
+#: contents/ui/gallery/DrawerGallery.qml:134
 msgctxt "DrawerGallery|"
 msgid "Left Global Drawer"
 msgstr "왼쪽 전역 서랍"
 
-#: contents/ui/gallery/DrawerGallery.qml:140
+#: contents/ui/gallery/DrawerGallery.qml:139
 msgctxt "DrawerGallery|"
 msgid "Right Context Drawer"
 msgstr "오른쪽 콘텍스트 서랍"
 
-#: contents/ui/gallery/DrawerGallery.qml:146
+#: contents/ui/gallery/DrawerGallery.qml:145
 msgctxt "DrawerGallery|"
 msgid "Modal Bottom Drawer"
 msgstr "모달 아래쪽 서랍"
 
-#: contents/ui/gallery/DrawerGallery.qml:156
+#: contents/ui/gallery/DrawerGallery.qml:155
 msgctxt "DrawerGallery|"
 msgid "Modal Top Drawer"
 msgstr "모달 위쪽 서랍"
@@ -529,12 +529,12 @@ msgctxt "FormLayoutGallery|"
 msgid "Twin Layout:"
 msgstr "쌍둥이 레이아웃:"
 
-#: contents/ui/gallery/InlineMessagesGallery.qml:32
+#: contents/ui/gallery/InlineMessagesGallery.qml:31
 msgctxt "InlineMessagesGallery|"
 msgid "Inline Messages"
 msgstr "인라인 메시지"
 
-#: contents/ui/gallery/InlineMessagesGallery.qml:47
+#: contents/ui/gallery/InlineMessagesGallery.qml:46
 msgctxt "InlineMessagesGallery|"
 msgid ""
 "This is an informational inline message (the default type). Use it for "
@@ -543,7 +543,7 @@ msgstr ""
 "이것은 정보성 인라인 메시지입니다(기본 형식). 결과를 알려 주거나 설명이 필요"
 "할 때 사용하십시오."
 
-#: contents/ui/gallery/InlineMessagesGallery.qml:57
+#: contents/ui/gallery/InlineMessagesGallery.qml:56
 msgctxt "InlineMessagesGallery|"
 msgid ""
 "This is a positive inline message. Use it for example to announce a "
@@ -552,7 +552,7 @@ msgstr ""
 "이것은 긍정적 인라인 메시지입니다. 성공적인 결과나 작업의 성공적인 완료를 알"
 "릴 때 사용하십시오."
 
-#: contents/ui/gallery/InlineMessagesGallery.qml:67
+#: contents/ui/gallery/InlineMessagesGallery.qml:66
 msgctxt "InlineMessagesGallery|"
 msgid ""
 "This is a warning inline message. Use it for example to provide critical "
@@ -561,7 +561,7 @@ msgstr ""
 "이것은 경고 인라인 메시지입니다. 중요한 안내나 작동하지 않는 무언가를 안내할 "
 "때 사용하십시오."
 
-#: contents/ui/gallery/InlineMessagesGallery.qml:77
+#: contents/ui/gallery/InlineMessagesGallery.qml:76
 msgctxt "InlineMessagesGallery|"
 msgid ""
 "This is an error inline message. Use it for example to announce something "
@@ -570,12 +570,12 @@ msgstr ""
 "이것은 오류 인라인 메시지입니다. 무언가 잘못되었거나 입력값이 처리되지 않을 "
 "때 사용하십시오."
 
-#: contents/ui/gallery/InlineMessagesGallery.qml:91
+#: contents/ui/gallery/InlineMessagesGallery.qml:90
 msgctxt "InlineMessagesGallery|"
 msgid "Inline messages can optionally have a custom icon set."
 msgstr "인라인 메시지에는 사용자 정의 아이콘을 설정할 수 있습니다."
 
-#: contents/ui/gallery/InlineMessagesGallery.qml:99
+#: contents/ui/gallery/InlineMessagesGallery.qml:98
 msgctxt "InlineMessagesGallery|"
 msgid ""
 "You can use rich text in inline messages and optionally handle clicks on "
@@ -586,139 +586,139 @@ msgstr ""
 "릭 가능한 링크를 추가할 수도 있습니다: <a href=\"https://www.kde.org"
 "\">https://www.kde.org/<a/>"
 
-#: contents/ui/gallery/InlineMessagesGallery.qml:111
+#: contents/ui/gallery/InlineMessagesGallery.qml:110
 msgctxt "InlineMessagesGallery|"
 msgid "Inline messages can have an optional close button."
 msgstr "인라인 메시지에는 닫기 단추를 표시할 수 있습니다(선택)."
 
-#: contents/ui/gallery/InlineMessagesGallery.qml:129
+#: contents/ui/gallery/InlineMessagesGallery.qml:128
 msgctxt "InlineMessagesGallery|"
 msgid "Add text"
 msgstr "텍스트 추가"
 
-#: contents/ui/gallery/InlineMessagesGallery.qml:139
+#: contents/ui/gallery/InlineMessagesGallery.qml:138
 msgctxt "InlineMessagesGallery|"
 msgid "Reset text"
 msgstr "텍스트 초기화"
 
-#: contents/ui/gallery/InlineMessagesGallery.qml:161
+#: contents/ui/gallery/InlineMessagesGallery.qml:160
 msgctxt "InlineMessagesGallery|"
 msgid "Inline messages are initially hidden and animate when revealed. Try it!"
 msgstr ""
 "인라인 메시지는 처음에는 숨겨져 있고 나타날 때에는 애니메이션을 사용합니다. "
 "시도해 보세요!"
 
-#: contents/ui/gallery/InlineMessagesGallery.qml:170
+#: contents/ui/gallery/InlineMessagesGallery.qml:169
 msgctxt "InlineMessagesGallery|"
 msgid "Show additional message"
 msgstr "추가 메시지 표시"
 
-#: contents/ui/gallery/InlineMessagesGallery.qml:186
+#: contents/ui/gallery/InlineMessagesGallery.qml:185
 msgctxt "InlineMessagesGallery|"
 msgid "Boo!"
 msgstr "우우!"
 
-#: contents/ui/gallery/InlineMessagesGallery.qml:190
+#: contents/ui/gallery/InlineMessagesGallery.qml:189
 msgctxt "InlineMessagesGallery|"
 msgid "Shush"
 msgstr "쉿"
 
-#: contents/ui/gallery/ListViewGallery.qml:41
+#: contents/ui/gallery/ListViewGallery.qml:45
 msgctxt "ListViewGallery|"
 msgid "Main Action Text"
 msgstr "주 동작 텍스트"
 
-#: contents/ui/gallery/ListViewGallery.qml:52
+#: contents/ui/gallery/ListViewGallery.qml:56
 msgctxt "ListViewGallery|"
 msgid "Footer:"
 msgstr "바닥글:"
 
-#: contents/ui/gallery/ListViewGallery.qml:67
+#: contents/ui/gallery/ListViewGallery.qml:71
 #, qt-format
 msgctxt "ListViewGallery|"
 msgid "Item in sheet %n"
 msgid_plural "Item in sheet %n"
 msgstr[0] "시트 %n의 항목"
 
-#: contents/ui/gallery/ListViewGallery.qml:114
+#: contents/ui/gallery/ListViewGallery.qml:119
 msgctxt "ListViewGallery|"
 msgid "Action 1"
 msgstr "동작 1"
 
-#: contents/ui/gallery/ListViewGallery.qml:116
-#: contents/ui/gallery/ListViewGallery.qml:123
+#: contents/ui/gallery/ListViewGallery.qml:121
+#: contents/ui/gallery/ListViewGallery.qml:128
 #, qt-format
 msgctxt "ListViewGallery|"
 msgid "%1: %2 clicked"
 msgstr "%1: %2 클릭됨"
 
-#: contents/ui/gallery/ListViewGallery.qml:121
+#: contents/ui/gallery/ListViewGallery.qml:126
 msgctxt "ListViewGallery|"
 msgid "Action 2"
 msgstr "동작 2"
 
-#: contents/ui/gallery/ListViewGallery.qml:144
+#: contents/ui/gallery/ListViewGallery.qml:149
 #, qt-format
 msgctxt "ListViewGallery|"
 msgid "Item %1"
 msgstr "항목 %1"
 
-#: contents/ui/gallery/ListViewGallery.qml:162
+#: contents/ui/gallery/ListViewGallery.qml:167
 #, qt-format
 msgctxt "ListViewGallery|"
 msgid "Section %1"
 msgstr "섹션 %1"
 
-#: contents/ui/gallery/MetricsGallery.qml:42
+#: contents/ui/gallery/MetricsGallery.qml:48
 msgctxt "MetricsGallery|"
 msgid "Heading 1"
 msgstr "머리글 1"
 
-#: contents/ui/gallery/MetricsGallery.qml:47
-#: contents/ui/gallery/MetricsGallery.qml:57
-#: contents/ui/gallery/MetricsGallery.qml:67
-#: contents/ui/gallery/MetricsGallery.qml:77
+#: contents/ui/gallery/MetricsGallery.qml:53
+#: contents/ui/gallery/MetricsGallery.qml:63
+#: contents/ui/gallery/MetricsGallery.qml:73
+#: contents/ui/gallery/MetricsGallery.qml:83
 #, qt-format
 msgctxt "MetricsGallery|"
 msgid "%1 points"
 msgstr "%1포인트"
 
-#: contents/ui/gallery/MetricsGallery.qml:52
+#: contents/ui/gallery/MetricsGallery.qml:58
 msgctxt "MetricsGallery|"
 msgid "Heading 2"
 msgstr "머리글 2"
 
-#: contents/ui/gallery/MetricsGallery.qml:62
+#: contents/ui/gallery/MetricsGallery.qml:68
 msgctxt "MetricsGallery|"
 msgid "Heading 3"
 msgstr "머리글 3"
 
-#: contents/ui/gallery/MetricsGallery.qml:72
+#: contents/ui/gallery/MetricsGallery.qml:78
 msgctxt "MetricsGallery|"
 msgid "Heading 4"
 msgstr "머리글 4"
 
-#: contents/ui/gallery/MiscGallery.qml:72
+#: contents/ui/gallery/MiscGallery.qml:77
 msgctxt "MiscGallery|"
 msgid "Text Beside Icon"
 msgstr "아이콘 옆에 텍스트"
 
-#: contents/ui/gallery/MiscGallery.qml:87
+#: contents/ui/gallery/MiscGallery.qml:92
 msgctxt "MiscGallery|"
 msgid "Text Under Icon"
 msgstr "아이콘 밑에 텍스트"
 
-#: contents/ui/gallery/MiscGallery.qml:102
+#: contents/ui/gallery/MiscGallery.qml:107
 msgctxt "MiscGallery|"
 msgid "Text Only"
 msgstr "텍스트만"
 
-#: contents/ui/gallery/MiscGallery.qml:117
+#: contents/ui/gallery/MiscGallery.qml:122
 msgctxt "MiscGallery|"
 msgid "Icon Only"
 msgstr "아이콘만"
 
-#: contents/ui/gallery/MultipleColumnsGallery.qml:117
+#: contents/ui/gallery/MultipleColumnsGallery.qml:122
 msgctxt "MultipleColumnsGallery|"
 msgid "Pin page"
 msgstr "쪽 고정"
