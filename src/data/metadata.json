@@ -5,6 +5,7 @@
             {
                 "Email": "mart@kde.org",
                 "Name": "Marco Martin",
+                "Name[ca@valencia]": "Marco Martin",
                 "Name[ca]": "Marco Martin",
                 "Name[es]": "Marco Martin",
                 "Name[eu]": "Marco Martin",
@@ -24,6 +25,7 @@
         ],
         "Category": "Graphics",
         "Description": "Shows examples of Kirigami components and allows you to play with them",
+        "Description[ca@valencia]": "Mostra exemples de components de Kirigami i permet jugar-hi",
         "Description[ca]": "Mostra exemples de components del Kirigami i permet jugar-hi",
         "Description[es]": "Muestra ejemplos de componentes de Kirigami y le permite jugar con ellos",
         "Description[eu]": "Kirigami osagaien adibideak erakusten ditu eta haiekin jolasten uzten dizu",
