@@ -2,7 +2,7 @@
 # Frederik Schwarzer <schwarzer@kde.org>, 2022.
 msgid ""
 msgstr ""
-"Project-Id-Version: \n"
+"Project-Id-Version: kirigamigallery_qt\n"
 "PO-Revision-Date: 2022-06-15 11:12+0200\n"
 "Last-Translator: Frederik Schwarzer <schwarzer@kde.org>\n"
 "Language-Team: German <kde-i18n-de@kde.org>\n"
