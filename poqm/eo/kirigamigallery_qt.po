@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: kirigami-gallery\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2023-11-05 13:43+0100\n"
-"PO-Revision-Date: 2024-08-22 22:54+0200\n"
+"PO-Revision-Date: 2024-09-21 10:41+0200\n"
 "Last-Translator: Oliver Kellogg <olivermkellogg@gmail.com>\n"
 "Language-Team: Esperanto <kde-i18n-doc@kde.org>\n"
 "Language: eo\n"
@@ -337,7 +337,7 @@ msgstr "Elekti Numeron"
 #: contents/ui/gallery/DialogGallery.qml:127
 msgctxt "DialogGallery|"
 msgid "Subtitle text"
-msgstr ""
+msgstr "Subtitola teksto"
 
 #: contents/ui/gallery/DialogGallery.qml:157
 #: contents/ui/gallery/DialogGallery.qml:228
