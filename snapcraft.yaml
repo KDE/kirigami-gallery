@@ -6,7 +6,8 @@ name: kirigami-gallery
 confinement: strict
 grade: stable
 base: core22
-adopt-info: kirigami2.gallery
+adopt-info: kirigami2gallery
+version: 24.08.1
 apps:
   kirigami-gallery:
     extensions:
@@ -15,7 +16,7 @@ apps:
     desktop: usr/share/applications/org.kde.kirigami2.gallery.desktop
     command: usr/bin/kirigami2gallery
     plugs:
-      - audio-record
+      - home
 package-repositories:
   - type: apt
     components:
