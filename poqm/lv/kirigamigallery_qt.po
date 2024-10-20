@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"PO-Revision-Date: 2024-05-31 11:32+0300\n"
+"PO-Revision-Date: 2024-10-18 20:21+0300\n"
 "Last-Translator: Toms Trasuns <toms.trasuns@posteo.net>\n"
 "Language-Team: Latvian <kde-i18n-doc@kde.org>\n"
 "Language: lv\n"
@@ -12,7 +12,7 @@ msgstr ""
 "X-Qt-Contexts: true\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n != 0 ? 1 : "
 "2);\n"
-"X-Generator: Lokalize 24.02.2\n"
+"X-Generator: Lokalize 24.08.2\n"
 
 #: contents/ui/gallery/CardsLayoutGallery.qml:30
 msgctxt "CardsLayoutGallery|"
@@ -333,7 +333,7 @@ msgstr "Atlasiet skaitli"
 #: contents/ui/gallery/DialogGallery.qml:127
 msgctxt "DialogGallery|"
 msgid "Subtitle text"
-msgstr ""
+msgstr "Apakšvirsraksta teksts"
 
 #: contents/ui/gallery/DialogGallery.qml:157
 #: contents/ui/gallery/DialogGallery.qml:228
@@ -418,12 +418,9 @@ msgid "Selection Dialog"
 msgstr "Atlases lodziņš"
 
 #: contents/ui/gallery/DialogGallery.qml:218
-#, fuzzy
-#| msgctxt "DialogGallery|"
-#| msgid "Selection Dialog"
 msgctxt "DialogGallery|"
 msgid "Selection Dialog with subtitles"
-msgstr "Atlases lodziņš"
+msgstr "Atlases lodziņš ar apakšvirsrakstiem"
 
 #: contents/ui/gallery/DialogGallery.qml:223
 msgctxt "DialogGallery|"
