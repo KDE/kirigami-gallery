@@ -1,8 +1,8 @@
-# Tommi Nieminen <translator@legisign.org>, 2020, 2022, 2023.
+# SPDX-FileCopyrightText: 2020, 2022, 2023, 2024 Tommi Nieminen <translator@legisign.org>
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"PO-Revision-Date: 2023-06-02 20:08+0300\n"
+"PO-Revision-Date: 2024-11-06 17:28+0200\n"
 "Last-Translator: Tommi Nieminen <translator@legisign.org>\n"
 "Language-Team: Finnish <kde-i18n-doc@kde.org>\n"
 "Language: fi\n"
@@ -10,7 +10,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Lokalize 23.04.1\n"
+"X-Generator: Lokalize 23.08.5\n"
 "X-Qt-Contexts: true\n"
 
 #: contents/ui/gallery/CardsLayoutGallery.qml:30
@@ -21,7 +21,7 @@ msgstr "Korttien asettelu"
 #: contents/ui/gallery/CardsLayoutGallery.qml:43
 msgctxt "CardsLayoutGallery|"
 msgid "AbstractCard"
-msgstr ""
+msgstr "AbstraktiKortti"
 
 #: contents/ui/gallery/CardsLayoutGallery.qml:48
 msgctxt "CardsLayoutGallery|"
@@ -31,6 +31,10 @@ msgid ""
 "the Header or Footer properties. In this case a Kirigami.Heading is its "
 "header and a Label with WordWrap is the contentItem."
 msgstr ""
+"AbstraktiKortti on kortin yksinkertaisin muoto. Se on vain varjostettu "
+"nelikulmio, joka voi sisältää mitä tahansa. Sen ylä- ja "
+"alatunnisteominaisuuksiin voi myös osoittaa kohteita. Tällöin Kirigami."
+"Heading on ylätunniste ja sisältö on rivitetty selite."
 
 #: contents/ui/gallery/CardsLayoutGallery.qml:56
 msgctxt "CardsLayoutGallery|"
@@ -42,6 +46,12 @@ msgid ""
 "show any kind of visual feedback. It is recommended to set it to true if you "
 "plan to make the card reactive on any kind of click."
 msgstr ""
+"Tämä on AbstraktiKortti, jossa on rivitetty selite eikä mitään muuta: se on "
+"korttien yksinkertaisin esiintymismuoto.\n"
+"AbstraktiKortti pystyy napsauttamaan itseään tavallisella onClicked-"
+"signaalinkäsittelijällä, ja showClickFeedback-ominaisuudella voi tarkistaa, "
+"tulisiko napsautuksen antaa visuaalinen palaute. Ominaisuus on suositeltavaa "
+"asettaa käyttöön, jos kortin haluaa reagoivan mihin tahansa napsautukseen."
 
 #: contents/ui/gallery/CardsLayoutGallery.qml:58
 msgctxt "CardsLayoutGallery|"
@@ -139,7 +149,7 @@ msgstr ""
 #: contents/ui/gallery/CardsLayoutGallery.qml:186
 msgctxt "CardsLayoutGallery|"
 msgid "Custom footer"
-msgstr ""
+msgstr "Mukautettu alatunniste"
 
 #: contents/ui/gallery/CardsLayoutGallery.qml:189
 msgctxt "CardsLayoutGallery|"
@@ -176,6 +186,8 @@ msgid ""
 "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id risus id "
 "augue euismod accumsan."
 msgstr ""
+"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id risus id "
+"augue euismod accumsan."
 
 #: contents/ui/gallery/CardsListViewGallery.qml:81
 msgctxt "CardsListViewGallery|"
@@ -208,7 +220,7 @@ msgstr "Valittavissa olevat luettelokohdat"
 #: contents/ui/gallery/ColorsGallery.qml:31
 msgctxt "ColorsGallery|"
 msgid "Colors"
-msgstr ""
+msgstr "Värit"
 
 #: contents/ui/gallery/components/InfoSheet.qml:50
 msgctxt "InfoSheet|"
@@ -216,9 +228,6 @@ msgid "HIG…"
 msgstr ""
 
 #: contents/ui/gallery/components/InfoSheet.qml:55
-#, fuzzy
-#| msgctxt "InfoSheet|"
-#| msgid "Source code..."
 msgctxt "InfoSheet|"
 msgid "Source code…"
 msgstr "Lähdekoodi…"
@@ -226,12 +235,9 @@ msgstr "Lähdekoodi…"
 #: contents/ui/gallery/components/InfoSheet.qml:60
 msgctxt "InfoSheet|"
 msgid "API…"
-msgstr ""
+msgstr "API…"
 
 #: contents/ui/gallery/components/InfoSheetAction.qml:16
-#, fuzzy
-#| msgctxt "ActionToolBarGallery|"
-#| msgid "Info"
 msgctxt "InfoSheetAction|"
 msgid "Info"
 msgstr "Tietoa"
@@ -252,12 +258,9 @@ msgid "Cancel"
 msgstr "Peru"
 
 #: contents/ui/gallery/DialogGallery.qml:74
-#, fuzzy
-#| msgctxt "DialogGallery|"
-#| msgid "Folder name..."
 msgctxt "DialogGallery|"
 msgid "Folder name:"
-msgstr "Kansion nimi…"
+msgstr "Kansion nimi:"
 
 #: contents/ui/gallery/DialogGallery.qml:82
 msgctxt "DialogGallery|"
@@ -313,18 +316,20 @@ msgstr "Valitse luku"
 #: contents/ui/gallery/DialogGallery.qml:127
 msgctxt "DialogGallery|"
 msgid "Subtitle text"
-msgstr ""
+msgstr "Alaotsikon teksti"
 
 #: contents/ui/gallery/DialogGallery.qml:157
 #: contents/ui/gallery/DialogGallery.qml:228
 msgctxt "DialogGallery|"
 msgid "No Footer Dialog"
-msgstr ""
+msgstr "Ei alatunnisteikkunaa"
 
 #: contents/ui/gallery/DialogGallery.qml:158
 msgctxt "DialogGallery|"
 msgid "This dialog has no footer buttons.<br/>It also has no close button."
 msgstr ""
+"Tässä ikkunassa ei ole alatunnistepainikkeita.<br/>Myös sulkemispainike "
+"puuttuu."
 
 #: contents/ui/gallery/DialogGallery.qml:166
 msgctxt "DialogGallery|"
@@ -398,12 +403,9 @@ msgid "Selection Dialog"
 msgstr "Valintaikkuna"
 
 #: contents/ui/gallery/DialogGallery.qml:218
-#, fuzzy
-#| msgctxt "DialogGallery|"
-#| msgid "Selection Dialog"
 msgctxt "DialogGallery|"
 msgid "Selection Dialog with subtitles"
-msgstr "Valintaikkuna"
+msgstr "Valintaikkuna alaotsikoin"
 
 #: contents/ui/gallery/DialogGallery.qml:223
 msgctxt "DialogGallery|"
@@ -418,7 +420,7 @@ msgstr "Valikkoikkuna"
 #: contents/ui/gallery/DrawerGallery.qml:30
 msgctxt "DrawerGallery|"
 msgid "Drawers"
-msgstr ""
+msgstr "Laatikot"
 
 #: contents/ui/gallery/DrawerGallery.qml:38
 msgctxt "DrawerGallery|"
@@ -452,6 +454,8 @@ msgid ""
 "will darken the rest of the app. Clicking on a darkened will dismiss the "
 "drawer."
 msgstr ""
+"Modaalinen alalaatikko laajenee sovellusikkunan koko leveyteen ja tummentaa "
+"muun sovelluksen. Laatikko sulkeutuu napsauttamalla tummaa osaa."
 
 #: contents/ui/gallery/DrawerGallery.qml:66
 #: contents/ui/gallery/DrawerGallery.qml:85
@@ -475,6 +479,8 @@ msgid ""
 "darken the rest of the app. Clicking on the darkened area will dismiss the "
 "drawer."
 msgstr ""
+"Modaalinen ylälaatikko laajenee sovellusikkunan koko leveyteen ja tummentaa "
+"muun sovelluksen. Laatikko sulkeutuu napsauttamalla tummaa osaa."
 
 #: contents/ui/gallery/DrawerGallery.qml:119
 msgctxt "DrawerGallery|"
@@ -486,22 +492,22 @@ msgstr ""
 #: contents/ui/gallery/DrawerGallery.qml:134
 msgctxt "DrawerGallery|"
 msgid "Left Global Drawer"
-msgstr ""
+msgstr "Vasen yleinen laatikko"
 
 #: contents/ui/gallery/DrawerGallery.qml:139
 msgctxt "DrawerGallery|"
 msgid "Right Context Drawer"
-msgstr ""
+msgstr "Oikea kontekstilaatikko"
 
 #: contents/ui/gallery/DrawerGallery.qml:145
 msgctxt "DrawerGallery|"
 msgid "Modal Bottom Drawer"
-msgstr ""
+msgstr "Modaalinen alalaatikko"
 
 #: contents/ui/gallery/DrawerGallery.qml:155
 msgctxt "DrawerGallery|"
 msgid "Modal Top Drawer"
-msgstr ""
+msgstr "Modaalinen ylälaatikko"
 
 #: contents/ui/gallery/FormLayoutGallery.qml:67
 msgctxt "FormLayoutGallery|"
@@ -597,64 +603,49 @@ msgstr "Hys"
 #: contents/ui/gallery/ListViewGallery.qml:45
 msgctxt "ListViewGallery|"
 msgid "Main Action Text"
-msgstr ""
+msgstr "Päätapahtuman teksti"
 
 #: contents/ui/gallery/ListViewGallery.qml:56
-#, fuzzy
-#| msgctxt "OverlaySheetGallery|"
-#| msgid "Footer:"
 msgctxt "ListViewGallery|"
 msgid "Footer:"
-msgstr "Alatunniste"
+msgstr "Alatunniste:"
 
 #: contents/ui/gallery/ListViewGallery.qml:71
-#, fuzzy, qt-format
-#| msgctxt "SelectionControlsGallery|"
-#| msgid "Item not selected"
+#, qt-format
 msgctxt "ListViewGallery|"
 msgid "Item in sheet %n"
 msgid_plural "Item in sheet %n"
-msgstr[0] "Kohdetta ei ole valittu"
-msgstr[1] "Kohdetta ei ole valittu"
+msgstr[0] "Kohde arkilla %n"
+msgstr[1] "Kohde arkilla %n"
 
 #: contents/ui/gallery/ListViewGallery.qml:119
-#, fuzzy
-#| msgctxt "DrawerGallery|"
-#| msgid "Action 1"
 msgctxt "ListViewGallery|"
 msgid "Action 1"
 msgstr "Toiminto 1"
 
 #: contents/ui/gallery/ListViewGallery.qml:121
 #: contents/ui/gallery/ListViewGallery.qml:128
-#, fuzzy, qt-format
-#| msgctxt "CardsLayoutGallery|"
-#| msgid "Card clicked"
+#, qt-format
 msgctxt "ListViewGallery|"
 msgid "%1: %2 clicked"
-msgstr "Korttia napsautettiin"
+msgstr "%1: napsautettiin %2"
 
 #: contents/ui/gallery/ListViewGallery.qml:126
-#, fuzzy
-#| msgctxt "CardsLayoutGallery|"
-#| msgid "Action2"
 msgctxt "ListViewGallery|"
 msgid "Action 2"
-msgstr "Toiminto2"
+msgstr "Toiminto 2"
 
 #: contents/ui/gallery/ListViewGallery.qml:149
 #, qt-format
 msgctxt "ListViewGallery|"
 msgid "Item %1"
-msgstr ""
+msgstr "Kohde %1"
 
 #: contents/ui/gallery/ListViewGallery.qml:167
-#, fuzzy, qt-format
-#| msgctxt "DrawerGallery|"
-#| msgid "Action 1"
+#, qt-format
 msgctxt "ListViewGallery|"
 msgid "Section %1"
-msgstr "Toiminto 1"
+msgstr "Osio %1"
 
 #: contents/ui/gallery/MetricsGallery.qml:48
 msgctxt "MetricsGallery|"
@@ -844,7 +835,7 @@ msgstr "Kirigami-galleria"
 #: contents/ui/MainPage.qml:40
 msgctxt "MainPage|"
 msgid "Home"
-msgstr ""
+msgstr "Koti"
 
 #~ msgctxt "CardsLayoutGallery|"
 #~ msgid "Info"
