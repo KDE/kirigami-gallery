@@ -37,7 +37,6 @@ if(NOT ANDROID)
 endif()
 
 ecm_find_qmlmodule(org.kde.kitemmodels 1.0)
-ecm_find_qmlmodule(org.kde.kirigamiaddons.formcard 1.0)
 
 add_definitions(-DQT_NO_URL_CAST_FROM_STRING)
 remove_definitions(-DQT_NO_CAST_FROM_ASCII)
