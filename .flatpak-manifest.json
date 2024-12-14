@@ -10,29 +10,6 @@
 
     "modules": [
         {
-            "name": "kirigami-addons",
-            "buildsystem": "cmake-ninja",
-            "builddir": true,
-            "cleanup": [
-                 "/include",
-                 "/lib/cmake",
-                 "/lib/pkgconfig",
-                 "/share/kdevappwizard"
-            ],
-            "sources": [
-                {
-                    "type": "git",
-                    "url": "https://invent.kde.org/libraries/kirigami-addons.git",
-                    "tag": "v1.4.0",
-                    "x-checker-data": {
-                        "type": "git",
-                        "tag-pattern": "^v([\\d.]+)$"
-                    },
-                    "commit": "1cd7a1cf5c96e365aa01c08544ff7784fd3c8d2d"
-                }
-            ]
-        },
-        {
             "name": "kirigamigallery",
             "buildsystem": "cmake-ninja",
             "builddir": true,
