@@ -31,6 +31,7 @@
   <name xml:lang="pt-BR">Galeria do Kirigami</name>
   <name xml:lang="ro">Galerie Kirigami</name>
   <name xml:lang="ru">Галерея Kirigami</name>
+  <name xml:lang="sa">किरिगामी गैलरी</name>
   <name xml:lang="sk">Galéria Kirigami</name>
   <name xml:lang="sl">Kirigami Gallery</name>
   <name xml:lang="sv">Kirigami-galleri</name>
@@ -68,6 +69,7 @@
   <summary xml:lang="pt-BR">Mostra exemplos dos componentes do Kirigami e permite-lhe jogar com eles</summary>
   <summary xml:lang="ro">Arată exemple de componente Kirigami și vă permite să interacționați cu ele</summary>
   <summary xml:lang="ru">Показывает примеры компонентов Kirigami и позволяет настраивать их</summary>
+  <summary xml:lang="sa">किरिगामी घटकानां उदाहरणानि दर्शयति, तेषां सह क्रीडितुं च शक्नोति</summary>
   <summary xml:lang="sk">Zobrazí príklady Kirigami komponentov a umožní vám hrať sa s nimi</summary>
   <summary xml:lang="sl">Prikaže primere komponent Kirigami in omogoča igranje z njimi</summary>
   <summary xml:lang="sv">Visar exempel på komponenter i Kirigami och låter dig leka med dem</summary>
@@ -107,6 +109,7 @@
     <p xml:lang="pt-BR">Veja exemplos dos componentes do Kirigami</p>
     <p xml:lang="ro">Vedeți exemple de componente Kirigami</p>
     <p xml:lang="ru">Просмотр примеров компонентов Kirigami</p>
+    <p xml:lang="sa">किरिगामी घटकानां उदाहरणानि पश्यन्तु</p>
     <p xml:lang="sk">Zobraziť príklady komponentov Kirigami</p>
     <p xml:lang="sl">Oglejte si primere komponent Kirigami</p>
     <p xml:lang="sv">Visa exempel på komponenter i Kirigami</p>
