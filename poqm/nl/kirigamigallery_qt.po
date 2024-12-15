@@ -261,176 +261,179 @@ msgctxt "InfoSheetAction|"
 msgid "Info"
 msgstr "Informatie"
 
-#: contents/ui/gallery/DialogGallery.qml:33
+#: contents/ui/gallery/DialogGallery.qml:32
 msgctxt "DialogGallery|"
 msgid "Dialogs"
 msgstr "Dialogen"
 
-#: contents/ui/gallery/DialogGallery.qml:57
+#: contents/ui/gallery/DialogGallery.qml:56
 msgctxt "DialogGallery|"
 msgid "Create Folder"
 msgstr "Map aanmaken"
 
-#: contents/ui/gallery/DialogGallery.qml:65
+#: contents/ui/gallery/DialogGallery.qml:64
 msgctxt "DialogGallery|"
 msgid "Cancel"
 msgstr "Annuleren"
 
-#: contents/ui/gallery/DialogGallery.qml:74
+#: contents/ui/gallery/DialogGallery.qml:73
+#, fuzzy
+#| msgctxt "DialogGallery|"
+#| msgid "Folder name:"
 msgctxt "DialogGallery|"
-msgid "Folder name:"
+msgid "Folder name..."
 msgstr "Mapnaam:"
 
-#: contents/ui/gallery/DialogGallery.qml:82
+#: contents/ui/gallery/DialogGallery.qml:79
 msgctxt "DialogGallery|"
 msgid "Alarm Snooze Length"
 msgstr "Lengte van dutten"
 
-#: contents/ui/gallery/DialogGallery.qml:91
+#: contents/ui/gallery/DialogGallery.qml:88
 msgctxt "DialogGallery|"
 msgid "1 minute"
 msgstr "1 minuut"
 
-#: contents/ui/gallery/DialogGallery.qml:92
+#: contents/ui/gallery/DialogGallery.qml:89
 msgctxt "DialogGallery|"
 msgid "2 minutes"
 msgstr "2 minuten"
 
-#: contents/ui/gallery/DialogGallery.qml:93
+#: contents/ui/gallery/DialogGallery.qml:90
 msgctxt "DialogGallery|"
 msgid "3 minutes"
 msgstr "3 minuten"
 
-#: contents/ui/gallery/DialogGallery.qml:94
+#: contents/ui/gallery/DialogGallery.qml:91
 msgctxt "DialogGallery|"
 msgid "4 minutes"
 msgstr "4 minuten"
 
-#: contents/ui/gallery/DialogGallery.qml:95
+#: contents/ui/gallery/DialogGallery.qml:92
 msgctxt "DialogGallery|"
 msgid "5 minutes"
 msgstr "5 minuten"
 
-#: contents/ui/gallery/DialogGallery.qml:96
+#: contents/ui/gallery/DialogGallery.qml:93
 msgctxt "DialogGallery|"
 msgid "10 minutes"
 msgstr "10 minuten"
 
-#: contents/ui/gallery/DialogGallery.qml:97
+#: contents/ui/gallery/DialogGallery.qml:94
 msgctxt "DialogGallery|"
 msgid "30 minutes"
 msgstr "30 minuten"
 
-#: contents/ui/gallery/DialogGallery.qml:98
+#: contents/ui/gallery/DialogGallery.qml:95
 msgctxt "DialogGallery|"
 msgid "1 hour"
 msgstr "1 uur"
 
-#: contents/ui/gallery/DialogGallery.qml:120
-#: contents/ui/gallery/DialogGallery.qml:137
+#: contents/ui/gallery/DialogGallery.qml:117
+#: contents/ui/gallery/DialogGallery.qml:134
 msgctxt "DialogGallery|"
 msgid "Select Number"
 msgstr "Aantal selecteren"
 
-#: contents/ui/gallery/DialogGallery.qml:127
+#: contents/ui/gallery/DialogGallery.qml:124
 msgctxt "DialogGallery|"
 msgid "Subtitle text"
 msgstr "Ondertiteltekst"
 
-#: contents/ui/gallery/DialogGallery.qml:157
-#: contents/ui/gallery/DialogGallery.qml:228
+#: contents/ui/gallery/DialogGallery.qml:154
+#: contents/ui/gallery/DialogGallery.qml:225
 msgctxt "DialogGallery|"
 msgid "No Footer Dialog"
 msgstr "Geen voettekstdialoog"
 
-#: contents/ui/gallery/DialogGallery.qml:158
+#: contents/ui/gallery/DialogGallery.qml:155
 msgctxt "DialogGallery|"
 msgid "This dialog has no footer buttons.<br/>It also has no close button."
 msgstr ""
 "Deze dialoog heeft geen voettekstknoppen.<br/>Het heeft ook geen sluitknop."
 
-#: contents/ui/gallery/DialogGallery.qml:166
+#: contents/ui/gallery/DialogGallery.qml:163
 msgctxt "DialogGallery|"
 msgid "Track Options"
 msgstr "Trackopties"
 
-#: contents/ui/gallery/DialogGallery.qml:171
+#: contents/ui/gallery/DialogGallery.qml:168
 msgctxt "DialogGallery|Start playback of the selected track"
 msgid "Play"
 msgstr "Afspelen"
 
-#: contents/ui/gallery/DialogGallery.qml:172
+#: contents/ui/gallery/DialogGallery.qml:169
 msgctxt "DialogGallery|"
 msgid "Start playback of the selected track"
 msgstr "Met afspelen van de geselecteerde track beginnen"
 
-#: contents/ui/gallery/DialogGallery.qml:177
+#: contents/ui/gallery/DialogGallery.qml:174
 msgctxt "DialogGallery|Show the file for this song in the file manager"
 msgid "Show in folder"
 msgstr "In map tonen"
 
-#: contents/ui/gallery/DialogGallery.qml:178
+#: contents/ui/gallery/DialogGallery.qml:175
 msgctxt "DialogGallery|"
 msgid "Show the file for this song in the file manager"
 msgstr "Het bestand voor deze song in de bestandsbeheerder tonen"
 
-#: contents/ui/gallery/DialogGallery.qml:182
+#: contents/ui/gallery/DialogGallery.qml:179
 msgctxt "DialogGallery|Show track metadata"
 msgid "View details"
 msgstr "Details bekijken"
 
-#: contents/ui/gallery/DialogGallery.qml:183
+#: contents/ui/gallery/DialogGallery.qml:180
 msgctxt "DialogGallery|"
 msgid "Show track metadata"
 msgstr "Metagegevens van track tonen"
 
-#: contents/ui/gallery/DialogGallery.qml:187
+#: contents/ui/gallery/DialogGallery.qml:184
 msgctxt ""
 "DialogGallery|Add the track to the queue, right after the current track"
 msgid "Play next"
 msgstr "Volgende afspelen"
 
-#: contents/ui/gallery/DialogGallery.qml:188
+#: contents/ui/gallery/DialogGallery.qml:185
 msgctxt "DialogGallery|"
 msgid "Add the track to the queue, right after the current track"
 msgstr "De track aan de wachtrij toevoegen, direct na de huidige track"
 
-#: contents/ui/gallery/DialogGallery.qml:192
+#: contents/ui/gallery/DialogGallery.qml:189
 msgctxt "DialogGallery|Enqueue current track"
 msgid "Add to queue"
 msgstr "Aan wachtrij toevoegen"
 
-#: contents/ui/gallery/DialogGallery.qml:193
+#: contents/ui/gallery/DialogGallery.qml:190
 msgctxt "DialogGallery|"
 msgid "Enqueue current track"
 msgstr "Huidige track in de wachtrij zetten"
 
-#: contents/ui/gallery/DialogGallery.qml:203
+#: contents/ui/gallery/DialogGallery.qml:200
 msgctxt "DialogGallery|"
 msgid "Prompt Dialog"
 msgstr "Vragende dialoog"
 
-#: contents/ui/gallery/DialogGallery.qml:208
+#: contents/ui/gallery/DialogGallery.qml:205
 msgctxt "DialogGallery|"
 msgid "Text Prompt Dialog"
 msgstr "Tekst van vragende dialoog"
 
-#: contents/ui/gallery/DialogGallery.qml:213
+#: contents/ui/gallery/DialogGallery.qml:210
 msgctxt "DialogGallery|"
 msgid "Selection Dialog"
 msgstr "Selectiedialoog"
 
-#: contents/ui/gallery/DialogGallery.qml:218
+#: contents/ui/gallery/DialogGallery.qml:215
 msgctxt "DialogGallery|"
 msgid "Selection Dialog with subtitles"
 msgstr "Selectiedialoog met ondertitels"
 
-#: contents/ui/gallery/DialogGallery.qml:223
+#: contents/ui/gallery/DialogGallery.qml:220
 msgctxt "DialogGallery|"
 msgid "Scrollable Dialog"
 msgstr "Schuifbare dialoog"
 
-#: contents/ui/gallery/DialogGallery.qml:233
+#: contents/ui/gallery/DialogGallery.qml:230
 msgctxt "DialogGallery|"
 msgid "Menu Dialog"
 msgstr "Menudialoog"

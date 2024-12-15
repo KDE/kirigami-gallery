@@ -232,168 +232,168 @@ msgctxt "InfoSheetAction|"
 msgid "Info"
 msgstr "Informații"
 
-#: contents/ui/gallery/DialogGallery.qml:33
+#: contents/ui/gallery/DialogGallery.qml:32
 msgctxt "DialogGallery|"
 msgid "Dialogs"
 msgstr "Dialoguri"
 
-#: contents/ui/gallery/DialogGallery.qml:57
+#: contents/ui/gallery/DialogGallery.qml:56
 msgctxt "DialogGallery|"
 msgid "Create Folder"
 msgstr "Creează dosar"
 
-#: contents/ui/gallery/DialogGallery.qml:65
+#: contents/ui/gallery/DialogGallery.qml:64
 msgctxt "DialogGallery|"
 msgid "Cancel"
 msgstr "Renunță"
 
-#: contents/ui/gallery/DialogGallery.qml:74
+#: contents/ui/gallery/DialogGallery.qml:73
 #, fuzzy
 #| msgctxt "DialogGallery|"
 #| msgid "Folder name..."
 msgctxt "DialogGallery|"
-msgid "Folder name:"
+msgid "Folder name..."
 msgstr "Denumire dosar…"
 
-#: contents/ui/gallery/DialogGallery.qml:82
+#: contents/ui/gallery/DialogGallery.qml:79
 msgctxt "DialogGallery|"
 msgid "Alarm Snooze Length"
 msgstr "Durata ațipirii alarmei"
 
-#: contents/ui/gallery/DialogGallery.qml:91
+#: contents/ui/gallery/DialogGallery.qml:88
 msgctxt "DialogGallery|"
 msgid "1 minute"
 msgstr "1 minut"
 
-#: contents/ui/gallery/DialogGallery.qml:92
+#: contents/ui/gallery/DialogGallery.qml:89
 msgctxt "DialogGallery|"
 msgid "2 minutes"
 msgstr "2 minute"
 
-#: contents/ui/gallery/DialogGallery.qml:93
+#: contents/ui/gallery/DialogGallery.qml:90
 msgctxt "DialogGallery|"
 msgid "3 minutes"
 msgstr "3 minute"
 
-#: contents/ui/gallery/DialogGallery.qml:94
+#: contents/ui/gallery/DialogGallery.qml:91
 msgctxt "DialogGallery|"
 msgid "4 minutes"
 msgstr "4 minute"
 
-#: contents/ui/gallery/DialogGallery.qml:95
+#: contents/ui/gallery/DialogGallery.qml:92
 msgctxt "DialogGallery|"
 msgid "5 minutes"
 msgstr "5 minute"
 
-#: contents/ui/gallery/DialogGallery.qml:96
+#: contents/ui/gallery/DialogGallery.qml:93
 msgctxt "DialogGallery|"
 msgid "10 minutes"
 msgstr "10 minute"
 
-#: contents/ui/gallery/DialogGallery.qml:97
+#: contents/ui/gallery/DialogGallery.qml:94
 msgctxt "DialogGallery|"
 msgid "30 minutes"
 msgstr "30 de minute"
 
-#: contents/ui/gallery/DialogGallery.qml:98
+#: contents/ui/gallery/DialogGallery.qml:95
 msgctxt "DialogGallery|"
 msgid "1 hour"
 msgstr "1 oră"
 
-#: contents/ui/gallery/DialogGallery.qml:120
-#: contents/ui/gallery/DialogGallery.qml:137
+#: contents/ui/gallery/DialogGallery.qml:117
+#: contents/ui/gallery/DialogGallery.qml:134
 msgctxt "DialogGallery|"
 msgid "Select Number"
 msgstr "Alegeți numărul"
 
-#: contents/ui/gallery/DialogGallery.qml:127
+#: contents/ui/gallery/DialogGallery.qml:124
 msgctxt "DialogGallery|"
 msgid "Subtitle text"
 msgstr ""
 
-#: contents/ui/gallery/DialogGallery.qml:157
-#: contents/ui/gallery/DialogGallery.qml:228
+#: contents/ui/gallery/DialogGallery.qml:154
+#: contents/ui/gallery/DialogGallery.qml:225
 msgctxt "DialogGallery|"
 msgid "No Footer Dialog"
 msgstr ""
 
-#: contents/ui/gallery/DialogGallery.qml:158
+#: contents/ui/gallery/DialogGallery.qml:155
 msgctxt "DialogGallery|"
 msgid "This dialog has no footer buttons.<br/>It also has no close button."
 msgstr ""
 
-#: contents/ui/gallery/DialogGallery.qml:166
+#: contents/ui/gallery/DialogGallery.qml:163
 msgctxt "DialogGallery|"
 msgid "Track Options"
 msgstr "Opțiuni piesă"
 
-#: contents/ui/gallery/DialogGallery.qml:171
+#: contents/ui/gallery/DialogGallery.qml:168
 msgctxt "DialogGallery|Start playback of the selected track"
 msgid "Play"
 msgstr "Redă"
 
-#: contents/ui/gallery/DialogGallery.qml:172
+#: contents/ui/gallery/DialogGallery.qml:169
 msgctxt "DialogGallery|"
 msgid "Start playback of the selected track"
 msgstr "Începe redarea piesei alese"
 
-#: contents/ui/gallery/DialogGallery.qml:177
+#: contents/ui/gallery/DialogGallery.qml:174
 msgctxt "DialogGallery|Show the file for this song in the file manager"
 msgid "Show in folder"
 msgstr "Arată în dosar"
 
-#: contents/ui/gallery/DialogGallery.qml:178
+#: contents/ui/gallery/DialogGallery.qml:175
 msgctxt "DialogGallery|"
 msgid "Show the file for this song in the file manager"
 msgstr ""
 
-#: contents/ui/gallery/DialogGallery.qml:182
+#: contents/ui/gallery/DialogGallery.qml:179
 msgctxt "DialogGallery|Show track metadata"
 msgid "View details"
 msgstr "Vezi detalii"
 
-#: contents/ui/gallery/DialogGallery.qml:183
+#: contents/ui/gallery/DialogGallery.qml:180
 msgctxt "DialogGallery|"
 msgid "Show track metadata"
 msgstr "Arată metadatele piesei"
 
-#: contents/ui/gallery/DialogGallery.qml:187
+#: contents/ui/gallery/DialogGallery.qml:184
 msgctxt ""
 "DialogGallery|Add the track to the queue, right after the current track"
 msgid "Play next"
 msgstr "Redă următoarea"
 
-#: contents/ui/gallery/DialogGallery.qml:188
+#: contents/ui/gallery/DialogGallery.qml:185
 msgctxt "DialogGallery|"
 msgid "Add the track to the queue, right after the current track"
 msgstr ""
 
-#: contents/ui/gallery/DialogGallery.qml:192
+#: contents/ui/gallery/DialogGallery.qml:189
 msgctxt "DialogGallery|Enqueue current track"
 msgid "Add to queue"
 msgstr "Adaugă la coadă"
 
-#: contents/ui/gallery/DialogGallery.qml:193
+#: contents/ui/gallery/DialogGallery.qml:190
 msgctxt "DialogGallery|"
 msgid "Enqueue current track"
 msgstr ""
 
-#: contents/ui/gallery/DialogGallery.qml:203
+#: contents/ui/gallery/DialogGallery.qml:200
 msgctxt "DialogGallery|"
 msgid "Prompt Dialog"
 msgstr ""
 
-#: contents/ui/gallery/DialogGallery.qml:208
+#: contents/ui/gallery/DialogGallery.qml:205
 msgctxt "DialogGallery|"
 msgid "Text Prompt Dialog"
 msgstr ""
 
-#: contents/ui/gallery/DialogGallery.qml:213
+#: contents/ui/gallery/DialogGallery.qml:210
 msgctxt "DialogGallery|"
 msgid "Selection Dialog"
 msgstr "Dialog de alegere"
 
-#: contents/ui/gallery/DialogGallery.qml:218
+#: contents/ui/gallery/DialogGallery.qml:215
 #, fuzzy
 #| msgctxt "DialogGallery|"
 #| msgid "Selection Dialog"
@@ -401,12 +401,12 @@ msgctxt "DialogGallery|"
 msgid "Selection Dialog with subtitles"
 msgstr "Dialog de alegere"
 
-#: contents/ui/gallery/DialogGallery.qml:223
+#: contents/ui/gallery/DialogGallery.qml:220
 msgctxt "DialogGallery|"
 msgid "Scrollable Dialog"
 msgstr "Dialog derulabil"
 
-#: contents/ui/gallery/DialogGallery.qml:233
+#: contents/ui/gallery/DialogGallery.qml:230
 msgctxt "DialogGallery|"
 msgid "Menu Dialog"
 msgstr "Dialog de meniu"

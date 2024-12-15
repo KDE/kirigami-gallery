@@ -260,177 +260,180 @@ msgctxt "InfoSheetAction|"
 msgid "Info"
 msgstr "ინფორმაცია"
 
-#: contents/ui/gallery/DialogGallery.qml:33
+#: contents/ui/gallery/DialogGallery.qml:32
 msgctxt "DialogGallery|"
 msgid "Dialogs"
 msgstr "დიალოგები"
 
-#: contents/ui/gallery/DialogGallery.qml:57
+#: contents/ui/gallery/DialogGallery.qml:56
 msgctxt "DialogGallery|"
 msgid "Create Folder"
 msgstr "საქაღალდის შექმნა"
 
-#: contents/ui/gallery/DialogGallery.qml:65
+#: contents/ui/gallery/DialogGallery.qml:64
 msgctxt "DialogGallery|"
 msgid "Cancel"
 msgstr "გაუქმება"
 
-#: contents/ui/gallery/DialogGallery.qml:74
+#: contents/ui/gallery/DialogGallery.qml:73
+#, fuzzy
+#| msgctxt "DialogGallery|"
+#| msgid "Folder name:"
 msgctxt "DialogGallery|"
-msgid "Folder name:"
+msgid "Folder name..."
 msgstr "საქაღალდის სახელი:"
 
-#: contents/ui/gallery/DialogGallery.qml:82
+#: contents/ui/gallery/DialogGallery.qml:79
 msgctxt "DialogGallery|"
 msgid "Alarm Snooze Length"
 msgstr "განგაშის ჩაჩუმების ხაგრძლივობა"
 
-#: contents/ui/gallery/DialogGallery.qml:91
+#: contents/ui/gallery/DialogGallery.qml:88
 msgctxt "DialogGallery|"
 msgid "1 minute"
 msgstr "1 წუთი"
 
-#: contents/ui/gallery/DialogGallery.qml:92
+#: contents/ui/gallery/DialogGallery.qml:89
 msgctxt "DialogGallery|"
 msgid "2 minutes"
 msgstr "2 წუთი"
 
-#: contents/ui/gallery/DialogGallery.qml:93
+#: contents/ui/gallery/DialogGallery.qml:90
 msgctxt "DialogGallery|"
 msgid "3 minutes"
 msgstr "3 წუთი"
 
-#: contents/ui/gallery/DialogGallery.qml:94
+#: contents/ui/gallery/DialogGallery.qml:91
 msgctxt "DialogGallery|"
 msgid "4 minutes"
 msgstr "4 წუთი"
 
-#: contents/ui/gallery/DialogGallery.qml:95
+#: contents/ui/gallery/DialogGallery.qml:92
 msgctxt "DialogGallery|"
 msgid "5 minutes"
 msgstr "5 წუთი"
 
-#: contents/ui/gallery/DialogGallery.qml:96
+#: contents/ui/gallery/DialogGallery.qml:93
 msgctxt "DialogGallery|"
 msgid "10 minutes"
 msgstr "10 წუთი"
 
-#: contents/ui/gallery/DialogGallery.qml:97
+#: contents/ui/gallery/DialogGallery.qml:94
 msgctxt "DialogGallery|"
 msgid "30 minutes"
 msgstr "30 წუთი"
 
-#: contents/ui/gallery/DialogGallery.qml:98
+#: contents/ui/gallery/DialogGallery.qml:95
 msgctxt "DialogGallery|"
 msgid "1 hour"
 msgstr "%1 საათი"
 
-#: contents/ui/gallery/DialogGallery.qml:120
-#: contents/ui/gallery/DialogGallery.qml:137
+#: contents/ui/gallery/DialogGallery.qml:117
+#: contents/ui/gallery/DialogGallery.qml:134
 msgctxt "DialogGallery|"
 msgid "Select Number"
 msgstr "აირჩიეთ რიცხვი"
 
-#: contents/ui/gallery/DialogGallery.qml:127
+#: contents/ui/gallery/DialogGallery.qml:124
 msgctxt "DialogGallery|"
 msgid "Subtitle text"
 msgstr "სუბტიტრის ტექსტი"
 
-#: contents/ui/gallery/DialogGallery.qml:157
-#: contents/ui/gallery/DialogGallery.qml:228
+#: contents/ui/gallery/DialogGallery.qml:154
+#: contents/ui/gallery/DialogGallery.qml:225
 msgctxt "DialogGallery|"
 msgid "No Footer Dialog"
 msgstr "ქვესართის ფანჯრის გარეშე"
 
-#: contents/ui/gallery/DialogGallery.qml:158
+#: contents/ui/gallery/DialogGallery.qml:155
 msgctxt "DialogGallery|"
 msgid "This dialog has no footer buttons.<br/>It also has no close button."
 msgstr ""
 "ამ ფანჯარას ქვესართის ღილაკები არ გააჩნია. <br/> ასევე არ გააჩნია დახურვის "
 "ღილაკიც."
 
-#: contents/ui/gallery/DialogGallery.qml:166
+#: contents/ui/gallery/DialogGallery.qml:163
 msgctxt "DialogGallery|"
 msgid "Track Options"
 msgstr "ტრეკის მორგება"
 
-#: contents/ui/gallery/DialogGallery.qml:171
+#: contents/ui/gallery/DialogGallery.qml:168
 msgctxt "DialogGallery|Start playback of the selected track"
 msgid "Play"
 msgstr "დაკვრა"
 
-#: contents/ui/gallery/DialogGallery.qml:172
+#: contents/ui/gallery/DialogGallery.qml:169
 msgctxt "DialogGallery|"
 msgid "Start playback of the selected track"
 msgstr "დაიწყეთ პირველი ტრეკის დაკვრა"
 
-#: contents/ui/gallery/DialogGallery.qml:177
+#: contents/ui/gallery/DialogGallery.qml:174
 msgctxt "DialogGallery|Show the file for this song in the file manager"
 msgid "Show in folder"
 msgstr "საქაღალდეში ჩვენება"
 
-#: contents/ui/gallery/DialogGallery.qml:178
+#: contents/ui/gallery/DialogGallery.qml:175
 msgctxt "DialogGallery|"
 msgid "Show the file for this song in the file manager"
 msgstr "ამ სიმღერის ფაილის ფაილების მმართველში ჩვენება"
 
-#: contents/ui/gallery/DialogGallery.qml:182
+#: contents/ui/gallery/DialogGallery.qml:179
 msgctxt "DialogGallery|Show track metadata"
 msgid "View details"
 msgstr "დეტალების ნახვა"
 
-#: contents/ui/gallery/DialogGallery.qml:183
+#: contents/ui/gallery/DialogGallery.qml:180
 msgctxt "DialogGallery|"
 msgid "Show track metadata"
 msgstr "ტრეკის მეტამონაცემების ჩვენება"
 
-#: contents/ui/gallery/DialogGallery.qml:187
+#: contents/ui/gallery/DialogGallery.qml:184
 msgctxt ""
 "DialogGallery|Add the track to the queue, right after the current track"
 msgid "Play next"
 msgstr "შემდეგის დაკვრა"
 
-#: contents/ui/gallery/DialogGallery.qml:188
+#: contents/ui/gallery/DialogGallery.qml:185
 msgctxt "DialogGallery|"
 msgid "Add the track to the queue, right after the current track"
 msgstr "ტრეკის რიგში ჩამატება მიმდინარე ტრეკის შემდეგ"
 
-#: contents/ui/gallery/DialogGallery.qml:192
+#: contents/ui/gallery/DialogGallery.qml:189
 msgctxt "DialogGallery|Enqueue current track"
 msgid "Add to queue"
 msgstr "რიგში ჩამატება"
 
-#: contents/ui/gallery/DialogGallery.qml:193
+#: contents/ui/gallery/DialogGallery.qml:190
 msgctxt "DialogGallery|"
 msgid "Enqueue current track"
 msgstr "მიმდინარე ტრეკის რიგში ჩამატება"
 
-#: contents/ui/gallery/DialogGallery.qml:203
+#: contents/ui/gallery/DialogGallery.qml:200
 msgctxt "DialogGallery|"
 msgid "Prompt Dialog"
 msgstr "კითხვის ფანჯარა"
 
-#: contents/ui/gallery/DialogGallery.qml:208
+#: contents/ui/gallery/DialogGallery.qml:205
 msgctxt "DialogGallery|"
 msgid "Text Prompt Dialog"
 msgstr "ტექსტური კითხვის ფანჯარა"
 
-#: contents/ui/gallery/DialogGallery.qml:213
+#: contents/ui/gallery/DialogGallery.qml:210
 msgctxt "DialogGallery|"
 msgid "Selection Dialog"
 msgstr "არჩევის ფანჯარა"
 
-#: contents/ui/gallery/DialogGallery.qml:218
+#: contents/ui/gallery/DialogGallery.qml:215
 msgctxt "DialogGallery|"
 msgid "Selection Dialog with subtitles"
 msgstr "მონიშვნის დიალოგი სუბტიტრებით"
 
-#: contents/ui/gallery/DialogGallery.qml:223
+#: contents/ui/gallery/DialogGallery.qml:220
 msgctxt "DialogGallery|"
 msgid "Scrollable Dialog"
 msgstr "დაქაჩვადი ფანჯარა"
 
-#: contents/ui/gallery/DialogGallery.qml:233
+#: contents/ui/gallery/DialogGallery.qml:230
 msgctxt "DialogGallery|"
 msgid "Menu Dialog"
 msgstr "მენიუს ფანჯარა"

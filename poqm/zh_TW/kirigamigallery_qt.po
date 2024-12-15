@@ -243,168 +243,168 @@ msgctxt "InfoSheetAction|"
 msgid "Info"
 msgstr "資訊"
 
-#: contents/ui/gallery/DialogGallery.qml:33
+#: contents/ui/gallery/DialogGallery.qml:32
 msgctxt "DialogGallery|"
 msgid "Dialogs"
 msgstr "對話框"
 
-#: contents/ui/gallery/DialogGallery.qml:57
+#: contents/ui/gallery/DialogGallery.qml:56
 msgctxt "DialogGallery|"
 msgid "Create Folder"
 msgstr "建立資料夾"
 
-#: contents/ui/gallery/DialogGallery.qml:65
+#: contents/ui/gallery/DialogGallery.qml:64
 msgctxt "DialogGallery|"
 msgid "Cancel"
 msgstr "取消"
 
-#: contents/ui/gallery/DialogGallery.qml:74
+#: contents/ui/gallery/DialogGallery.qml:73
 #, fuzzy
 #| msgctxt "DialogGallery|"
 #| msgid "Folder name..."
 msgctxt "DialogGallery|"
-msgid "Folder name:"
+msgid "Folder name..."
 msgstr "資料夾名稱..."
 
-#: contents/ui/gallery/DialogGallery.qml:82
+#: contents/ui/gallery/DialogGallery.qml:79
 msgctxt "DialogGallery|"
 msgid "Alarm Snooze Length"
 msgstr "鬧鐘貪睡時間長度"
 
-#: contents/ui/gallery/DialogGallery.qml:91
+#: contents/ui/gallery/DialogGallery.qml:88
 msgctxt "DialogGallery|"
 msgid "1 minute"
 msgstr "1 分鐘"
 
-#: contents/ui/gallery/DialogGallery.qml:92
+#: contents/ui/gallery/DialogGallery.qml:89
 msgctxt "DialogGallery|"
 msgid "2 minutes"
 msgstr "2 分鐘"
 
-#: contents/ui/gallery/DialogGallery.qml:93
+#: contents/ui/gallery/DialogGallery.qml:90
 msgctxt "DialogGallery|"
 msgid "3 minutes"
 msgstr "3 分鐘"
 
-#: contents/ui/gallery/DialogGallery.qml:94
+#: contents/ui/gallery/DialogGallery.qml:91
 msgctxt "DialogGallery|"
 msgid "4 minutes"
 msgstr "4 分鐘"
 
-#: contents/ui/gallery/DialogGallery.qml:95
+#: contents/ui/gallery/DialogGallery.qml:92
 msgctxt "DialogGallery|"
 msgid "5 minutes"
 msgstr "5 分鐘"
 
-#: contents/ui/gallery/DialogGallery.qml:96
+#: contents/ui/gallery/DialogGallery.qml:93
 msgctxt "DialogGallery|"
 msgid "10 minutes"
 msgstr "10 分鐘"
 
-#: contents/ui/gallery/DialogGallery.qml:97
+#: contents/ui/gallery/DialogGallery.qml:94
 msgctxt "DialogGallery|"
 msgid "30 minutes"
 msgstr "30 分鐘"
 
-#: contents/ui/gallery/DialogGallery.qml:98
+#: contents/ui/gallery/DialogGallery.qml:95
 msgctxt "DialogGallery|"
 msgid "1 hour"
 msgstr "1 小時"
 
-#: contents/ui/gallery/DialogGallery.qml:120
-#: contents/ui/gallery/DialogGallery.qml:137
+#: contents/ui/gallery/DialogGallery.qml:117
+#: contents/ui/gallery/DialogGallery.qml:134
 msgctxt "DialogGallery|"
 msgid "Select Number"
 msgstr "選擇號碼"
 
-#: contents/ui/gallery/DialogGallery.qml:127
+#: contents/ui/gallery/DialogGallery.qml:124
 msgctxt "DialogGallery|"
 msgid "Subtitle text"
 msgstr ""
 
-#: contents/ui/gallery/DialogGallery.qml:157
-#: contents/ui/gallery/DialogGallery.qml:228
+#: contents/ui/gallery/DialogGallery.qml:154
+#: contents/ui/gallery/DialogGallery.qml:225
 msgctxt "DialogGallery|"
 msgid "No Footer Dialog"
 msgstr "沒有註腳的對話框"
 
-#: contents/ui/gallery/DialogGallery.qml:158
+#: contents/ui/gallery/DialogGallery.qml:155
 msgctxt "DialogGallery|"
 msgid "This dialog has no footer buttons.<br/>It also has no close button."
 msgstr "這個對話框沒有註腳按鈕。<br/>它也沒有關閉按鈕。"
 
-#: contents/ui/gallery/DialogGallery.qml:166
+#: contents/ui/gallery/DialogGallery.qml:163
 msgctxt "DialogGallery|"
 msgid "Track Options"
 msgstr "曲目選項"
 
-#: contents/ui/gallery/DialogGallery.qml:171
+#: contents/ui/gallery/DialogGallery.qml:168
 msgctxt "DialogGallery|Start playback of the selected track"
 msgid "Play"
 msgstr "播放"
 
-#: contents/ui/gallery/DialogGallery.qml:172
+#: contents/ui/gallery/DialogGallery.qml:169
 msgctxt "DialogGallery|"
 msgid "Start playback of the selected track"
 msgstr "播放選擇的曲目"
 
-#: contents/ui/gallery/DialogGallery.qml:177
+#: contents/ui/gallery/DialogGallery.qml:174
 msgctxt "DialogGallery|Show the file for this song in the file manager"
 msgid "Show in folder"
 msgstr "在資料夾顯示"
 
-#: contents/ui/gallery/DialogGallery.qml:178
+#: contents/ui/gallery/DialogGallery.qml:175
 msgctxt "DialogGallery|"
 msgid "Show the file for this song in the file manager"
 msgstr "在檔案管理員中顯示這首歌曲的檔案"
 
-#: contents/ui/gallery/DialogGallery.qml:182
+#: contents/ui/gallery/DialogGallery.qml:179
 msgctxt "DialogGallery|Show track metadata"
 msgid "View details"
 msgstr "檢視詳細資訊"
 
-#: contents/ui/gallery/DialogGallery.qml:183
+#: contents/ui/gallery/DialogGallery.qml:180
 msgctxt "DialogGallery|"
 msgid "Show track metadata"
 msgstr "顯示曲目中繼資料"
 
-#: contents/ui/gallery/DialogGallery.qml:187
+#: contents/ui/gallery/DialogGallery.qml:184
 msgctxt ""
 "DialogGallery|Add the track to the queue, right after the current track"
 msgid "Play next"
 msgstr "接著播放"
 
-#: contents/ui/gallery/DialogGallery.qml:188
+#: contents/ui/gallery/DialogGallery.qml:185
 msgctxt "DialogGallery|"
 msgid "Add the track to the queue, right after the current track"
 msgstr "將曲目加入待播清單中，作為目前曲目的下一首"
 
-#: contents/ui/gallery/DialogGallery.qml:192
+#: contents/ui/gallery/DialogGallery.qml:189
 msgctxt "DialogGallery|Enqueue current track"
 msgid "Add to queue"
 msgstr "加入待播清單"
 
-#: contents/ui/gallery/DialogGallery.qml:193
+#: contents/ui/gallery/DialogGallery.qml:190
 msgctxt "DialogGallery|"
 msgid "Enqueue current track"
 msgstr "將目前曲目加入待播清單"
 
-#: contents/ui/gallery/DialogGallery.qml:203
+#: contents/ui/gallery/DialogGallery.qml:200
 msgctxt "DialogGallery|"
 msgid "Prompt Dialog"
 msgstr "提示對話框"
 
-#: contents/ui/gallery/DialogGallery.qml:208
+#: contents/ui/gallery/DialogGallery.qml:205
 msgctxt "DialogGallery|"
 msgid "Text Prompt Dialog"
 msgstr "文字提示對話框"
 
-#: contents/ui/gallery/DialogGallery.qml:213
+#: contents/ui/gallery/DialogGallery.qml:210
 msgctxt "DialogGallery|"
 msgid "Selection Dialog"
 msgstr "選取對話框"
 
-#: contents/ui/gallery/DialogGallery.qml:218
+#: contents/ui/gallery/DialogGallery.qml:215
 #, fuzzy
 #| msgctxt "DialogGallery|"
 #| msgid "Selection Dialog"
@@ -412,12 +412,12 @@ msgctxt "DialogGallery|"
 msgid "Selection Dialog with subtitles"
 msgstr "選取對話框"
 
-#: contents/ui/gallery/DialogGallery.qml:223
+#: contents/ui/gallery/DialogGallery.qml:220
 msgctxt "DialogGallery|"
 msgid "Scrollable Dialog"
 msgstr "可捲動對話框"
 
-#: contents/ui/gallery/DialogGallery.qml:233
+#: contents/ui/gallery/DialogGallery.qml:230
 msgctxt "DialogGallery|"
 msgid "Menu Dialog"
 msgstr "選單對話框"
