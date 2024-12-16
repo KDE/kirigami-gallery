@@ -17,6 +17,7 @@
   <name xml:lang="fr">Galerie Kirigami</name>
   <name xml:lang="gl">Galería de Kirigami</name>
   <name xml:lang="he">גלריית Kirigami</name>
+  <name xml:lang="hi">किरिगामी गैलरी</name>
   <name xml:lang="ia">Galeria de Kirigami</name>
   <name xml:lang="id">Kirigami Gallery</name>
   <name xml:lang="it">Galleria di Kirigami</name>
@@ -55,6 +56,7 @@
   <summary xml:lang="fr">Affiche des exemples des composants Kirigami et permet de jouer avec eux</summary>
   <summary xml:lang="gl">Amosa exemplos de compoñentes de Kirigami e permítelle xogar con eles</summary>
   <summary xml:lang="he">הצגת דוגמאות של רכיבי Kirigami כדי לאפשר לך לשחק איתם</summary>
+  <summary xml:lang="hi">किरिगामी घटकों के उदाहरण दिखाता है और आपको उनके साथ खेलने की अनुमति देता है</summary>
   <summary xml:lang="ia">MOnstar exemplos de componentes de Kirigami e te permitte jocar con illos</summary>
   <summary xml:lang="id">Menampilkan contoh komponen Kirigami dan memungkinkan kamu untuk bermain dengannya</summary>
   <summary xml:lang="it">Mostra esempi di componenti Kirigami e ti permette di giocare con essi</summary>
@@ -95,6 +97,7 @@
     <p xml:lang="fr">Affiche des exemples des composants Kirigami</p>
     <p xml:lang="gl">Ver exemplos de compoñentes de Kirigami</p>
     <p xml:lang="he">הצגת דוגמאות של רכיבי Kirigami</p>
+    <p xml:lang="hi">किरिगामी घटकों के उदाहरण देखें</p>
     <p xml:lang="ia">Vide exemplos de componentes de Kirigami</p>
     <p xml:lang="id">Tampilan contoh komponen Kirigami</p>
     <p xml:lang="it">Visualizza esempi di componenti Kirigami</p>
