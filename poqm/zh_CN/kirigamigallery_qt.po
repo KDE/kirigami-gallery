@@ -259,7 +259,7 @@ msgstr "取消"
 #: contents/ui/gallery/DialogGallery.qml:73
 msgctxt "DialogGallery|"
 msgid "Folder name..."
-msgstr ""
+msgstr "文件夹名称..."
 
 #: contents/ui/gallery/DialogGallery.qml:79
 msgctxt "DialogGallery|"
