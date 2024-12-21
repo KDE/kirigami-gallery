@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"PO-Revision-Date: 2024-12-15 22:31+0530\n"
+"PO-Revision-Date: 2024-12-20 21:52+0530\n"
 "Last-Translator: kali <skkalwar999@gmail.com>\n"
 "Language-Team: Sanskrit <kde-i18n-doc@kde.org>\n"
 "Language: sa\n"
@@ -530,7 +530,7 @@ msgstr "विस्तारयति बटनम्"
 #: contents/ui/gallery/FormLayoutGallery.qml:116
 msgctxt "FormLayoutGallery|"
 msgid "Twin Layout:"
-msgstr "युग्मविन्यासः : १."
+msgstr "युग्मविन्यासः :"
 
 #: contents/ui/gallery/InlineMessagesGallery.qml:31
 msgctxt "InlineMessagesGallery|"
@@ -633,7 +633,7 @@ msgstr "मुख्य कर्म पाठ"
 #: contents/ui/gallery/ListViewGallery.qml:56
 msgctxt "ListViewGallery|"
 msgid "Footer:"
-msgstr "पादलेखः : १."
+msgstr "पादलेखः :"
 
 #: contents/ui/gallery/ListViewGallery.qml:71
 #, qt-format
@@ -748,7 +748,7 @@ msgstr "शीर्षक"
 #: contents/ui/gallery/OverlaySheetGallery.qml:171
 msgctxt "OverlaySheetGallery|"
 msgid "Footer:"
-msgstr "पादलेखः : १."
+msgstr "पादलेखः :"
 
 #: contents/ui/gallery/OverlaySheetGallery.qml:90
 msgctxt "OverlaySheetGallery|"
