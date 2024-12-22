@@ -274,12 +274,9 @@ msgid "Cancel"
 msgstr "Anuluj"
 
 #: contents/ui/gallery/DialogGallery.qml:73
-#, fuzzy
-#| msgctxt "DialogGallery|"
-#| msgid "Folder name:"
 msgctxt "DialogGallery|"
 msgid "Folder name..."
-msgstr "Nazwa katalogu:"
+msgstr "Nazwa katalogu..."
 
 #: contents/ui/gallery/DialogGallery.qml:79
 msgctxt "DialogGallery|"

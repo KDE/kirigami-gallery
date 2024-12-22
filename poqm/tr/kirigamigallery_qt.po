@@ -379,7 +379,7 @@ msgstr "Ayrıntıları görüntüle"
 #: contents/ui/gallery/DialogGallery.qml:180
 msgctxt "DialogGallery|"
 msgid "Show track metadata"
-msgstr "Parça üstverisini göster"
+msgstr "Parça üst verisini göster"
 
 #: contents/ui/gallery/DialogGallery.qml:184
 msgctxt ""
