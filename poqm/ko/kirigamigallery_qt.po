@@ -266,9 +266,6 @@ msgid "Cancel"
 msgstr "취소"
 
 #: contents/ui/gallery/DialogGallery.qml:73
-#, fuzzy
-#| msgctxt "DialogGallery|"
-#| msgid "Folder name:"
 msgctxt "DialogGallery|"
 msgid "Folder name..."
 msgstr "폴더 이름:"
