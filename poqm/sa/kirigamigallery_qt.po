@@ -2,8 +2,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"PO-Revision-Date: 2024-12-20 21:52+0530\n"
-"Last-Translator: kali <skkalwar999@gmail.com>\n"
+"PO-Revision-Date: 2024-12-25 19:45+0530\n"
+"Last-Translator: kali <shreekantkalwar@gmail.com>\n"
 "Language-Team: Sanskrit <kde-i18n-doc@kde.org>\n"
 "Language: sa\n"
 "MIME-Version: 1.0\n"
@@ -357,7 +357,7 @@ msgstr "चयनितस्य पटलस्य प्लेबैक् आ
 #: contents/ui/gallery/DialogGallery.qml:174
 msgctxt "DialogGallery|Show the file for this song in the file manager"
 msgid "Show in folder"
-msgstr "फोल्डर् मध्ये दर्शयतु"
+msgstr "समुच्चय मध्ये दर्शयतु"
 
 #: contents/ui/gallery/DialogGallery.qml:175
 msgctxt "DialogGallery|"
