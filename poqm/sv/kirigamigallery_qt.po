@@ -1,8 +1,8 @@
-# SPDX-FileCopyrightText: 2018, 2019, 2020, 2021, 2022, 2024 Stefan Asserhäll <stefan.asserhall@gmail.com>
+# SPDX-FileCopyrightText: 2018, 2019, 2020, 2021, 2022, 2024, 2025 Stefan Asserhäll <stefan.asserhall@gmail.com>
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"PO-Revision-Date: 2024-08-20 07:13+0200\n"
+"PO-Revision-Date: 2025-01-11 12:09+0100\n"
 "Last-Translator: Stefan Asserhäll <stefan.asserhall@gmail.com>\n"
 "Language-Team: Swedish <kde-i18n-doc@kde.org>\n"
 "Language: sv\n"
@@ -11,7 +11,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Qt-Contexts: true\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 24.05.2\n"
+"X-Generator: Lokalize 24.12.0\n"
 
 #: contents/ui/gallery/CardsLayoutGallery.qml:30
 msgctxt "CardsLayoutGallery|"
@@ -275,12 +275,9 @@ msgid "Cancel"
 msgstr "Avbryt"
 
 #: contents/ui/gallery/DialogGallery.qml:73
-#, fuzzy
-#| msgctxt "DialogGallery|"
-#| msgid "Folder name:"
 msgctxt "DialogGallery|"
 msgid "Folder name..."
-msgstr "Katalognamn:"
+msgstr "Katalognamn..."
 
 #: contents/ui/gallery/DialogGallery.qml:79
 msgctxt "DialogGallery|"
