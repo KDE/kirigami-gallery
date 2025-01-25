@@ -1,8 +1,8 @@
-# SPDX-FileCopyrightText: 2024 Kisaragi Hiu <mail@kisaragi-hiu.com>
+# SPDX-FileCopyrightText: 2024, 2025 Kisaragi Hiu <mail@kisaragi-hiu.com>
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"PO-Revision-Date: 2024-03-15 17:20+0900\n"
+"PO-Revision-Date: 2025-01-24 22:44+0900\n"
 "Last-Translator: Kisaragi Hiu <mail@kisaragi-hiu.com>\n"
 "Language-Team: Traditional Chinese <zh-l10n@lists.slat.org>\n"
 "Language: zh_TW\n"
@@ -11,7 +11,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Qt-Contexts: true\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Lokalize 24.04.70\n"
+"X-Generator: Lokalize 25.03.70\n"
 
 #: contents/ui/gallery/CardsLayoutGallery.qml:30
 msgctxt "CardsLayoutGallery|"
@@ -215,7 +215,7 @@ msgstr ""
 #: contents/ui/gallery/ColorsGallery.qml:31
 msgctxt "ColorsGallery|"
 msgid "Colors"
-msgstr ""
+msgstr "色彩"
 
 #: contents/ui/gallery/components/InfoSheet.qml:50
 msgctxt "InfoSheet|"
@@ -223,22 +223,16 @@ msgid "HIG…"
 msgstr ""
 
 #: contents/ui/gallery/components/InfoSheet.qml:55
-#, fuzzy
-#| msgctxt "InfoSheet|"
-#| msgid "Source code..."
 msgctxt "InfoSheet|"
 msgid "Source code…"
-msgstr "原始碼..."
+msgstr "原始碼…"
 
 #: contents/ui/gallery/components/InfoSheet.qml:60
 msgctxt "InfoSheet|"
 msgid "API…"
-msgstr ""
+msgstr "API…"
 
 #: contents/ui/gallery/components/InfoSheetAction.qml:16
-#, fuzzy
-#| msgctxt "ActionToolBarGallery|"
-#| msgid "Info"
 msgctxt "InfoSheetAction|"
 msgid "Info"
 msgstr "資訊"
@@ -320,7 +314,7 @@ msgstr "選擇號碼"
 #: contents/ui/gallery/DialogGallery.qml:127
 msgctxt "DialogGallery|"
 msgid "Subtitle text"
-msgstr ""
+msgstr "副標題文字"
 
 #: contents/ui/gallery/DialogGallery.qml:157
 #: contents/ui/gallery/DialogGallery.qml:228
@@ -405,12 +399,9 @@ msgid "Selection Dialog"
 msgstr "選取對話框"
 
 #: contents/ui/gallery/DialogGallery.qml:218
-#, fuzzy
-#| msgctxt "DialogGallery|"
-#| msgid "Selection Dialog"
 msgctxt "DialogGallery|"
 msgid "Selection Dialog with subtitles"
-msgstr "選取對話框"
+msgstr "有副標題的選取對話框"
 
 #: contents/ui/gallery/DialogGallery.qml:223
 msgctxt "DialogGallery|"
@@ -594,7 +585,7 @@ msgstr "顯示額外訊息"
 #: contents/ui/gallery/InlineMessagesGallery.qml:185
 msgctxt "InlineMessagesGallery|"
 msgid "Boo!"
-msgstr ""
+msgstr "嗨！"
 
 #: contents/ui/gallery/InlineMessagesGallery.qml:189
 msgctxt "InlineMessagesGallery|"
@@ -604,12 +595,9 @@ msgstr ""
 #: contents/ui/gallery/ListViewGallery.qml:45
 msgctxt "ListViewGallery|"
 msgid "Main Action Text"
-msgstr ""
+msgstr "主動作文字"
 
 #: contents/ui/gallery/ListViewGallery.qml:56
-#, fuzzy
-#| msgctxt "OverlaySheetGallery|"
-#| msgid "Footer:"
 msgctxt "ListViewGallery|"
 msgid "Footer:"
 msgstr "註腳："
@@ -622,26 +610,18 @@ msgid_plural "Item in sheet %n"
 msgstr[0] ""
 
 #: contents/ui/gallery/ListViewGallery.qml:119
-#, fuzzy
-#| msgctxt "DrawerGallery|"
-#| msgid "Action 1"
 msgctxt "ListViewGallery|"
 msgid "Action 1"
 msgstr "動作 1"
 
 #: contents/ui/gallery/ListViewGallery.qml:121
 #: contents/ui/gallery/ListViewGallery.qml:128
-#, fuzzy, qt-format
-#| msgctxt "CardsLayoutGallery|"
-#| msgid "Card clicked"
+#, qt-format
 msgctxt "ListViewGallery|"
 msgid "%1: %2 clicked"
-msgstr "卡片已點擊"
+msgstr "%1：%2 已點擊"
 
 #: contents/ui/gallery/ListViewGallery.qml:126
-#, fuzzy
-#| msgctxt "CardsLayoutGallery|"
-#| msgid "Action2"
 msgctxt "ListViewGallery|"
 msgid "Action 2"
 msgstr "動作 2"
@@ -650,15 +630,13 @@ msgstr "動作 2"
 #, qt-format
 msgctxt "ListViewGallery|"
 msgid "Item %1"
-msgstr ""
+msgstr "項目 %1"
 
 #: contents/ui/gallery/ListViewGallery.qml:167
-#, fuzzy, qt-format
-#| msgctxt "DrawerGallery|"
-#| msgid "Action 1"
+#, qt-format
 msgctxt "ListViewGallery|"
 msgid "Section %1"
-msgstr "動作 1"
+msgstr "區段 %1"
 
 #: contents/ui/gallery/MetricsGallery.qml:48
 msgctxt "MetricsGallery|"
@@ -692,27 +670,27 @@ msgstr "標題 4"
 #: contents/ui/gallery/MiscGallery.qml:77
 msgctxt "MiscGallery|"
 msgid "Text Beside Icon"
-msgstr ""
+msgstr "圖示旁顯示文字"
 
 #: contents/ui/gallery/MiscGallery.qml:92
 msgctxt "MiscGallery|"
 msgid "Text Under Icon"
-msgstr ""
+msgstr "文字在圖示下"
 
 #: contents/ui/gallery/MiscGallery.qml:107
 msgctxt "MiscGallery|"
 msgid "Text Only"
-msgstr ""
+msgstr "僅文字"
 
 #: contents/ui/gallery/MiscGallery.qml:122
 msgctxt "MiscGallery|"
 msgid "Icon Only"
-msgstr ""
+msgstr "僅圖示"
 
 #: contents/ui/gallery/MultipleColumnsGallery.qml:122
 msgctxt "MultipleColumnsGallery|"
 msgid "Pin page"
-msgstr ""
+msgstr "釘選頁面"
 
 #: contents/ui/gallery/OverlaySheetGallery.qml:32
 msgctxt "OverlaySheetGallery|"
@@ -775,7 +753,7 @@ msgstr ""
 #: contents/ui/gallery/SelectionControlsGallery.qml:31
 msgctxt "SelectionControlsGallery|"
 msgid "Selection Controls"
-msgstr ""
+msgstr "選取控制"
 
 #: contents/ui/gallery/SelectionControlsGallery.qml:47
 msgctxt "SelectionControlsGallery|"
@@ -806,14 +784,14 @@ msgstr ""
 #: contents/ui/gallery/SelectionControlsGallery.qml:152
 msgctxt "SelectionControlsGallery|"
 msgid "Item selected"
-msgstr ""
+msgstr "項目已選取"
 
 #: contents/ui/gallery/SelectionControlsGallery.qml:120
 #: contents/ui/gallery/SelectionControlsGallery.qml:138
 #: contents/ui/gallery/SelectionControlsGallery.qml:156
 msgctxt "SelectionControlsGallery|"
 msgid "Item not selected"
-msgstr ""
+msgstr "項目未選取"
 
 #: contents/ui/gallery/SelectionControlsGallery.qml:124
 msgctxt "SelectionControlsGallery|"
@@ -833,7 +811,7 @@ msgstr ""
 #: contents/ui/gallery/SelectionControlsGallery.qml:149
 msgctxt "SelectionControlsGallery|"
 msgid "Switches"
-msgstr ""
+msgstr "切換"
 
 #: contents/ui/gallery/SelectionControlsGallery.qml:160
 msgctxt "SelectionControlsGallery|"
@@ -848,7 +826,7 @@ msgstr "Kirigami 畫廊"
 #: contents/ui/MainPage.qml:40
 msgctxt "MainPage|"
 msgid "Home"
-msgstr ""
+msgstr "首頁"
 
 #~ msgctxt "CardsLayoutGallery|"
 #~ msgid "Info"
