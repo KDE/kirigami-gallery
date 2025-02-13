@@ -220,22 +220,22 @@ msgstr ""
 #: contents/ui/gallery/ColorsGallery.qml:31
 msgctxt "ColorsGallery|"
 msgid "Colors"
-msgstr ""
+msgstr "颜色"
 
 #: contents/ui/gallery/components/InfoSheet.qml:50
 msgctxt "InfoSheet|"
 msgid "HIG…"
-msgstr ""
+msgstr "HIG..."
 
 #: contents/ui/gallery/components/InfoSheet.qml:55
 msgctxt "InfoSheet|"
 msgid "Source code…"
-msgstr ""
+msgstr "源代码..."
 
 #: contents/ui/gallery/components/InfoSheet.qml:60
 msgctxt "InfoSheet|"
 msgid "API…"
-msgstr ""
+msgstr "API..."
 
 #: contents/ui/gallery/components/InfoSheetAction.qml:16
 msgctxt "InfoSheetAction|"
@@ -316,7 +316,7 @@ msgstr ""
 #: contents/ui/gallery/DialogGallery.qml:127
 msgctxt "DialogGallery|"
 msgid "Subtitle text"
-msgstr ""
+msgstr "字幕文本"
 
 #: contents/ui/gallery/DialogGallery.qml:157
 #: contents/ui/gallery/DialogGallery.qml:228
@@ -403,7 +403,7 @@ msgstr ""
 #: contents/ui/gallery/DialogGallery.qml:218
 msgctxt "DialogGallery|"
 msgid "Selection Dialog with subtitles"
-msgstr ""
+msgstr "带有字幕的选择对话框"
 
 #: contents/ui/gallery/DialogGallery.qml:223
 msgctxt "DialogGallery|"
@@ -597,7 +597,7 @@ msgstr ""
 #: contents/ui/gallery/ListViewGallery.qml:45
 msgctxt "ListViewGallery|"
 msgid "Main Action Text"
-msgstr ""
+msgstr "主要操作文本"
 
 #: contents/ui/gallery/ListViewGallery.qml:56
 msgctxt "ListViewGallery|"
@@ -609,7 +609,7 @@ msgstr "页脚:"
 msgctxt "ListViewGallery|"
 msgid "Item in sheet %n"
 msgid_plural "Item in sheet %n"
-msgstr[0] ""
+msgstr[0] "工作表 %n 中的项目"
 
 #: contents/ui/gallery/ListViewGallery.qml:119
 msgctxt "ListViewGallery|"
@@ -621,24 +621,24 @@ msgstr ""
 #, qt-format
 msgctxt "ListViewGallery|"
 msgid "%1: %2 clicked"
-msgstr ""
+msgstr "%1：%2 已点击"
 
 #: contents/ui/gallery/ListViewGallery.qml:126
 msgctxt "ListViewGallery|"
 msgid "Action 2"
-msgstr ""
+msgstr "操作 2"
 
 #: contents/ui/gallery/ListViewGallery.qml:149
 #, qt-format
 msgctxt "ListViewGallery|"
 msgid "Item %1"
-msgstr ""
+msgstr "条目 %1"
 
 #: contents/ui/gallery/ListViewGallery.qml:167
 #, qt-format
 msgctxt "ListViewGallery|"
 msgid "Section %1"
-msgstr ""
+msgstr "节 %1"
 
 #: contents/ui/gallery/MetricsGallery.qml:48
 msgctxt "MetricsGallery|"
@@ -828,4 +828,4 @@ msgstr "Kirigami 示例展厅"
 #: contents/ui/MainPage.qml:40
 msgctxt "MainPage|"
 msgid "Home"
-msgstr ""
+msgstr "首页"
