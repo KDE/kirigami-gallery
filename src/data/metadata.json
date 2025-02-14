@@ -29,7 +29,8 @@
                 "Name[sv]": "Marco Martin",
                 "Name[tr]": "Marco Martin",
                 "Name[uk]": "Marco Martin",
-                "Name[x-test]": "xxMarco Martinxx"
+                "Name[x-test]": "xxMarco Martinxx",
+                "Name[zh_CN]": "Marco Martin"
             }
         ],
         "Category": "Graphics",
@@ -60,6 +61,7 @@
         "Description[tr]": "Kirigami bileşenlerinden örnekler gösterir ve onlarla oynamanıza izin verir.",
         "Description[uk]": "Показує приклади компонентів Kirigami і надає вам змогу попрацювати з ними",
         "Description[x-test]": "xxShows examples of Kirigami components and allows you to play with themxx",
+        "Description[zh_CN]": "显示 Kirigami 组件实例并允许您试用它们",
         "EnabledByDefault": true,
         "Icon": "preferences-desktop-theme",
         "Id": "org.kde.kirigami2.gallery",
