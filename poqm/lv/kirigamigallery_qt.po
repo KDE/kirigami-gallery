@@ -1,8 +1,8 @@
-# SPDX-FileCopyrightText: 2024 Toms Trasuns <toms.trasuns@posteo.net>
+# SPDX-FileCopyrightText: 2024, 2025 Toms Trasuns <toms.trasuns@posteo.net>
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"PO-Revision-Date: 2024-10-18 20:21+0300\n"
+"PO-Revision-Date: 2025-03-04 16:47+0200\n"
 "Last-Translator: Toms Trasuns <toms.trasuns@posteo.net>\n"
 "Language-Team: Latvian <kde-i18n-doc@kde.org>\n"
 "Language: lv\n"
@@ -12,7 +12,7 @@ msgstr ""
 "X-Qt-Contexts: true\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n != 0 ? 1 : "
 "2);\n"
-"X-Generator: Lokalize 24.08.2\n"
+"X-Generator: Lokalize 24.12.2\n"
 
 #: contents/ui/gallery/CardsLayoutGallery.qml:30
 msgctxt "CardsLayoutGallery|"
@@ -275,12 +275,9 @@ msgid "Cancel"
 msgstr "Atcelt"
 
 #: contents/ui/gallery/DialogGallery.qml:73
-#, fuzzy
-#| msgctxt "DialogGallery|"
-#| msgid "Folder name:"
 msgctxt "DialogGallery|"
 msgid "Folder name..."
-msgstr "Mapes nosaukums:"
+msgstr "Mapes nosaukums..."
 
 #: contents/ui/gallery/DialogGallery.qml:79
 msgctxt "DialogGallery|"
