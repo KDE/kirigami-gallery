@@ -22,6 +22,7 @@
 #include <QtQml>
 #include <QUrl>
 #include <QColor>
+#include <QIcon>
 #include "InfoData.h"
 
 #ifdef Q_OS_ANDROID
@@ -53,6 +54,7 @@ Q_DECL_EXPORT int main(int argc, char *argv[])
         QQuickStyle::setStyle(QStringLiteral("org.kde.desktop"));
     }
     QApplication app(argc, argv);
+    QApplication::setWindowIcon(QIcon::fromTheme(QStringLiteral("preferences-desktop-theme")));
 #endif
 
     //Extra debug if needed
