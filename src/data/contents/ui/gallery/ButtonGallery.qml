@@ -89,7 +89,7 @@ Kirigami.ScrollablePage {
     ]
 
     //Close the drawer with the back button
-    onBackRequested: {
+    onBackRequested: event => {
         if (bottomDrawer.drawerOpen) {
             event.accepted = true;
             bottomDrawer.close();
@@ -177,7 +177,7 @@ Kirigami.ScrollablePage {
                     {"text": "Toolbar", "value": Kirigami.ApplicationHeaderStyle.ToolBar},
                     {"text": "Titles", "value": Kirigami.ApplicationHeaderStyle.Titles},
                     {"text": "None", "value": Kirigami.ApplicationHeaderStyle.None}]
-            onActivated: {
+            onActivated: index => {
                 if (index === 0) {
                     page.globalToolBarStyle = applicationWindow().pageStack.globalToolBar.actualStyle
                 } else {

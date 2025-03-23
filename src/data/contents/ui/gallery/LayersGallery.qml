@@ -38,31 +38,23 @@ Kirigami.ScrollablePage {
         Kirigami.Action {
             icon.name: "document-edit"
             text: "Main Action Text"
-            onTriggered: source => {
-                showPassiveNotification("Action button in buttons page clicked");
-            }
+            onTriggered: showPassiveNotification("Action button in buttons page clicked")
         },
         Kirigami.Action {
             icon.name: "go-previous"
             text: "Left Action Text"
-            onTriggered: source => {
-                showPassiveNotification("Left action triggered");
-            }
+            onTriggered: showPassiveNotification("Left action triggered")
         },
         Kirigami.Action {
             text: "Action 1"
             icon.name: "go-next"
-            onTriggered: source => {
-                showPassiveNotification("Action 1 clicked");
-            }
+            onTriggered: showPassiveNotification("Action 1 clicked")
         },
         Kirigami.Action {
             text: "Action 2"
             icon.name: "folder"
             enabled: false
-            onTriggered: source => {
-                showPassiveNotification("Action 2 clicked");
-            }
+            onTriggered: showPassiveNotification("Action 2 clicked")
         }
     ]
 

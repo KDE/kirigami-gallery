@@ -117,16 +117,12 @@ Kirigami.ScrollablePage {
                 Kirigami.Action {
                     icon.name: "document-decrypt"
                     text: qsTr("Action 1")
-                    onTriggered: source => {
-                        showPassiveNotification(qsTr("%1: %2 clicked").arg(listItem.title).arg(text));
-                    }
+                    onTriggered: showPassiveNotification(qsTr("%1: %2 clicked").arg(listItem.title).arg(text))
                 },
                 Kirigami.Action {
                     icon.name: "mail-reply-sender"
                     text: qsTr("Action 2")
-                    onTriggered: source => {
-                        showPassiveNotification(qsTr("%1: %2 clicked").arg(listItem.title).arg(text));
-                    }
+                    onTriggered: showPassiveNotification(qsTr("%1: %2 clicked").arg(listItem.title).arg(text))
                 }
             ]
         }

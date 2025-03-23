@@ -16,7 +16,7 @@ Kirigami.Action {
     checkable: true
     checked: sheetVisible()
 
-    onToggled: source => {
+    onToggled: {
         if (!__sheet && checked) {
             // assign an already visible sheet to avoid double-changing the checked state
             const sheet = sheetComponent.createObject(this);
