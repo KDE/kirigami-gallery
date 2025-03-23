@@ -2,6 +2,8 @@
 //
 // SPDX-License-Identifier: LGPL-2.0
 
+pragma ComponentBehavior: Bound
+
 import QtQuick
 import QtQuick.Controls as QQC2
 import QtQuick.Layouts
