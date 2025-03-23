@@ -226,7 +226,6 @@ Kirigami.ScrollablePage {
                 Layout.fillWidth: true
                 text: title
                 action: Kirigami.PagePoolAction {
-                    id: action
                     pagePool: mainPagePool
                     basePage: pageRoot
                     page: searchDelegate.targetPage
