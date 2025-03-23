@@ -132,8 +132,8 @@ Kirigami.ScrollablePage {
 
                             Rectangle {
                                 Layout.alignment: Qt.AlignHCenter
-                                width: Kirigami.Units.gridUnit * 7
-                                height: Kirigami.Units.gridUnit * 3
+                                implicitWidth: Kirigami.Units.gridUnit * 7
+                                implicitHeight: Kirigami.Units.gridUnit * 3
                                 color: Kirigami.Theme[colorDelegate.modelData]
                                 border {
                                     width: 1

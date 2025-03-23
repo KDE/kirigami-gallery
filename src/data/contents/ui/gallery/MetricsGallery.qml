@@ -162,8 +162,8 @@ Kirigami.ScrollablePage {
             text: "2cm x 2cm square:"
         }
         Rectangle {
-            width: Math.round(Screen.pixelDensity * 20)
-            height: Math.round(Screen.pixelDensity * 20)
+            implicitWidth: Math.round(Screen.pixelDensity * 20)
+            implicitHeight: Math.round(Screen.pixelDensity * 20)
             color: "black"
         }
     }

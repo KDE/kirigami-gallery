@@ -108,7 +108,7 @@ Kirigami.ScrollablePage {
 
                 QQC2.Label {
                     Layout.fillWidth: true
-                    height: Math.max(implicitHeight, Kirigami.Units.iconSizes.smallMedium)
+                    Layout.preferredHeight: Math.max(implicitHeight, Kirigami.Units.iconSizes.smallMedium)
                     text: listItem.title
                     color: listItem.checked || (listItem.pressed && !listItem.checked && !listItem.sectionDelegate) ? listItem.activeTextColor : listItem.textColor
                 }
