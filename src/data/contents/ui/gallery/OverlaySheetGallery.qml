@@ -119,7 +119,7 @@ Kirigami.ScrollablePage {
     Kirigami.OverlaySheet {
         id: globalSheet
 
-        parent: applicationWindow().overlay
+        parent: QQC2.Overlay.overlay
 
         ColumnLayout {
             spacing: Kirigami.Units.largeSpacing * 5

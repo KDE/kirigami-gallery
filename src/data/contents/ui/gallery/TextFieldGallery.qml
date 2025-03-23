@@ -14,7 +14,7 @@ import "components" as KGC
 Kirigami.ScrollablePage {
     id: page
     Layout.fillWidth: true
-    implicitWidth: applicationWindow().width
+    implicitWidth: Window.width
     title: "Text fields"
 
     actions: KGC.InfoSheetAction {
