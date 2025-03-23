@@ -36,6 +36,7 @@ Kirigami.ScrollablePage {
             component: "ButtonGallery"
         },
         Kirigami.Action {
+            id: mainAction
             icon.name: sheet.opened ? "dialog-cancel" : "document-edit"
             text: "Main Action Text"
             checkable: true
