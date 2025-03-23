@@ -96,6 +96,9 @@ Kirigami.ScrollablePage {
                     }
                 }
                 delegate: QQC2.RadioDelegate {
+                    required property string name
+                    required property int value
+
                     Layout.fillWidth: true
                     topPadding: Kirigami.Units.smallSpacing * 2
                     bottomPadding: Kirigami.Units.smallSpacing * 2
@@ -121,8 +124,10 @@ Kirigami.ScrollablePage {
             Repeater {
                 model: 5
                 delegate: Kirigami.RadioSubtitleDelegate {
+                    required property int index
+
                     subtitle: qsTr("Subtitle text")
-                    text: modelData
+                    text: index
                     Layout.fillWidth: true
                 }
             }
@@ -141,10 +146,12 @@ Kirigami.ScrollablePage {
 
             model: 100
             delegate: QQC2.RadioDelegate {
+                required property int index
+
                 topPadding: Kirigami.Units.smallSpacing * 2
                 bottomPadding: Kirigami.Units.smallSpacing * 2
                 implicitWidth: listView.width
-                text: modelData
+                text: index
             }
         }
     }

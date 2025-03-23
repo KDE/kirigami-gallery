@@ -57,11 +57,14 @@ Kirigami.Page {
             model: 3
 
             Item {
+                id: delegate
+                required property int index
+
                 QQC2.Label {
                     width: parent.width
                     wrapMode: QQC2.Label.Wrap
                     horizontalAlignment: Qt.AlignHCenter
-                    text: "Page " + modelData
+                    text: "Page " + delegate.index
                 }
                 QQC2.TabBar {
                     position: QQC2.TabBar.Footer

@@ -51,8 +51,10 @@ Kirigami.ScrollablePage {
                 clip: true
                 model: 20
                 delegate: QQC2.CheckDelegate {
+                    required property int index
+
                     width: ListView.view.width - ListView.view.leftMargin - ListView.view.rightMargin
-                    text: qsTr("Delegate %1").arg(modelData + 1)
+                    text: qsTr("Delegate %1").arg(index + 1)
                 }
             }
             Component.onCompleted: background.visible = true;
@@ -75,8 +77,10 @@ Kirigami.ScrollablePage {
                 clip: true
                 model: 20
                 delegate: QQC2.RadioDelegate {
+                    required property int index
+
                     width: ListView.view.width - ListView.view.leftMargin - ListView.view.rightMargin
-                    text: qsTr("Delegate %1").arg(modelData + 1)
+                    text: qsTr("Delegate %1").arg(index + 1)
                 }
             }
             Component.onCompleted: background.visible = true;
@@ -99,8 +103,10 @@ Kirigami.ScrollablePage {
                 clip: true
                 model: 20
                 delegate: QQC2.SwitchDelegate {
+                    required property int index
+
                     width: ListView.view.width - ListView.view.leftMargin - ListView.view.rightMargin
-                    text: qsTr("Delegate %1").arg(modelData + 1)
+                    text: qsTr("Delegate %1").arg(index + 1)
                 }
             }
             Component.onCompleted: background.visible = true;

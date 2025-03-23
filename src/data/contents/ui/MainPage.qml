@@ -217,13 +217,19 @@ Kirigami.ScrollablePage {
             focus: true
             model: root.pageStack.wideMode ? filteredModel : 0
             delegate: QQC2.ItemDelegate {
+                id: searchDelegate
+
+                required property string title
+                required property string targetPage
+                required property string img
+
                 Layout.fillWidth: true
                 text: title
                 action: Kirigami.PagePoolAction {
                     id: action
                     pagePool: mainPagePool
                     basePage: pageRoot
-                    page: targetPage
+                    page: searchDelegate.targetPage
                 }
             }
         }
@@ -237,6 +243,11 @@ Kirigami.ScrollablePage {
                 model: filteredModel
                 delegate: Kirigami.Card {
                     id: listItem
+
+                    required property string title
+                    required property string targetPage
+                    required property string img
+
                     banner {
                         source: Qt.resolvedUrl(img)
                         title: title

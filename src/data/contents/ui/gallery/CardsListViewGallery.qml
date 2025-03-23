@@ -39,6 +39,10 @@ Kirigami.ScrollablePage {
         model: 100
 
         delegate: Kirigami.AbstractCard {
+            id: delegate
+
+            required property int index
+
             //NOTE: never put a Layout as contentItem as it will cause binding loops
             //SEE: https://bugreports.qt.io/browse/QTBUG-66826
             contentItem: Item {
@@ -64,7 +68,7 @@ Kirigami.ScrollablePage {
                     ColumnLayout {
                         Kirigami.Heading {
                             level: 2
-                            text: qsTr("Product ")+ modelData
+                            text: qsTr("Product ") + delegate.index
                         }
                         Kirigami.Separator {
                             Layout.fillWidth: true
@@ -79,7 +83,7 @@ Kirigami.ScrollablePage {
                         Layout.alignment: Qt.AlignRight|Qt.AlignVCenter
                         Layout.columnSpan: 2
                         text: qsTr("Install")
-                        onClicked: showPassiveNotification("Install for Product " + modelData + " clicked");
+                        onClicked: showPassiveNotification("Install for Product " + delegate.index + " clicked");
                     }
                 }
             }

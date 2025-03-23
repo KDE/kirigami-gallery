@@ -108,7 +108,7 @@ Kirigami.ScrollablePage {
                     bottomPadding: Kirigami.Units.largeSpacing
 
                     level: 2
-                    text: setName(index)
+                    text: root.setName(colorSetDelegate.index)
                 }
 
                 Flow {

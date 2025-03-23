@@ -65,6 +65,9 @@ Kirigami.ScrollablePage {
                     }
 
                     Kirigami.Chip {
+                        required property int index
+                        required property string modelData
+
                         text: modelData
 
                         onRemoved: closableChips.remove(index)
@@ -98,6 +101,8 @@ Kirigami.ScrollablePage {
                     }
 
                     Kirigami.Chip {
+                        required property string modelData
+
                         checked: false
                         checkable: false
 
@@ -129,6 +134,8 @@ Kirigami.ScrollablePage {
                     }
 
                     Kirigami.Chip {
+                        required property string modelData
+
                         text: modelData
 
                         closable: false
