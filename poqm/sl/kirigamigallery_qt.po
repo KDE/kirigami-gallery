@@ -21,17 +21,17 @@ msgstr ""
 "X-Generator: Poedit 3.5\n"
 "X-Qt-Contexts: true\n"
 
-#: contents/ui/gallery/CardsLayoutGallery.qml:30
+#: contents/ui/gallery/CardsLayoutGallery.qml:32
 msgctxt "CardsLayoutGallery|"
 msgid "Cards Layout"
 msgstr "Postavitev kartic"
 
-#: contents/ui/gallery/CardsLayoutGallery.qml:43
+#: contents/ui/gallery/CardsLayoutGallery.qml:45
 msgctxt "CardsLayoutGallery|"
 msgid "AbstractCard"
 msgstr "AbstractCard"
 
-#: contents/ui/gallery/CardsLayoutGallery.qml:48
+#: contents/ui/gallery/CardsLayoutGallery.qml:50
 msgctxt "CardsLayoutGallery|"
 msgid ""
 "An AbstractCard is the simplest form of card. It's just a rectangle with a "
@@ -44,7 +44,7 @@ msgstr ""
 "dodeljene lastnosti Header ali Footer. V tem primeru je glava  Kirigami."
 "Heading in značka z ovitim besedilo element vsebine."
 
-#: contents/ui/gallery/CardsLayoutGallery.qml:56
+#: contents/ui/gallery/CardsLayoutGallery.qml:58
 msgctxt "CardsLayoutGallery|"
 msgid ""
 "This is an AbstractCard with a Label with WordWrap in it and nothing else, "
@@ -61,33 +61,33 @@ msgstr ""
 "kakršnakoli vizualna povratna informacija. Priporočljivo je, da jo nastavite "
 "na true, če načrtujete, da bo kartica reagirala na poljuben klik."
 
-#: contents/ui/gallery/CardsLayoutGallery.qml:58
+#: contents/ui/gallery/CardsLayoutGallery.qml:60
 msgctxt "CardsLayoutGallery|"
 msgid "Card clicked"
 msgstr "Kartica je bila poklikana"
 
-#: contents/ui/gallery/CardsLayoutGallery.qml:64
-#: contents/ui/gallery/CardsLayoutGallery.qml:86
-#: contents/ui/gallery/CardsLayoutGallery.qml:124
-#: contents/ui/gallery/CardsLayoutGallery.qml:198
+#: contents/ui/gallery/CardsLayoutGallery.qml:66
+#: contents/ui/gallery/CardsLayoutGallery.qml:88
+#: contents/ui/gallery/CardsLayoutGallery.qml:126
+#: contents/ui/gallery/CardsLayoutGallery.qml:200
 msgctxt "CardsLayoutGallery|"
 msgid "Action1"
 msgstr "Akcija1"
 
-#: contents/ui/gallery/CardsLayoutGallery.qml:68
-#: contents/ui/gallery/CardsLayoutGallery.qml:90
-#: contents/ui/gallery/CardsLayoutGallery.qml:128
-#: contents/ui/gallery/CardsLayoutGallery.qml:202
+#: contents/ui/gallery/CardsLayoutGallery.qml:70
+#: contents/ui/gallery/CardsLayoutGallery.qml:92
+#: contents/ui/gallery/CardsLayoutGallery.qml:130
+#: contents/ui/gallery/CardsLayoutGallery.qml:204
 msgctxt "CardsLayoutGallery|"
 msgid "Action2"
 msgstr "Akcija2"
 
-#: contents/ui/gallery/CardsLayoutGallery.qml:74
+#: contents/ui/gallery/CardsLayoutGallery.qml:76
 msgctxt "CardsLayoutGallery|"
 msgid "Card"
 msgstr "Kartica"
 
-#: contents/ui/gallery/CardsLayoutGallery.qml:78
+#: contents/ui/gallery/CardsLayoutGallery.qml:80
 msgctxt "CardsLayoutGallery|"
 msgid ""
 "This is an instance of the Card type: it can optionally have an image, a "
@@ -99,27 +99,27 @@ msgstr ""
 "dodeljeno lastnosti skupine pasic, eno ali vse lastnosti skupaj. Kartica ima "
 "lahko tudi akcije, ki bodo prikazane v nogi."
 
-#: contents/ui/gallery/CardsLayoutGallery.qml:94
+#: contents/ui/gallery/CardsLayoutGallery.qml:96
 msgctxt "CardsLayoutGallery|"
 msgid "Action3"
 msgstr "Akcija3"
 
-#: contents/ui/gallery/CardsLayoutGallery.qml:98
+#: contents/ui/gallery/CardsLayoutGallery.qml:100
 msgctxt "CardsLayoutGallery|"
 msgid "Action4"
 msgstr "Akcija4"
 
-#: contents/ui/gallery/CardsLayoutGallery.qml:102
+#: contents/ui/gallery/CardsLayoutGallery.qml:104
 msgctxt "CardsLayoutGallery|"
 msgid "Action5"
 msgstr "Akcija5"
 
-#: contents/ui/gallery/CardsLayoutGallery.qml:106
+#: contents/ui/gallery/CardsLayoutGallery.qml:108
 msgctxt "CardsLayoutGallery|"
 msgid "Action6"
 msgstr "Akcija6"
 
-#: contents/ui/gallery/CardsLayoutGallery.qml:117
+#: contents/ui/gallery/CardsLayoutGallery.qml:119
 msgctxt "CardsLayoutGallery|"
 msgid ""
 "The title can be aligned to all corners or centered with a combination of Qt."
@@ -130,12 +130,12 @@ msgstr ""
 "zastavicam za poravnavo.\n"
 "  Kadar je preveč akcij, gredo v prelivni meni."
 
-#: contents/ui/gallery/CardsLayoutGallery.qml:132
+#: contents/ui/gallery/CardsLayoutGallery.qml:134
 msgctxt "CardsLayoutGallery|"
 msgid "Action always hidden"
 msgstr "Akcija je vedno skrita"
 
-#: contents/ui/gallery/CardsLayoutGallery.qml:143
+#: contents/ui/gallery/CardsLayoutGallery.qml:145
 msgctxt "CardsLayoutGallery|"
 msgid ""
 "The Banner can contain only the title and/or an icon, even if there is no "
@@ -143,7 +143,7 @@ msgid ""
 msgstr ""
 "Pasica lahko vsebuje samo naslov in/ali ikono, tudi če ni slike pasice."
 
-#: contents/ui/gallery/CardsLayoutGallery.qml:166
+#: contents/ui/gallery/CardsLayoutGallery.qml:168
 msgctxt "CardsLayoutGallery|"
 msgid ""
 "It's possible to have custom contents overlapping the image, for cases where "
@@ -152,7 +152,7 @@ msgstr ""
 "Možno je, da vsebine po meri prekrivajo sliko, kjer je potreben bolj "
 "prilagojen dizajn."
 
-#: contents/ui/gallery/CardsLayoutGallery.qml:181
+#: contents/ui/gallery/CardsLayoutGallery.qml:183
 msgctxt "CardsLayoutGallery|"
 msgid ""
 "It's possible to customize the look and feel for Cards too, if the no "
@@ -169,17 +169,17 @@ msgstr ""
 "po meri, ne bi smeli uporabljati naslova in ikone v lastnosti pasice. Če je "
 "uporabljena noga po meri (kar odsvetujemo), ne bi smeli uporabljati akcij."
 
-#: contents/ui/gallery/CardsLayoutGallery.qml:186
+#: contents/ui/gallery/CardsLayoutGallery.qml:188
 msgctxt "CardsLayoutGallery|"
 msgid "Custom footer"
 msgstr "Noga po meri"
 
-#: contents/ui/gallery/CardsLayoutGallery.qml:189
+#: contents/ui/gallery/CardsLayoutGallery.qml:191
 msgctxt "CardsLayoutGallery|"
 msgid "Ok"
 msgstr "V redu"
 
-#: contents/ui/gallery/CardsLayoutGallery.qml:212
+#: contents/ui/gallery/CardsLayoutGallery.qml:214
 msgctxt "CardsLayoutGallery|"
 msgid ""
 "A card can optionally have horizontal orientation.\n"
@@ -194,17 +194,17 @@ msgstr ""
 "Če jo morate umestiti v CardsLayout, bo imela privzeto lastnost columnSpan 2 "
 "(ki jo je mogoče spremeniti)"
 
-#: contents/ui/gallery/CardsListViewGallery.qml:30
+#: contents/ui/gallery/CardsListViewGallery.qml:32
 msgctxt "CardsListViewGallery|"
 msgid "List view of simple cards"
 msgstr "Seznam pogledov preprostih kart"
 
-#: contents/ui/gallery/CardsListViewGallery.qml:67
+#: contents/ui/gallery/CardsListViewGallery.qml:73
 msgctxt "CardsListViewGallery|"
 msgid "Product "
 msgstr "Proizvod "
 
-#: contents/ui/gallery/CardsListViewGallery.qml:75
+#: contents/ui/gallery/CardsListViewGallery.qml:81
 msgctxt "CardsListViewGallery|"
 msgid ""
 "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id risus id "
@@ -213,27 +213,27 @@ msgstr ""
 "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id risus id "
 "augue euismod accumsan."
 
-#: contents/ui/gallery/CardsListViewGallery.qml:81
+#: contents/ui/gallery/CardsListViewGallery.qml:87
 msgctxt "CardsListViewGallery|"
 msgid "Install"
 msgstr "Namesti"
 
-#: contents/ui/gallery/ChipGallery.qml:31
+#: contents/ui/gallery/ChipGallery.qml:33
 msgctxt "ChipGallery|"
 msgid "Chips"
 msgstr "Čipi"
 
-#: contents/ui/gallery/ChipGallery.qml:46
+#: contents/ui/gallery/ChipGallery.qml:48
 msgctxt "ChipGallery|"
 msgid "Closable Chips"
 msgstr "Čipi za zapiranje"
 
-#: contents/ui/gallery/ChipGallery.qml:76
+#: contents/ui/gallery/ChipGallery.qml:81
 msgctxt "ChipGallery|"
 msgid "Informative Chips"
 msgstr "Informativni čipi"
 
-#: contents/ui/gallery/ChipGallery.qml:112
+#: contents/ui/gallery/ChipGallery.qml:119
 msgctxt "ChipGallery|"
 msgid "Checkable Chips"
 msgstr "Preverljiv čipi"
@@ -243,230 +243,230 @@ msgctxt "ColorsGallery|"
 msgid "Colors"
 msgstr "Barve"
 
-#: contents/ui/gallery/components/InfoSheet.qml:50
+#: contents/ui/gallery/components/InfoSheet.qml:52
 msgctxt "InfoSheet|"
 msgid "HIG…"
 msgstr "HIG…"
 
-#: contents/ui/gallery/components/InfoSheet.qml:55
+#: contents/ui/gallery/components/InfoSheet.qml:57
 msgctxt "InfoSheet|"
 msgid "Source code…"
 msgstr "Izvorna koda…"
 
-#: contents/ui/gallery/components/InfoSheet.qml:60
+#: contents/ui/gallery/components/InfoSheet.qml:62
 msgctxt "InfoSheet|"
 msgid "API…"
 msgstr "API…"
 
-#: contents/ui/gallery/components/InfoSheetAction.qml:16
+#: contents/ui/gallery/components/InfoSheetAction.qml:18
 msgctxt "InfoSheetAction|"
 msgid "Info"
 msgstr "Informacije"
 
-#: contents/ui/gallery/DialogGallery.qml:32
+#: contents/ui/gallery/DialogGallery.qml:34
 msgctxt "DialogGallery|"
 msgid "Dialogs"
 msgstr "Dialogi"
 
-#: contents/ui/gallery/DialogGallery.qml:56
+#: contents/ui/gallery/DialogGallery.qml:58
 msgctxt "DialogGallery|"
 msgid "Create Folder"
 msgstr "Ustvari mapo"
 
-#: contents/ui/gallery/DialogGallery.qml:64
+#: contents/ui/gallery/DialogGallery.qml:66
 msgctxt "DialogGallery|"
 msgid "Cancel"
 msgstr "Prekliči"
 
-#: contents/ui/gallery/DialogGallery.qml:73
+#: contents/ui/gallery/DialogGallery.qml:75
 msgctxt "DialogGallery|"
 msgid "Folder name..."
 msgstr "Ime mape..."
 
-#: contents/ui/gallery/DialogGallery.qml:79
+#: contents/ui/gallery/DialogGallery.qml:81
 msgctxt "DialogGallery|"
 msgid "Alarm Snooze Length"
 msgstr "Dolžina bujenja iz dremeža"
 
-#: contents/ui/gallery/DialogGallery.qml:88
+#: contents/ui/gallery/DialogGallery.qml:90
 msgctxt "DialogGallery|"
 msgid "1 minute"
 msgstr "1 minuta"
 
-#: contents/ui/gallery/DialogGallery.qml:89
+#: contents/ui/gallery/DialogGallery.qml:91
 msgctxt "DialogGallery|"
 msgid "2 minutes"
 msgstr "2 minuti"
 
-#: contents/ui/gallery/DialogGallery.qml:90
+#: contents/ui/gallery/DialogGallery.qml:92
 msgctxt "DialogGallery|"
 msgid "3 minutes"
 msgstr "3 minute"
 
-#: contents/ui/gallery/DialogGallery.qml:91
+#: contents/ui/gallery/DialogGallery.qml:93
 msgctxt "DialogGallery|"
 msgid "4 minutes"
 msgstr "4 minute"
 
-#: contents/ui/gallery/DialogGallery.qml:92
+#: contents/ui/gallery/DialogGallery.qml:94
 msgctxt "DialogGallery|"
 msgid "5 minutes"
 msgstr "5 minut"
 
-#: contents/ui/gallery/DialogGallery.qml:93
+#: contents/ui/gallery/DialogGallery.qml:95
 msgctxt "DialogGallery|"
 msgid "10 minutes"
 msgstr "10 minut"
 
-#: contents/ui/gallery/DialogGallery.qml:94
+#: contents/ui/gallery/DialogGallery.qml:96
 msgctxt "DialogGallery|"
 msgid "30 minutes"
 msgstr "30 minut"
 
-#: contents/ui/gallery/DialogGallery.qml:95
+#: contents/ui/gallery/DialogGallery.qml:97
 msgctxt "DialogGallery|"
 msgid "1 hour"
 msgstr "1 ura"
 
-#: contents/ui/gallery/DialogGallery.qml:117
-#: contents/ui/gallery/DialogGallery.qml:134
+#: contents/ui/gallery/DialogGallery.qml:122
+#: contents/ui/gallery/DialogGallery.qml:141
 msgctxt "DialogGallery|"
 msgid "Select Number"
 msgstr "Izberi število"
 
-#: contents/ui/gallery/DialogGallery.qml:124
+#: contents/ui/gallery/DialogGallery.qml:131
 msgctxt "DialogGallery|"
 msgid "Subtitle text"
 msgstr "Besedilo podnapisa"
 
-#: contents/ui/gallery/DialogGallery.qml:154
-#: contents/ui/gallery/DialogGallery.qml:225
+#: contents/ui/gallery/DialogGallery.qml:163
+#: contents/ui/gallery/DialogGallery.qml:234
 msgctxt "DialogGallery|"
 msgid "No Footer Dialog"
 msgstr "Ni dialoga noge"
 
-#: contents/ui/gallery/DialogGallery.qml:155
+#: contents/ui/gallery/DialogGallery.qml:164
 msgctxt "DialogGallery|"
 msgid "This dialog has no footer buttons.<br/>It also has no close button."
 msgstr "Ta dialog nima gumbov v nogi.<br/>Nima gumba za zapiranje."
 
-#: contents/ui/gallery/DialogGallery.qml:163
+#: contents/ui/gallery/DialogGallery.qml:172
 msgctxt "DialogGallery|"
 msgid "Track Options"
 msgstr "Možnosti sledi"
 
-#: contents/ui/gallery/DialogGallery.qml:168
+#: contents/ui/gallery/DialogGallery.qml:177
 msgctxt "DialogGallery|Start playback of the selected track"
 msgid "Play"
 msgstr "Predvajaj"
 
-#: contents/ui/gallery/DialogGallery.qml:169
+#: contents/ui/gallery/DialogGallery.qml:178
 msgctxt "DialogGallery|"
 msgid "Start playback of the selected track"
 msgstr "Začni predvajanje izbrane sledi"
 
-#: contents/ui/gallery/DialogGallery.qml:174
+#: contents/ui/gallery/DialogGallery.qml:183
 msgctxt "DialogGallery|Show the file for this song in the file manager"
 msgid "Show in folder"
 msgstr "Prikaži v mapi"
 
-#: contents/ui/gallery/DialogGallery.qml:175
+#: contents/ui/gallery/DialogGallery.qml:184
 msgctxt "DialogGallery|"
 msgid "Show the file for this song in the file manager"
 msgstr "Prikaži datoteko te pesmi v upravljalniku datotek"
 
-#: contents/ui/gallery/DialogGallery.qml:179
+#: contents/ui/gallery/DialogGallery.qml:188
 msgctxt "DialogGallery|Show track metadata"
 msgid "View details"
 msgstr "Prikaži podrobnosti"
 
-#: contents/ui/gallery/DialogGallery.qml:180
+#: contents/ui/gallery/DialogGallery.qml:189
 msgctxt "DialogGallery|"
 msgid "Show track metadata"
 msgstr "Prikaži metapodatke sledi"
 
-#: contents/ui/gallery/DialogGallery.qml:184
+#: contents/ui/gallery/DialogGallery.qml:193
 msgctxt ""
 "DialogGallery|Add the track to the queue, right after the current track"
 msgid "Play next"
 msgstr "Predvajaj naslednjo"
 
-#: contents/ui/gallery/DialogGallery.qml:185
+#: contents/ui/gallery/DialogGallery.qml:194
 msgctxt "DialogGallery|"
 msgid "Add the track to the queue, right after the current track"
 msgstr "Dodaj sled v čakalno vrsto takoj za trenutno sledjo"
 
-#: contents/ui/gallery/DialogGallery.qml:189
+#: contents/ui/gallery/DialogGallery.qml:198
 msgctxt "DialogGallery|Enqueue current track"
 msgid "Add to queue"
 msgstr "Dodaj v čakalno vrsto"
 
-#: contents/ui/gallery/DialogGallery.qml:190
+#: contents/ui/gallery/DialogGallery.qml:199
 msgctxt "DialogGallery|"
 msgid "Enqueue current track"
 msgstr "Daj trenutno sled v vrsto"
 
-#: contents/ui/gallery/DialogGallery.qml:200
+#: contents/ui/gallery/DialogGallery.qml:209
 msgctxt "DialogGallery|"
 msgid "Prompt Dialog"
 msgstr "Dialog poziva"
 
-#: contents/ui/gallery/DialogGallery.qml:205
+#: contents/ui/gallery/DialogGallery.qml:214
 msgctxt "DialogGallery|"
 msgid "Text Prompt Dialog"
 msgstr "Besedilo dialoga poziva"
 
-#: contents/ui/gallery/DialogGallery.qml:210
+#: contents/ui/gallery/DialogGallery.qml:219
 msgctxt "DialogGallery|"
 msgid "Selection Dialog"
 msgstr "Dialog izbire"
 
-#: contents/ui/gallery/DialogGallery.qml:215
+#: contents/ui/gallery/DialogGallery.qml:224
 msgctxt "DialogGallery|"
 msgid "Selection Dialog with subtitles"
 msgstr "Dialog izbire s podnapisi"
 
-#: contents/ui/gallery/DialogGallery.qml:220
+#: contents/ui/gallery/DialogGallery.qml:229
 msgctxt "DialogGallery|"
 msgid "Scrollable Dialog"
 msgstr "Drseči dialog"
 
-#: contents/ui/gallery/DialogGallery.qml:230
+#: contents/ui/gallery/DialogGallery.qml:239
 msgctxt "DialogGallery|"
 msgid "Menu Dialog"
 msgstr "Menijski dialog"
 
-#: contents/ui/gallery/DrawerGallery.qml:30
+#: contents/ui/gallery/DrawerGallery.qml:32
 msgctxt "DrawerGallery|"
 msgid "Drawers"
 msgstr "Predali"
 
-#: contents/ui/gallery/DrawerGallery.qml:38
+#: contents/ui/gallery/DrawerGallery.qml:40
 msgctxt "DrawerGallery|"
 msgid "Action 1"
 msgstr "Akcija 1"
 
-#: contents/ui/gallery/DrawerGallery.qml:40
+#: contents/ui/gallery/DrawerGallery.qml:42
 msgctxt "DrawerGallery|"
 msgid "Action 1 clicked"
 msgstr "Kliknjena akcija 1"
 
-#: contents/ui/gallery/DrawerGallery.qml:43
+#: contents/ui/gallery/DrawerGallery.qml:45
 msgctxt "DrawerGallery|"
 msgid "Disabled Action"
 msgstr "Onemogočena akcija"
 
-#: contents/ui/gallery/DrawerGallery.qml:48
+#: contents/ui/gallery/DrawerGallery.qml:50
 msgctxt "DrawerGallery|"
 msgid "Action 3"
 msgstr "Akcija 3"
 
-#: contents/ui/gallery/DrawerGallery.qml:49
+#: contents/ui/gallery/DrawerGallery.qml:51
 msgctxt "DrawerGallery|"
 msgid "Action 3 clicked"
 msgstr "Kliknjena akcija 3"
 
-#: contents/ui/gallery/DrawerGallery.qml:62
+#: contents/ui/gallery/DrawerGallery.qml:64
 msgctxt "DrawerGallery|"
 msgid ""
 "A modal bottom drawer will span for the whole application window width and "
@@ -476,15 +476,15 @@ msgstr ""
 "Modalni spodnji predal bo obsegal celotno širino okna aplikacije in bo "
 "zatemnil preostanek aplikacije. Klik na zatemnjen del bo opustil predalnik."
 
-#: contents/ui/gallery/DrawerGallery.qml:66
-#: contents/ui/gallery/DrawerGallery.qml:85
-#: contents/ui/gallery/DrawerGallery.qml:104
-#: contents/ui/gallery/DrawerGallery.qml:123
+#: contents/ui/gallery/DrawerGallery.qml:68
+#: contents/ui/gallery/DrawerGallery.qml:87
+#: contents/ui/gallery/DrawerGallery.qml:106
+#: contents/ui/gallery/DrawerGallery.qml:125
 msgctxt "DrawerGallery|"
 msgid "Close"
 msgstr "Zapri"
 
-#: contents/ui/gallery/DrawerGallery.qml:81
+#: contents/ui/gallery/DrawerGallery.qml:83
 msgctxt "DrawerGallery|"
 msgid ""
 "An inline bottom drawer covers the whole application width but lets the "
@@ -493,7 +493,7 @@ msgstr ""
 "Spodnji predal pokriva celotno širino aplikacije, a omogoča, da nepokriti "
 "kosi še vedno komunicirajo."
 
-#: contents/ui/gallery/DrawerGallery.qml:100
+#: contents/ui/gallery/DrawerGallery.qml:102
 msgctxt "DrawerGallery|"
 msgid ""
 "A modal top drawer will span for the whole application window width and will "
@@ -504,7 +504,7 @@ msgstr ""
 "in bo zatemnil preostali del aplikacije. Klik na zatemnjeno območje bo "
 "odpustil predalnik."
 
-#: contents/ui/gallery/DrawerGallery.qml:119
+#: contents/ui/gallery/DrawerGallery.qml:121
 msgctxt "DrawerGallery|"
 msgid ""
 "An inline top drawer covers the whole application width but lets the "
@@ -513,42 +513,42 @@ msgstr ""
 "Notranji vrhnji predal pokriva celotno širino aplikacije, vendar omogoča, da "
 "nepokriti kosi še vedno komunicirajo."
 
-#: contents/ui/gallery/DrawerGallery.qml:134
+#: contents/ui/gallery/DrawerGallery.qml:136
 msgctxt "DrawerGallery|"
 msgid "Left Global Drawer"
 msgstr "Levi globalni predal"
 
-#: contents/ui/gallery/DrawerGallery.qml:139
+#: contents/ui/gallery/DrawerGallery.qml:141
 msgctxt "DrawerGallery|"
 msgid "Right Context Drawer"
 msgstr "Desni kontekstni predal"
 
-#: contents/ui/gallery/DrawerGallery.qml:145
+#: contents/ui/gallery/DrawerGallery.qml:147
 msgctxt "DrawerGallery|"
 msgid "Modal Bottom Drawer"
 msgstr "Modalni spodnji predal"
 
-#: contents/ui/gallery/DrawerGallery.qml:155
+#: contents/ui/gallery/DrawerGallery.qml:157
 msgctxt "DrawerGallery|"
 msgid "Modal Top Drawer"
 msgstr "Modalni vrhnji predal"
 
-#: contents/ui/gallery/FormLayoutGallery.qml:67
+#: contents/ui/gallery/FormLayoutGallery.qml:69
 msgctxt "FormLayoutGallery|"
 msgid "Expanding Button"
 msgstr "Razširljiv gumb"
 
-#: contents/ui/gallery/FormLayoutGallery.qml:116
+#: contents/ui/gallery/FormLayoutGallery.qml:118
 msgctxt "FormLayoutGallery|"
 msgid "Twin Layout:"
 msgstr "Dvojna postavitev:"
 
-#: contents/ui/gallery/InlineMessagesGallery.qml:31
+#: contents/ui/gallery/InlineMessagesGallery.qml:33
 msgctxt "InlineMessagesGallery|"
 msgid "Inline Messages"
 msgstr "Vmesna sporočila"
 
-#: contents/ui/gallery/InlineMessagesGallery.qml:46
+#: contents/ui/gallery/InlineMessagesGallery.qml:48
 msgctxt "InlineMessagesGallery|"
 msgid ""
 "This is an informational inline message (the default type). Use it for "
@@ -557,7 +557,7 @@ msgstr ""
 "To je informativno vmesno sporočilo (privzeta vrsta). Uporabite ga na primer "
 "za objavo rezultata ali komentarja."
 
-#: contents/ui/gallery/InlineMessagesGallery.qml:56
+#: contents/ui/gallery/InlineMessagesGallery.qml:58
 msgctxt "InlineMessagesGallery|"
 msgid ""
 "This is a positive inline message. Use it for example to announce a "
@@ -566,7 +566,7 @@ msgstr ""
 "To je pozitivno vmesno sporočilo. Uporabite ga na primer za objavo uspešnega "
 "rezultata ali uspešno zaključenega postopka."
 
-#: contents/ui/gallery/InlineMessagesGallery.qml:66
+#: contents/ui/gallery/InlineMessagesGallery.qml:68
 msgctxt "InlineMessagesGallery|"
 msgid ""
 "This is a warning inline message. Use it for example to provide critical "
@@ -575,7 +575,7 @@ msgstr ""
 "To je vmesno sporočilo opozorila. Uporabite ga na primer za zagotavljanje "
 "kritičnega navodila ali opozorila na nekaj, kar ne bo delovalo."
 
-#: contents/ui/gallery/InlineMessagesGallery.qml:76
+#: contents/ui/gallery/InlineMessagesGallery.qml:78
 msgctxt "InlineMessagesGallery|"
 msgid ""
 "This is an error inline message. Use it for example to announce something "
@@ -584,12 +584,12 @@ msgstr ""
 "To je vmesno sporočilo o napaki. Uporabite ga na primer, da najavite je "
 "nekaj šlo narobe ali pa vnos ne bo sprejet."
 
-#: contents/ui/gallery/InlineMessagesGallery.qml:90
+#: contents/ui/gallery/InlineMessagesGallery.qml:92
 msgctxt "InlineMessagesGallery|"
 msgid "Inline messages can optionally have a custom icon set."
 msgstr "V vmesnih sporočilih je lahko poljubno nastavljena ikona po meri."
 
-#: contents/ui/gallery/InlineMessagesGallery.qml:98
+#: contents/ui/gallery/InlineMessagesGallery.qml:100
 msgctxt "InlineMessagesGallery|"
 msgid ""
 "You can use rich text in inline messages and optionally handle clicks on "
@@ -600,39 +600,39 @@ msgstr ""
 "s kliki povezav (odpre se v brskalniku): <a href=\"https://www.kde.org"
 "\">https://www.kde.org/<a/>"
 
-#: contents/ui/gallery/InlineMessagesGallery.qml:110
+#: contents/ui/gallery/InlineMessagesGallery.qml:112
 msgctxt "InlineMessagesGallery|"
 msgid "Inline messages can have an optional close button."
 msgstr "Vmesna sporočila imajo lahko neobvezno gumb za zapiranje."
 
-#: contents/ui/gallery/InlineMessagesGallery.qml:128
+#: contents/ui/gallery/InlineMessagesGallery.qml:130
 msgctxt "InlineMessagesGallery|"
 msgid "Add text"
 msgstr "Dodaj besedilo"
 
-#: contents/ui/gallery/InlineMessagesGallery.qml:138
+#: contents/ui/gallery/InlineMessagesGallery.qml:140
 msgctxt "InlineMessagesGallery|"
 msgid "Reset text"
 msgstr "Ponovno nastavi besedilo"
 
-#: contents/ui/gallery/InlineMessagesGallery.qml:160
+#: contents/ui/gallery/InlineMessagesGallery.qml:162
 msgctxt "InlineMessagesGallery|"
 msgid "Inline messages are initially hidden and animate when revealed. Try it!"
 msgstr ""
 "Vmesna sporočila so na začetku skrita in so animirana, ko so razkrita. "
 "Poskusite!"
 
-#: contents/ui/gallery/InlineMessagesGallery.qml:169
+#: contents/ui/gallery/InlineMessagesGallery.qml:171
 msgctxt "InlineMessagesGallery|"
 msgid "Show additional message"
 msgstr "Prikaži dodatno sporočilo"
 
-#: contents/ui/gallery/InlineMessagesGallery.qml:185
+#: contents/ui/gallery/InlineMessagesGallery.qml:187
 msgctxt "InlineMessagesGallery|"
 msgid "Boo!"
 msgstr "Buu!"
 
-#: contents/ui/gallery/InlineMessagesGallery.qml:189
+#: contents/ui/gallery/InlineMessagesGallery.qml:191
 msgctxt "InlineMessagesGallery|"
 msgid "Shush"
 msgstr "Pst"
@@ -662,109 +662,109 @@ msgctxt "ListViewGallery|"
 msgid "Action 1"
 msgstr "Akcija 1"
 
-#: contents/ui/gallery/ListViewGallery.qml:121
-#: contents/ui/gallery/ListViewGallery.qml:128
+#: contents/ui/gallery/ListViewGallery.qml:120
+#: contents/ui/gallery/ListViewGallery.qml:125
 #, qt-format
 msgctxt "ListViewGallery|"
 msgid "%1: %2 clicked"
 msgstr "%1: %2 je bila kliknjena"
 
-#: contents/ui/gallery/ListViewGallery.qml:126
+#: contents/ui/gallery/ListViewGallery.qml:124
 msgctxt "ListViewGallery|"
 msgid "Action 2"
 msgstr "Akcija2"
 
-#: contents/ui/gallery/ListViewGallery.qml:149
+#: contents/ui/gallery/ListViewGallery.qml:145
 #, qt-format
 msgctxt "ListViewGallery|"
 msgid "Item %1"
 msgstr "Postavka %1"
 
-#: contents/ui/gallery/ListViewGallery.qml:167
+#: contents/ui/gallery/ListViewGallery.qml:163
 #, qt-format
 msgctxt "ListViewGallery|"
 msgid "Section %1"
 msgstr "Sekcija %1"
 
-#: contents/ui/gallery/MetricsGallery.qml:48
+#: contents/ui/gallery/MetricsGallery.qml:50
 msgctxt "MetricsGallery|"
 msgid "Heading 1"
 msgstr "Glava 1"
 
-#: contents/ui/gallery/MetricsGallery.qml:53
-#: contents/ui/gallery/MetricsGallery.qml:63
-#: contents/ui/gallery/MetricsGallery.qml:73
-#: contents/ui/gallery/MetricsGallery.qml:83
+#: contents/ui/gallery/MetricsGallery.qml:55
+#: contents/ui/gallery/MetricsGallery.qml:65
+#: contents/ui/gallery/MetricsGallery.qml:75
+#: contents/ui/gallery/MetricsGallery.qml:85
 #, qt-format
 msgctxt "MetricsGallery|"
 msgid "%1 points"
 msgstr "%1 točk"
 
-#: contents/ui/gallery/MetricsGallery.qml:58
+#: contents/ui/gallery/MetricsGallery.qml:60
 msgctxt "MetricsGallery|"
 msgid "Heading 2"
 msgstr "Glava 2"
 
-#: contents/ui/gallery/MetricsGallery.qml:68
+#: contents/ui/gallery/MetricsGallery.qml:70
 msgctxt "MetricsGallery|"
 msgid "Heading 3"
 msgstr "Glava 3"
 
-#: contents/ui/gallery/MetricsGallery.qml:78
+#: contents/ui/gallery/MetricsGallery.qml:80
 msgctxt "MetricsGallery|"
 msgid "Heading 4"
 msgstr "Glava 4"
 
-#: contents/ui/gallery/MiscGallery.qml:77
+#: contents/ui/gallery/MiscGallery.qml:79
 msgctxt "MiscGallery|"
 msgid "Text Beside Icon"
 msgstr "Besedilo poleg ikone"
 
-#: contents/ui/gallery/MiscGallery.qml:92
+#: contents/ui/gallery/MiscGallery.qml:94
 msgctxt "MiscGallery|"
 msgid "Text Under Icon"
 msgstr "Besedilo pod ikono"
 
-#: contents/ui/gallery/MiscGallery.qml:107
+#: contents/ui/gallery/MiscGallery.qml:109
 msgctxt "MiscGallery|"
 msgid "Text Only"
 msgstr "Samo besedilo"
 
-#: contents/ui/gallery/MiscGallery.qml:122
+#: contents/ui/gallery/MiscGallery.qml:124
 msgctxt "MiscGallery|"
 msgid "Icon Only"
 msgstr "Samo ikona"
 
-#: contents/ui/gallery/MultipleColumnsGallery.qml:122
+#: contents/ui/gallery/MultipleColumnsGallery.qml:124
 msgctxt "MultipleColumnsGallery|"
 msgid "Pin page"
 msgstr "Pripni stran"
 
-#: contents/ui/gallery/OverlaySheetGallery.qml:32
+#: contents/ui/gallery/OverlaySheetGallery.qml:34
 msgctxt "OverlaySheetGallery|"
 msgid "Overlay Sheets"
 msgstr "Prekrivni listi"
 
-#: contents/ui/gallery/OverlaySheetGallery.qml:65
+#: contents/ui/gallery/OverlaySheetGallery.qml:67
 msgctxt "OverlaySheetGallery|"
 msgid "Close"
 msgstr "Zapri"
 
-#: contents/ui/gallery/OverlaySheetGallery.qml:75
-#: contents/ui/gallery/OverlaySheetGallery.qml:143
-#: contents/ui/gallery/OverlaySheetGallery.qml:167
+#: contents/ui/gallery/OverlaySheetGallery.qml:77
+#: contents/ui/gallery/OverlaySheetGallery.qml:145
+#: contents/ui/gallery/OverlaySheetGallery.qml:171
 msgctxt "OverlaySheetGallery|"
 msgid "Title"
 msgstr "Naslov"
 
-#: contents/ui/gallery/OverlaySheetGallery.qml:79
-#: contents/ui/gallery/OverlaySheetGallery.qml:147
-#: contents/ui/gallery/OverlaySheetGallery.qml:171
+#: contents/ui/gallery/OverlaySheetGallery.qml:81
+#: contents/ui/gallery/OverlaySheetGallery.qml:149
+#: contents/ui/gallery/OverlaySheetGallery.qml:175
 msgctxt "OverlaySheetGallery|"
 msgid "Footer:"
 msgstr "Noga:"
 
-#: contents/ui/gallery/OverlaySheetGallery.qml:90
+#: contents/ui/gallery/OverlaySheetGallery.qml:92
 msgctxt "OverlaySheetGallery|"
 msgid ""
 "A sheet can have optional header and footer items which will not scroll away "
@@ -773,7 +773,7 @@ msgstr ""
 "Na listu so lahko poljubni elementi glave in noge, ki se ne bodo premaknili "
 "proč, ko se list prelije."
 
-#: contents/ui/gallery/OverlaySheetGallery.qml:109
+#: contents/ui/gallery/OverlaySheetGallery.qml:111
 msgctxt "OverlaySheetGallery|"
 msgid ""
 "A sheet will take the maximum available width in the page by default.\n"
@@ -784,7 +784,7 @@ msgstr ""
 "Če pa glavna postavka nastavi lastnost implicitWidth ali Layout."
 "preferredWidth, list ne bo zrasel v širino več od zadane vrednosti."
 
-#: contents/ui/gallery/OverlaySheetGallery.qml:130
+#: contents/ui/gallery/OverlaySheetGallery.qml:132
 msgctxt "OverlaySheetGallery|"
 msgid ""
 "A sheet by default will be over a single page, even if the app is in wide "
@@ -797,90 +797,90 @@ msgstr ""
 "list kot prekrivna plast čez celotno okno aplikacije.\n"
 "V tem primeru bo list prekril tudi stran Gumbi akcije."
 
-#: contents/ui/gallery/OverlaySheetGallery.qml:159
+#: contents/ui/gallery/OverlaySheetGallery.qml:163
 msgctxt "OverlaySheetGallery|"
 msgid "Item in sheet "
 msgstr "Postavka na listu "
 
-#: contents/ui/gallery/OverlaySheetGallery.qml:203
+#: contents/ui/gallery/OverlaySheetGallery.qml:207
 msgctxt "OverlaySheetGallery|"
 msgid "Very Long Sheet"
 msgstr "Zelo dolg list"
 
-#: contents/ui/gallery/SelectionControlsGallery.qml:31
+#: contents/ui/gallery/SelectionControlsGallery.qml:33
 msgctxt "SelectionControlsGallery|"
 msgid "Selection Controls"
 msgstr "Upravljanje izbire"
 
-#: contents/ui/gallery/SelectionControlsGallery.qml:47
+#: contents/ui/gallery/SelectionControlsGallery.qml:49
 msgctxt "SelectionControlsGallery|"
 msgid "Checkable List Items"
 msgstr "Postavke lista, ki se jih da klikniti"
 
-#: contents/ui/gallery/SelectionControlsGallery.qml:55
-#: contents/ui/gallery/SelectionControlsGallery.qml:79
-#: contents/ui/gallery/SelectionControlsGallery.qml:103
+#: contents/ui/gallery/SelectionControlsGallery.qml:59
+#: contents/ui/gallery/SelectionControlsGallery.qml:85
+#: contents/ui/gallery/SelectionControlsGallery.qml:111
 #, qt-format
 msgctxt "SelectionControlsGallery|"
 msgid "Delegate %1"
 msgstr "Delegiraj %1"
 
-#: contents/ui/gallery/SelectionControlsGallery.qml:71
-#: contents/ui/gallery/SelectionControlsGallery.qml:95
+#: contents/ui/gallery/SelectionControlsGallery.qml:75
+#: contents/ui/gallery/SelectionControlsGallery.qml:101
 msgctxt "SelectionControlsGallery|"
 msgid "Radio List Items"
 msgstr "Predmeti  radijskih seznamov"
 
-#: contents/ui/gallery/SelectionControlsGallery.qml:112
+#: contents/ui/gallery/SelectionControlsGallery.qml:120
 msgctxt "SelectionControlsGallery|"
 msgid "Checkboxes"
 msgstr "Rubrike s kljukico"
 
-#: contents/ui/gallery/SelectionControlsGallery.qml:116
-#: contents/ui/gallery/SelectionControlsGallery.qml:134
-#: contents/ui/gallery/SelectionControlsGallery.qml:152
+#: contents/ui/gallery/SelectionControlsGallery.qml:124
+#: contents/ui/gallery/SelectionControlsGallery.qml:142
+#: contents/ui/gallery/SelectionControlsGallery.qml:160
 msgctxt "SelectionControlsGallery|"
 msgid "Item selected"
 msgstr "Izbrani predmet"
 
-#: contents/ui/gallery/SelectionControlsGallery.qml:120
-#: contents/ui/gallery/SelectionControlsGallery.qml:138
-#: contents/ui/gallery/SelectionControlsGallery.qml:156
+#: contents/ui/gallery/SelectionControlsGallery.qml:128
+#: contents/ui/gallery/SelectionControlsGallery.qml:146
+#: contents/ui/gallery/SelectionControlsGallery.qml:164
 msgctxt "SelectionControlsGallery|"
 msgid "Item not selected"
 msgstr "Predmet ni izbran"
 
-#: contents/ui/gallery/SelectionControlsGallery.qml:124
+#: contents/ui/gallery/SelectionControlsGallery.qml:132
 msgctxt "SelectionControlsGallery|"
 msgid "Checkable List View"
 msgstr "Preverljiv pogled seznama"
 
-#: contents/ui/gallery/SelectionControlsGallery.qml:130
+#: contents/ui/gallery/SelectionControlsGallery.qml:138
 msgctxt "SelectionControlsGallery|"
 msgid "Radio buttons"
 msgstr "Radijski gumbi"
 
-#: contents/ui/gallery/SelectionControlsGallery.qml:143
+#: contents/ui/gallery/SelectionControlsGallery.qml:151
 msgctxt "SelectionControlsGallery|"
 msgid "Radio List View"
 msgstr "Pogled seznama radijskih gumbov"
 
-#: contents/ui/gallery/SelectionControlsGallery.qml:149
+#: contents/ui/gallery/SelectionControlsGallery.qml:157
 msgctxt "SelectionControlsGallery|"
 msgid "Switches"
 msgstr "Stikala"
 
-#: contents/ui/gallery/SelectionControlsGallery.qml:160
+#: contents/ui/gallery/SelectionControlsGallery.qml:168
 msgctxt "SelectionControlsGallery|"
 msgid "Switch List View"
 msgstr "Pogled seznama stikal"
 
-#: contents/ui/MainPage.qml:35
+#: contents/ui/MainPage.qml:37
 msgctxt "MainPage|"
 msgid "Kirigami Gallery"
 msgstr "Galerija Kirigami"
 
-#: contents/ui/MainPage.qml:40
+#: contents/ui/MainPage.qml:42
 msgctxt "MainPage|"
 msgid "Home"
 msgstr "Domov"

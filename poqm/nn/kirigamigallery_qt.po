@@ -17,17 +17,17 @@ msgstr ""
 "X-Text-Markup: qtrich\n"
 "X-Qt-Contexts: true\n"
 
-#: contents/ui/gallery/CardsLayoutGallery.qml:30
+#: contents/ui/gallery/CardsLayoutGallery.qml:32
 msgctxt "CardsLayoutGallery|"
 msgid "Cards Layout"
 msgstr "Kortutforming"
 
-#: contents/ui/gallery/CardsLayoutGallery.qml:43
+#: contents/ui/gallery/CardsLayoutGallery.qml:45
 msgctxt "CardsLayoutGallery|"
 msgid "AbstractCard"
 msgstr "AbstractCard"
 
-#: contents/ui/gallery/CardsLayoutGallery.qml:48
+#: contents/ui/gallery/CardsLayoutGallery.qml:50
 msgctxt "CardsLayoutGallery|"
 msgid ""
 "An AbstractCard is the simplest form of card. It's just a rectangle with a "
@@ -41,7 +41,7 @@ msgstr ""
 "«Kirigami.Heading» toppelement og ein «Label» med «WordWrap» vert "
 "«contentItem»."
 
-#: contents/ui/gallery/CardsLayoutGallery.qml:56
+#: contents/ui/gallery/CardsLayoutGallery.qml:58
 msgctxt "CardsLayoutGallery|"
 msgid ""
 "This is an AbstractCard with a Label with WordWrap in it and nothing else, "
@@ -59,33 +59,33 @@ msgstr ""
 "setja eigenskapen til sann dersom du har planar om å gjera kortet reaktivt "
 "for ved ein type klikk."
 
-#: contents/ui/gallery/CardsLayoutGallery.qml:58
+#: contents/ui/gallery/CardsLayoutGallery.qml:60
 msgctxt "CardsLayoutGallery|"
 msgid "Card clicked"
 msgstr "Kort trykt på"
 
-#: contents/ui/gallery/CardsLayoutGallery.qml:64
-#: contents/ui/gallery/CardsLayoutGallery.qml:86
-#: contents/ui/gallery/CardsLayoutGallery.qml:124
-#: contents/ui/gallery/CardsLayoutGallery.qml:198
+#: contents/ui/gallery/CardsLayoutGallery.qml:66
+#: contents/ui/gallery/CardsLayoutGallery.qml:88
+#: contents/ui/gallery/CardsLayoutGallery.qml:126
+#: contents/ui/gallery/CardsLayoutGallery.qml:200
 msgctxt "CardsLayoutGallery|"
 msgid "Action1"
 msgstr "Handling1"
 
-#: contents/ui/gallery/CardsLayoutGallery.qml:68
-#: contents/ui/gallery/CardsLayoutGallery.qml:90
-#: contents/ui/gallery/CardsLayoutGallery.qml:128
-#: contents/ui/gallery/CardsLayoutGallery.qml:202
+#: contents/ui/gallery/CardsLayoutGallery.qml:70
+#: contents/ui/gallery/CardsLayoutGallery.qml:92
+#: contents/ui/gallery/CardsLayoutGallery.qml:130
+#: contents/ui/gallery/CardsLayoutGallery.qml:204
 msgctxt "CardsLayoutGallery|"
 msgid "Action2"
 msgstr "Handling2"
 
-#: contents/ui/gallery/CardsLayoutGallery.qml:74
+#: contents/ui/gallery/CardsLayoutGallery.qml:76
 msgctxt "CardsLayoutGallery|"
 msgid "Card"
 msgstr "Kort"
 
-#: contents/ui/gallery/CardsLayoutGallery.qml:78
+#: contents/ui/gallery/CardsLayoutGallery.qml:80
 msgctxt "CardsLayoutGallery|"
 msgid ""
 "This is an instance of the Card type: it can optionally have an image, a "
@@ -97,27 +97,27 @@ msgstr ""
 "følgjande: eit bilete, ein tittel eller eit ikon tilordna bannergruppe-"
 "eigenskapen. Eit Card kan òg ha Actions som vert viste i botnområdet."
 
-#: contents/ui/gallery/CardsLayoutGallery.qml:94
+#: contents/ui/gallery/CardsLayoutGallery.qml:96
 msgctxt "CardsLayoutGallery|"
 msgid "Action3"
 msgstr "Handling3"
 
-#: contents/ui/gallery/CardsLayoutGallery.qml:98
+#: contents/ui/gallery/CardsLayoutGallery.qml:100
 msgctxt "CardsLayoutGallery|"
 msgid "Action4"
 msgstr "Handling4"
 
-#: contents/ui/gallery/CardsLayoutGallery.qml:102
+#: contents/ui/gallery/CardsLayoutGallery.qml:104
 msgctxt "CardsLayoutGallery|"
 msgid "Action5"
 msgstr "Handling5"
 
-#: contents/ui/gallery/CardsLayoutGallery.qml:106
+#: contents/ui/gallery/CardsLayoutGallery.qml:108
 msgctxt "CardsLayoutGallery|"
 msgid "Action6"
 msgstr "Handling6"
 
-#: contents/ui/gallery/CardsLayoutGallery.qml:117
+#: contents/ui/gallery/CardsLayoutGallery.qml:119
 msgctxt "CardsLayoutGallery|"
 msgid ""
 "The title can be aligned to all corners or centered with a combination of Qt."
@@ -129,12 +129,12 @@ msgstr ""
 " Når det finst for mange handlingar, hamnar dei overskytande i ein eigen "
 "undermeny."
 
-#: contents/ui/gallery/CardsLayoutGallery.qml:132
+#: contents/ui/gallery/CardsLayoutGallery.qml:134
 msgctxt "CardsLayoutGallery|"
 msgid "Action always hidden"
 msgstr "Handling alltid gøymd"
 
-#: contents/ui/gallery/CardsLayoutGallery.qml:143
+#: contents/ui/gallery/CardsLayoutGallery.qml:145
 msgctxt "CardsLayoutGallery|"
 msgid ""
 "The Banner can contain only the title and/or an icon, even if there is no "
@@ -143,7 +143,7 @@ msgstr ""
 "Banneret kan berre innehalda tittelen og/eller eit ikon, sjølv om det ikkje "
 "finst noko bannerbilete."
 
-#: contents/ui/gallery/CardsLayoutGallery.qml:166
+#: contents/ui/gallery/CardsLayoutGallery.qml:168
 msgctxt "CardsLayoutGallery|"
 msgid ""
 "It's possible to have custom contents overlapping the image, for cases where "
@@ -152,7 +152,7 @@ msgstr ""
 "Du kan ha sjølvvalt innhald som overlappar biletet, for tilfelle der du "
 "ønskjer eit meir person­tilpassa design."
 
-#: contents/ui/gallery/CardsLayoutGallery.qml:181
+#: contents/ui/gallery/CardsLayoutGallery.qml:183
 msgctxt "CardsLayoutGallery|"
 msgid ""
 "It's possible to customize the look and feel for Cards too, if the no "
@@ -170,17 +170,17 @@ msgstr ""
 "eigenskapen. Viss du brukar eit tilpassa botnområde (ikkje tilrådd), bør du "
 "ikkje bruka handlingar."
 
-#: contents/ui/gallery/CardsLayoutGallery.qml:186
+#: contents/ui/gallery/CardsLayoutGallery.qml:188
 msgctxt "CardsLayoutGallery|"
 msgid "Custom footer"
 msgstr "Tilpassa botnområde"
 
-#: contents/ui/gallery/CardsLayoutGallery.qml:189
+#: contents/ui/gallery/CardsLayoutGallery.qml:191
 msgctxt "CardsLayoutGallery|"
 msgid "Ok"
 msgstr "OK"
 
-#: contents/ui/gallery/CardsLayoutGallery.qml:212
+#: contents/ui/gallery/CardsLayoutGallery.qml:214
 msgctxt "CardsLayoutGallery|"
 msgid ""
 "A card can optionally have horizontal orientation.\n"
@@ -195,17 +195,17 @@ msgstr ""
 "Viss du legg det i ein CardsLayout, så vil det som standard ha ein "
 "columnSpan-verdi på 2 (som kan overstyrast)."
 
-#: contents/ui/gallery/CardsListViewGallery.qml:30
+#: contents/ui/gallery/CardsListViewGallery.qml:32
 msgctxt "CardsListViewGallery|"
 msgid "List view of simple cards"
 msgstr "Listevising av enkle kort"
 
-#: contents/ui/gallery/CardsListViewGallery.qml:67
+#: contents/ui/gallery/CardsListViewGallery.qml:73
 msgctxt "CardsListViewGallery|"
 msgid "Product "
 msgstr "Produkt"
 
-#: contents/ui/gallery/CardsListViewGallery.qml:75
+#: contents/ui/gallery/CardsListViewGallery.qml:81
 msgctxt "CardsListViewGallery|"
 msgid ""
 "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id risus id "
@@ -214,27 +214,27 @@ msgstr ""
 "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id risus id "
 "augue euismod accumsan."
 
-#: contents/ui/gallery/CardsListViewGallery.qml:81
+#: contents/ui/gallery/CardsListViewGallery.qml:87
 msgctxt "CardsListViewGallery|"
 msgid "Install"
 msgstr "Installer"
 
-#: contents/ui/gallery/ChipGallery.qml:31
+#: contents/ui/gallery/ChipGallery.qml:33
 msgctxt "ChipGallery|"
 msgid "Chips"
 msgstr "Merke"
 
-#: contents/ui/gallery/ChipGallery.qml:46
+#: contents/ui/gallery/ChipGallery.qml:48
 msgctxt "ChipGallery|"
 msgid "Closable Chips"
 msgstr "Lukkbare merke"
 
-#: contents/ui/gallery/ChipGallery.qml:76
+#: contents/ui/gallery/ChipGallery.qml:81
 msgctxt "ChipGallery|"
 msgid "Informative Chips"
 msgstr "Informative merke"
 
-#: contents/ui/gallery/ChipGallery.qml:112
+#: contents/ui/gallery/ChipGallery.qml:119
 msgctxt "ChipGallery|"
 msgid "Checkable Chips"
 msgstr "Avkryssbare merke"
@@ -244,232 +244,232 @@ msgctxt "ColorsGallery|"
 msgid "Colors"
 msgstr "Fargar"
 
-#: contents/ui/gallery/components/InfoSheet.qml:50
+#: contents/ui/gallery/components/InfoSheet.qml:52
 msgctxt "InfoSheet|"
 msgid "HIG…"
 msgstr "HIG …"
 
-#: contents/ui/gallery/components/InfoSheet.qml:55
+#: contents/ui/gallery/components/InfoSheet.qml:57
 msgctxt "InfoSheet|"
 msgid "Source code…"
 msgstr "Kjeldekode …"
 
-#: contents/ui/gallery/components/InfoSheet.qml:60
+#: contents/ui/gallery/components/InfoSheet.qml:62
 msgctxt "InfoSheet|"
 msgid "API…"
 msgstr "API …"
 
-#: contents/ui/gallery/components/InfoSheetAction.qml:16
+#: contents/ui/gallery/components/InfoSheetAction.qml:18
 msgctxt "InfoSheetAction|"
 msgid "Info"
 msgstr "Info"
 
-#: contents/ui/gallery/DialogGallery.qml:32
+#: contents/ui/gallery/DialogGallery.qml:34
 msgctxt "DialogGallery|"
 msgid "Dialogs"
 msgstr "Dialogvindauge"
 
-#: contents/ui/gallery/DialogGallery.qml:56
+#: contents/ui/gallery/DialogGallery.qml:58
 msgctxt "DialogGallery|"
 msgid "Create Folder"
 msgstr "Lag mappe"
 
-#: contents/ui/gallery/DialogGallery.qml:64
+#: contents/ui/gallery/DialogGallery.qml:66
 msgctxt "DialogGallery|"
 msgid "Cancel"
 msgstr "Avbryt"
 
-#: contents/ui/gallery/DialogGallery.qml:73
+#: contents/ui/gallery/DialogGallery.qml:75
 msgctxt "DialogGallery|"
 msgid "Folder name..."
 msgstr "Mappenamn …"
 
-#: contents/ui/gallery/DialogGallery.qml:79
+#: contents/ui/gallery/DialogGallery.qml:81
 msgctxt "DialogGallery|"
 msgid "Alarm Snooze Length"
 msgstr "Slumretid"
 
-#: contents/ui/gallery/DialogGallery.qml:88
+#: contents/ui/gallery/DialogGallery.qml:90
 msgctxt "DialogGallery|"
 msgid "1 minute"
 msgstr "1 minutt"
 
-#: contents/ui/gallery/DialogGallery.qml:89
+#: contents/ui/gallery/DialogGallery.qml:91
 msgctxt "DialogGallery|"
 msgid "2 minutes"
 msgstr "2 minutt"
 
-#: contents/ui/gallery/DialogGallery.qml:90
+#: contents/ui/gallery/DialogGallery.qml:92
 msgctxt "DialogGallery|"
 msgid "3 minutes"
 msgstr "3 minutt"
 
-#: contents/ui/gallery/DialogGallery.qml:91
+#: contents/ui/gallery/DialogGallery.qml:93
 msgctxt "DialogGallery|"
 msgid "4 minutes"
 msgstr "4 minutt"
 
-#: contents/ui/gallery/DialogGallery.qml:92
+#: contents/ui/gallery/DialogGallery.qml:94
 msgctxt "DialogGallery|"
 msgid "5 minutes"
 msgstr "5 minutt"
 
-#: contents/ui/gallery/DialogGallery.qml:93
+#: contents/ui/gallery/DialogGallery.qml:95
 msgctxt "DialogGallery|"
 msgid "10 minutes"
 msgstr "10 minutt"
 
-#: contents/ui/gallery/DialogGallery.qml:94
+#: contents/ui/gallery/DialogGallery.qml:96
 msgctxt "DialogGallery|"
 msgid "30 minutes"
 msgstr "30 minutt"
 
-#: contents/ui/gallery/DialogGallery.qml:95
+#: contents/ui/gallery/DialogGallery.qml:97
 msgctxt "DialogGallery|"
 msgid "1 hour"
 msgstr "1 time"
 
-#: contents/ui/gallery/DialogGallery.qml:117
-#: contents/ui/gallery/DialogGallery.qml:134
+#: contents/ui/gallery/DialogGallery.qml:122
+#: contents/ui/gallery/DialogGallery.qml:141
 msgctxt "DialogGallery|"
 msgid "Select Number"
 msgstr "Vel tal"
 
-#: contents/ui/gallery/DialogGallery.qml:124
+#: contents/ui/gallery/DialogGallery.qml:131
 msgctxt "DialogGallery|"
 msgid "Subtitle text"
 msgstr "Undertekst"
 
-#: contents/ui/gallery/DialogGallery.qml:154
-#: contents/ui/gallery/DialogGallery.qml:225
+#: contents/ui/gallery/DialogGallery.qml:163
+#: contents/ui/gallery/DialogGallery.qml:234
 msgctxt "DialogGallery|"
 msgid "No Footer Dialog"
 msgstr "Dialogvindauge utan botnområde"
 
-#: contents/ui/gallery/DialogGallery.qml:155
+#: contents/ui/gallery/DialogGallery.qml:164
 msgctxt "DialogGallery|"
 msgid "This dialog has no footer buttons.<br/>It also has no close button."
 msgstr ""
 "Dette dialgovindauget har ikkje botnområd med knappar.<br/>Det manglar òg "
 "lukkeknapp."
 
-#: contents/ui/gallery/DialogGallery.qml:163
+#: contents/ui/gallery/DialogGallery.qml:172
 msgctxt "DialogGallery|"
 msgid "Track Options"
 msgstr "Sporval"
 
-#: contents/ui/gallery/DialogGallery.qml:168
+#: contents/ui/gallery/DialogGallery.qml:177
 msgctxt "DialogGallery|Start playback of the selected track"
 msgid "Play"
 msgstr "Spel"
 
-#: contents/ui/gallery/DialogGallery.qml:169
+#: contents/ui/gallery/DialogGallery.qml:178
 msgctxt "DialogGallery|"
 msgid "Start playback of the selected track"
 msgstr "Start avspeling av valt spor"
 
-#: contents/ui/gallery/DialogGallery.qml:174
+#: contents/ui/gallery/DialogGallery.qml:183
 msgctxt "DialogGallery|Show the file for this song in the file manager"
 msgid "Show in folder"
 msgstr "Vis i mappe"
 
-#: contents/ui/gallery/DialogGallery.qml:175
+#: contents/ui/gallery/DialogGallery.qml:184
 msgctxt "DialogGallery|"
 msgid "Show the file for this song in the file manager"
 msgstr "Vis fil for songen i filhandsamaren"
 
-#: contents/ui/gallery/DialogGallery.qml:179
+#: contents/ui/gallery/DialogGallery.qml:188
 msgctxt "DialogGallery|Show track metadata"
 msgid "View details"
 msgstr "Vis detaljar"
 
-#: contents/ui/gallery/DialogGallery.qml:180
+#: contents/ui/gallery/DialogGallery.qml:189
 msgctxt "DialogGallery|"
 msgid "Show track metadata"
 msgstr "Vis spor-metadata"
 
-#: contents/ui/gallery/DialogGallery.qml:184
+#: contents/ui/gallery/DialogGallery.qml:193
 msgctxt ""
 "DialogGallery|Add the track to the queue, right after the current track"
 msgid "Play next"
 msgstr "Spel som neste"
 
-#: contents/ui/gallery/DialogGallery.qml:185
+#: contents/ui/gallery/DialogGallery.qml:194
 msgctxt "DialogGallery|"
 msgid "Add the track to the queue, right after the current track"
 msgstr "Legg sporet i avspelingskøen, rett etter gjeldande spor"
 
-#: contents/ui/gallery/DialogGallery.qml:189
+#: contents/ui/gallery/DialogGallery.qml:198
 msgctxt "DialogGallery|Enqueue current track"
 msgid "Add to queue"
 msgstr "Legg i avspelingskøen"
 
-#: contents/ui/gallery/DialogGallery.qml:190
+#: contents/ui/gallery/DialogGallery.qml:199
 msgctxt "DialogGallery|"
 msgid "Enqueue current track"
 msgstr "Legg gjeldande spor i avspelingskøen"
 
-#: contents/ui/gallery/DialogGallery.qml:200
+#: contents/ui/gallery/DialogGallery.qml:209
 msgctxt "DialogGallery|"
 msgid "Prompt Dialog"
 msgstr "Spørsmåls-dialogvindauge"
 
-#: contents/ui/gallery/DialogGallery.qml:205
+#: contents/ui/gallery/DialogGallery.qml:214
 msgctxt "DialogGallery|"
 msgid "Text Prompt Dialog"
 msgstr "Tekst-dialogvindauge"
 
-#: contents/ui/gallery/DialogGallery.qml:210
+#: contents/ui/gallery/DialogGallery.qml:219
 msgctxt "DialogGallery|"
 msgid "Selection Dialog"
 msgstr "Utvals-dialogvindauge"
 
-#: contents/ui/gallery/DialogGallery.qml:215
+#: contents/ui/gallery/DialogGallery.qml:224
 msgctxt "DialogGallery|"
 msgid "Selection Dialog with subtitles"
 msgstr "Utvals-dialogvindauge med undertekst"
 
-#: contents/ui/gallery/DialogGallery.qml:220
+#: contents/ui/gallery/DialogGallery.qml:229
 msgctxt "DialogGallery|"
 msgid "Scrollable Dialog"
 msgstr "Rullbart dialogvindauge"
 
-#: contents/ui/gallery/DialogGallery.qml:230
+#: contents/ui/gallery/DialogGallery.qml:239
 msgctxt "DialogGallery|"
 msgid "Menu Dialog"
 msgstr "Meny-dialogvindauge"
 
-#: contents/ui/gallery/DrawerGallery.qml:30
+#: contents/ui/gallery/DrawerGallery.qml:32
 msgctxt "DrawerGallery|"
 msgid "Drawers"
 msgstr "Skuffar"
 
-#: contents/ui/gallery/DrawerGallery.qml:38
+#: contents/ui/gallery/DrawerGallery.qml:40
 msgctxt "DrawerGallery|"
 msgid "Action 1"
 msgstr "Handling 1"
 
-#: contents/ui/gallery/DrawerGallery.qml:40
+#: contents/ui/gallery/DrawerGallery.qml:42
 msgctxt "DrawerGallery|"
 msgid "Action 1 clicked"
 msgstr "Handling 1 trykt på"
 
-#: contents/ui/gallery/DrawerGallery.qml:43
+#: contents/ui/gallery/DrawerGallery.qml:45
 msgctxt "DrawerGallery|"
 msgid "Disabled Action"
 msgstr "Deaktivert handling"
 
-#: contents/ui/gallery/DrawerGallery.qml:48
+#: contents/ui/gallery/DrawerGallery.qml:50
 msgctxt "DrawerGallery|"
 msgid "Action 3"
 msgstr "Handling 3"
 
-#: contents/ui/gallery/DrawerGallery.qml:49
+#: contents/ui/gallery/DrawerGallery.qml:51
 msgctxt "DrawerGallery|"
 msgid "Action 3 clicked"
 msgstr "Handling 3 trykt på"
 
-#: contents/ui/gallery/DrawerGallery.qml:62
+#: contents/ui/gallery/DrawerGallery.qml:64
 msgctxt "DrawerGallery|"
 msgid ""
 "A modal bottom drawer will span for the whole application window width and "
@@ -479,15 +479,15 @@ msgstr ""
 "Ei modal botnskuff vil dekkja heile program­vindauget og vil gjera resten av "
 "appen mørk. Eit trykk på det mørklagde området vil lukka skuffa."
 
-#: contents/ui/gallery/DrawerGallery.qml:66
-#: contents/ui/gallery/DrawerGallery.qml:85
-#: contents/ui/gallery/DrawerGallery.qml:104
-#: contents/ui/gallery/DrawerGallery.qml:123
+#: contents/ui/gallery/DrawerGallery.qml:68
+#: contents/ui/gallery/DrawerGallery.qml:87
+#: contents/ui/gallery/DrawerGallery.qml:106
+#: contents/ui/gallery/DrawerGallery.qml:125
 msgctxt "DrawerGallery|"
 msgid "Close"
 msgstr "Lukk"
 
-#: contents/ui/gallery/DrawerGallery.qml:81
+#: contents/ui/gallery/DrawerGallery.qml:83
 msgctxt "DrawerGallery|"
 msgid ""
 "An inline bottom drawer covers the whole application width but lets the "
@@ -496,7 +496,7 @@ msgstr ""
 "Ei inline-botnskuff dekkjer heile breidda av programmet, men elementa som "
 "ikkje er dekkja, er framleis interaktive."
 
-#: contents/ui/gallery/DrawerGallery.qml:100
+#: contents/ui/gallery/DrawerGallery.qml:102
 msgctxt "DrawerGallery|"
 msgid ""
 "A modal top drawer will span for the whole application window width and will "
@@ -506,7 +506,7 @@ msgstr ""
 "Ei modal toppskuff vil dekkja heile program­vindauget og vil gjera resten av "
 "appen mørk. Eit trykk på det mørklagde området vil lukka skuffa."
 
-#: contents/ui/gallery/DrawerGallery.qml:119
+#: contents/ui/gallery/DrawerGallery.qml:121
 msgctxt "DrawerGallery|"
 msgid ""
 "An inline top drawer covers the whole application width but lets the "
@@ -515,42 +515,42 @@ msgstr ""
 "Ei inline-toppskuff dekkjer heile breidda av programmet, men elementa som "
 "ikkje er dekkja, er framleis interaktive."
 
-#: contents/ui/gallery/DrawerGallery.qml:134
+#: contents/ui/gallery/DrawerGallery.qml:136
 msgctxt "DrawerGallery|"
 msgid "Left Global Drawer"
 msgstr "Venstre globale skuff"
 
-#: contents/ui/gallery/DrawerGallery.qml:139
+#: contents/ui/gallery/DrawerGallery.qml:141
 msgctxt "DrawerGallery|"
 msgid "Right Context Drawer"
 msgstr "Høgre kontekstskuff"
 
-#: contents/ui/gallery/DrawerGallery.qml:145
+#: contents/ui/gallery/DrawerGallery.qml:147
 msgctxt "DrawerGallery|"
 msgid "Modal Bottom Drawer"
 msgstr "Modal botnskuff"
 
-#: contents/ui/gallery/DrawerGallery.qml:155
+#: contents/ui/gallery/DrawerGallery.qml:157
 msgctxt "DrawerGallery|"
 msgid "Modal Top Drawer"
 msgstr "Modal toppskuff"
 
-#: contents/ui/gallery/FormLayoutGallery.qml:67
+#: contents/ui/gallery/FormLayoutGallery.qml:69
 msgctxt "FormLayoutGallery|"
 msgid "Expanding Button"
 msgstr "Utvidande knapp"
 
-#: contents/ui/gallery/FormLayoutGallery.qml:116
+#: contents/ui/gallery/FormLayoutGallery.qml:118
 msgctxt "FormLayoutGallery|"
 msgid "Twin Layout:"
 msgstr "Tvillingutforming:"
 
-#: contents/ui/gallery/InlineMessagesGallery.qml:31
+#: contents/ui/gallery/InlineMessagesGallery.qml:33
 msgctxt "InlineMessagesGallery|"
 msgid "Inline Messages"
 msgstr "Innebygd melding"
 
-#: contents/ui/gallery/InlineMessagesGallery.qml:46
+#: contents/ui/gallery/InlineMessagesGallery.qml:48
 msgctxt "InlineMessagesGallery|"
 msgid ""
 "This is an informational inline message (the default type). Use it for "
@@ -559,7 +559,7 @@ msgstr ""
 "Dette er ei informativ inline-melding (standardtypen). Du kan bruka ho til å "
 "kunngjera eit resultat eller til å kommentera noko."
 
-#: contents/ui/gallery/InlineMessagesGallery.qml:56
+#: contents/ui/gallery/InlineMessagesGallery.qml:58
 msgctxt "InlineMessagesGallery|"
 msgid ""
 "This is a positive inline message. Use it for example to announce a "
@@ -568,7 +568,7 @@ msgstr ""
 "Dette er ei positiv inline-melding. Du kan bruka ho til å kunngjera eit "
 "positivt resultat eller ei vellukka fullføring av ei handling."
 
-#: contents/ui/gallery/InlineMessagesGallery.qml:66
+#: contents/ui/gallery/InlineMessagesGallery.qml:68
 msgctxt "InlineMessagesGallery|"
 msgid ""
 "This is a warning inline message. Use it for example to provide critical "
@@ -577,7 +577,7 @@ msgstr ""
 "Dette er ei inline-melding for åtvaringar. Du kan bruka ho til å gje kritisk "
 "rettleiing eller varsla om at noko ikkje vil verka."
 
-#: contents/ui/gallery/InlineMessagesGallery.qml:76
+#: contents/ui/gallery/InlineMessagesGallery.qml:78
 msgctxt "InlineMessagesGallery|"
 msgid ""
 "This is an error inline message. Use it for example to announce something "
@@ -586,12 +586,12 @@ msgstr ""
 "Dette er ei inline-melding for feil. Du kan bruka ho til å varsla om at noko "
 "har gått gale eller at noko inndata ikkje vert godteke."
 
-#: contents/ui/gallery/InlineMessagesGallery.qml:90
+#: contents/ui/gallery/InlineMessagesGallery.qml:92
 msgctxt "InlineMessagesGallery|"
 msgid "Inline messages can optionally have a custom icon set."
 msgstr "Inline-meldingar kan om ønskjeleg ha sitt eige ikonsett."
 
-#: contents/ui/gallery/InlineMessagesGallery.qml:98
+#: contents/ui/gallery/InlineMessagesGallery.qml:100
 msgctxt "InlineMessagesGallery|"
 msgid ""
 "You can use rich text in inline messages and optionally handle clicks on "
@@ -602,39 +602,39 @@ msgstr ""
 "lenkjer (opnar i ein nettlesar): <a href=\"https://www.kde.org\">https://www."
 "kde.org/<a/>"
 
-#: contents/ui/gallery/InlineMessagesGallery.qml:110
+#: contents/ui/gallery/InlineMessagesGallery.qml:112
 msgctxt "InlineMessagesGallery|"
 msgid "Inline messages can have an optional close button."
 msgstr "Inline-meldingar kan om ønskjeleg òg ha ein lukkeknapp."
 
-#: contents/ui/gallery/InlineMessagesGallery.qml:128
+#: contents/ui/gallery/InlineMessagesGallery.qml:130
 msgctxt "InlineMessagesGallery|"
 msgid "Add text"
 msgstr "Legg til tekst"
 
-#: contents/ui/gallery/InlineMessagesGallery.qml:138
+#: contents/ui/gallery/InlineMessagesGallery.qml:140
 msgctxt "InlineMessagesGallery|"
 msgid "Reset text"
 msgstr "Tilbakestill tekst"
 
-#: contents/ui/gallery/InlineMessagesGallery.qml:160
+#: contents/ui/gallery/InlineMessagesGallery.qml:162
 msgctxt "InlineMessagesGallery|"
 msgid "Inline messages are initially hidden and animate when revealed. Try it!"
 msgstr ""
 "Inline-meldingar er i utgangspunktet gøymde og vert viste med ein animasjon. "
 "Prøv!"
 
-#: contents/ui/gallery/InlineMessagesGallery.qml:169
+#: contents/ui/gallery/InlineMessagesGallery.qml:171
 msgctxt "InlineMessagesGallery|"
 msgid "Show additional message"
 msgstr "Vis tilleggsmelding"
 
-#: contents/ui/gallery/InlineMessagesGallery.qml:185
+#: contents/ui/gallery/InlineMessagesGallery.qml:187
 msgctxt "InlineMessagesGallery|"
 msgid "Boo!"
 msgstr "Bø!"
 
-#: contents/ui/gallery/InlineMessagesGallery.qml:189
+#: contents/ui/gallery/InlineMessagesGallery.qml:191
 msgctxt "InlineMessagesGallery|"
 msgid "Shush"
 msgstr "Hysj"
@@ -662,109 +662,109 @@ msgctxt "ListViewGallery|"
 msgid "Action 1"
 msgstr "Handling 1"
 
-#: contents/ui/gallery/ListViewGallery.qml:121
-#: contents/ui/gallery/ListViewGallery.qml:128
+#: contents/ui/gallery/ListViewGallery.qml:120
+#: contents/ui/gallery/ListViewGallery.qml:125
 #, qt-format
 msgctxt "ListViewGallery|"
 msgid "%1: %2 clicked"
 msgstr "%1: %2 klikka"
 
-#: contents/ui/gallery/ListViewGallery.qml:126
+#: contents/ui/gallery/ListViewGallery.qml:124
 msgctxt "ListViewGallery|"
 msgid "Action 2"
 msgstr "Handling 2"
 
-#: contents/ui/gallery/ListViewGallery.qml:149
+#: contents/ui/gallery/ListViewGallery.qml:145
 #, qt-format
 msgctxt "ListViewGallery|"
 msgid "Item %1"
 msgstr "Element %1"
 
-#: contents/ui/gallery/ListViewGallery.qml:167
+#: contents/ui/gallery/ListViewGallery.qml:163
 #, qt-format
 msgctxt "ListViewGallery|"
 msgid "Section %1"
 msgstr "Blokk %1"
 
-#: contents/ui/gallery/MetricsGallery.qml:48
+#: contents/ui/gallery/MetricsGallery.qml:50
 msgctxt "MetricsGallery|"
 msgid "Heading 1"
 msgstr "Overskrift 1"
 
-#: contents/ui/gallery/MetricsGallery.qml:53
-#: contents/ui/gallery/MetricsGallery.qml:63
-#: contents/ui/gallery/MetricsGallery.qml:73
-#: contents/ui/gallery/MetricsGallery.qml:83
+#: contents/ui/gallery/MetricsGallery.qml:55
+#: contents/ui/gallery/MetricsGallery.qml:65
+#: contents/ui/gallery/MetricsGallery.qml:75
+#: contents/ui/gallery/MetricsGallery.qml:85
 #, qt-format
 msgctxt "MetricsGallery|"
 msgid "%1 points"
 msgstr "%1 poeng"
 
-#: contents/ui/gallery/MetricsGallery.qml:58
+#: contents/ui/gallery/MetricsGallery.qml:60
 msgctxt "MetricsGallery|"
 msgid "Heading 2"
 msgstr "Overskrift 2"
 
-#: contents/ui/gallery/MetricsGallery.qml:68
+#: contents/ui/gallery/MetricsGallery.qml:70
 msgctxt "MetricsGallery|"
 msgid "Heading 3"
 msgstr "Overskrift 3"
 
-#: contents/ui/gallery/MetricsGallery.qml:78
+#: contents/ui/gallery/MetricsGallery.qml:80
 msgctxt "MetricsGallery|"
 msgid "Heading 4"
 msgstr "Overskrift 4"
 
-#: contents/ui/gallery/MiscGallery.qml:77
+#: contents/ui/gallery/MiscGallery.qml:79
 msgctxt "MiscGallery|"
 msgid "Text Beside Icon"
 msgstr "Tekst ved sida av ikon"
 
-#: contents/ui/gallery/MiscGallery.qml:92
+#: contents/ui/gallery/MiscGallery.qml:94
 msgctxt "MiscGallery|"
 msgid "Text Under Icon"
 msgstr "Tekst under ikon"
 
-#: contents/ui/gallery/MiscGallery.qml:107
+#: contents/ui/gallery/MiscGallery.qml:109
 msgctxt "MiscGallery|"
 msgid "Text Only"
 msgstr "Berre tekst"
 
-#: contents/ui/gallery/MiscGallery.qml:122
+#: contents/ui/gallery/MiscGallery.qml:124
 msgctxt "MiscGallery|"
 msgid "Icon Only"
 msgstr "Berre ikon"
 
-#: contents/ui/gallery/MultipleColumnsGallery.qml:122
+#: contents/ui/gallery/MultipleColumnsGallery.qml:124
 msgctxt "MultipleColumnsGallery|"
 msgid "Pin page"
 msgstr "Fest sida"
 
-#: contents/ui/gallery/OverlaySheetGallery.qml:32
+#: contents/ui/gallery/OverlaySheetGallery.qml:34
 msgctxt "OverlaySheetGallery|"
 msgid "Overlay Sheets"
 msgstr "Overleggsark"
 
-#: contents/ui/gallery/OverlaySheetGallery.qml:65
+#: contents/ui/gallery/OverlaySheetGallery.qml:67
 msgctxt "OverlaySheetGallery|"
 msgid "Close"
 msgstr "Lukk"
 
-#: contents/ui/gallery/OverlaySheetGallery.qml:75
-#: contents/ui/gallery/OverlaySheetGallery.qml:143
-#: contents/ui/gallery/OverlaySheetGallery.qml:167
+#: contents/ui/gallery/OverlaySheetGallery.qml:77
+#: contents/ui/gallery/OverlaySheetGallery.qml:145
+#: contents/ui/gallery/OverlaySheetGallery.qml:171
 msgctxt "OverlaySheetGallery|"
 msgid "Title"
 msgstr "Tittel"
 
-#: contents/ui/gallery/OverlaySheetGallery.qml:79
-#: contents/ui/gallery/OverlaySheetGallery.qml:147
-#: contents/ui/gallery/OverlaySheetGallery.qml:171
+#: contents/ui/gallery/OverlaySheetGallery.qml:81
+#: contents/ui/gallery/OverlaySheetGallery.qml:149
+#: contents/ui/gallery/OverlaySheetGallery.qml:175
 msgctxt "OverlaySheetGallery|"
 msgid "Footer:"
 msgstr "Botnområde:"
 
-#: contents/ui/gallery/OverlaySheetGallery.qml:90
+#: contents/ui/gallery/OverlaySheetGallery.qml:92
 msgctxt "OverlaySheetGallery|"
 msgid ""
 "A sheet can have optional header and footer items which will not scroll away "
@@ -773,7 +773,7 @@ msgstr ""
 "Eit ark kan om ønskjeleg ha topp- og/eller botnområde som ikkje rullar vekk "
 "når arkinnhaldet er større enn arket."
 
-#: contents/ui/gallery/OverlaySheetGallery.qml:109
+#: contents/ui/gallery/OverlaySheetGallery.qml:111
 msgctxt "OverlaySheetGallery|"
 msgid ""
 "A sheet will take the maximum available width in the page by default.\n"
@@ -784,7 +784,7 @@ msgstr ""
 "Men viss hovudelementa definerer implicitWidth eller Layout.preferredWidth, "
 "vil ikkje arket ta opp meir plass enn denne verdien."
 
-#: contents/ui/gallery/OverlaySheetGallery.qml:130
+#: contents/ui/gallery/OverlaySheetGallery.qml:132
 msgctxt "OverlaySheetGallery|"
 msgid ""
 "A sheet by default will be over a single page, even if the app is in wide "
@@ -797,90 +797,90 @@ msgstr ""
 "over heile programvindauget.\n"
 "I så fall vil det òg dekkja handlings­knappane på sida."
 
-#: contents/ui/gallery/OverlaySheetGallery.qml:159
+#: contents/ui/gallery/OverlaySheetGallery.qml:163
 msgctxt "OverlaySheetGallery|"
 msgid "Item in sheet "
 msgstr "Element i ark"
 
-#: contents/ui/gallery/OverlaySheetGallery.qml:203
+#: contents/ui/gallery/OverlaySheetGallery.qml:207
 msgctxt "OverlaySheetGallery|"
 msgid "Very Long Sheet"
 msgstr "Veldig langt ark"
 
-#: contents/ui/gallery/SelectionControlsGallery.qml:31
+#: contents/ui/gallery/SelectionControlsGallery.qml:33
 msgctxt "SelectionControlsGallery|"
 msgid "Selection Controls"
 msgstr "Utvalskontrollar"
 
-#: contents/ui/gallery/SelectionControlsGallery.qml:47
+#: contents/ui/gallery/SelectionControlsGallery.qml:49
 msgctxt "SelectionControlsGallery|"
 msgid "Checkable List Items"
 msgstr "Avkryssbare listeelement"
 
-#: contents/ui/gallery/SelectionControlsGallery.qml:55
-#: contents/ui/gallery/SelectionControlsGallery.qml:79
-#: contents/ui/gallery/SelectionControlsGallery.qml:103
+#: contents/ui/gallery/SelectionControlsGallery.qml:59
+#: contents/ui/gallery/SelectionControlsGallery.qml:85
+#: contents/ui/gallery/SelectionControlsGallery.qml:111
 #, qt-format
 msgctxt "SelectionControlsGallery|"
 msgid "Delegate %1"
 msgstr "Delegat %1"
 
-#: contents/ui/gallery/SelectionControlsGallery.qml:71
-#: contents/ui/gallery/SelectionControlsGallery.qml:95
+#: contents/ui/gallery/SelectionControlsGallery.qml:75
+#: contents/ui/gallery/SelectionControlsGallery.qml:101
 msgctxt "SelectionControlsGallery|"
 msgid "Radio List Items"
 msgstr "Radioliste-element"
 
-#: contents/ui/gallery/SelectionControlsGallery.qml:112
+#: contents/ui/gallery/SelectionControlsGallery.qml:120
 msgctxt "SelectionControlsGallery|"
 msgid "Checkboxes"
 msgstr "Avkryssingsboksar"
 
-#: contents/ui/gallery/SelectionControlsGallery.qml:116
-#: contents/ui/gallery/SelectionControlsGallery.qml:134
-#: contents/ui/gallery/SelectionControlsGallery.qml:152
+#: contents/ui/gallery/SelectionControlsGallery.qml:124
+#: contents/ui/gallery/SelectionControlsGallery.qml:142
+#: contents/ui/gallery/SelectionControlsGallery.qml:160
 msgctxt "SelectionControlsGallery|"
 msgid "Item selected"
 msgstr "Element merkt"
 
-#: contents/ui/gallery/SelectionControlsGallery.qml:120
-#: contents/ui/gallery/SelectionControlsGallery.qml:138
-#: contents/ui/gallery/SelectionControlsGallery.qml:156
+#: contents/ui/gallery/SelectionControlsGallery.qml:128
+#: contents/ui/gallery/SelectionControlsGallery.qml:146
+#: contents/ui/gallery/SelectionControlsGallery.qml:164
 msgctxt "SelectionControlsGallery|"
 msgid "Item not selected"
 msgstr "Element ikkje merkt"
 
-#: contents/ui/gallery/SelectionControlsGallery.qml:124
+#: contents/ui/gallery/SelectionControlsGallery.qml:132
 msgctxt "SelectionControlsGallery|"
 msgid "Checkable List View"
 msgstr "Avkryssbart listeelement"
 
-#: contents/ui/gallery/SelectionControlsGallery.qml:130
+#: contents/ui/gallery/SelectionControlsGallery.qml:138
 msgctxt "SelectionControlsGallery|"
 msgid "Radio buttons"
 msgstr "Radioknappar"
 
-#: contents/ui/gallery/SelectionControlsGallery.qml:143
+#: contents/ui/gallery/SelectionControlsGallery.qml:151
 msgctxt "SelectionControlsGallery|"
 msgid "Radio List View"
 msgstr "Radioliste-vising"
 
-#: contents/ui/gallery/SelectionControlsGallery.qml:149
+#: contents/ui/gallery/SelectionControlsGallery.qml:157
 msgctxt "SelectionControlsGallery|"
 msgid "Switches"
 msgstr "Brytarar"
 
-#: contents/ui/gallery/SelectionControlsGallery.qml:160
+#: contents/ui/gallery/SelectionControlsGallery.qml:168
 msgctxt "SelectionControlsGallery|"
 msgid "Switch List View"
 msgstr "Byt listevising"
 
-#: contents/ui/MainPage.qml:35
+#: contents/ui/MainPage.qml:37
 msgctxt "MainPage|"
 msgid "Kirigami Gallery"
 msgstr "Kirigami-galleri"
 
-#: contents/ui/MainPage.qml:40
+#: contents/ui/MainPage.qml:42
 msgctxt "MainPage|"
 msgid "Home"
 msgstr "Heim"

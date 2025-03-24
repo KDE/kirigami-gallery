@@ -15,17 +15,17 @@ msgstr ""
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: Lokalize 22.08.3\n"
 
-#: contents/ui/gallery/CardsLayoutGallery.qml:30
+#: contents/ui/gallery/CardsLayoutGallery.qml:32
 msgctxt "CardsLayoutGallery|"
 msgid "Cards Layout"
 msgstr "Компоновка карточек"
 
-#: contents/ui/gallery/CardsLayoutGallery.qml:43
+#: contents/ui/gallery/CardsLayoutGallery.qml:45
 msgctxt "CardsLayoutGallery|"
 msgid "AbstractCard"
 msgstr "AbstractCard"
 
-#: contents/ui/gallery/CardsLayoutGallery.qml:48
+#: contents/ui/gallery/CardsLayoutGallery.qml:50
 msgctxt "CardsLayoutGallery|"
 msgid ""
 "An AbstractCard is the simplest form of card. It's just a rectangle with a "
@@ -39,7 +39,7 @@ msgstr ""
 "колонтитулом будет Kirigami.Heading, а Label с WordWrap — значением "
 "contentItem."
 
-#: contents/ui/gallery/CardsLayoutGallery.qml:56
+#: contents/ui/gallery/CardsLayoutGallery.qml:58
 msgctxt "CardsLayoutGallery|"
 msgid ""
 "This is an AbstractCard with a Label with WordWrap in it and nothing else, "
@@ -57,33 +57,33 @@ msgstr ""
 "информация. Рекомендуется установить значение «true», если планируется "
 "сделать так, чтобы карточка реагировала на нажатие."
 
-#: contents/ui/gallery/CardsLayoutGallery.qml:58
+#: contents/ui/gallery/CardsLayoutGallery.qml:60
 msgctxt "CardsLayoutGallery|"
 msgid "Card clicked"
 msgstr "Карточка нажата"
 
-#: contents/ui/gallery/CardsLayoutGallery.qml:64
-#: contents/ui/gallery/CardsLayoutGallery.qml:86
-#: contents/ui/gallery/CardsLayoutGallery.qml:124
-#: contents/ui/gallery/CardsLayoutGallery.qml:198
+#: contents/ui/gallery/CardsLayoutGallery.qml:66
+#: contents/ui/gallery/CardsLayoutGallery.qml:88
+#: contents/ui/gallery/CardsLayoutGallery.qml:126
+#: contents/ui/gallery/CardsLayoutGallery.qml:200
 msgctxt "CardsLayoutGallery|"
 msgid "Action1"
 msgstr "Действие1"
 
-#: contents/ui/gallery/CardsLayoutGallery.qml:68
-#: contents/ui/gallery/CardsLayoutGallery.qml:90
-#: contents/ui/gallery/CardsLayoutGallery.qml:128
-#: contents/ui/gallery/CardsLayoutGallery.qml:202
+#: contents/ui/gallery/CardsLayoutGallery.qml:70
+#: contents/ui/gallery/CardsLayoutGallery.qml:92
+#: contents/ui/gallery/CardsLayoutGallery.qml:130
+#: contents/ui/gallery/CardsLayoutGallery.qml:204
 msgctxt "CardsLayoutGallery|"
 msgid "Action2"
 msgstr "Действие2"
 
-#: contents/ui/gallery/CardsLayoutGallery.qml:74
+#: contents/ui/gallery/CardsLayoutGallery.qml:76
 msgctxt "CardsLayoutGallery|"
 msgid "Card"
 msgstr "Карточка"
 
-#: contents/ui/gallery/CardsLayoutGallery.qml:78
+#: contents/ui/gallery/CardsLayoutGallery.qml:80
 msgctxt "CardsLayoutGallery|"
 msgid ""
 "This is an instance of the Card type: it can optionally have an image, a "
@@ -96,27 +96,27 @@ msgstr ""
 "того, карта также может быть связана с действиями (Actions), они "
 "отображаются в нижнем колонтитуле."
 
-#: contents/ui/gallery/CardsLayoutGallery.qml:94
+#: contents/ui/gallery/CardsLayoutGallery.qml:96
 msgctxt "CardsLayoutGallery|"
 msgid "Action3"
 msgstr "Действие3"
 
-#: contents/ui/gallery/CardsLayoutGallery.qml:98
+#: contents/ui/gallery/CardsLayoutGallery.qml:100
 msgctxt "CardsLayoutGallery|"
 msgid "Action4"
 msgstr "Действие4"
 
-#: contents/ui/gallery/CardsLayoutGallery.qml:102
+#: contents/ui/gallery/CardsLayoutGallery.qml:104
 msgctxt "CardsLayoutGallery|"
 msgid "Action5"
 msgstr "Действие5"
 
-#: contents/ui/gallery/CardsLayoutGallery.qml:106
+#: contents/ui/gallery/CardsLayoutGallery.qml:108
 msgctxt "CardsLayoutGallery|"
 msgid "Action6"
 msgstr "Действие6"
 
-#: contents/ui/gallery/CardsLayoutGallery.qml:117
+#: contents/ui/gallery/CardsLayoutGallery.qml:119
 msgctxt "CardsLayoutGallery|"
 msgid ""
 "The title can be aligned to all corners or centered with a combination of Qt."
@@ -128,12 +128,12 @@ msgstr ""
 " Когда действий слишком много, их пункты автоматически переносятся в "
 "дополнительное меню."
 
-#: contents/ui/gallery/CardsLayoutGallery.qml:132
+#: contents/ui/gallery/CardsLayoutGallery.qml:134
 msgctxt "CardsLayoutGallery|"
 msgid "Action always hidden"
 msgstr "Действие всегда скрыто"
 
-#: contents/ui/gallery/CardsLayoutGallery.qml:143
+#: contents/ui/gallery/CardsLayoutGallery.qml:145
 msgctxt "CardsLayoutGallery|"
 msgid ""
 "The Banner can contain only the title and/or an icon, even if there is no "
@@ -142,7 +142,7 @@ msgstr ""
 "Баннер может содержать только заголовок и/или значок, даже если нет самого "
 "изображения баннера."
 
-#: contents/ui/gallery/CardsLayoutGallery.qml:166
+#: contents/ui/gallery/CardsLayoutGallery.qml:168
 msgctxt "CardsLayoutGallery|"
 msgid ""
 "It's possible to have custom contents overlapping the image, for cases where "
@@ -151,7 +151,7 @@ msgstr ""
 "Возможно сделать так, что нестандартное содержимое будет перекрывать "
 "изображение (если требуется персонализированный дизайн)."
 
-#: contents/ui/gallery/CardsLayoutGallery.qml:181
+#: contents/ui/gallery/CardsLayoutGallery.qml:183
 msgctxt "CardsLayoutGallery|"
 msgid ""
 "It's possible to customize the look and feel for Cards too, if the no "
@@ -169,17 +169,17 @@ msgstr ""
 "баннера. Если используется нестандартный нижний колонтитул (что не "
 "рекомендуется), не следует использовать действия."
 
-#: contents/ui/gallery/CardsLayoutGallery.qml:186
+#: contents/ui/gallery/CardsLayoutGallery.qml:188
 msgctxt "CardsLayoutGallery|"
 msgid "Custom footer"
 msgstr "Нестандартный нижний колонтитул"
 
-#: contents/ui/gallery/CardsLayoutGallery.qml:189
+#: contents/ui/gallery/CardsLayoutGallery.qml:191
 msgctxt "CardsLayoutGallery|"
 msgid "Ok"
 msgstr "ОK"
 
-#: contents/ui/gallery/CardsLayoutGallery.qml:212
+#: contents/ui/gallery/CardsLayoutGallery.qml:214
 msgctxt "CardsLayoutGallery|"
 msgid ""
 "A card can optionally have horizontal orientation.\n"
@@ -194,17 +194,17 @@ msgstr ""
 "Если же её необходимо поместить в CardsLayout, columnSpan по умолчанию "
 "примет значение 2 (это значение можно переопределить)."
 
-#: contents/ui/gallery/CardsListViewGallery.qml:30
+#: contents/ui/gallery/CardsListViewGallery.qml:32
 msgctxt "CardsListViewGallery|"
 msgid "List view of simple cards"
 msgstr "Список простых карточек"
 
-#: contents/ui/gallery/CardsListViewGallery.qml:67
+#: contents/ui/gallery/CardsListViewGallery.qml:73
 msgctxt "CardsListViewGallery|"
 msgid "Product "
 msgstr "Продукт "
 
-#: contents/ui/gallery/CardsListViewGallery.qml:75
+#: contents/ui/gallery/CardsListViewGallery.qml:81
 msgctxt "CardsListViewGallery|"
 msgid ""
 "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id risus id "
@@ -213,27 +213,27 @@ msgstr ""
 "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id risus id "
 "augue euismod accumsan."
 
-#: contents/ui/gallery/CardsListViewGallery.qml:81
+#: contents/ui/gallery/CardsListViewGallery.qml:87
 msgctxt "CardsListViewGallery|"
 msgid "Install"
 msgstr "Установить"
 
-#: contents/ui/gallery/ChipGallery.qml:31
+#: contents/ui/gallery/ChipGallery.qml:33
 msgctxt "ChipGallery|"
 msgid "Chips"
 msgstr "Чипсы"
 
-#: contents/ui/gallery/ChipGallery.qml:46
+#: contents/ui/gallery/ChipGallery.qml:48
 msgctxt "ChipGallery|"
 msgid "Closable Chips"
 msgstr "Чипсы с возможностью закрытия"
 
-#: contents/ui/gallery/ChipGallery.qml:76
+#: contents/ui/gallery/ChipGallery.qml:81
 msgctxt "ChipGallery|"
 msgid "Informative Chips"
 msgstr "Информативные чипсы"
 
-#: contents/ui/gallery/ChipGallery.qml:112
+#: contents/ui/gallery/ChipGallery.qml:119
 msgctxt "ChipGallery|"
 msgid "Checkable Chips"
 msgstr "Чипсы с флажком"
@@ -243,12 +243,12 @@ msgctxt "ColorsGallery|"
 msgid "Colors"
 msgstr ""
 
-#: contents/ui/gallery/components/InfoSheet.qml:50
+#: contents/ui/gallery/components/InfoSheet.qml:52
 msgctxt "InfoSheet|"
 msgid "HIG…"
 msgstr ""
 
-#: contents/ui/gallery/components/InfoSheet.qml:55
+#: contents/ui/gallery/components/InfoSheet.qml:57
 #, fuzzy
 #| msgctxt "InfoSheet|"
 #| msgid "Source code..."
@@ -256,12 +256,12 @@ msgctxt "InfoSheet|"
 msgid "Source code…"
 msgstr "Исходный код..."
 
-#: contents/ui/gallery/components/InfoSheet.qml:60
+#: contents/ui/gallery/components/InfoSheet.qml:62
 msgctxt "InfoSheet|"
 msgid "API…"
 msgstr ""
 
-#: contents/ui/gallery/components/InfoSheetAction.qml:16
+#: contents/ui/gallery/components/InfoSheetAction.qml:18
 #, fuzzy
 #| msgctxt "ActionToolBarGallery|"
 #| msgid "Info"
@@ -269,22 +269,22 @@ msgctxt "InfoSheetAction|"
 msgid "Info"
 msgstr "Информация"
 
-#: contents/ui/gallery/DialogGallery.qml:32
+#: contents/ui/gallery/DialogGallery.qml:34
 msgctxt "DialogGallery|"
 msgid "Dialogs"
 msgstr "Диалоговые окна"
 
-#: contents/ui/gallery/DialogGallery.qml:56
+#: contents/ui/gallery/DialogGallery.qml:58
 msgctxt "DialogGallery|"
 msgid "Create Folder"
 msgstr "Создать папку"
 
-#: contents/ui/gallery/DialogGallery.qml:64
+#: contents/ui/gallery/DialogGallery.qml:66
 msgctxt "DialogGallery|"
 msgid "Cancel"
 msgstr "Отмена"
 
-#: contents/ui/gallery/DialogGallery.qml:73
+#: contents/ui/gallery/DialogGallery.qml:75
 #, fuzzy
 #| msgctxt "DialogGallery|"
 #| msgid "Folder name..."
@@ -292,147 +292,147 @@ msgctxt "DialogGallery|"
 msgid "Folder name..."
 msgstr "Название папки…"
 
-#: contents/ui/gallery/DialogGallery.qml:79
+#: contents/ui/gallery/DialogGallery.qml:81
 msgctxt "DialogGallery|"
 msgid "Alarm Snooze Length"
 msgstr "Длительность откладывания напоминания"
 
-#: contents/ui/gallery/DialogGallery.qml:88
+#: contents/ui/gallery/DialogGallery.qml:90
 msgctxt "DialogGallery|"
 msgid "1 minute"
 msgstr "1 минута"
 
-#: contents/ui/gallery/DialogGallery.qml:89
+#: contents/ui/gallery/DialogGallery.qml:91
 msgctxt "DialogGallery|"
 msgid "2 minutes"
 msgstr "2 минуты"
 
-#: contents/ui/gallery/DialogGallery.qml:90
+#: contents/ui/gallery/DialogGallery.qml:92
 msgctxt "DialogGallery|"
 msgid "3 minutes"
 msgstr "3 минуты"
 
-#: contents/ui/gallery/DialogGallery.qml:91
+#: contents/ui/gallery/DialogGallery.qml:93
 msgctxt "DialogGallery|"
 msgid "4 minutes"
 msgstr "4 минуты"
 
-#: contents/ui/gallery/DialogGallery.qml:92
+#: contents/ui/gallery/DialogGallery.qml:94
 msgctxt "DialogGallery|"
 msgid "5 minutes"
 msgstr "5 минут"
 
-#: contents/ui/gallery/DialogGallery.qml:93
+#: contents/ui/gallery/DialogGallery.qml:95
 msgctxt "DialogGallery|"
 msgid "10 minutes"
 msgstr "10 минут"
 
-#: contents/ui/gallery/DialogGallery.qml:94
+#: contents/ui/gallery/DialogGallery.qml:96
 msgctxt "DialogGallery|"
 msgid "30 minutes"
 msgstr "30 минут"
 
-#: contents/ui/gallery/DialogGallery.qml:95
+#: contents/ui/gallery/DialogGallery.qml:97
 msgctxt "DialogGallery|"
 msgid "1 hour"
 msgstr "1 час"
 
-#: contents/ui/gallery/DialogGallery.qml:117
-#: contents/ui/gallery/DialogGallery.qml:134
+#: contents/ui/gallery/DialogGallery.qml:122
+#: contents/ui/gallery/DialogGallery.qml:141
 msgctxt "DialogGallery|"
 msgid "Select Number"
 msgstr "Выберите число"
 
-#: contents/ui/gallery/DialogGallery.qml:124
+#: contents/ui/gallery/DialogGallery.qml:131
 msgctxt "DialogGallery|"
 msgid "Subtitle text"
 msgstr ""
 
-#: contents/ui/gallery/DialogGallery.qml:154
-#: contents/ui/gallery/DialogGallery.qml:225
+#: contents/ui/gallery/DialogGallery.qml:163
+#: contents/ui/gallery/DialogGallery.qml:234
 msgctxt "DialogGallery|"
 msgid "No Footer Dialog"
 msgstr "Диалоговое окно без нижнего колонтитула"
 
-#: contents/ui/gallery/DialogGallery.qml:155
+#: contents/ui/gallery/DialogGallery.qml:164
 msgctxt "DialogGallery|"
 msgid "This dialog has no footer buttons.<br/>It also has no close button."
 msgstr ""
 "У этого диалогового окна нет кнопок нижнего колонтитула.<br/>Также у него "
 "нет кнопки закрытия."
 
-#: contents/ui/gallery/DialogGallery.qml:163
+#: contents/ui/gallery/DialogGallery.qml:172
 msgctxt "DialogGallery|"
 msgid "Track Options"
 msgstr "Параметры дорожки"
 
-#: contents/ui/gallery/DialogGallery.qml:168
+#: contents/ui/gallery/DialogGallery.qml:177
 msgctxt "DialogGallery|Start playback of the selected track"
 msgid "Play"
 msgstr "Воспроизвести"
 
-#: contents/ui/gallery/DialogGallery.qml:169
+#: contents/ui/gallery/DialogGallery.qml:178
 msgctxt "DialogGallery|"
 msgid "Start playback of the selected track"
 msgstr "Начать воспроизведение выбранной дорожки"
 
-#: contents/ui/gallery/DialogGallery.qml:174
+#: contents/ui/gallery/DialogGallery.qml:183
 msgctxt "DialogGallery|Show the file for this song in the file manager"
 msgid "Show in folder"
 msgstr "Показать в папке"
 
-#: contents/ui/gallery/DialogGallery.qml:175
+#: contents/ui/gallery/DialogGallery.qml:184
 msgctxt "DialogGallery|"
 msgid "Show the file for this song in the file manager"
 msgstr "Показать файл этой дорожки в диспетчере файлов"
 
-#: contents/ui/gallery/DialogGallery.qml:179
+#: contents/ui/gallery/DialogGallery.qml:188
 msgctxt "DialogGallery|Show track metadata"
 msgid "View details"
 msgstr "Просмотреть сведения"
 
-#: contents/ui/gallery/DialogGallery.qml:180
+#: contents/ui/gallery/DialogGallery.qml:189
 msgctxt "DialogGallery|"
 msgid "Show track metadata"
 msgstr "Показать метаданные дорожки"
 
-#: contents/ui/gallery/DialogGallery.qml:184
+#: contents/ui/gallery/DialogGallery.qml:193
 msgctxt ""
 "DialogGallery|Add the track to the queue, right after the current track"
 msgid "Play next"
 msgstr "Воспроизвести следующей"
 
-#: contents/ui/gallery/DialogGallery.qml:185
+#: contents/ui/gallery/DialogGallery.qml:194
 msgctxt "DialogGallery|"
 msgid "Add the track to the queue, right after the current track"
 msgstr "Добавить дорожку в очередь, сразу за текущей дорожкой"
 
-#: contents/ui/gallery/DialogGallery.qml:189
+#: contents/ui/gallery/DialogGallery.qml:198
 msgctxt "DialogGallery|Enqueue current track"
 msgid "Add to queue"
 msgstr "Добавить в очередь"
 
-#: contents/ui/gallery/DialogGallery.qml:190
+#: contents/ui/gallery/DialogGallery.qml:199
 msgctxt "DialogGallery|"
 msgid "Enqueue current track"
 msgstr "Добавить текущую дорожку в очередь"
 
-#: contents/ui/gallery/DialogGallery.qml:200
+#: contents/ui/gallery/DialogGallery.qml:209
 msgctxt "DialogGallery|"
 msgid "Prompt Dialog"
 msgstr "Диалоговое окно запроса"
 
-#: contents/ui/gallery/DialogGallery.qml:205
+#: contents/ui/gallery/DialogGallery.qml:214
 msgctxt "DialogGallery|"
 msgid "Text Prompt Dialog"
 msgstr "Диалоговое окно текстового запроса"
 
-#: contents/ui/gallery/DialogGallery.qml:210
+#: contents/ui/gallery/DialogGallery.qml:219
 msgctxt "DialogGallery|"
 msgid "Selection Dialog"
 msgstr "Диалоговое окно выбора"
 
-#: contents/ui/gallery/DialogGallery.qml:215
+#: contents/ui/gallery/DialogGallery.qml:224
 #, fuzzy
 #| msgctxt "DialogGallery|"
 #| msgid "Selection Dialog"
@@ -440,47 +440,47 @@ msgctxt "DialogGallery|"
 msgid "Selection Dialog with subtitles"
 msgstr "Диалоговое окно выбора"
 
-#: contents/ui/gallery/DialogGallery.qml:220
+#: contents/ui/gallery/DialogGallery.qml:229
 msgctxt "DialogGallery|"
 msgid "Scrollable Dialog"
 msgstr "Диалоговое окно с возможностью прокрутки"
 
-#: contents/ui/gallery/DialogGallery.qml:230
+#: contents/ui/gallery/DialogGallery.qml:239
 msgctxt "DialogGallery|"
 msgid "Menu Dialog"
 msgstr "Диалоговое окно меню"
 
-#: contents/ui/gallery/DrawerGallery.qml:30
+#: contents/ui/gallery/DrawerGallery.qml:32
 msgctxt "DrawerGallery|"
 msgid "Drawers"
 msgstr "Выдвижные панели"
 
-#: contents/ui/gallery/DrawerGallery.qml:38
+#: contents/ui/gallery/DrawerGallery.qml:40
 msgctxt "DrawerGallery|"
 msgid "Action 1"
 msgstr "Действие 1"
 
-#: contents/ui/gallery/DrawerGallery.qml:40
+#: contents/ui/gallery/DrawerGallery.qml:42
 msgctxt "DrawerGallery|"
 msgid "Action 1 clicked"
 msgstr "Нажат пункт действия 1"
 
-#: contents/ui/gallery/DrawerGallery.qml:43
+#: contents/ui/gallery/DrawerGallery.qml:45
 msgctxt "DrawerGallery|"
 msgid "Disabled Action"
 msgstr "Отключённое действие"
 
-#: contents/ui/gallery/DrawerGallery.qml:48
+#: contents/ui/gallery/DrawerGallery.qml:50
 msgctxt "DrawerGallery|"
 msgid "Action 3"
 msgstr "Действие 3"
 
-#: contents/ui/gallery/DrawerGallery.qml:49
+#: contents/ui/gallery/DrawerGallery.qml:51
 msgctxt "DrawerGallery|"
 msgid "Action 3 clicked"
 msgstr "Нажат пункт действия 3"
 
-#: contents/ui/gallery/DrawerGallery.qml:62
+#: contents/ui/gallery/DrawerGallery.qml:64
 msgctxt "DrawerGallery|"
 msgid ""
 "A modal bottom drawer will span for the whole application window width and "
@@ -491,15 +491,15 @@ msgstr ""
 "затемняет остальное окно программы и имеет ширину, равную ширине окна. "
 "Щелчок по затемнённой области окна приведёт к сворачиванию выдвижной панели."
 
-#: contents/ui/gallery/DrawerGallery.qml:66
-#: contents/ui/gallery/DrawerGallery.qml:85
-#: contents/ui/gallery/DrawerGallery.qml:104
-#: contents/ui/gallery/DrawerGallery.qml:123
+#: contents/ui/gallery/DrawerGallery.qml:68
+#: contents/ui/gallery/DrawerGallery.qml:87
+#: contents/ui/gallery/DrawerGallery.qml:106
+#: contents/ui/gallery/DrawerGallery.qml:125
 msgctxt "DrawerGallery|"
 msgid "Close"
 msgstr "Закрыть"
 
-#: contents/ui/gallery/DrawerGallery.qml:81
+#: contents/ui/gallery/DrawerGallery.qml:83
 msgctxt "DrawerGallery|"
 msgid ""
 "An inline bottom drawer covers the whole application width but lets the "
@@ -508,7 +508,7 @@ msgstr ""
 "Встроенная нижняя выдвижная панель в ширину равна всему окну программы, но "
 "всё равно позволяет взаимодействовать с незакрытыми ей частями окна."
 
-#: contents/ui/gallery/DrawerGallery.qml:100
+#: contents/ui/gallery/DrawerGallery.qml:102
 msgctxt "DrawerGallery|"
 msgid ""
 "A modal top drawer will span for the whole application window width and will "
@@ -520,7 +520,7 @@ msgstr ""
 "окна. Щелчок по затемнённой области окна приведёт к сворачиванию выдвижной "
 "панели."
 
-#: contents/ui/gallery/DrawerGallery.qml:119
+#: contents/ui/gallery/DrawerGallery.qml:121
 msgctxt "DrawerGallery|"
 msgid ""
 "An inline top drawer covers the whole application width but lets the "
@@ -529,42 +529,42 @@ msgstr ""
 "Встроенная верхняя выдвижная панель в ширину равна всему окну программы, но "
 "всё равно позволяет взаимодействовать с незакрытыми ей частями окна."
 
-#: contents/ui/gallery/DrawerGallery.qml:134
+#: contents/ui/gallery/DrawerGallery.qml:136
 msgctxt "DrawerGallery|"
 msgid "Left Global Drawer"
 msgstr "Левая глобальная выдвижная панель"
 
-#: contents/ui/gallery/DrawerGallery.qml:139
+#: contents/ui/gallery/DrawerGallery.qml:141
 msgctxt "DrawerGallery|"
 msgid "Right Context Drawer"
 msgstr "Правая контекстная выдвижная панель"
 
-#: contents/ui/gallery/DrawerGallery.qml:145
+#: contents/ui/gallery/DrawerGallery.qml:147
 msgctxt "DrawerGallery|"
 msgid "Modal Bottom Drawer"
 msgstr "Модальная нижняя выдвижная панель"
 
-#: contents/ui/gallery/DrawerGallery.qml:155
+#: contents/ui/gallery/DrawerGallery.qml:157
 msgctxt "DrawerGallery|"
 msgid "Modal Top Drawer"
 msgstr "Модальная верхняя выдвижная панель"
 
-#: contents/ui/gallery/FormLayoutGallery.qml:67
+#: contents/ui/gallery/FormLayoutGallery.qml:69
 msgctxt "FormLayoutGallery|"
 msgid "Expanding Button"
 msgstr "Кнопка разворачивания"
 
-#: contents/ui/gallery/FormLayoutGallery.qml:116
+#: contents/ui/gallery/FormLayoutGallery.qml:118
 msgctxt "FormLayoutGallery|"
 msgid "Twin Layout:"
 msgstr "Двойная компоновка:"
 
-#: contents/ui/gallery/InlineMessagesGallery.qml:31
+#: contents/ui/gallery/InlineMessagesGallery.qml:33
 msgctxt "InlineMessagesGallery|"
 msgid "Inline Messages"
 msgstr "Встроенные сообщения"
 
-#: contents/ui/gallery/InlineMessagesGallery.qml:46
+#: contents/ui/gallery/InlineMessagesGallery.qml:48
 msgctxt "InlineMessagesGallery|"
 msgid ""
 "This is an informational inline message (the default type). Use it for "
@@ -573,7 +573,7 @@ msgstr ""
 "Это информационное встроенное сообщение (тип по умолчанию). Используйте его, "
 "например, для сообщения результата или предоставления комментария."
 
-#: contents/ui/gallery/InlineMessagesGallery.qml:56
+#: contents/ui/gallery/InlineMessagesGallery.qml:58
 msgctxt "InlineMessagesGallery|"
 msgid ""
 "This is a positive inline message. Use it for example to announce a "
@@ -583,7 +583,7 @@ msgstr ""
 "использовать, например, для сообщения об успешном выполнении действия или "
 "успешном завершении процедуры."
 
-#: contents/ui/gallery/InlineMessagesGallery.qml:66
+#: contents/ui/gallery/InlineMessagesGallery.qml:68
 msgctxt "InlineMessagesGallery|"
 msgid ""
 "This is a warning inline message. Use it for example to provide critical "
@@ -593,7 +593,7 @@ msgstr ""
 "например, для важных инструкций или предупреждения о каком-либо действии, "
 "которое не приведёт к желаемому результату."
 
-#: contents/ui/gallery/InlineMessagesGallery.qml:76
+#: contents/ui/gallery/InlineMessagesGallery.qml:78
 msgctxt "InlineMessagesGallery|"
 msgid ""
 "This is an error inline message. Use it for example to announce something "
@@ -603,12 +603,12 @@ msgstr ""
 "сообщения о возникшей проблеме или о том, что введённые данные не будут "
 "приняты."
 
-#: contents/ui/gallery/InlineMessagesGallery.qml:90
+#: contents/ui/gallery/InlineMessagesGallery.qml:92
 msgctxt "InlineMessagesGallery|"
 msgid "Inline messages can optionally have a custom icon set."
 msgstr "Встроенные сообщения могут иметь нестандартный набор значков."
 
-#: contents/ui/gallery/InlineMessagesGallery.qml:98
+#: contents/ui/gallery/InlineMessagesGallery.qml:100
 msgctxt "InlineMessagesGallery|"
 msgid ""
 "You can use rich text in inline messages and optionally handle clicks on "
@@ -619,39 +619,39 @@ msgstr ""
 "также обработку щелчков по ссылкам (ссылки открываются в браузере): <a href="
 "\"https://www.kde.org\">https://www.kde.org/<a/>"
 
-#: contents/ui/gallery/InlineMessagesGallery.qml:110
+#: contents/ui/gallery/InlineMessagesGallery.qml:112
 msgctxt "InlineMessagesGallery|"
 msgid "Inline messages can have an optional close button."
 msgstr "Встроенные сообщения могут содержать кнопку закрытия."
 
-#: contents/ui/gallery/InlineMessagesGallery.qml:128
+#: contents/ui/gallery/InlineMessagesGallery.qml:130
 msgctxt "InlineMessagesGallery|"
 msgid "Add text"
 msgstr "Добавить текст"
 
-#: contents/ui/gallery/InlineMessagesGallery.qml:138
+#: contents/ui/gallery/InlineMessagesGallery.qml:140
 msgctxt "InlineMessagesGallery|"
 msgid "Reset text"
 msgstr "Сбросить текст"
 
-#: contents/ui/gallery/InlineMessagesGallery.qml:160
+#: contents/ui/gallery/InlineMessagesGallery.qml:162
 msgctxt "InlineMessagesGallery|"
 msgid "Inline messages are initially hidden and animate when revealed. Try it!"
 msgstr ""
 "Встроенные сообщения изначально скрыты и анимируются во время показа. "
 "Попробуйте!"
 
-#: contents/ui/gallery/InlineMessagesGallery.qml:169
+#: contents/ui/gallery/InlineMessagesGallery.qml:171
 msgctxt "InlineMessagesGallery|"
 msgid "Show additional message"
 msgstr "Показать дополнительное сообщение"
 
-#: contents/ui/gallery/InlineMessagesGallery.qml:185
+#: contents/ui/gallery/InlineMessagesGallery.qml:187
 msgctxt "InlineMessagesGallery|"
 msgid "Boo!"
 msgstr "Гав!"
 
-#: contents/ui/gallery/InlineMessagesGallery.qml:189
+#: contents/ui/gallery/InlineMessagesGallery.qml:191
 msgctxt "InlineMessagesGallery|"
 msgid "Shush"
 msgstr "Цыц!"
@@ -688,8 +688,8 @@ msgctxt "ListViewGallery|"
 msgid "Action 1"
 msgstr "Действие 1"
 
-#: contents/ui/gallery/ListViewGallery.qml:121
-#: contents/ui/gallery/ListViewGallery.qml:128
+#: contents/ui/gallery/ListViewGallery.qml:120
+#: contents/ui/gallery/ListViewGallery.qml:125
 #, fuzzy, qt-format
 #| msgctxt "CardsLayoutGallery|"
 #| msgid "Card clicked"
@@ -697,7 +697,7 @@ msgctxt "ListViewGallery|"
 msgid "%1: %2 clicked"
 msgstr "Карточка нажата"
 
-#: contents/ui/gallery/ListViewGallery.qml:126
+#: contents/ui/gallery/ListViewGallery.qml:124
 #, fuzzy
 #| msgctxt "CardsLayoutGallery|"
 #| msgid "Action2"
@@ -705,13 +705,13 @@ msgctxt "ListViewGallery|"
 msgid "Action 2"
 msgstr "Действие2"
 
-#: contents/ui/gallery/ListViewGallery.qml:149
+#: contents/ui/gallery/ListViewGallery.qml:145
 #, qt-format
 msgctxt "ListViewGallery|"
 msgid "Item %1"
 msgstr ""
 
-#: contents/ui/gallery/ListViewGallery.qml:167
+#: contents/ui/gallery/ListViewGallery.qml:163
 #, fuzzy, qt-format
 #| msgctxt "DrawerGallery|"
 #| msgid "Action 1"
@@ -719,85 +719,85 @@ msgctxt "ListViewGallery|"
 msgid "Section %1"
 msgstr "Действие 1"
 
-#: contents/ui/gallery/MetricsGallery.qml:48
+#: contents/ui/gallery/MetricsGallery.qml:50
 msgctxt "MetricsGallery|"
 msgid "Heading 1"
 msgstr "Заголовок 1"
 
-#: contents/ui/gallery/MetricsGallery.qml:53
-#: contents/ui/gallery/MetricsGallery.qml:63
-#: contents/ui/gallery/MetricsGallery.qml:73
-#: contents/ui/gallery/MetricsGallery.qml:83
+#: contents/ui/gallery/MetricsGallery.qml:55
+#: contents/ui/gallery/MetricsGallery.qml:65
+#: contents/ui/gallery/MetricsGallery.qml:75
+#: contents/ui/gallery/MetricsGallery.qml:85
 #, qt-format
 msgctxt "MetricsGallery|"
 msgid "%1 points"
 msgstr "%1 точек"
 
-#: contents/ui/gallery/MetricsGallery.qml:58
+#: contents/ui/gallery/MetricsGallery.qml:60
 msgctxt "MetricsGallery|"
 msgid "Heading 2"
 msgstr "Заголовок 2"
 
-#: contents/ui/gallery/MetricsGallery.qml:68
+#: contents/ui/gallery/MetricsGallery.qml:70
 msgctxt "MetricsGallery|"
 msgid "Heading 3"
 msgstr "Заголовок 3"
 
-#: contents/ui/gallery/MetricsGallery.qml:78
+#: contents/ui/gallery/MetricsGallery.qml:80
 msgctxt "MetricsGallery|"
 msgid "Heading 4"
 msgstr "Заголовок 4"
 
-#: contents/ui/gallery/MiscGallery.qml:77
+#: contents/ui/gallery/MiscGallery.qml:79
 msgctxt "MiscGallery|"
 msgid "Text Beside Icon"
 msgstr "Текст сбоку от значка"
 
-#: contents/ui/gallery/MiscGallery.qml:92
+#: contents/ui/gallery/MiscGallery.qml:94
 msgctxt "MiscGallery|"
 msgid "Text Under Icon"
 msgstr "Текст под значком"
 
-#: contents/ui/gallery/MiscGallery.qml:107
+#: contents/ui/gallery/MiscGallery.qml:109
 msgctxt "MiscGallery|"
 msgid "Text Only"
 msgstr "Только текст"
 
-#: contents/ui/gallery/MiscGallery.qml:122
+#: contents/ui/gallery/MiscGallery.qml:124
 msgctxt "MiscGallery|"
 msgid "Icon Only"
 msgstr "Только значок"
 
-#: contents/ui/gallery/MultipleColumnsGallery.qml:122
+#: contents/ui/gallery/MultipleColumnsGallery.qml:124
 msgctxt "MultipleColumnsGallery|"
 msgid "Pin page"
 msgstr "Закрепить страницу"
 
-#: contents/ui/gallery/OverlaySheetGallery.qml:32
+#: contents/ui/gallery/OverlaySheetGallery.qml:34
 msgctxt "OverlaySheetGallery|"
 msgid "Overlay Sheets"
 msgstr "Накладные листы"
 
-#: contents/ui/gallery/OverlaySheetGallery.qml:65
+#: contents/ui/gallery/OverlaySheetGallery.qml:67
 msgctxt "OverlaySheetGallery|"
 msgid "Close"
 msgstr "Закрыть"
 
-#: contents/ui/gallery/OverlaySheetGallery.qml:75
-#: contents/ui/gallery/OverlaySheetGallery.qml:143
-#: contents/ui/gallery/OverlaySheetGallery.qml:167
+#: contents/ui/gallery/OverlaySheetGallery.qml:77
+#: contents/ui/gallery/OverlaySheetGallery.qml:145
+#: contents/ui/gallery/OverlaySheetGallery.qml:171
 msgctxt "OverlaySheetGallery|"
 msgid "Title"
 msgstr "Заголовок"
 
-#: contents/ui/gallery/OverlaySheetGallery.qml:79
-#: contents/ui/gallery/OverlaySheetGallery.qml:147
-#: contents/ui/gallery/OverlaySheetGallery.qml:171
+#: contents/ui/gallery/OverlaySheetGallery.qml:81
+#: contents/ui/gallery/OverlaySheetGallery.qml:149
+#: contents/ui/gallery/OverlaySheetGallery.qml:175
 msgctxt "OverlaySheetGallery|"
 msgid "Footer:"
 msgstr "Нижний колонтитул:"
 
-#: contents/ui/gallery/OverlaySheetGallery.qml:90
+#: contents/ui/gallery/OverlaySheetGallery.qml:92
 msgctxt "OverlaySheetGallery|"
 msgid ""
 "A sheet can have optional header and footer items which will not scroll away "
@@ -806,7 +806,7 @@ msgstr ""
 "У листа могут быть необязательные элементы верхнего и нижнего колонтитула, "
 "которые не будут прокручиваться при прокрутке листа."
 
-#: contents/ui/gallery/OverlaySheetGallery.qml:109
+#: contents/ui/gallery/OverlaySheetGallery.qml:111
 msgctxt "OverlaySheetGallery|"
 msgid ""
 "A sheet will take the maximum available width in the page by default.\n"
@@ -817,7 +817,7 @@ msgstr ""
 "Но если главным элементом задана implicitWidth or Layout.preferredWidth, "
 "ширина листа не будет превышать указанное значение."
 
-#: contents/ui/gallery/OverlaySheetGallery.qml:130
+#: contents/ui/gallery/OverlaySheetGallery.qml:132
 msgctxt "OverlaySheetGallery|"
 msgid ""
 "A sheet by default will be over a single page, even if the app is in wide "
@@ -831,90 +831,90 @@ msgstr ""
 "программы.\n"
 "В этом случае лист закроет также и кнопки действий страницы."
 
-#: contents/ui/gallery/OverlaySheetGallery.qml:159
+#: contents/ui/gallery/OverlaySheetGallery.qml:163
 msgctxt "OverlaySheetGallery|"
 msgid "Item in sheet "
 msgstr "Элемент на листе "
 
-#: contents/ui/gallery/OverlaySheetGallery.qml:203
+#: contents/ui/gallery/OverlaySheetGallery.qml:207
 msgctxt "OverlaySheetGallery|"
 msgid "Very Long Sheet"
 msgstr "Очень длинный лист"
 
-#: contents/ui/gallery/SelectionControlsGallery.qml:31
+#: contents/ui/gallery/SelectionControlsGallery.qml:33
 msgctxt "SelectionControlsGallery|"
 msgid "Selection Controls"
 msgstr "Элементы управления выбором"
 
-#: contents/ui/gallery/SelectionControlsGallery.qml:47
+#: contents/ui/gallery/SelectionControlsGallery.qml:49
 msgctxt "SelectionControlsGallery|"
 msgid "Checkable List Items"
 msgstr "Пункты списка вариантов с флажками"
 
-#: contents/ui/gallery/SelectionControlsGallery.qml:55
-#: contents/ui/gallery/SelectionControlsGallery.qml:79
-#: contents/ui/gallery/SelectionControlsGallery.qml:103
+#: contents/ui/gallery/SelectionControlsGallery.qml:59
+#: contents/ui/gallery/SelectionControlsGallery.qml:85
+#: contents/ui/gallery/SelectionControlsGallery.qml:111
 #, qt-format
 msgctxt "SelectionControlsGallery|"
 msgid "Delegate %1"
 msgstr "Поручить %1"
 
-#: contents/ui/gallery/SelectionControlsGallery.qml:71
-#: contents/ui/gallery/SelectionControlsGallery.qml:95
+#: contents/ui/gallery/SelectionControlsGallery.qml:75
+#: contents/ui/gallery/SelectionControlsGallery.qml:101
 msgctxt "SelectionControlsGallery|"
 msgid "Radio List Items"
 msgstr "Пункты списка вариантов"
 
-#: contents/ui/gallery/SelectionControlsGallery.qml:112
+#: contents/ui/gallery/SelectionControlsGallery.qml:120
 msgctxt "SelectionControlsGallery|"
 msgid "Checkboxes"
 msgstr "Флажки"
 
-#: contents/ui/gallery/SelectionControlsGallery.qml:116
-#: contents/ui/gallery/SelectionControlsGallery.qml:134
-#: contents/ui/gallery/SelectionControlsGallery.qml:152
+#: contents/ui/gallery/SelectionControlsGallery.qml:124
+#: contents/ui/gallery/SelectionControlsGallery.qml:142
+#: contents/ui/gallery/SelectionControlsGallery.qml:160
 msgctxt "SelectionControlsGallery|"
 msgid "Item selected"
 msgstr "Пункт выбран"
 
-#: contents/ui/gallery/SelectionControlsGallery.qml:120
-#: contents/ui/gallery/SelectionControlsGallery.qml:138
-#: contents/ui/gallery/SelectionControlsGallery.qml:156
+#: contents/ui/gallery/SelectionControlsGallery.qml:128
+#: contents/ui/gallery/SelectionControlsGallery.qml:146
+#: contents/ui/gallery/SelectionControlsGallery.qml:164
 msgctxt "SelectionControlsGallery|"
 msgid "Item not selected"
 msgstr "Пункт не выбран"
 
-#: contents/ui/gallery/SelectionControlsGallery.qml:124
+#: contents/ui/gallery/SelectionControlsGallery.qml:132
 msgctxt "SelectionControlsGallery|"
 msgid "Checkable List View"
 msgstr "Список флажков"
 
-#: contents/ui/gallery/SelectionControlsGallery.qml:130
+#: contents/ui/gallery/SelectionControlsGallery.qml:138
 msgctxt "SelectionControlsGallery|"
 msgid "Radio buttons"
 msgstr "Кнопки вариантов"
 
-#: contents/ui/gallery/SelectionControlsGallery.qml:143
+#: contents/ui/gallery/SelectionControlsGallery.qml:151
 msgctxt "SelectionControlsGallery|"
 msgid "Radio List View"
 msgstr "Список вариантов"
 
-#: contents/ui/gallery/SelectionControlsGallery.qml:149
+#: contents/ui/gallery/SelectionControlsGallery.qml:157
 msgctxt "SelectionControlsGallery|"
 msgid "Switches"
 msgstr "Переключатели"
 
-#: contents/ui/gallery/SelectionControlsGallery.qml:160
+#: contents/ui/gallery/SelectionControlsGallery.qml:168
 msgctxt "SelectionControlsGallery|"
 msgid "Switch List View"
 msgstr "Список переключателей"
 
-#: contents/ui/MainPage.qml:35
+#: contents/ui/MainPage.qml:37
 msgctxt "MainPage|"
 msgid "Kirigami Gallery"
 msgstr "Галерея Kirigami"
 
-#: contents/ui/MainPage.qml:40
+#: contents/ui/MainPage.qml:42
 msgctxt "MainPage|"
 msgid "Home"
 msgstr ""
