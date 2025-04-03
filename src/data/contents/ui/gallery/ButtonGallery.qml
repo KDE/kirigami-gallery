@@ -236,7 +236,9 @@ Kirigami.ScrollablePage {
             text: "Tool Button non flat"
             flat: false
             Layout.alignment: Qt.AlignHCenter
-            onClicked: showPassiveNotification(text + " clicked")
+            onClicked: {showPassiveNotification(text + " clicked")
+                print(Kirigami.PageStack.pageStack)
+            }
         }
     }
 }

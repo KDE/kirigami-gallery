@@ -72,7 +72,6 @@ Kirigami.ApplicationWindow {
                 }
                 Kirigami.Action {
                     text: "ToolBar"
-                    visible: !Kirigami.Settings.isMobile
                     onTriggered: root.pageStack.globalToolBar.style = Kirigami.ApplicationHeaderStyle.ToolBar
                     checked: root.pageStack.globalToolBar.style === Kirigami.ApplicationHeaderStyle.ToolBar
                 }
