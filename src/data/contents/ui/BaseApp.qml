@@ -37,17 +37,19 @@ Kirigami.ApplicationWindow {
         titleIcon: "applications-graphics"
 
         showHeaderWhenCollapsed: true
-        header: RowLayout {
-            Layout.fillWidth: true
-            QQC2.ToolButton {
-                icon.name: "application-menu"
-                visible: globalDrawer.collapsible
-                checked: !globalDrawer.collapsed
-                onClicked: globalDrawer.collapsed = !globalDrawer.collapsed
-            }
-            Kirigami.SearchField {
-                visible: !globalDrawer.collapsed
+        header: QQC2.ToolBar {
+            contentItem: RowLayout {
                 Layout.fillWidth: true
+                QQC2.ToolButton {
+                    icon.name: "application-menu"
+                    visible: globalDrawer.collapsible
+                    checked: !globalDrawer.collapsed
+                    onClicked: globalDrawer.collapsed = !globalDrawer.collapsed
+                }
+                Kirigami.SearchField {
+                    visible: !globalDrawer.collapsed
+                    Layout.fillWidth: true
+                }
             }
         }
 
@@ -208,7 +210,10 @@ Kirigami.ApplicationWindow {
         }
     }
 
-    pageStack.initialPage: mainPageComponent
+    pageStack {
+        initialPage: mainPageComponent
+        columnView.columnResizeMode: pageStack.wideMode ? Kirigami.ColumnView.DynamicColumns : Kirigami.ColumnView.SingleColumn
+    }
 
     Component {
         id: settingsComponent
