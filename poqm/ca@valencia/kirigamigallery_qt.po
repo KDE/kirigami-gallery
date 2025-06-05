@@ -421,7 +421,7 @@ msgstr "Diàleg de l'indicatiu"
 #: contents/ui/gallery/DialogGallery.qml:214
 msgctxt "DialogGallery|"
 msgid "Text Prompt Dialog"
-msgstr "Diàleg de l'indicatiu de text"
+msgstr "Diàleg de la indicació de text"
 
 #: contents/ui/gallery/DialogGallery.qml:219
 msgctxt "DialogGallery|"
