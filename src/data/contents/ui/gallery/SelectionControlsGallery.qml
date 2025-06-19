@@ -37,81 +37,54 @@ Kirigami.ScrollablePage {
         component: "SelectionControlsGallery"
     }
 
-    QQC2.Dialog {
+    Kirigami.Dialog {
         id: checkListDialog
-        modal: true
-        focus: true
-        x: (page.width - width) / 2
-        y: page.height / 2 - height
-        width: Math.min(page.width - Kirigami.Units.gridUnit * 4, Kirigami.Units.gridUnit * 20)
-        height: Kirigami.Units.gridUnit * 20
-        standardButtons: QQC2.Dialog.Close
+        preferredWidth: Kirigami.Units.gridUnit * 20
         title: qsTr("Checkable List Items")
 
-        contentItem: QQC2.ScrollView {
-            ListView {
-                clip: true
-                model: 20
-                delegate: QQC2.CheckDelegate {
-                    required property int index
+        ListView {
+            clip: true
+            model: 20
+            delegate: QQC2.CheckDelegate {
+                required property int index
 
-                    width: ListView.view.width - ListView.view.leftMargin - ListView.view.rightMargin
-                    text: qsTr("Delegate %1").arg(index + 1)
-                }
+                width: ListView.view.width - ListView.view.leftMargin - ListView.view.rightMargin
+                text: qsTr("Delegate %1").arg(index + 1)
             }
-            Component.onCompleted: background.visible = true;
         }
     }
 
-    QQC2.Dialog {
+    Kirigami.Dialog {
         id: radioListDialog
-        modal: true
-        focus: true
-        x: (page.width - width) / 2
-        y: page.height / 2 - height
-        width: Math.min(page.width - Kirigami.Units.gridUnit * 4, Kirigami.Units.gridUnit * 20)
-        height: Kirigami.Units.gridUnit * 20
-        standardButtons: QQC2.Dialog.Close
+        preferredWidth: Kirigami.Units.gridUnit * 20
         title: qsTr("Radio List Items")
 
-        contentItem: QQC2.ScrollView {
-            ListView {
-                clip: true
-                model: 20
-                delegate: QQC2.RadioDelegate {
-                    required property int index
+        ListView {
+            clip: true
+            model: 20
+            delegate: QQC2.RadioDelegate {
+                required property int index
 
-                    width: ListView.view.width - ListView.view.leftMargin - ListView.view.rightMargin
-                    text: qsTr("Delegate %1").arg(index + 1)
-                }
+                width: ListView.view.width - ListView.view.leftMargin - ListView.view.rightMargin
+                text: qsTr("Delegate %1").arg(index + 1)
             }
-            Component.onCompleted: background.visible = true;
         }
     }
 
-    QQC2.Dialog {
+    Kirigami.Dialog {
         id: switchListDialog
-        modal: true
-        focus: true
-        x: (page.width - width) / 2
-        y: page.height / 2 - height
-        width: Math.min(page.width - Kirigami.Units.gridUnit * 4, Kirigami.Units.gridUnit * 20)
-        height: Kirigami.Units.gridUnit * 20
-        standardButtons: QQC2.Dialog.Close
+        preferredWidth: Kirigami.Units.gridUnit * 20
         title: qsTr("Radio List Items")
 
-        contentItem: QQC2.ScrollView {
-            ListView {
-                clip: true
-                model: 20
-                delegate: QQC2.SwitchDelegate {
-                    required property int index
+        ListView {
+            clip: true
+            model: 20
+            delegate: QQC2.SwitchDelegate {
+                required property int index
 
-                    width: ListView.view.width - ListView.view.leftMargin - ListView.view.rightMargin
-                    text: qsTr("Delegate %1").arg(index + 1)
-                }
+                width: ListView.view.width - ListView.view.leftMargin - ListView.view.rightMargin
+                text: qsTr("Delegate %1").arg(index + 1)
             }
-            Component.onCompleted: background.visible = true;
         }
     }
 

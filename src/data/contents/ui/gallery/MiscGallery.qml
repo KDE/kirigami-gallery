@@ -171,31 +171,8 @@ Kirigami.ScrollablePage {
         }
     }
 
-    QQC2.Dialog {
-        id: dialog
-        modal: true
-        focus: true
-        x: (page.width - width) / 2
-        y: page.height / 2 - height
-        width: Math.min(page.width - Kirigami.Units.gridUnit * 4, Kirigami.Units.gridUnit * 20)
-        standardButtons: QQC2.Dialog.Ok
-        title: "Title"
-
-        QQC2.Label {
-            width: dialog.availableWidth
-            text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id risus id augue euismod accumsan. Nunc vestibulum placerat bibendum. Morbi commodo auctor varius. Donec molestie euismod ultrices. Sed facilisis augue nec eros auctor."
-            wrapMode: Text.Wrap
-        }
-
-    }
-
     ColumnLayout {
         anchors.centerIn: parent
-        QQC2.Button {
-            Layout.alignment: Qt.AlignHCenter
-            text: "Dialog"
-            onClicked: dialog.open()
-        }
         QQC2.Dial {
             Layout.alignment: Qt.AlignHCenter
         }
