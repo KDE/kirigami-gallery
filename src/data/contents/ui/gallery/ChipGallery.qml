@@ -111,6 +111,7 @@ Kirigami.ScrollablePage {
                         text: modelData
 
                         closable: false
+                        interactive: false
                     }
                 }
             }

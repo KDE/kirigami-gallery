@@ -106,21 +106,21 @@ Kirigami.ScrollablePage {
     Kirigami.OverlayDrawer {
         id: bottomDrawer
         edge: Qt.BottomEdge
-        contentItem: Item {
-            implicitHeight: childrenRect.height + Kirigami.Units.gridUnit
-            ColumnLayout {
-                anchors.centerIn: parent
-                QQC2.Button {
-                    text: "Button1"
-                    onClicked: showPassiveNotification("Button 1 clicked")
-                }
-                QQC2.Button {
-                    text: "Button2"
-                    onClicked: showPassiveNotification("Button 2 clicked")
-                }
-                Item {
-                    Layout.minimumHeight: Kirigami.Units.gridUnit * 4
-                }
+        contentItem: ColumnLayout {
+            QQC2.Button {
+                text: "Button1"
+                onClicked: showPassiveNotification("Button 1 clicked")
+            }
+            QQC2.Button {
+                text: "Button2"
+                onClicked: showPassiveNotification("Button 2 clicked")
+            }
+            Item {
+                Layout.minimumHeight: Kirigami.Units.gridUnit * 4
+            }
+            QQC2.Button {
+                text: "Button3"
+                onClicked: showPassiveNotification("Button 3 clicked")
             }
         }
     }
