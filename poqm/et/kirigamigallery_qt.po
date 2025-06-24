@@ -204,7 +204,7 @@ msgctxt "ChipGallery|"
 msgid "Informative Chips"
 msgstr ""
 
-#: contents/ui/gallery/ChipGallery.qml:119
+#: contents/ui/gallery/ChipGallery.qml:120
 #, fuzzy
 #| msgctxt "SelectionControlsGallery|"
 #| msgid "Checkable List View"

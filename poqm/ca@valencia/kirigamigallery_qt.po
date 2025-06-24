@@ -238,7 +238,7 @@ msgctxt "ChipGallery|"
 msgid "Informative Chips"
 msgstr "Chips informatius"
 
-#: contents/ui/gallery/ChipGallery.qml:119
+#: contents/ui/gallery/ChipGallery.qml:120
 msgctxt "ChipGallery|"
 msgid "Checkable Chips"
 msgstr "Chips que es poden marcar"

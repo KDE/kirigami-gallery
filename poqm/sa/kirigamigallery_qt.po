@@ -222,7 +222,7 @@ msgctxt "ChipGallery|"
 msgid "Informative Chips"
 msgstr "सूचनात्मक चिप्स"
 
-#: contents/ui/gallery/ChipGallery.qml:119
+#: contents/ui/gallery/ChipGallery.qml:120
 msgctxt "ChipGallery|"
 msgid "Checkable Chips"
 msgstr "चेकेबल चिप्स"

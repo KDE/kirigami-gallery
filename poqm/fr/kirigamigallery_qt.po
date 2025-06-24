@@ -236,7 +236,7 @@ msgctxt "ChipGallery|"
 msgid "Informative Chips"
 msgstr "Jetons d'informations"
 
-#: contents/ui/gallery/ChipGallery.qml:119
+#: contents/ui/gallery/ChipGallery.qml:120
 msgctxt "ChipGallery|"
 msgid "Checkable Chips"
 msgstr "Jetons vérifiables"

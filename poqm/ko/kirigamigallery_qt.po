@@ -220,7 +220,7 @@ msgctxt "ChipGallery|"
 msgid "Informative Chips"
 msgstr "정보 제공 칩"
 
-#: contents/ui/gallery/ChipGallery.qml:119
+#: contents/ui/gallery/ChipGallery.qml:120
 msgctxt "ChipGallery|"
 msgid "Checkable Chips"
 msgstr "체크할 수 있는 칩"
