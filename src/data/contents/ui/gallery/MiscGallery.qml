@@ -241,6 +241,23 @@ Kirigami.ScrollablePage {
             Layout.alignment: Qt.AlignHCenter
             text: Kirigami.Settings.tabletMode ? "We are in tablet mode" : "We are not in tablet mode"
         }
+        RowLayout {
+            Layout.alignment: Qt.AlignHCenter
+            spacing: Kirigami.units.spacing
+            Kirigami.UrlButton {
+                id: urlButton
+                property bool mirror: false
+                text: "URL Button"
+                url: "https://kde.org/"
+                Layout.alignment: Qt.AlignVCenter
+                LayoutMirroring.enabled: mirror
+            }
+            QQC2.Button {
+                text: "Toggle URL Button mirroring"
+                Layout.alignment: Qt.AlignVCenter
+                onClicked: urlButton.mirror = !urlButton.mirror
+            }
+        }
         Column {
             Layout.alignment: Qt.AlignHCenter
             QQC2.ItemDelegate {
