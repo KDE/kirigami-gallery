@@ -243,7 +243,7 @@ Kirigami.ScrollablePage {
         }
         RowLayout {
             Layout.alignment: Qt.AlignHCenter
-            spacing: Kirigami.units.spacing
+            spacing: Kirigami.Units.largeSpacing
             Kirigami.UrlButton {
                 id: urlButton
                 property bool mirror: false
