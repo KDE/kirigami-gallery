@@ -38,78 +38,87 @@ Kirigami.ScrollablePage {
         component: "DialogGallery"
     }
 
-    Kirigami.PromptDialog {
+    QQC2.Dialog {
         id: promptDialog
         title: "Reset settings?"
-        subtitle: "The stored settings for the application will be deleted, with the defaults restored."
+        contentItem: Kirigami.SelectableLabel {
+            text: "The stored settings for the application will be deleted, with the defaults restored."
+            wrapMode: TextEdit.Wrap
+        }
         standardButtons: Kirigami.Dialog.Ok | Kirigami.Dialog.Cancel
 
         onAccepted: showPassiveNotification("Accepted")
         onRejected: console.log("Rejected")
     }
 
-    Kirigami.PromptDialog {
+    QQC2.Dialog {
         id: textPromptDialog
         title: "New Folder"
+        modal: true
 
         standardButtons: Kirigami.Dialog.NoButton
-        customFooterActions: [
-            Kirigami.Action {
+        footer: QQC2.DialogButtonBox {
+            QQC2.Button {
                 text: qsTr("Create Folder")
                 icon.name: "dialog-ok"
-                onTriggered: {
+                onClicked: {
                     showPassiveNotification("Created");
                     textPromptDialog.close();
                 }
-            },
-            Kirigami.Action {
+            }
+            QQC2.Button {
                 text: qsTr("Cancel")
                 icon.name: "dialog-cancel"
-                onTriggered: {
+                onClicked: {
                     textPromptDialog.close();
                 }
             }
-        ]
+        }
 
         QQC2.TextField {
             placeholderText: qsTr("Folder name...")
         }
     }
 
-    Kirigami.Dialog {
+    QQC2.Dialog {
         id: selectDialog
         title: qsTr("Alarm Snooze Length")
-        preferredWidth: Kirigami.Units.gridUnit * 16
+        modal: true
+        width: Kirigami.Units.gridUnit * 16
 
-        ColumnLayout {
-            spacing: 0
-            Repeater {
-                model: ListModel {
-                    // we can't use qsTr/i18n with ListElement
-                    Component.onCompleted: {
-                        append({"name": qsTr("1 minute"), "value": 1});
-                        append({"name": qsTr("2 minutes"), "value": 2});
-                        append({"name": qsTr("3 minutes"), "value": 3});
-                        append({"name": qsTr("4 minutes"), "value": 4});
-                        append({"name": qsTr("5 minutes"), "value": 5});
-                        append({"name": qsTr("10 minutes"), "value": 10});
-                        append({"name": qsTr("30 minutes"), "value": 30});
-                        append({"name": qsTr("1 hour"), "value": 60});
+        contentItem: QQC2.ScrollView {
+            contentWidth: availableWidth
+            ColumnLayout {
+                width: parent.width
+                spacing: 0
+                Repeater {
+                    model: ListModel {
+                        // we can't use qsTr/i18n with ListElement
+                        Component.onCompleted: {
+                            append({"name": qsTr("1 minute"), "value": 1});
+                            append({"name": qsTr("2 minutes"), "value": 2});
+                            append({"name": qsTr("3 minutes"), "value": 3});
+                            append({"name": qsTr("4 minutes"), "value": 4});
+                            append({"name": qsTr("5 minutes"), "value": 5});
+                            append({"name": qsTr("10 minutes"), "value": 10});
+                            append({"name": qsTr("30 minutes"), "value": 30});
+                            append({"name": qsTr("1 hour"), "value": 60});
+                        }
                     }
-                }
-                delegate: QQC2.RadioDelegate {
-                    required property string name
-                    required property int value
+                    delegate: QQC2.RadioDelegate {
+                        required property string name
+                        required property int value
 
-                    Layout.fillWidth: true
-                    topPadding: Kirigami.Units.smallSpacing * 2
-                    bottomPadding: Kirigami.Units.smallSpacing * 2
+                        Layout.fillWidth: true
+                        topPadding: Kirigami.Units.smallSpacing * 2
+                        bottomPadding: Kirigami.Units.smallSpacing * 2
 
-                    text: name
-                    checked: value == 1
-                    onCheckedChanged: {
-                        if (checked) {
-                            showPassiveNotification("Selected " + name + " with value " + value);
+                        text: name
+                        checked: value == 1
+                        onCheckedChanged: {
+                            if (checked) {
+                                showPassiveNotification("Selected " + name + " with value " + value);
+                            }
                         }
                     }
                 }
@@ -117,54 +126,73 @@ Kirigami.ScrollablePage {
         }
     }
 
-    Kirigami.Dialog {
+    QQC2.Dialog {
         id: subtitleDialog
         title: qsTr("Select Number")
-        implicitWidth: Kirigami.Units.gridUnit * 16
+        width: Kirigami.Units.gridUnit * 16
+        modal: true
 
-        ColumnLayout {
-            Repeater {
-                model: 5
-                delegate: Kirigami.RadioSubtitleDelegate {
-                    required property int index
+        contentItem: QQC2.ScrollView {
+            contentWidth: availableWidth
+            ColumnLayout {
+                width: parent.width
+                Repeater {
+                    model: 5
+                    delegate: Kirigami.RadioSubtitleDelegate {
+                        required property int index
 
-                    subtitle: qsTr("Subtitle text")
-                    text: index
-                    Layout.fillWidth: true
+                        subtitle: qsTr("Subtitle text")
+                        text: index
+                        Layout.fillWidth: true
+                    }
                 }
             }
         }
     }
 
-    Kirigami.Dialog {
+    QQC2.Dialog {
+        modal: true
         id: scrollableDialog
+        standardButtons: QQC2.Dialog.Ok | QQC2.Dialog.Cancel
         title: qsTr("Select Number")
 
-        ListView {
-            id: listView
-            implicitWidth: Kirigami.Units.gridUnit * 16
-            implicitHeight: Kirigami.Units.gridUnit * 16
-            leftMargin: 0; rightMargin: 0; topMargin: 0; bottomMargin: 0;
+        contentItem: QQC2.ScrollView {
+            clip: true
+            ListView {
+                id: listView
+                implicitWidth: Kirigami.Units.gridUnit * 16
+                implicitHeight: Kirigami.Units.gridUnit * 16
+                leftMargin: 0; rightMargin: 0; topMargin: 0; bottomMargin: 0;
 
-            model: 100
-            delegate: QQC2.RadioDelegate {
-                required property int index
+                model: 20
+                delegate: QQC2.RadioDelegate {
+                    required property int index
 
-                topPadding: Kirigami.Units.smallSpacing * 2
-                bottomPadding: Kirigami.Units.smallSpacing * 2
-                implicitWidth: listView.width
-                text: index
+                    topPadding: Kirigami.Units.smallSpacing * 2
+                    bottomPadding: Kirigami.Units.smallSpacing * 2
+                    implicitWidth: listView.width
+                    text: index
+                }
             }
         }
     }
 
-    Kirigami.PromptDialog {
+    QQC2.Dialog {
         id: noFooterDialog
+        modal: true
         title: qsTr("No Footer Dialog")
-        subtitle: qsTr("This dialog has no footer buttons.<br/>It also has no close button.")
-
+        header: Kirigami.DialogHeader {
+            dialog: noFooterDialog
+            contentItem: Kirigami.DialogHeaderTopContent {
+                dialog: noFooterDialog
+                showCloseButton: false
+            }
+        }
+        contentItem: Kirigami.SelectableLabel {
+            text: qsTr("This dialog has no footer buttons.<br/>It also has no close button.")
+            wrapMode: TextEdit.Wrap
+        }
         standardButtons: Kirigami.Dialog.NoButton
-        showCloseButton: false
     }
 
     Kirigami.MenuDialog {
