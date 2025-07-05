@@ -80,9 +80,7 @@
   <summary xml:lang="x-test">xxShows examples of Kirigami components and allows you to play with themxx</summary>
   <summary xml:lang="zh-CN">展示 Kirigami UI 框架提供的各种组件，还能直接操作界面以测试效果</summary>
   <description>
-    <p>
-	View examples of Kirigami components
-      </p>
+    <p>View examples of Kirigami components</p>
     <p xml:lang="ca">Mostra exemples de components del Kirigami</p>
     <p xml:lang="ca-valencia">Mostra exemples de components de Kirigami</p>
     <p xml:lang="cs">Prohlížejte ukázky komponent Kirigami</p>
@@ -122,7 +120,7 @@
     <p xml:lang="zh-CN">查看 Kirigami UI 框架的示例组件</p>
     <p xml:lang="zh-TW">檢視 Kirigami 元件範例</p>
   </description>
-  <url type="homepage">https://kde.org</url>
+  <url type="homepage">https://apps.kde.org/kirigami2.gallery</url>
   <url type="donation">https://www.kde.org/donate.php?app=org.kde.kirigami2.gallery</url>
   <developer id="org.kde">
     <name>Marco Martin &lt;mart@kde.org&gt;</name>
@@ -140,9 +138,6 @@
     <binary>kirigami2gallery</binary>
   </provides>
   <content_rating type="oars-1.0"/>
-  <custom>
-    <value key="KDE::google_play">https://play.google.com/store/apps/details?id=org.kde.kirigamigallery</value>
-  </custom>
   <releases>
     <release version="25.04.3" date="2025-07-03"/>
     <release version="25.04.2" date="2025-06-05"/>
