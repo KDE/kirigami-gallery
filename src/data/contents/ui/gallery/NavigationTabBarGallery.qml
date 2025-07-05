@@ -1,6 +1,6 @@
 // Copyright 2023 Joshua Goins <josh@redstrate.com>
 //
-// SPDX-License-Identifier: LGPL-2.0
+// SPDX-License-Identifier: LGPL-2.0-or-later
 
 pragma ComponentBehavior: Bound
 
