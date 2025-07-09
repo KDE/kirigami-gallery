@@ -19,14 +19,42 @@ Kirigami.Page {
         page: page
         component: "NavigationTabBarGallery"
     }
-
-    ColumnLayout {
-        anchors.centerIn: parent
-
-        QQC2.Label {
-            id: pageLabel
-
-            text: "Current Page: World"
+    QQC2.SwipeView {
+        id: swipeView
+        anchors.fill: parent
+        clip: true
+        onCurrentIndexChanged: footer.currentIndex = currentIndex
+        Kirigami.Page {
+            id: worldPage
+            title: "World"
+            QQC2.Label {
+                anchors.centerIn: parent
+                text: "Current Page: World"
+            }
+        }
+        Kirigami.Page {
+            id: timersPage
+            title: "Timers"
+            QQC2.Label {
+                anchors.centerIn: parent
+                text: "Current Page: Timers"
+            }
+        }
+        Kirigami.Page {
+            id: stopwatchPage
+            title: "Stopwatch"
+            QQC2.Label {
+                anchors.centerIn: parent
+                text: "Current Page: Stopwatch"
+            }
+        }
+        Kirigami.Page {
+            id: alarmsPage
+            title: "Alarms"
+            QQC2.Label {
+                anchors.centerIn: parent
+                text: "Current Page: Alarms"
+            }
         }
     }
 
@@ -36,22 +64,22 @@ Kirigami.Page {
                 icon.name: "globe"
                 text: "World"
                 checked: true
-                onTriggered: pageLabel.text = "Current Page: World"
+                onTriggered: swipeView.currentIndex = footer.currentIndex
             },
             Kirigami.Action {
                 icon.name: "player-time"
                 text: "Timers"
-                onTriggered: pageLabel.text = "Current Page: Timers"
+                onTriggered: swipeView.currentIndex = footer.currentIndex
             },
             Kirigami.Action {
                 icon.name: "chronometer"
                 text: "Stopwatch"
-                onTriggered: pageLabel.text = "Current Page: Stopwatch"
+                onTriggered: swipeView.currentIndex = footer.currentIndex
             },
             Kirigami.Action {
                 icon.name: "notifications"
                 text: "Alarms"
-                onTriggered: pageLabel.text = "Current Page: Alarms"
+                onTriggered: swipeView.currentIndex = footer.currentIndex
             }
         ]
     }
