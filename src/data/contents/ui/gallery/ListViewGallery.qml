@@ -90,41 +90,51 @@ Kirigami.ScrollablePage {
 
     Component {
         id: delegateComponent
-        Kirigami.SwipeListItem {
-            id: listItem
+        Item {
+            id: listItemRoot
 
             required property int index
             required property string title
 
-            width: ListView.view ? ListView.view.width : implicitWidth
-            contentItem: RowLayout {
-                Kirigami.ListItemDragHandle {
-                    listItem: listItem
-                    listView: mainList
-                    onMoveRequested: (oldIndex, newIndex) => {
-                        listModel.move(oldIndex, newIndex, 1);
+            width: mainList.width - mainList.leftMargin - mainList.rightMargin
+            height: listItem.implicitHeight
+
+            Kirigami.SwipeListItem {
+                id: listItem
+                width: listItemRoot.width
+                contentItem: RowLayout {
+                    Kirigami.ListItemDragHandle {
+                        listItem: listItem
+                        listView: mainList
+                        onMoveRequested: (oldIndex, newIndex) => {
+                            console.log('!!!', oldIndex, newIndex)
+                            listModel.move(oldIndex, newIndex, 1);
+                        }
+                        onDropped: (oldIndex, newIndex) => {
+                            console.log(">>>", oldIndex, newIndex)
+                        }
+                    }
+
+                    QQC2.Label {
+                        Layout.fillWidth: true
+                        Layout.preferredHeight: Math.max(implicitHeight, Kirigami.Units.iconSizes.smallMedium)
+                        text: listItemRoot.title
+                        color: listItem.checked || (listItem.pressed && !listItem.checked && !listItem.sectionDelegate) ? listItem.activeTextColor : listItem.textColor
                     }
                 }
-
-                QQC2.Label {
-                    Layout.fillWidth: true
-                    Layout.preferredHeight: Math.max(implicitHeight, Kirigami.Units.iconSizes.smallMedium)
-                    text: listItem.title
-                    color: listItem.checked || (listItem.pressed && !listItem.checked && !listItem.sectionDelegate) ? listItem.activeTextColor : listItem.textColor
-                }
+                actions: [
+                    Kirigami.Action {
+                        icon.name: "document-decrypt"
+                        text: qsTr("Action 1")
+                        onTriggered: showPassiveNotification(qsTr("%1: %2 clicked").arg(listItemRoot.title).arg(text))
+                    },
+                    Kirigami.Action {
+                        icon.name: "mail-reply-sender"
+                        text: qsTr("Action 2")
+                        onTriggered: showPassiveNotification(qsTr("%1: %2 clicked").arg(listItemRoot.title).arg(text))
+                    }
+                ]
             }
-            actions: [
-                Kirigami.Action {
-                    icon.name: "document-decrypt"
-                    text: qsTr("Action 1")
-                    onTriggered: showPassiveNotification(qsTr("%1: %2 clicked").arg(listItem.title).arg(text))
-                },
-                Kirigami.Action {
-                    icon.name: "mail-reply-sender"
-                    text: qsTr("Action 2")
-                    onTriggered: showPassiveNotification(qsTr("%1: %2 clicked").arg(listItem.title).arg(text))
-                }
-            ]
         }
     }
     ListView {
