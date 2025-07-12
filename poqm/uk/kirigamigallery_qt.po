@@ -668,30 +668,30 @@ msgstr[1] "Запис на аркуші %n"
 msgstr[2] "Запис на аркуші %n"
 msgstr[3] "Запис на аркуші %n"
 
-#: contents/ui/gallery/ListViewGallery.qml:119
+#: contents/ui/gallery/ListViewGallery.qml:128
 msgctxt "ListViewGallery|"
 msgid "Action 1"
 msgstr "Дія 1"
 
-#: contents/ui/gallery/ListViewGallery.qml:120
-#: contents/ui/gallery/ListViewGallery.qml:125
+#: contents/ui/gallery/ListViewGallery.qml:129
+#: contents/ui/gallery/ListViewGallery.qml:134
 #, qt-format
 msgctxt "ListViewGallery|"
 msgid "%1: %2 clicked"
 msgstr "%1: натиснуто %2"
 
-#: contents/ui/gallery/ListViewGallery.qml:124
+#: contents/ui/gallery/ListViewGallery.qml:133
 msgctxt "ListViewGallery|"
 msgid "Action 2"
 msgstr "Дія 2"
 
-#: contents/ui/gallery/ListViewGallery.qml:145
+#: contents/ui/gallery/ListViewGallery.qml:155
 #, qt-format
 msgctxt "ListViewGallery|"
 msgid "Item %1"
 msgstr "Запис %1"
 
-#: contents/ui/gallery/ListViewGallery.qml:163
+#: contents/ui/gallery/ListViewGallery.qml:173
 #, qt-format
 msgctxt "ListViewGallery|"
 msgid "Section %1"

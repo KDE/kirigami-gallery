@@ -652,30 +652,30 @@ msgid_plural "Item in sheet %n"
 msgstr[0] "Öge %n sayfada"
 msgstr[1] "Öge %n sayfada"
 
-#: contents/ui/gallery/ListViewGallery.qml:119
+#: contents/ui/gallery/ListViewGallery.qml:128
 msgctxt "ListViewGallery|"
 msgid "Action 1"
 msgstr "Eylem 1"
 
-#: contents/ui/gallery/ListViewGallery.qml:120
-#: contents/ui/gallery/ListViewGallery.qml:125
+#: contents/ui/gallery/ListViewGallery.qml:129
+#: contents/ui/gallery/ListViewGallery.qml:134
 #, qt-format
 msgctxt "ListViewGallery|"
 msgid "%1: %2 clicked"
 msgstr "%1: %2 tıklandı"
 
-#: contents/ui/gallery/ListViewGallery.qml:124
+#: contents/ui/gallery/ListViewGallery.qml:133
 msgctxt "ListViewGallery|"
 msgid "Action 2"
 msgstr "Eylem 2"
 
-#: contents/ui/gallery/ListViewGallery.qml:145
+#: contents/ui/gallery/ListViewGallery.qml:155
 #, qt-format
 msgctxt "ListViewGallery|"
 msgid "Item %1"
 msgstr "Öge %1"
 
-#: contents/ui/gallery/ListViewGallery.qml:163
+#: contents/ui/gallery/ListViewGallery.qml:173
 #, qt-format
 msgctxt "ListViewGallery|"
 msgid "Section %1"

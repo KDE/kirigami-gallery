@@ -601,7 +601,7 @@ msgid_plural "Item in sheet %n"
 msgstr[0] ""
 msgstr[1] ""
 
-#: contents/ui/gallery/ListViewGallery.qml:119
+#: contents/ui/gallery/ListViewGallery.qml:128
 #, fuzzy
 #| msgctxt "DrawerGallery|"
 #| msgid "Action 1"
@@ -609,14 +609,14 @@ msgctxt "ListViewGallery|"
 msgid "Action 1"
 msgstr "Handling 1"
 
-#: contents/ui/gallery/ListViewGallery.qml:120
-#: contents/ui/gallery/ListViewGallery.qml:125
+#: contents/ui/gallery/ListViewGallery.qml:129
+#: contents/ui/gallery/ListViewGallery.qml:134
 #, qt-format
 msgctxt "ListViewGallery|"
 msgid "%1: %2 clicked"
 msgstr ""
 
-#: contents/ui/gallery/ListViewGallery.qml:124
+#: contents/ui/gallery/ListViewGallery.qml:133
 #, fuzzy
 #| msgctxt "CardsLayoutGallery|"
 #| msgid "Action2"
@@ -624,13 +624,13 @@ msgctxt "ListViewGallery|"
 msgid "Action 2"
 msgstr "Handling2"
 
-#: contents/ui/gallery/ListViewGallery.qml:145
+#: contents/ui/gallery/ListViewGallery.qml:155
 #, qt-format
 msgctxt "ListViewGallery|"
 msgid "Item %1"
 msgstr ""
 
-#: contents/ui/gallery/ListViewGallery.qml:163
+#: contents/ui/gallery/ListViewGallery.qml:173
 #, fuzzy, qt-format
 #| msgctxt "DrawerGallery|"
 #| msgid "Action 1"
