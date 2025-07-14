@@ -552,7 +552,7 @@ msgid ""
 "This is an informational inline message (the default type). Use it for "
 "example to announce a result or provide commentary."
 msgstr ""
-"ეს საინფორმაციო ხაზისშიდა შეტყობინებაა (ნაგულისხმები ტიპი). გამოიყენეთ ის, "
+"ეს საინფორმაციო ხაზისშიდა შეტყობინებაა (ნაგულისხმევი ტიპი). გამოიყენეთ ის, "
 "მაგალითად, შედეგების გამოსაცხადებლად ან კომენტარის გასაკეთებლად."
 
 #: contents/ui/gallery/InlineMessagesGallery.qml:58
