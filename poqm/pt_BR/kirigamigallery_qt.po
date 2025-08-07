@@ -5,11 +5,12 @@
 # Luiz Fernando Ranghetti <elchevive@opensuse.org>, 2018, 2019, 2020, 2021, 2022.
 # André Marcelo Alvarenga <alvarenga@kde.org>, 2019.
 # Geraldo Simiao <geraldosimiao@fedoraproject.org>, 2023.
+# SPDX-FileCopyrightText: 2025 Marcus Gama <marcus.gama@gmail.com>
 msgid ""
 msgstr ""
 "Project-Id-Version: kirigamigallery_qt\n"
-"PO-Revision-Date: 2023-07-28 23:07-0300\n"
-"Last-Translator: Geraldo Simiao <geraldosimiao@fedoraproject.org>\n"
+"PO-Revision-Date: 2025-08-06 20:49-0300\n"
+"Last-Translator: Marcus Gama <marcus.gama@gmail.com>\n"
 "Language-Team: Brazilian Portuguese <kde-i18n-pt_BR@kde.org>\n"
 "Language: pt_BR\n"
 "MIME-Version: 1.0\n"
@@ -17,7 +18,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Qt-Contexts: true\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Lokalize 23.04.3\n"
+"X-Generator: Lokalize 25.04.3\n"
 
 #: contents/ui/gallery/CardsLayoutGallery.qml:32
 msgctxt "CardsLayoutGallery|"
@@ -242,17 +243,14 @@ msgstr "Etiquetas selecionáveis"
 #: contents/ui/gallery/ColorsGallery.qml:31
 msgctxt "ColorsGallery|"
 msgid "Colors"
-msgstr ""
+msgstr "Cores"
 
 #: contents/ui/gallery/components/InfoSheet.qml:52
 msgctxt "InfoSheet|"
 msgid "HIG…"
-msgstr ""
+msgstr "HIG…"
 
 #: contents/ui/gallery/components/InfoSheet.qml:57
-#, fuzzy
-#| msgctxt "InfoSheet|"
-#| msgid "Source code..."
 msgctxt "InfoSheet|"
 msgid "Source code…"
 msgstr "Código-fonte..."
@@ -260,12 +258,9 @@ msgstr "Código-fonte..."
 #: contents/ui/gallery/components/InfoSheet.qml:62
 msgctxt "InfoSheet|"
 msgid "API…"
-msgstr ""
+msgstr "API…"
 
 #: contents/ui/gallery/components/InfoSheetAction.qml:18
-#, fuzzy
-#| msgctxt "ActionToolBarGallery|"
-#| msgid "Info"
 msgctxt "InfoSheetAction|"
 msgid "Info"
 msgstr "Informações"
@@ -286,9 +281,6 @@ msgid "Cancel"
 msgstr "Cancelar"
 
 #: contents/ui/gallery/DialogGallery.qml:75
-#, fuzzy
-#| msgctxt "DialogGallery|"
-#| msgid "Folder name..."
 msgctxt "DialogGallery|"
 msgid "Folder name..."
 msgstr "Nome da pasta..."
@@ -347,7 +339,7 @@ msgstr "Selecionar número"
 #: contents/ui/gallery/DialogGallery.qml:131
 msgctxt "DialogGallery|"
 msgid "Subtitle text"
-msgstr ""
+msgstr "Legenda"
 
 #: contents/ui/gallery/DialogGallery.qml:163
 #: contents/ui/gallery/DialogGallery.qml:234
@@ -433,12 +425,9 @@ msgid "Selection Dialog"
 msgstr "Janela de seleção"
 
 #: contents/ui/gallery/DialogGallery.qml:224
-#, fuzzy
-#| msgctxt "DialogGallery|"
-#| msgid "Selection Dialog"
 msgctxt "DialogGallery|"
 msgid "Selection Dialog with subtitles"
-msgstr "Janela de seleção"
+msgstr "Diálogo de seleção com legendas"
 
 #: contents/ui/gallery/DialogGallery.qml:229
 msgctxt "DialogGallery|"
@@ -657,64 +646,49 @@ msgstr "Silêncio"
 #: contents/ui/gallery/ListViewGallery.qml:45
 msgctxt "ListViewGallery|"
 msgid "Main Action Text"
-msgstr ""
+msgstr "Texto da Ação Principal"
 
 #: contents/ui/gallery/ListViewGallery.qml:56
-#, fuzzy
-#| msgctxt "OverlaySheetGallery|"
-#| msgid "Footer:"
 msgctxt "ListViewGallery|"
 msgid "Footer:"
 msgstr "Rodapé:"
 
 #: contents/ui/gallery/ListViewGallery.qml:71
-#, fuzzy, qt-format
-#| msgctxt "OverlaySheetGallery|"
-#| msgid "Item in sheet "
+#, qt-format
 msgctxt "ListViewGallery|"
 msgid "Item in sheet %n"
 msgid_plural "Item in sheet %n"
-msgstr[0] "Item na folha "
-msgstr[1] "Item na folha "
+msgstr[0] "Item na folha %n"
+msgstr[1] "Item na folha %n"
 
 #: contents/ui/gallery/ListViewGallery.qml:119
-#, fuzzy
-#| msgctxt "DrawerGallery|"
-#| msgid "Action 1"
 msgctxt "ListViewGallery|"
 msgid "Action 1"
 msgstr "Ação 1"
 
 #: contents/ui/gallery/ListViewGallery.qml:120
 #: contents/ui/gallery/ListViewGallery.qml:125
-#, fuzzy, qt-format
-#| msgctxt "CardsLayoutGallery|"
-#| msgid "Card clicked"
+#, qt-format
 msgctxt "ListViewGallery|"
 msgid "%1: %2 clicked"
-msgstr "Cartão clicado"
+msgstr "%1: %2 clicado"
 
 #: contents/ui/gallery/ListViewGallery.qml:124
-#, fuzzy
-#| msgctxt "CardsLayoutGallery|"
-#| msgid "Action2"
 msgctxt "ListViewGallery|"
 msgid "Action 2"
-msgstr "Ação2"
+msgstr "Ação 2"
 
 #: contents/ui/gallery/ListViewGallery.qml:145
 #, qt-format
 msgctxt "ListViewGallery|"
 msgid "Item %1"
-msgstr ""
+msgstr "Item %1"
 
 #: contents/ui/gallery/ListViewGallery.qml:163
-#, fuzzy, qt-format
-#| msgctxt "DrawerGallery|"
-#| msgid "Action 1"
+#, qt-format
 msgctxt "ListViewGallery|"
 msgid "Section %1"
-msgstr "Ação 1"
+msgstr "Seção %1"
 
 #: contents/ui/gallery/MetricsGallery.qml:50
 msgctxt "MetricsGallery|"
@@ -914,7 +888,7 @@ msgstr "Galeria do Kirigami"
 #: contents/ui/MainPage.qml:42
 msgctxt "MainPage|"
 msgid "Home"
-msgstr ""
+msgstr "Início"
 
 #~ msgctxt "CardsLayoutGallery|"
 #~ msgid "Info"
