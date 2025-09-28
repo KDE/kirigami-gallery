@@ -248,9 +248,6 @@ msgid "Cancel"
 msgstr "Renunță"
 
 #: contents/ui/gallery/DialogGallery.qml:75
-#, fuzzy
-#| msgctxt "DialogGallery|"
-#| msgid "Folder name..."
 msgctxt "DialogGallery|"
 msgid "Folder name..."
 msgstr "Denumire dosar…"
