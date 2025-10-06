@@ -1,29 +1,28 @@
-# SPDX-FileCopyrightText: 2024, 2025 Yaron Shahrabani <sh.yaron@gmail.com>
+# SPDX-FileCopyrightText: 2025 Zayed Al-Saidi <zayed.alsaidi@gmail.com>
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: \n"
-"PO-Revision-Date: 2025-10-05 12:13+0300\n"
-"Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
-"Language-Team: צוות התרגום של KDE ישראל\n"
-"Language: he\n"
+"PO-Revision-Date: 2025-10-05 13:54+0400\n"
+"Last-Translator: Zayed Al-Saidi <zayed.alsaidi@gmail.com>\n"
+"Language-Team: ar\n"
+"Language: ar\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=4; plural=(n == 1) ? 0 : ((n == 2) ? 1 : ((n > 10 && "
-"n % 10 == 0) ? 2 : 3));\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
+"&& n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
+"X-Generator: Lokalize 23.08.5\n"
 "X-Qt-Contexts: true\n"
-"X-Generator: Lokalize 25.08.1\n"
 
 #: contents/ui/gallery/CardsLayoutGallery.qml:32
 msgctxt "CardsLayoutGallery|"
 msgid "Cards Layout"
-msgstr "פריסת כרטיסים"
+msgstr "تخطيط البطاقات"
 
 #: contents/ui/gallery/CardsLayoutGallery.qml:45
 msgctxt "CardsLayoutGallery|"
 msgid "AbstractCard"
-msgstr "כרטיס מופשט"
+msgstr "بطاقة مجرّدة"
 
 #: contents/ui/gallery/CardsLayoutGallery.qml:50
 msgctxt "CardsLayoutGallery|"
@@ -33,10 +32,9 @@ msgid ""
 "the Header or Footer properties. In this case a Kirigami.Heading is its "
 "header and a Label with WordWrap is the contentItem."
 msgstr ""
-"כרטיס מופשט (AbstractCard) הוא הצורה הפשוטה ביותר של כרטיס. זה ריבוע עם "
-"הצללה, שיכול להכיל בתוכו פריט. יכולים גם להיות לו פריטים שמוקצים למאפייני "
-"הכותרת העליונה/תחתונה. במקרה שכזה Kirigami.Header יהיה הכותרת ותווית (Label) "
-"עם WordWrap (גלישת שורות) הוא פריט התוכן (contentItem)."
+"البطاقة المجرّدة هي أبسط شكل للبطاقة. إنّها مجرّد مستطيل بظلّ، يمكن أن يحتوي على "
+"أيّ عنصر. يمكن أن تحوي عناصر منسوبة لخصائص الترويسة أو التذييل. في هذه الحالة "
+"عنوان كيريغامي هو ترويستها، ولصيقة ملفوفة الكلمات هي عنصر محتواها."
 
 #: contents/ui/gallery/CardsLayoutGallery.qml:58
 msgctxt "CardsLayoutGallery|"
@@ -48,16 +46,17 @@ msgid ""
 "show any kind of visual feedback. It is recommended to set it to true if you "
 "plan to make the card reactive on any kind of click."
 msgstr ""
-"זה כרטיס מופשט (AbstractCard) עם תווית (Label) עם גלישת טקסט (WordWrap) ושום "
-"דבר מעבר לזה, זאת הצורה הפשוטה ביותר בה ניתן למצוא כרטיסים.\n"
-"כרטיס מופשט יכול להתמודד עם לחיצות ישירות עליו עם מטפל האות onClicked (כאשר "
-"נלחץ) ואפשר להשתמש במאפיין showClickFeedback (הצגת משוב לחיצה). מומלץ להגדיר "
-"לחיובי/true אם תכננת לשמר את תגובתיות הכרטיס על פני מגוון סוגים של לחיצות."
+"هذه بطاقة مجرّدة تحوي لصيقة ملفوفة الكلمات ولا شيء آخر. إنّه أبسط شكل يمكن أن "
+"تجد البطاقات فيه.\n"
+"يمكن النقر على بطاقة مجرّدة نفسها، بمعالج إشارة عند النقر الاعتيادي. ويمكن "
+"استخدام خاصّيّة عرض تغذية النقر الراجعة إن كان النقر يجب أن يعرض أيّ نوع من "
+"التغذية الراجعة البصريّة. يوصى بضبطه على صحيح إذا تخطّط لجعل البطاقة تفاعليّة "
+"عند أيّ نوع من النقر."
 
 #: contents/ui/gallery/CardsLayoutGallery.qml:60
 msgctxt "CardsLayoutGallery|"
 msgid "Card clicked"
-msgstr "הכרטיס נלחץ"
+msgstr "نقرت البطاقة"
 
 #: contents/ui/gallery/CardsLayoutGallery.qml:66
 #: contents/ui/gallery/CardsLayoutGallery.qml:88
@@ -65,7 +64,7 @@ msgstr "הכרטיס נלחץ"
 #: contents/ui/gallery/CardsLayoutGallery.qml:200
 msgctxt "CardsLayoutGallery|"
 msgid "Action1"
-msgstr "פעולה1"
+msgstr "إجراء1"
 
 #: contents/ui/gallery/CardsLayoutGallery.qml:70
 #: contents/ui/gallery/CardsLayoutGallery.qml:92
@@ -73,12 +72,12 @@ msgstr "פעולה1"
 #: contents/ui/gallery/CardsLayoutGallery.qml:204
 msgctxt "CardsLayoutGallery|"
 msgid "Action2"
-msgstr "פעולה2"
+msgstr "إجراء2"
 
 #: contents/ui/gallery/CardsLayoutGallery.qml:76
 msgctxt "CardsLayoutGallery|"
 msgid "Card"
-msgstr "כרטיס"
+msgstr "بطاقة"
 
 #: contents/ui/gallery/CardsLayoutGallery.qml:80
 msgctxt "CardsLayoutGallery|"
@@ -88,29 +87,29 @@ msgid ""
 "properties together. A Card can also have Actions that will appear in the "
 "footer."
 msgstr ""
-"זה מופע של סוג הכרטיס/Card: יכולה להיות לו תמונה, כותרת וסמל מוקצים למאפיין "
-"קבוצת הכרזה שלו כרשות, אחד או כל המאפיינים גם יחד. לכרטיס גם יכולות להיות "
-"פעולות שמופיעות בכותרת התתונה."
+"هذا مثال من نوع البطاقة: يمكن أن تحوي صورة على نحو اختياريّ، عنوان و أيقونة "
+"منسوبة لمجموعة خصائص لافتتها، واحدة أو كلّ الخصائص معًا. يمكن أن تحوي بطاقة "
+"أيضًا إجراءات ستظهر في التذييل."
 
 #: contents/ui/gallery/CardsLayoutGallery.qml:96
 msgctxt "CardsLayoutGallery|"
 msgid "Action3"
-msgstr "פעולה3"
+msgstr "إجراء3"
 
 #: contents/ui/gallery/CardsLayoutGallery.qml:100
 msgctxt "CardsLayoutGallery|"
 msgid "Action4"
-msgstr "פעולה4"
+msgstr "إجراء4"
 
 #: contents/ui/gallery/CardsLayoutGallery.qml:104
 msgctxt "CardsLayoutGallery|"
 msgid "Action5"
-msgstr "פעולה5"
+msgstr "إجراء5"
 
 #: contents/ui/gallery/CardsLayoutGallery.qml:108
 msgctxt "CardsLayoutGallery|"
 msgid "Action6"
-msgstr "פעולה6"
+msgstr "إجراء6"
 
 #: contents/ui/gallery/CardsLayoutGallery.qml:119
 msgctxt "CardsLayoutGallery|"
@@ -119,21 +118,21 @@ msgid ""
 "Alignment flags.\n"
 " When there are too many actions, they go in an overflow menu."
 msgstr ""
-"אפשר ליישר את הכותרת הזאת לכל הפינות או למרכז אותה בשילוה עם דגלוני Qt."
-"Alignment.\n"
-"כשיש יותר מדי פעולות, הן עוברות לתפריט הצף."
+"يمكن محاذاة العنوان إلى كلّ الزوايا أو توسيطه بمزيج من أوسمة محاذاة كيوت.\n"
+" عند وجود عدد كبير من الإجراءات، تذهب إلى قائمة فيض."
 
 #: contents/ui/gallery/CardsLayoutGallery.qml:134
 msgctxt "CardsLayoutGallery|"
 msgid "Action always hidden"
-msgstr "הפעולה תמיד מוסתרת"
+msgstr "إجراء مخفي آليًّا"
 
 #: contents/ui/gallery/CardsLayoutGallery.qml:145
 msgctxt "CardsLayoutGallery|"
 msgid ""
 "The Banner can contain only the title and/or an icon, even if there is no "
 "banner image."
-msgstr "הכרזה (Banner) מכיל רק את הכותרת ו/או סמל, אפילו אם אין תמונת כרזה."
+msgstr ""
+"يمكن للافتة أن تحتوي العنوان و/أو الأيقونة فقط، حتّى لو لم توجد صورة لافتة."
 
 #: contents/ui/gallery/CardsLayoutGallery.qml:168
 msgctxt "CardsLayoutGallery|"
@@ -141,7 +140,8 @@ msgid ""
 "It's possible to have custom contents overlapping the image, for cases where "
 "a more personalized design is needed."
 msgstr ""
-"יכול להיות תוכן מותאם מעל התמונה, למקרים שבהם צריך עיצוב קצת יותר אישי."
+"يمكن أن تحوي محتويات مخصّصة متراكبة على الصورة، في الحالات التي تحتاج تصميمًا "
+"شخصيًا أكثر."
 
 #: contents/ui/gallery/CardsLayoutGallery.qml:183
 msgctxt "CardsLayoutGallery|"
@@ -153,21 +153,21 @@ msgid ""
 "used, the title and icon in the banner property shouldn't be used. If a "
 "custom footer is used (which is discouraged), actions shouldn't be used."
 msgstr ""
-"אפשר להתאים גם את המראה והתחושה של הכרטיסים, אם ההתנהגות של צמצום הריפוד "
-"לכותרות נחוצה. בדרך כלל זה לא מומלץ כדי לשמור על אחידות טובה יותר, אך בחלק "
-"מהמקרים העיצוב דורש פריסה יותר מהודרת, כפי שניתן לראות בכרטיס הזה לדוגמה. אם "
-"נעשה שימוש בכותרת עליונה מותאמת אישית, אין להשתמש בכותרת ובסמל מאפיין הכרזה. "
-"אם נעשה שימוש בכותרת תחתונה (דבר שאינו מומלץ), אין להשתמש בפעולות."
+"يمكن تخصيص منظر البطاقات وملمسها أيضًا، إذا كانت خاصية عدم الحشو للترويسات "
+"مطلوبة. لا يوصى بهذا آليًّا لضمان اتّساق أكبر، ولكنّ في بعض الحالات، يتطلّب "
+"التصميم تخطيطًا خياليًا أكثر، كما يظهر في هذا المثال للبطاقة. إذا استُخدمت "
+"ترويسة مخصّصة، فلا يجب استخدام العنوان والأيقونة في خاصية اللافتة. إذا استُخدم "
+"تذييل مخصّص (لا يوصى به)، فلا يجب استخدام الإجراءات."
 
 #: contents/ui/gallery/CardsLayoutGallery.qml:188
 msgctxt "CardsLayoutGallery|"
 msgid "Custom footer"
-msgstr "כותרת תחתונה בהתאמה אישית"
+msgstr "تذييل مخصّص"
 
 #: contents/ui/gallery/CardsLayoutGallery.qml:191
 msgctxt "CardsLayoutGallery|"
 msgid "Ok"
-msgstr "אישור"
+msgstr "حسناً"
 
 #: contents/ui/gallery/CardsLayoutGallery.qml:214
 msgctxt "CardsLayoutGallery|"
@@ -178,21 +178,21 @@ msgid ""
 "If you need to put it in a CardsLayout, it will have by default a columnSpan "
 "of 2 (which can be overridden)."
 msgstr ""
-"כרטיס יכול גם להיות בכיוון אופקי.\n"
-"במקרה שכזה הוא יהיה יותר רחב מגבוה, כך שהוא מתאים יותר לשימוש בפריסת עמודות "
-"(ColumnLayout).\n"
-"אם הוא צריך להיות בפריסת כרטיסים (CardLayout) פריסת העמודות (columnSpan) שלו "
-"תהיה 2 (אפשר לדרוס את זה)."
+"يمكن أن تحوي بطاقة على نحو اختياريّ اتّجاهًا أفقيًا.\n"
+" في هذه الحالة، ستكون أعرض من أن تكون طويلة، لذلك هي مناسبة للاستخدام في "
+"تخطيط الأعمدة أيضًا.\n"
+"إذا احتجت وضعها في تخطيط البطاقات، فسيكون لها آليًّا امتداد عمود بمقدار 2 "
+"(يمكن تجاوز هذا)."
 
 #: contents/ui/gallery/CardsListViewGallery.qml:32
 msgctxt "CardsListViewGallery|"
 msgid "List view of simple cards"
-msgstr "תצוגת רשימה של כרטיסים פשוטים"
+msgstr "عرض قائمة بطاقات بسيطة"
 
 #: contents/ui/gallery/CardsListViewGallery.qml:73
 msgctxt "CardsListViewGallery|"
 msgid "Product "
-msgstr "מוצר"
+msgstr "المنتج "
 
 #: contents/ui/gallery/CardsListViewGallery.qml:81
 msgctxt "CardsListViewGallery|"
@@ -200,261 +200,261 @@ msgid ""
 "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id risus id "
 "augue euismod accumsan."
 msgstr ""
-"לורם איפסום דולור סיט אמט, קונסקטורר אדיפיסינג אלית הועניב היושבב שערש "
-"שמחויט - שלושע ותלברו חשלו שעותלשך וחאית נובש ערששף."
+"نصّ عشوائي. لوريم إيبسوم دولار سيت أميت، كونسيكتيتور أديبيسيسينغ إيليت. نولام "
+"إيد ريسوس إيد أوغ إيوسمود أكيومسان."
 
 #: contents/ui/gallery/CardsListViewGallery.qml:87
 msgctxt "CardsListViewGallery|"
 msgid "Install"
-msgstr "התקנה"
+msgstr "ثبّت"
 
 #: contents/ui/gallery/ChipGallery.qml:33
 msgctxt "ChipGallery|"
 msgid "Chips"
-msgstr "תגים"
+msgstr "الرقائق"
 
 #: contents/ui/gallery/ChipGallery.qml:48
 msgctxt "ChipGallery|"
 msgid "Closable Chips"
-msgstr "תגים שאפשר לסגור"
+msgstr "رقائق قابلة للإغلاق"
 
 #: contents/ui/gallery/ChipGallery.qml:81
 msgctxt "ChipGallery|"
 msgid "Informative Chips"
-msgstr "תגים מיידעים"
+msgstr "رقائق معلوماتيّة"
 
 #: contents/ui/gallery/ChipGallery.qml:120
 msgctxt "ChipGallery|"
 msgid "Checkable Chips"
-msgstr "תגים שאפשר לסמן"
+msgstr "رقائق قابلة للفحص"
 
 #: contents/ui/gallery/ColorsGallery.qml:31
 msgctxt "ColorsGallery|"
 msgid "Colors"
-msgstr "צבעים"
+msgstr "الألوان"
 
 #: contents/ui/gallery/components/InfoSheet.qml:52
 msgctxt "InfoSheet|"
 msgid "HIG…"
-msgstr "מדריך עיצוב…"
+msgstr "دليل واجهة تفاعل المستخدمين الإنسانيّة..."
 
 #: contents/ui/gallery/components/InfoSheet.qml:57
 msgctxt "InfoSheet|"
 msgid "Source code…"
-msgstr "קוד מקור…"
+msgstr "شيفرة المصدر..."
 
 #: contents/ui/gallery/components/InfoSheet.qml:62
 msgctxt "InfoSheet|"
 msgid "API…"
-msgstr "API…"
+msgstr "واجهة برمجة التطبيقات..."
 
 #: contents/ui/gallery/components/InfoSheetAction.qml:18
 msgctxt "InfoSheetAction|"
 msgid "Info"
-msgstr "פרטים"
+msgstr "معلومات"
 
 #: contents/ui/gallery/DialogGallery.qml:34
 msgctxt "DialogGallery|"
 msgid "Dialogs"
-msgstr "חלוניות"
+msgstr "الحوارات"
 
 #: contents/ui/gallery/DialogGallery.qml:58
 msgctxt "DialogGallery|"
 msgid "Create Folder"
-msgstr "יצירת תיקייה"
+msgstr "أنشئ مجلّدًا"
 
 #: contents/ui/gallery/DialogGallery.qml:66
 msgctxt "DialogGallery|"
 msgid "Cancel"
-msgstr "ביטול"
+msgstr "ألغِ"
 
 #: contents/ui/gallery/DialogGallery.qml:75
 msgctxt "DialogGallery|"
 msgid "Folder name..."
-msgstr "שם תיקייה…"
+msgstr "اسم المجلّد..."
 
 #: contents/ui/gallery/DialogGallery.qml:81
 msgctxt "DialogGallery|"
 msgid "Alarm Snooze Length"
-msgstr "משך השהיית תזכורת"
+msgstr "طول غفوة المنبّه"
 
 #: contents/ui/gallery/DialogGallery.qml:90
 msgctxt "DialogGallery|"
 msgid "1 minute"
-msgstr "דקה"
+msgstr "دقيقة واحدة"
 
 #: contents/ui/gallery/DialogGallery.qml:91
 msgctxt "DialogGallery|"
 msgid "2 minutes"
-msgstr "2 דקות"
+msgstr "دقيقتان"
 
 #: contents/ui/gallery/DialogGallery.qml:92
 msgctxt "DialogGallery|"
 msgid "3 minutes"
-msgstr "3 דקות"
+msgstr "3 دقائق"
 
 #: contents/ui/gallery/DialogGallery.qml:93
 msgctxt "DialogGallery|"
 msgid "4 minutes"
-msgstr "4 דקות"
+msgstr "4 دقائق"
 
 #: contents/ui/gallery/DialogGallery.qml:94
 msgctxt "DialogGallery|"
 msgid "5 minutes"
-msgstr "5 דקות"
+msgstr "5 دقائق"
 
 #: contents/ui/gallery/DialogGallery.qml:95
 msgctxt "DialogGallery|"
 msgid "10 minutes"
-msgstr "10 דקות"
+msgstr "10 دقائق"
 
 #: contents/ui/gallery/DialogGallery.qml:96
 msgctxt "DialogGallery|"
 msgid "30 minutes"
-msgstr "חצי שעה"
+msgstr "30 دقيقة"
 
 #: contents/ui/gallery/DialogGallery.qml:97
 msgctxt "DialogGallery|"
 msgid "1 hour"
-msgstr "שעה"
+msgstr "ساعة واحدة"
 
 #: contents/ui/gallery/DialogGallery.qml:122
 #: contents/ui/gallery/DialogGallery.qml:141
 msgctxt "DialogGallery|"
 msgid "Select Number"
-msgstr "בחירת מספר"
+msgstr "اختر رقمًا"
 
 #: contents/ui/gallery/DialogGallery.qml:131
 msgctxt "DialogGallery|"
 msgid "Subtitle text"
-msgstr "טקסט כתובית"
+msgstr "نصّ العنوان الفرعي"
 
 #: contents/ui/gallery/DialogGallery.qml:163
 #: contents/ui/gallery/DialogGallery.qml:234
 msgctxt "DialogGallery|"
 msgid "No Footer Dialog"
-msgstr "אין חלונית תחתונה"
+msgstr "حوار بلا تذييل"
 
 #: contents/ui/gallery/DialogGallery.qml:164
 msgctxt "DialogGallery|"
 msgid "This dialog has no footer buttons.<br/>It also has no close button."
-msgstr "לחלונית הזאת יש כפתורים בכותרת התחתונה<br/>גם אין לה כפתור סגירה."
+msgstr "لا يحوي هذا الحوار أزرار تذييل.<br/>لا يحوي أيضًا زرّ إغلاق."
 
 #: contents/ui/gallery/DialogGallery.qml:172
 msgctxt "DialogGallery|"
 msgid "Track Options"
-msgstr "אפשרויות מעקב"
+msgstr "خيارات المسار"
 
 #: contents/ui/gallery/DialogGallery.qml:177
 msgctxt "DialogGallery|Start playback of the selected track"
 msgid "Play"
-msgstr "השמעה"
+msgstr "شغّل"
 
 #: contents/ui/gallery/DialogGallery.qml:178
 msgctxt "DialogGallery|"
 msgid "Start playback of the selected track"
-msgstr "התחלת השמעת הרצועה הנבחרת"
+msgstr "ابدأ تشغيل المسار المختار"
 
 #: contents/ui/gallery/DialogGallery.qml:183
 msgctxt "DialogGallery|Show the file for this song in the file manager"
 msgid "Show in folder"
-msgstr "הצגה בתיקייה"
+msgstr "اعرض في المجلّد"
 
 #: contents/ui/gallery/DialogGallery.qml:184
 msgctxt "DialogGallery|"
 msgid "Show the file for this song in the file manager"
-msgstr "הצגת קובץ השיר הזה במנהל הקבצים"
+msgstr "اعرض ملفّ هذه الأغنية في مدير الملفّات"
 
 #: contents/ui/gallery/DialogGallery.qml:188
 msgctxt "DialogGallery|Show track metadata"
 msgid "View details"
-msgstr "הצגת פרטים"
+msgstr "اعرض التفاصيل"
 
 #: contents/ui/gallery/DialogGallery.qml:189
 msgctxt "DialogGallery|"
 msgid "Show track metadata"
-msgstr "הצגת נתוני על של הרצועה"
+msgstr "اعرض بيانات تعريف المسار"
 
 #: contents/ui/gallery/DialogGallery.qml:193
 msgctxt ""
 "DialogGallery|Add the track to the queue, right after the current track"
 msgid "Play next"
-msgstr "נגינה של הבא"
+msgstr "شغّل التالي"
 
 #: contents/ui/gallery/DialogGallery.qml:194
 msgctxt "DialogGallery|"
 msgid "Add the track to the queue, right after the current track"
-msgstr "הוספת הרצועה לתור, מיד אחרי הרצועה הנוכחית"
+msgstr "أضف المسار إلى قائمة الانتظار، بعد المسار الحالي مباشرةً"
 
 #: contents/ui/gallery/DialogGallery.qml:198
 msgctxt "DialogGallery|Enqueue current track"
 msgid "Add to queue"
-msgstr "הוספה לתור"
+msgstr "أضف إلى قائمة الانتظار"
 
 #: contents/ui/gallery/DialogGallery.qml:199
 msgctxt "DialogGallery|"
 msgid "Enqueue current track"
-msgstr "הוספת הרצועה הנוכחית לתור"
+msgstr "أضف المسار الحالي إلى قائمة الانتظار"
 
 #: contents/ui/gallery/DialogGallery.qml:209
 msgctxt "DialogGallery|"
 msgid "Prompt Dialog"
-msgstr "חלונית בקשה"
+msgstr "حوار مطالَبة"
 
 #: contents/ui/gallery/DialogGallery.qml:214
 msgctxt "DialogGallery|"
 msgid "Text Prompt Dialog"
-msgstr "חלונית בקשה עם טקסט"
+msgstr "حوار مطالبة نصّي"
 
 #: contents/ui/gallery/DialogGallery.qml:219
 msgctxt "DialogGallery|"
 msgid "Selection Dialog"
-msgstr "חלונית בחירה"
+msgstr "حوار اختيار"
 
 #: contents/ui/gallery/DialogGallery.qml:224
 msgctxt "DialogGallery|"
 msgid "Selection Dialog with subtitles"
-msgstr "חלונית בחירה עם כתוביות"
+msgstr "حوار اختيار بعناوين فرعية"
 
 #: contents/ui/gallery/DialogGallery.qml:229
 msgctxt "DialogGallery|"
 msgid "Scrollable Dialog"
-msgstr "חלונית נגללת"
+msgstr "حوار قابل للتمرير"
 
 #: contents/ui/gallery/DialogGallery.qml:239
 msgctxt "DialogGallery|"
 msgid "Menu Dialog"
-msgstr "חלונית תפריט"
+msgstr "حوار قائمة"
 
 #: contents/ui/gallery/DrawerGallery.qml:32
 msgctxt "DrawerGallery|"
 msgid "Drawers"
-msgstr "מגירות"
+msgstr "الأدراج"
 
 #: contents/ui/gallery/DrawerGallery.qml:40
 msgctxt "DrawerGallery|"
 msgid "Action 1"
-msgstr "פעולה 1"
+msgstr "إجراء 1"
 
 #: contents/ui/gallery/DrawerGallery.qml:42
 msgctxt "DrawerGallery|"
 msgid "Action 1 clicked"
-msgstr "פעולה 1 נלחצה"
+msgstr "نُقر الإجراء 1"
 
 #: contents/ui/gallery/DrawerGallery.qml:45
 msgctxt "DrawerGallery|"
 msgid "Disabled Action"
-msgstr "פעולה מושבתת"
+msgstr "إجراء معطّل"
 
 #: contents/ui/gallery/DrawerGallery.qml:50
 msgctxt "DrawerGallery|"
 msgid "Action 3"
-msgstr "פעולה 3"
+msgstr "إجراء 3"
 
 #: contents/ui/gallery/DrawerGallery.qml:51
 msgctxt "DrawerGallery|"
 msgid "Action 3 clicked"
-msgstr "פעולה 3 נלחצה"
+msgstr "نُقر الإجراء 3"
 
 #: contents/ui/gallery/DrawerGallery.qml:64
 msgctxt "DrawerGallery|"
@@ -463,8 +463,8 @@ msgid ""
 "will darken the rest of the app. Clicking on a darkened will dismiss the "
 "drawer."
 msgstr ""
-"מגירה תחתונה חוסמת שמשתרעת על פני כל רוחב חלון היישום ותכהה את שאר היישום. "
-"לחיצה על האזור המוכהה תסלק את המגירה."
+"سيمتدّ درج سفليّ مشروط على عرض نافذة التطبيق بالكامل وسيعتم باقي التطبيق. "
+"سينبذ النقر على منطقة معتمة الدرج."
 
 #: contents/ui/gallery/DrawerGallery.qml:68
 #: contents/ui/gallery/DrawerGallery.qml:87
@@ -472,7 +472,7 @@ msgstr ""
 #: contents/ui/gallery/DrawerGallery.qml:125
 msgctxt "DrawerGallery|"
 msgid "Close"
-msgstr "סגירה"
+msgstr "أغلق"
 
 #: contents/ui/gallery/DrawerGallery.qml:83
 msgctxt "DrawerGallery|"
@@ -480,8 +480,8 @@ msgid ""
 "An inline bottom drawer covers the whole application width but lets the "
 "uncovered pieces to still be interacted with."
 msgstr ""
-"מגירה תחתונה משולבת שמסתירה את כל רוחב היישום אבל מאפשרת לתפעל את החלקים "
-"שאינם מכוסים."
+"يغطّي درج سفليّ داخلي عرض التطبيق بالكامل ولكنّه يسمح بالاستمرار بالتفاعل مع "
+"الأجزاء غير المغطّاة."
 
 #: contents/ui/gallery/DrawerGallery.qml:102
 msgctxt "DrawerGallery|"
@@ -490,8 +490,8 @@ msgid ""
 "darken the rest of the app. Clicking on the darkened area will dismiss the "
 "drawer."
 msgstr ""
-"מגירה עליונה חוסמת שמשתרעת על פני כל רוחב חלון היישום ותכהה את שאר היישום. "
-"לחיצה על האזור המוכהה תסלק את המגירה."
+"سيمتدّ درج علويّ مشروط على عرض نافذة التطبيق بالكامل وسيعتم باقي التطبيق. "
+"سينبذ النقر على المنطقة المعتمة الدرج."
 
 #: contents/ui/gallery/DrawerGallery.qml:121
 msgctxt "DrawerGallery|"
@@ -499,43 +499,43 @@ msgid ""
 "An inline top drawer covers the whole application width but lets the "
 "uncovered pieces to still be interacted with."
 msgstr ""
-"מגירה עליונה משולבת שמסתירה את כל רוחב היישום אבל מאפשרת לתפעל את החלקים "
-"שאינם מכוסים."
+"يغطّي درج علويّ داخلي عرض التطبيق بالكامل ولكنّه يسمح بالاستمرار بالتفاعل مع "
+"الأجزاء غير المغطّاة."
 
 #: contents/ui/gallery/DrawerGallery.qml:136
 msgctxt "DrawerGallery|"
 msgid "Left Global Drawer"
-msgstr "מגירה מקיפה שמאלית"
+msgstr "درج عمومي أيسر"
 
 #: contents/ui/gallery/DrawerGallery.qml:141
 msgctxt "DrawerGallery|"
 msgid "Right Context Drawer"
-msgstr "מגירת הקשר ימנית"
+msgstr "درج سياقي أيمن"
 
 #: contents/ui/gallery/DrawerGallery.qml:147
 msgctxt "DrawerGallery|"
 msgid "Modal Bottom Drawer"
-msgstr "מגירה תחתונה חוסמת"
+msgstr "درج سفليّ مشروط"
 
 #: contents/ui/gallery/DrawerGallery.qml:157
 msgctxt "DrawerGallery|"
 msgid "Modal Top Drawer"
-msgstr "מגירה עליונה חוסמת"
+msgstr "درج علويّ مشروط"
 
 #: contents/ui/gallery/FormLayoutGallery.qml:69
 msgctxt "FormLayoutGallery|"
 msgid "Expanding Button"
-msgstr "כפתור מתרחב"
+msgstr "زرّ قابل للتوسيع"
 
 #: contents/ui/gallery/FormLayoutGallery.qml:118
 msgctxt "FormLayoutGallery|"
 msgid "Twin Layout:"
-msgstr "פריסת תאומים:"
+msgstr "تخطيط توأمي:"
 
 #: contents/ui/gallery/InlineMessagesGallery.qml:33
 msgctxt "InlineMessagesGallery|"
 msgid "Inline Messages"
-msgstr "הודעות פנימיות"
+msgstr "رسائل داخلية"
 
 #: contents/ui/gallery/InlineMessagesGallery.qml:48
 msgctxt "InlineMessagesGallery|"
@@ -543,8 +543,8 @@ msgid ""
 "This is an informational inline message (the default type). Use it for "
 "example to announce a result or provide commentary."
 msgstr ""
-"זאת הודעה משולבת מיידעת (סוג ברירת המחדל). אפשר להשתמש בה, למשל, כדי להכריז "
-"על תוצאה של תהליך או לספק הערות."
+"هذه رسالة داخلية معلوماتية (النوع المبدئي). استخدمها، على سبيل المثال، "
+"للإعلان عن نتيجة أو تقديم تعليق."
 
 #: contents/ui/gallery/InlineMessagesGallery.qml:58
 msgctxt "InlineMessagesGallery|"
@@ -552,8 +552,8 @@ msgid ""
 "This is a positive inline message. Use it for example to announce a "
 "successful result or the successful completion of a procedure."
 msgstr ""
-"זאת הודעה חיובית משולבת. אפשר להשתמש בה למשל כדי להכריז על תוצאה מוצלחת או "
-"לאחר שתהליך כלשהו הסתיים בהצלחה."
+"هذه رسالة داخلية إيجابية. استخدمها، على سبيل المثال، للإعلان عن نتيجة ناجحة "
+"أو عن إكمال إجرائي ناجح."
 
 #: contents/ui/gallery/InlineMessagesGallery.qml:68
 msgctxt "InlineMessagesGallery|"
@@ -561,8 +561,8 @@ msgid ""
 "This is a warning inline message. Use it for example to provide critical "
 "guidance or warn about something that is not going to work."
 msgstr ""
-"זאת הודעת אזהרה משולבת. אפשר להשתמש בה למשל כדי לספק הנחיה מהותית או להזהיר "
-"על משהו שלא הולך לעבוד כראוי."
+"هذه رسالة داخلية تحذيرية. استخدمها، على سبيل المثال، لتقديم دليل حرج أو "
+"لتحذير حول شيء لن يعمل."
 
 #: contents/ui/gallery/InlineMessagesGallery.qml:78
 msgctxt "InlineMessagesGallery|"
@@ -570,13 +570,13 @@ msgid ""
 "This is an error inline message. Use it for example to announce something "
 "has gone wrong or that input will not be accepted."
 msgstr ""
-"זאת הודעת שגיאה משולבת. אפשר להשתמש בה למשל כדי להכריז על משהו שהשתבש או "
-"שהקלט לא יתקבל."
+"هذه رسالة داخلية خطأ. استخدمها، على سبيل المثال، للإعلان عن شيء حدث فيه خطأ "
+"أو أنّ المدخلات لن تُقبل."
 
 #: contents/ui/gallery/InlineMessagesGallery.qml:92
 msgctxt "InlineMessagesGallery|"
 msgid "Inline messages can optionally have a custom icon set."
-msgstr "להודעות משובצות אפשר להגדיר סמל בהגדרתך."
+msgstr "يمكن أن تحوي رسائل داخلية على نحو اختياري مجموعة أيقونات مخصّصة."
 
 #: contents/ui/gallery/InlineMessagesGallery.qml:100
 msgctxt "InlineMessagesGallery|"
@@ -585,97 +585,100 @@ msgid ""
 "links (opens in browser): <a href=\"https://www.kde.org\">https://www.kde."
 "org/<a/>"
 msgstr ""
-"אפשר להשתמש בטקסט עשיר בהודעות משובצות ולטפל בלחיצות על קישורים לפי הצורך "
-"(נפתח בדפדפן): <a href=\"https://www.kde.org\">https://www.kde.org/<a/>"
+"يمكنك استخدام نصّ غني في رسائل داخلية وعلى نحو اختياريّ التعامل مع نقرات على "
+"روابط (يفتح في المتصفّح): <a href=\"https://www.kde.org\">https://www.kde.org/"
+"<a/>"
 
 #: contents/ui/gallery/InlineMessagesGallery.qml:112
 msgctxt "InlineMessagesGallery|"
 msgid "Inline messages can have an optional close button."
-msgstr "להודעות משולבות יכולים להיות כפתורי סגירה כרשות."
+msgstr "يمكن أن تحوي رسائل داخلية زرّ إغلاق اختياريّ."
 
 #: contents/ui/gallery/InlineMessagesGallery.qml:130
 msgctxt "InlineMessagesGallery|"
 msgid "Add text"
-msgstr "הוספת טקסט"
+msgstr "أضف نصًّا"
 
 #: contents/ui/gallery/InlineMessagesGallery.qml:140
 msgctxt "InlineMessagesGallery|"
 msgid "Reset text"
-msgstr "איפוס טקסט"
+msgstr "أعد ضبط النص"
 
 #: contents/ui/gallery/InlineMessagesGallery.qml:162
 msgctxt "InlineMessagesGallery|"
 msgid "Inline messages are initially hidden and animate when revealed. Try it!"
-msgstr "הודעות פנימיות מוסתרות בהתחלה ומונפשות בעת חשיפתן. כדאי לנסות!"
+msgstr "تُخفى الرسائل الداخلية مبدئيًّا وتُحرّك عند الكشف عنها. جرّبها!"
 
 #: contents/ui/gallery/InlineMessagesGallery.qml:171
 msgctxt "InlineMessagesGallery|"
 msgid "Show additional message"
-msgstr "הצגת הודעה נוספת"
+msgstr "اعرض رسالة إضافيّة"
 
 #: contents/ui/gallery/InlineMessagesGallery.qml:187
 msgctxt "InlineMessagesGallery|"
 msgid "Boo!"
-msgstr "בּוּ!"
+msgstr "بو!"
 
 #: contents/ui/gallery/InlineMessagesGallery.qml:191
 msgctxt "InlineMessagesGallery|"
 msgid "Shush"
-msgstr "שששששש"
+msgstr "اصمت"
 
 #: contents/ui/gallery/ListViewGallery.qml:45
 msgctxt "ListViewGallery|"
 msgid "Main Action Text"
-msgstr "טקסט פעולה ראשית"
+msgstr "نصّ الإجراء الرئيسي"
 
 #: contents/ui/gallery/ListViewGallery.qml:56
 msgctxt "ListViewGallery|"
 msgid "Footer:"
-msgstr "כותרת תחתונה:"
+msgstr "تذييل:"
 
 #: contents/ui/gallery/ListViewGallery.qml:71
 #, qt-format
 msgctxt "ListViewGallery|"
 msgid "Item in sheet %n"
 msgid_plural "Item in sheet %n"
-msgstr[0] "פריט בגיליון %n"
-msgstr[1] "פריט בגיליון %n"
-msgstr[2] "פריט בגיליון %n"
-msgstr[3] "פריט בגיליון %n"
+msgstr[0] "عنصر في الصحيفة %n"
+msgstr[1] "عنصر في الصحيفة %n"
+msgstr[2] "عنصران في الصحيفة %n"
+msgstr[3] "أشياء في الصحيفة %n"
+msgstr[4] "أشياء في الصحيفة %n"
+msgstr[5] "أشياء في الصحيفة %n"
 
 #: contents/ui/gallery/ListViewGallery.qml:128
 msgctxt "ListViewGallery|"
 msgid "Action 1"
-msgstr "פעולה 1"
+msgstr "إجراء 1"
 
 #: contents/ui/gallery/ListViewGallery.qml:129
 #: contents/ui/gallery/ListViewGallery.qml:134
 #, qt-format
 msgctxt "ListViewGallery|"
 msgid "%1: %2 clicked"
-msgstr "%1: %2 נלחץ"
+msgstr "نُقر %1: %2"
 
 #: contents/ui/gallery/ListViewGallery.qml:133
 msgctxt "ListViewGallery|"
 msgid "Action 2"
-msgstr "פעולה 2"
+msgstr "إجراء 2"
 
 #: contents/ui/gallery/ListViewGallery.qml:155
 #, qt-format
 msgctxt "ListViewGallery|"
 msgid "Item %1"
-msgstr "פריט %1"
+msgstr "عنصر %1"
 
 #: contents/ui/gallery/ListViewGallery.qml:173
 #, qt-format
 msgctxt "ListViewGallery|"
 msgid "Section %1"
-msgstr "סעיף %1"
+msgstr "قسم %1"
 
 #: contents/ui/gallery/MetricsGallery.qml:50
 msgctxt "MetricsGallery|"
 msgid "Heading 1"
-msgstr "כותרת עליונה 1"
+msgstr "عنوان 1"
 
 #: contents/ui/gallery/MetricsGallery.qml:55
 #: contents/ui/gallery/MetricsGallery.qml:65
@@ -684,71 +687,71 @@ msgstr "כותרת עליונה 1"
 #, qt-format
 msgctxt "MetricsGallery|"
 msgid "%1 points"
-msgstr "%1 נקודות"
+msgstr "%1 نقطة"
 
 #: contents/ui/gallery/MetricsGallery.qml:60
 msgctxt "MetricsGallery|"
 msgid "Heading 2"
-msgstr "כותרת עליונה 2"
+msgstr "عنوان 2"
 
 #: contents/ui/gallery/MetricsGallery.qml:70
 msgctxt "MetricsGallery|"
 msgid "Heading 3"
-msgstr "כותרת עליונה 3"
+msgstr "عنوان 3"
 
 #: contents/ui/gallery/MetricsGallery.qml:80
 msgctxt "MetricsGallery|"
 msgid "Heading 4"
-msgstr "כותרת עליונה 4"
+msgstr "عنوان 4"
 
 #: contents/ui/gallery/MiscGallery.qml:79
 msgctxt "MiscGallery|"
 msgid "Text Beside Icon"
-msgstr "כיתוב לצד הסמלים"
+msgstr "نصّ بجانب أيقونة"
 
 #: contents/ui/gallery/MiscGallery.qml:94
 msgctxt "MiscGallery|"
 msgid "Text Under Icon"
-msgstr "כיתוב מתחת לסמלים"
+msgstr "نصّ أسفل أيقونة"
 
 #: contents/ui/gallery/MiscGallery.qml:109
 msgctxt "MiscGallery|"
 msgid "Text Only"
-msgstr "כיתוב בלבד"
+msgstr "نصّ فقط"
 
 #: contents/ui/gallery/MiscGallery.qml:124
 msgctxt "MiscGallery|"
 msgid "Icon Only"
-msgstr "סמל בלבד"
+msgstr "أيقونة فقط"
 
 #: contents/ui/gallery/MultipleColumnsGallery.qml:124
 msgctxt "MultipleColumnsGallery|"
 msgid "Pin page"
-msgstr "נעיצת עמוד"
+msgstr "ثبّت الصفحة"
 
 #: contents/ui/gallery/OverlaySheetGallery.qml:34
 msgctxt "OverlaySheetGallery|"
 msgid "Overlay Sheets"
-msgstr "גיליונות חופפים"
+msgstr "صحائف متراكبة"
 
 #: contents/ui/gallery/OverlaySheetGallery.qml:67
 msgctxt "OverlaySheetGallery|"
 msgid "Close"
-msgstr "סגירה"
+msgstr "أغلق"
 
 #: contents/ui/gallery/OverlaySheetGallery.qml:77
 #: contents/ui/gallery/OverlaySheetGallery.qml:145
 #: contents/ui/gallery/OverlaySheetGallery.qml:171
 msgctxt "OverlaySheetGallery|"
 msgid "Title"
-msgstr "כותרת"
+msgstr "عنوان"
 
 #: contents/ui/gallery/OverlaySheetGallery.qml:81
 #: contents/ui/gallery/OverlaySheetGallery.qml:149
 #: contents/ui/gallery/OverlaySheetGallery.qml:175
 msgctxt "OverlaySheetGallery|"
 msgid "Footer:"
-msgstr "כותרת תחתונה:"
+msgstr "تذييل:"
 
 #: contents/ui/gallery/OverlaySheetGallery.qml:92
 msgctxt "OverlaySheetGallery|"
@@ -756,8 +759,8 @@ msgid ""
 "A sheet can have optional header and footer items which will not scroll away "
 "when the sheet overflows."
 msgstr ""
-"לגיליון יכולים להיות פריטי כותרת עליונה ותחתונה כרשות שלא יצאו מהתצוגה "
-"בגלילה כשהגיליון עמוס."
+"يمكن أن تحوي صحيفة عناصر ترويسة وتذييل اختيارية لن تمرّر بعيدًا عند فيضان "
+"الصحيفة."
 
 #: contents/ui/gallery/OverlaySheetGallery.qml:111
 msgctxt "OverlaySheetGallery|"
@@ -766,9 +769,9 @@ msgid ""
 "However, if the main item sets an implicitWidth or Layout.preferredWidth, "
 "the sheet won't grow in width more than such given value."
 msgstr ""
-"גיליון יתפוס את רוחב העמוד המרבי כברירת מחדל.\n"
-"עם זאת, אם הפרטי הראשי מגדיר implicitWidth (רוחב מרומז) או Layout."
-"preferredWidth (רוחב מועדף), הגיליון לא יגדל לרוחב מעבר לערכים שצוינו."
+"ستأخذ صحيفة أقصى عرض متوفّر في الصفحة مبدئيًّا.\n"
+"على أيّ حال، إذا ضبط العنصر الرئيسي عرضًا ضمنيًا أو تخطيطًا عرضًا مفضّلًا، فلن تنمو "
+"الصحيفة في العرض أكثر من هذه القيمة المعطاة."
 
 #: contents/ui/gallery/OverlaySheetGallery.qml:132
 msgctxt "OverlaySheetGallery|"
@@ -778,30 +781,30 @@ msgid ""
 "display the sheet as an overlay on top of the whole application window.\n"
 "In this case the sheet will cover the page Action buttons too."
 msgstr ""
-"גיליון יהיה יותר מעמוד אחד כברירת מחדל, אפילו אם היישום הוא במצב רחב. שינוי "
-"הורה הגיליון ל־applicationWindow().overlay יציג את הגיליון כשכבת־על על גבי "
-"כל חלון היישום.\n"
-"במקרה שכזה הגיליון יכסה גם את כפתורי הפעולה (Action)."
+"ستكون صحيفة على صفحة واحدة مبدئيًّا، حتّى لو كان التطبيق في نمط عريض. بتغيير "
+"والد الصحيفة إلى applicationWindow().overlay، ستعرض الصحيفة كطبقة متراكبة "
+"على أعلى نافذة التطبيق بالكامل.\n"
+"في هذه الحالة، ستغطّي الصحيفة أزرار إجراءات الصفحة أيضًا."
 
 #: contents/ui/gallery/OverlaySheetGallery.qml:163
 msgctxt "OverlaySheetGallery|"
 msgid "Item in sheet "
-msgstr "פריט בגיליון "
+msgstr "عنصر في الصحيفة "
 
 #: contents/ui/gallery/OverlaySheetGallery.qml:207
 msgctxt "OverlaySheetGallery|"
 msgid "Very Long Sheet"
-msgstr "גיליון ארוך מאוד"
+msgstr "صحيفة طويلة جدًّا"
 
 #: contents/ui/gallery/SelectionControlsGallery.qml:33
 msgctxt "SelectionControlsGallery|"
 msgid "Selection Controls"
-msgstr "פקדי בחירה"
+msgstr "متحكّمات الاختيار"
 
 #: contents/ui/gallery/SelectionControlsGallery.qml:49
 msgctxt "SelectionControlsGallery|"
 msgid "Checkable List Items"
-msgstr "פריטי רשימה לסימון"
+msgstr "عناصر قائمة قابلة للفحص"
 
 #: contents/ui/gallery/SelectionControlsGallery.qml:59
 #: contents/ui/gallery/SelectionControlsGallery.qml:85
@@ -809,64 +812,64 @@ msgstr "פריטי רשימה לסימון"
 #, qt-format
 msgctxt "SelectionControlsGallery|"
 msgid "Delegate %1"
-msgstr "ייפוי כוח לטובת %1"
+msgstr "مفوّض %1"
 
 #: contents/ui/gallery/SelectionControlsGallery.qml:75
 #: contents/ui/gallery/SelectionControlsGallery.qml:101
 msgctxt "SelectionControlsGallery|"
 msgid "Radio List Items"
-msgstr "פריטי רשימת בחירות"
+msgstr "عناصر قائمة راديو"
 
 #: contents/ui/gallery/SelectionControlsGallery.qml:120
 msgctxt "SelectionControlsGallery|"
 msgid "Checkboxes"
-msgstr "תיבות סימון"
+msgstr "صناديق فحص"
 
 #: contents/ui/gallery/SelectionControlsGallery.qml:124
 #: contents/ui/gallery/SelectionControlsGallery.qml:142
 #: contents/ui/gallery/SelectionControlsGallery.qml:160
 msgctxt "SelectionControlsGallery|"
 msgid "Item selected"
-msgstr "הפריט נבחר"
+msgstr "عنصر مختار"
 
 #: contents/ui/gallery/SelectionControlsGallery.qml:128
 #: contents/ui/gallery/SelectionControlsGallery.qml:146
 #: contents/ui/gallery/SelectionControlsGallery.qml:164
 msgctxt "SelectionControlsGallery|"
 msgid "Item not selected"
-msgstr "הפריט לא נבחר"
+msgstr "عنصر غير مختار"
 
 #: contents/ui/gallery/SelectionControlsGallery.qml:132
 msgctxt "SelectionControlsGallery|"
 msgid "Checkable List View"
-msgstr "תצוגת רשימה לסימון"
+msgstr "عرض قائمة قابلة للفحص"
 
 #: contents/ui/gallery/SelectionControlsGallery.qml:138
 msgctxt "SelectionControlsGallery|"
 msgid "Radio buttons"
-msgstr "כפתורי בחירה"
+msgstr "أزرار راديو"
 
 #: contents/ui/gallery/SelectionControlsGallery.qml:151
 msgctxt "SelectionControlsGallery|"
 msgid "Radio List View"
-msgstr "תצוגת רשימת בחירות"
+msgstr "عرض قائمة راديو"
 
 #: contents/ui/gallery/SelectionControlsGallery.qml:157
 msgctxt "SelectionControlsGallery|"
 msgid "Switches"
-msgstr "מתגים"
+msgstr "مفاتيح تحويل"
 
 #: contents/ui/gallery/SelectionControlsGallery.qml:168
 msgctxt "SelectionControlsGallery|"
 msgid "Switch List View"
-msgstr "תצוגת רשימת מתגים"
+msgstr "عرض قائمة مفاتيح التحويل"
 
 #: contents/ui/MainPage.qml:37
 msgctxt "MainPage|"
 msgid "Kirigami Gallery"
-msgstr "גלריית Kirigami"
+msgstr "معرض كيريغامي"
 
 #: contents/ui/MainPage.qml:42
 msgctxt "MainPage|"
 msgid "Home"
-msgstr "בית"
+msgstr "الرئيسيّة"
