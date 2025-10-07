@@ -2,6 +2,7 @@
 <component type="desktop-application">
   <id>org.kde.kirigami2.gallery</id>
   <name>Kirigami Gallery</name>
+  <name xml:lang="ar">معرض كيريغامي</name>
   <name xml:lang="ca">Galeria del Kirigami</name>
   <name xml:lang="ca-valencia">Galeria de Kirigami</name>
   <name xml:lang="cs">Galerie Kirigami</name>
@@ -41,6 +42,7 @@
   <name xml:lang="zh-CN">Kirigami 示例展厅</name>
   <name xml:lang="zh-TW">Kirigami 畫廊</name>
   <summary>Shows examples of Kirigami components and allows you to play with them</summary>
+  <summary xml:lang="ar">يعرض أمثلة على مكونات كيريغامي ويسمح لك بالتلاعب بها</summary>
   <summary xml:lang="ca">Mostra exemples de components del Kirigami i permet jugar-hi</summary>
   <summary xml:lang="ca-valencia">Mostra exemples de components de Kirigami i permet jugar-hi</summary>
   <summary xml:lang="da">Viser eksempler på Kirigami-komponenter og lader dig lege med dem</summary>
@@ -81,6 +83,7 @@
     <p>
 	View examples of Kirigami components
       </p>
+    <p xml:lang="ar">يعرض أمثلة على مكونات كيريغامي</p>
     <p xml:lang="ca">Mostra exemples de components del Kirigami</p>
     <p xml:lang="ca-valencia">Mostra exemples de components de Kirigami</p>
     <p xml:lang="cs">Prohlížejte ukázky komponent Kirigami</p>
