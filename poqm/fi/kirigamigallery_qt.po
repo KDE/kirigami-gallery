@@ -1,8 +1,8 @@
-# SPDX-FileCopyrightText: 2020, 2022, 2023, 2024 Tommi Nieminen <translator@legisign.org>
+# SPDX-FileCopyrightText: 2020, 2022, 2023, 2024, 2025 Tommi Nieminen <translator@legisign.org>
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"PO-Revision-Date: 2024-11-06 17:28+0200\n"
+"PO-Revision-Date: 2025-07-28 10:14+0300\n"
 "Last-Translator: Tommi Nieminen <translator@legisign.org>\n"
 "Language-Team: Finnish <kde-i18n-doc@kde.org>\n"
 "Language: fi\n"
@@ -707,7 +707,7 @@ msgstr "Kiinnitä sivu"
 #: contents/ui/gallery/OverlaySheetGallery.qml:34
 msgctxt "OverlaySheetGallery|"
 msgid "Overlay Sheets"
-msgstr ""
+msgstr "Peittoarkit"
 
 #: contents/ui/gallery/OverlaySheetGallery.qml:67
 msgctxt "OverlaySheetGallery|"
@@ -734,6 +734,8 @@ msgid ""
 "A sheet can have optional header and footer items which will not scroll away "
 "when the sheet overflows."
 msgstr ""
+"Arkilla voi olla valinnaisia ylä- ja alatunnistekohteita, joita ei vieritetä "
+"pois arkin valuessa yli näytöltä."
 
 #: contents/ui/gallery/OverlaySheetGallery.qml:111
 msgctxt "OverlaySheetGallery|"
@@ -742,6 +744,9 @@ msgid ""
 "However, if the main item sets an implicitWidth or Layout.preferredWidth, "
 "the sheet won't grow in width more than such given value."
 msgstr ""
+"Oletuksena arkki vie sivun käytettävissä olevan enimmäisleveyden.\n"
+"Jos pääkohde kuitenkin asettaa implicitWidth- tai Layout.preferredWidth-"
+"ominaisuuden, arkki ei kasva leveyttä yli näiden määrittämän arvon."
 
 #: contents/ui/gallery/OverlaySheetGallery.qml:132
 msgctxt "OverlaySheetGallery|"
@@ -751,16 +756,20 @@ msgid ""
 "display the sheet as an overlay on top of the whole application window.\n"
 "In this case the sheet will cover the page Action buttons too."
 msgstr ""
+"Oletuksena arkki vie yksittäisen sivun, myös vaikka sovellus olisi leveässä "
+"tilassa. Vaihtamalla arkin emoksi applicationWindow().overlay arkki "
+"esitetään koko sovellusikkunan peittona.\n"
+"Tällöin arkki peittää sivun toimintopainikkeetkin."
 
 #: contents/ui/gallery/OverlaySheetGallery.qml:163
 msgctxt "OverlaySheetGallery|"
 msgid "Item in sheet "
-msgstr ""
+msgstr "Kohde arkilla "
 
 #: contents/ui/gallery/OverlaySheetGallery.qml:207
 msgctxt "OverlaySheetGallery|"
 msgid "Very Long Sheet"
-msgstr ""
+msgstr "Hyvin pitkä arkki"
 
 #: contents/ui/gallery/SelectionControlsGallery.qml:33
 msgctxt "SelectionControlsGallery|"
@@ -778,7 +787,7 @@ msgstr "Valittavissa olevat luettelokohdat"
 #, qt-format
 msgctxt "SelectionControlsGallery|"
 msgid "Delegate %1"
-msgstr ""
+msgstr "Delegoi %1"
 
 #: contents/ui/gallery/SelectionControlsGallery.qml:75
 #: contents/ui/gallery/SelectionControlsGallery.qml:101
