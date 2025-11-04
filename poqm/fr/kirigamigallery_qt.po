@@ -95,7 +95,7 @@ msgid ""
 msgstr ""
 "C'est une instance du type « Card » : elle peut contenir une image, un titre "
 "et une icône assignés à sa propriété groupe de bannière. Un objet « Card » "
-"peut également disposer d'objets « Actions » qui apparaîtront dans l'objet "
+"peut également disposer d'objets « Actions » qui apparaitront dans l'objet "
 "« Footer »."
 
 #: contents/ui/gallery/CardsLayoutGallery.qml:96
@@ -346,13 +346,13 @@ msgstr "Texte des sous-titres"
 #: contents/ui/gallery/DialogGallery.qml:234
 msgctxt "DialogGallery|"
 msgid "No Footer Dialog"
-msgstr "Aucune boîte de dialogue de pied de page"
+msgstr "Aucune boite de dialogue de pied de page"
 
 #: contents/ui/gallery/DialogGallery.qml:164
 msgctxt "DialogGallery|"
 msgid "This dialog has no footer buttons.<br/>It also has no close button."
 msgstr ""
-"Cette boîte de dialogue ne possède aucun bouton de pied de page.<br/>Elle ne "
+"Cette boite de dialogue ne possède aucun bouton de pied de page.<br/>Elle ne "
 "possède aussi aucun bouton de fermeture."
 
 #: contents/ui/gallery/DialogGallery.qml:172
