@@ -1,11 +1,12 @@
 # Alexander Potashev <aspotashev@gmail.com>, 2019.
 # Olesya Gerasimenko <translation-team@basealt.ru>, 2023.
+# SPDX-FileCopyrightText: 2025 Alexander Yavorsky <kekcuha@gmail.com>
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"PO-Revision-Date: 2023-01-20 17:06+0300\n"
-"Last-Translator: Olesya Gerasimenko <translation-team@basealt.ru>\n"
-"Language-Team: Basealt Translation Team\n"
+"PO-Revision-Date: 2025-11-01 10:01+0300\n"
+"Last-Translator: Alexander Yavorsky <kekcuha@gmail.com>\n"
+"Language-Team: Russian <kde-russian@lists.kde.ru>\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -13,7 +14,7 @@ msgstr ""
 "X-Qt-Contexts: true\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Lokalize 22.08.3\n"
+"X-Generator: Lokalize 25.08.2\n"
 
 #: contents/ui/gallery/CardsLayoutGallery.qml:32
 msgctxt "CardsLayoutGallery|"
@@ -241,7 +242,7 @@ msgstr "Чипсы с флажком"
 #: contents/ui/gallery/ColorsGallery.qml:31
 msgctxt "ColorsGallery|"
 msgid "Colors"
-msgstr ""
+msgstr "Цвета"
 
 #: contents/ui/gallery/components/InfoSheet.qml:52
 msgctxt "InfoSheet|"
@@ -249,22 +250,16 @@ msgid "HIG…"
 msgstr ""
 
 #: contents/ui/gallery/components/InfoSheet.qml:57
-#, fuzzy
-#| msgctxt "InfoSheet|"
-#| msgid "Source code..."
 msgctxt "InfoSheet|"
 msgid "Source code…"
-msgstr "Исходный код..."
+msgstr "Исходный код…"
 
 #: contents/ui/gallery/components/InfoSheet.qml:62
 msgctxt "InfoSheet|"
 msgid "API…"
-msgstr ""
+msgstr "API…"
 
 #: contents/ui/gallery/components/InfoSheetAction.qml:18
-#, fuzzy
-#| msgctxt "ActionToolBarGallery|"
-#| msgid "Info"
 msgctxt "InfoSheetAction|"
 msgid "Info"
 msgstr "Информация"
@@ -285,9 +280,6 @@ msgid "Cancel"
 msgstr "Отмена"
 
 #: contents/ui/gallery/DialogGallery.qml:75
-#, fuzzy
-#| msgctxt "DialogGallery|"
-#| msgid "Folder name..."
 msgctxt "DialogGallery|"
 msgid "Folder name..."
 msgstr "Название папки…"
@@ -346,7 +338,7 @@ msgstr "Выберите число"
 #: contents/ui/gallery/DialogGallery.qml:131
 msgctxt "DialogGallery|"
 msgid "Subtitle text"
-msgstr ""
+msgstr "Текст подзаголовка"
 
 #: contents/ui/gallery/DialogGallery.qml:163
 #: contents/ui/gallery/DialogGallery.qml:234
@@ -433,12 +425,9 @@ msgid "Selection Dialog"
 msgstr "Диалоговое окно выбора"
 
 #: contents/ui/gallery/DialogGallery.qml:224
-#, fuzzy
-#| msgctxt "DialogGallery|"
-#| msgid "Selection Dialog"
 msgctxt "DialogGallery|"
 msgid "Selection Dialog with subtitles"
-msgstr "Диалоговое окно выбора"
+msgstr "Диалоговое окно выбора с подзаголовком"
 
 #: contents/ui/gallery/DialogGallery.qml:229
 msgctxt "DialogGallery|"
@@ -659,12 +648,9 @@ msgstr "Цыц!"
 #: contents/ui/gallery/ListViewGallery.qml:45
 msgctxt "ListViewGallery|"
 msgid "Main Action Text"
-msgstr ""
+msgstr "Основной текст действия"
 
 #: contents/ui/gallery/ListViewGallery.qml:56
-#, fuzzy
-#| msgctxt "OverlaySheetGallery|"
-#| msgid "Footer:"
 msgctxt "ListViewGallery|"
 msgid "Footer:"
 msgstr "Нижний колонтитул:"
