@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"PO-Revision-Date: 2025-01-24 22:44+0900\n"
+"PO-Revision-Date: 2025-11-20 21:59+0900\n"
 "Last-Translator: Kisaragi Hiu <mail@kisaragi-hiu.com>\n"
 "Language-Team: Traditional Chinese <zh-l10n@lists.slat.org>\n"
 "Language: zh_TW\n"
@@ -11,7 +11,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Qt-Contexts: true\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Lokalize 25.03.70\n"
+"X-Generator: Lokalize 26.03.70\n"
 
 #: contents/ui/gallery/CardsLayoutGallery.qml:32
 msgctxt "CardsLayoutGallery|"
@@ -173,7 +173,7 @@ msgstr ""
 #: contents/ui/gallery/CardsListViewGallery.qml:32
 msgctxt "CardsListViewGallery|"
 msgid "List view of simple cards"
-msgstr "簡單卡片的列表檢視"
+msgstr "簡單卡片的清單檢視"
 
 #: contents/ui/gallery/CardsListViewGallery.qml:73
 msgctxt "CardsListViewGallery|"
@@ -220,7 +220,7 @@ msgstr "色彩"
 #: contents/ui/gallery/components/InfoSheet.qml:52
 msgctxt "InfoSheet|"
 msgid "HIG…"
-msgstr ""
+msgstr "人性化介面指南…"
 
 #: contents/ui/gallery/components/InfoSheet.qml:57
 msgctxt "InfoSheet|"
@@ -755,7 +755,7 @@ msgstr "選取控制"
 #: contents/ui/gallery/SelectionControlsGallery.qml:49
 msgctxt "SelectionControlsGallery|"
 msgid "Checkable List Items"
-msgstr ""
+msgstr "可勾選清單項目"
 
 #: contents/ui/gallery/SelectionControlsGallery.qml:59
 #: contents/ui/gallery/SelectionControlsGallery.qml:85
@@ -769,7 +769,7 @@ msgstr ""
 #: contents/ui/gallery/SelectionControlsGallery.qml:101
 msgctxt "SelectionControlsGallery|"
 msgid "Radio List Items"
-msgstr ""
+msgstr "選項清單項目"
 
 #: contents/ui/gallery/SelectionControlsGallery.qml:120
 msgctxt "SelectionControlsGallery|"
@@ -793,7 +793,7 @@ msgstr "項目未選取"
 #: contents/ui/gallery/SelectionControlsGallery.qml:132
 msgctxt "SelectionControlsGallery|"
 msgid "Checkable List View"
-msgstr ""
+msgstr "可勾選清單檢視"
 
 #: contents/ui/gallery/SelectionControlsGallery.qml:138
 msgctxt "SelectionControlsGallery|"
@@ -803,7 +803,7 @@ msgstr ""
 #: contents/ui/gallery/SelectionControlsGallery.qml:151
 msgctxt "SelectionControlsGallery|"
 msgid "Radio List View"
-msgstr ""
+msgstr "選項清單檢視"
 
 #: contents/ui/gallery/SelectionControlsGallery.qml:157
 msgctxt "SelectionControlsGallery|"
@@ -813,7 +813,7 @@ msgstr "切換"
 #: contents/ui/gallery/SelectionControlsGallery.qml:168
 msgctxt "SelectionControlsGallery|"
 msgid "Switch List View"
-msgstr ""
+msgstr "切換清單檢視"
 
 #: contents/ui/MainPage.qml:37
 msgctxt "MainPage|"
