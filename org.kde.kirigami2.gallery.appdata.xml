@@ -79,6 +79,7 @@
   <summary xml:lang="tr">Kirigami bileşenlerinden örnekler gösterir ve onlarla oynamanıza izin verir</summary>
   <summary xml:lang="uk">Показує приклади компонентів Kirigami і надає вам змогу погратися з ними</summary>
   <summary xml:lang="zh-CN">展示 Kirigami UI 框架提供的各种组件，还能直接操作界面以测试效果</summary>
+  <summary xml:lang="zh-TW">提供 Kirigami 元件範例，並讓您試試看與其互動</summary>
   <description>
     <p>View examples of Kirigami components</p>
     <p xml:lang="ar">يعرض أمثلة على مكونات كيريغامي</p>
