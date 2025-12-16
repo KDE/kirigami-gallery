@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"PO-Revision-Date: 2025-11-20 21:59+0900\n"
+"PO-Revision-Date: 2025-12-16 22:15+0900\n"
 "Last-Translator: Kisaragi Hiu <mail@kisaragi-hiu.com>\n"
 "Language-Team: Traditional Chinese <zh-l10n@lists.slat.org>\n"
 "Language: zh_TW\n"
@@ -763,7 +763,7 @@ msgstr "可勾選清單項目"
 #, qt-format
 msgctxt "SelectionControlsGallery|"
 msgid "Delegate %1"
-msgstr ""
+msgstr "委託 %1"
 
 #: contents/ui/gallery/SelectionControlsGallery.qml:75
 #: contents/ui/gallery/SelectionControlsGallery.qml:101
@@ -774,7 +774,7 @@ msgstr "選項清單項目"
 #: contents/ui/gallery/SelectionControlsGallery.qml:120
 msgctxt "SelectionControlsGallery|"
 msgid "Checkboxes"
-msgstr ""
+msgstr "勾選方塊"
 
 #: contents/ui/gallery/SelectionControlsGallery.qml:124
 #: contents/ui/gallery/SelectionControlsGallery.qml:142
@@ -798,7 +798,7 @@ msgstr "可勾選清單檢視"
 #: contents/ui/gallery/SelectionControlsGallery.qml:138
 msgctxt "SelectionControlsGallery|"
 msgid "Radio buttons"
-msgstr ""
+msgstr "單選按鈕"
 
 #: contents/ui/gallery/SelectionControlsGallery.qml:151
 msgctxt "SelectionControlsGallery|"
