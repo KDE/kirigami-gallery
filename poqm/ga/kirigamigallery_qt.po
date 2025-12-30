@@ -1,0 +1,804 @@
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Qt-Contexts: true\n"
+
+#: contents/ui/gallery/CardsLayoutGallery.qml:32
+msgctxt "CardsLayoutGallery|"
+msgid "Cards Layout"
+msgstr ""
+
+#: contents/ui/gallery/CardsLayoutGallery.qml:45
+msgctxt "CardsLayoutGallery|"
+msgid "AbstractCard"
+msgstr ""
+
+#: contents/ui/gallery/CardsLayoutGallery.qml:50
+msgctxt "CardsLayoutGallery|"
+msgid ""
+"An AbstractCard is the simplest form of card. It's just a rectangle with a "
+"shadow, which can contain any Item in it. It can also have items assigned to "
+"the Header or Footer properties. In this case a Kirigami.Heading is its "
+"header and a Label with WordWrap is the contentItem."
+msgstr ""
+
+#: contents/ui/gallery/CardsLayoutGallery.qml:58
+msgctxt "CardsLayoutGallery|"
+msgid ""
+"This is an AbstractCard with a Label with WordWrap in it and nothing else, "
+"it's the simplest form Cards can be found in.\n"
+"An AbstractCard can be clicked itself, with the usual onClicked signal "
+"handler and the showClickFeedback property can be used if the click should "
+"show any kind of visual feedback. It is recommended to set it to true if you "
+"plan to make the card reactive on any kind of click."
+msgstr ""
+
+#: contents/ui/gallery/CardsLayoutGallery.qml:60
+msgctxt "CardsLayoutGallery|"
+msgid "Card clicked"
+msgstr ""
+
+#: contents/ui/gallery/CardsLayoutGallery.qml:66
+#: contents/ui/gallery/CardsLayoutGallery.qml:88
+#: contents/ui/gallery/CardsLayoutGallery.qml:126
+#: contents/ui/gallery/CardsLayoutGallery.qml:200
+msgctxt "CardsLayoutGallery|"
+msgid "Action1"
+msgstr ""
+
+#: contents/ui/gallery/CardsLayoutGallery.qml:70
+#: contents/ui/gallery/CardsLayoutGallery.qml:92
+#: contents/ui/gallery/CardsLayoutGallery.qml:130
+#: contents/ui/gallery/CardsLayoutGallery.qml:204
+msgctxt "CardsLayoutGallery|"
+msgid "Action2"
+msgstr ""
+
+#: contents/ui/gallery/CardsLayoutGallery.qml:76
+msgctxt "CardsLayoutGallery|"
+msgid "Card"
+msgstr ""
+
+#: contents/ui/gallery/CardsLayoutGallery.qml:80
+msgctxt "CardsLayoutGallery|"
+msgid ""
+"This is an instance of the Card type: it can optionally have an image, a "
+"title and an icon assigned to its banner group property, one or all of the "
+"properties together. A Card can also have Actions that will appear in the "
+"footer."
+msgstr ""
+
+#: contents/ui/gallery/CardsLayoutGallery.qml:96
+msgctxt "CardsLayoutGallery|"
+msgid "Action3"
+msgstr ""
+
+#: contents/ui/gallery/CardsLayoutGallery.qml:100
+msgctxt "CardsLayoutGallery|"
+msgid "Action4"
+msgstr ""
+
+#: contents/ui/gallery/CardsLayoutGallery.qml:104
+msgctxt "CardsLayoutGallery|"
+msgid "Action5"
+msgstr ""
+
+#: contents/ui/gallery/CardsLayoutGallery.qml:108
+msgctxt "CardsLayoutGallery|"
+msgid "Action6"
+msgstr ""
+
+#: contents/ui/gallery/CardsLayoutGallery.qml:119
+msgctxt "CardsLayoutGallery|"
+msgid ""
+"The title can be aligned to all corners or centered with a combination of Qt."
+"Alignment flags.\n"
+" When there are too many actions, they go in an overflow menu."
+msgstr ""
+
+#: contents/ui/gallery/CardsLayoutGallery.qml:134
+msgctxt "CardsLayoutGallery|"
+msgid "Action always hidden"
+msgstr ""
+
+#: contents/ui/gallery/CardsLayoutGallery.qml:145
+msgctxt "CardsLayoutGallery|"
+msgid ""
+"The Banner can contain only the title and/or an icon, even if there is no "
+"banner image."
+msgstr ""
+
+#: contents/ui/gallery/CardsLayoutGallery.qml:168
+msgctxt "CardsLayoutGallery|"
+msgid ""
+"It's possible to have custom contents overlapping the image, for cases where "
+"a more personalized design is needed."
+msgstr ""
+
+#: contents/ui/gallery/CardsLayoutGallery.qml:183
+msgctxt "CardsLayoutGallery|"
+msgid ""
+"It's possible to customize the look and feel for Cards too, if the no "
+"padding behavior for headers is needed. This is usually discouraged in order "
+"to have greater consistency, but in some cases the design requires a more "
+"fancy layout, as shown in this example of a Card. If a custom header is "
+"used, the title and icon in the banner property shouldn't be used. If a "
+"custom footer is used (which is discouraged), actions shouldn't be used."
+msgstr ""
+
+#: contents/ui/gallery/CardsLayoutGallery.qml:188
+msgctxt "CardsLayoutGallery|"
+msgid "Custom footer"
+msgstr ""
+
+#: contents/ui/gallery/CardsLayoutGallery.qml:191
+msgctxt "CardsLayoutGallery|"
+msgid "Ok"
+msgstr ""
+
+#: contents/ui/gallery/CardsLayoutGallery.qml:214
+msgctxt "CardsLayoutGallery|"
+msgid ""
+"A card can optionally have horizontal orientation.\n"
+" In this case will be wider than tall, so is fit to be used also in a "
+"ColumnLayout.\n"
+"If you need to put it in a CardsLayout, it will have by default a columnSpan "
+"of 2 (which can be overridden)."
+msgstr ""
+
+#: contents/ui/gallery/CardsListViewGallery.qml:32
+msgctxt "CardsListViewGallery|"
+msgid "List view of simple cards"
+msgstr ""
+
+#: contents/ui/gallery/CardsListViewGallery.qml:73
+msgctxt "CardsListViewGallery|"
+msgid "Product "
+msgstr ""
+
+#: contents/ui/gallery/CardsListViewGallery.qml:81
+msgctxt "CardsListViewGallery|"
+msgid ""
+"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id risus id "
+"augue euismod accumsan."
+msgstr ""
+
+#: contents/ui/gallery/CardsListViewGallery.qml:87
+msgctxt "CardsListViewGallery|"
+msgid "Install"
+msgstr ""
+
+#: contents/ui/gallery/ChipGallery.qml:33
+msgctxt "ChipGallery|"
+msgid "Chips"
+msgstr ""
+
+#: contents/ui/gallery/ChipGallery.qml:48
+msgctxt "ChipGallery|"
+msgid "Closable Chips"
+msgstr ""
+
+#: contents/ui/gallery/ChipGallery.qml:81
+msgctxt "ChipGallery|"
+msgid "Informative Chips"
+msgstr ""
+
+#: contents/ui/gallery/ChipGallery.qml:120
+msgctxt "ChipGallery|"
+msgid "Checkable Chips"
+msgstr ""
+
+#: contents/ui/gallery/ColorsGallery.qml:31
+msgctxt "ColorsGallery|"
+msgid "Colors"
+msgstr ""
+
+#: contents/ui/gallery/components/InfoSheet.qml:52
+msgctxt "InfoSheet|"
+msgid "HIG…"
+msgstr ""
+
+#: contents/ui/gallery/components/InfoSheet.qml:57
+msgctxt "InfoSheet|"
+msgid "Source code…"
+msgstr ""
+
+#: contents/ui/gallery/components/InfoSheet.qml:62
+msgctxt "InfoSheet|"
+msgid "API…"
+msgstr ""
+
+#: contents/ui/gallery/components/InfoSheetAction.qml:18
+msgctxt "InfoSheetAction|"
+msgid "Info"
+msgstr ""
+
+#: contents/ui/gallery/DialogGallery.qml:34
+msgctxt "DialogGallery|"
+msgid "Dialogs"
+msgstr ""
+
+#: contents/ui/gallery/DialogGallery.qml:58
+msgctxt "DialogGallery|"
+msgid "Create Folder"
+msgstr ""
+
+#: contents/ui/gallery/DialogGallery.qml:66
+msgctxt "DialogGallery|"
+msgid "Cancel"
+msgstr ""
+
+#: contents/ui/gallery/DialogGallery.qml:75
+msgctxt "DialogGallery|"
+msgid "Folder name..."
+msgstr ""
+
+#: contents/ui/gallery/DialogGallery.qml:81
+msgctxt "DialogGallery|"
+msgid "Alarm Snooze Length"
+msgstr ""
+
+#: contents/ui/gallery/DialogGallery.qml:90
+msgctxt "DialogGallery|"
+msgid "1 minute"
+msgstr ""
+
+#: contents/ui/gallery/DialogGallery.qml:91
+msgctxt "DialogGallery|"
+msgid "2 minutes"
+msgstr ""
+
+#: contents/ui/gallery/DialogGallery.qml:92
+msgctxt "DialogGallery|"
+msgid "3 minutes"
+msgstr ""
+
+#: contents/ui/gallery/DialogGallery.qml:93
+msgctxt "DialogGallery|"
+msgid "4 minutes"
+msgstr ""
+
+#: contents/ui/gallery/DialogGallery.qml:94
+msgctxt "DialogGallery|"
+msgid "5 minutes"
+msgstr ""
+
+#: contents/ui/gallery/DialogGallery.qml:95
+msgctxt "DialogGallery|"
+msgid "10 minutes"
+msgstr ""
+
+#: contents/ui/gallery/DialogGallery.qml:96
+msgctxt "DialogGallery|"
+msgid "30 minutes"
+msgstr ""
+
+#: contents/ui/gallery/DialogGallery.qml:97
+msgctxt "DialogGallery|"
+msgid "1 hour"
+msgstr ""
+
+#: contents/ui/gallery/DialogGallery.qml:122
+#: contents/ui/gallery/DialogGallery.qml:141
+msgctxt "DialogGallery|"
+msgid "Select Number"
+msgstr ""
+
+#: contents/ui/gallery/DialogGallery.qml:131
+msgctxt "DialogGallery|"
+msgid "Subtitle text"
+msgstr ""
+
+#: contents/ui/gallery/DialogGallery.qml:163
+#: contents/ui/gallery/DialogGallery.qml:234
+msgctxt "DialogGallery|"
+msgid "No Footer Dialog"
+msgstr ""
+
+#: contents/ui/gallery/DialogGallery.qml:164
+msgctxt "DialogGallery|"
+msgid "This dialog has no footer buttons.<br/>It also has no close button."
+msgstr ""
+
+#: contents/ui/gallery/DialogGallery.qml:172
+msgctxt "DialogGallery|"
+msgid "Track Options"
+msgstr ""
+
+#: contents/ui/gallery/DialogGallery.qml:177
+msgctxt "DialogGallery|Start playback of the selected track"
+msgid "Play"
+msgstr ""
+
+#: contents/ui/gallery/DialogGallery.qml:178
+msgctxt "DialogGallery|"
+msgid "Start playback of the selected track"
+msgstr ""
+
+#: contents/ui/gallery/DialogGallery.qml:183
+msgctxt "DialogGallery|Show the file for this song in the file manager"
+msgid "Show in folder"
+msgstr ""
+
+#: contents/ui/gallery/DialogGallery.qml:184
+msgctxt "DialogGallery|"
+msgid "Show the file for this song in the file manager"
+msgstr ""
+
+#: contents/ui/gallery/DialogGallery.qml:188
+msgctxt "DialogGallery|Show track metadata"
+msgid "View details"
+msgstr ""
+
+#: contents/ui/gallery/DialogGallery.qml:189
+msgctxt "DialogGallery|"
+msgid "Show track metadata"
+msgstr ""
+
+#: contents/ui/gallery/DialogGallery.qml:193
+msgctxt ""
+"DialogGallery|Add the track to the queue, right after the current track"
+msgid "Play next"
+msgstr ""
+
+#: contents/ui/gallery/DialogGallery.qml:194
+msgctxt "DialogGallery|"
+msgid "Add the track to the queue, right after the current track"
+msgstr ""
+
+#: contents/ui/gallery/DialogGallery.qml:198
+msgctxt "DialogGallery|Enqueue current track"
+msgid "Add to queue"
+msgstr ""
+
+#: contents/ui/gallery/DialogGallery.qml:199
+msgctxt "DialogGallery|"
+msgid "Enqueue current track"
+msgstr ""
+
+#: contents/ui/gallery/DialogGallery.qml:209
+msgctxt "DialogGallery|"
+msgid "Prompt Dialog"
+msgstr ""
+
+#: contents/ui/gallery/DialogGallery.qml:214
+msgctxt "DialogGallery|"
+msgid "Text Prompt Dialog"
+msgstr ""
+
+#: contents/ui/gallery/DialogGallery.qml:219
+msgctxt "DialogGallery|"
+msgid "Selection Dialog"
+msgstr ""
+
+#: contents/ui/gallery/DialogGallery.qml:224
+msgctxt "DialogGallery|"
+msgid "Selection Dialog with subtitles"
+msgstr ""
+
+#: contents/ui/gallery/DialogGallery.qml:229
+msgctxt "DialogGallery|"
+msgid "Scrollable Dialog"
+msgstr ""
+
+#: contents/ui/gallery/DialogGallery.qml:239
+msgctxt "DialogGallery|"
+msgid "Menu Dialog"
+msgstr ""
+
+#: contents/ui/gallery/DrawerGallery.qml:32
+msgctxt "DrawerGallery|"
+msgid "Drawers"
+msgstr ""
+
+#: contents/ui/gallery/DrawerGallery.qml:40
+msgctxt "DrawerGallery|"
+msgid "Action 1"
+msgstr ""
+
+#: contents/ui/gallery/DrawerGallery.qml:42
+msgctxt "DrawerGallery|"
+msgid "Action 1 clicked"
+msgstr ""
+
+#: contents/ui/gallery/DrawerGallery.qml:45
+msgctxt "DrawerGallery|"
+msgid "Disabled Action"
+msgstr ""
+
+#: contents/ui/gallery/DrawerGallery.qml:50
+msgctxt "DrawerGallery|"
+msgid "Action 3"
+msgstr ""
+
+#: contents/ui/gallery/DrawerGallery.qml:51
+msgctxt "DrawerGallery|"
+msgid "Action 3 clicked"
+msgstr ""
+
+#: contents/ui/gallery/DrawerGallery.qml:64
+msgctxt "DrawerGallery|"
+msgid ""
+"A modal bottom drawer will span for the whole application window width and "
+"will darken the rest of the app. Clicking on a darkened will dismiss the "
+"drawer."
+msgstr ""
+
+#: contents/ui/gallery/DrawerGallery.qml:68
+#: contents/ui/gallery/DrawerGallery.qml:87
+#: contents/ui/gallery/DrawerGallery.qml:106
+#: contents/ui/gallery/DrawerGallery.qml:125
+msgctxt "DrawerGallery|"
+msgid "Close"
+msgstr ""
+
+#: contents/ui/gallery/DrawerGallery.qml:83
+msgctxt "DrawerGallery|"
+msgid ""
+"An inline bottom drawer covers the whole application width but lets the "
+"uncovered pieces to still be interacted with."
+msgstr ""
+
+#: contents/ui/gallery/DrawerGallery.qml:102
+msgctxt "DrawerGallery|"
+msgid ""
+"A modal top drawer will span for the whole application window width and will "
+"darken the rest of the app. Clicking on the darkened area will dismiss the "
+"drawer."
+msgstr ""
+
+#: contents/ui/gallery/DrawerGallery.qml:121
+msgctxt "DrawerGallery|"
+msgid ""
+"An inline top drawer covers the whole application width but lets the "
+"uncovered pieces to still be interacted with."
+msgstr ""
+
+#: contents/ui/gallery/DrawerGallery.qml:136
+msgctxt "DrawerGallery|"
+msgid "Left Global Drawer"
+msgstr ""
+
+#: contents/ui/gallery/DrawerGallery.qml:141
+msgctxt "DrawerGallery|"
+msgid "Right Context Drawer"
+msgstr ""
+
+#: contents/ui/gallery/DrawerGallery.qml:147
+msgctxt "DrawerGallery|"
+msgid "Modal Bottom Drawer"
+msgstr ""
+
+#: contents/ui/gallery/DrawerGallery.qml:157
+msgctxt "DrawerGallery|"
+msgid "Modal Top Drawer"
+msgstr ""
+
+#: contents/ui/gallery/FormLayoutGallery.qml:69
+msgctxt "FormLayoutGallery|"
+msgid "Expanding Button"
+msgstr ""
+
+#: contents/ui/gallery/FormLayoutGallery.qml:118
+msgctxt "FormLayoutGallery|"
+msgid "Twin Layout:"
+msgstr ""
+
+#: contents/ui/gallery/InlineMessagesGallery.qml:33
+msgctxt "InlineMessagesGallery|"
+msgid "Inline Messages"
+msgstr ""
+
+#: contents/ui/gallery/InlineMessagesGallery.qml:48
+msgctxt "InlineMessagesGallery|"
+msgid ""
+"This is an informational inline message (the default type). Use it for "
+"example to announce a result or provide commentary."
+msgstr ""
+
+#: contents/ui/gallery/InlineMessagesGallery.qml:58
+msgctxt "InlineMessagesGallery|"
+msgid ""
+"This is a positive inline message. Use it for example to announce a "
+"successful result or the successful completion of a procedure."
+msgstr ""
+
+#: contents/ui/gallery/InlineMessagesGallery.qml:68
+msgctxt "InlineMessagesGallery|"
+msgid ""
+"This is a warning inline message. Use it for example to provide critical "
+"guidance or warn about something that is not going to work."
+msgstr ""
+
+#: contents/ui/gallery/InlineMessagesGallery.qml:78
+msgctxt "InlineMessagesGallery|"
+msgid ""
+"This is an error inline message. Use it for example to announce something "
+"has gone wrong or that input will not be accepted."
+msgstr ""
+
+#: contents/ui/gallery/InlineMessagesGallery.qml:92
+msgctxt "InlineMessagesGallery|"
+msgid "Inline messages can optionally have a custom icon set."
+msgstr ""
+
+#: contents/ui/gallery/InlineMessagesGallery.qml:100
+msgctxt "InlineMessagesGallery|"
+msgid ""
+"You can use rich text in inline messages and optionally handle clicks on "
+"links (opens in browser): <a href=\"https://www.kde.org\">https://www.kde."
+"org/<a/>"
+msgstr ""
+
+#: contents/ui/gallery/InlineMessagesGallery.qml:112
+msgctxt "InlineMessagesGallery|"
+msgid "Inline messages can have an optional close button."
+msgstr ""
+
+#: contents/ui/gallery/InlineMessagesGallery.qml:130
+msgctxt "InlineMessagesGallery|"
+msgid "Add text"
+msgstr ""
+
+#: contents/ui/gallery/InlineMessagesGallery.qml:140
+msgctxt "InlineMessagesGallery|"
+msgid "Reset text"
+msgstr ""
+
+#: contents/ui/gallery/InlineMessagesGallery.qml:162
+msgctxt "InlineMessagesGallery|"
+msgid "Inline messages are initially hidden and animate when revealed. Try it!"
+msgstr ""
+
+#: contents/ui/gallery/InlineMessagesGallery.qml:171
+msgctxt "InlineMessagesGallery|"
+msgid "Show additional message"
+msgstr ""
+
+#: contents/ui/gallery/InlineMessagesGallery.qml:187
+msgctxt "InlineMessagesGallery|"
+msgid "Boo!"
+msgstr ""
+
+#: contents/ui/gallery/InlineMessagesGallery.qml:191
+msgctxt "InlineMessagesGallery|"
+msgid "Shush"
+msgstr ""
+
+#: contents/ui/gallery/ListViewGallery.qml:45
+msgctxt "ListViewGallery|"
+msgid "Main Action Text"
+msgstr ""
+
+#: contents/ui/gallery/ListViewGallery.qml:56
+msgctxt "ListViewGallery|"
+msgid "Footer:"
+msgstr ""
+
+#: contents/ui/gallery/ListViewGallery.qml:71
+#, qt-format
+msgctxt "ListViewGallery|"
+msgid "Item in sheet %n"
+msgid_plural "Item in sheet %n"
+msgstr[0] ""
+
+#: contents/ui/gallery/ListViewGallery.qml:128
+msgctxt "ListViewGallery|"
+msgid "Action 1"
+msgstr ""
+
+#: contents/ui/gallery/ListViewGallery.qml:129
+#: contents/ui/gallery/ListViewGallery.qml:134
+#, qt-format
+msgctxt "ListViewGallery|"
+msgid "%1: %2 clicked"
+msgstr ""
+
+#: contents/ui/gallery/ListViewGallery.qml:133
+msgctxt "ListViewGallery|"
+msgid "Action 2"
+msgstr ""
+
+#: contents/ui/gallery/ListViewGallery.qml:155
+#, qt-format
+msgctxt "ListViewGallery|"
+msgid "Item %1"
+msgstr ""
+
+#: contents/ui/gallery/ListViewGallery.qml:173
+#, qt-format
+msgctxt "ListViewGallery|"
+msgid "Section %1"
+msgstr ""
+
+#: contents/ui/gallery/MetricsGallery.qml:50
+msgctxt "MetricsGallery|"
+msgid "Heading 1"
+msgstr ""
+
+#: contents/ui/gallery/MetricsGallery.qml:55
+#: contents/ui/gallery/MetricsGallery.qml:65
+#: contents/ui/gallery/MetricsGallery.qml:75
+#: contents/ui/gallery/MetricsGallery.qml:85
+#, qt-format
+msgctxt "MetricsGallery|"
+msgid "%1 points"
+msgstr ""
+
+#: contents/ui/gallery/MetricsGallery.qml:60
+msgctxt "MetricsGallery|"
+msgid "Heading 2"
+msgstr ""
+
+#: contents/ui/gallery/MetricsGallery.qml:70
+msgctxt "MetricsGallery|"
+msgid "Heading 3"
+msgstr ""
+
+#: contents/ui/gallery/MetricsGallery.qml:80
+msgctxt "MetricsGallery|"
+msgid "Heading 4"
+msgstr ""
+
+#: contents/ui/gallery/MiscGallery.qml:79
+msgctxt "MiscGallery|"
+msgid "Text Beside Icon"
+msgstr ""
+
+#: contents/ui/gallery/MiscGallery.qml:94
+msgctxt "MiscGallery|"
+msgid "Text Under Icon"
+msgstr ""
+
+#: contents/ui/gallery/MiscGallery.qml:109
+msgctxt "MiscGallery|"
+msgid "Text Only"
+msgstr ""
+
+#: contents/ui/gallery/MiscGallery.qml:124
+msgctxt "MiscGallery|"
+msgid "Icon Only"
+msgstr ""
+
+#: contents/ui/gallery/MultipleColumnsGallery.qml:124
+msgctxt "MultipleColumnsGallery|"
+msgid "Pin page"
+msgstr ""
+
+#: contents/ui/gallery/OverlaySheetGallery.qml:34
+msgctxt "OverlaySheetGallery|"
+msgid "Overlay Sheets"
+msgstr ""
+
+#: contents/ui/gallery/OverlaySheetGallery.qml:67
+msgctxt "OverlaySheetGallery|"
+msgid "Close"
+msgstr ""
+
+#: contents/ui/gallery/OverlaySheetGallery.qml:77
+#: contents/ui/gallery/OverlaySheetGallery.qml:145
+#: contents/ui/gallery/OverlaySheetGallery.qml:171
+msgctxt "OverlaySheetGallery|"
+msgid "Title"
+msgstr ""
+
+#: contents/ui/gallery/OverlaySheetGallery.qml:81
+#: contents/ui/gallery/OverlaySheetGallery.qml:149
+#: contents/ui/gallery/OverlaySheetGallery.qml:175
+msgctxt "OverlaySheetGallery|"
+msgid "Footer:"
+msgstr ""
+
+#: contents/ui/gallery/OverlaySheetGallery.qml:92
+msgctxt "OverlaySheetGallery|"
+msgid ""
+"A sheet can have optional header and footer items which will not scroll away "
+"when the sheet overflows."
+msgstr ""
+
+#: contents/ui/gallery/OverlaySheetGallery.qml:111
+msgctxt "OverlaySheetGallery|"
+msgid ""
+"A sheet will take the maximum available width in the page by default.\n"
+"However, if the main item sets an implicitWidth or Layout.preferredWidth, "
+"the sheet won't grow in width more than such given value."
+msgstr ""
+
+#: contents/ui/gallery/OverlaySheetGallery.qml:132
+msgctxt "OverlaySheetGallery|"
+msgid ""
+"A sheet by default will be over a single page, even if the app is in wide "
+"mode. By changing the sheet parent to applicationWindow().overlay it will "
+"display the sheet as an overlay on top of the whole application window.\n"
+"In this case the sheet will cover the page Action buttons too."
+msgstr ""
+
+#: contents/ui/gallery/OverlaySheetGallery.qml:163
+msgctxt "OverlaySheetGallery|"
+msgid "Item in sheet "
+msgstr ""
+
+#: contents/ui/gallery/OverlaySheetGallery.qml:207
+msgctxt "OverlaySheetGallery|"
+msgid "Very Long Sheet"
+msgstr ""
+
+#: contents/ui/gallery/SelectionControlsGallery.qml:33
+msgctxt "SelectionControlsGallery|"
+msgid "Selection Controls"
+msgstr ""
+
+#: contents/ui/gallery/SelectionControlsGallery.qml:49
+msgctxt "SelectionControlsGallery|"
+msgid "Checkable List Items"
+msgstr ""
+
+#: contents/ui/gallery/SelectionControlsGallery.qml:59
+#: contents/ui/gallery/SelectionControlsGallery.qml:85
+#: contents/ui/gallery/SelectionControlsGallery.qml:111
+#, qt-format
+msgctxt "SelectionControlsGallery|"
+msgid "Delegate %1"
+msgstr ""
+
+#: contents/ui/gallery/SelectionControlsGallery.qml:75
+#: contents/ui/gallery/SelectionControlsGallery.qml:101
+msgctxt "SelectionControlsGallery|"
+msgid "Radio List Items"
+msgstr ""
+
+#: contents/ui/gallery/SelectionControlsGallery.qml:120
+msgctxt "SelectionControlsGallery|"
+msgid "Checkboxes"
+msgstr ""
+
+#: contents/ui/gallery/SelectionControlsGallery.qml:124
+#: contents/ui/gallery/SelectionControlsGallery.qml:142
+#: contents/ui/gallery/SelectionControlsGallery.qml:160
+msgctxt "SelectionControlsGallery|"
+msgid "Item selected"
+msgstr ""
+
+#: contents/ui/gallery/SelectionControlsGallery.qml:128
+#: contents/ui/gallery/SelectionControlsGallery.qml:146
+#: contents/ui/gallery/SelectionControlsGallery.qml:164
+msgctxt "SelectionControlsGallery|"
+msgid "Item not selected"
+msgstr ""
+
+#: contents/ui/gallery/SelectionControlsGallery.qml:132
+msgctxt "SelectionControlsGallery|"
+msgid "Checkable List View"
+msgstr ""
+
+#: contents/ui/gallery/SelectionControlsGallery.qml:138
+msgctxt "SelectionControlsGallery|"
+msgid "Radio buttons"
+msgstr ""
+
+#: contents/ui/gallery/SelectionControlsGallery.qml:151
+msgctxt "SelectionControlsGallery|"
+msgid "Radio List View"
+msgstr ""
+
+#: contents/ui/gallery/SelectionControlsGallery.qml:157
+msgctxt "SelectionControlsGallery|"
+msgid "Switches"
+msgstr ""
+
+#: contents/ui/gallery/SelectionControlsGallery.qml:168
+msgctxt "SelectionControlsGallery|"
+msgid "Switch List View"
+msgstr ""
+
+#: contents/ui/MainPage.qml:37
+msgctxt "MainPage|"
+msgid "Kirigami Gallery"
+msgstr ""
+
+#: contents/ui/MainPage.qml:42
+msgctxt "MainPage|"
+msgid "Home"
+msgstr ""
