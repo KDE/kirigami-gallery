@@ -171,32 +171,87 @@ Kirigami.ScrollablePage {
         id: menuDialog
         title: qsTr("Track Options")
 
+        contentHeaderControl: Rectangle {
+            height: 50
+            color: "green"
+        }
+
+        QQC2.ButtonGroup {
+            id: radioGroup
+        }
+
         actions: [
             Kirigami.Action {
-                icon.name: "media-playback-start"
-                text: qsTr("Play", "Start playback of the selected track")
-                tooltip: qsTr("Start playback of the selected track")
+                icon.name: "checkmark"
+                text: qsTr("A normal action")
+                tooltip: qsTr("A normal action")
             },
             Kirigami.Action {
                 enabled: false
-                icon.name: "document-open-folder"
-                text: qsTr("Show in folder", "Show the file for this song in the file manager")
-                tooltip: qsTr("Show the file for this song in the file manager")
+                icon.name: "action-unavailable-symbolic"
+                text: qsTr("A disabled action")
+                tooltip: qsTr("A disabled action")
             },
             Kirigami.Action {
-                icon.name: "documentinfo"
-                text: qsTr("View details", "Show track metadata")
-                tooltip: qsTr("Show track metadata")
+                separator: true
+            },
+            Kirigami.Action {
+                QQC2.ButtonGroup.group: radioGroup
+                checked: true
+                checkable: true
+                autoExclusive: true
+                text: qsTr("Radio 1", "The first radio button")
+                tooltip: qsTr("Radio 1")
+            },
+            Kirigami.Action {
+                QQC2.ButtonGroup.group: radioGroup
+                checkable: true
+                autoExclusive: true
+                text: qsTr("Radio 2", "The second radio button")
+                tooltip: qsTr("Radio 2")
+            },
+            Kirigami.Action {
+                QQC2.ButtonGroup.group: radioGroup
+                checkable: true
+                autoExclusive: true
+                text: qsTr("Radio 3", "The third radio button")
+                tooltip: qsTr("Radio 3")
+            },
+            Kirigami.Action {
+                checkable: true
+                text: qsTr("Check button", "An example checkable button")
+                tooltip: qsTr("Check button")
+            },
+            Kirigami.Action {
+                displayComponent: QQC2.Label {
+                    leftPadding: Kirigami.Units.smallSpacing
+                    rightPadding: Kirigami.Units.smallSpacing
+                    text: qsTr("This is a custom displayComponent component from the action with a red background")
+                    wrapMode: Text.Wrap
+                    background: Rectangle {
+                        color: "red"
+                    }
+                }
+            },
+            Kirigami.Action {
+                separator: true
             },
             Kirigami.Action {
                 icon.name: "list-add"
-                text: qsTr("Play next", "Add the track to the queue, right after the current track")
-                tooltip: qsTr("Add the track to the queue, right after the current track")
-            },
-            Kirigami.Action {
-                icon.name: "list-add"
-                text: qsTr("Add to queue", "Enqueue current track")
-                tooltip: qsTr("Enqueue current track")
+                text: qsTr("With Children", "I.e. an example where the item has child items")
+                tooltip: qsTr("With Children")
+                children: [
+                    Kirigami.Action {
+                        icon.name: "user"
+                        text: qsTr("Child 1")
+                        tooltip: qsTr("Child 1")
+                    },
+                    Kirigami.Action {
+                        icon.name: "user"
+                        text: qsTr("Child 2")
+                        tooltip: qsTr("Child 2")
+                    }
+                ]
             }
         ]
     }
