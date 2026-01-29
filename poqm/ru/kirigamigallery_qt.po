@@ -1,11 +1,11 @@
 # Alexander Potashev <aspotashev@gmail.com>, 2019.
 # Olesya Gerasimenko <translation-team@basealt.ru>, 2023.
-# SPDX-FileCopyrightText: 2025 Alexander Yavorsky <kekcuha@gmail.com>
+# SPDX-FileCopyrightText: 2025, 2026 Alexander Yavorsky <kekcuha@gmail.com>
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"PO-Revision-Date: 2025-11-01 10:01+0300\n"
-"Last-Translator: Alexander Yavorsky <kekcuha@gmail.com>\n"
+"PO-Revision-Date: 2026-01-28 20:12+0200\n"
+"Last-Translator: Alexander Yavorskiy <kekcuha@gmail.com>\n"
 "Language-Team: Russian <kde-russian@lists.kde.ru>\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
@@ -14,7 +14,7 @@ msgstr ""
 "X-Qt-Contexts: true\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Lokalize 25.08.2\n"
+"X-Generator: Lokalize 25.12.1\n"
 
 #: contents/ui/gallery/CardsLayoutGallery.qml:32
 msgctxt "CardsLayoutGallery|"
@@ -247,7 +247,7 @@ msgstr "Цвета"
 #: contents/ui/gallery/components/InfoSheet.qml:52
 msgctxt "InfoSheet|"
 msgid "HIG…"
-msgstr ""
+msgstr "HIG…"
 
 #: contents/ui/gallery/components/InfoSheet.qml:57
 msgctxt "InfoSheet|"
@@ -656,54 +656,42 @@ msgid "Footer:"
 msgstr "Нижний колонтитул:"
 
 #: contents/ui/gallery/ListViewGallery.qml:71
-#, fuzzy, qt-format
-#| msgctxt "OverlaySheetGallery|"
-#| msgid "Item in sheet "
+#, qt-format
 msgctxt "ListViewGallery|"
 msgid "Item in sheet %n"
 msgid_plural "Item in sheet %n"
-msgstr[0] "Элемент на листе "
-msgstr[1] "Элемент на листе "
-msgstr[2] "Элемент на листе "
+msgstr[0] "Элемент на листе %n"
+msgstr[1] "Элемент на листе %n"
+msgstr[2] "Элемент на листе %n"
 
 #: contents/ui/gallery/ListViewGallery.qml:128
-#, fuzzy
-#| msgctxt "DrawerGallery|"
-#| msgid "Action 1"
 msgctxt "ListViewGallery|"
 msgid "Action 1"
 msgstr "Действие 1"
 
 #: contents/ui/gallery/ListViewGallery.qml:129
 #: contents/ui/gallery/ListViewGallery.qml:134
-#, fuzzy, qt-format
-#| msgctxt "CardsLayoutGallery|"
-#| msgid "Card clicked"
+#, qt-format
 msgctxt "ListViewGallery|"
 msgid "%1: %2 clicked"
-msgstr "Карточка нажата"
+msgstr "%1: нажат элемент %2"
 
 #: contents/ui/gallery/ListViewGallery.qml:133
-#, fuzzy
-#| msgctxt "CardsLayoutGallery|"
-#| msgid "Action2"
 msgctxt "ListViewGallery|"
 msgid "Action 2"
-msgstr "Действие2"
+msgstr "Действие 2"
 
 #: contents/ui/gallery/ListViewGallery.qml:155
 #, qt-format
 msgctxt "ListViewGallery|"
 msgid "Item %1"
-msgstr ""
+msgstr "Элемент %1"
 
 #: contents/ui/gallery/ListViewGallery.qml:173
-#, fuzzy, qt-format
-#| msgctxt "DrawerGallery|"
-#| msgid "Action 1"
+#, qt-format
 msgctxt "ListViewGallery|"
 msgid "Section %1"
-msgstr "Действие 1"
+msgstr "Раздел %1"
 
 #: contents/ui/gallery/MetricsGallery.qml:50
 msgctxt "MetricsGallery|"
@@ -903,7 +891,7 @@ msgstr "Галерея Kirigami"
 #: contents/ui/MainPage.qml:42
 msgctxt "MainPage|"
 msgid "Home"
-msgstr ""
+msgstr "Главная"
 
 #~ msgctxt "CardsLayoutGallery|"
 #~ msgid "Info"
