@@ -174,11 +174,14 @@ msgid ""
 "If you need to put it in a CardsLayout, it will have by default a columnSpan "
 "of 2 (which can be overridden)."
 msgstr ""
+"卡片可选择水平方向。\n"
+" 在这种情况下将大于高度，所以也适合在列布局使用。\n"
+"如果您需要将其放置在卡片布局中，它将默认有一个 2 列(可覆盖)。"
 
 #: contents/ui/gallery/CardsListViewGallery.qml:32
 msgctxt "CardsListViewGallery|"
 msgid "List view of simple cards"
-msgstr ""
+msgstr "简单卡片列表视图"
 
 #: contents/ui/gallery/CardsListViewGallery.qml:73
 msgctxt "CardsListViewGallery|"
@@ -200,22 +203,22 @@ msgstr "安装"
 #: contents/ui/gallery/ChipGallery.qml:33
 msgctxt "ChipGallery|"
 msgid "Chips"
-msgstr ""
+msgstr "标签"
 
 #: contents/ui/gallery/ChipGallery.qml:48
 msgctxt "ChipGallery|"
 msgid "Closable Chips"
-msgstr ""
+msgstr "可关闭的标签"
 
 #: contents/ui/gallery/ChipGallery.qml:81
 msgctxt "ChipGallery|"
 msgid "Informative Chips"
-msgstr ""
+msgstr "信息型标签"
 
 #: contents/ui/gallery/ChipGallery.qml:120
 msgctxt "ChipGallery|"
 msgid "Checkable Chips"
-msgstr ""
+msgstr "可勾选的标签"
 
 #: contents/ui/gallery/ColorsGallery.qml:31
 msgctxt "ColorsGallery|"
@@ -245,7 +248,7 @@ msgstr "信息"
 #: contents/ui/gallery/DialogGallery.qml:34
 msgctxt "DialogGallery|"
 msgid "Dialogs"
-msgstr ""
+msgstr "对话框"
 
 #: contents/ui/gallery/DialogGallery.qml:58
 msgctxt "DialogGallery|"
@@ -265,7 +268,7 @@ msgstr "文件夹名称..."
 #: contents/ui/gallery/DialogGallery.qml:81
 msgctxt "DialogGallery|"
 msgid "Alarm Snooze Length"
-msgstr ""
+msgstr "闹钟延后时长"
 
 #: contents/ui/gallery/DialogGallery.qml:90
 msgctxt "DialogGallery|"
@@ -311,7 +314,7 @@ msgstr "1 小时"
 #: contents/ui/gallery/DialogGallery.qml:141
 msgctxt "DialogGallery|"
 msgid "Select Number"
-msgstr ""
+msgstr "选择数值"
 
 #: contents/ui/gallery/DialogGallery.qml:131
 msgctxt "DialogGallery|"
@@ -322,17 +325,17 @@ msgstr "字幕文本"
 #: contents/ui/gallery/DialogGallery.qml:234
 msgctxt "DialogGallery|"
 msgid "No Footer Dialog"
-msgstr ""
+msgstr "无底部栏对话框"
 
 #: contents/ui/gallery/DialogGallery.qml:164
 msgctxt "DialogGallery|"
 msgid "This dialog has no footer buttons.<br/>It also has no close button."
-msgstr ""
+msgstr "此对话框没有底部按钮。<br/>同时也没有关闭按钮。"
 
 #: contents/ui/gallery/DialogGallery.qml:172
 msgctxt "DialogGallery|"
 msgid "Track Options"
-msgstr ""
+msgstr "曲目选项"
 
 #: contents/ui/gallery/DialogGallery.qml:177
 msgctxt "DialogGallery|Start playback of the selected track"
@@ -342,7 +345,7 @@ msgstr "播放"
 #: contents/ui/gallery/DialogGallery.qml:178
 msgctxt "DialogGallery|"
 msgid "Start playback of the selected track"
-msgstr ""
+msgstr "播放所选曲目"
 
 #: contents/ui/gallery/DialogGallery.qml:183
 msgctxt "DialogGallery|Show the file for this song in the file manager"
@@ -352,7 +355,7 @@ msgstr "打开所在文件夹"
 #: contents/ui/gallery/DialogGallery.qml:184
 msgctxt "DialogGallery|"
 msgid "Show the file for this song in the file manager"
-msgstr ""
+msgstr "在文件管理器中显示此歌曲文件"
 
 #: contents/ui/gallery/DialogGallery.qml:188
 msgctxt "DialogGallery|Show track metadata"
@@ -362,43 +365,43 @@ msgstr "查看详情"
 #: contents/ui/gallery/DialogGallery.qml:189
 msgctxt "DialogGallery|"
 msgid "Show track metadata"
-msgstr ""
+msgstr "显示曲目元数据"
 
 #: contents/ui/gallery/DialogGallery.qml:193
 msgctxt ""
 "DialogGallery|Add the track to the queue, right after the current track"
 msgid "Play next"
-msgstr ""
+msgstr "下一首"
 
 #: contents/ui/gallery/DialogGallery.qml:194
 msgctxt "DialogGallery|"
 msgid "Add the track to the queue, right after the current track"
-msgstr ""
+msgstr "将该曲目添加到队列，并在当前曲目之后播放"
 
 #: contents/ui/gallery/DialogGallery.qml:198
 msgctxt "DialogGallery|Enqueue current track"
 msgid "Add to queue"
-msgstr ""
+msgstr "添加到播放队列"
 
 #: contents/ui/gallery/DialogGallery.qml:199
 msgctxt "DialogGallery|"
 msgid "Enqueue current track"
-msgstr ""
+msgstr "将当前曲目加入队列"
 
 #: contents/ui/gallery/DialogGallery.qml:209
 msgctxt "DialogGallery|"
 msgid "Prompt Dialog"
-msgstr ""
+msgstr "提示对话框"
 
 #: contents/ui/gallery/DialogGallery.qml:214
 msgctxt "DialogGallery|"
 msgid "Text Prompt Dialog"
-msgstr ""
+msgstr "文本输入对话框"
 
 #: contents/ui/gallery/DialogGallery.qml:219
 msgctxt "DialogGallery|"
 msgid "Selection Dialog"
-msgstr ""
+msgstr "选择对话框"
 
 #: contents/ui/gallery/DialogGallery.qml:224
 msgctxt "DialogGallery|"
@@ -408,12 +411,12 @@ msgstr "带有字幕的选择对话框"
 #: contents/ui/gallery/DialogGallery.qml:229
 msgctxt "DialogGallery|"
 msgid "Scrollable Dialog"
-msgstr ""
+msgstr "可滚动对话框"
 
 #: contents/ui/gallery/DialogGallery.qml:239
 msgctxt "DialogGallery|"
 msgid "Menu Dialog"
-msgstr ""
+msgstr "菜单对话框"
 
 #: contents/ui/gallery/DrawerGallery.qml:32
 msgctxt "DrawerGallery|"
@@ -423,27 +426,27 @@ msgstr "抽屉栏"
 #: contents/ui/gallery/DrawerGallery.qml:40
 msgctxt "DrawerGallery|"
 msgid "Action 1"
-msgstr ""
+msgstr "操作 1"
 
 #: contents/ui/gallery/DrawerGallery.qml:42
 msgctxt "DrawerGallery|"
 msgid "Action 1 clicked"
-msgstr ""
+msgstr "已点击操作 1"
 
 #: contents/ui/gallery/DrawerGallery.qml:45
 msgctxt "DrawerGallery|"
 msgid "Disabled Action"
-msgstr ""
+msgstr "已禁用的操作"
 
 #: contents/ui/gallery/DrawerGallery.qml:50
 msgctxt "DrawerGallery|"
 msgid "Action 3"
-msgstr ""
+msgstr "操作 3"
 
 #: contents/ui/gallery/DrawerGallery.qml:51
 msgctxt "DrawerGallery|"
 msgid "Action 3 clicked"
-msgstr ""
+msgstr "已点击操作 3"
 
 #: contents/ui/gallery/DrawerGallery.qml:64
 msgctxt "DrawerGallery|"
@@ -452,6 +455,8 @@ msgid ""
 "will darken the rest of the app. Clicking on a darkened will dismiss the "
 "drawer."
 msgstr ""
+"模态底部抽屉将横跨整个应用窗口宽度，并使应用其余部分变暗。 点击变暗的区域将关"
+"闭该抽屉。"
 
 #: contents/ui/gallery/DrawerGallery.qml:68
 #: contents/ui/gallery/DrawerGallery.qml:87
@@ -466,7 +471,7 @@ msgctxt "DrawerGallery|"
 msgid ""
 "An inline bottom drawer covers the whole application width but lets the "
 "uncovered pieces to still be interacted with."
-msgstr ""
+msgstr "内联底部抽屉将覆盖整个应用宽度，但未被覆盖的部分仍可交互。"
 
 #: contents/ui/gallery/DrawerGallery.qml:102
 msgctxt "DrawerGallery|"
@@ -475,81 +480,83 @@ msgid ""
 "darken the rest of the app. Clicking on the darkened area will dismiss the "
 "drawer."
 msgstr ""
+"模态顶部抽屉将横跨整个应用窗口宽度，并使应用其余部分变暗。 点击变暗区域将关闭"
+"该抽屉。"
 
 #: contents/ui/gallery/DrawerGallery.qml:121
 msgctxt "DrawerGallery|"
 msgid ""
 "An inline top drawer covers the whole application width but lets the "
 "uncovered pieces to still be interacted with."
-msgstr ""
+msgstr "内联顶部抽屉将覆盖整个应用宽度，但未被覆盖的部分仍可交互。"
 
 #: contents/ui/gallery/DrawerGallery.qml:136
 msgctxt "DrawerGallery|"
 msgid "Left Global Drawer"
-msgstr ""
+msgstr "左侧全局抽屉"
 
 #: contents/ui/gallery/DrawerGallery.qml:141
 msgctxt "DrawerGallery|"
 msgid "Right Context Drawer"
-msgstr ""
+msgstr "右侧上下文抽屉"
 
 #: contents/ui/gallery/DrawerGallery.qml:147
 msgctxt "DrawerGallery|"
 msgid "Modal Bottom Drawer"
-msgstr ""
+msgstr "模态底部抽屉"
 
 #: contents/ui/gallery/DrawerGallery.qml:157
 msgctxt "DrawerGallery|"
 msgid "Modal Top Drawer"
-msgstr ""
+msgstr "模态顶部抽屉"
 
 #: contents/ui/gallery/FormLayoutGallery.qml:69
 msgctxt "FormLayoutGallery|"
 msgid "Expanding Button"
-msgstr ""
+msgstr "可展开按钮"
 
 #: contents/ui/gallery/FormLayoutGallery.qml:118
 msgctxt "FormLayoutGallery|"
 msgid "Twin Layout:"
-msgstr ""
+msgstr "双栏布局："
 
 #: contents/ui/gallery/InlineMessagesGallery.qml:33
 msgctxt "InlineMessagesGallery|"
 msgid "Inline Messages"
-msgstr ""
+msgstr "内联消息"
 
 #: contents/ui/gallery/InlineMessagesGallery.qml:48
 msgctxt "InlineMessagesGallery|"
 msgid ""
 "This is an informational inline message (the default type). Use it for "
 "example to announce a result or provide commentary."
-msgstr ""
+msgstr "这是信息型内联消息（默认类型）。可用于通告结果或提供说明。"
 
 #: contents/ui/gallery/InlineMessagesGallery.qml:58
 msgctxt "InlineMessagesGallery|"
 msgid ""
 "This is a positive inline message. Use it for example to announce a "
 "successful result or the successful completion of a procedure."
-msgstr ""
+msgstr "这是警告型内联消息。可用于提供关键指引，或警告某些操作将无法正常工作。"
 
 #: contents/ui/gallery/InlineMessagesGallery.qml:68
 msgctxt "InlineMessagesGallery|"
 msgid ""
 "This is a warning inline message. Use it for example to provide critical "
 "guidance or warn about something that is not going to work."
-msgstr ""
+msgstr "这是错误型内联消息。 可用于提示发生错误，或输入内容不被接受。"
 
 #: contents/ui/gallery/InlineMessagesGallery.qml:78
 msgctxt "InlineMessagesGallery|"
 msgid ""
 "This is an error inline message. Use it for example to announce something "
 "has gone wrong or that input will not be accepted."
-msgstr ""
+msgstr "这是错误型内联消息。可用于提示发生错误，或输入内容不被接受。"
 
 #: contents/ui/gallery/InlineMessagesGallery.qml:92
 msgctxt "InlineMessagesGallery|"
 msgid "Inline messages can optionally have a custom icon set."
-msgstr ""
+msgstr "内联消息可选择性地设置自定义图标。"
 
 #: contents/ui/gallery/InlineMessagesGallery.qml:100
 msgctxt "InlineMessagesGallery|"
@@ -558,11 +565,13 @@ msgid ""
 "links (opens in browser): <a href=\"https://www.kde.org\">https://www.kde."
 "org/<a/>"
 msgstr ""
+"内联消息支持富文本，并可选择处理链接点击（在浏览器中打开）：<a href="
+"\"https://www.kde.org\">https://www.kde.org/<a/>"
 
 #: contents/ui/gallery/InlineMessagesGallery.qml:112
 msgctxt "InlineMessagesGallery|"
 msgid "Inline messages can have an optional close button."
-msgstr ""
+msgstr "内联消息可以包含可选的关闭按钮。"
 
 #: contents/ui/gallery/InlineMessagesGallery.qml:130
 msgctxt "InlineMessagesGallery|"
@@ -572,17 +581,17 @@ msgstr "添加文本"
 #: contents/ui/gallery/InlineMessagesGallery.qml:140
 msgctxt "InlineMessagesGallery|"
 msgid "Reset text"
-msgstr ""
+msgstr "重置文本"
 
 #: contents/ui/gallery/InlineMessagesGallery.qml:162
 msgctxt "InlineMessagesGallery|"
 msgid "Inline messages are initially hidden and animate when revealed. Try it!"
-msgstr ""
+msgstr "内联消息初始为隐藏状态，并在显示时带有动画效果。试试看！"
 
 #: contents/ui/gallery/InlineMessagesGallery.qml:171
 msgctxt "InlineMessagesGallery|"
 msgid "Show additional message"
-msgstr ""
+msgstr "显示附加消息"
 
 #: contents/ui/gallery/InlineMessagesGallery.qml:187
 msgctxt "InlineMessagesGallery|"
@@ -592,7 +601,7 @@ msgstr "Boo!"
 #: contents/ui/gallery/InlineMessagesGallery.qml:191
 msgctxt "InlineMessagesGallery|"
 msgid "Shush"
-msgstr ""
+msgstr "不再提示"
 
 #: contents/ui/gallery/ListViewGallery.qml:45
 msgctxt "ListViewGallery|"
@@ -614,7 +623,7 @@ msgstr[0] "工作表 %n 中的项目"
 #: contents/ui/gallery/ListViewGallery.qml:128
 msgctxt "ListViewGallery|"
 msgid "Action 1"
-msgstr ""
+msgstr "操作 1"
 
 #: contents/ui/gallery/ListViewGallery.qml:129
 #: contents/ui/gallery/ListViewGallery.qml:134
@@ -672,32 +681,32 @@ msgstr "标题 4"
 #: contents/ui/gallery/MiscGallery.qml:79
 msgctxt "MiscGallery|"
 msgid "Text Beside Icon"
-msgstr ""
+msgstr "图标旁文本"
 
 #: contents/ui/gallery/MiscGallery.qml:94
 msgctxt "MiscGallery|"
 msgid "Text Under Icon"
-msgstr ""
+msgstr "图标下方文本"
 
 #: contents/ui/gallery/MiscGallery.qml:109
 msgctxt "MiscGallery|"
 msgid "Text Only"
-msgstr ""
+msgstr "仅文本"
 
 #: contents/ui/gallery/MiscGallery.qml:124
 msgctxt "MiscGallery|"
 msgid "Icon Only"
-msgstr ""
+msgstr "仅图标"
 
 #: contents/ui/gallery/MultipleColumnsGallery.qml:124
 msgctxt "MultipleColumnsGallery|"
 msgid "Pin page"
-msgstr ""
+msgstr "固定页面"
 
 #: contents/ui/gallery/OverlaySheetGallery.qml:34
 msgctxt "OverlaySheetGallery|"
 msgid "Overlay Sheets"
-msgstr ""
+msgstr "覆盖式工作表"
 
 #: contents/ui/gallery/OverlaySheetGallery.qml:67
 msgctxt "OverlaySheetGallery|"
@@ -723,7 +732,7 @@ msgctxt "OverlaySheetGallery|"
 msgid ""
 "A sheet can have optional header and footer items which will not scroll away "
 "when the sheet overflows."
-msgstr ""
+msgstr "工作表可以包含可选的页眉和页脚项，在内容溢出时不会随滚动消失。"
 
 #: contents/ui/gallery/OverlaySheetGallery.qml:111
 msgctxt "OverlaySheetGallery|"
@@ -732,6 +741,9 @@ msgid ""
 "However, if the main item sets an implicitWidth or Layout.preferredWidth, "
 "the sheet won't grow in width more than such given value."
 msgstr ""
+"默认情况下，工作表会占用页面中可用的最大宽度。\n"
+"但如果主项设置了 implicitWidth 或 Layout.preferredWidth，工作表的宽度将不会超"
+"过该指定值。"
 
 #: contents/ui/gallery/OverlaySheetGallery.qml:132
 msgctxt "OverlaySheetGallery|"
@@ -741,26 +753,29 @@ msgid ""
 "display the sheet as an overlay on top of the whole application window.\n"
 "In this case the sheet will cover the page Action buttons too."
 msgstr ""
+"默认情况下，工作表只会覆盖单个页面，即使应用处于宽屏模式也是如此。将工作表的"
+"父项改为 applicationWindow().overlay 后，工作表将以覆盖层形式显示在整个应用窗"
+"口之上。"
 
 #: contents/ui/gallery/OverlaySheetGallery.qml:163
 msgctxt "OverlaySheetGallery|"
 msgid "Item in sheet "
-msgstr ""
+msgstr "在这种情况下，工作表也会覆盖页面的操作按钮。"
 
 #: contents/ui/gallery/OverlaySheetGallery.qml:207
 msgctxt "OverlaySheetGallery|"
 msgid "Very Long Sheet"
-msgstr ""
+msgstr "超长工作表"
 
 #: contents/ui/gallery/SelectionControlsGallery.qml:33
 msgctxt "SelectionControlsGallery|"
 msgid "Selection Controls"
-msgstr ""
+msgstr "选择控件"
 
 #: contents/ui/gallery/SelectionControlsGallery.qml:49
 msgctxt "SelectionControlsGallery|"
 msgid "Checkable List Items"
-msgstr ""
+msgstr "可勾选列表项"
 
 #: contents/ui/gallery/SelectionControlsGallery.qml:59
 #: contents/ui/gallery/SelectionControlsGallery.qml:85
@@ -768,13 +783,13 @@ msgstr ""
 #, qt-format
 msgctxt "SelectionControlsGallery|"
 msgid "Delegate %1"
-msgstr ""
+msgstr "委托 %1"
 
 #: contents/ui/gallery/SelectionControlsGallery.qml:75
 #: contents/ui/gallery/SelectionControlsGallery.qml:101
 msgctxt "SelectionControlsGallery|"
 msgid "Radio List Items"
-msgstr ""
+msgstr "单选列表项"
 
 #: contents/ui/gallery/SelectionControlsGallery.qml:120
 msgctxt "SelectionControlsGallery|"
@@ -786,29 +801,29 @@ msgstr "组合框"
 #: contents/ui/gallery/SelectionControlsGallery.qml:160
 msgctxt "SelectionControlsGallery|"
 msgid "Item selected"
-msgstr ""
+msgstr "已选中项目"
 
 #: contents/ui/gallery/SelectionControlsGallery.qml:128
 #: contents/ui/gallery/SelectionControlsGallery.qml:146
 #: contents/ui/gallery/SelectionControlsGallery.qml:164
 msgctxt "SelectionControlsGallery|"
 msgid "Item not selected"
-msgstr ""
+msgstr "未选中项目"
 
 #: contents/ui/gallery/SelectionControlsGallery.qml:132
 msgctxt "SelectionControlsGallery|"
 msgid "Checkable List View"
-msgstr ""
+msgstr "可勾选列表视图"
 
 #: contents/ui/gallery/SelectionControlsGallery.qml:138
 msgctxt "SelectionControlsGallery|"
 msgid "Radio buttons"
-msgstr ""
+msgstr "单选按钮"
 
 #: contents/ui/gallery/SelectionControlsGallery.qml:151
 msgctxt "SelectionControlsGallery|"
 msgid "Radio List View"
-msgstr ""
+msgstr "单选列表视图"
 
 #: contents/ui/gallery/SelectionControlsGallery.qml:157
 msgctxt "SelectionControlsGallery|"
@@ -818,7 +833,7 @@ msgstr "Switch 关键字"
 #: contents/ui/gallery/SelectionControlsGallery.qml:168
 msgctxt "SelectionControlsGallery|"
 msgid "Switch List View"
-msgstr ""
+msgstr "开关列表视图"
 
 #: contents/ui/MainPage.qml:37
 msgctxt "MainPage|"
