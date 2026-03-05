@@ -71,6 +71,11 @@ Kirigami.ScrollablePage {
     ListModel {
         id: galleryModel
         ListElement {
+            title: "Badge"
+            targetPage: "gallery/BadgeGallery.qml"
+            img: "img/chips.svg"
+        }
+        ListElement {
             title: "Buttons"
             targetPage: "gallery/ButtonGallery.qml"
             img: "img/buttons.svg"
