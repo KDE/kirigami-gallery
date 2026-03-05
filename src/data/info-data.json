@@ -29,6 +29,12 @@
         "apiUrl": "https://api.kde.org/frameworks/kirigami/html/classPromptDialog.html",
         "text": "Dialogs are a type of a modal that goes over application content, and prompts users with information."
     },
+    "BadgeGallery": {
+        "title": "Badges",
+        "sourceUrl": "https://invent.kde.org/sdk/kirigami-gallery/-/blob/master/src/data/contents/ui/gallery/BadgeGallery.qml",
+        "apiUrl": "https://api.kde.org/frameworks/kirigami/html/classorg_1_1kde_1_1kirigami_1_1templates_1_1Badge.html",
+        "text": "A Badge is visual indicator for some kind of non-default status or attribute of another object, such as unread count or current state."
+    },
     "ChipGallery": {
         "title": "Chips",
         "sourceUrl": "https://invent.kde.org/sdk/kirigami-gallery/-/blob/master/src/data/contents/ui/gallery/ChipGallery.qml",
