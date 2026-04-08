@@ -215,22 +215,19 @@ msgstr "Inštalovať"
 #: contents/ui/gallery/ChipGallery.qml:33
 msgctxt "ChipGallery|"
 msgid "Chips"
-msgstr ""
+msgstr "Štítky"
 
 #: contents/ui/gallery/ChipGallery.qml:48
 msgctxt "ChipGallery|"
 msgid "Closable Chips"
-msgstr ""
+msgstr "Zatvoriteľné štítky"
 
 #: contents/ui/gallery/ChipGallery.qml:81
 msgctxt "ChipGallery|"
 msgid "Informative Chips"
-msgstr ""
+msgstr "Informatívne štítky"
 
 #: contents/ui/gallery/ChipGallery.qml:120
-#, fuzzy
-#| msgctxt "SelectionControlsGallery|"
-#| msgid "Checkable List View"
 msgctxt "ChipGallery|"
 msgid "Checkable Chips"
 msgstr "Zobrazenie zaškrtávacieho zoznamu"
@@ -238,30 +235,24 @@ msgstr "Zobrazenie zaškrtávacieho zoznamu"
 #: contents/ui/gallery/ColorsGallery.qml:31
 msgctxt "ColorsGallery|"
 msgid "Colors"
-msgstr ""
+msgstr "Farby"
 
 #: contents/ui/gallery/components/InfoSheet.qml:52
 msgctxt "InfoSheet|"
 msgid "HIG…"
-msgstr ""
+msgstr "HIG…"
 
 #: contents/ui/gallery/components/InfoSheet.qml:57
-#, fuzzy
-#| msgctxt "InfoSheet|"
-#| msgid "Source code..."
 msgctxt "InfoSheet|"
 msgid "Source code…"
-msgstr "Zdrojový kód..."
+msgstr "Zdrojový kód…"
 
 #: contents/ui/gallery/components/InfoSheet.qml:62
 msgctxt "InfoSheet|"
 msgid "API…"
-msgstr ""
+msgstr "API…"
 
 #: contents/ui/gallery/components/InfoSheetAction.qml:18
-#, fuzzy
-#| msgctxt "ActionToolBarGallery|"
-#| msgid "Info"
 msgctxt "InfoSheetAction|"
 msgid "Info"
 msgstr "Info"
@@ -269,109 +260,108 @@ msgstr "Info"
 #: contents/ui/gallery/DialogGallery.qml:34
 msgctxt "DialogGallery|"
 msgid "Dialogs"
-msgstr ""
+msgstr "Dialógy"
 
 #: contents/ui/gallery/DialogGallery.qml:58
 msgctxt "DialogGallery|"
 msgid "Create Folder"
-msgstr ""
+msgstr "Vytvoriť priečinok"
 
 #: contents/ui/gallery/DialogGallery.qml:66
 msgctxt "DialogGallery|"
 msgid "Cancel"
-msgstr ""
+msgstr "Zrušiť"
 
 #: contents/ui/gallery/DialogGallery.qml:75
 msgctxt "DialogGallery|"
 msgid "Folder name..."
-msgstr ""
+msgstr "Názov priečinka…"
 
 #: contents/ui/gallery/DialogGallery.qml:81
 msgctxt "DialogGallery|"
 msgid "Alarm Snooze Length"
-msgstr ""
+msgstr "Dĺžka odloženia budíka"
 
 #: contents/ui/gallery/DialogGallery.qml:90
 msgctxt "DialogGallery|"
 msgid "1 minute"
-msgstr ""
+msgstr "1 minúta"
 
 #: contents/ui/gallery/DialogGallery.qml:91
 msgctxt "DialogGallery|"
 msgid "2 minutes"
-msgstr ""
+msgstr "2 minúty"
 
 #: contents/ui/gallery/DialogGallery.qml:92
 msgctxt "DialogGallery|"
 msgid "3 minutes"
-msgstr ""
+msgstr "3 minúty"
 
 #: contents/ui/gallery/DialogGallery.qml:93
 msgctxt "DialogGallery|"
 msgid "4 minutes"
-msgstr ""
+msgstr "4 minúty"
 
 #: contents/ui/gallery/DialogGallery.qml:94
 msgctxt "DialogGallery|"
 msgid "5 minutes"
-msgstr ""
+msgstr "5 minút"
 
 #: contents/ui/gallery/DialogGallery.qml:95
 msgctxt "DialogGallery|"
 msgid "10 minutes"
-msgstr ""
+msgstr "10 minút"
 
 #: contents/ui/gallery/DialogGallery.qml:96
 msgctxt "DialogGallery|"
 msgid "30 minutes"
-msgstr ""
+msgstr "30 minút"
 
 #: contents/ui/gallery/DialogGallery.qml:97
 msgctxt "DialogGallery|"
 msgid "1 hour"
-msgstr ""
+msgstr "1 hodina"
 
 #: contents/ui/gallery/DialogGallery.qml:122
 #: contents/ui/gallery/DialogGallery.qml:141
 msgctxt "DialogGallery|"
 msgid "Select Number"
-msgstr ""
+msgstr "Vybrať číslo"
 
 #: contents/ui/gallery/DialogGallery.qml:131
 msgctxt "DialogGallery|"
 msgid "Subtitle text"
-msgstr ""
+msgstr "Text podnadpisu"
 
 #: contents/ui/gallery/DialogGallery.qml:163
 #: contents/ui/gallery/DialogGallery.qml:234
 msgctxt "DialogGallery|"
 msgid "No Footer Dialog"
-msgstr ""
+msgstr "Dialóg bez päty"
 
 #: contents/ui/gallery/DialogGallery.qml:164
 msgctxt "DialogGallery|"
 msgid "This dialog has no footer buttons.<br/>It also has no close button."
 msgstr ""
+"Tento dialóg nemá žiadne tlačidlá v päte.<br/>Taktiež nemá tlačidlo na "
+"zatvorenie."
 
 #: contents/ui/gallery/DialogGallery.qml:172
 msgctxt "DialogGallery|"
 msgid "Track Options"
-msgstr ""
+msgstr "Možnosti stopy"
 
 #: contents/ui/gallery/DialogGallery.qml:177
 msgctxt "DialogGallery|Start playback of the selected track"
 msgid "Play"
-msgstr ""
+msgstr "Prehrať"
 
 #: contents/ui/gallery/DialogGallery.qml:178
 msgctxt "DialogGallery|"
 msgid "Start playback of the selected track"
-msgstr ""
+msgstr "Spustiť prehrávanie vybranej stopy"
 
 #: contents/ui/gallery/DialogGallery.qml:183
-#, fuzzy
-#| msgctxt "BaseApp|"
-#| msgid "Show Banner"
 msgctxt "DialogGallery|Show the file for this song in the file manager"
 msgid "Show in folder"
 msgstr "Zobraziť banner"
@@ -379,61 +369,55 @@ msgstr "Zobraziť banner"
 #: contents/ui/gallery/DialogGallery.qml:184
 msgctxt "DialogGallery|"
 msgid "Show the file for this song in the file manager"
-msgstr ""
+msgstr "Zobraziť súbor tejto skladby v správcovi súborov"
 
 #: contents/ui/gallery/DialogGallery.qml:188
 msgctxt "DialogGallery|Show track metadata"
 msgid "View details"
-msgstr ""
+msgstr "Zobraziť podrobnosti"
 
 #: contents/ui/gallery/DialogGallery.qml:189
 msgctxt "DialogGallery|"
 msgid "Show track metadata"
-msgstr ""
+msgstr "Zobraziť metaúdaje stopy"
 
 #: contents/ui/gallery/DialogGallery.qml:193
 msgctxt ""
 "DialogGallery|Add the track to the queue, right after the current track"
 msgid "Play next"
-msgstr ""
+msgstr "Prehrať ďalšiu"
 
 #: contents/ui/gallery/DialogGallery.qml:194
 msgctxt "DialogGallery|"
 msgid "Add the track to the queue, right after the current track"
-msgstr ""
+msgstr "Pridať stopu do frontu hneď za aktuálnu stopu"
 
 #: contents/ui/gallery/DialogGallery.qml:198
 msgctxt "DialogGallery|Enqueue current track"
 msgid "Add to queue"
-msgstr ""
+msgstr "Pridať do frontu"
 
 #: contents/ui/gallery/DialogGallery.qml:199
 msgctxt "DialogGallery|"
 msgid "Enqueue current track"
-msgstr ""
+msgstr "Zaradiť aktuálnu stopu do frontu"
 
 #: contents/ui/gallery/DialogGallery.qml:209
 msgctxt "DialogGallery|"
 msgid "Prompt Dialog"
-msgstr ""
+msgstr "Dialóg s výzvou"
 
 #: contents/ui/gallery/DialogGallery.qml:214
 msgctxt "DialogGallery|"
 msgid "Text Prompt Dialog"
-msgstr ""
+msgstr "Dialóg s textovou výzvou"
 
 #: contents/ui/gallery/DialogGallery.qml:219
-#, fuzzy
-#| msgctxt "SelectionControlsGallery|"
-#| msgid "Selection Controls"
 msgctxt "DialogGallery|"
 msgid "Selection Dialog"
 msgstr "Ovládače výberu"
 
 #: contents/ui/gallery/DialogGallery.qml:224
-#, fuzzy
-#| msgctxt "SelectionControlsGallery|"
-#| msgid "Selection Controls"
 msgctxt "DialogGallery|"
 msgid "Selection Dialog with subtitles"
 msgstr "Ovládače výberu"
@@ -441,12 +425,12 @@ msgstr "Ovládače výberu"
 #: contents/ui/gallery/DialogGallery.qml:229
 msgctxt "DialogGallery|"
 msgid "Scrollable Dialog"
-msgstr ""
+msgstr "Posúvateľný dialóg"
 
 #: contents/ui/gallery/DialogGallery.qml:239
 msgctxt "DialogGallery|"
 msgid "Menu Dialog"
-msgstr ""
+msgstr "Dialóg s ponukou"
 
 #: contents/ui/gallery/DrawerGallery.qml:32
 msgctxt "DrawerGallery|"
@@ -650,48 +634,35 @@ msgstr "Shush"
 #: contents/ui/gallery/ListViewGallery.qml:45
 msgctxt "ListViewGallery|"
 msgid "Main Action Text"
-msgstr ""
+msgstr "Text hlavnej akcie"
 
 #: contents/ui/gallery/ListViewGallery.qml:56
-#, fuzzy
-#| msgctxt "OverlaySheetGallery|"
-#| msgid "Footer:"
 msgctxt "ListViewGallery|"
 msgid "Footer:"
 msgstr "Pätička:"
 
 #: contents/ui/gallery/ListViewGallery.qml:71
-#, fuzzy, qt-format
-#| msgctxt "OverlaySheetGallery|"
-#| msgid "Item in sheet "
+#, qt-format
 msgctxt "ListViewGallery|"
 msgid "Item in sheet %n"
 msgid_plural "Item in sheet %n"
-msgstr[0] "Položky v liste"
-msgstr[1] "Položky v liste"
-msgstr[2] "Položky v liste"
+msgstr[0] "Položka v hárku %n"
+msgstr[1] "Položka v hárku %n"
+msgstr[2] "Položka v hárku %n"
 
 #: contents/ui/gallery/ListViewGallery.qml:128
-#, fuzzy
-#| msgctxt "DrawerGallery|"
-#| msgid "Action 1"
 msgctxt "ListViewGallery|"
 msgid "Action 1"
 msgstr "Akcia 1"
 
 #: contents/ui/gallery/ListViewGallery.qml:129
 #: contents/ui/gallery/ListViewGallery.qml:134
-#, fuzzy, qt-format
-#| msgctxt "CardsLayoutGallery|"
-#| msgid "Card clicked"
+#, qt-format
 msgctxt "ListViewGallery|"
 msgid "%1: %2 clicked"
-msgstr "Karta kliknutá"
+msgstr "%1: %2 clicked"
 
 #: contents/ui/gallery/ListViewGallery.qml:133
-#, fuzzy
-#| msgctxt "CardsLayoutGallery|"
-#| msgid "Action2"
 msgctxt "ListViewGallery|"
 msgid "Action 2"
 msgstr "Akcia2"
@@ -700,15 +671,13 @@ msgstr "Akcia2"
 #, qt-format
 msgctxt "ListViewGallery|"
 msgid "Item %1"
-msgstr ""
+msgstr "Položka %1"
 
 #: contents/ui/gallery/ListViewGallery.qml:173
-#, fuzzy, qt-format
-#| msgctxt "DrawerGallery|"
-#| msgid "Action 1"
+#, qt-format
 msgctxt "ListViewGallery|"
 msgid "Section %1"
-msgstr "Akcia 1"
+msgstr "Section %1"
 
 #: contents/ui/gallery/MetricsGallery.qml:50
 msgctxt "MetricsGallery|"
@@ -844,12 +813,10 @@ msgstr "Zaškrtávacie položky zoznamu"
 #: contents/ui/gallery/SelectionControlsGallery.qml:59
 #: contents/ui/gallery/SelectionControlsGallery.qml:85
 #: contents/ui/gallery/SelectionControlsGallery.qml:111
-#, fuzzy, qt-format
-#| msgctxt "SelectionControlsGallery|"
-#| msgid "Delegate"
+#, qt-format
 msgctxt "SelectionControlsGallery|"
 msgid "Delegate %1"
-msgstr "Delegát"
+msgstr "Delegate %1"
 
 #: contents/ui/gallery/SelectionControlsGallery.qml:75
 #: contents/ui/gallery/SelectionControlsGallery.qml:101
@@ -909,7 +876,7 @@ msgstr "Galéria Kirigami"
 #: contents/ui/MainPage.qml:42
 msgctxt "MainPage|"
 msgid "Home"
-msgstr ""
+msgstr "Domov"
 
 #~ msgctxt "CardsLayoutGallery|"
 #~ msgid "Info"
@@ -920,8 +887,6 @@ msgstr ""
 #~ msgstr "Info"
 
 #, fuzzy
-#~| msgctxt "ActionToolBarGallery|"
-#~| msgid "Info"
 #~ msgctxt "ChipGallery|"
 #~ msgid "Info"
 #~ msgstr "Info"
@@ -935,8 +900,6 @@ msgstr ""
 #~ msgstr "API..."
 
 #, fuzzy
-#~| msgctxt "ActionToolBarGallery|"
-#~| msgid "Info"
 #~ msgctxt "DialogGallery|"
 #~ msgid "Info"
 #~ msgstr "Info"
@@ -1023,7 +986,6 @@ msgstr ""
 
 # Roman Paholik <wizzardsk@gmail.com>, 2018.
 #, fuzzy
-#~| msgid ""
 #~ msgctxt "DrawerGallery|"
 #~ msgid ""
 #~ msgstr ""
