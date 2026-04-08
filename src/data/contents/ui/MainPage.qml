@@ -185,6 +185,11 @@ Kirigami.ScrollablePage {
             targetPage: "gallery/MetricsGallery.qml"
             img: "img/metrics.svg"
         }
+        ListElement {
+            title: "Layers"
+            targetPage: "gallery/LayersGallery.qml"
+            img: "img/layers.svg"
+        }
     }
     header: QQC2.ToolBar {
         id: toolbar
