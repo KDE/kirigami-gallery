@@ -17,13 +17,13 @@
  *   51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
  */
 
-#include <QQmlApplicationEngine>
-#include <QQuickStyle>
-#include <QtQml>
-#include <QUrl>
+#include "InfoData.h"
 #include <QColor>
 #include <QIcon>
-#include "InfoData.h"
+#include <QQmlApplicationEngine>
+#include <QQuickStyle>
+#include <QUrl>
+#include <QtQml>
 
 #ifdef Q_OS_ANDROID
 #include <QGuiApplication>
@@ -38,13 +38,12 @@
 #include <QApplication>
 #endif
 
-
 Q_DECL_EXPORT int main(int argc, char *argv[])
 {
     QGuiApplication::setApplicationDisplayName(QStringLiteral("Kirigami Gallery"));
     QGuiApplication::setDesktopFileName(QStringLiteral("org.kde.kirigami2.gallery"));
 
-//The desktop QQC2 style needs it to be a QApplication
+// The desktop QQC2 style needs it to be a QApplication
 #ifdef Q_OS_ANDROID
     QGuiApplication app(argc, argv);
     QQuickStyle::setStyle(QStringLiteral("Material"));
@@ -57,17 +56,15 @@ Q_DECL_EXPORT int main(int argc, char *argv[])
     QApplication::setWindowIcon(QIcon::fromTheme(QStringLiteral("preferences-desktop-theme")));
 #endif
 
-    //Extra debug if needed
-    //qputenv("QML_IMPORT_TRACE", "1");
+    // Extra debug if needed
+    // qputenv("QML_IMPORT_TRACE", "1");
     QQmlApplicationEngine engine;
 
     qmlRegisterType<InfoData>("Data", 1, 0, "InfoData");
 
-    //we want different main files on desktop or mobile
-    //very small difference as they as they are subclasses of the same thing
-    if (qEnvironmentVariableIsSet("QT_QUICK_CONTROLS_MOBILE") &&
-        (QString::fromLatin1(qgetenv("QT_QUICK_CONTROLS_MOBILE")) == QStringLiteral("1") ||
-         QString::fromLatin1(qgetenv("QT_QUICK_CONTROLS_MOBILE")) == QStringLiteral("true"))) {
+    // we want different main files on desktop or mobile
+    // very small difference as they as they are subclasses of the same thing
+    if (qEnvironmentVariableIsSet("QT_QUICK_CONTROLS_MOBILE") && (QString::fromLatin1(qgetenv("QT_QUICK_CONTROLS_MOBILE")) == QStringLiteral("1") || QString::fromLatin1(qgetenv("QT_QUICK_CONTROLS_MOBILE")) == QStringLiteral("true"))) {
         engine.load(QUrl(QStringLiteral("qrc:///contents/ui/mobileApp.qml")));
     } else {
         engine.load(QUrl(QStringLiteral("qrc:///contents/ui/BaseApp.qml")));
@@ -77,15 +74,15 @@ Q_DECL_EXPORT int main(int argc, char *argv[])
         return -1;
     }
 
-    //HACK to color the system bar on Android, use qtandroidextras and call the appropriate Java methods
+    // HACK to color the system bar on Android, use qtandroidextras and call the appropriate Java methods
 #ifdef Q_OS_ANDROID
-    //QtAndroid::runOnAndroidThread([=]() {
-    //    QAndroidJniObject window = QtAndroid::androidActivity().callObjectMethod("getWindow", "()Landroid/view/Window;");
-    //    window.callMethod<void>("addFlags", "(I)V", FLAG_DRAWS_SYSTEM_BAR_BACKGROUNDS);
-    //    window.callMethod<void>("clearFlags", "(I)V", FLAG_TRANSLUCENT_STATUS);
-    //    window.callMethod<void>("setStatusBarColor", "(I)V", QColor("#2196f3").rgba());
-    //    window.callMethod<void>("setNavigationBarColor", "(I)V", QColor("#2196f3").rgba());
-    //});
+    // QtAndroid::runOnAndroidThread([=]() {
+    //     QAndroidJniObject window = QtAndroid::androidActivity().callObjectMethod("getWindow", "()Landroid/view/Window;");
+    //     window.callMethod<void>("addFlags", "(I)V", FLAG_DRAWS_SYSTEM_BAR_BACKGROUNDS);
+    //     window.callMethod<void>("clearFlags", "(I)V", FLAG_TRANSLUCENT_STATUS);
+    //     window.callMethod<void>("setStatusBarColor", "(I)V", QColor("#2196f3").rgba());
+    //     window.callMethod<void>("setNavigationBarColor", "(I)V", QColor("#2196f3").rgba());
+    // });
 #endif
 
     return app.exec();

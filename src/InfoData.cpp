@@ -11,7 +11,7 @@ InfoData::InfoData(QObject *parent)
     QString infoSheetData;
     QFile file("://info-data.json");
 
-    if(file.open(QIODevice::ReadOnly | QIODevice::Text)) {
+    if (file.open(QIODevice::ReadOnly | QIODevice::Text)) {
         infoSheetData = file.readAll();
         file.close();
     }

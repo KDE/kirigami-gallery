@@ -18,14 +18,14 @@ class InfoData : public QObject
 
 public:
     InfoData(QObject *parent = nullptr);
-    
+
     QString component() const;
     QString higUrl() const;
     QString sourceUrl() const;
     QString apiUrl() const;
     QString title() const;
     QString text() const;
-    
+
     void setComponent(const QString &componentName);
 
 Q_SIGNALS:
