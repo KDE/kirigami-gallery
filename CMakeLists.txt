@@ -28,6 +28,14 @@ include(ECMPoQmTools)
 include(ECMFindQmlModule)
 include(ECMAddAndroidApk)
 
+include(KDEClangFormat)
+include(KDEGitCommitHooks)
+
+# add clang-format target for all our real source files
+file(GLOB_RECURSE ALL_CLANG_FORMAT_SOURCE_FILES *.cpp *.h)
+kde_clang_format(${ALL_CLANG_FORMAT_SOURCE_FILES})
+kde_configure_git_pre_commit_hook(CHECKS CLANG_FORMAT)
+
 find_package(Qt${QT_MAJOR_VERSION} ${REQUIRED_QT_VERSION} REQUIRED NO_MODULE COMPONENTS Core Quick Gui Svg QuickControls2)
 
 find_package(KF6 ${KF_DEP_VERSION} REQUIRED COMPONENTS Kirigami ItemModels)
