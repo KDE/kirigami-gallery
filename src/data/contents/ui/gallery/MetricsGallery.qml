@@ -51,7 +51,7 @@ Kirigami.ScrollablePage {
             Layout.columnSpan: 2
             level: 1
         }
-        QQC2.Label {
+        Kirigami.SelectableLabel {
             text: qsTr("%1 points").arg(h1.font.pointSize)
             Layout.columnSpan: 2
         }
@@ -61,7 +61,7 @@ Kirigami.ScrollablePage {
             Layout.columnSpan: 2
             level: 2
         }
-        QQC2.Label {
+        Kirigami.SelectableLabel {
             text: qsTr("%1 points").arg(h2.font.pointSize)
             Layout.columnSpan: 2
         }
@@ -71,7 +71,7 @@ Kirigami.ScrollablePage {
             Layout.columnSpan: 2
             level: 3
         }
-        QQC2.Label {
+        Kirigami.SelectableLabel {
             text: qsTr("%1 points").arg(h3.font.pointSize)
             Layout.columnSpan: 2
         }
@@ -81,7 +81,7 @@ Kirigami.ScrollablePage {
             Layout.columnSpan: 2
             level: 4
         }
-        QQC2.Label {
+        Kirigami.SelectableLabel {
             text: qsTr("%1 points").arg(h4.font.pointSize)
             Layout.columnSpan: 2
         }
@@ -94,21 +94,21 @@ Kirigami.ScrollablePage {
         QQC2.Label {
             text: "FontMetrics pointSize:"
         }
-        QQC2.Label {
+        Kirigami.SelectableLabel {
             text: fontMetrics.font.pointSize
         }
 
         QQC2.Label {
             text: "FontMetrics pixelSize:"
         }
-        QQC2.Label {
+        Kirigami.SelectableLabel {
             text: Number(fontMetrics.font.pixelSize).toFixed(2)
         }
 
         QQC2.Label {
             text: "Height of default font:"
         }
-        QQC2.Label {
+        Kirigami.SelectableLabel {
             text: Number(font.pixelSize / Screen.pixelDensity).toFixed(2) + "mm"
         }
 
@@ -122,28 +122,28 @@ Kirigami.ScrollablePage {
         QQC2.Label {
             text: "Geometry (pixels):"
         }
-        QQC2.Label {
+        Kirigami.SelectableLabel {
             text: page.width + "x" + page.height
         }
 
         QQC2.Label {
             text: "Geometry (gridUnits):"
         }
-        QQC2.Label {
+        Kirigami.SelectableLabel {
             text: Math.round(page.width / Kirigami.Units.gridUnit) + "x" + Math.round(page.height / Kirigami.Units.gridUnit)
         }
 
         QQC2.Label {
             text: "Units.gridUnit:"
         }
-        QQC2.Label {
+        Kirigami.SelectableLabel {
             text: Kirigami.Units.gridUnit
         }
 
         QQC2.Label {
             text: "Screen.devicePixelRatio:"
         }
-        QQC2.Label {
+        Kirigami.SelectableLabel {
             text: Screen.devicePixelRatio
         }
 
@@ -156,7 +156,7 @@ Kirigami.ScrollablePage {
         QQC2.Label {
             text: "Pixel density:"
         }
-        QQC2.Label {
+        Kirigami.SelectableLabel {
             text: Number(Screen.pixelDensity).toFixed(2)
         }
 
@@ -167,6 +167,11 @@ Kirigami.ScrollablePage {
             implicitWidth: Math.round(Screen.pixelDensity * 20)
             implicitHeight: Math.round(Screen.pixelDensity * 20)
             color: "black"
+        }
+
+        QQC2.Label {
+            Layout.columnSpan: 2
+            Layout.fillHeight: true
         }
     }
 }

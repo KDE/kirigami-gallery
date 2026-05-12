@@ -75,7 +75,7 @@ Kirigami.ScrollablePage {
                         Kirigami.Separator {
                             Layout.fillWidth: true
                         }
-                        QQC2.Label {
+                        Kirigami.SelectableLabel {
                             Layout.fillWidth: true
                             wrapMode: Text.WordWrap
                             text: qsTr("Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id risus id augue euismod accumsan.")

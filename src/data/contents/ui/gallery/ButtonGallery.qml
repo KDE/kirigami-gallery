@@ -127,6 +127,7 @@ Kirigami.ScrollablePage {
 
     Kirigami.OverlaySheet {
         id: sheet
+        width: parent.width
         header: Kirigami.Heading {
             text: "Title"
         }
@@ -140,7 +141,7 @@ Kirigami.ScrollablePage {
             }
         }
         ColumnLayout {
-            QQC2.Label {
+            Kirigami.SelectableLabel {
                 Layout.fillWidth: true
                 wrapMode: Text.WordWrap
                 text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id risus id augue euismod accumsan. Nunc vestibulum placerat bibendum. Morbi commodo auctor varius. Donec molestie euismod ultrices. Sed facilisis augue nec eros auctor, vitae mattis quam rhoncus. Nam ut erat diam. Curabitur iaculis accumsan magna, eget fermentum massa scelerisque eu. Cras elementum erat non erat euismod accumsan. Vestibulum ac mi sed dui finibus pulvinar. Vivamus dictum, leo sed lobortis porttitor, nisl magna faucibus orci, sit amet euismod arcu elit eget est. Duis et vehicula nibh. In arcu sapien, laoreet sit amet porttitor non, rhoncus vel magna. Suspendisse imperdiet consectetur est nec ornare. Pellentesque bibendum sapien at erat efficitur vehicula. Morbi sed porta nibh. Vestibulum ut urna ut dolor sagittis mattis."
@@ -150,7 +151,7 @@ Kirigami.ScrollablePage {
                 Layout.alignment: Qt.AlignHCenter
             }
 
-            QQC2.Label {
+            Kirigami.SelectableLabel {
                 Layout.fillWidth: true
                 wrapMode: Text.WordWrap
                 text: `

@@ -64,7 +64,7 @@ Kirigami.ScrollablePage {
         width: page.width
         spacing: Kirigami.Units.smallSpacing
 
-        QQC2.Label {
+        Kirigami.SelectableLabel {
             Layout.fillWidth: true
             wrapMode: Text.WordWrap
             text: "This page is used to test multiple layers: it will cover all the columns"

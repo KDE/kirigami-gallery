@@ -40,12 +40,9 @@ Kirigami.ScrollablePage {
     QQC2.Dialog {
         id: checkListDialog
         modal: true
-        focus: true
-        x: (page.width - width) / 2
-        y: page.height / 2 - height
-        width: Math.min(page.width - Kirigami.Units.gridUnit * 4, Kirigami.Units.gridUnit * 20)
-        height: Kirigami.Units.gridUnit * 20
-        standardButtons: QQC2.Dialog.Close
+        implicitWidth: Kirigami.Units.gridUnit * 16
+        implicitHeight: Kirigami.Units.gridUnit * 16
+        standardButtons: Kirigami.Dialog.Close
         title: qsTr("Checkable List Items")
 
         contentItem: QQC2.ScrollView {
@@ -59,19 +56,15 @@ Kirigami.ScrollablePage {
                     text: qsTr("Delegate %1").arg(index + 1)
                 }
             }
-            Component.onCompleted: background.visible = true;
         }
     }
 
     QQC2.Dialog {
         id: radioListDialog
         modal: true
-        focus: true
-        x: (page.width - width) / 2
-        y: page.height / 2 - height
-        width: Math.min(page.width - Kirigami.Units.gridUnit * 4, Kirigami.Units.gridUnit * 20)
-        height: Kirigami.Units.gridUnit * 20
-        standardButtons: QQC2.Dialog.Close
+        implicitWidth: Kirigami.Units.gridUnit * 16
+        implicitHeight: Kirigami.Units.gridUnit * 16
+        standardButtons: Kirigami.Dialog.Close
         title: qsTr("Radio List Items")
 
         contentItem: QQC2.ScrollView {
@@ -85,19 +78,15 @@ Kirigami.ScrollablePage {
                     text: qsTr("Delegate %1").arg(index + 1)
                 }
             }
-            Component.onCompleted: background.visible = true;
         }
     }
 
     QQC2.Dialog {
         id: switchListDialog
         modal: true
-        focus: true
-        x: (page.width - width) / 2
-        y: page.height / 2 - height
-        width: Math.min(page.width - Kirigami.Units.gridUnit * 4, Kirigami.Units.gridUnit * 20)
-        height: Kirigami.Units.gridUnit * 20
-        standardButtons: QQC2.Dialog.Close
+        implicitWidth: Kirigami.Units.gridUnit * 16
+        implicitHeight: Kirigami.Units.gridUnit * 16
+        standardButtons: Kirigami.Dialog.Close
         title: qsTr("Radio List Items")
 
         contentItem: QQC2.ScrollView {
@@ -111,7 +100,6 @@ Kirigami.ScrollablePage {
                     text: qsTr("Delegate %1").arg(index + 1)
                 }
             }
-            Component.onCompleted: background.visible = true;
         }
     }
 

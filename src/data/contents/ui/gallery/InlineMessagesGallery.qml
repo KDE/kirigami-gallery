@@ -155,7 +155,7 @@ Kirigami.ScrollablePage {
 
             spacing: Kirigami.Units.smallSpacing
 
-            QQC2.Label {
+            Kirigami.SelectableLabel {
                 Layout.fillWidth: true
                 horizontalAlignment: Text.AlignHCenter
 

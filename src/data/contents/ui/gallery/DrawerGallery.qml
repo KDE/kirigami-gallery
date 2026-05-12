@@ -56,9 +56,8 @@ Kirigami.ScrollablePage {
         id: modalBottomDrawer
         edge: Qt.BottomEdge
         parent: QQC2.Overlay.overlay
-
         contentItem: ColumnLayout {
-            QQC2.Label {
+            Kirigami.SelectableLabel {
                 Layout.fillWidth: true
                 wrapMode: Text.WordWrap
                 text: qsTr("A modal bottom drawer will span for the whole application window width and will darken the rest of the app. Clicking on a darkened will dismiss the drawer.")
@@ -77,7 +76,7 @@ Kirigami.ScrollablePage {
         modal: false
 
         contentItem: ColumnLayout {
-            QQC2.Label {
+            Kirigami.SelectableLabel {
                 Layout.fillWidth: true
                 wrapMode: Text.WordWrap
                 text: qsTr("An inline bottom drawer covers the whole application width but lets the uncovered pieces to still be interacted with.")
@@ -94,9 +93,8 @@ Kirigami.ScrollablePage {
         id: modalTopDrawer
         edge: Qt.TopEdge
         parent: QQC2.Overlay.overlay
-
         contentItem: ColumnLayout {
-            QQC2.Label {
+            Kirigami.SelectableLabel {
                 Layout.fillWidth: true
                 wrapMode: Text.WordWrap
                 text: qsTr("A modal top drawer will span for the whole application window width and will darken the rest of the app. Clicking on the darkened area will dismiss the drawer.")
@@ -115,7 +113,7 @@ Kirigami.ScrollablePage {
         modal: false
 
         contentItem: ColumnLayout {
-            QQC2.Label {
+            Kirigami.SelectableLabel {
                 Layout.fillWidth: true
                 wrapMode: Text.WordWrap
                 text: qsTr("An inline top drawer covers the whole application width but lets the uncovered pieces to still be interacted with.")

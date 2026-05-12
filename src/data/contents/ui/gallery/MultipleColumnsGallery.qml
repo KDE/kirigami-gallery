@@ -111,7 +111,7 @@ Kirigami.ScrollablePage {
         width: root.width
         spacing: Kirigami.Units.smallSpacing
 
-        QQC2.Label {
+        Kirigami.SelectableLabel {
             Layout.fillWidth: true
             wrapMode: Text.WordWrap
             text: "This page is used to test multiple columns: you can push and pop an arbitrary number of pages, each new page will have a random implicit width between 8 and 35 grid units.\nIf you enlarge the window enough, you can test how the application behaves with multiple columns."
