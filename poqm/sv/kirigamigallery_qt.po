@@ -24,12 +24,19 @@ msgid "AbstractCard"
 msgstr "AbstractCard"
 
 #: contents/ui/gallery/CardsLayoutGallery.qml:50
+#, fuzzy
+#| msgctxt "CardsLayoutGallery|"
+#| msgid ""
+#| "An AbstractCard is the simplest form of card. It's just a rectangle with "
+#| "a shadow, which can contain any Item in it. It can also have items "
+#| "assigned to the Header or Footer properties. In this case a Kirigami."
+#| "Heading is its header and a Label with WordWrap is the contentItem."
 msgctxt "CardsLayoutGallery|"
 msgid ""
 "An AbstractCard is the simplest form of card. It's just a rectangle with a "
 "shadow, which can contain any Item in it. It can also have items assigned to "
 "the Header or Footer properties. In this case a Kirigami.Heading is its "
-"header and a Label with WordWrap is the contentItem."
+"header and a Kirigami.SelectableLabel with WordWrap is the contentItem."
 msgstr ""
 "Ett AbstractCard är den enklaste formen av kort. Det är bara en rektangel "
 "med en skugga, som kan innehålla vilket objekt som helst. Det kan också ha "
@@ -37,10 +44,19 @@ msgstr ""
 "Kirigami.Heading dess sidhuvud och Label med WordWrap är contentItem."
 
 #: contents/ui/gallery/CardsLayoutGallery.qml:58
+#, fuzzy
+#| msgctxt "CardsLayoutGallery|"
+#| msgid ""
+#| "This is an AbstractCard with a Label with WordWrap in it and nothing "
+#| "else, it's the simplest form Cards can be found in.\n"
+#| "An AbstractCard can be clicked itself, with the usual onClicked signal "
+#| "handler and the showClickFeedback property can be used if the click "
+#| "should show any kind of visual feedback. It is recommended to set it to "
+#| "true if you plan to make the card reactive on any kind of click."
 msgctxt "CardsLayoutGallery|"
 msgid ""
-"This is an AbstractCard with a Label with WordWrap in it and nothing else, "
-"it's the simplest form Cards can be found in.\n"
+"This is an AbstractCard with a Kirigami.SelectableLabel with WordWrap in it "
+"and nothing else, it's the simplest form Cards can be found in.\n"
 "An AbstractCard can be clicked itself, with the usual onClicked signal "
 "handler and the showClickFeedback property can be used if the click should "
 "show any kind of visual feedback. It is recommended to set it to true if you "
@@ -112,11 +128,17 @@ msgid "Action6"
 msgstr "Åtgärd 6"
 
 #: contents/ui/gallery/CardsLayoutGallery.qml:119
+#, fuzzy
+#| msgctxt "CardsLayoutGallery|"
+#| msgid ""
+#| "The title can be aligned to all corners or centered with a combination of "
+#| "Qt.Alignment flags.\n"
+#| " When there are too many actions, they go in an overflow menu."
 msgctxt "CardsLayoutGallery|"
 msgid ""
 "The title can be aligned to all corners or centered with a combination of Qt."
 "Alignment flags.\n"
-" When there are too many actions, they go in an overflow menu."
+"When there are too many actions, they go in an overflow menu."
 msgstr ""
 "Rubriken kan justeras till alla hörn eller centreras med en kombination av "
 "Qt justeringsflaggor.\n"
@@ -173,10 +195,18 @@ msgid "Ok"
 msgstr "Ok"
 
 #: contents/ui/gallery/CardsLayoutGallery.qml:214
+#, fuzzy
+#| msgctxt "CardsLayoutGallery|"
+#| msgid ""
+#| "A card can optionally have horizontal orientation.\n"
+#| " In this case will be wider than tall, so is fit to be used also in a "
+#| "ColumnLayout.\n"
+#| "If you need to put it in a CardsLayout, it will have by default a "
+#| "columnSpan of 2 (which can be overridden)."
 msgctxt "CardsLayoutGallery|"
 msgid ""
 "A card can optionally have horizontal orientation.\n"
-" In this case will be wider than tall, so is fit to be used also in a "
+"In this case will be wider than tall, so is fit to be used also in a "
 "ColumnLayout.\n"
 "If you need to put it in a CardsLayout, it will have by default a columnSpan "
 "of 2 (which can be overridden)."
@@ -464,7 +494,7 @@ msgctxt "DrawerGallery|"
 msgid "Action 3 clicked"
 msgstr "Åtgärd 3 klickad"
 
-#: contents/ui/gallery/DrawerGallery.qml:64
+#: contents/ui/gallery/DrawerGallery.qml:63
 msgctxt "DrawerGallery|"
 msgid ""
 "A modal bottom drawer will span for the whole application window width and "
@@ -474,15 +504,15 @@ msgstr ""
 "En blockerande undre låda omfattar hela programfönstrets bredd och gör "
 "resten av programmet mörkare. Att klicka på ett mörkat område avfärdar lådan."
 
-#: contents/ui/gallery/DrawerGallery.qml:68
-#: contents/ui/gallery/DrawerGallery.qml:87
-#: contents/ui/gallery/DrawerGallery.qml:106
-#: contents/ui/gallery/DrawerGallery.qml:125
+#: contents/ui/gallery/DrawerGallery.qml:67
+#: contents/ui/gallery/DrawerGallery.qml:86
+#: contents/ui/gallery/DrawerGallery.qml:104
+#: contents/ui/gallery/DrawerGallery.qml:123
 msgctxt "DrawerGallery|"
 msgid "Close"
 msgstr "Stäng"
 
-#: contents/ui/gallery/DrawerGallery.qml:83
+#: contents/ui/gallery/DrawerGallery.qml:82
 msgctxt "DrawerGallery|"
 msgid ""
 "An inline bottom drawer covers the whole application width but lets the "
@@ -491,7 +521,7 @@ msgstr ""
 "En undre låda på plats täcker hela programmets bredd, men gör det möjligt "
 "att fortfarande interagera med de otäckta delarna."
 
-#: contents/ui/gallery/DrawerGallery.qml:102
+#: contents/ui/gallery/DrawerGallery.qml:100
 msgctxt "DrawerGallery|"
 msgid ""
 "A modal top drawer will span for the whole application window width and will "
@@ -501,7 +531,7 @@ msgstr ""
 "En blockerande övre låda omfattar hela programfönstrets bredd och gör resten "
 "av programmet mörkare. Att klicka på ett mörkat område avfärdar lådan."
 
-#: contents/ui/gallery/DrawerGallery.qml:121
+#: contents/ui/gallery/DrawerGallery.qml:119
 msgctxt "DrawerGallery|"
 msgid ""
 "An inline top drawer covers the whole application width but lets the "
@@ -510,22 +540,22 @@ msgstr ""
 "En övre låda på plats täcker hela programmets bredd, men gör det möjligt att "
 "fortfarande interagera med de otäckta delarna."
 
-#: contents/ui/gallery/DrawerGallery.qml:136
+#: contents/ui/gallery/DrawerGallery.qml:134
 msgctxt "DrawerGallery|"
 msgid "Left Global Drawer"
 msgstr "Vänster global låda"
 
-#: contents/ui/gallery/DrawerGallery.qml:141
+#: contents/ui/gallery/DrawerGallery.qml:139
 msgctxt "DrawerGallery|"
 msgid "Right Context Drawer"
 msgstr "Höger sammanhangsberoende låda"
 
-#: contents/ui/gallery/DrawerGallery.qml:147
+#: contents/ui/gallery/DrawerGallery.qml:145
 msgctxt "DrawerGallery|"
 msgid "Modal Bottom Drawer"
 msgstr "Blockerade undre låda"
 
-#: contents/ui/gallery/DrawerGallery.qml:157
+#: contents/ui/gallery/DrawerGallery.qml:155
 msgctxt "DrawerGallery|"
 msgid "Modal Top Drawer"
 msgstr "Blockerade övre låda"
@@ -742,26 +772,26 @@ msgctxt "OverlaySheetGallery|"
 msgid "Overlay Sheets"
 msgstr "Överlagringsblad"
 
-#: contents/ui/gallery/OverlaySheetGallery.qml:67
+#: contents/ui/gallery/OverlaySheetGallery.qml:68
 msgctxt "OverlaySheetGallery|"
 msgid "Close"
 msgstr "Stäng"
 
-#: contents/ui/gallery/OverlaySheetGallery.qml:77
-#: contents/ui/gallery/OverlaySheetGallery.qml:145
-#: contents/ui/gallery/OverlaySheetGallery.qml:171
+#: contents/ui/gallery/OverlaySheetGallery.qml:79
+#: contents/ui/gallery/OverlaySheetGallery.qml:147
+#: contents/ui/gallery/OverlaySheetGallery.qml:173
 msgctxt "OverlaySheetGallery|"
 msgid "Title"
 msgstr "Rubrik"
 
-#: contents/ui/gallery/OverlaySheetGallery.qml:81
-#: contents/ui/gallery/OverlaySheetGallery.qml:149
-#: contents/ui/gallery/OverlaySheetGallery.qml:175
+#: contents/ui/gallery/OverlaySheetGallery.qml:83
+#: contents/ui/gallery/OverlaySheetGallery.qml:151
+#: contents/ui/gallery/OverlaySheetGallery.qml:177
 msgctxt "OverlaySheetGallery|"
 msgid "Footer:"
 msgstr "Sidfot:"
 
-#: contents/ui/gallery/OverlaySheetGallery.qml:92
+#: contents/ui/gallery/OverlaySheetGallery.qml:94
 msgctxt "OverlaySheetGallery|"
 msgid ""
 "A sheet can have optional header and footer items which will not scroll away "
@@ -770,7 +800,7 @@ msgstr ""
 "Ett blad kan ha valfria sidhuvud- och sidfotsobjekt, som inte rullas bort "
 "när bladet blir överfyllt."
 
-#: contents/ui/gallery/OverlaySheetGallery.qml:111
+#: contents/ui/gallery/OverlaySheetGallery.qml:113
 msgctxt "OverlaySheetGallery|"
 msgid ""
 "A sheet will take the maximum available width in the page by default.\n"
@@ -781,7 +811,7 @@ msgstr ""
 "Om huvudobjektet dock anger implicitWidth eller Layout.preferredWidth, "
 "utökas inte bladets bredd mer än ett sådant angivet värde."
 
-#: contents/ui/gallery/OverlaySheetGallery.qml:132
+#: contents/ui/gallery/OverlaySheetGallery.qml:134
 msgctxt "OverlaySheetGallery|"
 msgid ""
 "A sheet by default will be over a single page, even if the app is in wide "
@@ -795,12 +825,12 @@ msgstr ""
 "programfönstret.\n"
 "I sådana fall täcker bladet också sidans åtgärdsknappar."
 
-#: contents/ui/gallery/OverlaySheetGallery.qml:163
+#: contents/ui/gallery/OverlaySheetGallery.qml:165
 msgctxt "OverlaySheetGallery|"
 msgid "Item in sheet "
 msgstr "Objekt på blad"
 
-#: contents/ui/gallery/OverlaySheetGallery.qml:207
+#: contents/ui/gallery/OverlaySheetGallery.qml:209
 msgctxt "OverlaySheetGallery|"
 msgid "Very Long Sheet"
 msgstr "Mycket långt blad"
@@ -810,65 +840,65 @@ msgctxt "SelectionControlsGallery|"
 msgid "Selection Controls"
 msgstr "Urvalskontroller"
 
-#: contents/ui/gallery/SelectionControlsGallery.qml:49
+#: contents/ui/gallery/SelectionControlsGallery.qml:46
 msgctxt "SelectionControlsGallery|"
 msgid "Checkable List Items"
 msgstr "Markeringsbara listobjekt"
 
-#: contents/ui/gallery/SelectionControlsGallery.qml:59
-#: contents/ui/gallery/SelectionControlsGallery.qml:85
-#: contents/ui/gallery/SelectionControlsGallery.qml:111
+#: contents/ui/gallery/SelectionControlsGallery.qml:56
+#: contents/ui/gallery/SelectionControlsGallery.qml:78
+#: contents/ui/gallery/SelectionControlsGallery.qml:100
 #, qt-format
 msgctxt "SelectionControlsGallery|"
 msgid "Delegate %1"
 msgstr "Delegera %1"
 
-#: contents/ui/gallery/SelectionControlsGallery.qml:75
-#: contents/ui/gallery/SelectionControlsGallery.qml:101
+#: contents/ui/gallery/SelectionControlsGallery.qml:68
+#: contents/ui/gallery/SelectionControlsGallery.qml:90
 msgctxt "SelectionControlsGallery|"
 msgid "Radio List Items"
 msgstr "Alternativlistobjekt"
 
-#: contents/ui/gallery/SelectionControlsGallery.qml:120
+#: contents/ui/gallery/SelectionControlsGallery.qml:108
 msgctxt "SelectionControlsGallery|"
 msgid "Checkboxes"
 msgstr "Kryssrutor"
 
-#: contents/ui/gallery/SelectionControlsGallery.qml:124
-#: contents/ui/gallery/SelectionControlsGallery.qml:142
-#: contents/ui/gallery/SelectionControlsGallery.qml:160
+#: contents/ui/gallery/SelectionControlsGallery.qml:112
+#: contents/ui/gallery/SelectionControlsGallery.qml:130
+#: contents/ui/gallery/SelectionControlsGallery.qml:148
 msgctxt "SelectionControlsGallery|"
 msgid "Item selected"
 msgstr "Objekt markerat"
 
-#: contents/ui/gallery/SelectionControlsGallery.qml:128
-#: contents/ui/gallery/SelectionControlsGallery.qml:146
-#: contents/ui/gallery/SelectionControlsGallery.qml:164
+#: contents/ui/gallery/SelectionControlsGallery.qml:116
+#: contents/ui/gallery/SelectionControlsGallery.qml:134
+#: contents/ui/gallery/SelectionControlsGallery.qml:152
 msgctxt "SelectionControlsGallery|"
 msgid "Item not selected"
 msgstr "Objekt ej markerat"
 
-#: contents/ui/gallery/SelectionControlsGallery.qml:132
+#: contents/ui/gallery/SelectionControlsGallery.qml:120
 msgctxt "SelectionControlsGallery|"
 msgid "Checkable List View"
 msgstr "Markeringsbar listvy"
 
-#: contents/ui/gallery/SelectionControlsGallery.qml:138
+#: contents/ui/gallery/SelectionControlsGallery.qml:126
 msgctxt "SelectionControlsGallery|"
 msgid "Radio buttons"
 msgstr "Alternativknappar"
 
-#: contents/ui/gallery/SelectionControlsGallery.qml:151
+#: contents/ui/gallery/SelectionControlsGallery.qml:139
 msgctxt "SelectionControlsGallery|"
 msgid "Radio List View"
 msgstr "Listvy med alternativknappar"
 
-#: contents/ui/gallery/SelectionControlsGallery.qml:157
+#: contents/ui/gallery/SelectionControlsGallery.qml:145
 msgctxt "SelectionControlsGallery|"
 msgid "Switches"
 msgstr "Omkopplare"
 
-#: contents/ui/gallery/SelectionControlsGallery.qml:168
+#: contents/ui/gallery/SelectionControlsGallery.qml:156
 msgctxt "SelectionControlsGallery|"
 msgid "Switch List View"
 msgstr "Listvy med omkopplare"

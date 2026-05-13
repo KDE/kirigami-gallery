@@ -24,12 +24,19 @@ msgid "AbstractCard"
 msgstr "AbstraktiKortti"
 
 #: contents/ui/gallery/CardsLayoutGallery.qml:50
+#, fuzzy
+#| msgctxt "CardsLayoutGallery|"
+#| msgid ""
+#| "An AbstractCard is the simplest form of card. It's just a rectangle with "
+#| "a shadow, which can contain any Item in it. It can also have items "
+#| "assigned to the Header or Footer properties. In this case a Kirigami."
+#| "Heading is its header and a Label with WordWrap is the contentItem."
 msgctxt "CardsLayoutGallery|"
 msgid ""
 "An AbstractCard is the simplest form of card. It's just a rectangle with a "
 "shadow, which can contain any Item in it. It can also have items assigned to "
 "the Header or Footer properties. In this case a Kirigami.Heading is its "
-"header and a Label with WordWrap is the contentItem."
+"header and a Kirigami.SelectableLabel with WordWrap is the contentItem."
 msgstr ""
 "AbstraktiKortti on kortin yksinkertaisin muoto. Se on vain varjostettu "
 "nelikulmio, joka voi sisältää mitä tahansa. Sen ylä- ja "
@@ -37,10 +44,19 @@ msgstr ""
 "Heading on ylätunniste ja sisältö on rivitetty selite."
 
 #: contents/ui/gallery/CardsLayoutGallery.qml:58
+#, fuzzy
+#| msgctxt "CardsLayoutGallery|"
+#| msgid ""
+#| "This is an AbstractCard with a Label with WordWrap in it and nothing "
+#| "else, it's the simplest form Cards can be found in.\n"
+#| "An AbstractCard can be clicked itself, with the usual onClicked signal "
+#| "handler and the showClickFeedback property can be used if the click "
+#| "should show any kind of visual feedback. It is recommended to set it to "
+#| "true if you plan to make the card reactive on any kind of click."
 msgctxt "CardsLayoutGallery|"
 msgid ""
-"This is an AbstractCard with a Label with WordWrap in it and nothing else, "
-"it's the simplest form Cards can be found in.\n"
+"This is an AbstractCard with a Kirigami.SelectableLabel with WordWrap in it "
+"and nothing else, it's the simplest form Cards can be found in.\n"
 "An AbstractCard can be clicked itself, with the usual onClicked signal "
 "handler and the showClickFeedback property can be used if the click should "
 "show any kind of visual feedback. It is recommended to set it to true if you "
@@ -113,7 +129,7 @@ msgctxt "CardsLayoutGallery|"
 msgid ""
 "The title can be aligned to all corners or centered with a combination of Qt."
 "Alignment flags.\n"
-" When there are too many actions, they go in an overflow menu."
+"When there are too many actions, they go in an overflow menu."
 msgstr ""
 
 #: contents/ui/gallery/CardsLayoutGallery.qml:134
@@ -157,10 +173,18 @@ msgid "Ok"
 msgstr "OK"
 
 #: contents/ui/gallery/CardsLayoutGallery.qml:214
+#, fuzzy
+#| msgctxt "CardsLayoutGallery|"
+#| msgid ""
+#| "A card can optionally have horizontal orientation.\n"
+#| " In this case will be wider than tall, so is fit to be used also in a "
+#| "ColumnLayout.\n"
+#| "If you need to put it in a CardsLayout, it will have by default a "
+#| "columnSpan of 2 (which can be overridden)."
 msgctxt "CardsLayoutGallery|"
 msgid ""
 "A card can optionally have horizontal orientation.\n"
-" In this case will be wider than tall, so is fit to be used also in a "
+"In this case will be wider than tall, so is fit to be used also in a "
 "ColumnLayout.\n"
 "If you need to put it in a CardsLayout, it will have by default a columnSpan "
 "of 2 (which can be overridden)."
@@ -450,7 +474,7 @@ msgctxt "DrawerGallery|"
 msgid "Action 3 clicked"
 msgstr "Toimintoa 3 napsautettu"
 
-#: contents/ui/gallery/DrawerGallery.qml:64
+#: contents/ui/gallery/DrawerGallery.qml:63
 msgctxt "DrawerGallery|"
 msgid ""
 "A modal bottom drawer will span for the whole application window width and "
@@ -460,22 +484,22 @@ msgstr ""
 "Modaalinen alalaatikko laajenee sovellusikkunan koko leveyteen ja tummentaa "
 "muun sovelluksen. Laatikko sulkeutuu napsauttamalla tummaa osaa."
 
-#: contents/ui/gallery/DrawerGallery.qml:68
-#: contents/ui/gallery/DrawerGallery.qml:87
-#: contents/ui/gallery/DrawerGallery.qml:106
-#: contents/ui/gallery/DrawerGallery.qml:125
+#: contents/ui/gallery/DrawerGallery.qml:67
+#: contents/ui/gallery/DrawerGallery.qml:86
+#: contents/ui/gallery/DrawerGallery.qml:104
+#: contents/ui/gallery/DrawerGallery.qml:123
 msgctxt "DrawerGallery|"
 msgid "Close"
 msgstr "Sulje"
 
-#: contents/ui/gallery/DrawerGallery.qml:83
+#: contents/ui/gallery/DrawerGallery.qml:82
 msgctxt "DrawerGallery|"
 msgid ""
 "An inline bottom drawer covers the whole application width but lets the "
 "uncovered pieces to still be interacted with."
 msgstr ""
 
-#: contents/ui/gallery/DrawerGallery.qml:102
+#: contents/ui/gallery/DrawerGallery.qml:100
 msgctxt "DrawerGallery|"
 msgid ""
 "A modal top drawer will span for the whole application window width and will "
@@ -485,29 +509,29 @@ msgstr ""
 "Modaalinen ylälaatikko laajenee sovellusikkunan koko leveyteen ja tummentaa "
 "muun sovelluksen. Laatikko sulkeutuu napsauttamalla tummaa osaa."
 
-#: contents/ui/gallery/DrawerGallery.qml:121
+#: contents/ui/gallery/DrawerGallery.qml:119
 msgctxt "DrawerGallery|"
 msgid ""
 "An inline top drawer covers the whole application width but lets the "
 "uncovered pieces to still be interacted with."
 msgstr ""
 
-#: contents/ui/gallery/DrawerGallery.qml:136
+#: contents/ui/gallery/DrawerGallery.qml:134
 msgctxt "DrawerGallery|"
 msgid "Left Global Drawer"
 msgstr "Vasen yleinen laatikko"
 
-#: contents/ui/gallery/DrawerGallery.qml:141
+#: contents/ui/gallery/DrawerGallery.qml:139
 msgctxt "DrawerGallery|"
 msgid "Right Context Drawer"
 msgstr "Oikea kontekstilaatikko"
 
-#: contents/ui/gallery/DrawerGallery.qml:147
+#: contents/ui/gallery/DrawerGallery.qml:145
 msgctxt "DrawerGallery|"
 msgid "Modal Bottom Drawer"
 msgstr "Modaalinen alalaatikko"
 
-#: contents/ui/gallery/DrawerGallery.qml:157
+#: contents/ui/gallery/DrawerGallery.qml:155
 msgctxt "DrawerGallery|"
 msgid "Modal Top Drawer"
 msgstr "Modaalinen ylälaatikko"
@@ -709,26 +733,26 @@ msgctxt "OverlaySheetGallery|"
 msgid "Overlay Sheets"
 msgstr "Peittoarkit"
 
-#: contents/ui/gallery/OverlaySheetGallery.qml:67
+#: contents/ui/gallery/OverlaySheetGallery.qml:68
 msgctxt "OverlaySheetGallery|"
 msgid "Close"
 msgstr "Sulje"
 
-#: contents/ui/gallery/OverlaySheetGallery.qml:77
-#: contents/ui/gallery/OverlaySheetGallery.qml:145
-#: contents/ui/gallery/OverlaySheetGallery.qml:171
+#: contents/ui/gallery/OverlaySheetGallery.qml:79
+#: contents/ui/gallery/OverlaySheetGallery.qml:147
+#: contents/ui/gallery/OverlaySheetGallery.qml:173
 msgctxt "OverlaySheetGallery|"
 msgid "Title"
 msgstr "Otsikko"
 
-#: contents/ui/gallery/OverlaySheetGallery.qml:81
-#: contents/ui/gallery/OverlaySheetGallery.qml:149
-#: contents/ui/gallery/OverlaySheetGallery.qml:175
+#: contents/ui/gallery/OverlaySheetGallery.qml:83
+#: contents/ui/gallery/OverlaySheetGallery.qml:151
+#: contents/ui/gallery/OverlaySheetGallery.qml:177
 msgctxt "OverlaySheetGallery|"
 msgid "Footer:"
 msgstr "Alatunniste"
 
-#: contents/ui/gallery/OverlaySheetGallery.qml:92
+#: contents/ui/gallery/OverlaySheetGallery.qml:94
 msgctxt "OverlaySheetGallery|"
 msgid ""
 "A sheet can have optional header and footer items which will not scroll away "
@@ -737,7 +761,7 @@ msgstr ""
 "Arkilla voi olla valinnaisia ylä- ja alatunnistekohteita, joita ei vieritetä "
 "pois arkin valuessa yli näytöltä."
 
-#: contents/ui/gallery/OverlaySheetGallery.qml:111
+#: contents/ui/gallery/OverlaySheetGallery.qml:113
 msgctxt "OverlaySheetGallery|"
 msgid ""
 "A sheet will take the maximum available width in the page by default.\n"
@@ -748,7 +772,7 @@ msgstr ""
 "Jos pääkohde kuitenkin asettaa implicitWidth- tai Layout.preferredWidth-"
 "ominaisuuden, arkki ei kasva leveyttä yli näiden määrittämän arvon."
 
-#: contents/ui/gallery/OverlaySheetGallery.qml:132
+#: contents/ui/gallery/OverlaySheetGallery.qml:134
 msgctxt "OverlaySheetGallery|"
 msgid ""
 "A sheet by default will be over a single page, even if the app is in wide "
@@ -761,12 +785,12 @@ msgstr ""
 "esitetään koko sovellusikkunan peittona.\n"
 "Tällöin arkki peittää sivun toimintopainikkeetkin."
 
-#: contents/ui/gallery/OverlaySheetGallery.qml:163
+#: contents/ui/gallery/OverlaySheetGallery.qml:165
 msgctxt "OverlaySheetGallery|"
 msgid "Item in sheet "
 msgstr "Kohde arkilla "
 
-#: contents/ui/gallery/OverlaySheetGallery.qml:207
+#: contents/ui/gallery/OverlaySheetGallery.qml:209
 msgctxt "OverlaySheetGallery|"
 msgid "Very Long Sheet"
 msgstr "Hyvin pitkä arkki"
@@ -776,65 +800,65 @@ msgctxt "SelectionControlsGallery|"
 msgid "Selection Controls"
 msgstr "Valintasäätimet"
 
-#: contents/ui/gallery/SelectionControlsGallery.qml:49
+#: contents/ui/gallery/SelectionControlsGallery.qml:46
 msgctxt "SelectionControlsGallery|"
 msgid "Checkable List Items"
 msgstr "Valittavissa olevat luettelokohdat"
 
-#: contents/ui/gallery/SelectionControlsGallery.qml:59
-#: contents/ui/gallery/SelectionControlsGallery.qml:85
-#: contents/ui/gallery/SelectionControlsGallery.qml:111
+#: contents/ui/gallery/SelectionControlsGallery.qml:56
+#: contents/ui/gallery/SelectionControlsGallery.qml:78
+#: contents/ui/gallery/SelectionControlsGallery.qml:100
 #, qt-format
 msgctxt "SelectionControlsGallery|"
 msgid "Delegate %1"
 msgstr "Delegoi %1"
 
-#: contents/ui/gallery/SelectionControlsGallery.qml:75
-#: contents/ui/gallery/SelectionControlsGallery.qml:101
+#: contents/ui/gallery/SelectionControlsGallery.qml:68
+#: contents/ui/gallery/SelectionControlsGallery.qml:90
 msgctxt "SelectionControlsGallery|"
 msgid "Radio List Items"
 msgstr "Radioluettelonäkymä"
 
-#: contents/ui/gallery/SelectionControlsGallery.qml:120
+#: contents/ui/gallery/SelectionControlsGallery.qml:108
 msgctxt "SelectionControlsGallery|"
 msgid "Checkboxes"
 msgstr "Valintaruudut"
 
-#: contents/ui/gallery/SelectionControlsGallery.qml:124
-#: contents/ui/gallery/SelectionControlsGallery.qml:142
-#: contents/ui/gallery/SelectionControlsGallery.qml:160
+#: contents/ui/gallery/SelectionControlsGallery.qml:112
+#: contents/ui/gallery/SelectionControlsGallery.qml:130
+#: contents/ui/gallery/SelectionControlsGallery.qml:148
 msgctxt "SelectionControlsGallery|"
 msgid "Item selected"
 msgstr "Kohde valittu"
 
-#: contents/ui/gallery/SelectionControlsGallery.qml:128
-#: contents/ui/gallery/SelectionControlsGallery.qml:146
-#: contents/ui/gallery/SelectionControlsGallery.qml:164
+#: contents/ui/gallery/SelectionControlsGallery.qml:116
+#: contents/ui/gallery/SelectionControlsGallery.qml:134
+#: contents/ui/gallery/SelectionControlsGallery.qml:152
 msgctxt "SelectionControlsGallery|"
 msgid "Item not selected"
 msgstr "Kohdetta ei ole valittu"
 
-#: contents/ui/gallery/SelectionControlsGallery.qml:132
+#: contents/ui/gallery/SelectionControlsGallery.qml:120
 msgctxt "SelectionControlsGallery|"
 msgid "Checkable List View"
 msgstr "Valittava luettelonäkymä"
 
-#: contents/ui/gallery/SelectionControlsGallery.qml:138
+#: contents/ui/gallery/SelectionControlsGallery.qml:126
 msgctxt "SelectionControlsGallery|"
 msgid "Radio buttons"
 msgstr "Radiopainikkeet"
 
-#: contents/ui/gallery/SelectionControlsGallery.qml:151
+#: contents/ui/gallery/SelectionControlsGallery.qml:139
 msgctxt "SelectionControlsGallery|"
 msgid "Radio List View"
 msgstr "Radioluettelonäkymä"
 
-#: contents/ui/gallery/SelectionControlsGallery.qml:157
+#: contents/ui/gallery/SelectionControlsGallery.qml:145
 msgctxt "SelectionControlsGallery|"
 msgid "Switches"
 msgstr "Kytkimet"
 
-#: contents/ui/gallery/SelectionControlsGallery.qml:168
+#: contents/ui/gallery/SelectionControlsGallery.qml:156
 msgctxt "SelectionControlsGallery|"
 msgid "Switch List View"
 msgstr "Kytkinluettelonäkymä"

@@ -24,12 +24,19 @@ msgid "AbstractCard"
 msgstr "अमूर्तकार्ड"
 
 #: contents/ui/gallery/CardsLayoutGallery.qml:50
+#, fuzzy
+#| msgctxt "CardsLayoutGallery|"
+#| msgid ""
+#| "An AbstractCard is the simplest form of card. It's just a rectangle with "
+#| "a shadow, which can contain any Item in it. It can also have items "
+#| "assigned to the Header or Footer properties. In this case a Kirigami."
+#| "Heading is its header and a Label with WordWrap is the contentItem."
 msgctxt "CardsLayoutGallery|"
 msgid ""
 "An AbstractCard is the simplest form of card. It's just a rectangle with a "
 "shadow, which can contain any Item in it. It can also have items assigned to "
 "the Header or Footer properties. In this case a Kirigami.Heading is its "
-"header and a Label with WordWrap is the contentItem."
+"header and a Kirigami.SelectableLabel with WordWrap is the contentItem."
 msgstr ""
 "AbstractCard इति कार्डस्य सरलतमं रूपम् अस्ति । इदं केवलं छायायुक्तं आयतम् अस्ति, यस्मिन् "
 "किमपि Item भवितुं शक्नोति । अस्मिन् Header अथवा Footer गुणेषु नियुक्तानि वस्तूनि अपि "
@@ -37,10 +44,19 @@ msgstr ""
 "सहितं Label contentItem भवति ।"
 
 #: contents/ui/gallery/CardsLayoutGallery.qml:58
+#, fuzzy
+#| msgctxt "CardsLayoutGallery|"
+#| msgid ""
+#| "This is an AbstractCard with a Label with WordWrap in it and nothing "
+#| "else, it's the simplest form Cards can be found in.\n"
+#| "An AbstractCard can be clicked itself, with the usual onClicked signal "
+#| "handler and the showClickFeedback property can be used if the click "
+#| "should show any kind of visual feedback. It is recommended to set it to "
+#| "true if you plan to make the card reactive on any kind of click."
 msgctxt "CardsLayoutGallery|"
 msgid ""
-"This is an AbstractCard with a Label with WordWrap in it and nothing else, "
-"it's the simplest form Cards can be found in.\n"
+"This is an AbstractCard with a Kirigami.SelectableLabel with WordWrap in it "
+"and nothing else, it's the simplest form Cards can be found in.\n"
 "An AbstractCard can be clicked itself, with the usual onClicked signal "
 "handler and the showClickFeedback property can be used if the click should "
 "show any kind of visual feedback. It is recommended to set it to true if you "
@@ -112,11 +128,17 @@ msgid "Action6"
 msgstr "कर्म६"
 
 #: contents/ui/gallery/CardsLayoutGallery.qml:119
+#, fuzzy
+#| msgctxt "CardsLayoutGallery|"
+#| msgid ""
+#| "The title can be aligned to all corners or centered with a combination of "
+#| "Qt.Alignment flags.\n"
+#| " When there are too many actions, they go in an overflow menu."
 msgctxt "CardsLayoutGallery|"
 msgid ""
 "The title can be aligned to all corners or centered with a combination of Qt."
 "Alignment flags.\n"
-" When there are too many actions, they go in an overflow menu."
+"When there are too many actions, they go in an overflow menu."
 msgstr ""
 "शीर्षकं सर्वेषु कोणेषु संरेखितुं वा Qt.Alignment ध्वजानां संयोजनेन केन्द्रीकृत्य वा कर्तुं शक्यते ।\n"
 " यदा अत्यधिकाः क्रियाः भवन्ति तदा ते ओवरफ्लो मेन्यू मध्ये गच्छन्ति ।"
@@ -169,10 +191,18 @@ msgid "Ok"
 msgstr "अस्तु"
 
 #: contents/ui/gallery/CardsLayoutGallery.qml:214
+#, fuzzy
+#| msgctxt "CardsLayoutGallery|"
+#| msgid ""
+#| "A card can optionally have horizontal orientation.\n"
+#| " In this case will be wider than tall, so is fit to be used also in a "
+#| "ColumnLayout.\n"
+#| "If you need to put it in a CardsLayout, it will have by default a "
+#| "columnSpan of 2 (which can be overridden)."
 msgctxt "CardsLayoutGallery|"
 msgid ""
 "A card can optionally have horizontal orientation.\n"
-" In this case will be wider than tall, so is fit to be used also in a "
+"In this case will be wider than tall, so is fit to be used also in a "
 "ColumnLayout.\n"
 "If you need to put it in a CardsLayout, it will have by default a columnSpan "
 "of 2 (which can be overridden)."
@@ -455,7 +485,7 @@ msgctxt "DrawerGallery|"
 msgid "Action 3 clicked"
 msgstr "क्रिया ३ क्लिक् कृतवती"
 
-#: contents/ui/gallery/DrawerGallery.qml:64
+#: contents/ui/gallery/DrawerGallery.qml:63
 msgctxt "DrawerGallery|"
 msgid ""
 "A modal bottom drawer will span for the whole application window width and "
@@ -465,15 +495,15 @@ msgstr ""
 "एकः मोडल् तलस्य दराजः सम्पूर्णस्य अनुप्रयोगस्य विण्डोविस्तारस्य कृते व्याप्तः भविष्यति तथा च "
 "शेषं एप् अन्धकारं करिष्यति । अन्धकारयुक्ते क्लिक् करणेन दराजं विसर्जितं भविष्यति ।"
 
-#: contents/ui/gallery/DrawerGallery.qml:68
-#: contents/ui/gallery/DrawerGallery.qml:87
-#: contents/ui/gallery/DrawerGallery.qml:106
-#: contents/ui/gallery/DrawerGallery.qml:125
+#: contents/ui/gallery/DrawerGallery.qml:67
+#: contents/ui/gallery/DrawerGallery.qml:86
+#: contents/ui/gallery/DrawerGallery.qml:104
+#: contents/ui/gallery/DrawerGallery.qml:123
 msgctxt "DrawerGallery|"
 msgid "Close"
 msgstr "पिधानं करोतु"
 
-#: contents/ui/gallery/DrawerGallery.qml:83
+#: contents/ui/gallery/DrawerGallery.qml:82
 msgctxt "DrawerGallery|"
 msgid ""
 "An inline bottom drawer covers the whole application width but lets the "
@@ -482,7 +512,7 @@ msgstr ""
 "एकः इनलाइन् तलस्य दराजः सम्पूर्णं अनुप्रयोगविस्तारं आच्छादयति परन्तु अनकवरितखण्डान् अद्यापि "
 "अन्तरक्रियां कर्तुं ददाति ।"
 
-#: contents/ui/gallery/DrawerGallery.qml:102
+#: contents/ui/gallery/DrawerGallery.qml:100
 msgctxt "DrawerGallery|"
 msgid ""
 "A modal top drawer will span for the whole application window width and will "
@@ -493,7 +523,7 @@ msgstr ""
 "शेष-अनुप्रयोगस्य अन्धकारं करिष्यति । अन्धकारयुक्ते क्षेत्रे क्लिक् करणेन दराजः निष्कासितः "
 "भविष्यति ।"
 
-#: contents/ui/gallery/DrawerGallery.qml:121
+#: contents/ui/gallery/DrawerGallery.qml:119
 msgctxt "DrawerGallery|"
 msgid ""
 "An inline top drawer covers the whole application width but lets the "
@@ -502,22 +532,22 @@ msgstr ""
 "एकः इनलाइन शीर्ष दराजः सम्पूर्णं अनुप्रयोगविस्तारं आच्छादयति परन्तु अनकवरितखण्डान् अद्यापि "
 "अन्तरक्रियां कर्तुं ददाति ।"
 
-#: contents/ui/gallery/DrawerGallery.qml:136
+#: contents/ui/gallery/DrawerGallery.qml:134
 msgctxt "DrawerGallery|"
 msgid "Left Global Drawer"
 msgstr "वामभागे वैश्विकदराजः"
 
-#: contents/ui/gallery/DrawerGallery.qml:141
+#: contents/ui/gallery/DrawerGallery.qml:139
 msgctxt "DrawerGallery|"
 msgid "Right Context Drawer"
 msgstr "सही सन्दर्भ दराज"
 
-#: contents/ui/gallery/DrawerGallery.qml:147
+#: contents/ui/gallery/DrawerGallery.qml:145
 msgctxt "DrawerGallery|"
 msgid "Modal Bottom Drawer"
 msgstr "मोडल तल दराज"
 
-#: contents/ui/gallery/DrawerGallery.qml:157
+#: contents/ui/gallery/DrawerGallery.qml:155
 msgctxt "DrawerGallery|"
 msgid "Modal Top Drawer"
 msgstr "मोडल शीर्ष दराज"
@@ -731,26 +761,26 @@ msgctxt "OverlaySheetGallery|"
 msgid "Overlay Sheets"
 msgstr "आच्छादनपत्राणि"
 
-#: contents/ui/gallery/OverlaySheetGallery.qml:67
+#: contents/ui/gallery/OverlaySheetGallery.qml:68
 msgctxt "OverlaySheetGallery|"
 msgid "Close"
 msgstr "पिधानं करोतु"
 
-#: contents/ui/gallery/OverlaySheetGallery.qml:77
-#: contents/ui/gallery/OverlaySheetGallery.qml:145
-#: contents/ui/gallery/OverlaySheetGallery.qml:171
+#: contents/ui/gallery/OverlaySheetGallery.qml:79
+#: contents/ui/gallery/OverlaySheetGallery.qml:147
+#: contents/ui/gallery/OverlaySheetGallery.qml:173
 msgctxt "OverlaySheetGallery|"
 msgid "Title"
 msgstr "शीर्षक"
 
-#: contents/ui/gallery/OverlaySheetGallery.qml:81
-#: contents/ui/gallery/OverlaySheetGallery.qml:149
-#: contents/ui/gallery/OverlaySheetGallery.qml:175
+#: contents/ui/gallery/OverlaySheetGallery.qml:83
+#: contents/ui/gallery/OverlaySheetGallery.qml:151
+#: contents/ui/gallery/OverlaySheetGallery.qml:177
 msgctxt "OverlaySheetGallery|"
 msgid "Footer:"
 msgstr "पादलेखः :"
 
-#: contents/ui/gallery/OverlaySheetGallery.qml:92
+#: contents/ui/gallery/OverlaySheetGallery.qml:94
 msgctxt "OverlaySheetGallery|"
 msgid ""
 "A sheet can have optional header and footer items which will not scroll away "
@@ -759,7 +789,7 @@ msgstr ""
 "एकस्मिन् पत्रे वैकल्पिकशीर्षकं पादलेखं च भवितुम् अर्हति ये पत्रस्य अतिप्रवाहस्य समये दूरं न स्क्रॉल "
 "करिष्यन्ति ।"
 
-#: contents/ui/gallery/OverlaySheetGallery.qml:111
+#: contents/ui/gallery/OverlaySheetGallery.qml:113
 msgctxt "OverlaySheetGallery|"
 msgid ""
 "A sheet will take the maximum available width in the page by default.\n"
@@ -770,7 +800,7 @@ msgstr ""
 "तथापि, यदि मुख्यवस्तु implicitWidth अथवा Layout.preferredWidth सेट् करोति, तर्हि "
 "पत्रस्य विस्तारः एतादृशेन दत्तमूल्यात् अधिकं न वर्धते ।"
 
-#: contents/ui/gallery/OverlaySheetGallery.qml:132
+#: contents/ui/gallery/OverlaySheetGallery.qml:134
 msgctxt "OverlaySheetGallery|"
 msgid ""
 "A sheet by default will be over a single page, even if the app is in wide "
@@ -783,12 +813,12 @@ msgstr ""
 "window इत्यस्य उपरि sheet इत्येतत् overlay इत्यस्य रूपेण प्रदर्शयिष्यति ।\n"
 "अस्मिन् सन्दर्भे पत्रं पृष्ठस्य Action बटन् अपि आच्छादयिष्यति ।"
 
-#: contents/ui/gallery/OverlaySheetGallery.qml:163
+#: contents/ui/gallery/OverlaySheetGallery.qml:165
 msgctxt "OverlaySheetGallery|"
 msgid "Item in sheet "
 msgstr "पत्रे मदः "
 
-#: contents/ui/gallery/OverlaySheetGallery.qml:207
+#: contents/ui/gallery/OverlaySheetGallery.qml:209
 msgctxt "OverlaySheetGallery|"
 msgid "Very Long Sheet"
 msgstr "अतीव दीर्घपत्रम्"
@@ -798,65 +828,65 @@ msgctxt "SelectionControlsGallery|"
 msgid "Selection Controls"
 msgstr "चयननियन्त्रणम्"
 
-#: contents/ui/gallery/SelectionControlsGallery.qml:49
+#: contents/ui/gallery/SelectionControlsGallery.qml:46
 msgctxt "SelectionControlsGallery|"
 msgid "Checkable List Items"
 msgstr "जाँचयोग्याः सूचीवस्तूनाम्"
 
-#: contents/ui/gallery/SelectionControlsGallery.qml:59
-#: contents/ui/gallery/SelectionControlsGallery.qml:85
-#: contents/ui/gallery/SelectionControlsGallery.qml:111
+#: contents/ui/gallery/SelectionControlsGallery.qml:56
+#: contents/ui/gallery/SelectionControlsGallery.qml:78
+#: contents/ui/gallery/SelectionControlsGallery.qml:100
 #, qt-format
 msgctxt "SelectionControlsGallery|"
 msgid "Delegate %1"
 msgstr "प्रतिनिधि %1"
 
-#: contents/ui/gallery/SelectionControlsGallery.qml:75
-#: contents/ui/gallery/SelectionControlsGallery.qml:101
+#: contents/ui/gallery/SelectionControlsGallery.qml:68
+#: contents/ui/gallery/SelectionControlsGallery.qml:90
 msgctxt "SelectionControlsGallery|"
 msgid "Radio List Items"
 msgstr "रेडियो सूची द्रव्यम्"
 
-#: contents/ui/gallery/SelectionControlsGallery.qml:120
+#: contents/ui/gallery/SelectionControlsGallery.qml:108
 msgctxt "SelectionControlsGallery|"
 msgid "Checkboxes"
 msgstr "चेकबॉक्साः"
 
-#: contents/ui/gallery/SelectionControlsGallery.qml:124
-#: contents/ui/gallery/SelectionControlsGallery.qml:142
-#: contents/ui/gallery/SelectionControlsGallery.qml:160
+#: contents/ui/gallery/SelectionControlsGallery.qml:112
+#: contents/ui/gallery/SelectionControlsGallery.qml:130
+#: contents/ui/gallery/SelectionControlsGallery.qml:148
 msgctxt "SelectionControlsGallery|"
 msgid "Item selected"
 msgstr "द्रव्यं चयनितम्"
 
-#: contents/ui/gallery/SelectionControlsGallery.qml:128
-#: contents/ui/gallery/SelectionControlsGallery.qml:146
-#: contents/ui/gallery/SelectionControlsGallery.qml:164
+#: contents/ui/gallery/SelectionControlsGallery.qml:116
+#: contents/ui/gallery/SelectionControlsGallery.qml:134
+#: contents/ui/gallery/SelectionControlsGallery.qml:152
 msgctxt "SelectionControlsGallery|"
 msgid "Item not selected"
 msgstr "द्रव्यं न चयनितम्"
 
-#: contents/ui/gallery/SelectionControlsGallery.qml:132
+#: contents/ui/gallery/SelectionControlsGallery.qml:120
 msgctxt "SelectionControlsGallery|"
 msgid "Checkable List View"
 msgstr "जाँचयोग्यः सूचीदृश्यम्"
 
-#: contents/ui/gallery/SelectionControlsGallery.qml:138
+#: contents/ui/gallery/SelectionControlsGallery.qml:126
 msgctxt "SelectionControlsGallery|"
 msgid "Radio buttons"
 msgstr "रेडियो बटन"
 
-#: contents/ui/gallery/SelectionControlsGallery.qml:151
+#: contents/ui/gallery/SelectionControlsGallery.qml:139
 msgctxt "SelectionControlsGallery|"
 msgid "Radio List View"
 msgstr "रेडियो सूची दृश्य"
 
-#: contents/ui/gallery/SelectionControlsGallery.qml:157
+#: contents/ui/gallery/SelectionControlsGallery.qml:145
 msgctxt "SelectionControlsGallery|"
 msgid "Switches"
 msgstr "स्विच करोति"
 
-#: contents/ui/gallery/SelectionControlsGallery.qml:168
+#: contents/ui/gallery/SelectionControlsGallery.qml:156
 msgctxt "SelectionControlsGallery|"
 msgid "Switch List View"
 msgstr "सूचीदृश्यं स्विच कुर्वन्तु"

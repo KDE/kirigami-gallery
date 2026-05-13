@@ -31,12 +31,19 @@ msgid "AbstractCard"
 msgstr "AbstractCard"
 
 #: contents/ui/gallery/CardsLayoutGallery.qml:50
+#, fuzzy
+#| msgctxt "CardsLayoutGallery|"
+#| msgid ""
+#| "An AbstractCard is the simplest form of card. It's just a rectangle with "
+#| "a shadow, which can contain any Item in it. It can also have items "
+#| "assigned to the Header or Footer properties. In this case a Kirigami."
+#| "Heading is its header and a Label with WordWrap is the contentItem."
 msgctxt "CardsLayoutGallery|"
 msgid ""
 "An AbstractCard is the simplest form of card. It's just a rectangle with a "
 "shadow, which can contain any Item in it. It can also have items assigned to "
 "the Header or Footer properties. In this case a Kirigami.Heading is its "
-"header and a Label with WordWrap is the contentItem."
+"header and a Kirigami.SelectableLabel with WordWrap is the contentItem."
 msgstr ""
 "AbstractCard є найпростішою формою картки. Це лише прямокутник із тінню, "
 "який може містити у собі будь-який елемент. Він також може містити елементи, "
@@ -44,10 +51,19 @@ msgstr ""
 "Heading є верхнім колонтитулом, а Label із WordWrap є значенням contentItem."
 
 #: contents/ui/gallery/CardsLayoutGallery.qml:58
+#, fuzzy
+#| msgctxt "CardsLayoutGallery|"
+#| msgid ""
+#| "This is an AbstractCard with a Label with WordWrap in it and nothing "
+#| "else, it's the simplest form Cards can be found in.\n"
+#| "An AbstractCard can be clicked itself, with the usual onClicked signal "
+#| "handler and the showClickFeedback property can be used if the click "
+#| "should show any kind of visual feedback. It is recommended to set it to "
+#| "true if you plan to make the card reactive on any kind of click."
 msgctxt "CardsLayoutGallery|"
 msgid ""
-"This is an AbstractCard with a Label with WordWrap in it and nothing else, "
-"it's the simplest form Cards can be found in.\n"
+"This is an AbstractCard with a Kirigami.SelectableLabel with WordWrap in it "
+"and nothing else, it's the simplest form Cards can be found in.\n"
 "An AbstractCard can be clicked itself, with the usual onClicked signal "
 "handler and the showClickFeedback property can be used if the click should "
 "show any kind of visual feedback. It is recommended to set it to true if you "
@@ -121,11 +137,17 @@ msgid "Action6"
 msgstr "Дія6"
 
 #: contents/ui/gallery/CardsLayoutGallery.qml:119
+#, fuzzy
+#| msgctxt "CardsLayoutGallery|"
+#| msgid ""
+#| "The title can be aligned to all corners or centered with a combination of "
+#| "Qt.Alignment flags.\n"
+#| " When there are too many actions, they go in an overflow menu."
 msgctxt "CardsLayoutGallery|"
 msgid ""
 "The title can be aligned to all corners or centered with a combination of Qt."
 "Alignment flags.\n"
-" When there are too many actions, they go in an overflow menu."
+"When there are too many actions, they go in an overflow menu."
 msgstr ""
 "Заголовок може бути вирівняно за усіма кутами картки або розташовано у "
 "центрі за допомогою комбінацій прапорців Qt.Alignment.\n"
@@ -185,10 +207,18 @@ msgid "Ok"
 msgstr "Гаразд"
 
 #: contents/ui/gallery/CardsLayoutGallery.qml:214
+#, fuzzy
+#| msgctxt "CardsLayoutGallery|"
+#| msgid ""
+#| "A card can optionally have horizontal orientation.\n"
+#| " In this case will be wider than tall, so is fit to be used also in a "
+#| "ColumnLayout.\n"
+#| "If you need to put it in a CardsLayout, it will have by default a "
+#| "columnSpan of 2 (which can be overridden)."
 msgctxt "CardsLayoutGallery|"
 msgid ""
 "A card can optionally have horizontal orientation.\n"
-" In this case will be wider than tall, so is fit to be used also in a "
+"In this case will be wider than tall, so is fit to be used also in a "
 "ColumnLayout.\n"
 "If you need to put it in a CardsLayout, it will have by default a columnSpan "
 "of 2 (which can be overridden)."
@@ -473,7 +503,7 @@ msgctxt "DrawerGallery|"
 msgid "Action 3 clicked"
 msgstr "Натиснуто пункт дії 3"
 
-#: contents/ui/gallery/DrawerGallery.qml:64
+#: contents/ui/gallery/DrawerGallery.qml:63
 msgctxt "DrawerGallery|"
 msgid ""
 "A modal bottom drawer will span for the whole application window width and "
@@ -484,15 +514,15 @@ msgstr ""
 "затінює решту вікна програми і має ширину рівну ширині вікна. Клацання на "
 "затемненій області вікна призведе до згортання висувної панелі."
 
-#: contents/ui/gallery/DrawerGallery.qml:68
-#: contents/ui/gallery/DrawerGallery.qml:87
-#: contents/ui/gallery/DrawerGallery.qml:106
-#: contents/ui/gallery/DrawerGallery.qml:125
+#: contents/ui/gallery/DrawerGallery.qml:67
+#: contents/ui/gallery/DrawerGallery.qml:86
+#: contents/ui/gallery/DrawerGallery.qml:104
+#: contents/ui/gallery/DrawerGallery.qml:123
 msgctxt "DrawerGallery|"
 msgid "Close"
 msgstr "Закрити"
 
-#: contents/ui/gallery/DrawerGallery.qml:83
+#: contents/ui/gallery/DrawerGallery.qml:82
 msgctxt "DrawerGallery|"
 msgid ""
 "An inline bottom drawer covers the whole application width but lets the "
@@ -501,7 +531,7 @@ msgstr ""
 "Вбудована висувна панель має ширину усього вікна програми, але надає змогу "
 "користуватися незакритими нею частинами інтерфейсу вікна програми."
 
-#: contents/ui/gallery/DrawerGallery.qml:102
+#: contents/ui/gallery/DrawerGallery.qml:100
 msgctxt "DrawerGallery|"
 msgid ""
 "A modal top drawer will span for the whole application window width and will "
@@ -512,29 +542,29 @@ msgstr ""
 "затінює решту вікна програми і має ширину рівну ширині вікна. Клацання на "
 "затемненій області вікна призведе до згортання висувної панелі."
 
-#: contents/ui/gallery/DrawerGallery.qml:121
+#: contents/ui/gallery/DrawerGallery.qml:119
 msgctxt "DrawerGallery|"
 msgid ""
 "An inline top drawer covers the whole application width but lets the "
 "uncovered pieces to still be interacted with."
 msgstr "Вбудована нижня висувна панель…"
 
-#: contents/ui/gallery/DrawerGallery.qml:136
+#: contents/ui/gallery/DrawerGallery.qml:134
 msgctxt "DrawerGallery|"
 msgid "Left Global Drawer"
 msgstr "Ліва загальна висувна панель"
 
-#: contents/ui/gallery/DrawerGallery.qml:141
+#: contents/ui/gallery/DrawerGallery.qml:139
 msgctxt "DrawerGallery|"
 msgid "Right Context Drawer"
 msgstr "Права контекстна висувна панель"
 
-#: contents/ui/gallery/DrawerGallery.qml:147
+#: contents/ui/gallery/DrawerGallery.qml:145
 msgctxt "DrawerGallery|"
 msgid "Modal Bottom Drawer"
 msgstr "Модальна нижня висувна панель"
 
-#: contents/ui/gallery/DrawerGallery.qml:157
+#: contents/ui/gallery/DrawerGallery.qml:155
 msgctxt "DrawerGallery|"
 msgid "Modal Top Drawer"
 msgstr "Модальна верхня висувна панель"
@@ -756,26 +786,26 @@ msgctxt "OverlaySheetGallery|"
 msgid "Overlay Sheets"
 msgstr "Накладні аркуші"
 
-#: contents/ui/gallery/OverlaySheetGallery.qml:67
+#: contents/ui/gallery/OverlaySheetGallery.qml:68
 msgctxt "OverlaySheetGallery|"
 msgid "Close"
 msgstr "Закрити"
 
-#: contents/ui/gallery/OverlaySheetGallery.qml:77
-#: contents/ui/gallery/OverlaySheetGallery.qml:145
-#: contents/ui/gallery/OverlaySheetGallery.qml:171
+#: contents/ui/gallery/OverlaySheetGallery.qml:79
+#: contents/ui/gallery/OverlaySheetGallery.qml:147
+#: contents/ui/gallery/OverlaySheetGallery.qml:173
 msgctxt "OverlaySheetGallery|"
 msgid "Title"
 msgstr "Заголовок"
 
-#: contents/ui/gallery/OverlaySheetGallery.qml:81
-#: contents/ui/gallery/OverlaySheetGallery.qml:149
-#: contents/ui/gallery/OverlaySheetGallery.qml:175
+#: contents/ui/gallery/OverlaySheetGallery.qml:83
+#: contents/ui/gallery/OverlaySheetGallery.qml:151
+#: contents/ui/gallery/OverlaySheetGallery.qml:177
 msgctxt "OverlaySheetGallery|"
 msgid "Footer:"
 msgstr "Підвал:"
 
-#: contents/ui/gallery/OverlaySheetGallery.qml:92
+#: contents/ui/gallery/OverlaySheetGallery.qml:94
 msgctxt "OverlaySheetGallery|"
 msgid ""
 "A sheet can have optional header and footer items which will not scroll away "
@@ -784,7 +814,7 @@ msgstr ""
 "Аркуш може мати необов'язкові елементи верхнього і нижнього колонтитулів, "
 "які не гортатимуться, коли користувач гортатиме аркуш."
 
-#: contents/ui/gallery/OverlaySheetGallery.qml:111
+#: contents/ui/gallery/OverlaySheetGallery.qml:113
 msgctxt "OverlaySheetGallery|"
 msgid ""
 "A sheet will take the maximum available width in the page by default.\n"
@@ -795,7 +825,7 @@ msgstr ""
 "Втім, якщо для основного вікна встановлено implicitWidth або Layout."
 "preferredWidth, ширина аркуша не перевищить таке вказане значення."
 
-#: contents/ui/gallery/OverlaySheetGallery.qml:132
+#: contents/ui/gallery/OverlaySheetGallery.qml:134
 msgctxt "OverlaySheetGallery|"
 msgid ""
 "A sheet by default will be over a single page, even if the app is in wide "
@@ -809,12 +839,12 @@ msgstr ""
 "програми.\n"
 "У останньому випадку аркуш закриє собою і кнопки дій сторінки."
 
-#: contents/ui/gallery/OverlaySheetGallery.qml:163
+#: contents/ui/gallery/OverlaySheetGallery.qml:165
 msgctxt "OverlaySheetGallery|"
 msgid "Item in sheet "
 msgstr "Запис на аркуші "
 
-#: contents/ui/gallery/OverlaySheetGallery.qml:207
+#: contents/ui/gallery/OverlaySheetGallery.qml:209
 msgctxt "OverlaySheetGallery|"
 msgid "Very Long Sheet"
 msgstr "Дуже довгий аркуш"
@@ -824,65 +854,65 @@ msgctxt "SelectionControlsGallery|"
 msgid "Selection Controls"
 msgstr "Засоби позначення"
 
-#: contents/ui/gallery/SelectionControlsGallery.qml:49
+#: contents/ui/gallery/SelectionControlsGallery.qml:46
 msgctxt "SelectionControlsGallery|"
 msgid "Checkable List Items"
 msgstr "Пункти списку із позначками"
 
-#: contents/ui/gallery/SelectionControlsGallery.qml:59
-#: contents/ui/gallery/SelectionControlsGallery.qml:85
-#: contents/ui/gallery/SelectionControlsGallery.qml:111
+#: contents/ui/gallery/SelectionControlsGallery.qml:56
+#: contents/ui/gallery/SelectionControlsGallery.qml:78
+#: contents/ui/gallery/SelectionControlsGallery.qml:100
 #, qt-format
 msgctxt "SelectionControlsGallery|"
 msgid "Delegate %1"
 msgstr "Уповноважити %1"
 
-#: contents/ui/gallery/SelectionControlsGallery.qml:75
-#: contents/ui/gallery/SelectionControlsGallery.qml:101
+#: contents/ui/gallery/SelectionControlsGallery.qml:68
+#: contents/ui/gallery/SelectionControlsGallery.qml:90
 msgctxt "SelectionControlsGallery|"
 msgid "Radio List Items"
 msgstr "Пункти списку варіантів"
 
-#: contents/ui/gallery/SelectionControlsGallery.qml:120
+#: contents/ui/gallery/SelectionControlsGallery.qml:108
 msgctxt "SelectionControlsGallery|"
 msgid "Checkboxes"
 msgstr "Позначки"
 
-#: contents/ui/gallery/SelectionControlsGallery.qml:124
-#: contents/ui/gallery/SelectionControlsGallery.qml:142
-#: contents/ui/gallery/SelectionControlsGallery.qml:160
+#: contents/ui/gallery/SelectionControlsGallery.qml:112
+#: contents/ui/gallery/SelectionControlsGallery.qml:130
+#: contents/ui/gallery/SelectionControlsGallery.qml:148
 msgctxt "SelectionControlsGallery|"
 msgid "Item selected"
 msgstr "Пункт позначено"
 
-#: contents/ui/gallery/SelectionControlsGallery.qml:128
-#: contents/ui/gallery/SelectionControlsGallery.qml:146
-#: contents/ui/gallery/SelectionControlsGallery.qml:164
+#: contents/ui/gallery/SelectionControlsGallery.qml:116
+#: contents/ui/gallery/SelectionControlsGallery.qml:134
+#: contents/ui/gallery/SelectionControlsGallery.qml:152
 msgctxt "SelectionControlsGallery|"
 msgid "Item not selected"
 msgstr "Пункт не позначено"
 
-#: contents/ui/gallery/SelectionControlsGallery.qml:132
+#: contents/ui/gallery/SelectionControlsGallery.qml:120
 msgctxt "SelectionControlsGallery|"
 msgid "Checkable List View"
 msgstr "Панель зі списком із позначками"
 
-#: contents/ui/gallery/SelectionControlsGallery.qml:138
+#: contents/ui/gallery/SelectionControlsGallery.qml:126
 msgctxt "SelectionControlsGallery|"
 msgid "Radio buttons"
 msgstr "Кнопки варіантів"
 
-#: contents/ui/gallery/SelectionControlsGallery.qml:151
+#: contents/ui/gallery/SelectionControlsGallery.qml:139
 msgctxt "SelectionControlsGallery|"
 msgid "Radio List View"
 msgstr "Панель зі списком варіантів"
 
-#: contents/ui/gallery/SelectionControlsGallery.qml:157
+#: contents/ui/gallery/SelectionControlsGallery.qml:145
 msgctxt "SelectionControlsGallery|"
 msgid "Switches"
 msgstr "Перемикачі"
 
-#: contents/ui/gallery/SelectionControlsGallery.qml:168
+#: contents/ui/gallery/SelectionControlsGallery.qml:156
 msgctxt "SelectionControlsGallery|"
 msgid "Switch List View"
 msgstr "Панель зі списком перемикачів"
