@@ -5,13 +5,13 @@
 # Luiz Fernando Ranghetti <elchevive@opensuse.org>, 2018, 2019, 2020, 2021, 2022.
 # André Marcelo Alvarenga <alvarenga@kde.org>, 2019.
 # Geraldo Simiao <geraldosimiao@fedoraproject.org>, 2023.
-# SPDX-FileCopyrightText: 2025 Marcus Gama <marcus.gama@gmail.com>
+# SPDX-FileCopyrightText: 2025-2026 Marcus Gama <marcus.gama@gmail.com>
 # SPDX-FileCopyrightText: 2025 Guilherme Marçal Silva <guimarcalsilva@gmail.com>
 msgid ""
 msgstr ""
 "Project-Id-Version: kirigamigallery_qt\n"
-"PO-Revision-Date: 2025-11-08 21:10-0300\n"
-"Last-Translator: Guilherme Marçal Silva <guimarcalsilva@gmail.com>\n"
+"PO-Revision-Date: 2026-05-13 05:25-0300\n"
+"Last-Translator: Marcus Gama <marcus.gama@gmail.com>\n"
 "Language-Team: Brazilian Portuguese <kde-i18n-pt_BR@kde.org>\n"
 "Language: pt_BR\n"
 "MIME-Version: 1.0\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Qt-Contexts: true\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Lokalize 25.08.2\n"
+"X-Generator: Lokalize 26.04.1\n"
 
 #: contents/ui/gallery/CardsLayoutGallery.qml:32
 msgctxt "CardsLayoutGallery|"
@@ -32,13 +32,6 @@ msgid "AbstractCard"
 msgstr "Cartão abstrato"
 
 #: contents/ui/gallery/CardsLayoutGallery.qml:50
-#, fuzzy
-#| msgctxt "CardsLayoutGallery|"
-#| msgid ""
-#| "An AbstractCard is the simplest form of card. It's just a rectangle with "
-#| "a shadow, which can contain any Item in it. It can also have items "
-#| "assigned to the Header or Footer properties. In this case a Kirigami."
-#| "Heading is its header and a Label with WordWrap is the contentItem."
 msgctxt "CardsLayoutGallery|"
 msgid ""
 "An AbstractCard is the simplest form of card. It's just a rectangle with a "
@@ -49,18 +42,10 @@ msgstr ""
 "Um cartão abstrato é a forma mais simples de cartão. É apenas um retângulo "
 "com uma sombra, que pode conter qualquer item. Ele também pode ter itens "
 "atribuídos as propriedades do cabeçalho ou rodapé. Neste caso o Kirigami."
-"Heading é o cabeçalho e um rótulo com WordWrap é o contentItem."
+"Heading é seu cabeçalho e Kirigami.SelectableLabel com WordWrap é o "
+"contentItem."
 
 #: contents/ui/gallery/CardsLayoutGallery.qml:58
-#, fuzzy
-#| msgctxt "CardsLayoutGallery|"
-#| msgid ""
-#| "This is an AbstractCard with a Label with WordWrap in it and nothing "
-#| "else, it's the simplest form Cards can be found in.\n"
-#| "An AbstractCard can be clicked itself, with the usual onClicked signal "
-#| "handler and the showClickFeedback property can be used if the click "
-#| "should show any kind of visual feedback. It is recommended to set it to "
-#| "true if you plan to make the card reactive on any kind of click."
 msgctxt "CardsLayoutGallery|"
 msgid ""
 "This is an AbstractCard with a Kirigami.SelectableLabel with WordWrap in it "
@@ -70,8 +55,8 @@ msgid ""
 "show any kind of visual feedback. It is recommended to set it to true if you "
 "plan to make the card reactive on any kind of click."
 msgstr ""
-"Este é um cartão abstrato com um rótulo e WordWrap e nada mais, é a forma "
-"mais simples de cartão que pode ser encontrada.\n"
+"Este é um AbstractCard com um Kirigami.SelectableLabel com WordWrap e nada "
+"mais, é a forma mais simples de cartão que pode ser encontrada.\n"
 "Um cartão abstrato pode ser clicado com o manipulador de sinal usual "
 "onClicked e a propriedade showClickFeedback pode ser usada se o clique deve "
 "mostrar qualquer tipo de retorno visual. É recomendado definir como 'true' "
@@ -137,12 +122,6 @@ msgid "Action6"
 msgstr "Ação6"
 
 #: contents/ui/gallery/CardsLayoutGallery.qml:119
-#, fuzzy
-#| msgctxt "CardsLayoutGallery|"
-#| msgid ""
-#| "The title can be aligned to all corners or centered with a combination of "
-#| "Qt.Alignment flags.\n"
-#| " When there are too many actions, they go in an overflow menu."
 msgctxt "CardsLayoutGallery|"
 msgid ""
 "The title can be aligned to all corners or centered with a combination of Qt."
@@ -151,7 +130,7 @@ msgid ""
 msgstr ""
 "O título pode ser alinhado a todos os cantos ou centralizado com uma "
 "combinação de marcadores Qt.Alignment.\n"
-" Quando há muitas ações, elas entram em um menu excedente."
+"Quando há muitas ações, elas entram em um menu excedente."
 
 #: contents/ui/gallery/CardsLayoutGallery.qml:134
 msgctxt "CardsLayoutGallery|"
@@ -205,14 +184,6 @@ msgid "Ok"
 msgstr "OK"
 
 #: contents/ui/gallery/CardsLayoutGallery.qml:214
-#, fuzzy
-#| msgctxt "CardsLayoutGallery|"
-#| msgid ""
-#| "A card can optionally have horizontal orientation.\n"
-#| " In this case will be wider than tall, so is fit to be used also in a "
-#| "ColumnLayout.\n"
-#| "If you need to put it in a CardsLayout, it will have by default a "
-#| "columnSpan of 2 (which can be overridden)."
 msgctxt "CardsLayoutGallery|"
 msgid ""
 "A card can optionally have horizontal orientation.\n"
@@ -222,7 +193,7 @@ msgid ""
 "of 2 (which can be overridden)."
 msgstr ""
 "Um cartão pode, opcionalmente, ter orientação horizontal.\n"
-" Neste caso será mais largo do que alto, por isso é adequado para ser usado "
+"Neste caso será mais largo do que alto, por isso é adequado para ser usado "
 "também em um ColumnLayout.\n"
 "Se você precisar colocá-lo em um CardsLayout, ele terá por padrão uma "
 "columnSpan de 2 (que pode ser substituída)."

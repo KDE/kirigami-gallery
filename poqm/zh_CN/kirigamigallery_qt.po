@@ -26,13 +26,6 @@ msgid "AbstractCard"
 msgstr "抽象卡片"
 
 #: contents/ui/gallery/CardsLayoutGallery.qml:50
-#, fuzzy
-#| msgctxt "CardsLayoutGallery|"
-#| msgid ""
-#| "An AbstractCard is the simplest form of card. It's just a rectangle with "
-#| "a shadow, which can contain any Item in it. It can also have items "
-#| "assigned to the Header or Footer properties. In this case a Kirigami."
-#| "Heading is its header and a Label with WordWrap is the contentItem."
 msgctxt "CardsLayoutGallery|"
 msgid ""
 "An AbstractCard is the simplest form of card. It's just a rectangle with a "
@@ -40,20 +33,8 @@ msgid ""
 "the Header or Footer properties. In this case a Kirigami.Heading is its "
 "header and a Kirigami.SelectableLabel with WordWrap is the contentItem."
 msgstr ""
-"抽象卡片是卡片最简单的形式。它是一个可以包含任何项目的带阴影矩形。它也可以在"
-"标题和页脚属性中包含项目。在这个例子中，Kirigami.Heading 是它的标题，而带有 "
-"WordWrap 的 Label 是它的内容项目。"
 
 #: contents/ui/gallery/CardsLayoutGallery.qml:58
-#, fuzzy
-#| msgctxt "CardsLayoutGallery|"
-#| msgid ""
-#| "This is an AbstractCard with a Label with WordWrap in it and nothing "
-#| "else, it's the simplest form Cards can be found in.\n"
-#| "An AbstractCard can be clicked itself, with the usual onClicked signal "
-#| "handler and the showClickFeedback property can be used if the click "
-#| "should show any kind of visual feedback. It is recommended to set it to "
-#| "true if you plan to make the card reactive on any kind of click."
 msgctxt "CardsLayoutGallery|"
 msgid ""
 "This is an AbstractCard with a Kirigami.SelectableLabel with WordWrap in it "
@@ -63,11 +44,6 @@ msgid ""
 "show any kind of visual feedback. It is recommended to set it to true if you "
 "plan to make the card reactive on any kind of click."
 msgstr ""
-"这是一个仅仅包含了带有 WordWrap 的 Label 的抽象卡片。这是抽象卡片的最简单形"
-"式。\n"
-"抽象卡片本身可以被点击，而 onClicked 信号处理器和 showClickFeedback 属性可以"
-"使点击产生视觉反馈。如果您希望卡片对点击有反应的话，我们建议您将这一项的值设"
-"定为 True。"
 
 #: contents/ui/gallery/CardsLayoutGallery.qml:60
 msgctxt "CardsLayoutGallery|"
@@ -127,20 +103,12 @@ msgid "Action6"
 msgstr "操作6"
 
 #: contents/ui/gallery/CardsLayoutGallery.qml:119
-#, fuzzy
-#| msgctxt "CardsLayoutGallery|"
-#| msgid ""
-#| "The title can be aligned to all corners or centered with a combination of "
-#| "Qt.Alignment flags.\n"
-#| " When there are too many actions, they go in an overflow menu."
 msgctxt "CardsLayoutGallery|"
 msgid ""
 "The title can be aligned to all corners or centered with a combination of Qt."
 "Alignment flags.\n"
 "When there are too many actions, they go in an overflow menu."
 msgstr ""
-"Qt.Alignment 旗标的不同组合可以使标题与四角对齐或居中。\n"
-"当操作选项过多时，它们会被移动到到一个溢出菜单中。"
 
 #: contents/ui/gallery/CardsLayoutGallery.qml:134
 msgctxt "CardsLayoutGallery|"
@@ -187,14 +155,6 @@ msgid "Ok"
 msgstr "确定"
 
 #: contents/ui/gallery/CardsLayoutGallery.qml:214
-#, fuzzy
-#| msgctxt "CardsLayoutGallery|"
-#| msgid ""
-#| "A card can optionally have horizontal orientation.\n"
-#| " In this case will be wider than tall, so is fit to be used also in a "
-#| "ColumnLayout.\n"
-#| "If you need to put it in a CardsLayout, it will have by default a "
-#| "columnSpan of 2 (which can be overridden)."
 msgctxt "CardsLayoutGallery|"
 msgid ""
 "A card can optionally have horizontal orientation.\n"
@@ -203,9 +163,6 @@ msgid ""
 "If you need to put it in a CardsLayout, it will have by default a columnSpan "
 "of 2 (which can be overridden)."
 msgstr ""
-"卡片可选择水平方向。\n"
-" 在这种情况下将大于高度，所以也适合在列布局使用。\n"
-"如果您需要将其放置在卡片布局中，它将默认有一个 2 列(可覆盖)。"
 
 #: contents/ui/gallery/CardsListViewGallery.qml:32
 msgctxt "CardsListViewGallery|"

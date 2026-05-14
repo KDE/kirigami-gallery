@@ -1,15 +1,15 @@
 # Translation of kirigamigallery_qt.po to Catalan
-# Copyright (C) 2018-2025 This_file_is_part_of_KDE
+# Copyright (C) 2018-2026 This_file_is_part_of_KDE
 # This file is distributed under the license LGPL version 2.1 or
 # version 3 or later versions approved by the membership of KDE e.V.
 #
-# SPDX-FileCopyrightText: 2019, 2020, 2021, 2022, 2023, 2024, 2025 Josep M. Ferrer <txemaq@gmail.com>
+# SPDX-FileCopyrightText: 2019, 2020, 2021, 2022, 2023, 2024, 2025, 2026 Josep M. Ferrer <txemaq@gmail.com>
 # SPDX-FileCopyrightText: 2018, 2020, 2021 Antoni Bella Pérez <antonibella5@yahoo.com>
 msgid ""
 msgstr ""
 "Project-Id-Version: kirigami-gallery\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"PO-Revision-Date: 2025-08-15 09:56+0200\n"
+"PO-Revision-Date: 2026-05-13 07:56+0200\n"
 "Last-Translator: Josep M. Ferrer <txemaq@gmail.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
 "Language: ca\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Qt-Contexts: true\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 25.04.3\n"
+"X-Generator: Lokalize 25.04.0\n"
 
 #: contents/ui/gallery/CardsLayoutGallery.qml:32
 msgctxt "CardsLayoutGallery|"
@@ -31,13 +31,6 @@ msgid "AbstractCard"
 msgstr "Targeta abstracta"
 
 #: contents/ui/gallery/CardsLayoutGallery.qml:50
-#, fuzzy
-#| msgctxt "CardsLayoutGallery|"
-#| msgid ""
-#| "An AbstractCard is the simplest form of card. It's just a rectangle with "
-#| "a shadow, which can contain any Item in it. It can also have items "
-#| "assigned to the Header or Footer properties. In this case a Kirigami."
-#| "Heading is its header and a Label with WordWrap is the contentItem."
 msgctxt "CardsLayoutGallery|"
 msgid ""
 "An AbstractCard is the simplest form of card. It's just a rectangle with a "
@@ -48,19 +41,10 @@ msgstr ""
 "Una «AbstractCard» és la forma més senzilla de la targeta. Simplement és un "
 "rectangle amb ombra, el qual pot contenir qualsevol element en ell. També "
 "pot tenir elements assignats a les propietats «Header» o «Footer». En aquest "
-"cas, una «Kirigami.Heading» serà la seva capçalera i un «Label» amb "
-"«WordWrap» serà el «contentItem»."
+"cas, una «Kirigami.Heading» serà la seva capçalera i un «Kirigami."
+"SelectableLabel» amb «WordWrap» serà el «contentItem»."
 
 #: contents/ui/gallery/CardsLayoutGallery.qml:58
-#, fuzzy
-#| msgctxt "CardsLayoutGallery|"
-#| msgid ""
-#| "This is an AbstractCard with a Label with WordWrap in it and nothing "
-#| "else, it's the simplest form Cards can be found in.\n"
-#| "An AbstractCard can be clicked itself, with the usual onClicked signal "
-#| "handler and the showClickFeedback property can be used if the click "
-#| "should show any kind of visual feedback. It is recommended to set it to "
-#| "true if you plan to make the card reactive on any kind of click."
 msgctxt "CardsLayoutGallery|"
 msgid ""
 "This is an AbstractCard with a Kirigami.SelectableLabel with WordWrap in it "
@@ -70,8 +54,9 @@ msgid ""
 "show any kind of visual feedback. It is recommended to set it to true if you "
 "plan to make the card reactive on any kind of click."
 msgstr ""
-"Aquesta és una «AbstractCard» amb una «Label» amb «WordWrap» i res més, és "
-"la forma més senzilla que es poden trobar les «Cards».\n"
+"Aquesta és una «AbstractCard» amb una «Kirigami.SelectableLabel» amb "
+"«WordWrap» i res més, és la forma més senzilla que es poden trobar les "
+"«Cards».\n"
 "Es pot fer clic a «AbstractCard», amb el gestor del senyal «onClicked» "
 "habitual i la propietat «showClickFeedback» es pot usar si el clic hauria de "
 "mostrar qualsevol tipus de retroalimentació visual. Es recomana establir-ho "
@@ -138,12 +123,6 @@ msgid "Action6"
 msgstr "Acció6"
 
 #: contents/ui/gallery/CardsLayoutGallery.qml:119
-#, fuzzy
-#| msgctxt "CardsLayoutGallery|"
-#| msgid ""
-#| "The title can be aligned to all corners or centered with a combination of "
-#| "Qt.Alignment flags.\n"
-#| " When there are too many actions, they go in an overflow menu."
 msgctxt "CardsLayoutGallery|"
 msgid ""
 "The title can be aligned to all corners or centered with a combination of Qt."
@@ -206,14 +185,6 @@ msgid "Ok"
 msgstr "D'acord"
 
 #: contents/ui/gallery/CardsLayoutGallery.qml:214
-#, fuzzy
-#| msgctxt "CardsLayoutGallery|"
-#| msgid ""
-#| "A card can optionally have horizontal orientation.\n"
-#| " In this case will be wider than tall, so is fit to be used also in a "
-#| "ColumnLayout.\n"
-#| "If you need to put it in a CardsLayout, it will have by default a "
-#| "columnSpan of 2 (which can be overridden)."
 msgctxt "CardsLayoutGallery|"
 msgid ""
 "A card can optionally have horizontal orientation.\n"

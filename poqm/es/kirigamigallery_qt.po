@@ -1,13 +1,13 @@
 # Spanish translations for kirigamigallery_qt.po package.
-# Copyright (C) 2018-2025 This file is copyright:
+# Copyright (C) 2018-2026 This file is copyright:
 # This file is distributed under the same license as the kirigami-gallery package.
 #
-# SPDX-FileCopyrightText: 2018, 2019, 2020, 2021, 2022, 2024, 2025 Eloy Cuadra <ecuadra@eloihr.net>
+# SPDX-FileCopyrightText: 2018-2022, 2024-2026 Eloy Cuadra <ecuadra@eloihr.net>
 msgid ""
 msgstr ""
 "Project-Id-Version: kirigamigallery_qt\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"PO-Revision-Date: 2025-05-18 12:47+0100\n"
+"PO-Revision-Date: 2026-05-13 20:34+0100\n"
 "Last-Translator: Eloy Cuadra <ecuadra@eloihr.net>\n"
 "Language-Team: Spanish <kde-l10n-es@kde.org>\n"
 "Language: es\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 24.08.3\n"
+"X-Generator: Lokalize 26.04.1\n"
 "X-Qt-Contexts: true\n"
 
 #: contents/ui/gallery/CardsLayoutGallery.qml:32
@@ -29,13 +29,6 @@ msgid "AbstractCard"
 msgstr "AbstractCard"
 
 #: contents/ui/gallery/CardsLayoutGallery.qml:50
-#, fuzzy
-#| msgctxt "CardsLayoutGallery|"
-#| msgid ""
-#| "An AbstractCard is the simplest form of card. It's just a rectangle with "
-#| "a shadow, which can contain any Item in it. It can also have items "
-#| "assigned to the Header or Footer properties. In this case a Kirigami."
-#| "Heading is its header and a Label with WordWrap is the contentItem."
 msgctxt "CardsLayoutGallery|"
 msgid ""
 "An AbstractCard is the simplest form of card. It's just a rectangle with a "
@@ -47,18 +40,10 @@ msgstr ""
 "rectángulo con una sombra que puede contener cualquier elemento en su "
 "interior. También puede tener elementos asignados a las propiedades "
 "«Cabecera» y «Pie». En este caso, su cabecera será un «Kirigami.Heading» y "
-"una «Etiqueta» con ajuste dinámico de palabras será el «contentItem»."
+"una «Kirigami.SelectableLabel» con ajuste dinámico de palabras será el "
+"«contentItem»."
 
 #: contents/ui/gallery/CardsLayoutGallery.qml:58
-#, fuzzy
-#| msgctxt "CardsLayoutGallery|"
-#| msgid ""
-#| "This is an AbstractCard with a Label with WordWrap in it and nothing "
-#| "else, it's the simplest form Cards can be found in.\n"
-#| "An AbstractCard can be clicked itself, with the usual onClicked signal "
-#| "handler and the showClickFeedback property can be used if the click "
-#| "should show any kind of visual feedback. It is recommended to set it to "
-#| "true if you plan to make the card reactive on any kind of click."
 msgctxt "CardsLayoutGallery|"
 msgid ""
 "This is an AbstractCard with a Kirigami.SelectableLabel with WordWrap in it "
@@ -68,8 +53,9 @@ msgid ""
 "show any kind of visual feedback. It is recommended to set it to true if you "
 "plan to make the card reactive on any kind of click."
 msgstr ""
-"Esta es una «AbstractCard» con una etiqueta con ajuste de palabras en ella y "
-"nada más. Es la forma de tarjeta más simple que puede encontrar.\n"
+"Esta es una «AbstractCard» con una «Kirigami.SelectableLabel» con ajuste de "
+"palabras en ella y nada más. Es la forma de tarjeta más simple que puede "
+"encontrar.\n"
 "Una «AbstractCard» se puede pulsar, con el habitual manejador de la señal "
 "«onClicked». Puede usar la propiedad «showClickFeedback» si el clic debe "
 "mostrar algún tipo de reacción visual. Se le recomienda que la ajuste a "
@@ -135,12 +121,6 @@ msgid "Action6"
 msgstr "Acción6"
 
 #: contents/ui/gallery/CardsLayoutGallery.qml:119
-#, fuzzy
-#| msgctxt "CardsLayoutGallery|"
-#| msgid ""
-#| "The title can be aligned to all corners or centered with a combination of "
-#| "Qt.Alignment flags.\n"
-#| " When there are too many actions, they go in an overflow menu."
 msgctxt "CardsLayoutGallery|"
 msgid ""
 "The title can be aligned to all corners or centered with a combination of Qt."
@@ -203,14 +183,6 @@ msgid "Ok"
 msgstr "Aceptar"
 
 #: contents/ui/gallery/CardsLayoutGallery.qml:214
-#, fuzzy
-#| msgctxt "CardsLayoutGallery|"
-#| msgid ""
-#| "A card can optionally have horizontal orientation.\n"
-#| " In this case will be wider than tall, so is fit to be used also in a "
-#| "ColumnLayout.\n"
-#| "If you need to put it in a CardsLayout, it will have by default a "
-#| "columnSpan of 2 (which can be overridden)."
 msgctxt "CardsLayoutGallery|"
 msgid ""
 "A card can optionally have horizontal orientation.\n"
