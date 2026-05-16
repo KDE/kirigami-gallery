@@ -1,8 +1,8 @@
-# SPDX-FileCopyrightText: 2019, 2020, 2021, 2022, 2024 Valter Mura <valtermura@gmail.com>
+# SPDX-FileCopyrightText: 2019, 2020, 2021, 2022, 2024, 2026 Valter Mura <valtermura@gmail.com>
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"PO-Revision-Date: 2024-08-20 19:28+0200\n"
+"PO-Revision-Date: 2026-05-14 20:16+0200\n"
 "Last-Translator: Valter Mura <valtermura@gmail.com>\n"
 "Language-Team: Italian <kde-i18n-it@kde.org>\n"
 "Language: it\n"
@@ -10,7 +10,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Lokalize 23.08.5\n"
+"X-Generator: Lokalize 25.12.3\n"
 "X-Qt-Contexts: true\n"
 
 #: contents/ui/gallery/CardsLayoutGallery.qml:32
@@ -34,7 +34,7 @@ msgstr ""
 "Una AbstractCard è la forma più semplice di card. È solo un rettangolo con "
 "ombra, che può contenere qualsiasi elemento al suo interno. Può anche "
 "possedere elementi assegnati alle proprietà Header o Footer. In questo caso "
-"un Kirigami.Heading è valore della sua proprieta header e una Label con "
+"un Kirigami.Heading è valore della sua proprietà header e una Label con "
 "WordWrap è il valore di contentItem."
 
 #: contents/ui/gallery/CardsLayoutGallery.qml:58
