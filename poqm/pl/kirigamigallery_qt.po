@@ -13,6 +13,158 @@ msgstr ""
 "|| n%100>=20) ? 1 : 2);\n"
 "X-Qt-Contexts: true\n"
 
+#: contents/ui/gallery/BadgeGallery.qml:19
+msgctxt "BadgeGallery|"
+msgid "Badges"
+msgstr ""
+
+#: contents/ui/gallery/BadgeGallery.qml:30
+msgctxt "BadgeGallery|"
+msgid "Number badges"
+msgstr ""
+
+#: contents/ui/gallery/BadgeGallery.qml:34
+#, fuzzy
+#| msgctxt "DialogGallery|"
+#| msgid "Select Number"
+msgctxt "BadgeGallery|"
+msgid "Short number:"
+msgstr "Wybierz liczbę"
+
+#: contents/ui/gallery/BadgeGallery.qml:38
+msgctxt "BadgeGallery|"
+msgid "Skinny Roman numeral:"
+msgstr ""
+
+#: contents/ui/gallery/BadgeGallery.qml:42
+msgctxt "BadgeGallery|"
+msgid "Medium number:"
+msgstr ""
+
+#: contents/ui/gallery/BadgeGallery.qml:46
+msgctxt "BadgeGallery|"
+msgid "Large number:"
+msgstr ""
+
+#: contents/ui/gallery/BadgeGallery.qml:50
+msgctxt "BadgeGallery|"
+msgid "Very large number:"
+msgstr ""
+
+#: contents/ui/gallery/BadgeGallery.qml:51
+msgctxt "BadgeGallery|"
+msgid "99,999"
+msgstr ""
+
+#: contents/ui/gallery/BadgeGallery.qml:54
+msgctxt "BadgeGallery|"
+msgid "Negative number:"
+msgstr ""
+
+#: contents/ui/gallery/BadgeGallery.qml:55
+msgctxt "BadgeGallery|"
+msgid "-666"
+msgstr ""
+
+#: contents/ui/gallery/BadgeGallery.qml:60
+#, fuzzy
+#| msgctxt "InlineMessagesGallery|"
+#| msgid "Reset text"
+msgctxt "BadgeGallery|"
+msgid "Badges with text"
+msgstr "Wyzeruj tekst"
+
+#: contents/ui/gallery/BadgeGallery.qml:64
+msgctxt "BadgeGallery|"
+msgid "Default background and text color:"
+msgstr ""
+
+#: contents/ui/gallery/BadgeGallery.qml:65
+msgctxt "BadgeGallery|"
+msgid "New!"
+msgstr ""
+
+#: contents/ui/gallery/BadgeGallery.qml:68
+msgctxt "BadgeGallery|"
+msgid "Icon + label, positive:"
+msgstr ""
+
+#: contents/ui/gallery/BadgeGallery.qml:70
+msgctxt "BadgeGallery|"
+msgid "Encrypted"
+msgstr ""
+
+#: contents/ui/gallery/BadgeGallery.qml:74
+msgctxt "BadgeGallery|"
+msgid "Icon + label, warning:"
+msgstr ""
+
+#: contents/ui/gallery/BadgeGallery.qml:76
+msgctxt "BadgeGallery|"
+msgid "Unencrypted"
+msgstr ""
+
+#: contents/ui/gallery/BadgeGallery.qml:80
+msgctxt "BadgeGallery|"
+msgid "Icon + label with custom  background color:"
+msgstr ""
+
+#: contents/ui/gallery/BadgeGallery.qml:82
+msgctxt "BadgeGallery|"
+msgid "Favorite"
+msgstr ""
+
+#: contents/ui/gallery/BadgeGallery.qml:86
+msgctxt "BadgeGallery|"
+msgid "Super compact versions with icons and all custom colors:"
+msgstr ""
+
+#: contents/ui/gallery/BadgeGallery.qml:87
+msgctxt "BadgeGallery|"
+msgid "Integrated GPU"
+msgstr ""
+
+#: contents/ui/gallery/BadgeGallery.qml:94
+msgctxt "BadgeGallery|"
+msgid "Dedicated GPU"
+msgstr ""
+
+#: contents/ui/gallery/BadgeGallery.qml:101
+msgctxt "BadgeGallery|"
+msgid "Awkwardly long string, bounded length:"
+msgstr ""
+
+#: contents/ui/gallery/BadgeGallery.qml:103
+msgctxt "BadgeGallery|"
+msgid "Turbo-encabulated; always fresh, never frozen"
+msgstr ""
+
+#: contents/ui/gallery/BadgeGallery.qml:107
+msgctxt "BadgeGallery|"
+msgid "Icon + awkwardly long string, bounded length:"
+msgstr ""
+
+#: contents/ui/gallery/BadgeGallery.qml:110
+msgctxt "BadgeGallery|"
+msgid ""
+"The computer is about to explode; please proceed calmly to the nearest exit"
+msgstr ""
+
+#: contents/ui/gallery/BadgeGallery.qml:119
+msgctxt "BadgeGallery|"
+msgid "Symbolic icon:"
+msgstr ""
+
+#: contents/ui/gallery/BadgeGallery.qml:124
+msgctxt "BadgeGallery|"
+msgid "Large symbolic re-colored icon:"
+msgstr ""
+
+#: contents/ui/gallery/BadgeGallery.qml:132
+msgctxt "BadgeGallery|"
+msgid "Non-symbolic icon:"
+msgstr ""
+
 #: contents/ui/gallery/CardsLayoutGallery.qml:32
 msgctxt "CardsLayoutGallery|"
 msgid "Cards Layout"
