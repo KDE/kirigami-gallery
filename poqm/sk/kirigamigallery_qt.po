@@ -17,154 +17,150 @@ msgstr ""
 #: contents/ui/gallery/BadgeGallery.qml:19
 msgctxt "BadgeGallery|"
 msgid "Badges"
-msgstr ""
+msgstr "Odznaky"
 
 #: contents/ui/gallery/BadgeGallery.qml:30
 msgctxt "BadgeGallery|"
 msgid "Number badges"
-msgstr ""
+msgstr "Číselné odznaky"
 
 #: contents/ui/gallery/BadgeGallery.qml:34
-#, fuzzy
-#| msgctxt "DialogGallery|"
-#| msgid "Select Number"
 msgctxt "BadgeGallery|"
 msgid "Short number:"
-msgstr "Vybrať číslo"
+msgstr "Krátke číslo:"
 
 #: contents/ui/gallery/BadgeGallery.qml:38
 msgctxt "BadgeGallery|"
 msgid "Skinny Roman numeral:"
-msgstr ""
+msgstr "Tenká rímska číslica:"
 
 #: contents/ui/gallery/BadgeGallery.qml:42
 msgctxt "BadgeGallery|"
 msgid "Medium number:"
-msgstr ""
+msgstr "Stredné číslo:"
 
 #: contents/ui/gallery/BadgeGallery.qml:46
 msgctxt "BadgeGallery|"
 msgid "Large number:"
-msgstr ""
+msgstr "Veľké číslo:"
 
 #: contents/ui/gallery/BadgeGallery.qml:50
 msgctxt "BadgeGallery|"
 msgid "Very large number:"
-msgstr ""
+msgstr "Veľmi veľké číslo:"
 
 #: contents/ui/gallery/BadgeGallery.qml:51
 msgctxt "BadgeGallery|"
 msgid "99,999"
-msgstr ""
+msgstr "99 999"
 
 #: contents/ui/gallery/BadgeGallery.qml:54
 msgctxt "BadgeGallery|"
 msgid "Negative number:"
-msgstr ""
+msgstr "Záporné číslo:"
 
 #: contents/ui/gallery/BadgeGallery.qml:55
 msgctxt "BadgeGallery|"
 msgid "-666"
-msgstr ""
+msgstr "-666"
 
 #: contents/ui/gallery/BadgeGallery.qml:60
-#, fuzzy
-#| msgctxt "InlineMessagesGallery|"
-#| msgid "Reset text"
 msgctxt "BadgeGallery|"
 msgid "Badges with text"
-msgstr "Vynulovať text"
+msgstr "Odznaky s textom"
 
 #: contents/ui/gallery/BadgeGallery.qml:64
 msgctxt "BadgeGallery|"
 msgid "Default background and text color:"
-msgstr ""
+msgstr "Predvolená farba pozadia a textu:"
 
 #: contents/ui/gallery/BadgeGallery.qml:65
 msgctxt "BadgeGallery|"
 msgid "New!"
-msgstr ""
+msgstr "Nové!"
 
 #: contents/ui/gallery/BadgeGallery.qml:68
 msgctxt "BadgeGallery|"
 msgid "Icon + label, positive:"
-msgstr ""
+msgstr "Ikona + popis, pozitívne:"
 
 #: contents/ui/gallery/BadgeGallery.qml:70
 msgctxt "BadgeGallery|"
 msgid "Encrypted"
-msgstr ""
+msgstr "Šifrované"
 
 #: contents/ui/gallery/BadgeGallery.qml:74
 msgctxt "BadgeGallery|"
 msgid "Icon + label, warning:"
-msgstr ""
+msgstr "Ikona + popis, varovanie:"
 
 #: contents/ui/gallery/BadgeGallery.qml:76
 msgctxt "BadgeGallery|"
 msgid "Unencrypted"
-msgstr ""
+msgstr "Nešifrované"
 
 #: contents/ui/gallery/BadgeGallery.qml:80
 msgctxt "BadgeGallery|"
 msgid "Icon + label with custom  background color:"
-msgstr ""
+msgstr "Ikona + popis s vlastnou farbou pozadia:"
 
 #: contents/ui/gallery/BadgeGallery.qml:82
 msgctxt "BadgeGallery|"
 msgid "Favorite"
-msgstr ""
+msgstr "Obľúbené"
 
 #: contents/ui/gallery/BadgeGallery.qml:86
 msgctxt "BadgeGallery|"
 msgid "Super compact versions with icons and all custom colors:"
-msgstr ""
+msgstr "Veľmi kompaktné verzie s ikonami a všetkými vlastnými farbami:"
 
 #: contents/ui/gallery/BadgeGallery.qml:87
 msgctxt "BadgeGallery|"
 msgid "Integrated GPU"
-msgstr ""
+msgstr "Integrované GPU"
 
 #: contents/ui/gallery/BadgeGallery.qml:94
 msgctxt "BadgeGallery|"
 msgid "Dedicated GPU"
-msgstr ""
+msgstr "Dedikované GPU"
 
 #: contents/ui/gallery/BadgeGallery.qml:101
 msgctxt "BadgeGallery|"
 msgid "Awkwardly long string, bounded length:"
-msgstr ""
+msgstr "Nepríjemne dlhý reťazec s obmedzenou dĺžkou:"
 
 #: contents/ui/gallery/BadgeGallery.qml:103
 msgctxt "BadgeGallery|"
 msgid "Turbo-encabulated; always fresh, never frozen"
-msgstr ""
+msgstr "Turbo-zapuzdrené; vždy čerstvé, nikdy nezmrazené"
 
 #: contents/ui/gallery/BadgeGallery.qml:107
 msgctxt "BadgeGallery|"
 msgid "Icon + awkwardly long string, bounded length:"
-msgstr ""
+msgstr "Ikona + nepríjemne dlhý reťazec s obmedzenou dĺžkou:"
 
 #: contents/ui/gallery/BadgeGallery.qml:110
 msgctxt "BadgeGallery|"
 msgid ""
 "The computer is about to explode; please proceed calmly to the nearest exit"
 msgstr ""
+"Počítač sa chystá vybuchnúť; prosím pokojne sa presuňte k najbližšiemu "
+"východu"
 
 #: contents/ui/gallery/BadgeGallery.qml:119
 msgctxt "BadgeGallery|"
 msgid "Symbolic icon:"
-msgstr ""
+msgstr "Symbolická ikona:"
 
 #: contents/ui/gallery/BadgeGallery.qml:124
 msgctxt "BadgeGallery|"
 msgid "Large symbolic re-colored icon:"
-msgstr ""
+msgstr "Veľká symbolická prefarbená ikona:"
 
 #: contents/ui/gallery/BadgeGallery.qml:132
 msgctxt "BadgeGallery|"
 msgid "Non-symbolic icon:"
-msgstr ""
+msgstr "Nesymbolická ikona:"
 
 #: contents/ui/gallery/CardsLayoutGallery.qml:32
 msgctxt "CardsLayoutGallery|"

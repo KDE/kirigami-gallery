@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"PO-Revision-Date: 2026-05-13 18:15+0200\n"
+"PO-Revision-Date: 2026-05-24 14:24+0200\n"
 "Last-Translator: Freek de Kruijf <freekdekruijf@kde.nl>\n"
 "Language-Team: \n"
 "Language: nl\n"
@@ -16,154 +16,150 @@ msgstr ""
 #: contents/ui/gallery/BadgeGallery.qml:19
 msgctxt "BadgeGallery|"
 msgid "Badges"
-msgstr ""
+msgstr "Badges"
 
 #: contents/ui/gallery/BadgeGallery.qml:30
 msgctxt "BadgeGallery|"
 msgid "Number badges"
-msgstr ""
+msgstr "Aantal badges"
 
 #: contents/ui/gallery/BadgeGallery.qml:34
-#, fuzzy
-#| msgctxt "DialogGallery|"
-#| msgid "Select Number"
 msgctxt "BadgeGallery|"
 msgid "Short number:"
-msgstr "Aantal selecteren"
+msgstr "Kort getal:"
 
 #: contents/ui/gallery/BadgeGallery.qml:38
 msgctxt "BadgeGallery|"
 msgid "Skinny Roman numeral:"
-msgstr ""
+msgstr "Dun Romeins getal"
 
 #: contents/ui/gallery/BadgeGallery.qml:42
 msgctxt "BadgeGallery|"
 msgid "Medium number:"
-msgstr ""
+msgstr "Midden getal"
 
 #: contents/ui/gallery/BadgeGallery.qml:46
 msgctxt "BadgeGallery|"
 msgid "Large number:"
-msgstr ""
+msgstr "Groot getal:"
 
 #: contents/ui/gallery/BadgeGallery.qml:50
 msgctxt "BadgeGallery|"
 msgid "Very large number:"
-msgstr ""
+msgstr "Erg groot getal"
 
 #: contents/ui/gallery/BadgeGallery.qml:51
 msgctxt "BadgeGallery|"
 msgid "99,999"
-msgstr ""
+msgstr "99,999"
 
 #: contents/ui/gallery/BadgeGallery.qml:54
 msgctxt "BadgeGallery|"
 msgid "Negative number:"
-msgstr ""
+msgstr "Negatief getal:"
 
 #: contents/ui/gallery/BadgeGallery.qml:55
 msgctxt "BadgeGallery|"
 msgid "-666"
-msgstr ""
+msgstr "-666"
 
 #: contents/ui/gallery/BadgeGallery.qml:60
-#, fuzzy
-#| msgctxt "InlineMessagesGallery|"
-#| msgid "Reset text"
 msgctxt "BadgeGallery|"
 msgid "Badges with text"
-msgstr "Tekst resetten"
+msgstr "Badges met tekst"
 
 #: contents/ui/gallery/BadgeGallery.qml:64
 msgctxt "BadgeGallery|"
 msgid "Default background and text color:"
-msgstr ""
+msgstr "Standaard achtergrond- en tekstkleur:"
 
 #: contents/ui/gallery/BadgeGallery.qml:65
 msgctxt "BadgeGallery|"
 msgid "New!"
-msgstr ""
+msgstr "Nieuw!"
 
 #: contents/ui/gallery/BadgeGallery.qml:68
 msgctxt "BadgeGallery|"
 msgid "Icon + label, positive:"
-msgstr ""
+msgstr "Pictogram + label, positief:"
 
 #: contents/ui/gallery/BadgeGallery.qml:70
 msgctxt "BadgeGallery|"
 msgid "Encrypted"
-msgstr ""
+msgstr "Versleuteld"
 
 #: contents/ui/gallery/BadgeGallery.qml:74
 msgctxt "BadgeGallery|"
 msgid "Icon + label, warning:"
-msgstr ""
+msgstr "Pictogramn + label, waarschuwing:"
 
 #: contents/ui/gallery/BadgeGallery.qml:76
 msgctxt "BadgeGallery|"
 msgid "Unencrypted"
-msgstr ""
+msgstr "Niet-versleuteld"
 
 #: contents/ui/gallery/BadgeGallery.qml:80
 msgctxt "BadgeGallery|"
 msgid "Icon + label with custom  background color:"
-msgstr ""
+msgstr "Pictogram + label met aangepaste achtergrondkleur:"
 
 #: contents/ui/gallery/BadgeGallery.qml:82
 msgctxt "BadgeGallery|"
 msgid "Favorite"
-msgstr ""
+msgstr "Favoriet"
 
 #: contents/ui/gallery/BadgeGallery.qml:86
 msgctxt "BadgeGallery|"
 msgid "Super compact versions with icons and all custom colors:"
-msgstr ""
+msgstr "Super compacte versies met pictogrammen en alle aangepaste kleuren:"
 
 #: contents/ui/gallery/BadgeGallery.qml:87
 msgctxt "BadgeGallery|"
 msgid "Integrated GPU"
-msgstr ""
+msgstr "Geïntegreerde GPU"
 
 #: contents/ui/gallery/BadgeGallery.qml:94
 msgctxt "BadgeGallery|"
 msgid "Dedicated GPU"
-msgstr ""
+msgstr "Speciale GPU"
 
 #: contents/ui/gallery/BadgeGallery.qml:101
 msgctxt "BadgeGallery|"
 msgid "Awkwardly long string, bounded length:"
-msgstr ""
+msgstr "Een onhandig lange tekenreeks, met een beperkte lengte:"
 
 #: contents/ui/gallery/BadgeGallery.qml:103
 msgctxt "BadgeGallery|"
 msgid "Turbo-encabulated; always fresh, never frozen"
-msgstr ""
+msgstr "Turbo-ingekapseld; altijd vers, nooit bevroren."
 
 #: contents/ui/gallery/BadgeGallery.qml:107
 msgctxt "BadgeGallery|"
 msgid "Icon + awkwardly long string, bounded length:"
-msgstr ""
+msgstr "Pictogram + onhandig lange tekenreeks, beperkte lengte:"
 
 #: contents/ui/gallery/BadgeGallery.qml:110
 msgctxt "BadgeGallery|"
 msgid ""
 "The computer is about to explode; please proceed calmly to the nearest exit"
 msgstr ""
+"De computer staat op het punt te ontploffen; ga alstublieft rustig naar de "
+"dichtstbijzijnde uitgang"
 
 #: contents/ui/gallery/BadgeGallery.qml:119
 msgctxt "BadgeGallery|"
 msgid "Symbolic icon:"
-msgstr ""
+msgstr "Symbolisch pictogram:"
 
 #: contents/ui/gallery/BadgeGallery.qml:124
 msgctxt "BadgeGallery|"
 msgid "Large symbolic re-colored icon:"
-msgstr ""
+msgstr "Groot symbolisch opnieuw ingekleurd pictogram:"
 
 #: contents/ui/gallery/BadgeGallery.qml:132
 msgctxt "BadgeGallery|"
 msgid "Non-symbolic icon:"
-msgstr ""
+msgstr "Niet-symbolisch pictogram:"
 
 #: contents/ui/gallery/CardsLayoutGallery.qml:32
 msgctxt "CardsLayoutGallery|"

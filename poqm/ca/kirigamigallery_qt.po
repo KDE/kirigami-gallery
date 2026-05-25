@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kirigami-gallery\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"PO-Revision-Date: 2026-05-13 07:56+0200\n"
+"PO-Revision-Date: 2026-05-24 11:59+0200\n"
 "Last-Translator: Josep M. Ferrer <txemaq@gmail.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
 "Language: ca\n"
@@ -23,154 +23,151 @@ msgstr ""
 #: contents/ui/gallery/BadgeGallery.qml:19
 msgctxt "BadgeGallery|"
 msgid "Badges"
-msgstr ""
+msgstr "Distintius"
 
 #: contents/ui/gallery/BadgeGallery.qml:30
 msgctxt "BadgeGallery|"
 msgid "Number badges"
-msgstr ""
+msgstr "Nombre de distintius"
 
 #: contents/ui/gallery/BadgeGallery.qml:34
-#, fuzzy
-#| msgctxt "DialogGallery|"
-#| msgid "Select Number"
 msgctxt "BadgeGallery|"
 msgid "Short number:"
-msgstr "Seleccioneu el número"
+msgstr "Nombre curt:"
 
 #: contents/ui/gallery/BadgeGallery.qml:38
 msgctxt "BadgeGallery|"
 msgid "Skinny Roman numeral:"
-msgstr ""
+msgstr "Nombres romans fins:"
 
 #: contents/ui/gallery/BadgeGallery.qml:42
 msgctxt "BadgeGallery|"
 msgid "Medium number:"
-msgstr ""
+msgstr "Nombre mitjà:"
 
 #: contents/ui/gallery/BadgeGallery.qml:46
 msgctxt "BadgeGallery|"
 msgid "Large number:"
-msgstr ""
+msgstr "Nombre gran:"
 
 #: contents/ui/gallery/BadgeGallery.qml:50
 msgctxt "BadgeGallery|"
 msgid "Very large number:"
-msgstr ""
+msgstr "Nombre molt gran:"
 
 #: contents/ui/gallery/BadgeGallery.qml:51
 msgctxt "BadgeGallery|"
 msgid "99,999"
-msgstr ""
+msgstr "99,999"
 
 #: contents/ui/gallery/BadgeGallery.qml:54
 msgctxt "BadgeGallery|"
 msgid "Negative number:"
-msgstr ""
+msgstr "Nombre negatiu:"
 
 #: contents/ui/gallery/BadgeGallery.qml:55
 msgctxt "BadgeGallery|"
 msgid "-666"
-msgstr ""
+msgstr "-666"
 
 #: contents/ui/gallery/BadgeGallery.qml:60
-#, fuzzy
-#| msgctxt "InlineMessagesGallery|"
-#| msgid "Reset text"
 msgctxt "BadgeGallery|"
 msgid "Badges with text"
-msgstr "Reinicia el text"
+msgstr "Distintius amb text"
 
 #: contents/ui/gallery/BadgeGallery.qml:64
 msgctxt "BadgeGallery|"
 msgid "Default background and text color:"
-msgstr ""
+msgstr "Color predeterminat del fons i el text:"
 
 #: contents/ui/gallery/BadgeGallery.qml:65
 msgctxt "BadgeGallery|"
 msgid "New!"
-msgstr ""
+msgstr "Nou!"
 
 #: contents/ui/gallery/BadgeGallery.qml:68
 msgctxt "BadgeGallery|"
 msgid "Icon + label, positive:"
-msgstr ""
+msgstr "Icona + etiqueta, positiu:"
 
 #: contents/ui/gallery/BadgeGallery.qml:70
 msgctxt "BadgeGallery|"
 msgid "Encrypted"
-msgstr ""
+msgstr "Encriptat"
 
 #: contents/ui/gallery/BadgeGallery.qml:74
 msgctxt "BadgeGallery|"
 msgid "Icon + label, warning:"
-msgstr ""
+msgstr "Icona + etiqueta, avís:"
 
 #: contents/ui/gallery/BadgeGallery.qml:76
 msgctxt "BadgeGallery|"
 msgid "Unencrypted"
-msgstr ""
+msgstr "Sense encriptar"
 
 #: contents/ui/gallery/BadgeGallery.qml:80
 msgctxt "BadgeGallery|"
 msgid "Icon + label with custom  background color:"
-msgstr ""
+msgstr "Icona + etiqueta amb color de fons personalitzat:"
 
 #: contents/ui/gallery/BadgeGallery.qml:82
 msgctxt "BadgeGallery|"
 msgid "Favorite"
-msgstr ""
+msgstr "Preferit"
 
 #: contents/ui/gallery/BadgeGallery.qml:86
 msgctxt "BadgeGallery|"
 msgid "Super compact versions with icons and all custom colors:"
-msgstr ""
+msgstr "Versions supercompactes amb icones i tots els colors personalitzats:"
 
 #: contents/ui/gallery/BadgeGallery.qml:87
 msgctxt "BadgeGallery|"
 msgid "Integrated GPU"
-msgstr ""
+msgstr "GPU integrada"
 
 #: contents/ui/gallery/BadgeGallery.qml:94
 msgctxt "BadgeGallery|"
 msgid "Dedicated GPU"
-msgstr ""
+msgstr "GPU dedicada"
 
 #: contents/ui/gallery/BadgeGallery.qml:101
 msgctxt "BadgeGallery|"
 msgid "Awkwardly long string, bounded length:"
-msgstr ""
+msgstr "Cadena llarga difícil, longitud limitada:"
 
+# NdT: Turbo-encabulated es referix a un dispositiu fictici (https://en.wikipedia.org/wiki/Turbo_encabulator)
 #: contents/ui/gallery/BadgeGallery.qml:103
 msgctxt "BadgeGallery|"
 msgid "Turbo-encabulated; always fresh, never frozen"
-msgstr ""
+msgstr "Turboencabulat; sempre fresc, mai congelat"
 
 #: contents/ui/gallery/BadgeGallery.qml:107
 msgctxt "BadgeGallery|"
 msgid "Icon + awkwardly long string, bounded length:"
-msgstr ""
+msgstr "Icona + cadena llarga difícil, longitud limitada:"
 
 #: contents/ui/gallery/BadgeGallery.qml:110
 msgctxt "BadgeGallery|"
 msgid ""
 "The computer is about to explode; please proceed calmly to the nearest exit"
 msgstr ""
+"L'ordinador està a punt d'explotar; aneu tranquil·lament a la sortida més "
+"propera"
 
 #: contents/ui/gallery/BadgeGallery.qml:119
 msgctxt "BadgeGallery|"
 msgid "Symbolic icon:"
-msgstr ""
+msgstr "Icona simbòlica:"
 
 #: contents/ui/gallery/BadgeGallery.qml:124
 msgctxt "BadgeGallery|"
 msgid "Large symbolic re-colored icon:"
-msgstr ""
+msgstr "Icona simbòlica gran reacolorida:"
 
 #: contents/ui/gallery/BadgeGallery.qml:132
 msgctxt "BadgeGallery|"
 msgid "Non-symbolic icon:"
-msgstr ""
+msgstr "Icona no simbòlica:"
 
 #: contents/ui/gallery/CardsLayoutGallery.qml:32
 msgctxt "CardsLayoutGallery|"

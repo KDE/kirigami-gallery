@@ -26,12 +26,9 @@ msgid "Number badges"
 msgstr ""
 
 #: contents/ui/gallery/BadgeGallery.qml:34
-#, fuzzy
-#| msgctxt "DialogGallery|"
-#| msgid "Select Number"
 msgctxt "BadgeGallery|"
 msgid "Short number:"
-msgstr "选择数值"
+msgstr ""
 
 #: contents/ui/gallery/BadgeGallery.qml:38
 msgctxt "BadgeGallery|"
@@ -69,12 +66,9 @@ msgid "-666"
 msgstr ""
 
 #: contents/ui/gallery/BadgeGallery.qml:60
-#, fuzzy
-#| msgctxt "InlineMessagesGallery|"
-#| msgid "Reset text"
 msgctxt "BadgeGallery|"
 msgid "Badges with text"
-msgstr "重置文本"
+msgstr ""
 
 #: contents/ui/gallery/BadgeGallery.qml:64
 msgctxt "BadgeGallery|"

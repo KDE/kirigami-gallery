@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"PO-Revision-Date: 2026-05-13 12:47+0300\n"
+"PO-Revision-Date: 2026-05-24 13:52+0300\n"
 "Last-Translator: Emir SARI <emir_sari@icloud.com>\n"
 "Language-Team: Turkish <kde-l10n-tr@kde.org>\n"
 "Language: tr\n"
@@ -16,154 +16,148 @@ msgstr ""
 #: contents/ui/gallery/BadgeGallery.qml:19
 msgctxt "BadgeGallery|"
 msgid "Badges"
-msgstr ""
+msgstr "Rozetler"
 
 #: contents/ui/gallery/BadgeGallery.qml:30
 msgctxt "BadgeGallery|"
 msgid "Number badges"
-msgstr ""
+msgstr "Sayı rozetleri"
 
 #: contents/ui/gallery/BadgeGallery.qml:34
-#, fuzzy
-#| msgctxt "DialogGallery|"
-#| msgid "Select Number"
 msgctxt "BadgeGallery|"
 msgid "Short number:"
-msgstr "Sayı Seç"
+msgstr "Kısa sayı:"
 
 #: contents/ui/gallery/BadgeGallery.qml:38
 msgctxt "BadgeGallery|"
 msgid "Skinny Roman numeral:"
-msgstr ""
+msgstr "İnce Romen sayıları:"
 
 #: contents/ui/gallery/BadgeGallery.qml:42
 msgctxt "BadgeGallery|"
 msgid "Medium number:"
-msgstr ""
+msgstr "Orta büyüklükte sayı:"
 
 #: contents/ui/gallery/BadgeGallery.qml:46
 msgctxt "BadgeGallery|"
 msgid "Large number:"
-msgstr ""
+msgstr "Büyük sayı:"
 
 #: contents/ui/gallery/BadgeGallery.qml:50
 msgctxt "BadgeGallery|"
 msgid "Very large number:"
-msgstr ""
+msgstr "Çok büyük sayı:"
 
 #: contents/ui/gallery/BadgeGallery.qml:51
 msgctxt "BadgeGallery|"
 msgid "99,999"
-msgstr ""
+msgstr "99.999"
 
 #: contents/ui/gallery/BadgeGallery.qml:54
 msgctxt "BadgeGallery|"
 msgid "Negative number:"
-msgstr ""
+msgstr "Negatif sayı:"
 
 #: contents/ui/gallery/BadgeGallery.qml:55
 msgctxt "BadgeGallery|"
 msgid "-666"
-msgstr ""
+msgstr "−999"
 
 #: contents/ui/gallery/BadgeGallery.qml:60
-#, fuzzy
-#| msgctxt "InlineMessagesGallery|"
-#| msgid "Reset text"
 msgctxt "BadgeGallery|"
 msgid "Badges with text"
-msgstr "Metni sıfırla"
+msgstr "Metinli rozet"
 
 #: contents/ui/gallery/BadgeGallery.qml:64
 msgctxt "BadgeGallery|"
 msgid "Default background and text color:"
-msgstr ""
+msgstr "Öntanımlı arka plan ve metin rengi:"
 
 #: contents/ui/gallery/BadgeGallery.qml:65
 msgctxt "BadgeGallery|"
 msgid "New!"
-msgstr ""
+msgstr "Yeni!"
 
 #: contents/ui/gallery/BadgeGallery.qml:68
 msgctxt "BadgeGallery|"
 msgid "Icon + label, positive:"
-msgstr ""
+msgstr "Simge + etiket, pozitif:"
 
 #: contents/ui/gallery/BadgeGallery.qml:70
 msgctxt "BadgeGallery|"
 msgid "Encrypted"
-msgstr ""
+msgstr "Şifreli"
 
 #: contents/ui/gallery/BadgeGallery.qml:74
 msgctxt "BadgeGallery|"
 msgid "Icon + label, warning:"
-msgstr ""
+msgstr "Simge + etiket, uyarı:"
 
 #: contents/ui/gallery/BadgeGallery.qml:76
 msgctxt "BadgeGallery|"
 msgid "Unencrypted"
-msgstr ""
+msgstr "Şifresiz"
 
 #: contents/ui/gallery/BadgeGallery.qml:80
 msgctxt "BadgeGallery|"
 msgid "Icon + label with custom  background color:"
-msgstr ""
+msgstr "Simge + etiket, özel arka plan rengi ile:"
 
 #: contents/ui/gallery/BadgeGallery.qml:82
 msgctxt "BadgeGallery|"
 msgid "Favorite"
-msgstr ""
+msgstr "Favori"
 
 #: contents/ui/gallery/BadgeGallery.qml:86
 msgctxt "BadgeGallery|"
 msgid "Super compact versions with icons and all custom colors:"
-msgstr ""
+msgstr "Simgeler ve özel renklerle çok ufak sürümler:"
 
 #: contents/ui/gallery/BadgeGallery.qml:87
 msgctxt "BadgeGallery|"
 msgid "Integrated GPU"
-msgstr ""
+msgstr "Tümleşik GPU"
 
 #: contents/ui/gallery/BadgeGallery.qml:94
 msgctxt "BadgeGallery|"
 msgid "Dedicated GPU"
-msgstr ""
+msgstr "Ayrı GPU"
 
 #: contents/ui/gallery/BadgeGallery.qml:101
 msgctxt "BadgeGallery|"
 msgid "Awkwardly long string, bounded length:"
-msgstr ""
+msgstr "Pek garip uzun dizi, sınırlı uzunluk:"
 
 #: contents/ui/gallery/BadgeGallery.qml:103
 msgctxt "BadgeGallery|"
 msgid "Turbo-encabulated; always fresh, never frozen"
-msgstr ""
+msgstr "Turbo güçlü pek afili, pek taze, hiçbir zaman dondurulmamış"
 
 #: contents/ui/gallery/BadgeGallery.qml:107
 msgctxt "BadgeGallery|"
 msgid "Icon + awkwardly long string, bounded length:"
-msgstr ""
+msgstr "Simge + pek uzun dizi, sınırlı uzunluk:"
 
 #: contents/ui/gallery/BadgeGallery.qml:110
 msgctxt "BadgeGallery|"
 msgid ""
 "The computer is about to explode; please proceed calmly to the nearest exit"
-msgstr ""
+msgstr "Bilgisayar patlamak üzere; lütfen en yakın çıkışlara doğru gidin"
 
 #: contents/ui/gallery/BadgeGallery.qml:119
 msgctxt "BadgeGallery|"
 msgid "Symbolic icon:"
-msgstr ""
+msgstr "Sembolik simge:"
 
 #: contents/ui/gallery/BadgeGallery.qml:124
 msgctxt "BadgeGallery|"
 msgid "Large symbolic re-colored icon:"
-msgstr ""
+msgstr "Büyük sembolik, yeniden renklendirilmiş simge:"
 
 #: contents/ui/gallery/BadgeGallery.qml:132
 msgctxt "BadgeGallery|"
 msgid "Non-symbolic icon:"
-msgstr ""
+msgstr "Sembolik olmayan simge:"
 
 #: contents/ui/gallery/CardsLayoutGallery.qml:32
 msgctxt "CardsLayoutGallery|"

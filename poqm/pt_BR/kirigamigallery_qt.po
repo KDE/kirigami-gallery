@@ -10,7 +10,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kirigamigallery_qt\n"
-"PO-Revision-Date: 2026-05-13 05:25-0300\n"
+"PO-Revision-Date: 2026-05-24 06:25-0300\n"
 "Last-Translator: Marcus Gama <marcus.gama@gmail.com>\n"
 "Language-Team: Brazilian Portuguese <kde-i18n-pt_BR@kde.org>\n"
 "Language: pt_BR\n"
@@ -24,154 +24,150 @@ msgstr ""
 #: contents/ui/gallery/BadgeGallery.qml:19
 msgctxt "BadgeGallery|"
 msgid "Badges"
-msgstr ""
+msgstr "Emblemas"
 
 #: contents/ui/gallery/BadgeGallery.qml:30
 msgctxt "BadgeGallery|"
 msgid "Number badges"
-msgstr ""
+msgstr "Número de emblemas"
 
 #: contents/ui/gallery/BadgeGallery.qml:34
-#, fuzzy
-#| msgctxt "DialogGallery|"
-#| msgid "Select Number"
 msgctxt "BadgeGallery|"
 msgid "Short number:"
-msgstr "Selecionar número"
+msgstr "Número pequeno:"
 
 #: contents/ui/gallery/BadgeGallery.qml:38
 msgctxt "BadgeGallery|"
 msgid "Skinny Roman numeral:"
-msgstr ""
+msgstr "Numeral romano magro:"
 
 #: contents/ui/gallery/BadgeGallery.qml:42
 msgctxt "BadgeGallery|"
 msgid "Medium number:"
-msgstr ""
+msgstr "Número médio:"
 
 #: contents/ui/gallery/BadgeGallery.qml:46
 msgctxt "BadgeGallery|"
 msgid "Large number:"
-msgstr ""
+msgstr "Número grande:"
 
 #: contents/ui/gallery/BadgeGallery.qml:50
 msgctxt "BadgeGallery|"
 msgid "Very large number:"
-msgstr ""
+msgstr "Número muito grande:"
 
 #: contents/ui/gallery/BadgeGallery.qml:51
 msgctxt "BadgeGallery|"
 msgid "99,999"
-msgstr ""
+msgstr "99.999"
 
 #: contents/ui/gallery/BadgeGallery.qml:54
 msgctxt "BadgeGallery|"
 msgid "Negative number:"
-msgstr ""
+msgstr "Número negativo:"
 
 #: contents/ui/gallery/BadgeGallery.qml:55
 msgctxt "BadgeGallery|"
 msgid "-666"
-msgstr ""
+msgstr "-666"
 
 #: contents/ui/gallery/BadgeGallery.qml:60
-#, fuzzy
-#| msgctxt "InlineMessagesGallery|"
-#| msgid "Reset text"
 msgctxt "BadgeGallery|"
 msgid "Badges with text"
-msgstr "Redefinir texto"
+msgstr "Emblemas com texto"
 
 #: contents/ui/gallery/BadgeGallery.qml:64
 msgctxt "BadgeGallery|"
 msgid "Default background and text color:"
-msgstr ""
+msgstr "Cor padrão de fundo e cor do texto:"
 
 #: contents/ui/gallery/BadgeGallery.qml:65
 msgctxt "BadgeGallery|"
 msgid "New!"
-msgstr ""
+msgstr "Novo!"
 
 #: contents/ui/gallery/BadgeGallery.qml:68
 msgctxt "BadgeGallery|"
 msgid "Icon + label, positive:"
-msgstr ""
+msgstr "Ícone + legenda, positivo:"
 
 #: contents/ui/gallery/BadgeGallery.qml:70
 msgctxt "BadgeGallery|"
 msgid "Encrypted"
-msgstr ""
+msgstr "Criptografado"
 
 #: contents/ui/gallery/BadgeGallery.qml:74
 msgctxt "BadgeGallery|"
 msgid "Icon + label, warning:"
-msgstr ""
+msgstr "Ícone + legenda, aviso:"
 
 #: contents/ui/gallery/BadgeGallery.qml:76
 msgctxt "BadgeGallery|"
 msgid "Unencrypted"
-msgstr ""
+msgstr "Descriptografado"
 
 #: contents/ui/gallery/BadgeGallery.qml:80
 msgctxt "BadgeGallery|"
 msgid "Icon + label with custom  background color:"
-msgstr ""
+msgstr "Ícone + legenda com cor de fundo customizada:"
 
 #: contents/ui/gallery/BadgeGallery.qml:82
 msgctxt "BadgeGallery|"
 msgid "Favorite"
-msgstr ""
+msgstr "Favorito"
 
 #: contents/ui/gallery/BadgeGallery.qml:86
 msgctxt "BadgeGallery|"
 msgid "Super compact versions with icons and all custom colors:"
-msgstr ""
+msgstr "Versões supercompactas com ícones e todas as cores personalizadas:"
 
 #: contents/ui/gallery/BadgeGallery.qml:87
 msgctxt "BadgeGallery|"
 msgid "Integrated GPU"
-msgstr ""
+msgstr "GPU integrada"
 
 #: contents/ui/gallery/BadgeGallery.qml:94
 msgctxt "BadgeGallery|"
 msgid "Dedicated GPU"
-msgstr ""
+msgstr "GPU dedicada"
 
 #: contents/ui/gallery/BadgeGallery.qml:101
 msgctxt "BadgeGallery|"
 msgid "Awkwardly long string, bounded length:"
-msgstr ""
+msgstr "String estranhamente longa, de comprimento limitado:"
 
 #: contents/ui/gallery/BadgeGallery.qml:103
 msgctxt "BadgeGallery|"
 msgid "Turbo-encabulated; always fresh, never frozen"
-msgstr ""
+msgstr "Turbo-encabulador; sempre fresco, nunca congelado"
 
 #: contents/ui/gallery/BadgeGallery.qml:107
 msgctxt "BadgeGallery|"
 msgid "Icon + awkwardly long string, bounded length:"
-msgstr ""
+msgstr "Ícone + string estranhamente longa, comprimento limitado:"
 
 #: contents/ui/gallery/BadgeGallery.qml:110
 msgctxt "BadgeGallery|"
 msgid ""
 "The computer is about to explode; please proceed calmly to the nearest exit"
 msgstr ""
+"O computador está prestes a explodir; por favor, dirija-se com calma à saída "
+"mais próxima."
 
 #: contents/ui/gallery/BadgeGallery.qml:119
 msgctxt "BadgeGallery|"
 msgid "Symbolic icon:"
-msgstr ""
+msgstr "Ícone simbólico:"
 
 #: contents/ui/gallery/BadgeGallery.qml:124
 msgctxt "BadgeGallery|"
 msgid "Large symbolic re-colored icon:"
-msgstr ""
+msgstr "Ícone grande e simbólico com cores alteradas:"
 
 #: contents/ui/gallery/BadgeGallery.qml:132
 msgctxt "BadgeGallery|"
 msgid "Non-symbolic icon:"
-msgstr ""
+msgstr "Ícone não simbólico:"
 
 #: contents/ui/gallery/CardsLayoutGallery.qml:32
 msgctxt "CardsLayoutGallery|"
