@@ -1,8 +1,8 @@
-# SPDX-FileCopyrightText: 2019, 2020, 2021, 2022, 2024 Shinjo Park <kde@peremen.name>
+# SPDX-FileCopyrightText: 2019, 2020, 2021, 2022, 2024, 2026 Shinjo Park <kde@peremen.name>
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"PO-Revision-Date: 2024-08-20 23:34+0200\n"
+"PO-Revision-Date: 2026-05-25 21:25+0200\n"
 "Last-Translator: Shinjo Park <kde@peremen.name>\n"
 "Language-Team: Korean <kde-kr@kde.org>\n"
 "Language: ko\n"
@@ -10,7 +10,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Lokalize 23.08.5\n"
+"X-Generator: Lokalize 25.12.3\n"
 "X-Qt-Contexts: true\n"
 
 #: contents/ui/gallery/CardsLayoutGallery.qml:32
@@ -180,7 +180,7 @@ msgid ""
 msgstr ""
 "Card를 수평으로 배치할 수도 있습니다.\n"
 "이 Card는 수평으로 더 길기 때문에 ColumnLayout에도 사용할 수 있습니다.\n"
-"CardsLayout에 이 카드를 패치하면 기본값으로 columnSpan은 2로 지정됩니다(재정"
+"CardsLayout에 이 카드를 배치하면 기본값으로 columnSpan은 2로 지정됩니다(재정"
 "의 가능)."
 
 #: contents/ui/gallery/CardsListViewGallery.qml:32
