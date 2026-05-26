@@ -115,6 +115,7 @@ msgctxt "BadgeGallery|"
 msgid "Favorite"
 msgstr "Preferit"
 
+# skip-rule: k-Super
 #: contents/ui/gallery/BadgeGallery.qml:86
 msgctxt "BadgeGallery|"
 msgid "Super compact versions with icons and all custom colors:"

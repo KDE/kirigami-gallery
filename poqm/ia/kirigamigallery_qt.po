@@ -1,17 +1,17 @@
-# SPDX-FileCopyrightText: 2024 giovanni <g.sora@tiscali.it>
+# SPDX-FileCopyrightText: 2024, 2026 giovanni <g.sora@tiscali.it>
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"PO-Revision-Date: 2024-12-16 18:35+0100\n"
+"PO-Revision-Date: 2026-05-25 17:43+0200\n"
 "Last-Translator: giovanni <g.sora@tiscali.it>\n"
-"Language-Team: Interlingua <kde-i18n-doc@kde.org>\n"
+"Language-Team: Interlingua <kde-i18n-it@kde.org>\n"
 "Language: ia\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Qt-Contexts: true\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 23.08.5\n"
+"X-Generator: Lokalize 25.04.0\n"
 
 #: contents/ui/gallery/BadgeGallery.qml:19
 msgctxt "BadgeGallery|"
@@ -24,12 +24,9 @@ msgid "Number badges"
 msgstr ""
 
 #: contents/ui/gallery/BadgeGallery.qml:34
-#, fuzzy
-#| msgctxt "DialogGallery|"
-#| msgid "Select Number"
 msgctxt "BadgeGallery|"
 msgid "Short number:"
-msgstr "Selige numero"
+msgstr "Numero breve:"
 
 #: contents/ui/gallery/BadgeGallery.qml:38
 msgctxt "BadgeGallery|"

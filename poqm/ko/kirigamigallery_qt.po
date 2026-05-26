@@ -1,8 +1,8 @@
-# SPDX-FileCopyrightText: 2019, 2020, 2021, 2022, 2024 Shinjo Park <kde@peremen.name>
+# SPDX-FileCopyrightText: 2019, 2020, 2021, 2022, 2024, 2026 Shinjo Park <kde@peremen.name>
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"PO-Revision-Date: 2024-08-20 23:34+0200\n"
+"PO-Revision-Date: 2026-05-25 21:25+0200\n"
 "Last-Translator: Shinjo Park <kde@peremen.name>\n"
 "Language-Team: Korean <kde-kr@kde.org>\n"
 "Language: ko\n"
@@ -10,160 +10,154 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Lokalize 23.08.5\n"
+"X-Generator: Lokalize 25.12.3\n"
 "X-Qt-Contexts: true\n"
 
 #: contents/ui/gallery/BadgeGallery.qml:19
 msgctxt "BadgeGallery|"
 msgid "Badges"
-msgstr ""
+msgstr "배지"
 
 #: contents/ui/gallery/BadgeGallery.qml:30
 msgctxt "BadgeGallery|"
 msgid "Number badges"
-msgstr ""
+msgstr "숫자 배지"
 
 #: contents/ui/gallery/BadgeGallery.qml:34
-#, fuzzy
-#| msgctxt "DialogGallery|"
-#| msgid "Select Number"
 msgctxt "BadgeGallery|"
 msgid "Short number:"
-msgstr "숫자 선택"
+msgstr "작은 숫자:"
 
 #: contents/ui/gallery/BadgeGallery.qml:38
 msgctxt "BadgeGallery|"
 msgid "Skinny Roman numeral:"
-msgstr ""
+msgstr "가는 로마 숫자:"
 
 #: contents/ui/gallery/BadgeGallery.qml:42
 msgctxt "BadgeGallery|"
 msgid "Medium number:"
-msgstr ""
+msgstr "중간 숫자:"
 
 #: contents/ui/gallery/BadgeGallery.qml:46
 msgctxt "BadgeGallery|"
 msgid "Large number:"
-msgstr ""
+msgstr "큰 숫자:"
 
 #: contents/ui/gallery/BadgeGallery.qml:50
 msgctxt "BadgeGallery|"
 msgid "Very large number:"
-msgstr ""
+msgstr "매우 큰 숫자:"
 
 #: contents/ui/gallery/BadgeGallery.qml:51
 msgctxt "BadgeGallery|"
 msgid "99,999"
-msgstr ""
+msgstr "99,999"
 
 #: contents/ui/gallery/BadgeGallery.qml:54
 msgctxt "BadgeGallery|"
 msgid "Negative number:"
-msgstr ""
+msgstr "음수:"
 
 #: contents/ui/gallery/BadgeGallery.qml:55
 msgctxt "BadgeGallery|"
 msgid "-666"
-msgstr ""
+msgstr "-666"
 
 #: contents/ui/gallery/BadgeGallery.qml:60
-#, fuzzy
-#| msgctxt "InlineMessagesGallery|"
-#| msgid "Reset text"
 msgctxt "BadgeGallery|"
 msgid "Badges with text"
-msgstr "텍스트 초기화"
+msgstr "텍스트가 있는 배지"
 
 #: contents/ui/gallery/BadgeGallery.qml:64
 msgctxt "BadgeGallery|"
 msgid "Default background and text color:"
-msgstr ""
+msgstr "기본 배경색과 글자색:"
 
 #: contents/ui/gallery/BadgeGallery.qml:65
 msgctxt "BadgeGallery|"
 msgid "New!"
-msgstr ""
+msgstr "새로운 항목!"
 
 #: contents/ui/gallery/BadgeGallery.qml:68
 msgctxt "BadgeGallery|"
 msgid "Icon + label, positive:"
-msgstr ""
+msgstr "아이콘+이름표, 긍정적:"
 
 #: contents/ui/gallery/BadgeGallery.qml:70
 msgctxt "BadgeGallery|"
 msgid "Encrypted"
-msgstr ""
+msgstr "암호화됨"
 
 #: contents/ui/gallery/BadgeGallery.qml:74
 msgctxt "BadgeGallery|"
 msgid "Icon + label, warning:"
-msgstr ""
+msgstr "아이콘+이름, 경고:"
 
 #: contents/ui/gallery/BadgeGallery.qml:76
 msgctxt "BadgeGallery|"
 msgid "Unencrypted"
-msgstr ""
+msgstr "암호화되지 않음"
 
 #: contents/ui/gallery/BadgeGallery.qml:80
 msgctxt "BadgeGallery|"
 msgid "Icon + label with custom  background color:"
-msgstr ""
+msgstr "아이콘+이름, 사용자 정의 배경색:"
 
 #: contents/ui/gallery/BadgeGallery.qml:82
 msgctxt "BadgeGallery|"
 msgid "Favorite"
-msgstr ""
+msgstr "책갈피"
 
 #: contents/ui/gallery/BadgeGallery.qml:86
 msgctxt "BadgeGallery|"
 msgid "Super compact versions with icons and all custom colors:"
-msgstr ""
+msgstr "아이콘 및 모든 사용자 정의 색상이 있는 매우 압축된 버전:"
 
 #: contents/ui/gallery/BadgeGallery.qml:87
 msgctxt "BadgeGallery|"
 msgid "Integrated GPU"
-msgstr ""
+msgstr "통합 GPU"
 
 #: contents/ui/gallery/BadgeGallery.qml:94
 msgctxt "BadgeGallery|"
 msgid "Dedicated GPU"
-msgstr ""
+msgstr "외장 GPU"
 
 #: contents/ui/gallery/BadgeGallery.qml:101
 msgctxt "BadgeGallery|"
 msgid "Awkwardly long string, bounded length:"
-msgstr ""
+msgstr "매우 긴 문자열, 길이 제한됨:"
 
 #: contents/ui/gallery/BadgeGallery.qml:103
 msgctxt "BadgeGallery|"
 msgid "Turbo-encabulated; always fresh, never frozen"
-msgstr ""
+msgstr "신박한 기계로 가공함. 항상 신선하고 냉동된 적 없음"
 
 #: contents/ui/gallery/BadgeGallery.qml:107
 msgctxt "BadgeGallery|"
 msgid "Icon + awkwardly long string, bounded length:"
-msgstr ""
+msgstr "아이콘+매우 긴 문자열, 길이 제한됨:"
 
 #: contents/ui/gallery/BadgeGallery.qml:110
 msgctxt "BadgeGallery|"
 msgid ""
 "The computer is about to explode; please proceed calmly to the nearest exit"
-msgstr ""
+msgstr "컴퓨터가 폭발하려고 합니다. 가장 가까운 비상구로 대피하십시오"
 
 #: contents/ui/gallery/BadgeGallery.qml:119
 msgctxt "BadgeGallery|"
 msgid "Symbolic icon:"
-msgstr ""
+msgstr "심볼릭 아이콘:"
 
 #: contents/ui/gallery/BadgeGallery.qml:124
 msgctxt "BadgeGallery|"
 msgid "Large symbolic re-colored icon:"
-msgstr ""
+msgstr "색상이 변경된 큰 심볼릭 아이콘:"
 
 #: contents/ui/gallery/BadgeGallery.qml:132
 msgctxt "BadgeGallery|"
 msgid "Non-symbolic icon:"
-msgstr ""
+msgstr "비 심볼릭 아이콘:"
 
 #: contents/ui/gallery/CardsLayoutGallery.qml:32
 msgctxt "CardsLayoutGallery|"
@@ -176,13 +170,6 @@ msgid "AbstractCard"
 msgstr "AbstractCard"
 
 #: contents/ui/gallery/CardsLayoutGallery.qml:50
-#, fuzzy
-#| msgctxt "CardsLayoutGallery|"
-#| msgid ""
-#| "An AbstractCard is the simplest form of card. It's just a rectangle with "
-#| "a shadow, which can contain any Item in it. It can also have items "
-#| "assigned to the Header or Footer properties. In this case a Kirigami."
-#| "Heading is its header and a Label with WordWrap is the contentItem."
 msgctxt "CardsLayoutGallery|"
 msgid ""
 "An AbstractCard is the simplest form of card. It's just a rectangle with a "
@@ -193,18 +180,9 @@ msgstr ""
 "AbstractCard는 가장 간단한 카드입니다. 그림자가 있는 직사각형으로 임의의 Item"
 "을 배치할 수 있습니다. Header나 Footer 속성에 항목을 할당할 수 있습니다. 지"
 "금 보고 있는 이 카드에는 Kirigami.Heading을 header, WordWrap 속성을 적용한 "
-"Label은 contentItem으로 지정했습니다."
+"Kirigami.SelectableLabel은 contentItem으로 지정했습니다."
 
 #: contents/ui/gallery/CardsLayoutGallery.qml:58
-#, fuzzy
-#| msgctxt "CardsLayoutGallery|"
-#| msgid ""
-#| "This is an AbstractCard with a Label with WordWrap in it and nothing "
-#| "else, it's the simplest form Cards can be found in.\n"
-#| "An AbstractCard can be clicked itself, with the usual onClicked signal "
-#| "handler and the showClickFeedback property can be used if the click "
-#| "should show any kind of visual feedback. It is recommended to set it to "
-#| "true if you plan to make the card reactive on any kind of click."
 msgctxt "CardsLayoutGallery|"
 msgid ""
 "This is an AbstractCard with a Kirigami.SelectableLabel with WordWrap in it "
@@ -214,8 +192,8 @@ msgid ""
 "show any kind of visual feedback. It is recommended to set it to true if you "
 "plan to make the card reactive on any kind of click."
 msgstr ""
-"이것은 WordWrap을 적용한 Label이 들어 있는 AbstractCard이며, 다른 것은 아무것"
-"도 없습니다. 가장 간단한 Cards 형태입니다.\n"
+"이것은 WordWrap을 적용한 Kirigami.SelectableLabel이 들어 있는 AbstractCard이"
+"며, 다른 것은 아무것도 없습니다. 가장 간단한 Cards 형태입니다.\n"
 "AbstractCard는 클릭할 수 있으며, onClicked 시그널 핸들러가 호출됩니다. "
 "showClickFeedback 속성을 사용하면 클릭했을 때 시각적인 피드백 표시 여부를 제"
 "어할 수 있습니다. 카드가 클릭에 반응하도록 하려면 이 값을 true로 설정하는 것"
@@ -280,12 +258,6 @@ msgid "Action6"
 msgstr "동작6"
 
 #: contents/ui/gallery/CardsLayoutGallery.qml:119
-#, fuzzy
-#| msgctxt "CardsLayoutGallery|"
-#| msgid ""
-#| "The title can be aligned to all corners or centered with a combination of "
-#| "Qt.Alignment flags.\n"
-#| " When there are too many actions, they go in an overflow menu."
 msgctxt "CardsLayoutGallery|"
 msgid ""
 "The title can be aligned to all corners or centered with a combination of Qt."
@@ -344,14 +316,6 @@ msgid "Ok"
 msgstr "확인"
 
 #: contents/ui/gallery/CardsLayoutGallery.qml:214
-#, fuzzy
-#| msgctxt "CardsLayoutGallery|"
-#| msgid ""
-#| "A card can optionally have horizontal orientation.\n"
-#| " In this case will be wider than tall, so is fit to be used also in a "
-#| "ColumnLayout.\n"
-#| "If you need to put it in a CardsLayout, it will have by default a "
-#| "columnSpan of 2 (which can be overridden)."
 msgctxt "CardsLayoutGallery|"
 msgid ""
 "A card can optionally have horizontal orientation.\n"
@@ -362,7 +326,7 @@ msgid ""
 msgstr ""
 "Card를 수평으로 배치할 수도 있습니다.\n"
 "이 Card는 수평으로 더 길기 때문에 ColumnLayout에도 사용할 수 있습니다.\n"
-"CardsLayout에 이 카드를 패치하면 기본값으로 columnSpan은 2로 지정됩니다(재정"
+"CardsLayout에 이 카드를 배치하면 기본값으로 columnSpan은 2로 지정됩니다(재정"
 "의 가능)."
 
 #: contents/ui/gallery/CardsListViewGallery.qml:32
