@@ -29,8 +29,6 @@ msgstr ""
 
 #: contents/ui/gallery/BadgeGallery.qml:34
 #, fuzzy
-#| msgctxt "DialogGallery|"
-#| msgid "Select Number"
 msgctxt "BadgeGallery|"
 msgid "Short number:"
 msgstr "Vel tal"
@@ -72,8 +70,6 @@ msgstr ""
 
 #: contents/ui/gallery/BadgeGallery.qml:60
 #, fuzzy
-#| msgctxt "InlineMessagesGallery|"
-#| msgid "Reset text"
 msgctxt "BadgeGallery|"
 msgid "Badges with text"
 msgstr "Tilbakestill tekst"
