@@ -3,7 +3,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"PO-Revision-Date: 2026-06-23 17:56+0200\n"
+"PO-Revision-Date: 2026-07-01 22:03+0200\n"
 "Last-Translator: Karl Ove Hufthammer <karl@huftis.org>\n"
 "Language-Team: Norwegian Nynorsk <l10n-no@nuug.no>\n"
 "Language: nn\n"
@@ -27,6 +27,7 @@ msgctxt "BadgeGallery|"
 msgid "Number badges"
 msgstr "Talmerke"
 
+# Eitt siffer
 #: contents/ui/gallery/BadgeGallery.qml:34
 msgctxt "BadgeGallery|"
 msgid "Short number:"
@@ -37,35 +38,40 @@ msgctxt "BadgeGallery|"
 msgid "Skinny Roman numeral:"
 msgstr "Smalt romartal:"
 
+# To siffer
 #: contents/ui/gallery/BadgeGallery.qml:42
 msgctxt "BadgeGallery|"
 msgid "Medium number:"
-msgstr ""
+msgstr "Middels stort tal:"
 
+# Tre siffer
 #: contents/ui/gallery/BadgeGallery.qml:46
 msgctxt "BadgeGallery|"
 msgid "Large number:"
 msgstr "Stort tal:"
 
+# Fem siffer (eks. 12 345).
 #: contents/ui/gallery/BadgeGallery.qml:50
 msgctxt "BadgeGallery|"
 msgid "Very large number:"
 msgstr "Veldig stort tal:"
 
+# Skal vera formatert versjon av talet, så me må ha mellomrom med manuelt.
 #: contents/ui/gallery/BadgeGallery.qml:51
 msgctxt "BadgeGallery|"
 msgid "99,999"
-msgstr "99,999"
+msgstr "99 999"
 
 #: contents/ui/gallery/BadgeGallery.qml:54
 msgctxt "BadgeGallery|"
 msgid "Negative number:"
 msgstr "Negativt tal:"
 
+# Brukar ekte minusteikn på norsk, ikkje bindestrek.
 #: contents/ui/gallery/BadgeGallery.qml:55
 msgctxt "BadgeGallery|"
 msgid "-666"
-msgstr ""
+msgstr "−666"
 
 #: contents/ui/gallery/BadgeGallery.qml:60
 msgctxt "BadgeGallery|"
@@ -75,7 +81,7 @@ msgstr "Merke med tekst"
 #: contents/ui/gallery/BadgeGallery.qml:64
 msgctxt "BadgeGallery|"
 msgid "Default background and text color:"
-msgstr ""
+msgstr "Standard bakgrunns- og tekstfarge:"
 
 #: contents/ui/gallery/BadgeGallery.qml:65
 msgctxt "BadgeGallery|"
@@ -85,7 +91,7 @@ msgstr "Nytt!"
 #: contents/ui/gallery/BadgeGallery.qml:68
 msgctxt "BadgeGallery|"
 msgid "Icon + label, positive:"
-msgstr ""
+msgstr "Ikon + tekst, positiv:"
 
 #: contents/ui/gallery/BadgeGallery.qml:70
 msgctxt "BadgeGallery|"
@@ -95,7 +101,7 @@ msgstr "Kryptert"
 #: contents/ui/gallery/BadgeGallery.qml:74
 msgctxt "BadgeGallery|"
 msgid "Icon + label, warning:"
-msgstr ""
+msgstr "Ikon + tekst, åtvaring:"
 
 #: contents/ui/gallery/BadgeGallery.qml:76
 msgctxt "BadgeGallery|"
@@ -105,17 +111,18 @@ msgstr "Ukryptert"
 #: contents/ui/gallery/BadgeGallery.qml:80
 msgctxt "BadgeGallery|"
 msgid "Icon + label with custom  background color:"
-msgstr ""
+msgstr "Ikon + tekst, med sjølvvalt bakgrunnsfarge:"
 
 #: contents/ui/gallery/BadgeGallery.qml:82
 msgctxt "BadgeGallery|"
 msgid "Favorite"
 msgstr "Favoritt"
 
+# Ordet «all» på engelsk er ikkje viktig. (Det er to merke, begge med ikon og sjølvvalde fargar.)
 #: contents/ui/gallery/BadgeGallery.qml:86
 msgctxt "BadgeGallery|"
 msgid "Super compact versions with icons and all custom colors:"
-msgstr ""
+msgstr "Superkompakt versjon med ikon sjølvvalde fargar:"
 
 #: contents/ui/gallery/BadgeGallery.qml:87
 msgctxt "BadgeGallery|"
@@ -130,38 +137,41 @@ msgstr "Dedikert skjermkort"
 #: contents/ui/gallery/BadgeGallery.qml:101
 msgctxt "BadgeGallery|"
 msgid "Awkwardly long string, bounded length:"
-msgstr ""
+msgstr "Upraktisk lang tekst, med avgrensa breidd:"
 
+# Humoristisk referanse til: https://en.wikipedia.org/wiki/Turbo_encabulator
+# På norsk brukar me heller referanse til Flåklypa:
+# https://no.wikipedia.org/wiki/Superretometerfordeler
 #: contents/ui/gallery/BadgeGallery.qml:103
 msgctxt "BadgeGallery|"
 msgid "Turbo-encabulated; always fresh, never frozen"
-msgstr ""
+msgstr "Super-retometer-fordelar; gjev sprut til tusen"
 
 #: contents/ui/gallery/BadgeGallery.qml:107
 msgctxt "BadgeGallery|"
 msgid "Icon + awkwardly long string, bounded length:"
-msgstr ""
+msgstr "Ikon + upraktisk lang tekst, med avgrensa breidd:"
 
 #: contents/ui/gallery/BadgeGallery.qml:110
 msgctxt "BadgeGallery|"
 msgid ""
 "The computer is about to explode; please proceed calmly to the nearest exit"
-msgstr ""
+msgstr "Kom arbeidslyst og treng deg på; her skal du motstand finna!"
 
 #: contents/ui/gallery/BadgeGallery.qml:119
 msgctxt "BadgeGallery|"
 msgid "Symbolic icon:"
-msgstr ""
+msgstr "Symbolsk ikon:"
 
 #: contents/ui/gallery/BadgeGallery.qml:124
 msgctxt "BadgeGallery|"
 msgid "Large symbolic re-colored icon:"
-msgstr ""
+msgstr "Stort symbolsk, refargelagt ikon:"
 
 #: contents/ui/gallery/BadgeGallery.qml:132
 msgctxt "BadgeGallery|"
 msgid "Non-symbolic icon:"
-msgstr ""
+msgstr "Ikkjesymbolsk ikon:"
 
 #: contents/ui/gallery/CardsLayoutGallery.qml:32
 msgctxt "CardsLayoutGallery|"
