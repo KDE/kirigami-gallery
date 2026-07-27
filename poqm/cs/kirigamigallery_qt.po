@@ -1,169 +1,166 @@
 # SPDX-FileCopyrightText: 2018, 2019, 2020, 2021, 2022, 2023, 2024 Vit Pelcak <vit@pelcak.org>
+# SPDX-FileCopyrightText: 2026 Libor Filípek <libor.filipek@gmail.com>
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"PO-Revision-Date: 2024-08-20 14:10+0200\n"
-"Last-Translator: Vit Pelcak <vit@pelcak.org>\n"
+"PO-Revision-Date: 2026-07-26 23:39+0200\n"
+"Last-Translator: Libor Filípek <libor.filipek@gmail.com>\n"
 "Language-Team: Czech <kde-i18n-doc@kde.org>\n"
 "Language: cs\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
-"X-Generator: Lokalize 24.05.2\n"
+"X-Generator: Poedit 3.9\n"
 "X-Qt-Contexts: true\n"
 
 #: contents/ui/gallery/BadgeGallery.qml:19
 msgctxt "BadgeGallery|"
 msgid "Badges"
-msgstr ""
+msgstr "Odznaky"
 
 #: contents/ui/gallery/BadgeGallery.qml:30
 msgctxt "BadgeGallery|"
 msgid "Number badges"
-msgstr ""
+msgstr "Číselné odznaky"
 
 #: contents/ui/gallery/BadgeGallery.qml:34
-#, fuzzy
-#| msgctxt "DialogGallery|"
-#| msgid "Select Number"
 msgctxt "BadgeGallery|"
 msgid "Short number:"
-msgstr "Vyberte číslo"
+msgstr "Krátké číslo:"
 
 #: contents/ui/gallery/BadgeGallery.qml:38
 msgctxt "BadgeGallery|"
 msgid "Skinny Roman numeral:"
-msgstr ""
+msgstr "Tenké římské číslo:"
 
 #: contents/ui/gallery/BadgeGallery.qml:42
 msgctxt "BadgeGallery|"
 msgid "Medium number:"
-msgstr ""
+msgstr "Střední číslo:"
 
 #: contents/ui/gallery/BadgeGallery.qml:46
 msgctxt "BadgeGallery|"
 msgid "Large number:"
-msgstr ""
+msgstr "Velké číslo:"
 
 #: contents/ui/gallery/BadgeGallery.qml:50
 msgctxt "BadgeGallery|"
 msgid "Very large number:"
-msgstr ""
+msgstr "Velmi velké číslo:"
 
 #: contents/ui/gallery/BadgeGallery.qml:51
 msgctxt "BadgeGallery|"
 msgid "99,999"
-msgstr ""
+msgstr "99,999"
 
 #: contents/ui/gallery/BadgeGallery.qml:54
 msgctxt "BadgeGallery|"
 msgid "Negative number:"
-msgstr ""
+msgstr "Záporné číslo:"
 
 #: contents/ui/gallery/BadgeGallery.qml:55
 msgctxt "BadgeGallery|"
 msgid "-666"
-msgstr ""
+msgstr "-666"
 
 #: contents/ui/gallery/BadgeGallery.qml:60
-#, fuzzy
-#| msgctxt "InlineMessagesGallery|"
-#| msgid "Reset text"
 msgctxt "BadgeGallery|"
 msgid "Badges with text"
-msgstr "Obnovit text"
+msgstr "Odznaky s textem"
 
 #: contents/ui/gallery/BadgeGallery.qml:64
 msgctxt "BadgeGallery|"
 msgid "Default background and text color:"
-msgstr ""
+msgstr "Výchozí barva pozadí a textu:"
 
 #: contents/ui/gallery/BadgeGallery.qml:65
 msgctxt "BadgeGallery|"
 msgid "New!"
-msgstr ""
+msgstr "Nové!"
 
 #: contents/ui/gallery/BadgeGallery.qml:68
 msgctxt "BadgeGallery|"
 msgid "Icon + label, positive:"
-msgstr ""
+msgstr "Ikona + popisek, pozitivní:"
 
 #: contents/ui/gallery/BadgeGallery.qml:70
 msgctxt "BadgeGallery|"
 msgid "Encrypted"
-msgstr ""
+msgstr "Zašifrováno"
 
 #: contents/ui/gallery/BadgeGallery.qml:74
 msgctxt "BadgeGallery|"
 msgid "Icon + label, warning:"
-msgstr ""
+msgstr "Ikona + popisek, varování:"
 
 #: contents/ui/gallery/BadgeGallery.qml:76
 msgctxt "BadgeGallery|"
 msgid "Unencrypted"
-msgstr ""
+msgstr "Nezašifrováno"
 
 #: contents/ui/gallery/BadgeGallery.qml:80
 msgctxt "BadgeGallery|"
 msgid "Icon + label with custom  background color:"
-msgstr ""
+msgstr "Ikona + popisek s vlastní barvou pozadí:"
 
 #: contents/ui/gallery/BadgeGallery.qml:82
 msgctxt "BadgeGallery|"
 msgid "Favorite"
-msgstr ""
+msgstr "Oblíbené"
 
 #: contents/ui/gallery/BadgeGallery.qml:86
 msgctxt "BadgeGallery|"
 msgid "Super compact versions with icons and all custom colors:"
-msgstr ""
+msgstr "Superkompaktní verze s ikonami a libovolnými barvami:"
 
 #: contents/ui/gallery/BadgeGallery.qml:87
 msgctxt "BadgeGallery|"
 msgid "Integrated GPU"
-msgstr ""
+msgstr "Integrovaná grafická karta"
 
 #: contents/ui/gallery/BadgeGallery.qml:94
 msgctxt "BadgeGallery|"
 msgid "Dedicated GPU"
-msgstr ""
+msgstr "Vyhrazená grafická karta"
 
 #: contents/ui/gallery/BadgeGallery.qml:101
 msgctxt "BadgeGallery|"
 msgid "Awkwardly long string, bounded length:"
-msgstr ""
+msgstr "Neprakticky dlouhý řetězec s omezenou délkou:"
 
 #: contents/ui/gallery/BadgeGallery.qml:103
 msgctxt "BadgeGallery|"
 msgid "Turbo-encabulated; always fresh, never frozen"
-msgstr ""
+msgstr "V turbo-obalu; vždy čerstvé, nikdy zmrazené"
 
 #: contents/ui/gallery/BadgeGallery.qml:107
 msgctxt "BadgeGallery|"
 msgid "Icon + awkwardly long string, bounded length:"
-msgstr ""
+msgstr "Ikona + nepřiměřeně dlouhý řetězec, omezená délka:"
 
 #: contents/ui/gallery/BadgeGallery.qml:110
 msgctxt "BadgeGallery|"
 msgid ""
 "The computer is about to explode; please proceed calmly to the nearest exit"
 msgstr ""
+"Počítač každou chvíli vybuchne; prosím, klidně se přesuňte k nejbližšímu "
+"východu"
 
 #: contents/ui/gallery/BadgeGallery.qml:119
 msgctxt "BadgeGallery|"
 msgid "Symbolic icon:"
-msgstr ""
+msgstr "Symbolická ikona:"
 
 #: contents/ui/gallery/BadgeGallery.qml:124
 msgctxt "BadgeGallery|"
 msgid "Large symbolic re-colored icon:"
-msgstr ""
+msgstr "Velká symbolická ikona v nové barvě:"
 
 #: contents/ui/gallery/BadgeGallery.qml:132
 msgctxt "BadgeGallery|"
 msgid "Non-symbolic icon:"
-msgstr ""
+msgstr "Nesymbolická ikona:"
 
 #: contents/ui/gallery/CardsLayoutGallery.qml:32
 msgctxt "CardsLayoutGallery|"
@@ -173,7 +170,7 @@ msgstr "Rozvržení karet"
 #: contents/ui/gallery/CardsLayoutGallery.qml:45
 msgctxt "CardsLayoutGallery|"
 msgid "AbstractCard"
-msgstr ""
+msgstr "AbstractCard"
 
 #: contents/ui/gallery/CardsLayoutGallery.qml:50
 msgctxt "CardsLayoutGallery|"
@@ -183,6 +180,11 @@ msgid ""
 "the Header or Footer properties. In this case a Kirigami.Heading is its "
 "header and a Kirigami.SelectableLabel with WordWrap is the contentItem."
 msgstr ""
+"AbstractCard je nejjednodušší typ karty. Jedná se pouze o obdélník se "
+"stínem, do kterého lze umístit libovolný prvek. Může také obsahovat prvky "
+"přiřazené k vlastnostem Header nebo Footer. V tomto případě je jeho záhlavím "
+"prvek Kirigami.Heading a obsahem prvek Kirigami.SelectableLabel s vlastností "
+"WordWrap."
 
 #: contents/ui/gallery/CardsLayoutGallery.qml:58
 msgctxt "CardsLayoutGallery|"
@@ -194,11 +196,19 @@ msgid ""
 "show any kind of visual feedback. It is recommended to set it to true if you "
 "plan to make the card reactive on any kind of click."
 msgstr ""
+"Jedná se o kartu typu AbstractCard s prvkem Kirigami.SelectableLabel, který "
+"obsahuje funkci WordWrap, a nic jiného – jde o nejjednodušší formu, v jaké "
+"se karty mohou vyskytovat.\n"
+"Na kartu typu AbstractCard lze kliknout; k dispozici je obvyklá obslužná "
+"funkce signálu onClicked a v případě, že má kliknutí vyvolat nějakou "
+"vizuální zpětnou vazbu, lze použít vlastnost showClickFeedback. Doporučuje "
+"se nastavit ji na hodnotu true, pokud plánujete, aby karta reagovala na "
+"jakýkoli druh kliknutí."
 
 #: contents/ui/gallery/CardsLayoutGallery.qml:60
 msgctxt "CardsLayoutGallery|"
 msgid "Card clicked"
-msgstr ""
+msgstr "Kliknutá karta"
 
 #: contents/ui/gallery/CardsLayoutGallery.qml:66
 #: contents/ui/gallery/CardsLayoutGallery.qml:88
@@ -229,6 +239,9 @@ msgid ""
 "properties together. A Card can also have Actions that will appear in the "
 "footer."
 msgstr ""
+"Jedná se o instanci typu Card: může mít volitelně přiřazen obrázek, název a "
+"ikonu k vlastnosti banner group, a to buď jednu z těchto vlastností, nebo "
+"všechny najednou. Karta může také obsahovat akce, které se zobrazí v zápatí."
 
 #: contents/ui/gallery/CardsLayoutGallery.qml:96
 msgctxt "CardsLayoutGallery|"
@@ -257,11 +270,14 @@ msgid ""
 "Alignment flags.\n"
 "When there are too many actions, they go in an overflow menu."
 msgstr ""
+"Název lze zarovnat ke všem rohům nebo vycentrovat pomocí kombinace příznaků "
+"Qt.Alignment.\n"
+"Pokud je akcí příliš mnoho, zobrazí se v rozbalovacím menu."
 
 #: contents/ui/gallery/CardsLayoutGallery.qml:134
 msgctxt "CardsLayoutGallery|"
 msgid "Action always hidden"
-msgstr ""
+msgstr "Akce je vždy skrytá"
 
 #: contents/ui/gallery/CardsLayoutGallery.qml:145
 msgctxt "CardsLayoutGallery|"
@@ -269,6 +285,8 @@ msgid ""
 "The Banner can contain only the title and/or an icon, even if there is no "
 "banner image."
 msgstr ""
+"Banner může obsahovat pouze název a/nebo ikonu, a to i v případě, že není k "
+"dispozici žádný obrázek banneru."
 
 #: contents/ui/gallery/CardsLayoutGallery.qml:168
 msgctxt "CardsLayoutGallery|"
@@ -276,6 +294,8 @@ msgid ""
 "It's possible to have custom contents overlapping the image, for cases where "
 "a more personalized design is needed."
 msgstr ""
+"V případech, kdy je zapotřebí individuálnější design, je možné, aby se "
+"vlastní obsah překrýval s obrázkem."
 
 #: contents/ui/gallery/CardsLayoutGallery.qml:183
 msgctxt "CardsLayoutGallery|"
@@ -287,11 +307,18 @@ msgid ""
 "used, the title and icon in the banner property shouldn't be used. If a "
 "custom footer is used (which is discouraged), actions shouldn't be used."
 msgstr ""
+"Vzhled karet lze také přizpůsobit, pokud je zapotřebí, aby záhlaví neměla "
+"žádné odsazení. Od tohoto postupu se obvykle nedoporučuje upouštět, aby byla "
+"zachována větší jednotnost, ale v některých případech vyžaduje design "
+"nápaditější rozvržení, jak ukazuje tento příklad karty. Pokud se používá "
+"vlastní záhlaví, neměl by se používat název a ikona ve vlastnosti banner. "
+"Pokud se používá vlastní zápatí (což se nedoporučuje), neměly by se používat "
+"akce."
 
 #: contents/ui/gallery/CardsLayoutGallery.qml:188
 msgctxt "CardsLayoutGallery|"
 msgid "Custom footer"
-msgstr ""
+msgstr "Vlastní zápatí"
 
 #: contents/ui/gallery/CardsLayoutGallery.qml:191
 msgctxt "CardsLayoutGallery|"
@@ -307,11 +334,16 @@ msgid ""
 "If you need to put it in a CardsLayout, it will have by default a columnSpan "
 "of 2 (which can be overridden)."
 msgstr ""
+"Karta může mít volitelně horizontální orientaci.\n"
+"V takovém případě bude širší než vyšší, takže je vhodná i pro použití v "
+"ColumnLayout.\n"
+"Pokud ji potřebujete umístit do CardsLayout, bude mít ve výchozím nastavení "
+"hodnotu columnSpan rovnou 2 (tuto hodnotu lze přepsat)."
 
 #: contents/ui/gallery/CardsListViewGallery.qml:32
 msgctxt "CardsListViewGallery|"
 msgid "List view of simple cards"
-msgstr ""
+msgstr "Seznam jednoduchých karet"
 
 #: contents/ui/gallery/CardsListViewGallery.qml:73
 msgctxt "CardsListViewGallery|"
@@ -324,6 +356,8 @@ msgid ""
 "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id risus id "
 "augue euismod accumsan."
 msgstr ""
+"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id risus id "
+"augue euismod accumsan."
 
 #: contents/ui/gallery/CardsListViewGallery.qml:87
 msgctxt "CardsListViewGallery|"
@@ -333,22 +367,22 @@ msgstr "Instalovat"
 #: contents/ui/gallery/ChipGallery.qml:33
 msgctxt "ChipGallery|"
 msgid "Chips"
-msgstr ""
+msgstr "Chips"
 
 #: contents/ui/gallery/ChipGallery.qml:48
 msgctxt "ChipGallery|"
 msgid "Closable Chips"
-msgstr ""
+msgstr "Uzaviratelné Chips"
 
 #: contents/ui/gallery/ChipGallery.qml:81
 msgctxt "ChipGallery|"
 msgid "Informative Chips"
-msgstr ""
+msgstr "Informativní Chips"
 
 #: contents/ui/gallery/ChipGallery.qml:120
 msgctxt "ChipGallery|"
 msgid "Checkable Chips"
-msgstr ""
+msgstr "Ověřitelné Chips"
 
 #: contents/ui/gallery/ColorsGallery.qml:31
 msgctxt "ColorsGallery|"
@@ -358,7 +392,7 @@ msgstr "Barvy"
 #: contents/ui/gallery/components/InfoSheet.qml:52
 msgctxt "InfoSheet|"
 msgid "HIG…"
-msgstr ""
+msgstr "HIG…"
 
 #: contents/ui/gallery/components/InfoSheet.qml:57
 msgctxt "InfoSheet|"
@@ -368,7 +402,7 @@ msgstr "Zdrojový kód…"
 #: contents/ui/gallery/components/InfoSheet.qml:62
 msgctxt "InfoSheet|"
 msgid "API…"
-msgstr ""
+msgstr "API…"
 
 #: contents/ui/gallery/components/InfoSheetAction.qml:18
 msgctxt "InfoSheetAction|"
@@ -455,12 +489,14 @@ msgstr "Text titulků"
 #: contents/ui/gallery/DialogGallery.qml:234
 msgctxt "DialogGallery|"
 msgid "No Footer Dialog"
-msgstr ""
+msgstr "Dialogové okno bez zápatí"
 
 #: contents/ui/gallery/DialogGallery.qml:164
 msgctxt "DialogGallery|"
 msgid "This dialog has no footer buttons.<br/>It also has no close button."
 msgstr ""
+"Toto dialogové okno neobsahuje žádná tlačítka v zápatí.<br/>Neobsahuje ani "
+"tlačítko pro zavření."
 
 #: contents/ui/gallery/DialogGallery.qml:172
 msgctxt "DialogGallery|"
@@ -485,7 +521,7 @@ msgstr "Zobrazit ve složce"
 #: contents/ui/gallery/DialogGallery.qml:184
 msgctxt "DialogGallery|"
 msgid "Show the file for this song in the file manager"
-msgstr ""
+msgstr "Zobrazit soubor této skladby ve správci souborů"
 
 #: contents/ui/gallery/DialogGallery.qml:188
 msgctxt "DialogGallery|Show track metadata"
@@ -495,7 +531,7 @@ msgstr "Zobrazit podrobnosti"
 #: contents/ui/gallery/DialogGallery.qml:189
 msgctxt "DialogGallery|"
 msgid "Show track metadata"
-msgstr ""
+msgstr "Zobrazit metadata skladby"
 
 #: contents/ui/gallery/DialogGallery.qml:193
 msgctxt ""
@@ -506,7 +542,7 @@ msgstr "Přehrát následující"
 #: contents/ui/gallery/DialogGallery.qml:194
 msgctxt "DialogGallery|"
 msgid "Add the track to the queue, right after the current track"
-msgstr ""
+msgstr "Přidat skladbu do fronty hned za aktuální skladbu"
 
 #: contents/ui/gallery/DialogGallery.qml:198
 msgctxt "DialogGallery|Enqueue current track"
@@ -516,7 +552,7 @@ msgstr "Zařadit do fronty"
 #: contents/ui/gallery/DialogGallery.qml:199
 msgctxt "DialogGallery|"
 msgid "Enqueue current track"
-msgstr ""
+msgstr "Zařadit aktuální skladbu do fronty"
 
 #: contents/ui/gallery/DialogGallery.qml:209
 msgctxt "DialogGallery|"
@@ -526,7 +562,7 @@ msgstr "Vyvolat dialog"
 #: contents/ui/gallery/DialogGallery.qml:214
 msgctxt "DialogGallery|"
 msgid "Text Prompt Dialog"
-msgstr ""
+msgstr "Dialog pro zadání textu"
 
 #: contents/ui/gallery/DialogGallery.qml:219
 msgctxt "DialogGallery|"
@@ -541,7 +577,7 @@ msgstr "Dialog výběru s titulky"
 #: contents/ui/gallery/DialogGallery.qml:229
 msgctxt "DialogGallery|"
 msgid "Scrollable Dialog"
-msgstr ""
+msgstr "Posuvný dialog"
 
 #: contents/ui/gallery/DialogGallery.qml:239
 msgctxt "DialogGallery|"
@@ -551,7 +587,7 @@ msgstr "Dialog s nabídkou"
 #: contents/ui/gallery/DrawerGallery.qml:32
 msgctxt "DrawerGallery|"
 msgid "Drawers"
-msgstr ""
+msgstr "Panely"
 
 #: contents/ui/gallery/DrawerGallery.qml:40
 msgctxt "DrawerGallery|"
@@ -561,7 +597,7 @@ msgstr "Činnost 1"
 #: contents/ui/gallery/DrawerGallery.qml:42
 msgctxt "DrawerGallery|"
 msgid "Action 1 clicked"
-msgstr ""
+msgstr "Kliknutá činnost 1"
 
 #: contents/ui/gallery/DrawerGallery.qml:45
 msgctxt "DrawerGallery|"
@@ -576,7 +612,7 @@ msgstr "Činnost 3"
 #: contents/ui/gallery/DrawerGallery.qml:51
 msgctxt "DrawerGallery|"
 msgid "Action 3 clicked"
-msgstr ""
+msgstr "Kliknutá činnost 3"
 
 #: contents/ui/gallery/DrawerGallery.qml:63
 msgctxt "DrawerGallery|"
@@ -585,6 +621,8 @@ msgid ""
 "will darken the rest of the app. Clicking on a darkened will dismiss the "
 "drawer."
 msgstr ""
+"Modální spodní panel se rozprostírá po celé šířce okna aplikace a zbytek "
+"aplikace ztmaví. Kliknutím na ztmavenou část panel zavřete."
 
 #: contents/ui/gallery/DrawerGallery.qml:67
 #: contents/ui/gallery/DrawerGallery.qml:86
@@ -600,6 +638,8 @@ msgid ""
 "An inline bottom drawer covers the whole application width but lets the "
 "uncovered pieces to still be interacted with."
 msgstr ""
+"Vestavěný spodní panel pokrývá celou šířku aplikace, ale umožňuje i nadále "
+"pracovat s částmi, které zůstávají odkryté."
 
 #: contents/ui/gallery/DrawerGallery.qml:100
 msgctxt "DrawerGallery|"
@@ -608,6 +648,8 @@ msgid ""
 "darken the rest of the app. Clicking on the darkened area will dismiss the "
 "drawer."
 msgstr ""
+"Modální horní panel se bude rozprostírat po celé šířce okna aplikace a "
+"zbytek aplikace se ztmaví. Kliknutím na ztmavenou oblast panel skryjete."
 
 #: contents/ui/gallery/DrawerGallery.qml:119
 msgctxt "DrawerGallery|"
@@ -615,41 +657,43 @@ msgid ""
 "An inline top drawer covers the whole application width but lets the "
 "uncovered pieces to still be interacted with."
 msgstr ""
+"Vestavěný horní panel pokrývá celou šířku aplikace, ale umožňuje i nadále "
+"pracovat s částmi, které nejsou touto lištou zakryty."
 
 #: contents/ui/gallery/DrawerGallery.qml:134
 msgctxt "DrawerGallery|"
 msgid "Left Global Drawer"
-msgstr ""
+msgstr "Levý globální panel"
 
 #: contents/ui/gallery/DrawerGallery.qml:139
 msgctxt "DrawerGallery|"
 msgid "Right Context Drawer"
-msgstr ""
+msgstr "Pravý kontextový panel"
 
 #: contents/ui/gallery/DrawerGallery.qml:145
 msgctxt "DrawerGallery|"
 msgid "Modal Bottom Drawer"
-msgstr ""
+msgstr "Modální spodní panel"
 
 #: contents/ui/gallery/DrawerGallery.qml:155
 msgctxt "DrawerGallery|"
 msgid "Modal Top Drawer"
-msgstr ""
+msgstr "Modální horní panel"
 
 #: contents/ui/gallery/FormLayoutGallery.qml:69
 msgctxt "FormLayoutGallery|"
 msgid "Expanding Button"
-msgstr ""
+msgstr "Rozbalovací tlačítko"
 
 #: contents/ui/gallery/FormLayoutGallery.qml:118
 msgctxt "FormLayoutGallery|"
 msgid "Twin Layout:"
-msgstr ""
+msgstr "Dvojí uspořádání:"
 
 #: contents/ui/gallery/InlineMessagesGallery.qml:33
 msgctxt "InlineMessagesGallery|"
 msgid "Inline Messages"
-msgstr ""
+msgstr "Vložené zprávy"
 
 #: contents/ui/gallery/InlineMessagesGallery.qml:48
 msgctxt "InlineMessagesGallery|"
@@ -657,6 +701,8 @@ msgid ""
 "This is an informational inline message (the default type). Use it for "
 "example to announce a result or provide commentary."
 msgstr ""
+"Toto je informační vložená zpráva (výchozí typ). Použijte ji například k "
+"oznámení výsledku nebo k poskytnutí komentáře."
 
 #: contents/ui/gallery/InlineMessagesGallery.qml:58
 msgctxt "InlineMessagesGallery|"
@@ -664,6 +710,8 @@ msgid ""
 "This is a positive inline message. Use it for example to announce a "
 "successful result or the successful completion of a procedure."
 msgstr ""
+"Toto je pozitivní vložená zpráva. Použijte ji například k oznámení úspěšného "
+"výsledku nebo úspěšného dokončení procesu."
 
 #: contents/ui/gallery/InlineMessagesGallery.qml:68
 msgctxt "InlineMessagesGallery|"
@@ -671,6 +719,8 @@ msgid ""
 "This is a warning inline message. Use it for example to provide critical "
 "guidance or warn about something that is not going to work."
 msgstr ""
+"Toto je varovná vložená zpráva. Použijte ji například k poskytnutí "
+"důležitých pokynů nebo k upozornění na něco, co nebude fungovat."
 
 #: contents/ui/gallery/InlineMessagesGallery.qml:78
 msgctxt "InlineMessagesGallery|"
@@ -678,11 +728,13 @@ msgid ""
 "This is an error inline message. Use it for example to announce something "
 "has gone wrong or that input will not be accepted."
 msgstr ""
+"Toto je chybová vložená zpráva. Použijte ji například k upozornění, že došlo "
+"k chybě nebo že zadaný údaj nebude přijat."
 
 #: contents/ui/gallery/InlineMessagesGallery.qml:92
 msgctxt "InlineMessagesGallery|"
 msgid "Inline messages can optionally have a custom icon set."
-msgstr ""
+msgstr "Vložené zprávy mohou volitelně obsahovat vlastní sadu ikon."
 
 #: contents/ui/gallery/InlineMessagesGallery.qml:100
 msgctxt "InlineMessagesGallery|"
@@ -691,11 +743,14 @@ msgid ""
 "links (opens in browser): <a href=\"https://www.kde.org\">https://www.kde."
 "org/<a/>"
 msgstr ""
+"V textových zprávách můžete používat formátovaný text a případně zpracovávat "
+"kliknutí na odkazy (otevírají se v prohlížeči): <a href=\"https://www.kde.org"
+"\">https://www.kde.org/<a/>"
 
 #: contents/ui/gallery/InlineMessagesGallery.qml:112
 msgctxt "InlineMessagesGallery|"
 msgid "Inline messages can have an optional close button."
-msgstr ""
+msgstr "Vložené zprávy mohou obsahovat volitelné tlačítko pro zavření."
 
 #: contents/ui/gallery/InlineMessagesGallery.qml:130
 msgctxt "InlineMessagesGallery|"
@@ -711,26 +766,28 @@ msgstr "Obnovit text"
 msgctxt "InlineMessagesGallery|"
 msgid "Inline messages are initially hidden and animate when revealed. Try it!"
 msgstr ""
+"Vložené zprávy jsou zpočátku skryté a při zobrazení se objeví s animací. "
+"Vyzkoušejte to!"
 
 #: contents/ui/gallery/InlineMessagesGallery.qml:171
 msgctxt "InlineMessagesGallery|"
 msgid "Show additional message"
-msgstr ""
+msgstr "Zobrazit dodatečnou zprávu"
 
 #: contents/ui/gallery/InlineMessagesGallery.qml:187
 msgctxt "InlineMessagesGallery|"
 msgid "Boo!"
-msgstr ""
+msgstr "Boo!"
 
 #: contents/ui/gallery/InlineMessagesGallery.qml:191
 msgctxt "InlineMessagesGallery|"
 msgid "Shush"
-msgstr ""
+msgstr "Pššt"
 
 #: contents/ui/gallery/ListViewGallery.qml:45
 msgctxt "ListViewGallery|"
 msgid "Main Action Text"
-msgstr ""
+msgstr "Hlavní text akce"
 
 #: contents/ui/gallery/ListViewGallery.qml:56
 msgctxt "ListViewGallery|"
@@ -742,9 +799,9 @@ msgstr "Zápatí:"
 msgctxt "ListViewGallery|"
 msgid "Item in sheet %n"
 msgid_plural "Item in sheet %n"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "Položka v listu %n"
+msgstr[1] "Položka v listech %n"
+msgstr[2] "Položka v listech %n"
 
 #: contents/ui/gallery/ListViewGallery.qml:128
 msgctxt "ListViewGallery|"
@@ -756,7 +813,7 @@ msgstr "Činnost 1"
 #, qt-format
 msgctxt "ListViewGallery|"
 msgid "%1: %2 clicked"
-msgstr ""
+msgstr "%1: %2 kliknuto"
 
 #: contents/ui/gallery/ListViewGallery.qml:133
 msgctxt "ListViewGallery|"
@@ -827,12 +884,12 @@ msgstr "Pouze ikona"
 #: contents/ui/gallery/MultipleColumnsGallery.qml:124
 msgctxt "MultipleColumnsGallery|"
 msgid "Pin page"
-msgstr ""
+msgstr "Připnout stránku"
 
 #: contents/ui/gallery/OverlaySheetGallery.qml:34
 msgctxt "OverlaySheetGallery|"
 msgid "Overlay Sheets"
-msgstr ""
+msgstr "Překryvné listy"
 
 #: contents/ui/gallery/OverlaySheetGallery.qml:68
 msgctxt "OverlaySheetGallery|"
@@ -859,6 +916,8 @@ msgid ""
 "A sheet can have optional header and footer items which will not scroll away "
 "when the sheet overflows."
 msgstr ""
+"List může obsahovat volitelné položky záhlaví a zápatí, které se při "
+"přetečení listu nezmizí z obrazovky."
 
 #: contents/ui/gallery/OverlaySheetGallery.qml:113
 msgctxt "OverlaySheetGallery|"
@@ -867,6 +926,9 @@ msgid ""
 "However, if the main item sets an implicitWidth or Layout.preferredWidth, "
 "the sheet won't grow in width more than such given value."
 msgstr ""
+"List ve výchozím nastavení zabere na stránce maximální dostupnou šířku.\n"
+"Pokud však hlavní prvek nastaví implicitWidth nebo Layout.preferredWidth, "
+"šířka listu nepřesáhne tuto zadanou hodnotu."
 
 #: contents/ui/gallery/OverlaySheetGallery.qml:134
 msgctxt "OverlaySheetGallery|"
@@ -876,26 +938,31 @@ msgid ""
 "display the sheet as an overlay on top of the whole application window.\n"
 "In this case the sheet will cover the page Action buttons too."
 msgstr ""
+"List se ve výchozím nastavení zobrazí na jedné stránce, i když je aplikace v "
+"širokém režimu. Pokud nastavíte nadřazený objekt listu na "
+"applicationWindow().overlay, list se zobrazí jako překryvná vrstva nad celým "
+"oknem aplikace.\n"
+"V takovém případě list zakryje i tlačítka akcí na stránce."
 
 #: contents/ui/gallery/OverlaySheetGallery.qml:165
 msgctxt "OverlaySheetGallery|"
 msgid "Item in sheet "
-msgstr ""
+msgstr "Položka v listu "
 
 #: contents/ui/gallery/OverlaySheetGallery.qml:209
 msgctxt "OverlaySheetGallery|"
 msgid "Very Long Sheet"
-msgstr ""
+msgstr "Velmi dlouhý list"
 
 #: contents/ui/gallery/SelectionControlsGallery.qml:33
 msgctxt "SelectionControlsGallery|"
 msgid "Selection Controls"
-msgstr ""
+msgstr "Ovládací prvky pro výběr"
 
 #: contents/ui/gallery/SelectionControlsGallery.qml:46
 msgctxt "SelectionControlsGallery|"
 msgid "Checkable List Items"
-msgstr ""
+msgstr "Položky v zaškrtávacím seznamu"
 
 #: contents/ui/gallery/SelectionControlsGallery.qml:56
 #: contents/ui/gallery/SelectionControlsGallery.qml:78
@@ -909,7 +976,7 @@ msgstr "Delegovat %1"
 #: contents/ui/gallery/SelectionControlsGallery.qml:90
 msgctxt "SelectionControlsGallery|"
 msgid "Radio List Items"
-msgstr ""
+msgstr "Přepínací položky seznamu"
 
 #: contents/ui/gallery/SelectionControlsGallery.qml:108
 msgctxt "SelectionControlsGallery|"
@@ -928,22 +995,22 @@ msgstr "Položka vybrána"
 #: contents/ui/gallery/SelectionControlsGallery.qml:152
 msgctxt "SelectionControlsGallery|"
 msgid "Item not selected"
-msgstr ""
+msgstr "Položka nevybrána"
 
 #: contents/ui/gallery/SelectionControlsGallery.qml:120
 msgctxt "SelectionControlsGallery|"
 msgid "Checkable List View"
-msgstr ""
+msgstr "Zobrazení seznamu s možností zaškrtnutí"
 
 #: contents/ui/gallery/SelectionControlsGallery.qml:126
 msgctxt "SelectionControlsGallery|"
 msgid "Radio buttons"
-msgstr ""
+msgstr "Přepínací tlačítka"
 
 #: contents/ui/gallery/SelectionControlsGallery.qml:139
 msgctxt "SelectionControlsGallery|"
 msgid "Radio List View"
-msgstr ""
+msgstr "Zobrazení přepínacího seznamu"
 
 #: contents/ui/gallery/SelectionControlsGallery.qml:145
 msgctxt "SelectionControlsGallery|"
@@ -953,7 +1020,7 @@ msgstr "Přepínače"
 #: contents/ui/gallery/SelectionControlsGallery.qml:156
 msgctxt "SelectionControlsGallery|"
 msgid "Switch List View"
-msgstr ""
+msgstr "Přepnout zobrazení seznamu"
 
 #: contents/ui/MainPage.qml:37
 msgctxt "MainPage|"
