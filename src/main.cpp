@@ -25,6 +25,10 @@
 #include <QUrl>
 #include <QtQml>
 
+#include <KAboutData>
+#include <KLocalizedQmlContext>
+#include <KLocalizedString>
+
 #ifdef Q_OS_ANDROID
 #include <QGuiApplication>
 
@@ -37,6 +41,10 @@
 #else
 #include <QApplication>
 #endif
+
+#include <version-kirigamigallery.h>
+
+using namespace Qt::Literals::StringLiterals;
 
 Q_DECL_EXPORT int main(int argc, char *argv[])
 {
@@ -55,6 +63,33 @@ Q_DECL_EXPORT int main(int argc, char *argv[])
     QApplication app(argc, argv);
     QApplication::setWindowIcon(QIcon::fromTheme(QStringLiteral("preferences-desktop-theme")));
 #endif
+
+    KLocalizedString::setApplicationDomain("kirigami-gallery");
+    QCoreApplication::setOrganizationName(u"KDE"_s);
+
+    KAboutData aboutData(
+        // The program name used internally.
+        u"kirigami-gallery"_s,
+        // A displayable program name string.
+        i18nc("@title", "Kirigami Gallery"),
+        // The program version string.
+        QStringLiteral(KIRIGAMIGALLERY_VERSION_STRING),
+        // Short description of what the app does.
+        i18nc("@info:usagetip", "Showcase of Kirigami Controls"),
+        // The license this code is released under.
+        KAboutLicense::GPL,
+        // Copyright Statement.
+        i18nc("@info:credit", "© 2017"));
+    aboutData.addAuthor(i18nc("@info:credit", "Marco Martin"),
+                        i18nc("@info:credit", "Maintainer"),
+                        {},
+                        u"https://notmart.org"_s,
+                        u"https://notmart.org/notmart.png"_s);
+    aboutData.setTranslator(i18nc("NAME OF TRANSLATORS", "Your names"), i18nc("EMAIL OF TRANSLATORS", "Your emails"));
+    KAboutData::setApplicationData(aboutData);
+    QGuiApplication::setWindowIcon(QIcon::fromTheme(u"org.kde.kirigami-gallery"_s));
+
+    // KCrash::initialize();
 
     // Extra debug if needed
     // qputenv("QML_IMPORT_TRACE", "1");

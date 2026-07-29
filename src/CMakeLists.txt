@@ -6,7 +6,7 @@ add_executable(kirigami2gallery
     main.cpp
     InfoData.cpp
     resources.qrc)
-target_link_libraries(kirigami2gallery Qt::Core Qt::Qml Qt::Quick Qt::Svg Qt::QuickControls2 KF6::Kirigami KF6::ItemModels)
+target_link_libraries(kirigami2gallery Qt::Core Qt::Qml Qt::Quick Qt::Svg Qt::QuickControls2 KF6::Kirigami KF6::ItemModels KF6::CoreAddons KF6::I18n)
 
 if (ANDROID)
     kirigami_package_breeze_icons(ICONS applications-graphics view-list-icons folder-sync view-list-details configure document-edit dialog-information dialog-positive dialog-warning dialog-error dialog-cancel document-decrypt system-run mail-reply-sender bookmarks folder media-record-symbolic add-placemark address-book-new-symbolic view-right-new view-right-close documentinfo go-home)

@@ -194,6 +194,13 @@ Kirigami.ApplicationWindow {
                 onTriggered: {
                     pageStack.layers.push(Qt.resolvedUrl("gallery/LayersGallery.qml"));
                 }
+            },
+            Kirigami.Action {
+                text: "About Kirigami Gallery..."
+                icon.name: "dialog-layers-symbolic"
+                onTriggered: {
+                    pageStack.layers.push(Qt.resolvedUrl("gallery/AboutPage.qml"));
+                }
             }
         ]
 
