@@ -38,6 +38,8 @@
 #include <QApplication>
 #endif
 
+static const auto INITIAL_STYLE = QQuickStyle::name();
+
 Q_DECL_EXPORT int main(int argc, char *argv[])
 {
     QGuiApplication::setApplicationDisplayName(QStringLiteral("Kirigami Gallery"));
@@ -46,15 +48,19 @@ Q_DECL_EXPORT int main(int argc, char *argv[])
 // The desktop QQC2 style needs it to be a QApplication
 #ifdef Q_OS_ANDROID
     QGuiApplication app(argc, argv);
-    QQuickStyle::setStyle(QStringLiteral("Material"));
 #else
-    // Default to org.kde.desktop style unless the user forces another style
-    if (qEnvironmentVariableIsEmpty("QT_QUICK_CONTROLS_STYLE")) {
-        QQuickStyle::setStyle(QStringLiteral("org.kde.desktop"));
-    }
     QApplication app(argc, argv);
     QApplication::setWindowIcon(QIcon::fromTheme(QStringLiteral("preferences-desktop-theme")));
 #endif
+
+    bool handledByQPT = INITIAL_STYLE != QQuickStyle::name();
+    if (qEnvironmentVariableIsEmpty("QT_QUICK_CONTROLS_STYLE") && !handledByQPT) {
+#ifdef Q_OS_ANDROID
+        QQuickStyle::setStyle(QStringLiteral("Material"));
+#else
+        QQuickStyle::setStyle(QStringLiteral("org.kde.desktop"));
+#endif
+    }
 
     // Extra debug if needed
     // qputenv("QML_IMPORT_TRACE", "1");
