@@ -314,7 +314,7 @@ msgstr "تذييل مخصّص"
 #: contents/ui/gallery/CardsLayoutGallery.qml:191
 msgctxt "CardsLayoutGallery|"
 msgid "Ok"
-msgstr "حسناً"
+msgstr "حسنًا"
 
 #: contents/ui/gallery/CardsLayoutGallery.qml:214
 msgctxt "CardsLayoutGallery|"
