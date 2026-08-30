@@ -1,14 +1,14 @@
 # Translation for kirigamigallery_qt.po to Euskara/Basque (eu).
-# Copyright (C) 2020-2025 This file is copyright:
+# Copyright (C) 2020-2026 This file is copyright:
 # This file is distributed under the same license as the original file.
-# SPDX-FileCopyrightText: 2024, 2025 KDE euskaratzeko proiektuko arduraduna <xalba@ni.eus>
+# SPDX-FileCopyrightText: 2024-2026 KDE euskaratzeko proiektuko arduraduna <xalba@ni.eus>
 #
 # Translators:
-# Iñigo Salvador Azurmendi <xalba@ni.eus>, 2020, 2022, 2024, 2025.
+# Iñigo Salvador Azurmendi <xalba@ni.eus>, 2020, 2022, 2024, 2025, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"PO-Revision-Date: 2025-03-22 15:27+0100\n"
+"PO-Revision-Date: 2026-08-29 23:35+0200\n"
 "Last-Translator: Iñigo Salvador Azurmendi <xalba@ni.eus>\n"
 "Language-Team: Basque <kde-i18n-eu@kde.org>\n"
 "Language: eu\n"
@@ -17,159 +17,153 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Qt-Contexts: true\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Lokalize 24.12.3\n"
+"X-Generator: Lokalize 26.08.0\n"
 
 #: contents/ui/gallery/BadgeGallery.qml:19
 msgctxt "BadgeGallery|"
 msgid "Badges"
-msgstr ""
+msgstr "Entseinak"
 
 #: contents/ui/gallery/BadgeGallery.qml:30
 msgctxt "BadgeGallery|"
 msgid "Number badges"
-msgstr ""
+msgstr "Zenbaki-entseinak"
 
 #: contents/ui/gallery/BadgeGallery.qml:34
-#, fuzzy
-#| msgctxt "DialogGallery|"
-#| msgid "Select Number"
 msgctxt "BadgeGallery|"
 msgid "Short number:"
-msgstr "Hautatu zenbakia"
+msgstr "Zenbaki laburra:"
 
 #: contents/ui/gallery/BadgeGallery.qml:38
 msgctxt "BadgeGallery|"
 msgid "Skinny Roman numeral:"
-msgstr ""
+msgstr "Zenbaki erromatar estua:"
 
 #: contents/ui/gallery/BadgeGallery.qml:42
 msgctxt "BadgeGallery|"
 msgid "Medium number:"
-msgstr ""
+msgstr "Zenbaki ertaina:"
 
 #: contents/ui/gallery/BadgeGallery.qml:46
 msgctxt "BadgeGallery|"
 msgid "Large number:"
-msgstr ""
+msgstr "Zenbaki handia:"
 
 #: contents/ui/gallery/BadgeGallery.qml:50
 msgctxt "BadgeGallery|"
 msgid "Very large number:"
-msgstr ""
+msgstr "Zenbaki oso handia:"
 
 #: contents/ui/gallery/BadgeGallery.qml:51
 msgctxt "BadgeGallery|"
 msgid "99,999"
-msgstr ""
+msgstr "99.999"
 
 #: contents/ui/gallery/BadgeGallery.qml:54
 msgctxt "BadgeGallery|"
 msgid "Negative number:"
-msgstr ""
+msgstr "Zenbaki negatiboa:"
 
 #: contents/ui/gallery/BadgeGallery.qml:55
 msgctxt "BadgeGallery|"
 msgid "-666"
-msgstr ""
+msgstr "-666"
 
 #: contents/ui/gallery/BadgeGallery.qml:60
-#, fuzzy
-#| msgctxt "InlineMessagesGallery|"
-#| msgid "Reset text"
 msgctxt "BadgeGallery|"
 msgid "Badges with text"
-msgstr "Berrezarri testua"
+msgstr "Testudun entseinak"
 
 #: contents/ui/gallery/BadgeGallery.qml:64
 msgctxt "BadgeGallery|"
 msgid "Default background and text color:"
-msgstr ""
+msgstr "Atzeko planoaren eta testuaren kolore lehenetsiak:"
 
 #: contents/ui/gallery/BadgeGallery.qml:65
 msgctxt "BadgeGallery|"
 msgid "New!"
-msgstr ""
+msgstr "Berria!"
 
 #: contents/ui/gallery/BadgeGallery.qml:68
 msgctxt "BadgeGallery|"
 msgid "Icon + label, positive:"
-msgstr ""
+msgstr "Ikonoa + etiketa, positiboa:"
 
 #: contents/ui/gallery/BadgeGallery.qml:70
 msgctxt "BadgeGallery|"
 msgid "Encrypted"
-msgstr ""
+msgstr "Zifratuta"
 
 #: contents/ui/gallery/BadgeGallery.qml:74
 msgctxt "BadgeGallery|"
 msgid "Icon + label, warning:"
-msgstr ""
+msgstr "Ikonoa + etiketa, abisua:"
 
 #: contents/ui/gallery/BadgeGallery.qml:76
 msgctxt "BadgeGallery|"
 msgid "Unencrypted"
-msgstr ""
+msgstr "Zifratu gabe"
 
 #: contents/ui/gallery/BadgeGallery.qml:80
 msgctxt "BadgeGallery|"
 msgid "Icon + label with custom  background color:"
-msgstr ""
+msgstr "Ikonoa + etiketa, norberak zehaztutako atzeko planoaren kolorearekin:"
 
 #: contents/ui/gallery/BadgeGallery.qml:82
 msgctxt "BadgeGallery|"
 msgid "Favorite"
-msgstr ""
+msgstr "Gogokoa"
 
 #: contents/ui/gallery/BadgeGallery.qml:86
 msgctxt "BadgeGallery|"
 msgid "Super compact versions with icons and all custom colors:"
-msgstr ""
+msgstr "Ikonodun bertsio oso trinkoak, kolore guztiak norberak zehaztuta:"
 
 #: contents/ui/gallery/BadgeGallery.qml:87
 msgctxt "BadgeGallery|"
 msgid "Integrated GPU"
-msgstr ""
+msgstr "GPU integratua"
 
 #: contents/ui/gallery/BadgeGallery.qml:94
 msgctxt "BadgeGallery|"
 msgid "Dedicated GPU"
-msgstr ""
+msgstr "GPU integratua"
 
 #: contents/ui/gallery/BadgeGallery.qml:101
 msgctxt "BadgeGallery|"
 msgid "Awkwardly long string, bounded length:"
-msgstr ""
+msgstr "Kate neurriz kanpo luzea, luzera mugatua:"
 
 #: contents/ui/gallery/BadgeGallery.qml:103
 msgctxt "BadgeGallery|"
 msgid "Turbo-encabulated; always fresh, never frozen"
-msgstr ""
+msgstr "Turbo-encabulated; beti freskoa, inoiz ez izoztua"
 
 #: contents/ui/gallery/BadgeGallery.qml:107
 msgctxt "BadgeGallery|"
 msgid "Icon + awkwardly long string, bounded length:"
-msgstr ""
+msgstr "Ikonoa + kate neurriz kanpo luzea, luzera mugatua:"
 
 #: contents/ui/gallery/BadgeGallery.qml:110
 msgctxt "BadgeGallery|"
 msgid ""
 "The computer is about to explode; please proceed calmly to the nearest exit"
-msgstr ""
+msgstr "Ordenagailua lehertzear dago; joan lasai hurbileneko irteerara"
 
 #: contents/ui/gallery/BadgeGallery.qml:119
 msgctxt "BadgeGallery|"
 msgid "Symbolic icon:"
-msgstr ""
+msgstr "Ikono sinbolikoa:"
 
 #: contents/ui/gallery/BadgeGallery.qml:124
 msgctxt "BadgeGallery|"
 msgid "Large symbolic re-colored icon:"
-msgstr ""
+msgstr "Kolorez aldatutako ikono sinboliko handia:"
 
 #: contents/ui/gallery/BadgeGallery.qml:132
 msgctxt "BadgeGallery|"
 msgid "Non-symbolic icon:"
-msgstr ""
+msgstr "Ikono ez-sinbolikoa:"
 
 #: contents/ui/gallery/CardsLayoutGallery.qml:32
 msgctxt "CardsLayoutGallery|"
@@ -182,13 +176,6 @@ msgid "AbstractCard"
 msgstr "AbstractCard"
 
 #: contents/ui/gallery/CardsLayoutGallery.qml:50
-#, fuzzy
-#| msgctxt "CardsLayoutGallery|"
-#| msgid ""
-#| "An AbstractCard is the simplest form of card. It's just a rectangle with "
-#| "a shadow, which can contain any Item in it. It can also have items "
-#| "assigned to the Header or Footer properties. In this case a Kirigami."
-#| "Heading is its header and a Label with WordWrap is the contentItem."
 msgctxt "CardsLayoutGallery|"
 msgid ""
 "An AbstractCard is the simplest form of card. It's just a rectangle with a "
@@ -196,23 +183,13 @@ msgid ""
 "the Header or Footer properties. In this case a Kirigami.Heading is its "
 "header and a Kirigami.SelectableLabel with WordWrap is the contentItem."
 msgstr ""
-"«AbstractCard» (Txartel-abstraktua), txartel formarik soilena da. Edozein "
-"elementu eduki dezakeen, itzala duen, laukizuzen bat besterik ez da. "
-"«Header» (goiburua) eta «Footer» (orri-oina) propietateei esleitutako "
-"elementuak ere izan ditzake. Kasu honetan «Kirigami.Heading» bat izango da "
-"bere goiburua eta «WordWrap» (itzulbiratzea) duen «Label» (etiketa) bat da "
-"«ContentItem» (eduki-elementua)."
+"AbstractCard bat txartel-formarik soilena da. Itzala duen laukizuzen bat "
+"besterik ez da, eta barruan edozein Item eduki dezake. Header edo Footer "
+"propietateei esleitutako elementuak ere izan ditzake. Kasu honetan, Kirigami."
+"Heading bat da goiburua, eta WordWrap duen Kirigami.SelectableLabel bat da "
+"contentItem."
 
 #: contents/ui/gallery/CardsLayoutGallery.qml:58
-#, fuzzy
-#| msgctxt "CardsLayoutGallery|"
-#| msgid ""
-#| "This is an AbstractCard with a Label with WordWrap in it and nothing "
-#| "else, it's the simplest form Cards can be found in.\n"
-#| "An AbstractCard can be clicked itself, with the usual onClicked signal "
-#| "handler and the showClickFeedback property can be used if the click "
-#| "should show any kind of visual feedback. It is recommended to set it to "
-#| "true if you plan to make the card reactive on any kind of click."
 msgctxt "CardsLayoutGallery|"
 msgid ""
 "This is an AbstractCard with a Kirigami.SelectableLabel with WordWrap in it "
@@ -222,14 +199,13 @@ msgid ""
 "show any kind of visual feedback. It is recommended to set it to true if you "
 "plan to make the card reactive on any kind of click."
 msgstr ""
-"Hau «AbstractCard» (Txartel-abstraktu) bat da, «WordWrap» (itzulbiratzea) "
-"duen «Label» (etiketa) batekin, eta besterik ez duena, aurki daitekeen "
-"«Cards» (Txartel)formarik soilena.\n"
-"«AbstractCard» batean klik egin daiteke, «onClicked» (Klik-egitean) "
-"seinalearen ohiko kudeatzailearekin, eta «showClickFeedback» (erakutsi-"
-"klikaren-erreakzioa) propietatea erabil daiteke klikak edonolako ikus-"
-"erreakziorik erakutsi behar badu. Txartela edonolako kliketara erreaktibo "
-"egiteko asmorik baduzu, propietate hau egia gisa ezartzea gomendatzen da."
+"Hau AbstractCard bat da, barruan WordWrap duen Kirigami.SelectableLabel bat "
+"besterik ez duena; txartelek izan dezaketen formarik soilena da.\n"
+"AbstractCard bati berari klik egin dakioke, ohiko onClicked seinale-"
+"kudeatzailearen bidez, eta showClickFeedback propietatea erabil daiteke "
+"klikak ikusizko erantzunen bat erakutsi behar badu. Txartelak edozein klik "
+"motari erantzutea nahi baduzu, propietate hori true gisa ezartzea "
+"gomendatzen da."
 
 #: contents/ui/gallery/CardsLayoutGallery.qml:60
 msgctxt "CardsLayoutGallery|"
@@ -291,21 +267,15 @@ msgid "Action6"
 msgstr "Ekintza6"
 
 #: contents/ui/gallery/CardsLayoutGallery.qml:119
-#, fuzzy
-#| msgctxt "CardsLayoutGallery|"
-#| msgid ""
-#| "The title can be aligned to all corners or centered with a combination of "
-#| "Qt.Alignment flags.\n"
-#| " When there are too many actions, they go in an overflow menu."
 msgctxt "CardsLayoutGallery|"
 msgid ""
 "The title can be aligned to all corners or centered with a combination of Qt."
 "Alignment flags.\n"
 "When there are too many actions, they go in an overflow menu."
 msgstr ""
-"Titulua izkina guztietan lerrokatu edo erdiratu daiteke «Qt.Alignment» "
-"bandera konbinazio bat erabiliz.\n"
-" Ekintza gehiegi daudenean, gainezkatze menu batean sartzen dira."
+"Titulua edozein izkinatan lerrokatu edo erdiratu daiteke Qt.Alignment "
+"banderen konbinazio bat erabiliz.\n"
+"Ekintza gehiegi daudenean, gainezkatze-menu batean sartzen dira."
 
 #: contents/ui/gallery/CardsLayoutGallery.qml:134
 msgctxt "CardsLayoutGallery|"
@@ -360,14 +330,6 @@ msgid "Ok"
 msgstr "Ados"
 
 #: contents/ui/gallery/CardsLayoutGallery.qml:214
-#, fuzzy
-#| msgctxt "CardsLayoutGallery|"
-#| msgid ""
-#| "A card can optionally have horizontal orientation.\n"
-#| " In this case will be wider than tall, so is fit to be used also in a "
-#| "ColumnLayout.\n"
-#| "If you need to put it in a CardsLayout, it will have by default a "
-#| "columnSpan of 2 (which can be overridden)."
 msgctxt "CardsLayoutGallery|"
 msgid ""
 "A card can optionally have horizontal orientation.\n"
@@ -377,10 +339,10 @@ msgid ""
 "of 2 (which can be overridden)."
 msgstr ""
 "Txartel batek orientazio horizontala izan dezake.\n"
-"Kasu horretan altua baino zabalagoa izango da, beraz «ColumnLayout» (Zutabe-"
-"antolaera) batean erabiltzeko egokia da.\n"
-"«CardsLayout» (Txartel-antolaera) batean ipini behar baduzu, lehenetsitako "
-"«columnSpan» (Zutabe-hedadura) 2 izango du (baliogabetu daiteke)."
+"Kasu horretan, altua baino zabalagoa izango da; beraz, ColumnLayout batean "
+"ere erabiltzeko egokia da.\n"
+"CardsLayout batean ipini behar baduzu, columnSpan balioa 2 izango da "
+"lehenespenez (gainidatz daiteke)."
 
 #: contents/ui/gallery/CardsListViewGallery.qml:32
 msgctxt "CardsListViewGallery|"
