@@ -213,10 +213,8 @@ Kirigami.ScrollablePage {
         id: filteredModel
         sourceModel: galleryModel
         filterRoleName: "title"
-        filterRegularExpression: {
-            if (searchField.text === "") return new RegExp()
-            return new RegExp("%1".arg(searchField.text), "i")
-        }
+        filterString: searchField.text
+        filterCaseSensitivity: Qt.CaseInsensitive
     }
     background: Rectangle {
         anchors.fill: parent
