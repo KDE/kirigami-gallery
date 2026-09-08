@@ -422,7 +422,7 @@ msgstr "Informations"
 #: contents/ui/gallery/DialogGallery.qml:34
 msgctxt "DialogGallery|"
 msgid "Dialogs"
-msgstr "Boîtes de dialogue"
+msgstr "Boites de dialogue"
 
 #: contents/ui/gallery/DialogGallery.qml:58
 msgctxt "DialogGallery|"
@@ -567,32 +567,32 @@ msgstr "Enlever la piste courante de la file"
 #: contents/ui/gallery/DialogGallery.qml:209
 msgctxt "DialogGallery|"
 msgid "Prompt Dialog"
-msgstr "Boîte de dialogue d'invite"
+msgstr "Boite de dialogue d'invite"
 
 #: contents/ui/gallery/DialogGallery.qml:214
 msgctxt "DialogGallery|"
 msgid "Text Prompt Dialog"
-msgstr "Boîte de dialogue d'invite avec texte"
+msgstr "Boite de dialogue d'invite avec texte"
 
 #: contents/ui/gallery/DialogGallery.qml:219
 msgctxt "DialogGallery|"
 msgid "Selection Dialog"
-msgstr "Boîte de dialogue de sélection"
+msgstr "Boite de dialogue de sélection"
 
 #: contents/ui/gallery/DialogGallery.qml:224
 msgctxt "DialogGallery|"
 msgid "Selection Dialog with subtitles"
-msgstr "Boîte de dialogue de sélection avec les sous-titres"
+msgstr "Boite de dialogue de sélection avec les sous-titres"
 
 #: contents/ui/gallery/DialogGallery.qml:229
 msgctxt "DialogGallery|"
 msgid "Scrollable Dialog"
-msgstr "Boîte de dialogue avec défilement"
+msgstr "Boite de dialogue avec défilement"
 
 #: contents/ui/gallery/DialogGallery.qml:239
 msgctxt "DialogGallery|"
 msgid "Menu Dialog"
-msgstr "Boîte de dialogue de menu"
+msgstr "Boite de dialogue de menu"
 
 #: contents/ui/gallery/DrawerGallery.qml:32
 msgctxt "DrawerGallery|"
