@@ -133,7 +133,7 @@ msgstr "Processeur graphique (GPU) dédié"
 #: contents/ui/gallery/BadgeGallery.qml:101
 msgctxt "BadgeGallery|"
 msgid "Awkwardly long string, bounded length:"
-msgstr "Chaîne maladroitement longue, longueur limitée :"
+msgstr "Chaine maladroitement longue, longueur limitée :"
 
 #: contents/ui/gallery/BadgeGallery.qml:103
 msgctxt "BadgeGallery|"
@@ -143,7 +143,7 @@ msgstr "Turbo-encabulé, toujours frais, jamais congelé"
 #: contents/ui/gallery/BadgeGallery.qml:107
 msgctxt "BadgeGallery|"
 msgid "Icon + awkwardly long string, bounded length:"
-msgstr "Icône + chaîne de longueur maladroitement longue, longueur limitée :"
+msgstr "Icône + chaine de longueur maladroitement longue, longueur limitée :"
 
 #: contents/ui/gallery/BadgeGallery.qml:110
 msgctxt "BadgeGallery|"
