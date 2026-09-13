@@ -11,6 +11,7 @@ import QtQuick
 import QtQuick.Controls as QQC2
 import QtQuick.Layouts
 import org.kde.kirigami as Kirigami
+import org.kde.kirigami.forms as KF
 import "components" as KGC
 
 Kirigami.ScrollablePage {
@@ -23,99 +24,92 @@ Kirigami.ScrollablePage {
         component: "FormLayoutGallery"
     }
 
-    ColumnLayout {
-
-        Kirigami.FormLayout {
-            id: layout
-            Layout.fillWidth: true
-
-            twinFormLayouts: layout2
-            QQC2.TextField {
-                Kirigami.FormData.label: "Label:"
+    KF.Form {
+        KF.FormGroup {
+            KF.FormEntry {
+                title: "Label:"
+                contentItem: QQC2.TextField {}
             }
-            QQC2.TextField {
+            KF.FormEntry {
+                contentItem: QQC2.TextField {}
             }
-            QQC2.TextField {
-                Kirigami.FormData.label:"Lo&nger label:"
+            KF.FormEntry {
+                title: "Lo&nger label:"
+                contentItem: QQC2.TextField {}
             }
-            Kirigami.Separator {
-                Kirigami.FormData.isSection: true
+            KF.FormSeparator {}
+            KF.FormEntry {
+                title: "After separator:"
+                contentItem: QQC2.TextField {}
             }
-            QQC2.TextField {
-                Kirigami.FormData.label: "After separator:"
+            KF.FormEntry {
+                title: "Combo:"
+                contentItem: QQC2.ComboBox {
+                    model: ["First", "Second", "Third"]
+                }
             }
-            QQC2.ComboBox {
-                Kirigami.FormData.label: "Combo:"
-                model: ["First", "Second", "Third"]
-            }
-            QQC2.CheckBox {
-                checked: true
-                text: "Option"
-            }
-            Kirigami.Separator {
-                Kirigami.FormData.isSection: true
-                Kirigami.FormData.label: "Section title"
-            }
-            QQC2.TextField {
-                Kirigami.FormData.label: "Label:"
-            }
-            Item {
-                Kirigami.FormData.isSection: true
-            }
-            QQC2.TextField {
-                Kirigami.FormData.label: "Section without line:"
-            }
-            QQC2.Button {
-                text: qsTr("Expanding Button")
-                Layout.fillWidth: true
-            }
-            Item {
-                Kirigami.FormData.isSection: true
-                Kirigami.FormData.label: "Section with title without line"
-            }
-            QQC2.TextField {
-                Kirigami.FormData.label: "Title:"
-            }
-            ColumnLayout {
-                Layout.rowSpan: 3
-                Kirigami.FormData.label: "Label for radios:"
-                Kirigami.FormData.buddyFor: firstRadio
-                QQC2.RadioButton {
-                    id: firstRadio
+            KF.FormEntry {
+                contentItem: QQC2.CheckBox {
                     checked: true
-                    text: "One"
-                }
-                QQC2.RadioButton {
-                    text: "Two"
-                }
-                QQC2.RadioButton {
-                    text: "Three"
-                }
-            }
-            QQC2.Button {
-                text: item ? "Remove Field" : "Add Field"
-                property QQC2.TextField item
-                onClicked: {
-                    if (item) {
-                        item.destroy();
-                    } else {
-                        item = dyncomponent.createObject(layout);
-                    }
-                }
-                Component {
-                    id: dyncomponent
-                    QQC2.TextField {
-                        Kirigami.FormData.label: "Generated Title:"
-                    }
+                    text: "Option"
                 }
             }
         }
-        Kirigami.FormLayout {
-            id: layout2
-            Layout.fillWidth: true
-            twinFormLayouts: layout
-            QQC2.TextField {
-                Kirigami.FormData.label: qsTr("Twin Layout:")
+        KF.FormGroup {
+            title: "Section title"
+            KF.FormEntry {
+                title: "Label:"
+                contentItem: QQC2.TextField {}
+            }
+            KF.FormEntry {
+                title: "Section without line:"
+                contentItem: QQC2.TextField {}
+            }
+            KF.FormEntry {
+                id: buttonEntry
+                contentItem: QQC2.Button {
+                    Layout.fillWidth: true
+                    text: qsTr("Expanding Button")
+                }
+            }
+        }
+        KF.FormGroup {
+            title: "Section title"
+            QQC2.ButtonGroup {
+                buttons: [radio1, radio2, radio3]
+            }
+            KF.FormEntry {
+                title: "Label for radios:"
+                contentItem: QQC2.RadioButton {
+                    id: radio1
+                    checked: true
+                    text: "One"
+                }
+            }
+            KF.FormEntry {
+                contentItem: QQC2.RadioButton {
+                    id: radio2
+                    text: "Two"
+                }
+            }
+            KF.FormEntry {
+                contentItem: QQC2.RadioButton {
+                    id: radio3
+                    text: "Three"
+                }
+            }
+            KF.FormEntry {
+                title: "Label for radios:"
+                contentItem: QQC2.Button {
+                    text: hiddenField.visible ? "Remove Field" : "Add Field"
+                    onClicked: hiddenField.visible = !hiddenField.visible
+                }
+            }
+            KF.FormEntry {
+                id: hiddenField
+                title: "Generated Title:"
+                visible: false
+                contentItem: QQC2.TextField {}
             }
         }
     }
