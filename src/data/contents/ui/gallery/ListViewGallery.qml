@@ -99,7 +99,7 @@ Kirigami.ScrollablePage {
             width: mainList.width - mainList.leftMargin - mainList.rightMargin
             height: listItem.implicitHeight
 
-            Kirigami.SwipeListItem {
+            QQC2.ItemDelegate {
                 id: listItem
                 width: listItemRoot.width
                 contentItem: RowLayout {
@@ -117,23 +117,22 @@ Kirigami.ScrollablePage {
 
                     QQC2.Label {
                         Layout.fillWidth: true
-                        Layout.preferredHeight: Math.max(implicitHeight, Kirigami.Units.iconSizes.smallMedium)
                         text: listItemRoot.title
-                        color: listItem.checked || (listItem.pressed && !listItem.checked && !listItem.sectionDelegate) ? listItem.activeTextColor : listItem.textColor
+                    }
+
+                    QQC2.Button {
+                        icon.name: "document-decrypt"
+                        display: QQC2.AbstractButton.Display.IconOnly
+                        text: qsTr("Action 1")
+                        onClicked: showPassiveNotification(qsTr("%1: %2 clicked").arg(listItemRoot.title).arg(text))
+                    }
+                    QQC2.Button {
+                        icon.name: "mail-reply-sender"
+                        display: QQC2.AbstractButton.Display.IconOnly
+                        text: qsTr("Action 2")
+                        onClicked: showPassiveNotification(qsTr("%1: %2 clicked").arg(listItemRoot.title).arg(text))
                     }
                 }
-                actions: [
-                    Kirigami.Action {
-                        icon.name: "document-decrypt"
-                        text: qsTr("Action 1")
-                        onTriggered: showPassiveNotification(qsTr("%1: %2 clicked").arg(listItemRoot.title).arg(text))
-                    },
-                    Kirigami.Action {
-                        icon.name: "mail-reply-sender"
-                        text: qsTr("Action 2")
-                        onTriggered: showPassiveNotification(qsTr("%1: %2 clicked").arg(listItemRoot.title).arg(text))
-                    }
-                ]
             }
         }
     }
