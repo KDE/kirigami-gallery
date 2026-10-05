@@ -802,7 +802,7 @@ msgid_plural "Item in sheet %n"
 msgstr[0] "Element poognal"
 msgstr[1] "Element poognal"
 
-#: contents/ui/gallery/ListViewGallery.qml:128
+#: contents/ui/gallery/ListViewGallery.qml:126
 #, fuzzy
 #| msgctxt "DrawerGallery|"
 #| msgid "Action 1"
@@ -810,8 +810,8 @@ msgctxt "ListViewGallery|"
 msgid "Action 1"
 msgstr "Toiming 1"
 
-#: contents/ui/gallery/ListViewGallery.qml:129
-#: contents/ui/gallery/ListViewGallery.qml:134
+#: contents/ui/gallery/ListViewGallery.qml:127
+#: contents/ui/gallery/ListViewGallery.qml:133
 #, fuzzy, qt-format
 #| msgctxt "CardsLayoutGallery|"
 #| msgid "Card clicked"
@@ -819,7 +819,7 @@ msgctxt "ListViewGallery|"
 msgid "%1: %2 clicked"
 msgstr "Kaardile klõpsati"
 
-#: contents/ui/gallery/ListViewGallery.qml:133
+#: contents/ui/gallery/ListViewGallery.qml:132
 #, fuzzy
 #| msgctxt "CardsLayoutGallery|"
 #| msgid "Action2"
@@ -827,13 +827,13 @@ msgctxt "ListViewGallery|"
 msgid "Action 2"
 msgstr "Toiming2"
 
-#: contents/ui/gallery/ListViewGallery.qml:155
+#: contents/ui/gallery/ListViewGallery.qml:154
 #, qt-format
 msgctxt "ListViewGallery|"
 msgid "Item %1"
 msgstr ""
 
-#: contents/ui/gallery/ListViewGallery.qml:173
+#: contents/ui/gallery/ListViewGallery.qml:172
 #, fuzzy, qt-format
 #| msgctxt "DrawerGallery|"
 #| msgid "Action 1"

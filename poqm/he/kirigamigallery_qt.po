@@ -791,30 +791,30 @@ msgstr[1] "פריט בגיליון %n"
 msgstr[2] "פריט בגיליון %n"
 msgstr[3] "פריט בגיליון %n"
 
-#: contents/ui/gallery/ListViewGallery.qml:128
+#: contents/ui/gallery/ListViewGallery.qml:126
 msgctxt "ListViewGallery|"
 msgid "Action 1"
 msgstr "פעולה 1"
 
-#: contents/ui/gallery/ListViewGallery.qml:129
-#: contents/ui/gallery/ListViewGallery.qml:134
+#: contents/ui/gallery/ListViewGallery.qml:127
+#: contents/ui/gallery/ListViewGallery.qml:133
 #, qt-format
 msgctxt "ListViewGallery|"
 msgid "%1: %2 clicked"
 msgstr "%1: %2 נלחץ"
 
-#: contents/ui/gallery/ListViewGallery.qml:133
+#: contents/ui/gallery/ListViewGallery.qml:132
 msgctxt "ListViewGallery|"
 msgid "Action 2"
 msgstr "פעולה 2"
 
-#: contents/ui/gallery/ListViewGallery.qml:155
+#: contents/ui/gallery/ListViewGallery.qml:154
 #, qt-format
 msgctxt "ListViewGallery|"
 msgid "Item %1"
 msgstr "פריט %1"
 
-#: contents/ui/gallery/ListViewGallery.qml:173
+#: contents/ui/gallery/ListViewGallery.qml:172
 #, qt-format
 msgctxt "ListViewGallery|"
 msgid "Section %1"

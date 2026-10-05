@@ -835,30 +835,30 @@ msgstr[0] "Vienums %n. loksnē"
 msgstr[1] "Vienums %n. loksnē"
 msgstr[2] "Vienums %n. loksnē"
 
-#: contents/ui/gallery/ListViewGallery.qml:128
+#: contents/ui/gallery/ListViewGallery.qml:126
 msgctxt "ListViewGallery|"
 msgid "Action 1"
 msgstr "1. darbība"
 
-#: contents/ui/gallery/ListViewGallery.qml:129
-#: contents/ui/gallery/ListViewGallery.qml:134
+#: contents/ui/gallery/ListViewGallery.qml:127
+#: contents/ui/gallery/ListViewGallery.qml:133
 #, qt-format
 msgctxt "ListViewGallery|"
 msgid "%1: %2 clicked"
 msgstr "%1: „%2“ noklikšķināts"
 
-#: contents/ui/gallery/ListViewGallery.qml:133
+#: contents/ui/gallery/ListViewGallery.qml:132
 msgctxt "ListViewGallery|"
 msgid "Action 2"
 msgstr "2. darbība"
 
-#: contents/ui/gallery/ListViewGallery.qml:155
+#: contents/ui/gallery/ListViewGallery.qml:154
 #, qt-format
 msgctxt "ListViewGallery|"
 msgid "Item %1"
 msgstr "%1 vienums"
 
-#: contents/ui/gallery/ListViewGallery.qml:173
+#: contents/ui/gallery/ListViewGallery.qml:172
 #, qt-format
 msgctxt "ListViewGallery|"
 msgid "Section %1"
