@@ -86,16 +86,14 @@ Kirigami.ScrollablePage {
             Repeater {
                 model: ListModel {
                     // we can't use qsTr/i18n with ListElement
-                    Component.onCompleted: {
-                        append({"name": qsTr("1 minute"), "value": 1});
-                        append({"name": qsTr("2 minutes"), "value": 2});
-                        append({"name": qsTr("3 minutes"), "value": 3});
-                        append({"name": qsTr("4 minutes"), "value": 4});
-                        append({"name": qsTr("5 minutes"), "value": 5});
-                        append({"name": qsTr("10 minutes"), "value": 10});
-                        append({"name": qsTr("30 minutes"), "value": 30});
-                        append({"name": qsTr("1 hour"), "value": 60});
-                    }
+                    ListElement{ name: qsTr("1 minute");   value: 1  }
+                    ListElement{ name: qsTr("2 minutes");  value: 2  }
+                    ListElement{ name: qsTr("3 minutes");  value: 3  }
+                    ListElement{ name: qsTr("4 minutes");  value: 4  }
+                    ListElement{ name: qsTr("5 minutes");  value: 5  }
+                    ListElement{ name: qsTr("10 minutes"); value: 10 }
+                    ListElement{ name: qsTr("30 minutes"); value: 30 }
+                    ListElement{ name: qsTr("1 hour");     value: 60 }
                 }
                 delegate: QQC2.RadioDelegate {
                     required property string name
@@ -242,4 +240,3 @@ Kirigami.ScrollablePage {
         }
     }
 }
-
