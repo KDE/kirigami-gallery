@@ -470,151 +470,151 @@ msgctxt "DialogGallery|"
 msgid "Alarm Snooze Length"
 msgstr "Alarm-Snooze Daŭro"
 
-#: contents/ui/gallery/DialogGallery.qml:90
+#: contents/ui/gallery/DialogGallery.qml:89
 msgctxt "DialogGallery|"
 msgid "1 minute"
 msgstr "1 minuton"
 
-#: contents/ui/gallery/DialogGallery.qml:91
+#: contents/ui/gallery/DialogGallery.qml:90
 msgctxt "DialogGallery|"
 msgid "2 minutes"
 msgstr "2 minutoj"
 
-#: contents/ui/gallery/DialogGallery.qml:92
+#: contents/ui/gallery/DialogGallery.qml:91
 msgctxt "DialogGallery|"
 msgid "3 minutes"
 msgstr "3 minutoj"
 
-#: contents/ui/gallery/DialogGallery.qml:93
+#: contents/ui/gallery/DialogGallery.qml:92
 msgctxt "DialogGallery|"
 msgid "4 minutes"
 msgstr "4 minutoj"
 
-#: contents/ui/gallery/DialogGallery.qml:94
+#: contents/ui/gallery/DialogGallery.qml:93
 msgctxt "DialogGallery|"
 msgid "5 minutes"
 msgstr "5 minutoj"
 
-#: contents/ui/gallery/DialogGallery.qml:95
+#: contents/ui/gallery/DialogGallery.qml:94
 msgctxt "DialogGallery|"
 msgid "10 minutes"
 msgstr "10 minutoj"
 
-#: contents/ui/gallery/DialogGallery.qml:96
+#: contents/ui/gallery/DialogGallery.qml:95
 msgctxt "DialogGallery|"
 msgid "30 minutes"
 msgstr "30 minutoj"
 
-#: contents/ui/gallery/DialogGallery.qml:97
+#: contents/ui/gallery/DialogGallery.qml:96
 msgctxt "DialogGallery|"
 msgid "1 hour"
 msgstr "1 horo"
 
-#: contents/ui/gallery/DialogGallery.qml:122
-#: contents/ui/gallery/DialogGallery.qml:141
+#: contents/ui/gallery/DialogGallery.qml:120
+#: contents/ui/gallery/DialogGallery.qml:139
 msgctxt "DialogGallery|"
 msgid "Select Number"
 msgstr "Elekti Numeron"
 
-#: contents/ui/gallery/DialogGallery.qml:131
+#: contents/ui/gallery/DialogGallery.qml:129
 msgctxt "DialogGallery|"
 msgid "Subtitle text"
 msgstr "Subtitola teksto"
 
-#: contents/ui/gallery/DialogGallery.qml:163
-#: contents/ui/gallery/DialogGallery.qml:234
+#: contents/ui/gallery/DialogGallery.qml:161
+#: contents/ui/gallery/DialogGallery.qml:232
 msgctxt "DialogGallery|"
 msgid "No Footer Dialog"
 msgstr "Neniu Pieda Dialogo"
 
-#: contents/ui/gallery/DialogGallery.qml:164
+#: contents/ui/gallery/DialogGallery.qml:162
 msgctxt "DialogGallery|"
 msgid "This dialog has no footer buttons.<br/>It also has no close button."
 msgstr ""
 "Ĉi tiu dialogo ne havas piedpiedbutonojn.<br/>Ĝi ankaŭ ne havas fermbutonon."
 
-#: contents/ui/gallery/DialogGallery.qml:172
+#: contents/ui/gallery/DialogGallery.qml:170
 msgctxt "DialogGallery|"
 msgid "Track Options"
 msgstr "Trak-Opcioj"
 
-#: contents/ui/gallery/DialogGallery.qml:177
+#: contents/ui/gallery/DialogGallery.qml:175
 msgctxt "DialogGallery|Start playback of the selected track"
 msgid "Play"
 msgstr "Ludi"
 
-#: contents/ui/gallery/DialogGallery.qml:178
+#: contents/ui/gallery/DialogGallery.qml:176
 msgctxt "DialogGallery|"
 msgid "Start playback of the selected track"
 msgstr "Komenci reproduktadon de la elektita trako"
 
-#: contents/ui/gallery/DialogGallery.qml:183
+#: contents/ui/gallery/DialogGallery.qml:181
 msgctxt "DialogGallery|Show the file for this song in the file manager"
 msgid "Show in folder"
 msgstr "Montri en dosierujo"
 
-#: contents/ui/gallery/DialogGallery.qml:184
+#: contents/ui/gallery/DialogGallery.qml:182
 msgctxt "DialogGallery|"
 msgid "Show the file for this song in the file manager"
 msgstr "Montri la dosieron por ĉi tiu kanto en la dosieradministranto"
 
-#: contents/ui/gallery/DialogGallery.qml:188
+#: contents/ui/gallery/DialogGallery.qml:186
 msgctxt "DialogGallery|Show track metadata"
 msgid "View details"
 msgstr "Rigardi detalojn"
 
-#: contents/ui/gallery/DialogGallery.qml:189
+#: contents/ui/gallery/DialogGallery.qml:187
 msgctxt "DialogGallery|"
 msgid "Show track metadata"
 msgstr "Montri trakmetadatumojn"
 
-#: contents/ui/gallery/DialogGallery.qml:193
+#: contents/ui/gallery/DialogGallery.qml:191
 msgctxt ""
 "DialogGallery|Add the track to the queue, right after the current track"
 msgid "Play next"
 msgstr "Ludi sekvante"
 
-#: contents/ui/gallery/DialogGallery.qml:194
+#: contents/ui/gallery/DialogGallery.qml:192
 msgctxt "DialogGallery|"
 msgid "Add the track to the queue, right after the current track"
 msgstr "Aldoni la trakon al la atendovico, tuj post la nuna trako"
 
-#: contents/ui/gallery/DialogGallery.qml:198
+#: contents/ui/gallery/DialogGallery.qml:196
 msgctxt "DialogGallery|Enqueue current track"
 msgid "Add to queue"
 msgstr "Aldoni al vico"
 
-#: contents/ui/gallery/DialogGallery.qml:199
+#: contents/ui/gallery/DialogGallery.qml:197
 msgctxt "DialogGallery|"
 msgid "Enqueue current track"
 msgstr "Envicigi nunan trakon"
 
-#: contents/ui/gallery/DialogGallery.qml:209
+#: contents/ui/gallery/DialogGallery.qml:207
 msgctxt "DialogGallery|"
 msgid "Prompt Dialog"
 msgstr "Prompta Dialogo"
 
-#: contents/ui/gallery/DialogGallery.qml:214
+#: contents/ui/gallery/DialogGallery.qml:212
 msgctxt "DialogGallery|"
 msgid "Text Prompt Dialog"
 msgstr "Teksta Prompta Dialogo"
 
-#: contents/ui/gallery/DialogGallery.qml:219
+#: contents/ui/gallery/DialogGallery.qml:217
 msgctxt "DialogGallery|"
 msgid "Selection Dialog"
 msgstr "Elektodialogo"
 
-#: contents/ui/gallery/DialogGallery.qml:224
+#: contents/ui/gallery/DialogGallery.qml:222
 msgctxt "DialogGallery|"
 msgid "Selection Dialog with subtitles"
 msgstr "Elektodialogo kun subtekstoj"
 
-#: contents/ui/gallery/DialogGallery.qml:229
+#: contents/ui/gallery/DialogGallery.qml:227
 msgctxt "DialogGallery|"
 msgid "Scrollable Dialog"
 msgstr "Rulumebla Dialogo"
 
-#: contents/ui/gallery/DialogGallery.qml:239
+#: contents/ui/gallery/DialogGallery.qml:237
 msgctxt "DialogGallery|"
 msgid "Menu Dialog"
 msgstr "Menua Dialogo"
