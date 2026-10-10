@@ -19,7 +19,9 @@
         {
             "name": "kirigamigallery",
             "buildsystem": "cmake-ninja",
-            "builddir": true,
+            "config-opts": [
+                "-DCMAKE_BUILD_TYPE=RelWithDebInfo"
+            ],
             "sources": [
                 {
                     "type": "dir",
