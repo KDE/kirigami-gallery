@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"PO-Revision-Date: 2026-05-24 13:52+0300\n"
+"PO-Revision-Date: 2026-10-12 12:01+0300\n"
 "Last-Translator: Emir SARI <emir_sari@icloud.com>\n"
 "Language-Team: Turkish <kde-l10n-tr@kde.org>\n"
 "Language: tr\n"
@@ -11,7 +11,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Qt-Contexts: true\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Lokalize 26.04.0\n"
+"X-Generator: Lokalize 26.08.0\n"
 
 #: contents/ui/gallery/BadgeGallery.qml:19
 msgctxt "BadgeGallery|"
@@ -180,7 +180,7 @@ msgstr ""
 "Bir AbstractCard, bir kartın olabilecek en yalın biçimidir. Yalnızca gölgeli "
 "bir dörtgendir ve içinde herhangi bir öge barındırabilir. Aynı zamanda "
 "Header ve Footer özelliklerine atanmış ögeler de alabilir. Bu durumda bir "
-"Kirigami.Heading onun üstbilgisidir ve WordWrap’li bir Kirigami."
+"Kirigami.Heading onun üst bilgisidir ve WordWrap’li bir Kirigami."
 "SelectableLabel da onun contentItem’ıdır."
 
 #: contents/ui/gallery/CardsLayoutGallery.qml:58
@@ -236,7 +236,7 @@ msgid ""
 msgstr ""
 "Bu, Kart türünün bir örneğidir: İsteğe bağlı olarak bir görsel, başlık ve "
 "pankart grup özelliğine ilişik bir simge alabilir (hepsi birlikte veya teker "
-"teker). Bir Card’ın aynı zamanda altbilgide görünecek Actions’u da olabilir."
+"teker). Bir Card’ın aynı zamanda alt bilgide görünecek Actions’u da olabilir."
 
 #: contents/ui/gallery/CardsLayoutGallery.qml:96
 msgctxt "CardsLayoutGallery|"
@@ -302,17 +302,17 @@ msgid ""
 "used, the title and icon in the banner property shouldn't be used. If a "
 "custom footer is used (which is discouraged), actions shouldn't be used."
 msgstr ""
-"Cards’ın görünüm ve hissini özelleştirmek de olanaklıdır; eğer üstbilgi için "
-"bir boşluklandırma davranışına gerek yoksa. Bu, genelde daha tutarlı olması "
-"açısından önerilmez; ancak bazı durumlarda tasarımın daha afili olması "
-"gerekiyorsa (bu Card örneğinde olduğu gibi) olabilir. Özel bir üstbilgi "
-"kullanılmışsa pankart özelliğindeki başlık ve simge kullanılmamalıdır. Özel "
-"bir altbilgi kullanılmışsa (önerilmez) eylemler kullanılmamalıdır."
+"Cards’ın görünüm ve hissini özelleştirmek de olanaklıdır; eğer üst bilgi "
+"için bir boşluklandırma davranışına gerek yoksa. Bu, genelde daha tutarlı "
+"olması açısından önerilmez; ancak bazı durumlarda tasarımın daha afili "
+"olması gerekiyorsa (bu Card örneğinde olduğu gibi) olabilir. Özel bir üst "
+"bilgi kullanılmışsa pankart özelliğindeki başlık ve simge kullanılmamalıdır. "
+"Özel bir alt bilgi kullanılmışsa (önerilmez) eylemler kullanılmamalıdır."
 
 #: contents/ui/gallery/CardsLayoutGallery.qml:188
 msgctxt "CardsLayoutGallery|"
 msgid "Custom footer"
-msgstr "Özel altbilgi"
+msgstr "Özel alt bilgi"
 
 #: contents/ui/gallery/CardsLayoutGallery.qml:191
 msgctxt "CardsLayoutGallery|"
@@ -483,13 +483,13 @@ msgstr "Altyazı metni"
 #: contents/ui/gallery/DialogGallery.qml:232
 msgctxt "DialogGallery|"
 msgid "No Footer Dialog"
-msgstr "Altbilgi İletişim Kutusu Yok"
+msgstr "Alt Bilgi İletişim Kutusu Yok"
 
 #: contents/ui/gallery/DialogGallery.qml:162
 msgctxt "DialogGallery|"
 msgid "This dialog has no footer buttons.<br/>It also has no close button."
 msgstr ""
-"Bu iletişim kutusunda altbilgi düğmeleri yoktur.<br/>Ayrıca, kapat düğmesi "
+"Bu iletişim kutusunda alt bilgi düğmeleri yoktur.<br/>Ayrıca, kapat düğmesi "
 "de yok."
 
 #: contents/ui/gallery/DialogGallery.qml:170
@@ -788,7 +788,7 @@ msgstr "Eylem Metni Yap"
 #: contents/ui/gallery/ListViewGallery.qml:56
 msgctxt "ListViewGallery|"
 msgid "Footer:"
-msgstr "Altbilgi:"
+msgstr "Alt bilgi:"
 
 #: contents/ui/gallery/ListViewGallery.qml:71
 #, qt-format
@@ -830,7 +830,7 @@ msgstr "Bölüm %1"
 #: contents/ui/gallery/MetricsGallery.qml:50
 msgctxt "MetricsGallery|"
 msgid "Heading 1"
-msgstr "Üstbilgi 1"
+msgstr "Üst Bilgi 1"
 
 #: contents/ui/gallery/MetricsGallery.qml:55
 #: contents/ui/gallery/MetricsGallery.qml:65
@@ -844,17 +844,17 @@ msgstr "%1 puan"
 #: contents/ui/gallery/MetricsGallery.qml:60
 msgctxt "MetricsGallery|"
 msgid "Heading 2"
-msgstr "Üstbilgi 2"
+msgstr "Üst Bilgi 2"
 
 #: contents/ui/gallery/MetricsGallery.qml:70
 msgctxt "MetricsGallery|"
 msgid "Heading 3"
-msgstr "Üstbilgi 3"
+msgstr "Üst Bilgi 3"
 
 #: contents/ui/gallery/MetricsGallery.qml:80
 msgctxt "MetricsGallery|"
 msgid "Heading 4"
-msgstr "Üstbilgi 4"
+msgstr "Üst Bilgi 4"
 
 #: contents/ui/gallery/MiscGallery.qml:79
 msgctxt "MiscGallery|"
@@ -903,7 +903,7 @@ msgstr "Başlık"
 #: contents/ui/gallery/OverlaySheetGallery.qml:177
 msgctxt "OverlaySheetGallery|"
 msgid "Footer:"
-msgstr "Altbilgi:"
+msgstr "Alt bilgi:"
 
 #: contents/ui/gallery/OverlaySheetGallery.qml:94
 msgctxt "OverlaySheetGallery|"
@@ -911,8 +911,8 @@ msgid ""
 "A sheet can have optional header and footer items which will not scroll away "
 "when the sheet overflows."
 msgstr ""
-"Bir yaprağın, yaprak taştığında sarılmayacak isteğe bağlı üstbilgi ve "
-"altbilgi ögeleri olabilir."
+"Bir yaprağın, yaprak taştığında sarılmayacak isteğe bağlı üst bilgi ve alt "
+"bilgi ögeleri olabilir."
 
 #: contents/ui/gallery/OverlaySheetGallery.qml:113
 msgctxt "OverlaySheetGallery|"

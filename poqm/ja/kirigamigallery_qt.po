@@ -1,8 +1,9 @@
+# SPDX-FileCopyrightText: 2026 Mint <5602mint@gmail.com>
 msgid ""
 msgstr ""
 "Project-Id-Version: kirigamigallery_qt\n"
-"PO-Revision-Date: 2023-05-28 23:04-0700\n"
-"Last-Translator: Fumiaki Okushi <fumiaki.okushi@gmail.com>\n"
+"PO-Revision-Date: 2026-10-10 21:05+0900\n"
+"Last-Translator: Mint <5602mint@gmail.com>\n"
 "Language-Team: Japanese <kde-jp@kde.org>\n"
 "Language: ja\n"
 "MIME-Version: 1.0\n"
@@ -12,162 +13,165 @@ msgstr ""
 "X-Accelerator-Marker: &\n"
 "X-Text-Markup: qtrich\n"
 "X-Qt-Contexts: true\n"
+"X-Generator: Lokalize 26.04.3\n"
 
 #: contents/ui/gallery/BadgeGallery.qml:19
 msgctxt "BadgeGallery|"
 msgid "Badges"
-msgstr ""
+msgstr "バッジ"
 
 #: contents/ui/gallery/BadgeGallery.qml:30
 msgctxt "BadgeGallery|"
 msgid "Number badges"
-msgstr ""
+msgstr "数字つきバッジ"
 
 #: contents/ui/gallery/BadgeGallery.qml:34
 msgctxt "BadgeGallery|"
 msgid "Short number:"
-msgstr ""
+msgstr "小さい数字:"
 
 #: contents/ui/gallery/BadgeGallery.qml:38
 msgctxt "BadgeGallery|"
 msgid "Skinny Roman numeral:"
-msgstr ""
+msgstr "細いローマ数字:"
 
 #: contents/ui/gallery/BadgeGallery.qml:42
 msgctxt "BadgeGallery|"
 msgid "Medium number:"
-msgstr ""
+msgstr "普通の数字:"
 
 #: contents/ui/gallery/BadgeGallery.qml:46
 msgctxt "BadgeGallery|"
 msgid "Large number:"
-msgstr ""
+msgstr "大きい数字:"
 
 #: contents/ui/gallery/BadgeGallery.qml:50
 msgctxt "BadgeGallery|"
 msgid "Very large number:"
-msgstr ""
+msgstr "超大きい数字:"
 
 #: contents/ui/gallery/BadgeGallery.qml:51
 msgctxt "BadgeGallery|"
 msgid "99,999"
-msgstr ""
+msgstr "99,999"
 
 #: contents/ui/gallery/BadgeGallery.qml:54
 msgctxt "BadgeGallery|"
 msgid "Negative number:"
-msgstr ""
+msgstr "負の数字:"
 
 #: contents/ui/gallery/BadgeGallery.qml:55
 msgctxt "BadgeGallery|"
 msgid "-666"
-msgstr ""
+msgstr "-666"
 
 #: contents/ui/gallery/BadgeGallery.qml:60
 msgctxt "BadgeGallery|"
 msgid "Badges with text"
-msgstr ""
+msgstr "文字つきバッジ"
 
 #: contents/ui/gallery/BadgeGallery.qml:64
 msgctxt "BadgeGallery|"
 msgid "Default background and text color:"
-msgstr ""
+msgstr "デフォルトの背景と文字色:"
 
 #: contents/ui/gallery/BadgeGallery.qml:65
 msgctxt "BadgeGallery|"
 msgid "New!"
-msgstr ""
+msgstr "New!"
 
 #: contents/ui/gallery/BadgeGallery.qml:68
 msgctxt "BadgeGallery|"
 msgid "Icon + label, positive:"
-msgstr ""
+msgstr "アイコン＋ラベル (ポジティブ):"
 
 #: contents/ui/gallery/BadgeGallery.qml:70
 msgctxt "BadgeGallery|"
 msgid "Encrypted"
-msgstr ""
+msgstr "暗号化済"
 
 #: contents/ui/gallery/BadgeGallery.qml:74
 msgctxt "BadgeGallery|"
 msgid "Icon + label, warning:"
-msgstr ""
+msgstr "アイコン + ラベル (警告):"
 
 #: contents/ui/gallery/BadgeGallery.qml:76
 msgctxt "BadgeGallery|"
 msgid "Unencrypted"
-msgstr ""
+msgstr "暗号化なし"
 
 #: contents/ui/gallery/BadgeGallery.qml:80
 msgctxt "BadgeGallery|"
 msgid "Icon + label with custom  background color:"
-msgstr ""
+msgstr "アイコンとラベル (カスタム背景色):"
 
 #: contents/ui/gallery/BadgeGallery.qml:82
 msgctxt "BadgeGallery|"
 msgid "Favorite"
-msgstr ""
+msgstr "お気に入り"
 
 #: contents/ui/gallery/BadgeGallery.qml:86
 msgctxt "BadgeGallery|"
 msgid "Super compact versions with icons and all custom colors:"
-msgstr ""
+msgstr "アイコンとカスタム色の超コンパクト版:"
 
 #: contents/ui/gallery/BadgeGallery.qml:87
 msgctxt "BadgeGallery|"
 msgid "Integrated GPU"
-msgstr ""
+msgstr "内蔵 GPU"
 
 #: contents/ui/gallery/BadgeGallery.qml:94
 msgctxt "BadgeGallery|"
 msgid "Dedicated GPU"
-msgstr ""
+msgstr "独立 GPU"
 
 #: contents/ui/gallery/BadgeGallery.qml:101
 msgctxt "BadgeGallery|"
 msgid "Awkwardly long string, bounded length:"
-msgstr ""
+msgstr "上限ギリギリの長さの文字列:"
 
+# 日本のミームに置き換え
 #: contents/ui/gallery/BadgeGallery.qml:103
 msgctxt "BadgeGallery|"
 msgid "Turbo-encabulated; always fresh, never frozen"
-msgstr ""
+msgstr "オフチョベットしたテフをマブガッドしてリット済み"
 
 #: contents/ui/gallery/BadgeGallery.qml:107
 msgctxt "BadgeGallery|"
 msgid "Icon + awkwardly long string, bounded length:"
-msgstr ""
+msgstr "上限ギリギリの長さの文字列 (アイコンつき):"
 
 #: contents/ui/gallery/BadgeGallery.qml:110
 msgctxt "BadgeGallery|"
 msgid ""
 "The computer is about to explode; please proceed calmly to the nearest exit"
 msgstr ""
+"お使いのコンピューターはまもなく爆発します。落ち着いて避難してください。"
 
 #: contents/ui/gallery/BadgeGallery.qml:119
 msgctxt "BadgeGallery|"
 msgid "Symbolic icon:"
-msgstr ""
+msgstr "シンボルアイコン:"
 
 #: contents/ui/gallery/BadgeGallery.qml:124
 msgctxt "BadgeGallery|"
 msgid "Large symbolic re-colored icon:"
-msgstr ""
+msgstr "カスタム色のシンボルアイコン (大):"
 
 #: contents/ui/gallery/BadgeGallery.qml:132
 msgctxt "BadgeGallery|"
 msgid "Non-symbolic icon:"
-msgstr ""
+msgstr "シンボル以外のアイコン:"
 
 #: contents/ui/gallery/CardsLayoutGallery.qml:32
 msgctxt "CardsLayoutGallery|"
 msgid "Cards Layout"
-msgstr ""
+msgstr "カード型レイアウト"
 
 #: contents/ui/gallery/CardsLayoutGallery.qml:45
 msgctxt "CardsLayoutGallery|"
 msgid "AbstractCard"
-msgstr ""
+msgstr "AbstractCard"
 
 #: contents/ui/gallery/CardsLayoutGallery.qml:50
 msgctxt "CardsLayoutGallery|"
@@ -177,6 +181,10 @@ msgid ""
 "the Header or Footer properties. In this case a Kirigami.Heading is its "
 "header and a Kirigami.SelectableLabel with WordWrap is the contentItem."
 msgstr ""
+"AbstractCard は四角形に影がついただけのカードの中でも一番シンプルな形で、どん"
+"なものでも入れることができます。ヘッダーやフッタープロパティにも対応していま"
+"す。ここでは、Kirigami.Heading がヘッダー、折り返しつきの Kirigami."
+"SelectableLabel が contentItem となっています。"
 
 #: contents/ui/gallery/CardsLayoutGallery.qml:58
 msgctxt "CardsLayoutGallery|"
@@ -188,11 +196,17 @@ msgid ""
 "show any kind of visual feedback. It is recommended to set it to true if you "
 "plan to make the card reactive on any kind of click."
 msgstr ""
+"これは自動改行 (WordWrap) が有効な Kirigami.SelectableLabel だけの "
+"AbstractCard で、カードの一番シンプルな形です。\n"
+"通常の onClicked シグナルハンドラを介して、AbstractCard 自体がクリックされた"
+"ときを検知することができます。また、クリック時に視覚フィードバックを表示した"
+"い場合は showClickFeedback プロパティを使用してください。カードをクリック操作"
+"に反応させたい場合は、true に設定することをおすすめします。"
 
 #: contents/ui/gallery/CardsLayoutGallery.qml:60
 msgctxt "CardsLayoutGallery|"
 msgid "Card clicked"
-msgstr ""
+msgstr "カードがクリックされました"
 
 #: contents/ui/gallery/CardsLayoutGallery.qml:66
 #: contents/ui/gallery/CardsLayoutGallery.qml:88
@@ -200,7 +214,7 @@ msgstr ""
 #: contents/ui/gallery/CardsLayoutGallery.qml:200
 msgctxt "CardsLayoutGallery|"
 msgid "Action1"
-msgstr ""
+msgstr "Action1"
 
 #: contents/ui/gallery/CardsLayoutGallery.qml:70
 #: contents/ui/gallery/CardsLayoutGallery.qml:92
@@ -208,12 +222,12 @@ msgstr ""
 #: contents/ui/gallery/CardsLayoutGallery.qml:204
 msgctxt "CardsLayoutGallery|"
 msgid "Action2"
-msgstr ""
+msgstr "Action2"
 
 #: contents/ui/gallery/CardsLayoutGallery.qml:76
 msgctxt "CardsLayoutGallery|"
 msgid "Card"
-msgstr ""
+msgstr "カード"
 
 #: contents/ui/gallery/CardsLayoutGallery.qml:80
 msgctxt "CardsLayoutGallery|"
@@ -223,26 +237,29 @@ msgid ""
 "properties together. A Card can also have Actions that will appear in the "
 "footer."
 msgstr ""
+"これは Card 型のインスタンスです。banner グループプロパティには、画像やタイト"
+"ル、アイコンのうちひとつだけ、または同時に割り当てることができます。またカー"
+"ドにはフッターに表示されるアクションを持たせることもできます。"
 
 #: contents/ui/gallery/CardsLayoutGallery.qml:96
 msgctxt "CardsLayoutGallery|"
 msgid "Action3"
-msgstr ""
+msgstr "Action3"
 
 #: contents/ui/gallery/CardsLayoutGallery.qml:100
 msgctxt "CardsLayoutGallery|"
 msgid "Action4"
-msgstr ""
+msgstr "Action4"
 
 #: contents/ui/gallery/CardsLayoutGallery.qml:104
 msgctxt "CardsLayoutGallery|"
 msgid "Action5"
-msgstr ""
+msgstr "Action5"
 
 #: contents/ui/gallery/CardsLayoutGallery.qml:108
 msgctxt "CardsLayoutGallery|"
 msgid "Action6"
-msgstr ""
+msgstr "Action6"
 
 #: contents/ui/gallery/CardsLayoutGallery.qml:119
 msgctxt "CardsLayoutGallery|"
@@ -251,11 +268,15 @@ msgid ""
 "Alignment flags.\n"
 "When there are too many actions, they go in an overflow menu."
 msgstr ""
+"タイトルは、Qt.Alignment を組み合わせることで、四隅のどこかに配置したり中央揃"
+"えにすることができます。\n"
+"アクションが多く収まらないときは、収まらなかった分がオーバーフローメニューに"
+"移動します。"
 
 #: contents/ui/gallery/CardsLayoutGallery.qml:134
 msgctxt "CardsLayoutGallery|"
 msgid "Action always hidden"
-msgstr ""
+msgstr "常に非表示のアクション"
 
 #: contents/ui/gallery/CardsLayoutGallery.qml:145
 msgctxt "CardsLayoutGallery|"
@@ -263,6 +284,8 @@ msgid ""
 "The Banner can contain only the title and/or an icon, even if there is no "
 "banner image."
 msgstr ""
+"バナー画像がない場合でも、バナーにタイトルやアイコンを単体で設定することがで"
+"きます。"
 
 #: contents/ui/gallery/CardsLayoutGallery.qml:168
 msgctxt "CardsLayoutGallery|"
@@ -270,6 +293,8 @@ msgid ""
 "It's possible to have custom contents overlapping the image, for cases where "
 "a more personalized design is needed."
 msgstr ""
+"画像の上にカスタムコンテンツを重ねたりすることで、より自由度の高いデザインに"
+"することもできます。"
 
 #: contents/ui/gallery/CardsLayoutGallery.qml:183
 msgctxt "CardsLayoutGallery|"
@@ -281,16 +306,22 @@ msgid ""
 "used, the title and icon in the banner property shouldn't be used. If a "
 "custom footer is used (which is discouraged), actions shouldn't be used."
 msgstr ""
+"ヘッダーの余白を消してカードの幅いっぱいまで広げたい場合などは、カードの見た"
+"目と操作感をカスタマイズすることができます。通常は一貫性を考慮するとおすすめ"
+"できませんが、デザイン上凝ったレイアウトが求められるときなどは、このカードの"
+"例のようにカスタマイズできます。カスタムのヘッダーを使用する場合はバナープロ"
+"パティのタイトルとアイコンは指定しないでください。またカスタムフッターを使用"
+"する場合 (非推奨) はアクションを使用しないでください。"
 
 #: contents/ui/gallery/CardsLayoutGallery.qml:188
 msgctxt "CardsLayoutGallery|"
 msgid "Custom footer"
-msgstr ""
+msgstr "カスタムフッター"
 
 #: contents/ui/gallery/CardsLayoutGallery.qml:191
 msgctxt "CardsLayoutGallery|"
 msgid "Ok"
-msgstr ""
+msgstr "OK"
 
 #: contents/ui/gallery/CardsLayoutGallery.qml:214
 msgctxt "CardsLayoutGallery|"
@@ -301,16 +332,21 @@ msgid ""
 "If you need to put it in a CardsLayout, it will have by default a columnSpan "
 "of 2 (which can be overridden)."
 msgstr ""
+"カードは横向き (水平方向) にすることもできます。\n"
+"この場合、高さよりも幅が広くなるため、ColumnLayout での使用にも適していま"
+"す。\n"
+"CardsLayout に配置する場合、columnSpan はデフォルトで 2 になります (上書き"
+"可)。"
 
 #: contents/ui/gallery/CardsListViewGallery.qml:32
 msgctxt "CardsListViewGallery|"
 msgid "List view of simple cards"
-msgstr ""
+msgstr "シンプルなカードの一覧ビュー"
 
 #: contents/ui/gallery/CardsListViewGallery.qml:73
 msgctxt "CardsListViewGallery|"
 msgid "Product "
-msgstr ""
+msgstr "製品 No."
 
 #: contents/ui/gallery/CardsListViewGallery.qml:81
 msgctxt "CardsListViewGallery|"
@@ -318,259 +354,262 @@ msgid ""
 "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id risus id "
 "augue euismod accumsan."
 msgstr ""
+"あのイーハトーヴォのすきとおった風、夏でも底に冷たさをもつ青いそら、うつくし"
+"い森で飾られたモリーオ市、郊外のぎらぎらひかる草の波。"
 
 #: contents/ui/gallery/CardsListViewGallery.qml:87
 msgctxt "CardsListViewGallery|"
 msgid "Install"
-msgstr ""
+msgstr "インストール"
 
 #: contents/ui/gallery/ChipGallery.qml:33
 msgctxt "ChipGallery|"
 msgid "Chips"
-msgstr ""
+msgstr "チップ"
 
 #: contents/ui/gallery/ChipGallery.qml:48
 msgctxt "ChipGallery|"
 msgid "Closable Chips"
-msgstr ""
+msgstr "消せるチップ"
 
 #: contents/ui/gallery/ChipGallery.qml:81
 msgctxt "ChipGallery|"
 msgid "Informative Chips"
-msgstr ""
+msgstr "情報用チップ"
 
 #: contents/ui/gallery/ChipGallery.qml:120
 msgctxt "ChipGallery|"
 msgid "Checkable Chips"
-msgstr ""
+msgstr "選択できるチップ"
 
 #: contents/ui/gallery/ColorsGallery.qml:31
 msgctxt "ColorsGallery|"
 msgid "Colors"
-msgstr ""
+msgstr "色"
 
 #: contents/ui/gallery/components/InfoSheet.qml:52
 msgctxt "InfoSheet|"
 msgid "HIG…"
-msgstr ""
+msgstr "HIG…"
 
 #: contents/ui/gallery/components/InfoSheet.qml:57
 msgctxt "InfoSheet|"
 msgid "Source code…"
-msgstr ""
+msgstr "ソースコード…"
 
 #: contents/ui/gallery/components/InfoSheet.qml:62
 msgctxt "InfoSheet|"
 msgid "API…"
-msgstr ""
+msgstr "API…"
 
 #: contents/ui/gallery/components/InfoSheetAction.qml:18
 msgctxt "InfoSheetAction|"
 msgid "Info"
-msgstr ""
+msgstr "情報"
 
 #: contents/ui/gallery/DialogGallery.qml:34
 msgctxt "DialogGallery|"
 msgid "Dialogs"
-msgstr ""
+msgstr "ダイアログ"
 
 #: contents/ui/gallery/DialogGallery.qml:58
 msgctxt "DialogGallery|"
 msgid "Create Folder"
-msgstr ""
+msgstr "フォルダを作成"
 
 #: contents/ui/gallery/DialogGallery.qml:66
 msgctxt "DialogGallery|"
 msgid "Cancel"
-msgstr ""
+msgstr "キャンセル"
 
 #: contents/ui/gallery/DialogGallery.qml:75
 msgctxt "DialogGallery|"
 msgid "Folder name..."
-msgstr ""
+msgstr "フォルダ名..."
 
 #: contents/ui/gallery/DialogGallery.qml:81
 msgctxt "DialogGallery|"
 msgid "Alarm Snooze Length"
-msgstr ""
+msgstr "スヌーズの長さ"
 
 #: contents/ui/gallery/DialogGallery.qml:89
 msgctxt "DialogGallery|"
 msgid "1 minute"
-msgstr ""
+msgstr "1 分"
 
 #: contents/ui/gallery/DialogGallery.qml:90
 msgctxt "DialogGallery|"
 msgid "2 minutes"
-msgstr ""
+msgstr "2 分"
 
 #: contents/ui/gallery/DialogGallery.qml:91
 msgctxt "DialogGallery|"
 msgid "3 minutes"
-msgstr ""
+msgstr "3 分"
 
 #: contents/ui/gallery/DialogGallery.qml:92
 msgctxt "DialogGallery|"
 msgid "4 minutes"
-msgstr ""
+msgstr "4 分"
 
 #: contents/ui/gallery/DialogGallery.qml:93
 msgctxt "DialogGallery|"
 msgid "5 minutes"
-msgstr ""
+msgstr "5 分"
 
 #: contents/ui/gallery/DialogGallery.qml:94
 msgctxt "DialogGallery|"
 msgid "10 minutes"
-msgstr ""
+msgstr "10 分"
 
 #: contents/ui/gallery/DialogGallery.qml:95
 msgctxt "DialogGallery|"
 msgid "30 minutes"
-msgstr ""
+msgstr "30 分"
 
 #: contents/ui/gallery/DialogGallery.qml:96
 msgctxt "DialogGallery|"
 msgid "1 hour"
-msgstr ""
+msgstr "1時間"
 
 #: contents/ui/gallery/DialogGallery.qml:120
 #: contents/ui/gallery/DialogGallery.qml:139
 msgctxt "DialogGallery|"
 msgid "Select Number"
-msgstr ""
+msgstr "番号を選択"
 
 #: contents/ui/gallery/DialogGallery.qml:129
 msgctxt "DialogGallery|"
 msgid "Subtitle text"
-msgstr ""
+msgstr "サブタイトル"
 
 #: contents/ui/gallery/DialogGallery.qml:161
 #: contents/ui/gallery/DialogGallery.qml:232
 msgctxt "DialogGallery|"
 msgid "No Footer Dialog"
-msgstr ""
+msgstr "フッター抜きダイアログ"
 
 #: contents/ui/gallery/DialogGallery.qml:162
 msgctxt "DialogGallery|"
 msgid "This dialog has no footer buttons.<br/>It also has no close button."
 msgstr ""
+"このダイアログにはフッターボタンがありません。<br/>閉じるボタンもありません。"
 
 #: contents/ui/gallery/DialogGallery.qml:170
 msgctxt "DialogGallery|"
 msgid "Track Options"
-msgstr ""
+msgstr "トラックの操作"
 
 #: contents/ui/gallery/DialogGallery.qml:175
 msgctxt "DialogGallery|Start playback of the selected track"
 msgid "Play"
-msgstr ""
+msgstr "再生"
 
 #: contents/ui/gallery/DialogGallery.qml:176
 msgctxt "DialogGallery|"
 msgid "Start playback of the selected track"
-msgstr ""
+msgstr "選択したトラックの再生をはじめる"
 
 #: contents/ui/gallery/DialogGallery.qml:181
 msgctxt "DialogGallery|Show the file for this song in the file manager"
 msgid "Show in folder"
-msgstr ""
+msgstr "ファイルマネージャーで表示"
 
 #: contents/ui/gallery/DialogGallery.qml:182
 msgctxt "DialogGallery|"
 msgid "Show the file for this song in the file manager"
-msgstr ""
+msgstr "この曲のファイルをファイルマネージャーで表示"
 
 #: contents/ui/gallery/DialogGallery.qml:186
 msgctxt "DialogGallery|Show track metadata"
 msgid "View details"
-msgstr ""
+msgstr "詳細を表示"
 
 #: contents/ui/gallery/DialogGallery.qml:187
 msgctxt "DialogGallery|"
 msgid "Show track metadata"
-msgstr ""
+msgstr "トラックのメタデータを表示"
 
 #: contents/ui/gallery/DialogGallery.qml:191
 msgctxt ""
 "DialogGallery|Add the track to the queue, right after the current track"
 msgid "Play next"
-msgstr ""
+msgstr "次を再生"
 
 #: contents/ui/gallery/DialogGallery.qml:192
 msgctxt "DialogGallery|"
 msgid "Add the track to the queue, right after the current track"
-msgstr ""
+msgstr "トラックを現在のトラックの次に割り込む"
 
 #: contents/ui/gallery/DialogGallery.qml:196
 msgctxt "DialogGallery|Enqueue current track"
 msgid "Add to queue"
-msgstr ""
+msgstr "キューに追加"
 
 #: contents/ui/gallery/DialogGallery.qml:197
 msgctxt "DialogGallery|"
 msgid "Enqueue current track"
-msgstr ""
+msgstr "現在のトラックをキューに追加"
 
 #: contents/ui/gallery/DialogGallery.qml:207
 msgctxt "DialogGallery|"
 msgid "Prompt Dialog"
-msgstr ""
+msgstr "プロンプトダイアログ"
 
 #: contents/ui/gallery/DialogGallery.qml:212
 msgctxt "DialogGallery|"
 msgid "Text Prompt Dialog"
-msgstr ""
+msgstr "テキストプロンプトダイアログ"
 
 #: contents/ui/gallery/DialogGallery.qml:217
 msgctxt "DialogGallery|"
 msgid "Selection Dialog"
-msgstr ""
+msgstr "選択ダイアログ"
 
 #: contents/ui/gallery/DialogGallery.qml:222
 msgctxt "DialogGallery|"
 msgid "Selection Dialog with subtitles"
-msgstr ""
+msgstr "選択ダイアログ (サブタイトルつき)"
 
 #: contents/ui/gallery/DialogGallery.qml:227
 msgctxt "DialogGallery|"
 msgid "Scrollable Dialog"
-msgstr ""
+msgstr "スクロール可能ダイアログ"
 
 #: contents/ui/gallery/DialogGallery.qml:237
 msgctxt "DialogGallery|"
 msgid "Menu Dialog"
-msgstr ""
+msgstr "メニューダイアログ"
 
 #: contents/ui/gallery/DrawerGallery.qml:32
 msgctxt "DrawerGallery|"
 msgid "Drawers"
-msgstr ""
+msgstr "ドロワー"
 
 #: contents/ui/gallery/DrawerGallery.qml:40
 msgctxt "DrawerGallery|"
 msgid "Action 1"
-msgstr ""
+msgstr "Action 1"
 
 #: contents/ui/gallery/DrawerGallery.qml:42
 msgctxt "DrawerGallery|"
 msgid "Action 1 clicked"
-msgstr ""
+msgstr "Action 1 が押されました"
 
 #: contents/ui/gallery/DrawerGallery.qml:45
 msgctxt "DrawerGallery|"
 msgid "Disabled Action"
-msgstr ""
+msgstr "無効化済み Action"
 
 #: contents/ui/gallery/DrawerGallery.qml:50
 msgctxt "DrawerGallery|"
 msgid "Action 3"
-msgstr ""
+msgstr "Action 3"
 
 #: contents/ui/gallery/DrawerGallery.qml:51
 msgctxt "DrawerGallery|"
 msgid "Action 3 clicked"
-msgstr ""
+msgstr "Action 3 が押されました"
 
 #: contents/ui/gallery/DrawerGallery.qml:63
 msgctxt "DrawerGallery|"
@@ -579,6 +618,9 @@ msgid ""
 "will darken the rest of the app. Clicking on a darkened will dismiss the "
 "drawer."
 msgstr ""
+"モーダル下部ドロワーはアプリケーションウィンドウの幅全体に広がり、アプリケー"
+"ションのほかの部分を暗くします。暗くなった部分をクリックするとドロワーが閉じ"
+"られます。"
 
 #: contents/ui/gallery/DrawerGallery.qml:67
 #: contents/ui/gallery/DrawerGallery.qml:86
@@ -586,7 +628,7 @@ msgstr ""
 #: contents/ui/gallery/DrawerGallery.qml:123
 msgctxt "DrawerGallery|"
 msgid "Close"
-msgstr ""
+msgstr "閉じる"
 
 #: contents/ui/gallery/DrawerGallery.qml:82
 msgctxt "DrawerGallery|"
@@ -594,6 +636,8 @@ msgid ""
 "An inline bottom drawer covers the whole application width but lets the "
 "uncovered pieces to still be interacted with."
 msgstr ""
+"インライン下部ドロワーはアプリケーションの幅全体に広がりますが、ほかの部分は"
+"そのまま操作することができます。"
 
 #: contents/ui/gallery/DrawerGallery.qml:100
 msgctxt "DrawerGallery|"
@@ -602,6 +646,9 @@ msgid ""
 "darken the rest of the app. Clicking on the darkened area will dismiss the "
 "drawer."
 msgstr ""
+"モーダル上部ドロワーはアプリケーションウィンドウの幅全体に広がり、アプリケー"
+"ションのほかの部分を暗くします。暗くなった部分をクリックするとドロワーが閉じ"
+"られます。"
 
 #: contents/ui/gallery/DrawerGallery.qml:119
 msgctxt "DrawerGallery|"
@@ -609,41 +656,43 @@ msgid ""
 "An inline top drawer covers the whole application width but lets the "
 "uncovered pieces to still be interacted with."
 msgstr ""
+"インライン上部ドロワーはアプリケーションの幅全体に広がりますが、ほかの部分は"
+"そのまま操作することができます。"
 
 #: contents/ui/gallery/DrawerGallery.qml:134
 msgctxt "DrawerGallery|"
 msgid "Left Global Drawer"
-msgstr ""
+msgstr "左グローバルドロワー"
 
 #: contents/ui/gallery/DrawerGallery.qml:139
 msgctxt "DrawerGallery|"
 msgid "Right Context Drawer"
-msgstr ""
+msgstr "右コンテキストドロワー"
 
 #: contents/ui/gallery/DrawerGallery.qml:145
 msgctxt "DrawerGallery|"
 msgid "Modal Bottom Drawer"
-msgstr ""
+msgstr "モーダル下部ドロワー"
 
 #: contents/ui/gallery/DrawerGallery.qml:155
 msgctxt "DrawerGallery|"
 msgid "Modal Top Drawer"
-msgstr ""
+msgstr "モーダル上部ドロワー"
 
 #: contents/ui/gallery/FormLayoutGallery.qml:69
 msgctxt "FormLayoutGallery|"
 msgid "Expanding Button"
-msgstr ""
+msgstr "拡張ボタン"
 
 #: contents/ui/gallery/FormLayoutGallery.qml:118
 msgctxt "FormLayoutGallery|"
 msgid "Twin Layout:"
-msgstr ""
+msgstr "ツインレイアウト:"
 
 #: contents/ui/gallery/InlineMessagesGallery.qml:33
 msgctxt "InlineMessagesGallery|"
 msgid "Inline Messages"
-msgstr ""
+msgstr "インラインメッセージ"
 
 #: contents/ui/gallery/InlineMessagesGallery.qml:48
 msgctxt "InlineMessagesGallery|"
@@ -651,6 +700,8 @@ msgid ""
 "This is an informational inline message (the default type). Use it for "
 "example to announce a result or provide commentary."
 msgstr ""
+"これはデフォルト形式の情報用インラインメッセージです。結果の通知や補足説明な"
+"どに使用できます。"
 
 #: contents/ui/gallery/InlineMessagesGallery.qml:58
 msgctxt "InlineMessagesGallery|"
@@ -658,6 +709,8 @@ msgid ""
 "This is a positive inline message. Use it for example to announce a "
 "successful result or the successful completion of a procedure."
 msgstr ""
+"これはインラインメッセージ (ポジティブ) です。処理の成功や手続きの完了時など"
+"に使用できます。"
 
 #: contents/ui/gallery/InlineMessagesGallery.qml:68
 msgctxt "InlineMessagesGallery|"
@@ -665,6 +718,8 @@ msgid ""
 "This is a warning inline message. Use it for example to provide critical "
 "guidance or warn about something that is not going to work."
 msgstr ""
+"これはインラインメッセージ (警告) です。重要な注意事項や、何かが動作しない場"
+"合を警告するときなどに使用できます。"
 
 #: contents/ui/gallery/InlineMessagesGallery.qml:78
 msgctxt "InlineMessagesGallery|"
@@ -672,11 +727,13 @@ msgid ""
 "This is an error inline message. Use it for example to announce something "
 "has gone wrong or that input will not be accepted."
 msgstr ""
+"これはインラインメッセージ (エラー) です。問題が発生したときや、入力が受け付"
+"けられないことを通知するときなどに使用できます。"
 
 #: contents/ui/gallery/InlineMessagesGallery.qml:92
 msgctxt "InlineMessagesGallery|"
 msgid "Inline messages can optionally have a custom icon set."
-msgstr ""
+msgstr "任意でカスタムアイコンを設定できます。"
 
 #: contents/ui/gallery/InlineMessagesGallery.qml:100
 msgctxt "InlineMessagesGallery|"
@@ -685,92 +742,97 @@ msgid ""
 "links (opens in browser): <a href=\"https://www.kde.org\">https://www.kde."
 "org/<a/>"
 msgstr ""
+"リッチテキストを使用することができます。リンクのクリック (ブラウザで開く) を"
+"処理することもできます。<a href=\"https://www.kde.org\">https://www.kde.org/"
+"<a/>"
 
 #: contents/ui/gallery/InlineMessagesGallery.qml:112
 msgctxt "InlineMessagesGallery|"
 msgid "Inline messages can have an optional close button."
-msgstr ""
+msgstr "閉じるボタンも配置できます。"
 
 #: contents/ui/gallery/InlineMessagesGallery.qml:130
 msgctxt "InlineMessagesGallery|"
 msgid "Add text"
-msgstr ""
+msgstr "テキストを追加"
 
 #: contents/ui/gallery/InlineMessagesGallery.qml:140
 msgctxt "InlineMessagesGallery|"
 msgid "Reset text"
-msgstr ""
+msgstr "テキストをリセット"
 
 #: contents/ui/gallery/InlineMessagesGallery.qml:162
 msgctxt "InlineMessagesGallery|"
 msgid "Inline messages are initially hidden and animate when revealed. Try it!"
 msgstr ""
+"インラインメッセージは最初は非表示で、表示されるときにアニメーションを行いま"
+"す。実際に確認してみてください。"
 
 #: contents/ui/gallery/InlineMessagesGallery.qml:171
 msgctxt "InlineMessagesGallery|"
 msgid "Show additional message"
-msgstr ""
+msgstr "追加メッセージを表示"
 
 #: contents/ui/gallery/InlineMessagesGallery.qml:187
 msgctxt "InlineMessagesGallery|"
 msgid "Boo!"
-msgstr ""
+msgstr "こんにちは"
 
 #: contents/ui/gallery/InlineMessagesGallery.qml:191
 msgctxt "InlineMessagesGallery|"
 msgid "Shush"
-msgstr ""
+msgstr "さようなら"
 
 #: contents/ui/gallery/ListViewGallery.qml:45
 msgctxt "ListViewGallery|"
 msgid "Main Action Text"
-msgstr ""
+msgstr "メインアクションのテキスト"
 
 #: contents/ui/gallery/ListViewGallery.qml:56
 msgctxt "ListViewGallery|"
 msgid "Footer:"
-msgstr ""
+msgstr "フッター:"
 
 #: contents/ui/gallery/ListViewGallery.qml:71
 #, qt-format
 msgctxt "ListViewGallery|"
 msgid "Item in sheet %n"
 msgid_plural "Item in sheet %n"
-msgstr[0] ""
+msgstr[0] "シート内項目 %n"
 
 #: contents/ui/gallery/ListViewGallery.qml:126
 msgctxt "ListViewGallery|"
 msgid "Action 1"
-msgstr ""
+msgstr "Action 1"
 
 #: contents/ui/gallery/ListViewGallery.qml:127
 #: contents/ui/gallery/ListViewGallery.qml:133
 #, qt-format
 msgctxt "ListViewGallery|"
 msgid "%1: %2 clicked"
-msgstr ""
+msgstr "%1: %2 がクリックされました"
 
 #: contents/ui/gallery/ListViewGallery.qml:132
 msgctxt "ListViewGallery|"
 msgid "Action 2"
-msgstr ""
+msgstr "Action 2"
 
 #: contents/ui/gallery/ListViewGallery.qml:154
 #, qt-format
 msgctxt "ListViewGallery|"
 msgid "Item %1"
-msgstr ""
+msgstr "項目 %1"
 
 #: contents/ui/gallery/ListViewGallery.qml:172
 #, qt-format
 msgctxt "ListViewGallery|"
 msgid "Section %1"
-msgstr ""
+msgstr "セクション %1"
 
 #: contents/ui/gallery/MetricsGallery.qml:50
 msgctxt "MetricsGallery|"
 msgid "Heading 1"
-msgstr ""
+msgstr "見出し 1"
 
 #: contents/ui/gallery/MetricsGallery.qml:55
 #: contents/ui/gallery/MetricsGallery.qml:65
@@ -779,71 +841,71 @@ msgstr ""
 #, qt-format
 msgctxt "MetricsGallery|"
 msgid "%1 points"
-msgstr ""
+msgstr "%1 ポイント"
 
 #: contents/ui/gallery/MetricsGallery.qml:60
 msgctxt "MetricsGallery|"
 msgid "Heading 2"
-msgstr ""
+msgstr "見出し 2"
 
 #: contents/ui/gallery/MetricsGallery.qml:70
 msgctxt "MetricsGallery|"
 msgid "Heading 3"
-msgstr ""
+msgstr "見出し 3"
 
 #: contents/ui/gallery/MetricsGallery.qml:80
 msgctxt "MetricsGallery|"
 msgid "Heading 4"
-msgstr ""
+msgstr "見出し 4"
 
 #: contents/ui/gallery/MiscGallery.qml:79
 msgctxt "MiscGallery|"
 msgid "Text Beside Icon"
-msgstr ""
+msgstr "アイコンの横にテキスト"
 
 #: contents/ui/gallery/MiscGallery.qml:94
 msgctxt "MiscGallery|"
 msgid "Text Under Icon"
-msgstr ""
+msgstr "アイコンの下にテキスト"
 
 #: contents/ui/gallery/MiscGallery.qml:109
 msgctxt "MiscGallery|"
 msgid "Text Only"
-msgstr ""
+msgstr "テキストのみ"
 
 #: contents/ui/gallery/MiscGallery.qml:124
 msgctxt "MiscGallery|"
 msgid "Icon Only"
-msgstr ""
+msgstr "アイコンのみ"
 
 #: contents/ui/gallery/MultipleColumnsGallery.qml:124
 msgctxt "MultipleColumnsGallery|"
 msgid "Pin page"
-msgstr ""
+msgstr "ページを固定"
 
 #: contents/ui/gallery/OverlaySheetGallery.qml:34
 msgctxt "OverlaySheetGallery|"
 msgid "Overlay Sheets"
-msgstr ""
+msgstr "オーバーレイシート"
 
 #: contents/ui/gallery/OverlaySheetGallery.qml:68
 msgctxt "OverlaySheetGallery|"
 msgid "Close"
-msgstr ""
+msgstr "閉じる"
 
 #: contents/ui/gallery/OverlaySheetGallery.qml:79
 #: contents/ui/gallery/OverlaySheetGallery.qml:147
 #: contents/ui/gallery/OverlaySheetGallery.qml:173
 msgctxt "OverlaySheetGallery|"
 msgid "Title"
-msgstr ""
+msgstr "タイトル"
 
 #: contents/ui/gallery/OverlaySheetGallery.qml:83
 #: contents/ui/gallery/OverlaySheetGallery.qml:151
 #: contents/ui/gallery/OverlaySheetGallery.qml:177
 msgctxt "OverlaySheetGallery|"
 msgid "Footer:"
-msgstr ""
+msgstr "フッター:"
 
 #: contents/ui/gallery/OverlaySheetGallery.qml:94
 msgctxt "OverlaySheetGallery|"
@@ -851,6 +913,8 @@ msgid ""
 "A sheet can have optional header and footer items which will not scroll away "
 "when the sheet overflows."
 msgstr ""
+"シートにはヘッダーアイテムやフッターアイテムを配置できます。シートの内容が収"
+"まらないときでも固定で表示されます。"
 
 #: contents/ui/gallery/OverlaySheetGallery.qml:113
 msgctxt "OverlaySheetGallery|"
@@ -859,6 +923,9 @@ msgid ""
 "However, if the main item sets an implicitWidth or Layout.preferredWidth, "
 "the sheet won't grow in width more than such given value."
 msgstr ""
+"シート幅はデフォルトでページいっぱいまでとります。\n"
+"ただし、メインのアイテムに implicitWidth や Layout.preferredWidth が設定され"
+"ている場合、シートの幅が指定された値を超えて広がることはありません。"
 
 #: contents/ui/gallery/OverlaySheetGallery.qml:134
 msgctxt "OverlaySheetGallery|"
@@ -868,26 +935,30 @@ msgid ""
 "display the sheet as an overlay on top of the whole application window.\n"
 "In this case the sheet will cover the page Action buttons too."
 msgstr ""
+"アプリケーションがワイドモードの場合でも、シートはデフォルトで単一のページの"
+"上に表示されます。シートの親を applicationWindow().overlay に変更すると、アプ"
+"リケーションウィンドウ全体の上にオーバーレイとしてシートが表示されます。\n"
+"このとき、シートはページのアクションボタンも覆います。"
 
 #: contents/ui/gallery/OverlaySheetGallery.qml:165
 msgctxt "OverlaySheetGallery|"
 msgid "Item in sheet "
-msgstr ""
+msgstr "シート内項目 "
 
 #: contents/ui/gallery/OverlaySheetGallery.qml:209
 msgctxt "OverlaySheetGallery|"
 msgid "Very Long Sheet"
-msgstr ""
+msgstr "とても長いシート"
 
 #: contents/ui/gallery/SelectionControlsGallery.qml:33
 msgctxt "SelectionControlsGallery|"
 msgid "Selection Controls"
-msgstr ""
+msgstr "選択コントロール"
 
 #: contents/ui/gallery/SelectionControlsGallery.qml:46
 msgctxt "SelectionControlsGallery|"
 msgid "Checkable List Items"
-msgstr ""
+msgstr "チェックリスト項目"
 
 #: contents/ui/gallery/SelectionControlsGallery.qml:56
 #: contents/ui/gallery/SelectionControlsGallery.qml:78
@@ -895,64 +966,64 @@ msgstr ""
 #, qt-format
 msgctxt "SelectionControlsGallery|"
 msgid "Delegate %1"
-msgstr ""
+msgstr "デリゲート %1"
 
 #: contents/ui/gallery/SelectionControlsGallery.qml:68
 #: contents/ui/gallery/SelectionControlsGallery.qml:90
 msgctxt "SelectionControlsGallery|"
 msgid "Radio List Items"
-msgstr ""
+msgstr "ラジオボタンつきリスト項目"
 
 #: contents/ui/gallery/SelectionControlsGallery.qml:108
 msgctxt "SelectionControlsGallery|"
 msgid "Checkboxes"
-msgstr ""
+msgstr "チェックボックス"
 
 #: contents/ui/gallery/SelectionControlsGallery.qml:112
 #: contents/ui/gallery/SelectionControlsGallery.qml:130
 #: contents/ui/gallery/SelectionControlsGallery.qml:148
 msgctxt "SelectionControlsGallery|"
 msgid "Item selected"
-msgstr ""
+msgstr "選択中の項目"
 
 #: contents/ui/gallery/SelectionControlsGallery.qml:116
 #: contents/ui/gallery/SelectionControlsGallery.qml:134
 #: contents/ui/gallery/SelectionControlsGallery.qml:152
 msgctxt "SelectionControlsGallery|"
 msgid "Item not selected"
-msgstr ""
+msgstr "未選択の項目"
 
 #: contents/ui/gallery/SelectionControlsGallery.qml:120
 msgctxt "SelectionControlsGallery|"
 msgid "Checkable List View"
-msgstr ""
+msgstr "チェックリストビュー"
 
 #: contents/ui/gallery/SelectionControlsGallery.qml:126
 msgctxt "SelectionControlsGallery|"
 msgid "Radio buttons"
-msgstr ""
+msgstr "ラジオボタン"
 
 #: contents/ui/gallery/SelectionControlsGallery.qml:139
 msgctxt "SelectionControlsGallery|"
 msgid "Radio List View"
-msgstr ""
+msgstr "ラジオリストビュー"
 
 #: contents/ui/gallery/SelectionControlsGallery.qml:145
 msgctxt "SelectionControlsGallery|"
 msgid "Switches"
-msgstr ""
+msgstr "スイッチ"
 
 #: contents/ui/gallery/SelectionControlsGallery.qml:156
 msgctxt "SelectionControlsGallery|"
 msgid "Switch List View"
-msgstr ""
+msgstr "スイッチリストビュー"
 
 #: contents/ui/MainPage.qml:37
 msgctxt "MainPage|"
 msgid "Kirigami Gallery"
-msgstr ""
+msgstr "Kirigami Gallery"
 
 #: contents/ui/MainPage.qml:42
 msgctxt "MainPage|"
 msgid "Home"
-msgstr ""
+msgstr "ホーム"
