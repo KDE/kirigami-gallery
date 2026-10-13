@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"PO-Revision-Date: 2026-05-24 13:52+0300\n"
+"PO-Revision-Date: 2026-10-12 12:01+0300\n"
 "Last-Translator: Emir SARI <emir_sari@icloud.com>\n"
 "Language-Team: Turkish <kde-l10n-tr@kde.org>\n"
 "Language: tr\n"
@@ -11,7 +11,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Qt-Contexts: true\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Lokalize 26.04.0\n"
+"X-Generator: Lokalize 26.08.0\n"
 
 #: contents/ui/gallery/BadgeGallery.qml:19
 msgctxt "BadgeGallery|"
@@ -483,7 +483,7 @@ msgstr "Altyazı metni"
 #: contents/ui/gallery/DialogGallery.qml:234
 msgctxt "DialogGallery|"
 msgid "No Footer Dialog"
-msgstr "Altbilgi İletişim Kutusu Yok"
+msgstr "Alt Bilgi İletişim Kutusu Yok"
 
 #: contents/ui/gallery/DialogGallery.qml:164
 msgctxt "DialogGallery|"
@@ -788,7 +788,7 @@ msgstr "Eylem Metni Yap"
 #: contents/ui/gallery/ListViewGallery.qml:56
 msgctxt "ListViewGallery|"
 msgid "Footer:"
-msgstr "Altbilgi:"
+msgstr "Alt bilgi:"
 
 #: contents/ui/gallery/ListViewGallery.qml:71
 #, qt-format
@@ -830,7 +830,7 @@ msgstr "Bölüm %1"
 #: contents/ui/gallery/MetricsGallery.qml:50
 msgctxt "MetricsGallery|"
 msgid "Heading 1"
-msgstr "Üstbilgi 1"
+msgstr "Üst Bilgi 1"
 
 #: contents/ui/gallery/MetricsGallery.qml:55
 #: contents/ui/gallery/MetricsGallery.qml:65
@@ -844,17 +844,17 @@ msgstr "%1 puan"
 #: contents/ui/gallery/MetricsGallery.qml:60
 msgctxt "MetricsGallery|"
 msgid "Heading 2"
-msgstr "Üstbilgi 2"
+msgstr "Üst Bilgi 2"
 
 #: contents/ui/gallery/MetricsGallery.qml:70
 msgctxt "MetricsGallery|"
 msgid "Heading 3"
-msgstr "Üstbilgi 3"
+msgstr "Üst Bilgi 3"
 
 #: contents/ui/gallery/MetricsGallery.qml:80
 msgctxt "MetricsGallery|"
 msgid "Heading 4"
-msgstr "Üstbilgi 4"
+msgstr "Üst Bilgi 4"
 
 #: contents/ui/gallery/MiscGallery.qml:79
 msgctxt "MiscGallery|"
@@ -903,7 +903,7 @@ msgstr "Başlık"
 #: contents/ui/gallery/OverlaySheetGallery.qml:177
 msgctxt "OverlaySheetGallery|"
 msgid "Footer:"
-msgstr "Altbilgi:"
+msgstr "Alt bilgi:"
 
 #: contents/ui/gallery/OverlaySheetGallery.qml:94
 msgctxt "OverlaySheetGallery|"
