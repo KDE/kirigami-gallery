@@ -18,6 +18,9 @@
  */
 
 #include "InfoData.h"
+#include "version.h"
+#include <KAboutData>
+#include <KLocalizedString>
 #include <QColor>
 #include <QIcon>
 #include <QQmlApplicationEngine>
@@ -60,6 +63,25 @@ Q_DECL_EXPORT int main(int argc, char *argv[])
         QQuickStyle::setStyle(QStringLiteral("org.kde.desktop"));
 #endif
     }
+
+    KAboutData aboutData(QStringLiteral("Kirigami Gallery"),
+                         xi18nc("@title", "<application>Kirigami Gallery</application>"),
+                         QStringLiteral(KIRIGAMIGALLERY_VERSION_STRING),
+                         xi18nc("@title", "Gallery of Kirigami components."),
+                         KAboutLicense::LGPL,
+                         xi18nc("@info:credit", "(c) 2013-%1 KDE Contributors", QString::number(QDate::currentDate().year())),
+                         QString(),
+                         QStringLiteral("https://apps.kde.org/it/kirigami2.gallery/"));
+
+    aboutData.setOrganizationDomain(QByteArray("kde.org"));
+    aboutData.setProductName(QByteArray("kirigamigallery"));
+
+    aboutData.addAuthor(xi18nc("@info:credit", "Marco Martin"),
+                        xi18nc("@info:credit", "Developer"),
+                        "",
+                        QStringLiteral("https://notmart.org"),
+                        QUrl("https://notmart.org/notmart.png"));
+    KAboutData::setApplicationData(aboutData);
 
     // Extra debug if needed
     // qputenv("QML_IMPORT_TRACE", "1");

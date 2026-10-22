@@ -23,6 +23,7 @@ import QtQuick
 import QtQuick.Controls as QQC2
 import QtQuick.Layouts
 import org.kde.kirigami as Kirigami
+import org.kde.coreaddons as Core
 import "gallery"
 
 Kirigami.ApplicationWindow {
@@ -194,6 +195,13 @@ Kirigami.ApplicationWindow {
                 onTriggered: {
                     pageStack.layers.push(Qt.resolvedUrl("gallery/LayersGallery.qml"));
                 }
+            },
+            Kirigami.Action {
+                text: "About"
+                icon.name: "help-about"
+                onTriggered: {
+                    pageStack.layers.push(aboutComponent);
+                }
             }
         ]
 
@@ -228,6 +236,13 @@ Kirigami.ApplicationWindow {
                     onClicked: applicationWindow().pageStack.pop();
                 }
             }
+        }
+    }
+
+    Component {
+        id: aboutComponent
+        Kirigami.AboutPage {
+            aboutData: Core.AboutData
         }
     }
 

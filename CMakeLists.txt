@@ -27,7 +27,7 @@ include(KDECompilerSettings NO_POLICY_SCOPE)
 include(ECMPoQmTools)
 include(ECMFindQmlModule)
 include(ECMAddAndroidApk)
-
+include(ECMSetupVersion)
 include(KDEClangFormat)
 include(KDEGitCommitHooks)
 
@@ -36,9 +36,14 @@ file(GLOB_RECURSE ALL_CLANG_FORMAT_SOURCE_FILES *.cpp *.h)
 kde_clang_format(${ALL_CLANG_FORMAT_SOURCE_FILES})
 kde_configure_git_pre_commit_hook(CHECKS CLANG_FORMAT)
 
+ecm_setup_version(${PROJECT_VERSION}
+    VARIABLE_PREFIX KIRIGAMIGALLERY
+    VERSION_HEADER ${CMAKE_CURRENT_BINARY_DIR}/src/version.h
+)
+
 find_package(Qt${QT_MAJOR_VERSION} ${REQUIRED_QT_VERSION} REQUIRED NO_MODULE COMPONENTS Core Quick Gui Svg QuickControls2)
 
-find_package(KF6 ${KF_DEP_VERSION} REQUIRED COMPONENTS Kirigami ItemModels)
+find_package(KF6 ${KF_DEP_VERSION} REQUIRED COMPONENTS Kirigami ItemModels CoreAddons I18n)
 
 if(NOT ANDROID)
     find_package(Qt${QT_MAJOR_VERSION}Widgets ${REQUIRED_QT_VERSION} REQUIRED)
