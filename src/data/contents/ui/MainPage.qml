@@ -196,31 +196,30 @@ Kirigami.ScrollablePage {
             img: "img/layers.svg"
         }
     }
-    header: QQC2.ToolBar {
-        id: toolbar
-        RowLayout {
-            anchors.fill: parent
-            Kirigami.SearchField {
-                id: searchField
 
-                Layout.alignment: Qt.AlignHCenter
-                Layout.fillWidth: true
-                Layout.maximumWidth: Kirigami.Units.gridUnit*30
-            }
-        }
+    titleDelegate: Kirigami.SearchField {
+        id: searchField
+
+        onTextChanged: filteredModel.filterString = text
+
+        Layout.fillWidth: true
+        Layout.maximumWidth: Kirigami.Units.gridUnit * 15
     }
+
     KItemModels.KSortFilterProxyModel {
         id: filteredModel
+
         sourceModel: galleryModel
         filterRoleName: "title"
-        filterString: searchField.text
         filterCaseSensitivity: Qt.CaseInsensitive
     }
+
     background: Rectangle {
         anchors.fill: parent
         Kirigami.Theme.colorSet: Kirigami.Theme.View
         color: Kirigami.Theme.backgroundColor
     }
+
     ColumnLayout {
         spacing: 0
         Repeater {
