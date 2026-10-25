@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"PO-Revision-Date: 2026-10-12 12:01+0300\n"
+"PO-Revision-Date: 2026-10-24 22:01+0300\n"
 "Last-Translator: Emir SARI <emir_sari@icloud.com>\n"
 "Language-Team: Turkish <kde-l10n-tr@kde.org>\n"
 "Language: tr\n"
@@ -477,7 +477,7 @@ msgstr "Sayı Seç"
 #: contents/ui/gallery/DialogGallery.qml:129
 msgctxt "DialogGallery|"
 msgid "Subtitle text"
-msgstr "Altyazı metni"
+msgstr "Alt yazı metni"
 
 #: contents/ui/gallery/DialogGallery.qml:161
 #: contents/ui/gallery/DialogGallery.qml:232
@@ -566,7 +566,7 @@ msgstr "Seçim İletişim Kutusu"
 #: contents/ui/gallery/DialogGallery.qml:222
 msgctxt "DialogGallery|"
 msgid "Selection Dialog with subtitles"
-msgstr "Altyazı içeren seçim iletişim kutusu"
+msgstr "Alt Yazı İçeren Seçim İletişim Kutusu"
 
 #: contents/ui/gallery/DialogGallery.qml:227
 msgctxt "DialogGallery|"
