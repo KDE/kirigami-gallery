@@ -198,9 +198,11 @@ Kirigami.ScrollablePage {
     }
 
     titleDelegate: Kirigami.SearchField {
-        id: searchField
-
         onTextChanged: filteredModel.filterString = text
+
+        Component.onCompleted: Qt.callLater(() => {
+            forceActiveFocus()
+        });
 
         Layout.fillWidth: true
         Layout.maximumWidth: Kirigami.Units.gridUnit * 15
