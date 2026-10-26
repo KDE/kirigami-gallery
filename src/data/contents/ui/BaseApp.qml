@@ -37,23 +37,6 @@ Kirigami.ApplicationWindow {
         title: "Widget gallery"
         titleIcon: "applications-graphics"
 
-        showHeaderWhenCollapsed: true
-        header: QQC2.ToolBar {
-            contentItem: RowLayout {
-                Layout.fillWidth: true
-                QQC2.ToolButton {
-                    icon.name: "application-menu"
-                    visible: globalDrawer.collapsible
-                    checked: !globalDrawer.collapsed
-                    onClicked: globalDrawer.collapsed = !globalDrawer.collapsed
-                }
-                Kirigami.SearchField {
-                    visible: !globalDrawer.collapsed
-                    Layout.fillWidth: true
-                }
-            }
-        }
-
         actions: [
             Kirigami.Action {
                 text: "Top Bar Style…"
