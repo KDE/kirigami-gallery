@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kirigami-gallery\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"PO-Revision-Date: 2026-05-24 11:59+0200\n"
+"PO-Revision-Date: 2026-10-27 10:41+0100\n"
 "Last-Translator: Josep M. Ferrer <txemaq@gmail.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
 "Language: ca@valencia\n"
@@ -441,7 +441,7 @@ msgstr "Nom de la carpeta…"
 #: contents/ui/gallery/DialogGallery.qml:81
 msgctxt "DialogGallery|"
 msgid "Alarm Snooze Length"
-msgstr "Duració de la repetició de l'alarma"
+msgstr "Duració de la posposició de l'alarma"
 
 #: contents/ui/gallery/DialogGallery.qml:90
 msgctxt "DialogGallery|"
