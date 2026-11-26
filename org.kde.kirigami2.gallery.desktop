@@ -124,7 +124,7 @@ Comment[zh_TW]=顯示 Kirigami 元件的範例檔案，且允許您使用這些�
 
 Type=Application
 Exec=kirigami2gallery
-Icon=preferences-desktop-theme
+Icon=kirigami-gallery
 Categories=Qt;KDE;Development;
 Keywords=Kirigami;Framework;KDE;Gallery;Widgets;Widgets Gallery;
 Keywords[ar]=كيريغامي;إطار عمل;كيدي;معرض;أدوات;معرض الأدوات;

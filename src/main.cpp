@@ -52,7 +52,7 @@ Q_DECL_EXPORT int main(int argc, char *argv[])
     QGuiApplication app(argc, argv);
 #else
     QApplication app(argc, argv);
-    QApplication::setWindowIcon(QIcon::fromTheme(QStringLiteral("preferences-desktop-theme")));
+    QApplication::setWindowIcon(QIcon::fromTheme(QStringLiteral("kirigami-gallery")));
 #endif
 
     bool handledByQPT = INITIAL_STYLE != QQuickStyle::name();
